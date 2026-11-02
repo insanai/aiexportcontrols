@@ -29,9 +29,9 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
 {% if favicon_url %}<link rel="icon" href="{{ favicon_url }}" type="image/svg+xml">{% endif %}
 <link rel="search" title="{{ _('Search') }}" href="{{ search_url }}">
 {% for e in book_languages %}
-<link rel="alternate" hreflang="{{ e.tag }}" href="https://insanai.github.io/chinaexportcontrol/{{ e.dir }}/{{ pagename }}.html">
+<link rel="alternate" hreflang="{{ e.tag }}" href="https://insanai.github.io/aiexportcontrols/{{ e.dir }}/{{ pagename }}.html">
 {% endfor %}
-<link rel="alternate" hreflang="x-default" href="https://insanai.github.io/chinaexportcontrol/en/{{ pagename }}.html">
+<link rel="alternate" hreflang="x-default" href="https://insanai.github.io/aiexportcontrols/en/{{ pagename }}.html">
 {% if prev %}<link rel="prev" title="{{ prev.title }}" href="{{ prev.url }}">{% endif %}
 {% if next %}<link rel="next" title="{{ next.title }}" href="{{ next.url }}">{% endif %}
 {%- endblock %}

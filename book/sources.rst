@@ -15,14 +15,14 @@ Original WPS bytes and SHA-256 hashes are preserved untouched alongside converte
 Untouched Official Document Copies
 ----------------------------------
 
-* `Announcement No. 48 Official Page (PDF reading copy) <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_
-* `Attachment 1: 40 Proposed Technologies (Original WPS) <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ | `Converted PDF <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_
-* `Attachment 2: Pre-Export Registration Form (Original WPS) <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ | `Converted PDF <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_
-* `MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) <https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_
-* `US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) <https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_
-* `US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) <https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_
-* `US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) <https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_
-* `Machine-Readable Provenance & SHA-256 Manifest (sources.json) <https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_
+* `Announcement No. 48 Official Page (PDF reading copy) <https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_
+* `Attachment 1: 40 Proposed Technologies (Original WPS) <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ | `Converted PDF <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
+* `Attachment 2: Pre-Export Registration Form (Original WPS) <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ | `Converted PDF <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_
+* `MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) <https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_
+* `US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) <https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_
+* `US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) <https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_
+* `US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) <https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_
+* `Machine-Readable Provenance & SHA-256 Manifest (sources.json) <https://insanai.github.io/aiexportcontrols/sources/sources.json>`_
 
 Plain-Language Glossary for Normal Humans
 =========================================
@@ -75,11 +75,11 @@ Complete Register of 22 Verified Primary Sources
    * - ``CN-A1``
      - Announcement 48, Attachment 1: 40 Proposed Technologies & 4 Footnotes (WPS)
      - 2026-10-16
-     - `Original WPS <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)
+     - `Original WPS <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)
    * - ``CN-A2``
      - Announcement 48, Attachment 2: Pre-Export Registration Form (WPS)
      - 2026-10-16
-     - `Original WPS <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)
+     - `Original WPS <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)
    * - ``CNQA``
      - MOFCOM Spokesperson Official Q&A on Announcement No. 48
      - 2026-10-16

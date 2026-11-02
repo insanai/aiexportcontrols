@@ -72,62 +72,62 @@ msgstr "原封不动保存的官方原始文件副本"
 #: ../../book/sources.rst:18
 msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 msgstr ""
-"`商务部与科技部2026年第48号公告官方页面归档（PDF阅读版） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"`商务部与科技部2026年第48号公告官方页面归档（PDF阅读版） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
 "`Attachment 1: 40 Proposed Technologies (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
-"`附件1：40项拟新增管制技术目录（WPS原始原件） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"`附件1：40项拟新增管制技术目录（WPS原始原件） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
 "`Attachment 2: Pre-Export Registration Form (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
-"`附件2：《技术出口信息登记表》（WPS原始原件） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"`附件2：《技术出口信息登记表》（WPS原始原件） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
 msgid ""
 "`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 msgstr ""
-"`商务部、科技部2009年第2号令：《禁止出口限制出口技术管理办法》（官方PDF原件） <https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"`商务部、科技部2009年第2号令：《禁止出口限制出口技术管理办法》（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 
 #: ../../book/sources.rst:22
 msgid ""
 "`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 msgstr ""
-"`美国 BIS 2026年1月半导体许可证审查最终规则 91 FR 1684（官方PDF原件） <https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"`美国 BIS 2026年1月半导体许可证审查最终规则 91 FR 1684（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 
 #: ../../book/sources.rst:23
 msgid ""
 "`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 msgstr ""
-"`美国 BIS 2025年1月《人工智能扩散框架》规则 90 FR 4544（官方PDF原件） <https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"`美国 BIS 2025年1月《人工智能扩散框架》规则 90 FR 4544（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 
 #: ../../book/sources.rst:24
 msgid ""
 "`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 msgstr ""
-"`美国 BIS 官方 SNAP-R 电子申报操作指南与常见问题解答（官方PDF原件） <https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"`美国 BIS 官方 SNAP-R 电子申报操作指南与常见问题解答（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 
 #: ../../book/sources.rst:25
 msgid ""
 "`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 msgstr ""
-"`机器可读文献溯源与 SHA-256 哈希核验清单（sources.json） <https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"`机器可读文献溯源与 SHA-256 哈希核验清单（sources.json） <https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 
 #: ../../book/sources.rst:27
 msgid "Plain-Language Glossary for Normal Humans"
@@ -317,10 +317,10 @@ msgstr "第48号公告附件1：《中国禁止出口限制出口技术目录》
 #: ../../book/sources.rst:78
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 msgstr ""
-"`WPS原始原件 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)"
+"`WPS原始原件 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)"
 
 #: ../../book/sources.rst:79
 msgid "``CN-A2``"
@@ -333,10 +333,10 @@ msgstr "第48号公告附件2：《技术出口信息登记表》（WPS）"
 #: ../../book/sources.rst:82
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 msgstr ""
-"`WPS原始原件 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)"
+"`WPS原始原件 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)"
 
 #: ../../book/sources.rst:83
 msgid "``CNQA``"

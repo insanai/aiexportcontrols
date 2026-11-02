@@ -2,8 +2,8 @@
 # "Impact of Export Controls on the Future of Open Source AI"
 
 project = "Impact of Export Controls on the Future of Open Source AI"
-copyright = "2026, China Export Control Research"
-author = "China Export Control Research"
+copyright = "2026, AI Export Controls Research"
+author = "AI Export Controls Research"
 version = "2026.11"
 release = "2026-11-02"
 
@@ -40,13 +40,13 @@ pdf_font_paths = ["_static/fonts", "/usr/share/fonts/opentype/noto", "/usr/share
 root = "index"
 file = "open-source-ai-export-controls.pdf"
 title = "Impact of Export Controls on the Future of Open Source AI"
-author = "China Export Control Research"
+author = "AI Export Controls Research"
 
 [html_theme_options]
 accent = "#08716d"
 
 [html_context]
-repository = "https://github.com/insanai/chinaexportcontrol"
+repository = "https://github.com/insanai/aiexportcontrols"
 book_languages = [
   {code = "en", tag = "en", name = "English", dir = "en", home = ""},
   {code = "zh_CN", tag = "zh-CN", name = "简体中文", dir = "zh-cn", home = "home/zh-cn/"},

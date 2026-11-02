@@ -99,74 +99,74 @@ msgstr "Copias intactas de los documentos oficiales"
 #: ../../book/sources.rst:18
 msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 msgstr ""
 "`Página oficial del Anuncio N.º 48 (copia de lectura en PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
 "`Attachment 1: 40 Proposed Technologies (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
 "`Anexo 1: 40 tecnologías propuestas (WPS original) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `PDF convertido (Anexo 1) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
 "`Attachment 2: Pre-Export Registration Form (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
 "`Anexo 2: Formulario de registro previo a la exportación (WPS original) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `PDF convertido (Anexo 2) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
 msgid ""
 "`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 msgstr ""
 "`Orden N.º 2 de 2009 de MOFCOM y MOST: Medidas de licencias (PDF oficial) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 
 #: ../../book/sources.rst:22
 msgid ""
 "`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 msgstr ""
 "`Norma de semiconductores del BIS de EE. UU. de ene. 2026, 91 FR 1684 (PDF oficial) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 
 #: ../../book/sources.rst:23
 msgid ""
 "`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 msgstr ""
 "`Norma de Difusión de la IA del BIS de EE. UU. de ene. 2025, 90 FR 4544 (PDF oficial) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 
 #: ../../book/sources.rst:24
 msgid ""
 "`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 msgstr ""
 "`Guía oficial y preguntas frecuentes de presentación SNAP-R del BIS (PDF oficial) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 
 #: ../../book/sources.rst:25
 msgid ""
 "`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 msgstr ""
 "`Manifiesto legible por máquina de procedencia y huellas SHA-256 (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 
 #: ../../book/sources.rst:27
 msgid "Plain-Language Glossary for Normal Humans"
@@ -391,11 +391,11 @@ msgstr ""
 #: ../../book/sources.rst:78
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 msgstr ""
 "`WPS original (Anexo 1) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 
 #: ../../book/sources.rst:79
@@ -409,11 +409,11 @@ msgstr "Anuncio 48, Anexo 2: Formulario de registro previo a la exportación (WP
 #: ../../book/sources.rst:82
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 msgstr ""
 "`WPS original (Anexo 2) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 
 #: ../../book/sources.rst:83

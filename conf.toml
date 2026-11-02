@@ -12,7 +12,7 @@ release = "2026-11-02"
 exclude_patterns = ["**"]
 
 [site]
-base_url = "https://insanai.github.io/chinaexportcontrol"
+base_url = "https://insanai.github.io/aiexportcontrols"
 sitemap = true
 
 [[site.mounts]]

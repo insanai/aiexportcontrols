@@ -1,4 +1,4 @@
-# Builds and deploys https://insanai.github.io/chinaexportcontrol/ natively with
+# Builds and deploys https://insanai.github.io/aiexportcontrols/ natively with
 # Guidedog v1.0.0-beta.10 (https://github.com/insanai/guidedog/releases/tag/v1.0.0-beta.10):
 #   - Multilingual landing pages (site/)
 #   - 11-chapter web book in 7 languages (book/)
@@ -90,6 +90,7 @@ jobs:
             grep -q "4E091" "$txt"
           done
           test -s public/index.html
+          test -s public/404.html
           test -s public/sitemap.xml
 
       - name: Configure Pages

@@ -72,62 +72,62 @@ msgstr "無改変の公式文書アーカイブ"
 #: ../../book/sources.rst:18
 msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 msgstr ""
-"`第48号公告 公式ページ（閲覧用PDF） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"`第48号公告 公式ページ（閲覧用PDF） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
 "`Attachment 1: 40 Proposed Technologies (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
-"`付属書1：追加提案40技術リスト（WPS原本） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ ｜ `変換済みPDF <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"`付属書1：追加提案40技術リスト（WPS原本） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ ｜ `変換済みPDF <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
 "`Attachment 2: Pre-Export Registration Form (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
-"`付属書2：技術輸出情報登録表（WPS原本） <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ ｜ `変換済みPDF <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"`付属書2：技術輸出情報登録表（WPS原本） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ ｜ `変換済みPDF <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
 msgid ""
 "`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 msgstr ""
-"`2009年商務部・科学技術部令第2号：輸出禁止・輸出制限技術管理弁法（公式PDF） <https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"`2009年商務部・科学技術部令第2号：輸出禁止・輸出制限技術管理弁法（公式PDF） <https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 
 #: ../../book/sources.rst:22
 msgid ""
 "`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 msgstr ""
-"`米国BIS 2026年1月半導体規則 91 FR 1684（公式PDF） <https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"`米国BIS 2026年1月半導体規則 91 FR 1684（公式PDF） <https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 
 #: ../../book/sources.rst:23
 msgid ""
 "`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 msgstr ""
-"`米国BIS 2025年1月AI拡散規則 90 FR 4544（公式PDF） <https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"`米国BIS 2025年1月AI拡散規則 90 FR 4544（公式PDF） <https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 
 #: ../../book/sources.rst:24
 msgid ""
 "`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 msgstr ""
-"`米国BIS 公式SNAP-R電子申請ガイド＆FAQ（公式PDF） <https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"`米国BIS 公式SNAP-R電子申請ガイド＆FAQ（公式PDF） <https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 
 #: ../../book/sources.rst:25
 msgid ""
 "`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 msgstr ""
-"`機械可読プロビナンス＆SHA-256マニフェスト（sources.json） <https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"`機械可読プロビナンス＆SHA-256マニフェスト（sources.json） <https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 
 #: ../../book/sources.rst:27
 msgid "Plain-Language Glossary for Normal Humans"
@@ -317,10 +317,10 @@ msgstr "第48号公告 付属書1：追加提案40技術および4注記（WPS�
 #: ../../book/sources.rst:78
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 msgstr ""
-"`WPS原本 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)"
+"`WPS原本 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)"
 
 #: ../../book/sources.rst:79
 msgid "``CN-A2``"
@@ -333,10 +333,10 @@ msgstr "第48号公告 付属書2：技術輸出情報登録表（WPS原本）"
 #: ../../book/sources.rst:82
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 msgstr ""
-"`WPS原本 <https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)"
+"`WPS原本 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)"
 
 #: ../../book/sources.rst:83
 msgid "``CNQA``"

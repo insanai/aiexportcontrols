@@ -2,7 +2,7 @@
 
 An illustrated literary and primary-source book on how sovereign export controls across **both software/model weights and physical silicon hardware** reshape open-source artificial intelligence, scientific cooperation, and human progress.
 
-[Read the Website & Landing Page](https://insanai.github.io/chinaexportcontrol/) | [Read the English Book](https://insanai.github.io/chinaexportcontrol/en/index.html) | [Download English A4 PDF](https://insanai.github.io/chinaexportcontrol/books/en/open-source-ai-export-controls-en.pdf) | [22 Primary Sources](https://insanai.github.io/chinaexportcontrol/en/sources.html)
+[Read the Website & Landing Page](https://insanai.github.io/aiexportcontrols/) | [Read the English Book](https://insanai.github.io/aiexportcontrols/en/index.html) | [Download English A4 PDF](https://insanai.github.io/aiexportcontrols/books/en/open-source-ai-export-controls-en.pdf) | [22 Primary Sources](https://insanai.github.io/aiexportcontrols/en/sources.html)
 
 Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
 

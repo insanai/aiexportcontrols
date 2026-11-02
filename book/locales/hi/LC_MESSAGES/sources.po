@@ -95,74 +95,74 @@ msgstr "अपरिवर्तित आधिकारिक दस्ता�
 #: ../../book/sources.rst:18
 msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 msgstr ""
 "`घोषणा संख्या 48 का आधिकारिक पृष्ठ (PDF पठन प्रति) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
 "`Attachment 1: 40 Proposed Technologies (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
 "`संलग्नक 1: 40 प्रस्तावित तकनीकें (मूल WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "| `परिवर्तित PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
 "`Attachment 2: Pre-Export Registration Form (Original WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `Converted PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
 "`संलग्नक 2: निर्यात-पूर्व पंजीकरण प्रपत्र (मूल WPS) "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "| `परिवर्तित PDF "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
 msgid ""
 "`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 msgstr ""
 "`MOFCOM व MOST आदेश सं. 2 वर्ष 2009: लाइसेंसिंग उपाय (आधिकारिक PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 
 #: ../../book/sources.rst:22
 msgid ""
 "`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 msgstr ""
 "`अमेरिकी BIS जनवरी 2026 सेमीकंडक्टर नियम 91 FR 1684 (आधिकारिक PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 
 #: ../../book/sources.rst:23
 msgid ""
 "`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 msgstr ""
 "`अमेरिकी BIS जनवरी 2025 एआई डिफ़्यूज़न नियम 90 FR 4544 (आधिकारिक PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 
 #: ../../book/sources.rst:24
 msgid ""
 "`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 msgstr ""
 "`अमेरिकी BIS आधिकारिक SNAP-R आवेदन मार्गदर्शिका व FAQ (आधिकारिक PDF) "
-"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 
 #: ../../book/sources.rst:25
 msgid ""
 "`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 msgstr ""
 "`मशीन-पठनीय स्रोत-प्रमाण व SHA-256 सूची (sources.json) "
-"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 
 #: ../../book/sources.rst:27
 msgid "Plain-Language Glossary for Normal Humans"
@@ -380,11 +380,11 @@ msgstr "घोषणा 48, संलग्नक 1: 40 प्रस्ताव
 #: ../../book/sources.rst:78
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 msgstr ""
 "`मूल WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 
 #: ../../book/sources.rst:79
@@ -398,11 +398,11 @@ msgstr "घोषणा 48, संलग्नक 2: निर्यात-प�
 #: ../../book/sources.rst:82
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 msgstr ""
 "`मूल WPS "
-"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 
 #: ../../book/sources.rst:83
