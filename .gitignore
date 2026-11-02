@@ -13,3 +13,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 china_export_control.pdf
+*illustration-prompts*.json
+*.prompt.txt
