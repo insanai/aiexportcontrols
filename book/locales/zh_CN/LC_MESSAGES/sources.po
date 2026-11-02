@@ -807,3 +807,116 @@ msgid ""
 "legal texts prevail. Examples and game scores must not be treated as "
 "official classifications or empirical forecasts."
 msgstr "七种语言均为编辑译文，未经独立法律或母语专业审核。原法律文本优先。例子和博弈分数不是官方分类或实测预测。"
+
+#: ../../book/sources.rst:179
+msgid "Optional: Checking the Game Example"
+msgstr "可选阅读：核算博弈例子"
+
+#: ../../book/sources.rst:182
+msgid ""
+"The opening story can be understood without these calculations. Here we make"
+" the extra assumptions explicit for readers who want to check them."
+msgstr "不看这些计算也能理解开篇故事。这里为希望核算的读者明确额外假设。"
+
+#: ../../book/sources.rst:184
+msgid "Why the Ending Is Stable"
+msgstr "为什么结局稳定"
+
+#: ../../book/sources.rst:187
+msgid ""
+"The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever"
+" the other chooses. With two walls, either country sharing alone would move "
+"its score from 5 to 3. Mutual sharing is Pareto-efficient in this small "
+"game: no other listed outcome improves one country's score without lowering "
+"the other's. That does not mean either country receives its largest "
+"individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"20 > 17 > 5 > "
+"3的排序使每国无论对方如何，都有理由限制。两道墙存在时，单独共享会从5降到3。相互共享在这个小游戏中是帕累托有效的：其他所列结局都不能在不损害一方的情况下改善另一方。但这不代表各国都获得其个人最高分。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:189
+msgid "When Future Cooperation Matters"
+msgstr "未来合作的重要性"
+
+#: ../../book/sources.rst:192
+msgid ""
+"For the next calculation, we additionally treat the invented scores as "
+"comparable payoffs in each round. The numerical threshold depends on that "
+"scale, not just on the order of preferences."
+msgstr "下一项计算额外把虚构分数视为每轮可比较的收益。数字门槛取决于该尺度，而不只是偏好排序。"
+
+#: ../../book/sources.rst:194
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"国家会反复互动。例中双方共享就继续合作，一次偏离可得20，此后永远得5。:math:`\\delta` "
+"表示下一轮相对当下的价值。合作至少同样有利的条件是："
+
+#: ../../book/sources.rst:196
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/sources.rst:201
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"这是假设博弈内的计算，不是外交预测。它假定无限期关系、可观察选择和可信回应；错误、隐藏行动或已知最后一轮可能破坏策略。关键在如何使持续合作可信。 "
+"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:205
+msgid "Optional: Independent Review Is Not a Safety Guarantee"
+msgstr "可选阅读：独立审查不保证安全"
+
+#: ../../book/sources.rst:208
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"开放可方便独立测试与修复。若缺陷存在概率为 :math:`p_0`，每个独立团队发现概率为 :math:`q`，共有 :math:`n` 个团队，则："
+
+#: ../../book/sources.rst:210
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/sources.rst:214
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"已知存在缺陷且每队发现概率假定一半时，1队漏检50%，4队6.25%，10队约0.098%。这是条件计算。现实团队可能盲点相同、资源不足，或发现后未修复。漏检概率不是总体网络、生物或社会风险。"
+
+#: ../../book/sources.rst:216
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"公开权重也可能方便恶意修改或删除防护。NTIA在2024年权衡收益与风险，建议监测当时的开放权重。研究强调比较相对现有替代品的新增风险；两者均未确立普遍的安全倍数。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"

@@ -51,7 +51,9 @@ Open AI also needs physical computers. Large training runs can require advanced 
 The Fortress Trap: How Both Sides Can Lose
 -------------------------------------------
 
-Two countries can each choose a broad wall because they fear giving the other an advantage. In the book's illustrative game, both then receive 5, although both would prefer the 17 available through mutual sharing. This is a possible cooperation failure, not proof that every export control harms every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+Imagine two research teams starting from one public AI model. A's team makes it run with less memory. B's team tests errors and helps fix them. Sharing the next improvements helps both, but each government worries about giving the other a one-sided advantage.
+
+We give the four endings invented preference scores: mutual sharing gives 17 each; withholding while the other shares gives 20 to the withholding country and 3 to the sharing country; mutual restriction gives 5 each. Higher means preferred within this example. The book explains why we assume that ranking before showing how it creates the trap.
 
 .. figure:: images/illustrations/cooperation.jpg
    :name: landing-game-art
@@ -62,14 +64,16 @@ Two countries can each choose a broad wall because they fear giving the other an
 
 .. typst-diagram::
    :name: landing-game-scores
-   :caption: Assumed scores in the teaching game
-   :alt: Assumed scores in the teaching game
+   :caption: Four endings for the two teams. The scores are invented preferences; higher means preferred within this example.
+   :alt: A chooses a row and B a column. Both sharing gives 17 each. A alone sharing gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting gives 5 each. All scores are assumptions.
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
 
 
-The book explains why the result follows from its assumptions, what could reverse it, and how a repeated relationship can make cooperation worthwhile. It also separates the possible benefits of public auditing from the risks of wider access. Our case for precise controls and workable open-research routes does not depend on invented loss estimates. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
+Each government then sees a reason to restrict: 20 beats 17 if the other shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 each, although both prefer mutual sharing at 17 each. This is a possible failure of cooperation under our assumptions, not a measurement of US or Chinese policy. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+
+`Read the worked story and its limits <read-game_>`_
 
 The legal records and research references distinguish what is already operating, what remains proposed, and what is our analysis. They support three practical reading habits:
 

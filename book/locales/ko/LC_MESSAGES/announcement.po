@@ -321,3 +321,21 @@ msgstr ""
 "국제공항을 떠올리면 이해가 쉽다.  *수출 금지*  품목은 비행기에 실을 수 없고,  *수출 제한*  품목은 정식 수출 허가증이 있어야 "
 "하며,  *자동 허가* \\ 는 자동출입국 패스트트랙 게이트이고,  *관리 대상 제외*  품목은 세관에 멈춰 서지 않고 배낭에 넣은 채 "
 "그대로 통과하는 물건이다."
+
+#: ../../book/announcement.rst:69
+msgid "What This Means for the Two Teams"
+msgstr "두 팀에 주는 의미"
+
+#: ../../book/announcement.rst:72
+msgid ""
+"For our two teams, filing information before a covered transfer and being "
+"forbidden to transfer are different obstacles. The story asks what "
+"cooperation survives each rule. This chapter establishes which duty operates"
+" now and which catalogue changes remain proposed, before we judge their "
+"effects."
+msgstr ""
+"두 팀에게 대상 이전 전에 정보를 등록하는 것과 이전이 금지되는 것은 서로 다른 장애물입니다. 이야기는 각 규칙 아래 어떤 협력이 남는지"
+" 묻습니다. 영향을 판단하기 전에 현재 시행되는 의무와 제안 단계의 목록 변경을 구분합니다."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

@@ -763,3 +763,19 @@ msgid ""
 "electrodes."
 msgstr ""
 "低インジウム（50％以下）または超高速TCO成膜、厚さ110マイクロメートル以下のウェハへの結晶シリコン薄膜堆積、低銀比率（30％以下）の銀コート銅ペースト、および銅めっきHJT電極を網羅する4つのHJT製造プロセス群です。"
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "二つのチームにとっての意味"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"索引は提案中の技術項目を数えます。ゲームの点数は架空の選好で、技術の数ではありません。チームには、全AIを一つの壁の中に置くより、次の貢献が該当する正確な項目と条件の確認が有用です。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

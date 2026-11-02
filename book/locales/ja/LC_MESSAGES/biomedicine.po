@@ -171,3 +171,20 @@ msgstr ""
 "*（なお、大規模なヒトゲノムデータについては、米国司法省のデータセキュリティ・プログラム*  `DOJ "
 "<https://www.justice.gov/nsd/data-security>`_  "
 "*をはじめ、中米両国で別途データ安全保障規制が課されています。）* "
+
+#: ../../book/biomedicine.rst:34
+msgid "What This Means for the Two Teams"
+msgstr "二つのチームにとっての意味"
+
+#: ../../book/biomedicine.rst:37
+msgid ""
+"In medicine, the shared workbench involves platforms, research and "
+"particular treatments. The distinctions above help us ask which "
+"collaboration a rule reaches and which it leaves possible. We do not "
+"transfer the AI game scores to medicine or assume that open access alone "
+"establishes patient safety."
+msgstr ""
+"医療の共同作業台には基盤、研究、個別の治療があります。上記の違いから、規則がどの協力を対象とし何を残すかを考えます。AIの点数を医療に移したり、公開だけで患者の安全が示せると考えたりはしません。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

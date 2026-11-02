@@ -297,10 +297,47 @@ msgstr ""
 "fiabilidad clínica."
 
 #: ../../book/open-models.rst:65
+msgid "Independent Review and Its Limits"
+msgstr "La revisión independiente y sus límites"
+
+#: ../../book/open-models.rst:68
+msgid ""
+"Open access can let teams outside the original developer inspect a model and"
+" suggest repairs. More reviewers can help, but they can share the same blind"
+" spots or lack resources to test well. Finding a flaw is also different from"
+" fixing it. The optional probability example in :ref:`checking-review-"
+"example` explains these limits."
+msgstr ""
+"El acceso abierto permite a equipos externos inspeccionar un modelo y "
+"sugerir reparaciones. Más revisores pueden ayudar, pero comparten puntos "
+"ciegos o carecen de recursos. Encontrar un fallo difiere de arreglarlo. El "
+"ejemplo probabilístico opcional de :ref:`checking-review-example` explica "
+"los límites."
+
+#: ../../book/open-models.rst:70
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"Los pesos abiertos también permiten modificaciones dañinas o retirar "
+"salvaguardas. NTIA en 2024 consideró beneficios y riesgos y recomendó "
+"vigilar los pesos de entonces. La investigación pide comparar el riesgo "
+"añadido con alternativas existentes. Ninguna fuente establece un "
+"multiplicador universal de seguridad. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/open-models.rst:72
 msgid "A Practical Release Record"
 msgstr "Un registro práctico de publicación"
 
-#: ../../book/open-models.rst:68
+#: ../../book/open-models.rst:75
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"
@@ -315,3 +352,25 @@ msgstr ""
 "con prueba de publicación y trámites. Es una sugerencia documental, no un "
 "formulario obligatorio nuevo ni sustituto del oficial. `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
+
+#: ../../book/open-models.rst:77
+msgid "What This Means for the Two Teams"
+msgstr "Qué significa esto para los dos equipos"
+
+#: ../../book/open-models.rst:80
+msgid ""
+"Our teams keep their public starting model. Their next contribution could be"
+" a paper, new code, private weights or a service, each needing its own "
+"assessment. Public-information exclusions and proposed facilitated routes "
+"matter because they may preserve specific exchanges that the story's broad "
+"wall would stop."
+msgstr ""
+"Los equipos conservan el modelo público inicial. Su siguiente aportación "
+"puede ser un artículo, código nuevo, pesos privados o un servicio, que "
+"requieren evaluaciones propias. Las exclusiones de información pública y "
+"vías facilitadas propuestas importan porque pueden mantener intercambios "
+"concretos que el muro amplio del relato impediría."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"El punto de partida de los equipos está en :ref:`shared-workbench-story`."

@@ -808,3 +808,116 @@ msgid ""
 "legal texts prevail. Examples and game scores must not be treated as "
 "official classifications or empirical forecasts."
 msgstr "7言語は独立した法律・母語専門家の審査を受けていない参考訳です。原法令が優先し、事例や得点は公式分類・実証予測ではありません。"
+
+#: ../../book/sources.rst:179
+msgid "Optional: Checking the Game Example"
+msgstr "任意：ゲーム例の計算確認"
+
+#: ../../book/sources.rst:182
+msgid ""
+"The opening story can be understood without these calculations. Here we make"
+" the extra assumptions explicit for readers who want to check them."
+msgstr "冒頭の物語は計算なしで理解できます。確認したい読者のため、追加の仮定を明示します。"
+
+#: ../../book/sources.rst:184
+msgid "Why the Ending Is Stable"
+msgstr "結末が安定する理由"
+
+#: ../../book/sources.rst:187
+msgid ""
+"The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever"
+" the other chooses. With two walls, either country sharing alone would move "
+"its score from 5 to 3. Mutual sharing is Pareto-efficient in this small "
+"game: no other listed outcome improves one country's score without lowering "
+"the other's. That does not mean either country receives its largest "
+"individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"20 > 17 > 5 > "
+"3の順序は、相手の選択に関係なく制限を選ぶ理由を与えます。二つの壁の下で単独共有は5から3への低下です。相互共有はこの小さなゲームでパレート効率的です。他方を悪化させず一方を改善する別の掲載結果はありません。ただし個々の最高得点を意味しません。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:189
+msgid "When Future Cooperation Matters"
+msgstr "将来の協力が重要になる場合"
+
+#: ../../book/sources.rst:192
+msgid ""
+"For the next calculation, we additionally treat the invented scores as "
+"comparable payoffs in each round. The numerical threshold depends on that "
+"scale, not just on the order of preferences."
+msgstr "次の計算では、架空の点を各回で比較可能な利得として扱う仮定も加えます。数値の境界は順位だけでなく、この尺度に依存します。"
+
+#: ../../book/sources.rst:194
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"国は繰り返し関わります。共有中は協力し、逸脱すると一度20、その後ずっと5を得る例です。:math:`\\delta` "
+"を次回への重みとすると、協力が同等以上になる条件は："
+
+#: ../../book/sources.rst:196
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/sources.rst:201
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"これは仮定の計算で外交予測ではありません。無期限関係、観察可能な行動、可信な応答が必要です。誤り、隠れた行動、既知の最終回は崩します。継続協力を信頼できるようにすることが問いです。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:205
+msgid "Optional: Independent Review Is Not a Safety Guarantee"
+msgstr "任意：独立検証は安全を保証しない"
+
+#: ../../book/sources.rst:208
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"公開は独立検証と修復を助け得ます。欠陥確率が :math:`p_0`、独立した :math:`n` チームの各検出確率が :math:`q` なら："
+
+#: ../../book/sources.rst:210
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/sources.rst:214
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"存在する欠陥を半分の確率で検出する仮定では、1チームの見逃し50%、4で6.25%、10で約0.098%。条件付きの計算です。実際には共通盲点、資源不足、修復不足もあり、総合的な社会・生物・サイバー危険の測定ではありません。"
+
+#: ../../book/sources.rst:216
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"公開重みは有害な改変や防護除去も容易にします。NTIAは2024年に利益と危険を比較し当時のモデルの監視を勧告しました。研究は既存手段に対する追加リスク比較を求めます。普遍的安全倍率を立証していません。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"

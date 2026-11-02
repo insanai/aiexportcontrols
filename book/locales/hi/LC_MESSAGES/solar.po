@@ -184,3 +184,21 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
+
+#: ../../book/solar.rst:33
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/solar.rst:36
+msgid ""
+"A finished panel, a manufacturing machine and the knowledge used to operate "
+"it are different things. For a cooperating factory team, access to one does "
+"not supply all the others. The workbench question becomes which equipment "
+"and know-how can still move together under the applicable rules."
+msgstr ""
+"तैयार पैनल, निर्माण मशीन और उसे चलाने का ज्ञान अलग हैं। सहयोगी कारखाना दल को"
+" एक मिलने से बाकी सभी नहीं मिलते। सवाल है कि लागू नियमों के अनुसार कौन से "
+"उपकरण और ज्ञान साथ जा सकते हैं।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

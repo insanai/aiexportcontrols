@@ -864,3 +864,132 @@ msgstr ""
 "सातों भाषाएं संपादकीय अनुवाद हैं, स्वतंत्र कानूनी या मातृभाषा विशेषज्ञ जांच "
 "नहीं हुई। मूल कानून प्रमुख है। उदाहरण·अंक सरकारी वर्ग या मापी भविष्यवाणी "
 "नहीं हैं।"
+
+#: ../../book/sources.rst:179
+msgid "Optional: Checking the Game Example"
+msgstr "वैकल्पिक: खेल के उदाहरण की जांच"
+
+#: ../../book/sources.rst:182
+msgid ""
+"The opening story can be understood without these calculations. Here we make"
+" the extra assumptions explicit for readers who want to check them."
+msgstr ""
+"शुरुआती कहानी इन गणनाओं के बिना समझ आती है। जांच चाहने वाले पाठकों के लिए "
+"अतिरिक्त मान्यताएं स्पष्ट करते हैं।"
+
+#: ../../book/sources.rst:184
+msgid "Why the Ending Is Stable"
+msgstr "यह अंत स्थिर क्यों है"
+
+#: ../../book/sources.rst:187
+msgid ""
+"The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever"
+" the other chooses. With two walls, either country sharing alone would move "
+"its score from 5 to 3. Mutual sharing is Pareto-efficient in this small "
+"game: no other listed outcome improves one country's score without lowering "
+"the other's. That does not mean either country receives its largest "
+"individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"20 > 17 > 5 > 3 का क्रम हर देश को दूसरे का फैसला जो भी हो, रोक लगाने का कारण"
+" देता है। दोनों दीवारों में अकेले साझा करना5 से3 करता है। इस छोटे खेल में "
+"आपसी साझा करना पैरेटो-कुशल है: सूची में कोई दूसरा परिणाम ऐसा नहीं है जो एक "
+"देश को बेहतर करे और दूसरे को नुकसान न पहुंचाए। इसका अर्थ दोनों का निजी "
+"अधिकतम अंक नहीं। `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+
+#: ../../book/sources.rst:189
+msgid "When Future Cooperation Matters"
+msgstr "जब भविष्य का सहयोग मायने रखता है"
+
+#: ../../book/sources.rst:192
+msgid ""
+"For the next calculation, we additionally treat the invented scores as "
+"comparable payoffs in each round. The numerical threshold depends on that "
+"scale, not just on the order of preferences."
+msgstr ""
+"अगली गणना में अतिरिक्त मान्यता है कि कल्पित अंक हर चरण के तुलनीय लाभ हैं। "
+"संख्यात्मक सीमा उस पैमाने पर निर्भर है, केवल पसंद के क्रम पर नहीं।"
+
+#: ../../book/sources.rst:194
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"देश बार-बार मिलते हैं। दोनों साझा करें तो सहयोग चले; हटने पर एक बार20, फिर "
+"हमेशा5 मिले। :math:`\\delta` अगली बार का आज के मुकाबले मूल्य है। सहयोग कम से"
+" कम उतना अच्छा होगा जब:"
+
+#: ../../book/sources.rst:196
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/sources.rst:201
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"यह मान्य खेल का हिसाब है, कूटनीति भविष्यवाणी नहीं। अनिश्चित काल का संबंध, "
+"दिखते फैसले और भरोसेमंद जवाब जरूरी हैं। गलती, छिपे कदम या तय आखिरी बार इसे "
+"बदलते हैं। सहयोग विश्वसनीय कैसे हो, यही सवाल है। `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:205
+msgid "Optional: Independent Review Is Not a Safety Guarantee"
+msgstr "वैकल्पिक: स्वतंत्र समीक्षा सुरक्षा की गारंटी नहीं"
+
+#: ../../book/sources.rst:208
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"खुलापन स्वतंत्र जांच·मरम्मत को आसान बनाता है। दोष होने की संभावना "
+":math:`p_0`, हर स्वतंत्र टीम की पहचान संभावना :math:`q` और टीम संख्या "
+":math:`n` हो तो:"
+
+#: ../../book/sources.rst:210
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/sources.rst:214
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"मौजूद दोष और आधी पहचान संभावना मानें तो एक टीम50%, चार6.25%, दस करीब0.098% "
+"चूकती हैं। यह शर्त वाला हिसाब है। असली टीम की साझा भूल, कम संसाधन या बिना "
+"मरम्मत खोज हो सकती है। यह कुल साइबर·जैविक·सामाजिक खतरा नहीं।"
+
+#: ../../book/sources.rst:216
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"खुले भार गलत बदलाव या सुरक्षा हटाना भी आसान करते हैं। NTIA ने2024 में "
+"लाभ·जोखिम देखकर तब के मॉडल की निगरानी सुझाई। शोध मौजूदा विकल्प से अतिरिक्त "
+"जोखिम की तुलना मांगता है। सामान्य सुरक्षा गुणक सिद्ध नहीं हुआ। `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"

@@ -125,28 +125,38 @@ msgstr "要塞の罠：双方が損をする仕組み"
 
 #: ../../site/index.rst:54
 msgid ""
-"Two countries can each choose a broad wall because they fear giving the "
-"other an advantage. In the book's illustrative game, both then receive 5, "
-"although both would prefer the 17 available through mutual sharing. This is "
-"a possible cooperation failure, not proof that every export control harms "
-"every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
-"html/chapter1.html>`_"
+"Imagine two research teams starting from one public AI model. A's team makes"
+" it run with less memory. B's team tests errors and helps fix them. Sharing "
+"the next improvements helps both, but each government worries about giving "
+"the other a one-sided advantage."
 msgstr ""
-"他国の優位を恐れ、双方が壁を選ぶ例では各5、協力なら17です。可能な協力失敗であり、全管理が全参加者を害する証明ではありません。 `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"同じ公開モデルから始める二つのチームを考えます。Aは省メモリー化し、Bは誤りを見つけ修正を助けます。次の改良の交換は双方を助けても、政府は相手への一方的な優位を恐れます。"
 
-#: ../../site/index.rst:56 ../../site/index.rst:61
+#: ../../site/index.rst:56
+msgid ""
+"We give the four endings invented preference scores: mutual sharing gives 17"
+" each; withholding while the other shares gives 20 to the withholding "
+"country and 3 to the sharing country; mutual restriction gives 5 each. "
+"Higher means preferred within this example. The book explains why we assume "
+"that ranking before showing how it creates the trap."
+msgstr ""
+"四つの結末に架空の選好点を与えます。相互共有は各17、一方だけ共有なら留保する側20、共有側3、相互制限は各5です。高いほど好ましいとします。本ではまずこの順位を仮定する理由を示し、それから罠を説明します。"
+
+#: ../../site/index.rst:58 ../../site/index.rst:63
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
 "measured outcome."
 msgstr "二組は部品と知識を共有して完成させますが、壁で隔てられると作業が進みません。仮定したゲームの説明であり、実測結果ではありません。"
 
-#: ../../site/index.rst:65
-msgid "Assumed scores in the teaching game"
-msgstr "説明用ゲームの仮定した得点"
+#: ../../site/index.rst:67
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr "Aが行、Bが列を選びます。双方共有は各17。Aだけ共有ならA3、B20。Bだけ共有ならA20、B3。双方制限は各5。全て仮定の点数です。"
 
-#: ../../site/index.rst:65
+#: ../../site/index.rst:67
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -154,28 +164,36 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"ja\")"
 
-#: ../../site/index.rst:72
+#: ../../site/index.rst:67
 msgid ""
-"The book explains why the result follows from its assumptions, what could "
-"reverse it, and how a repeated relationship can make cooperation worthwhile."
-" It also separates the possible benefits of public auditing from the risks "
-"of wider access. Our case for precise controls and workable open-research "
-"routes does not depend on invented loss estimates. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-msgstr ""
-"仮定、逆転する条件、反復協力を説明し、検証利益と公開危険を分けます。主張に架空損失率は必要ありません。 `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
+msgstr "二つのチームの四つの結末。点数は架空の選好で、この例では高いほど好ましい結果です。"
 
 #: ../../site/index.rst:74
+msgid ""
+"Each government then sees a reason to restrict: 20 beats 17 if the other "
+"shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 "
+"each, although both prefer mutual sharing at 17 each. This is a possible "
+"failure of cooperation under our assumptions, not a measurement of US or "
+"Chinese policy. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"各政府は制限の理由を見ます。相手が共有するなら20は17より良く、制限するなら5は3より良い。双方が協力の17を好んでも、壁を選び各5になります。仮定の下の協力失敗例であり、米中政策の実測ではありません。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../site/index.rst:76
+msgid "`Read the worked story and its limits <read-game_>`_"
+msgstr "`詳しい物語とその限界を読む <read-game_>`_"
+
+#: ../../site/index.rst:78
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
 "three practical reading habits:"
 msgstr "法的記録と研究資料は現行措置、案、分析を分け、三つの読解習慣を支えます。"
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:80
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -187,7 +205,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:77
+#: ../../site/index.rst:81
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -201,7 +219,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:78
+#: ../../site/index.rst:82
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -214,13 +232,13 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:82
+#: ../../site/index.rst:86
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
 msgstr " **表紙・序章：**  `ジェファーソンの蝋燭、ハードウェアの根、ゲーム理論による証明 <read-cover_>`_"
 
-#: ../../site/index.rst:83
+#: ../../site/index.rst:87
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -228,7 +246,7 @@ msgstr ""
 " **第01章・第02章：**  `第48号公告の「2つの時計」 <read-ch1_>`_ ＆ `40項目インタラクティブ技術アトラス <read-"
 "atlas_>`_"
 
-#: ../../site/index.rst:84
+#: ../../site/index.rst:88
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -236,7 +254,7 @@ msgstr ""
 " **第03章・第04章：**  `知性とシリコンの3層構造 <read-ai_>`_ ＆ `ゲート前後のオープンソースAI公開フロー <read-"
 "open_>`_"
 
-#: ../../site/index.rst:85
+#: ../../site/index.rst:89
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

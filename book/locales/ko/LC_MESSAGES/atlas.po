@@ -804,3 +804,20 @@ msgid ""
 msgstr ""
 "저인듐(<=50%) 또는 초고속 투명전도성산화막(TCO) 코팅, 두께 <=110마이크로미터 웨이퍼 상의 결정질 실리콘 박막 증착, "
 "저은(은 함량 <=30%) 은코팅 구리 페이스트, 구리 도금 HJT 전극 등 4대 HJT 핵심 제조 공정군."
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "두 팀에 주는 의미"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"색인은 제안된 기술 항목을 셉니다. 게임 점수는 가상 선호이며 기술 수가 아닙니다. 팀에게는 모든 AI가 한 장벽 뒤에 있는지보다 다음 "
+"기여에 어떤 정확한 항목과 조건이 적용되는지가 중요합니다."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

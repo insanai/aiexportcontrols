@@ -992,3 +992,23 @@ msgstr ""
 "TCO-Beschichtung, Abscheidung kristalliner Siliziumschichten auf Wafern "
 "<=110 Mikrometer, silberarme (<=30 %) silberummantelte Kupferpasten sowie "
 "galvanisch verkupferte HJT-Elektroden."
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"Der Atlas zählt vorgeschlagene Technikpunkte. Die Spielwerte zeigen "
+"erfundene Präferenzen und zählen keine Technologien. Für die Teams zählt, "
+"welcher genaue Eintrag mit welchen Bedingungen den nächsten Beitrag erfasst,"
+" statt ob sämtliche KI hinter einer einzigen Mauer liegt."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

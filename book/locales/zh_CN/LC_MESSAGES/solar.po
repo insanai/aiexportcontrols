@@ -162,3 +162,19 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
+
+#: ../../book/solar.rst:33
+msgid "What This Means for the Two Teams"
+msgstr "这对两支团队意味着什么"
+
+#: ../../book/solar.rst:36
+msgid ""
+"A finished panel, a manufacturing machine and the knowledge used to operate "
+"it are different things. For a cooperating factory team, access to one does "
+"not supply all the others. The workbench question becomes which equipment "
+"and know-how can still move together under the applicable rules."
+msgstr ""
+"成品面板、制造机器和操作知识是不同事物。对合作建厂团队而言，获得其中一项并不能得到其余全部。工作台问题变成哪些设备与知识仍能按适用规则共同流动。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "两队的起点见 :ref:`shared-workbench-story`。"

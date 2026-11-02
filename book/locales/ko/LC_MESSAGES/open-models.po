@@ -259,10 +259,41 @@ msgstr ""
 "개인정보·안전·임상 신뢰성을 보장하지 않습니다."
 
 #: ../../book/open-models.rst:65
+msgid "Independent Review and Its Limits"
+msgstr "독립 검토와 한계"
+
+#: ../../book/open-models.rst:68
+msgid ""
+"Open access can let teams outside the original developer inspect a model and"
+" suggest repairs. More reviewers can help, but they can share the same blind"
+" spots or lack resources to test well. Finding a flaw is also different from"
+" fixing it. The optional probability example in :ref:`checking-review-"
+"example` explains these limits."
+msgstr ""
+"공개하면 외부 팀도 모델을 검사하고 수정을 제안할 수 있습니다. 검토자가 늘어도 같은 사각지대나 테스트 자원 부족이 있을 수 있습니다. "
+"결함 발견은 수정과 다릅니다. :ref:`checking-review-example` 의 선택 확률 예제가 한계를 설명합니다."
+
+#: ../../book/open-models.rst:70
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"공개 가중치는 악용 수정·방호 제거도 돕습니다. NTIA는 2024년 이익·위험을 비교해 당시 모델 관찰을 권했습니다. 연구는 기존 대안"
+" 대비 추가 위험 비교를 요구합니다. 보편 안전 배수는 입증되지 않았습니다. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/open-models.rst:72
 msgid "A Practical Release Record"
 msgstr "실용적인 공개 기록"
 
-#: ../../book/open-models.rst:68
+#: ../../book/open-models.rst:75
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"
@@ -275,3 +306,21 @@ msgstr ""
 "버전·파일 해시·허락·공개/비공개 자료·데이터·측정·수령자·국가·이전 형태와 공개·절차 증거를 제안합니다. 새 의무나 공식 등록 양식 "
 "대체가 아닙니다. `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
+
+#: ../../book/open-models.rst:77
+msgid "What This Means for the Two Teams"
+msgstr "두 팀에 주는 의미"
+
+#: ../../book/open-models.rst:80
+msgid ""
+"Our teams keep their public starting model. Their next contribution could be"
+" a paper, new code, private weights or a service, each needing its own "
+"assessment. Public-information exclusions and proposed facilitated routes "
+"matter because they may preserve specific exchanges that the story's broad "
+"wall would stop."
+msgstr ""
+"팀은 공개된 시작 모델을 유지합니다. 다음 기여는 논문, 새 코드, 비공개 가중치나 서비스일 수 있고 각각 평가가 필요합니다. 공개 정보"
+" 예외와 제안된 간소화 경로는 이야기의 넓은 장벽이 막을 특정 교환을 보존할 수 있어 중요합니다."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

@@ -65,3 +65,10 @@ Excluded (``不纳入管理范围``)
    Outside this catalogue altogether. Already-public open-source AI and published academic papers sit here under Footnote 1, while ordinary laws like data security or copyright remain in place `CN-A1, note 1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_.
 
    Think of it like an international airport: *prohibited* items cannot fly; *restricted* items need a declared export permit; *automatic licensing* is the fast-track e-gate; and *excluded* items stay in your backpack without stopping at customs.
+
+What This Means for the Two Teams
+===================================
+
+For our two teams, filing information before a covered transfer and being forbidden to transfer are different obstacles. The story asks what cooperation survives each rule. This chapter establishes which duty operates now and which catalogue changes remain proposed, before we judge their effects.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

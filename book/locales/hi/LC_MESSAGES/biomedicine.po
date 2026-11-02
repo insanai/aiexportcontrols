@@ -193,3 +193,23 @@ msgstr ""
 "जीनोमिक डेटा पर दोनों देशों में अलग डेटा-सुरक्षा नियम लागू होते हैं, जिनमें "
 "अमेरिकी न्याय विभाग का डेटा सिक्योरिटी प्रोग्राम शामिल है*  `DOJ "
 "<https://www.justice.gov/nsd/data-security>`_\\ ।)"
+
+#: ../../book/biomedicine.rst:34
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/biomedicine.rst:37
+msgid ""
+"In medicine, the shared workbench involves platforms, research and "
+"particular treatments. The distinctions above help us ask which "
+"collaboration a rule reaches and which it leaves possible. We do not "
+"transfer the AI game scores to medicine or assume that open access alone "
+"establishes patient safety."
+msgstr ""
+"चिकित्सा में साझा कार्यमेज में मंच, शोध और खास उपचार आते हैं। ऊपर के अंतर "
+"पूछने में मदद करते हैं कि नियम किस सहयोग को रोकता और किसे संभव रखता है। एआई "
+"के अंक चिकित्सा पर लागू नहीं करते और केवल खुलेपन को रोगी सुरक्षा का प्रमाण "
+"नहीं मानते।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

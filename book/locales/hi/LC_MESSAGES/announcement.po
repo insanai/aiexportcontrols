@@ -358,3 +358,23 @@ msgstr ""
 "में नहीं जा सकतीं;  *नियंत्रित*  वस्तुओं के लिए घोषित निर्यात परमिट चाहिए;  "
 "*स्वतः लाइसेंसिंग*  फ़ास्ट-ट्रैक ई-गेट है; और  *नियंत्रण से बाहर*  वस्तुएँ "
 "बिना कस्टम पर रुके सीधे आपके बैग में साथ चलती हैं।"
+
+#: ../../book/announcement.rst:69
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/announcement.rst:72
+msgid ""
+"For our two teams, filing information before a covered transfer and being "
+"forbidden to transfer are different obstacles. The story asks what "
+"cooperation survives each rule. This chapter establishes which duty operates"
+" now and which catalogue changes remain proposed, before we judge their "
+"effects."
+msgstr ""
+"हमारे दलों के लिए हस्तांतरण से पहले जानकारी दर्ज करना और हस्तांतरण की मनाही "
+"अलग बाधाएं हैं। कहानी पूछती है कि हर नियम के बाद कौन सा सहयोग बचता है। "
+"प्रभाव परखने से पहले यह अध्याय वर्तमान दायित्व और अभी प्रस्तावित सूची बदलाव "
+"अलग करता है।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

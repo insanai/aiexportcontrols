@@ -1006,3 +1006,23 @@ msgstr ""
 "ultrarrápido o bajo en indio (<=50 %), deposición de películas de silicio "
 "cristalino sobre obleas de <=110 micrómetros, pastas de cobre recubierto de "
 "plata con bajo contenido en plata (<=30 %) y electrodos HJT cobreados."
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "Qué significa esto para los dos equipos"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"El atlas cuenta puntos tecnológicos propuestos. Las puntuaciones del juego "
+"expresan preferencias inventadas; no cuentan tecnologías. Para los equipos "
+"importa qué entrada y condiciones cubren la siguiente aportación, no si toda"
+" la IA queda detrás de un solo muro."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"El punto de partida de los equipos está en :ref:`shared-workbench-story`."

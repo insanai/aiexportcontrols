@@ -61,9 +61,10 @@ msgstr ""
 
 #: ../../book/index.rst:19
 msgid ""
-"Then the walls began to rise: not only in the sky of software, but deep "
-"underground in the bedrock of silicon."
-msgstr "ところがそのとき、壁が立ち上がり始めました。ソフトウェアという空の上だけでなく、はるか地下深く、シリコンという岩盤の奥底からも。"
+"Sharing a model is only the beginning. To turn shared knowledge into a "
+"useful tool, a team also needs computers and a way to keep learning from "
+"other teams."
+msgstr "モデルの共有は始まりにすぎません。共有知識を役立つ道具にするには、計算機と、他のチームから学び続ける道も必要です。"
 
 #: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
@@ -71,13 +72,11 @@ msgstr "ソフトウェアや重みだけではない：開かれた知性を支
 
 #: ../../book/index.rst:24
 msgid ""
-"Most conversations about open-source AI make a comforting mistake. They "
-"imagine an AI model as pure, weightless poetry: a file of code and numbers "
-"that can stay free forever as long as someone places an MIT or Apache 2.0 "
-"license on GitHub."
+"A model can travel as code and learned numbers. The computers that train and"
+" run it are physical machines. An open software license and access to those "
+"machines solve different parts of the problem."
 msgstr ""
-"オープンソースAIをめぐる議論の多くは、心地よい錯覚に陥りがちです。AIモデルを重さのない純粋な詩のようなもの、つまり誰かがGitHubにMITライセンスやApache"
-" 2.0ライセンスを添えて置きさえすれば、永遠に自由であり続けられるコードと数値のファイルだと想像してしまうのです。"
+"モデルはコードや学習済みの数値として移動できますが、訓練と実行を行う計算機は物理的な機械です。公開ライセンスと機械へのアクセスは問題の異なる部分を解決します。"
 
 #: ../../book/index.rst:26
 msgid ""
@@ -142,13 +141,10 @@ msgstr ""
 
 #: ../../book/index.rst:40
 msgid ""
-"Even if software licenses remain free on paper, open-source AI cannot thrive"
-" in a vacuum: if export controls ration the chips needed to train open "
-"models, lock up open silicon blueprints, or price local hardware out of "
-"reach for hospitals and universities, humanity gets nudged back from owning "
-"minds to renting metered corporate cloud windows."
-msgstr ""
-"たとえ紙の上でソフトウェア・ライセンスが自由なままであっても、オープンソースAIは真空の中では生きられません。輸出管理によってオープンモデルの学習に必要なチップが配給制のようになり、オープンな半導体設計図が閉じ込められ、病院や大学の手の届かない価格へとローカル・ハードウェアが押し上げられれば、人類は「知性を自ら所有する時代」から「企業の従量課金クラウドの窓口を借りる時代」へと押し戻されてしまいます。"
+"A team may have permission to use an open model yet struggle to obtain "
+"suitable computers. Our story therefore follows both the knowledge being "
+"shared and the hardware needed to use it."
+msgstr "公開モデルを使う許可があっても、適切な計算機を入手できない場合があります。そこで共有する知識と、それを使うための機器の両方を追います。"
 
 #: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
@@ -156,44 +152,173 @@ msgstr "要塞の罠：双方が損をする仕組み"
 
 #: ../../book/index.rst:45
 msgid ""
-"The central argument of this book is that broad restrictions on shared "
-"knowledge can leave both countries worse off. We can show one way this "
-"happens with a simple game. We cannot prove that every export control has "
-"this effect merely by choosing numbers for a table."
-msgstr "広い知識制限は双方を悪化させ得る、というのが本書の主張です。ゲームは一つの仕組みを示しますが、選んだ数字で全管理の効果は証明できません。"
+"The hardware problem leads to a political problem. A useful open model "
+"depends on contributions from many teams, yet each government also wants to "
+"protect its country's capabilities. How can choices made for national "
+"advantage end up holding back both sides? We can follow the problem through "
+"a fictional shared workbench."
+msgstr ""
+"機器の問題は政策の問題につながります。役立つ公開モデルは多くのチームの貢献に支えられますが、政府は自国の能力も守ろうとします。国益のための選択がなぜ双方を遅らせ得るのでしょうか。架空の共同作業台を通じて追います。"
 
 #: ../../book/index.rst:47
-msgid ""
-"Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
-"Sharing means allowing ordinary research and open-model cooperation; a wall "
-"means broadly restricting it. This deliberately simplifies real policy. "
-"Targeted controls, legitimate security benefits, third countries and unequal"
-" access to chips are not represented in the first example."
-msgstr ""
-"二国が  **共有（S）**  か  **壁（W）**  "
-"を選びます。普通の協力と広い制限への単純化で、限定管理、安全利益、第三国、資源格差は最初の例にありません。"
+msgid "Two Teams, One Shared Starting Point"
+msgstr "二つのチーム、同じ出発点"
 
-#: ../../book/index.rst:51
+#: ../../book/index.rst:50
 msgid ""
-"**Assumptions, not measurements.** The scores below are invented teaching "
-"values. They express preferences within this example, not dollars, measured "
-"innovation or national welfare. The table does not estimate a 70% loss or a "
-"fourfold increase in danger."
+"Imagine a research team in Country A and another in Country B. Both start "
+"from the same publicly available AI model. They want to adapt it for "
+"ordinary local-language work. A's team finds a way to run it with less "
+"memory. B's team develops tests that uncover errors and helps fix them. "
+"These are imagined teams and contributions, not accounts of actual "
+"deployments."
 msgstr ""
-" **仮定であって測定ではありません。**  点数は創作した教育値で、金額や実測の革新・厚生ではありません。70%損失や危険4倍を推計しません。"
+"A国とB国に一つずつ研究チームがあるとします。同じ公開AIモデルから始め、日常的な現地語の仕事に適応させます。Aは少ないメモリーで動かす方法を発見し、Bは誤りを見つけるテストを作り修正を助けます。実際の導入例ではなく、架空のチームと貢献です。"
 
-#: ../../book/index.rst:53 ../../book/index.rst:58
+#: ../../book/index.rst:52
+msgid ""
+"If the teams exchange their next improvements, each can build on the other's"
+" work. A receives better testing; B receives a model that needs fewer "
+"resources. Both still need computers, staff and time. Sharing knowledge "
+"helps them use those resources; it does not make physical hardware free."
+msgstr ""
+"次の改良を交換すれば、相手の成果を使えます。Aはよりよいテストを、Bは資源を節約するモデルを得ます。計算機、人員、時間は依然必要です。知識共有は資源の活用を助けても、機器を無料にはしません。"
+
+#: ../../book/index.rst:54 ../../book/index.rst:59
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
 "measured outcome."
 msgstr "二組は部品と知識を共有して完成させますが、壁で隔てられると作業が進みません。仮定したゲームの説明であり、実測結果ではありません。"
 
-#: ../../book/index.rst:62
-msgid "Assumed scores in the teaching game"
-msgstr "説明用ゲームの仮定した得点"
+#: ../../book/index.rst:61
+msgid "Two Choices for Each Government"
+msgstr "各政府の二つの選択"
 
-#: ../../book/index.rst:62
+#: ../../book/index.rst:64
+msgid ""
+"Now the governments make policy for the next round of work. Each wants "
+"useful progress at home. Each also worries about giving the other country an"
+" advantage without receiving anything in return. We simplify their choices "
+"to two:"
+msgstr "政府が次の研究段階の政策を決めます。自国の有用な進歩を望む一方、見返りなく相手だけに有利になることを恐れます。選択を二つに簡略化します。"
+
+#: ../../book/index.rst:66
+msgid ""
+"**Share:** Allow the teams' ordinary research improvements to be exchanged."
+msgstr "**共有：**  チームの通常の研究改良の交換を認めます。"
+
+#: ../../book/index.rst:67
+msgid ""
+"**Wall:** Broadly restrict the country's new contributions from reaching the"
+" other side."
+msgstr "**壁：**  自国の新しい貢献が相手へ届くことを幅広く制限します。"
+
+#: ../../book/index.rst:69
+msgid ""
+"The wall concerns future contributions. It cannot make copies of an already-"
+"public model disappear. The teams can keep their starting files, but their "
+"next improvements may stop reaching each other. Real export controls offer "
+"many more choices, including narrow restrictions and specific permissions. "
+"We first set those complications aside so we can see one incentive problem "
+"clearly."
+msgstr ""
+"壁は今後の貢献に関するものです。すでに公開されたモデルのコピーは消せません。出発時のファイルは残りますが、次の改良が届かなくなる可能性があります。現実の管理には限定的な規制や個別許可など多くの選択肢があります。まずそれを脇に置き、一つの動機の問題を明確にします。"
+
+#: ../../book/index.rst:71
+msgid "Four Possible Endings, Then Four Scores"
+msgstr "四つの結末から四つの点数へ"
+
+#: ../../book/index.rst:74
+msgid ""
+"We now give the outcomes invented preference scores. A higher score means "
+"that a government prefers that outcome in this story. The scores combine its"
+" assumed concern for useful progress, protection and relative advantage. "
+"They are not AI test results, percentages or measured national gains. "
+"Nothing in the announcement supplies these numbers."
+msgstr ""
+"結末に架空の選好点を付けます。高いほど物語の政府が好む結果です。有用な進歩、保護、相対的優位に関する仮定の関心を合わせています。AI試験、割合、国の実測利益ではありません。公告にもこの数値はありません。"
+
+#: ../../book/index.rst:76
+msgid ""
+"**Both share: 17 each.** A's memory-saving improvement reaches B, and B's "
+"testing and fixes reach A. Both teams improve their work without "
+"independently repeating every discovery. We give each government 17 to "
+"represent a good result from mutual cooperation."
+msgstr ""
+"**双方が共有：各17点。**  "
+"Aの省メモリー改良がBに、Bのテストと修正がAに届きます。発見を全部独力で繰り返さずに前進できます。相互協力の良い結果を17点で表します。"
+
+#: ../../book/index.rst:78
+msgid ""
+"**A shares while B builds a wall: A gets 3, B gets 20.** B can use A's newly"
+" shared improvement while withholding its own new contribution. We assume B "
+"values that one-sided advantage most, so it gets 20. A gets 3 because we "
+"assume its government dislikes sharing alone while the other country "
+"protects its contribution. A's team can still do useful work; 3 expresses "
+"its government's least-preferred outcome here."
+msgstr ""
+"**Aが共有しBが壁を築く：Aは3点、Bは20点。**  "
+"BはAの新しい公開改良を使い、自分の新しい貢献を渡しません。Bがこの一方的優位を最も好むと仮定して20点です。A政府は自国だけが共有し相手が保護する結果を最も嫌うという仮定で3点です。Aの研究は続けられます。3点はこの例で政府が最も好まない結果を示します。"
+
+#: ../../book/index.rst:80
+msgid ""
+"**A builds a wall while B shares: A gets 20, B gets 3.** The roles reverse. "
+"A takes the one-sided advantage, while B is the only country sharing. We "
+"give both countries the same assumed priorities so we can see the strategic "
+"problem without assigning today's United States or China to either role."
+msgstr ""
+"**Aが壁を築きBが共有：Aは20点、Bは3点。**  "
+"役割が逆転します。Aが一方的優位を得てBだけが共有します。現代の米国や中国をいずれかに当てはめず問題を示すため、同じ仮定の優先順位を与えます。"
+
+#: ../../book/index.rst:82
+msgid ""
+"**Both build walls: 5 each.** Neither receives the other's next "
+"contribution. They keep working from the public starting point, but must "
+"repeat more work or go without useful improvements. We assume each "
+"government prefers protecting its contribution to being the only side "
+"sharing, so 5 is above 3. We also assume both value mutual cooperation more "
+"than mutual isolation, so 17 is above 5."
+msgstr ""
+"**双方が壁を築く：各5点。**  "
+"相手の次の貢献は届きません。公開の出発点から続けますが、作業を多く繰り返すか改良を諦めます。単独共有より自国の貢献保護を好むので5は3より上、相互孤立より相互協力を好むので17は5より上と仮定します。"
+
+#: ../../book/index.rst:84
+msgid ""
+"The hardest assumption is that **20 is better than 17**: each government "
+"values a one-sided advantage more than shared progress in this round. That "
+"preference creates the temptation to restrict. If a government instead "
+"values mutual progress most, this particular trap may not arise. The numbers"
+" describe an assumed ranking; choosing them does not prove that real "
+"governments have it. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"最も重要な仮定は  **20が17より好ましい**  "
+"ことです。今回の政府は共同の進歩より一方的優位を重視し、制限への誘惑が生まれます。共同の進歩を最も重視するなら、この罠は生じないかもしれません。点数は仮定の順位を記すだけで、実際の政府の選好を証明しません。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/index.rst:86
+msgid "Reading the Game Picture"
+msgstr "ゲーム図の読み方"
+
+#: ../../book/index.rst:89
+msgid ""
+"Country A's choice selects a row. Country B's choice selects a column. The "
+"box where they meet gives A's score beside the letter A and B's score beside"
+" B. For example, the top-right box means A shares and B builds a wall: A "
+"gets 3 and B gets 20. The green box is mutual sharing; the red box is mutual"
+" restriction."
+msgstr ""
+"Aの選択が行、Bの選択が列を決めます。交点の枠はAの隣にAの点、Bの隣にBの点を示します。右上はAが共有しBが壁を築く場合で、Aは3、Bは20です。緑は相互共有、赤は相互制限です。"
+
+#: ../../book/index.rst:93
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr "Aが行、Bが列を選びます。双方共有は各17。Aだけ共有ならA3、B20。Bだけ共有ならA20、B3。双方制限は各5。全て仮定の点数です。"
+
+#: ../../book/index.rst:93
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -201,231 +326,200 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"ja\")"
 
-#: ../../book/index.rst:69
-msgid "Reading the Four Outcomes"
-msgstr "四つの結果を読む"
-
-#: ../../book/index.rst:72
-msgid ""
-"**Both share:** A gets 17 and B gets 17. In this example, both value the "
-"benefits of exchange."
-msgstr " **双方共有：**  AもBも17。交換の利益を重視すると仮定します。"
-
-#: ../../book/index.rst:73
-msgid ""
-"**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
-"temporary advantage while still using A's public work."
-msgstr " **A共有、B制限：**  Aは3、Bは20。Bが公開知を使い短期優位を得る仮定です。"
-
-#: ../../book/index.rst:74
-msgid ""
-"**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
-msgstr " **A制限、B共有：**  Aは20、Bは3。鏡像です。"
-
-#: ../../book/index.rst:75
-msgid ""
-"**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
-"duplicated effort outweigh the security benefits of these broad walls."
-msgstr " **双方制限：**  各5。失う協力と重複費用が広い壁の安全利益を超える仮定です。"
-
-#: ../../book/index.rst:77
-msgid ""
-"If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
-"the same choices. A wall is therefore each country's best response whatever "
-"the other chooses. Under these assumptions, mutual restriction is a **Nash "
-"equilibrium**: neither can improve its score by changing its choice alone. "
-"Yet both would prefer 17 to 5. This is a **Prisoner's Dilemma**. Mutual "
-"sharing is a **Pareto-efficient** outcome here, but that term does not mean "
-"every country gets its largest possible individual score. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-msgstr ""
-"Bが共有ならAは17より20、制限なら3より5を選びます。Bも同じです。この仮定では相互制限が  **ナッシュ均衡**  "
-"で、単独変更で改善できません。しかし双方とも5より17を好みます。 **囚人のジレンマ**  "
-"です。共有はここでパレート効率的ですが、各国の個別最大点ではありません。 `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-
-#: ../../book/index.rst:79
-msgid ""
-"The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
-"particular numbers. It identifies a possible strategic trap. It does not "
-"measure the actual costs of US or Chinese policy, and it does not establish "
-"that an outcome outside this small table is impossible."
-msgstr ""
-"必要なのは  **20 > 17 > 5 > 3**  の順で、数字自体ではありません。可能な罠を示し、実費用を測定せず表外の結果も排除しません。"
-
-#: ../../book/index.rst:81
-msgid "What Could Change the Result?"
-msgstr "何が結果を変えるか"
-
-#: ../../book/index.rst:84
-msgid ""
-"A control that prevents a serious misuse could provide security benefits "
-"large enough to change the ranking. A chip bottleneck, different national "
-"capabilities or an effective agreement could also change incentives. Export "
-"controls do not automatically prevent domestic publication, and public "
-"access does not automatically make a system safe. Those questions need "
-"evidence beyond this example. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-msgstr ""
-"重大な悪用防止の利益が順序を変えることもあります。資源、能力、協定も影響します。輸出管理が国内公開を自動禁止するわけでも、公開が安全を保証するわけでもなく、別の証拠が必要です。"
-" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
-"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-
-#: ../../book/index.rst:86
-msgid ""
-"Countries also interact repeatedly. In this simplified game, suppose "
-"cooperation continues while both share, but a deviation earns 20 once and is"
-" followed by 5 forever. Let :math:`\\delta` represent how much a country "
-"values the next round relative to this one. Cooperation is at least as "
-"attractive as that deviation when:"
-msgstr ""
-"国は繰り返し関わります。共有中は協力し、逸脱すると一度20、その後ずっと5を得る例です。:math:`\\delta` "
-"を次回への重みとすると、協力が同等以上になる条件は："
-
-#: ../../book/index.rst:88
-msgid ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-msgstr ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-
 #: ../../book/index.rst:93
 msgid ""
-"This is a calculation inside the assumed game, not a diplomatic forecast. It"
-" assumes an indefinite relationship, observable choices and a credible "
-"response to deviation. Errors, hidden actions or a known final round can "
-"undermine that strategy. The useful policy question is how to make continued"
-" cooperation credible, rather than treating mistrust as inevitable. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-msgstr ""
-"これは仮定の計算で外交予測ではありません。無期限関係、観察可能な行動、可信な応答が必要です。誤り、隠れた行動、既知の最終回は崩します。継続協力を信頼できるようにすることが問いです。"
-" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
+msgstr "二つのチームの四つの結末。点数は架空の選好で、この例では高いほど好ましい結果です。"
 
-#: ../../book/index.rst:95
-msgid "Why More Review Can Help, Without Guaranteeing Safety"
-msgstr "多くの検証は役立ち得るが安全保証ではない"
+#: ../../book/index.rst:99
+msgid "Why the Wall Starts to Look Like the Safer Choice"
+msgstr "壁が安全な選択に見えてくる理由"
 
-#: ../../book/index.rst:98
+#: ../../book/index.rst:102
 msgid ""
-"Open access can make independent testing and repair easier. A simple "
-"probability example explains one possible benefit. If a flaw exists with "
-"probability :math:`p_0` and each of :math:`n` teams independently detects it"
-" with probability :math:`q`, then:"
+"A's government considers what B might do. **If B shares**, A compares "
+"sharing for 17 with withholding its own contribution for 20. Under our "
+"assumptions, A chooses the wall to gain the one-sided advantage. In the "
+"picture, this means comparing the two boxes in the left column."
 msgstr ""
-"公開は独立検証と修復を助け得ます。欠陥確率が :math:`p_0`、独立した :math:`n` チームの各検出確率が :math:`q` なら："
-
-#: ../../book/index.rst:100
-msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
-msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+"A政府はBの行動を考えます。 **Bが共有する場合** "
+"、Aは共有の17点と、自分の貢献を渡さない20点を比較します。仮定の下では一方的優位のため壁を選びます。図の左列の二つの枠の比較です。"
 
 #: ../../book/index.rst:104
 msgid ""
-"For a flaw known to exist and an assumed detection chance of one half, one "
-"team misses it with probability 50%, four independent teams with 6.25%, and "
-"ten with about 0.098%. These are conditional calculations. Real teams can "
-"share blind spots, lack testing resources or find a flaw without fixing it. "
-"An undetected-flaw probability is not a measure of total cyber, biological "
-"or societal risk."
+"**If B builds a wall**, A compares sharing alone for 3 with also restricting"
+" for 5. A again chooses the wall, this time to avoid being the only side "
+"sharing. In the picture, this means comparing the two boxes in the right "
+"column."
 msgstr ""
-"存在する欠陥を半分の確率で検出する仮定では、1チームの見逃し50%、4で6.25%、10で約0.098%。条件付きの計算です。実際には共通盲点、資源不足、修復不足もあり、総合的な社会・生物・サイバー危険の測定ではありません。"
+"**Bが壁を築く場合** "
+"、Aは単独共有の3点と、自分も制限する5点を比較します。今度は単独共有を避けるため、また壁を選びます。右列の二つの枠の比較です。"
 
 #: ../../book/index.rst:106
 msgid ""
-"Open weights can also help harmful actors modify a system or remove "
-"safeguards. NTIA's 2024 report considered both benefits and risks, "
-"recommending monitoring rather than restricting then-current open weights. "
-"Research on open foundation models stresses the need to compare the extra "
-"risk with existing alternatives. Neither source establishes a universal "
-"safety multiplier for openness. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"B reasons the same way. Each government can tell itself that its wall is "
+"sensible whatever the other does. Both therefore choose walls and receive 5 "
+"each, even though both would prefer the 17 each available through "
+"cooperation. Neither has to want a poorer joint result for that result to "
+"emerge."
 msgstr ""
-"公開重みは有害な改変や防護除去も容易にします。NTIAは2024年に利益と危険を比較し当時のモデルの監視を勧告しました。研究は既存手段に対する追加リスク比較を求めます。普遍的安全倍率を立証していません。"
-" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
-"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"Bも同じように考えます。相手が何をしても、自分の壁は合理的だと判断できます。双方とも協力の17点を好むのに、壁を選んで各5点になります。共同結果の悪化を誰も望まなくても、その結末は生じ得ます。"
 
 #: ../../book/index.rst:108
 msgid ""
-"Our recommendation is to make controls precise, assess their security "
-"benefit against their cost to cooperation, and protect workable routes for "
-"legitimate open research. That is an argument informed by the evidence, not "
-"a theorem that every restriction harms everyone."
-msgstr "精密な管理、安全利益と協力費用の比較、合法研究の実行可能な道を勧めます。証拠に基づく主張であり全制限が全員を害する定理ではありません。"
+"This is the **Prisoner's Dilemma**. The ending is also a **Nash "
+"equilibrium**: with the other wall still in place, neither government "
+"improves its score by changing its choice alone. For A, opening alone would "
+"move its score from 5 down to 3. Mutual sharing needs both to change, or a "
+"change in what makes cooperation worthwhile. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"これが  **囚人のジレンマ**  です。結末は  **ナッシュ均衡**  "
+"でもあります。相手の壁が残れば、一国だけ選択を変えても得点は増えません。Aが単独開放すると5から3に下がります。共有には双方の変更か、協力に価値を与える条件の変更が必要です。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
 #: ../../book/index.rst:110
-msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
-msgstr "一次資料が明かす核心的事実：閉ざされた壁ではなく、半開きの扉"
+msgid "What This Explains About Export Controls"
+msgstr "輸出管理について分かること"
 
 #: ../../book/index.rst:113
 msgid ""
-"When we turn from game theory back to the verified legal texts of November "
-"2026, we find something remarkable: despite alarming headlines, regulators "
-"in both Beijing and Washington have deliberately left real bridges standing "
-"for open-source AI:"
+"The story puts a policy question behind the technical entries in the next "
+"chapters. A government may see protection or bargaining advantage in a broad"
+" restriction. Across both countries, the same restrictions may interrupt "
+"complementary improvements, duplicate effort and make smaller research "
+"teams' work harder. Those are mechanisms to investigate, not costs that our "
+"invented scores have measured."
 msgstr ""
-"ゲーム理論から2026年11月時点の検証済み法令テキストへと目を戻すと、驚くべき事実に気づきます。危機感を煽る報道見出しとは裏腹に、北京とワシントンの規制当局はいずれも、オープンソースAIのために確かな橋を意図的に残しているのです。"
+"物語は後続の技術項目の背後にある政策の問いを示します。政府には広範な制限が保護や交渉上の優位に見えるかもしれません。しかし両国全体では、補完的な改良を止め、作業を重複させ、小規模チームの仕事を難しくし得ます。これは調べるべき仕組みで、架空の点数で測った費用ではありません。"
 
-#: ../../book/index.rst:115 ../../book/index.rst:120
+#: ../../book/index.rst:115
+msgid ""
+"Real US and Chinese controls are not this symmetric two-choice game. The "
+"countries have different capabilities and legal tools. A reporting duty, a "
+"prohibition, a normal license, a public-information exclusion and an easier "
+"release route can affect cooperation differently. The following chapters "
+"separate those cases. We do not label every filing requirement a wall or "
+"every exclusion a complete freedom to transfer."
+msgstr ""
+"米中の現実の管理は、この対称な二択ゲームではありません。能力や法律上の手段が異なります。届出、禁止、通常許可、公開情報の除外、提供の円滑化は協力に別々の影響を与えます。以後の章で区別します。全ての届出を壁、全ての除外を全面的な移転自由とは呼びません。"
+
+#: ../../book/index.rst:117
+msgid ""
+"A narrow control that prevents serious harm could also change the ranking of"
+" outcomes. Public model access has benefits and misuse risks. The policy "
+"task is to identify the specific risk being controlled and the cooperation "
+"being lost, rather than treating either complete openness or broad closure "
+"as an automatic answer. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"重大な被害を防ぐ限定的な規制は順位を変えるかもしれません。公開モデルには利益と悪用の危険があります。全面公開か広範な閉鎖を自動的に答えとせず、管理する具体的危険と失われる協力を見極めます。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/index.rst:119
+msgid "Can the Teams Keep Working Together?"
+msgstr "チームは協力を続けられるか"
+
+#: ../../book/index.rst:122
+msgid ""
+"Return to the workbench. The teams expect to make another improvement next "
+"month, and another after that. A government that takes a short-term "
+"advantage today may lose access to future cooperation it values. A credible "
+"continuing arrangement can therefore change the choice. Whether that works "
+"depends on observable actions, the value of future exchanges and the "
+"possibility of mistakes; a promise alone does not solve the problem."
+msgstr ""
+"作業台に戻ります。来月も、その後も改良を続ける予定です。政府は今日の短期利益と引き換えに、大切な将来の協力を失うかもしれません。信頼できる継続的な取り決めは選択を変え得ます。行動の観測、将来の交換価値、誤りに左右され、約束だけでは解決しません。"
+
+#: ../../book/index.rst:124
+msgid ""
+"We carry one question into the rest of the book: **which rules address a "
+"specific danger while leaving a workable route for the next useful "
+"contribution?** As we examine model files, hardware, medical platforms and "
+"solar equipment, the object being shared changes. The question about lost "
+"cooperation remains. An optional calculation is in :ref:`checking-game-"
+"example`; the story can be followed without it."
+msgstr ""
+"以後も問いを持ち続けます。 **具体的な危険に対処しつつ、次の有用な貢献の道を残す規則は何か。**  "
+"モデル、機器、医療基盤、太陽光装置で共有対象は変わっても、協力の喪失という問いは残ります。任意の計算は :ref:`checking-game-"
+"example` にあり、式を読まなくても物語を理解できます。"
+
+#: ../../book/index.rst:126
+msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
+msgstr "一次資料が明かす核心的事実：閉ざされた壁ではなく、半開きの扉"
+
+#: ../../book/index.rst:129
+msgid ""
+"The fictional wall hides distinctions that matter in the real rules. Is the "
+"technology already public? Is a new transfer prohibited, restricted or "
+"eligible for an easier route? Announcement 48 and the US rules answer "
+"different questions. We now turn from our imagined workbench to the source "
+"texts:"
+msgstr ""
+"架空の壁は現実の規則の重要な違いを隠します。技術は公開済みか、新しい移転は禁止か制限か、円滑な経路があるか。48号公告と米国規則は別の問いに答えます。想像の作業台から原文に移ります。"
+
+#: ../../book/index.rst:131 ../../book/index.rst:136
 msgid ""
 "Computing, biomedicine and solar manufacturing, shown through a processor, a"
 " cell and the layers of a solar panel."
 msgstr "プロセッサー、細胞、太陽光パネルの層で、計算技術、医療、太陽光製造を表します。"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:138
 msgid "The 40 proposed technology points"
 msgstr "提案された40の技術項目"
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:142
 msgid "Area"
 msgstr "分野"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:143
 msgid "Proposed prohibited"
 msgstr "禁止の提案"
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:144
 msgid "Proposed restricted"
 msgstr "制限の提案"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:145
 msgid "AI and computing hardware"
 msgstr "AIと計算機ハードウェア"
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:146
 msgid "6"
 msgstr "6"
 
-#: ../../book/index.rst:131
+#: ../../book/index.rst:147
 msgid "17"
 msgstr "17"
 
-#: ../../book/index.rst:132
+#: ../../book/index.rst:148
 msgid "Biomedicine"
 msgstr "バイオ医薬"
 
-#: ../../book/index.rst:133
+#: ../../book/index.rst:149
 msgid "3"
 msgstr "3"
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:150
 msgid "2"
 msgstr "2"
 
-#: ../../book/index.rst:135
+#: ../../book/index.rst:151
 msgid "Solar manufacturing"
 msgstr "太陽光製造"
 
-#: ../../book/index.rst:136
+#: ../../book/index.rst:152
 msgid "5"
 msgstr "5"
 
-#: ../../book/index.rst:137
+#: ../../book/index.rst:153
 msgid "7"
 msgstr "7"
 
-#: ../../book/index.rst:139
+#: ../../book/index.rst:155
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -443,7 +537,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:140
+#: ../../book/index.rst:156
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -463,7 +557,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/index.rst:141
+#: ../../book/index.rst:157
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -479,11 +573,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:143
+#: ../../book/index.rst:159
 msgid "How to Read This Book"
 msgstr "本書の読み方"
 
-#: ../../book/index.rst:146
+#: ../../book/index.rst:162
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -491,7 +585,7 @@ msgid ""
 msgstr ""
 "本書は、検証済みの一次資料に裏打ちされた明快な見取り図を求める、知的好奇心にあふれたすべての読者（エンジニア、研究者、医師、起業家、学生、ジャーナリスト、そして市民）のために書かれました。"
 
-#: ../../book/index.rst:148
+#: ../../book/index.rst:164
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -499,7 +593,7 @@ msgstr ""
 ":doc:`announcement` と :doc:`atlas` では、中国の第48号公告が動かした「2つの異なる時計」と、  "
 "**管理対象案の全40技術**  を平易な言葉で解き明かします。"
 
-#: ../../book/index.rst:149
+#: ../../book/index.rst:165
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -507,13 +601,13 @@ msgstr ""
 ":doc:`ai` では、AIのソフトウェア・レシピとシリコン・ハードウェア基盤（ ``266504X`` 、 ``266506X`` 、 "
 "``266507X`` ）の双方の内部へと踏み込みます。"
 
-#: ../../book/index.rst:150
+#: ../../book/index.rst:166
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
 msgstr ":doc:`open-models` は公開と非公開の移転、現行義務と提案中の手続を分けて説明します。"
 
-#: ../../book/index.rst:151
+#: ../../book/index.rst:167
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
@@ -521,7 +615,7 @@ msgstr ""
 ":doc:`biomedicine` と :doc:`solar` "
 "では、生きた遺伝子創薬プラットフォームと、物理的な製造装置の内部にノウハウが宿る太陽光発電マシンを探ります。"
 
-#: ../../book/index.rst:152
+#: ../../book/index.rst:168
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -535,7 +629,7 @@ msgstr ""
 "intelligence-diffusion-rule-strengthens>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/index.rst:153
+#: ../../book/index.rst:169
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -545,7 +639,7 @@ msgstr ""
 ":doc:`comparison` では、中米両国の制度を並べて比較するとともに、公式な許可を得るための  "
 "**所管官庁、オンライン申請ポータル、法定審査期間、検証済みの電話番号・FAX・メールアドレス・所在地**  を完全収録します。"
 
-#: ../../book/index.rst:154
+#: ../../book/index.rst:170
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -554,7 +648,7 @@ msgstr ""
 ":doc:`questions` と :doc:`sources` では、6つの実務シナリオ、平易な用語集、そして  **2026年11月2日**  "
 "時点で検証された  **全26件の一次資料**  をもって本書を締めくくります。"
 
-#: ../../book/index.rst:158
+#: ../../book/index.rst:174
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

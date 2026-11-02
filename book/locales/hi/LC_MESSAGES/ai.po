@@ -347,3 +347,22 @@ msgstr ""
 "क्लस्टर संयोजन (``266507X``) को नियंत्रित करता है, तो ओपन-सोर्स "
 "डिस्ट्रिब्यूटेड-ट्रेनिंग फ़्रेमवर्क दोनों व्यवस्थाओं की ठीक दरार पर खड़े "
 "दिखते हैं!"
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"A का मेमोरी सुधार और B के परीक्षण आदान-प्रदान योग्य ज्ञान हैं। कंप्यूटर अलग "
+"जरूरत हैं। खुला लाइसेंस गायब चिप नहीं देता और हार्डवेयर रोक अकेले हर मॉडल "
+"फाइल की कानूनी स्थिति नहीं बताती। हम कार्यमेज के दोनों हिस्से देखते हैं।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

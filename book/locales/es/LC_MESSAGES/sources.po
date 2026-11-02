@@ -894,3 +894,138 @@ msgstr ""
 "independiente, jurídica o de hablantes nativos. Prevalecen los textos "
 "legales originales. Los ejemplos y puntos del juego no son clasificaciones "
 "oficiales ni pronósticos medidos."
+
+#: ../../book/sources.rst:179
+msgid "Optional: Checking the Game Example"
+msgstr "Opcional: comprobación del juego"
+
+#: ../../book/sources.rst:182
+msgid ""
+"The opening story can be understood without these calculations. Here we make"
+" the extra assumptions explicit for readers who want to check them."
+msgstr ""
+"El relato inicial se entiende sin estos cálculos. Explicitamos los supuestos"
+" adicionales para quienes quieran comprobarlos."
+
+#: ../../book/sources.rst:184
+msgid "Why the Ending Is Stable"
+msgstr "Por qué el final es estable"
+
+#: ../../book/sources.rst:187
+msgid ""
+"The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever"
+" the other chooses. With two walls, either country sharing alone would move "
+"its score from 5 to 3. Mutual sharing is Pareto-efficient in this small "
+"game: no other listed outcome improves one country's score without lowering "
+"the other's. That does not mean either country receives its largest "
+"individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"El orden 20 > 17 > 5 > 3 da a cada país motivos para restringir haga lo que "
+"haga el otro. Con ambos muros, compartir solo baja de 5 a 3. La cooperación "
+"mutua es eficiente en sentido de Pareto en este juego: ningún otro resultado"
+" listado mejora a un país sin empeorar al otro. No significa que cada uno "
+"reciba su máximo individual. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:189
+msgid "When Future Cooperation Matters"
+msgstr "Cuando importa la cooperación futura"
+
+#: ../../book/sources.rst:192
+msgid ""
+"For the next calculation, we additionally treat the invented scores as "
+"comparable payoffs in each round. The numerical threshold depends on that "
+"scale, not just on the order of preferences."
+msgstr ""
+"En el cálculo siguiente suponemos además que los puntos son pagos "
+"comparables entre rondas. El umbral numérico depende de esa escala, no solo "
+"del orden de preferencias."
+
+#: ../../book/sources.rst:194
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"Los países interactúan repetidamente. Supongamos cooperación mientras ambos "
+"compartan; desviarse da 20 una vez y después 5 para siempre. :math:`\\delta`"
+" expresa cuánto se valora la siguiente ronda. Cooperar resulta al menos "
+"igual de atractivo cuando:"
+
+#: ../../book/sources.rst:196
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/sources.rst:201
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"Es un cálculo del juego, no una predicción diplomática. Supone una relación "
+"indefinida, decisiones observables y respuesta creíble. Errores, acciones "
+"ocultas o una última ronda conocida pueden romper la estrategia. La pregunta"
+" útil es cómo hacer creíble cooperar. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:205
+msgid "Optional: Independent Review Is Not a Safety Guarantee"
+msgstr "Opcional: la revisión independiente no garantiza seguridad"
+
+#: ../../book/sources.rst:208
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"El acceso abierto facilita pruebas y reparaciones. Si existe un defecto con "
+"probabilidad :math:`p_0` y cada uno de :math:`n` equipos lo detecta de forma"
+" independiente con probabilidad :math:`q`, entonces:"
+
+#: ../../book/sources.rst:210
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/sources.rst:214
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"Para un defecto existente y detección supuesta de la mitad, un equipo falla "
+"el 50%, cuatro el 6,25% y diez cerca del 0,098%. Son cálculos condicionales."
+" Equipos reales comparten puntos ciegos, carecen de recursos o no corrigen "
+"lo detectado. Esto no mide todo riesgo social, biológico o cibernético."
+
+#: ../../book/sources.rst:216
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"Los pesos abiertos también permiten modificaciones dañinas o retirar "
+"salvaguardas. NTIA en 2024 consideró beneficios y riesgos y recomendó "
+"vigilar los pesos de entonces. La investigación pide comparar el riesgo "
+"añadido con alternativas existentes. Ninguna fuente establece un "
+"multiplicador universal de seguridad. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"

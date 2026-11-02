@@ -280,3 +280,10 @@ Solar Silicon, Wafers & Factory Machinery (12 Checkpoints)
    **263802X · Point 2: High-efficiency heterojunction (HJT) cell processes** *(Proposed Restricted)*
 
    Four HJT manufacturing families covering low-indium (<=50%) or ultra-fast TCO coating, crystalline-silicon film deposition on <=110-micrometer wafers, low-silver (<=30%) silver-coated copper pastes, and copper-plated HJT electrodes.
+
+What This Means for the Two Teams
+===================================
+
+The atlas counts proposed technology points. The game scores express invented preferences; they do not count technologies. For the two teams, the useful question is which precise entry and conditions cover the next contribution, rather than whether all AI sits behind one wall.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

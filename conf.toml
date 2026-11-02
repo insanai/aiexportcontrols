@@ -22,6 +22,7 @@ output = ""
 exclude = ["search.html", "_static/searchindex.js"]
 overrides = ['''rst_epilog="""
 .. _read-cover: mount://book/index.html
+.. _read-game: mount://book/index.html#shared-workbench-story
 .. _read-ch1: mount://book/announcement.html
 .. _read-atlas: mount://book/atlas.html
 .. _read-ai: mount://book/ai.html

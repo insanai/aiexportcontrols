@@ -21,6 +21,7 @@ gettext_language_team = "Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore"
 
 rst_epilog = """
 .. _read-cover: en/index.html
+.. _read-game: en/index.html#shared-workbench-story
 .. _read-ch1: en/announcement.html
 .. _read-atlas: en/atlas.html
 .. _read-ai: en/ai.html

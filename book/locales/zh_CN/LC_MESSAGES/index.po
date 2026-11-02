@@ -61,9 +61,10 @@ msgstr ""
 
 #: ../../book/index.rst:19
 msgid ""
-"Then the walls began to rise: not only in the sky of software, but deep "
-"underground in the bedrock of silicon."
-msgstr "随后，高墙开始拔地而起：不仅横亘在软件的苍穹之上，更深扎进地底硅基的岩床之中。"
+"Sharing a model is only the beginning. To turn shared knowledge into a "
+"useful tool, a team also needs computers and a way to keep learning from "
+"other teams."
+msgstr "共享模型只是开始。团队要把共享知识变成实用工具，还需要计算机，也需要持续向其他团队学习。"
 
 #: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
@@ -71,13 +72,10 @@ msgstr "不止于软件与权重：托起开放心智的硬件底座"
 
 #: ../../book/index.rst:24
 msgid ""
-"Most conversations about open-source AI make a comforting mistake. They "
-"imagine an AI model as pure, weightless poetry: a file of code and numbers "
-"that can stay free forever as long as someone places an MIT or Apache 2.0 "
-"license on GitHub."
-msgstr ""
-"绝大多数关于开源人工智能的讨论，都怀着一种令人宽慰的错觉。人们习惯把人工智能模型想象成纯粹而失重的诗篇：仿佛只要有人在 GitHub 上挂一份 MIT "
-"或 Apache 2.0 许可证，那一串代码与数字便能永远自由。"
+"A model can travel as code and learned numbers. The computers that train and"
+" run it are physical machines. An open software license and access to those "
+"machines solve different parts of the problem."
+msgstr "模型可以作为代码和学到的数字传播，训练和运行它的计算机却是实体机器。开放许可与机器的可获得性解决问题的不同部分。"
 
 #: ../../book/index.rst:26
 msgid ""
@@ -142,13 +140,10 @@ msgstr ""
 
 #: ../../book/index.rst:40
 msgid ""
-"Even if software licenses remain free on paper, open-source AI cannot thrive"
-" in a vacuum: if export controls ration the chips needed to train open "
-"models, lock up open silicon blueprints, or price local hardware out of "
-"reach for hospitals and universities, humanity gets nudged back from owning "
-"minds to renting metered corporate cloud windows."
-msgstr ""
-"哪怕软件许可证在纸面上依旧自由，开源人工智能也绝无可能在真空中繁茂生长：一旦出口管制配给甚至卡住训练开源模型所需的算力芯片、锁死开放芯片架构蓝图，或是让医院与大学再也买不起本地部署硬件，全人类就将在不知不觉间被推回老路：从真正拥有心智工具，退化为按量租用科技巨头的云端计费窗口。"
+"A team may have permission to use an open model yet struggle to obtain "
+"suitable computers. Our story therefore follows both the knowledge being "
+"shared and the hardware needed to use it."
+msgstr "团队可能获准使用开放模型，却难以获得合适计算机。因此，我们同时追踪共享的知识及使用知识所需的硬件。"
 
 #: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
@@ -156,43 +151,172 @@ msgstr "堡垒陷阱：双方如何一起受损"
 
 #: ../../book/index.rst:45
 msgid ""
-"The central argument of this book is that broad restrictions on shared "
-"knowledge can leave both countries worse off. We can show one way this "
-"happens with a simple game. We cannot prove that every export control has "
-"this effect merely by choosing numbers for a table."
-msgstr "本书的核心论点是广泛限制共享知识可能使双方更差。简单博弈展示一种机制，但选择一组数字不能证明所有管制都有同样效果。"
+"The hardware problem leads to a political problem. A useful open model "
+"depends on contributions from many teams, yet each government also wants to "
+"protect its country's capabilities. How can choices made for national "
+"advantage end up holding back both sides? We can follow the problem through "
+"a fictional shared workbench."
+msgstr ""
+"硬件问题引出政治问题。实用开放模型依赖许多团队的贡献，而各国政府又想保护本国能力。为争取国家优势作出的选择，为什么可能同时拖慢双方？我们用一张虚构的共享工作台来追踪这个问题。"
 
 #: ../../book/index.rst:47
+msgid "Two Teams, One Shared Starting Point"
+msgstr "两支团队，同一起点"
+
+#: ../../book/index.rst:50
 msgid ""
-"Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
-"Sharing means allowing ordinary research and open-model cooperation; a wall "
-"means broadly restricting it. This deliberately simplifies real policy. "
-"Targeted controls, legitimate security benefits, third countries and unequal"
-" access to chips are not represented in the first example."
+"Imagine a research team in Country A and another in Country B. Both start "
+"from the same publicly available AI model. They want to adapt it for "
+"ordinary local-language work. A's team finds a way to run it with less "
+"memory. B's team develops tests that uncover errors and helps fix them. "
+"These are imagined teams and contributions, not accounts of actual "
+"deployments."
 msgstr ""
-"两国选择  **共享（S）**  或  **筑墙（W）** "
-"。共享代表普通研究合作，筑墙代表广泛限制。这简化了政策，最初没有计入精准管制、安全收益、第三国或不平等算力。"
+"设想A国与B国各有一支研究团队，都从同一公开AI模型出发，改进日常本地语言任务。A队找到减少内存需求的方法，B队开发发现错误的测试并协助修复。这些团队与贡献都是假设，不是实际部署记录。"
 
-#: ../../book/index.rst:51
+#: ../../book/index.rst:52
 msgid ""
-"**Assumptions, not measurements.** The scores below are invented teaching "
-"values. They express preferences within this example, not dollars, measured "
-"innovation or national welfare. The table does not estimate a 70% loss or a "
-"fourfold increase in danger."
-msgstr " **假设，不是测量。**  分数是虚构教学值，代表偏好而非金钱、实测创新或国家福利。表格没有估计70%损失或四倍危险。"
+"If the teams exchange their next improvements, each can build on the other's"
+" work. A receives better testing; B receives a model that needs fewer "
+"resources. Both still need computers, staff and time. Sharing knowledge "
+"helps them use those resources; it does not make physical hardware free."
+msgstr ""
+"如果交换下一轮改进，两队都能利用对方的成果。A得到更好测试，B得到资源需求更少的模型。双方仍需计算机、人员和时间。知识共享帮助利用资源，却不会让实体硬件免费。"
 
-#: ../../book/index.rst:53 ../../book/index.rst:58
+#: ../../book/index.rst:54 ../../book/index.rst:59
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
 "measured outcome."
 msgstr "两队共享部件和知识时能完成计算机，被墙隔开后却难以完成。这是书中假设博弈的示意，不是实测结果。"
 
-#: ../../book/index.rst:62
-msgid "Assumed scores in the teaching game"
-msgstr "教学博弈中的假设得分"
+#: ../../book/index.rst:61
+msgid "Two Choices for Each Government"
+msgstr "每个政府的两个选择"
 
-#: ../../book/index.rst:62
+#: ../../book/index.rst:64
+msgid ""
+"Now the governments make policy for the next round of work. Each wants "
+"useful progress at home. Each also worries about giving the other country an"
+" advantage without receiving anything in return. We simplify their choices "
+"to two:"
+msgstr "现在，政府为下一轮工作制定政策。各国都希望国内取得实用进展，也担心给予对方优势却得不到回报。我们把选择简化为两个："
+
+#: ../../book/index.rst:66
+msgid ""
+"**Share:** Allow the teams' ordinary research improvements to be exchanged."
+msgstr "**共享：**  允许团队交换普通研究改进。"
+
+#: ../../book/index.rst:67
+msgid ""
+"**Wall:** Broadly restrict the country's new contributions from reaching the"
+" other side."
+msgstr "**筑墙：**  广泛限制本国新贡献流向对方。"
+
+#: ../../book/index.rst:69
+msgid ""
+"The wall concerns future contributions. It cannot make copies of an already-"
+"public model disappear. The teams can keep their starting files, but their "
+"next improvements may stop reaching each other. Real export controls offer "
+"many more choices, including narrow restrictions and specific permissions. "
+"We first set those complications aside so we can see one incentive problem "
+"clearly."
+msgstr ""
+"墙针对未来贡献，不能让已经公开的模型副本消失。团队保留起始文件，但下一轮改进可能无法互通。真实管制有更多选择，包括针对性限制与特定许可。我们先暂时放下这些复杂情况，看清一个激励问题。"
+
+#: ../../book/index.rst:71
+msgid "Four Possible Endings, Then Four Scores"
+msgstr "先看四种结局，再看四个得分"
+
+#: ../../book/index.rst:74
+msgid ""
+"We now give the outcomes invented preference scores. A higher score means "
+"that a government prefers that outcome in this story. The scores combine its"
+" assumed concern for useful progress, protection and relative advantage. "
+"They are not AI test results, percentages or measured national gains. "
+"Nothing in the announcement supplies these numbers."
+msgstr ""
+"我们给结局设定虚构的偏好得分。分数越高，表示政府在故事中越偏好这个结果。它综合了假设中的实用进展、保护与相对优势考量。这不是AI测试分、百分比或实测国家收益，公告也没有提供这些数字。"
+
+#: ../../book/index.rst:76
+msgid ""
+"**Both share: 17 each.** A's memory-saving improvement reaches B, and B's "
+"testing and fixes reach A. Both teams improve their work without "
+"independently repeating every discovery. We give each government 17 to "
+"represent a good result from mutual cooperation."
+msgstr ""
+"**双方共享：各17分。**  A的内存优化到达B，B的测试与修复到达A。双方无需独立重复每项发现，就能改进成果。我们用各17分表示相互合作的良好结果。"
+
+#: ../../book/index.rst:78
+msgid ""
+"**A shares while B builds a wall: A gets 3, B gets 20.** B can use A's newly"
+" shared improvement while withholding its own new contribution. We assume B "
+"values that one-sided advantage most, so it gets 20. A gets 3 because we "
+"assume its government dislikes sharing alone while the other country "
+"protects its contribution. A's team can still do useful work; 3 expresses "
+"its government's least-preferred outcome here."
+msgstr ""
+"**A共享，B筑墙：A得3分，B得20分。**  "
+"B利用A新公开的改进，却保留自己的新贡献。我们假设B最偏好这种单边优势，因此给20分。A得3分，因为我们假设A政府不喜欢自己独自共享，而对方保护贡献。A队仍能开展有用工作；3分表示其政府在本例中最不偏好的结局。"
+
+#: ../../book/index.rst:80
+msgid ""
+"**A builds a wall while B shares: A gets 20, B gets 3.** The roles reverse. "
+"A takes the one-sided advantage, while B is the only country sharing. We "
+"give both countries the same assumed priorities so we can see the strategic "
+"problem without assigning today's United States or China to either role."
+msgstr ""
+"**A筑墙，B共享：A得20分，B得3分。**  "
+"角色对调，A获得单边优势，B成为唯一共享的一方。我们赋予两国相同的假设优先次序，以展示战略问题，而不是把今天的美国或中国代入其中一方。"
+
+#: ../../book/index.rst:82
+msgid ""
+"**Both build walls: 5 each.** Neither receives the other's next "
+"contribution. They keep working from the public starting point, but must "
+"repeat more work or go without useful improvements. We assume each "
+"government prefers protecting its contribution to being the only side "
+"sharing, so 5 is above 3. We also assume both value mutual cooperation more "
+"than mutual isolation, so 17 is above 5."
+msgstr ""
+"**双方筑墙：各5分。**  "
+"双方都得不到对方下一轮贡献，仍从公开起点继续工作，但需要更多重复劳动，或失去有用改进。我们假设政府宁愿保护自身贡献，也不愿独自共享，因此5高于3；又假设双方都偏好相互合作胜过彼此隔离，因此17高于5。"
+
+#: ../../book/index.rst:84
+msgid ""
+"The hardest assumption is that **20 is better than 17**: each government "
+"values a one-sided advantage more than shared progress in this round. That "
+"preference creates the temptation to restrict. If a government instead "
+"values mutual progress most, this particular trap may not arise. The numbers"
+" describe an assumed ranking; choosing them does not prove that real "
+"governments have it. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"最关键的假设是  **20优于17** "
+"：政府在这一轮更重视单边优势，而非共同进展。这种偏好带来限制的诱惑。如果政府最看重共同进展，这个特定陷阱可能不会出现。数字只是表达假设的排序，不能证明真实政府具有这种偏好。"
+" `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/index.rst:86
+msgid "Reading the Game Picture"
+msgstr "如何阅读博弈图"
+
+#: ../../book/index.rst:89
+msgid ""
+"Country A's choice selects a row. Country B's choice selects a column. The "
+"box where they meet gives A's score beside the letter A and B's score beside"
+" B. For example, the top-right box means A shares and B builds a wall: A "
+"gets 3 and B gets 20. The green box is mutual sharing; the red box is mutual"
+" restriction."
+msgstr ""
+"A的选择决定一行，B的选择决定一列。交点方格中，字母A旁是A的得分，B旁是B的得分。例如右上格表示A共享、B筑墙：A得3、B得20。绿色格表示相互共享，红色格表示相互限制。"
+
+#: ../../book/index.rst:93
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr "A选行，B选列。双方共享各17分；只有A共享时A得3、B得20；只有B共享时A得20、B得3；双方限制各5分。所有得分都是假设。"
+
+#: ../../book/index.rst:93
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -200,230 +324,198 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"zh_CN\")"
 
-#: ../../book/index.rst:69
-msgid "Reading the Four Outcomes"
-msgstr "读懂四种结果"
-
-#: ../../book/index.rst:72
-msgid ""
-"**Both share:** A gets 17 and B gets 17. In this example, both value the "
-"benefits of exchange."
-msgstr " **双方共享：**  A得17、B得17。例中假定双方重视交流。"
-
-#: ../../book/index.rst:73
-msgid ""
-"**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
-"temporary advantage while still using A's public work."
-msgstr " **A共享、B限制：**  A得3、B得20。假设B仍使用A公开工作并获得短暂优势。"
-
-#: ../../book/index.rst:74
-msgid ""
-"**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
-msgstr " **A限制、B共享：**  A得20、B得3，是镜像情形。"
-
-#: ../../book/index.rst:75
-msgid ""
-"**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
-"duplicated effort outweigh the security benefits of these broad walls."
-msgstr " **双方限制：**  各得5。假设合作损失与重复工作超过这些广泛壁垒的安全收益。"
-
-#: ../../book/index.rst:77
-msgid ""
-"If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
-"the same choices. A wall is therefore each country's best response whatever "
-"the other chooses. Under these assumptions, mutual restriction is a **Nash "
-"equilibrium**: neither can improve its score by changing its choice alone. "
-"Yet both would prefer 17 to 5. This is a **Prisoner's Dilemma**. Mutual "
-"sharing is a **Pareto-efficient** outcome here, but that term does not mean "
-"every country gets its largest possible individual score. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-msgstr ""
-"B共享时，A更喜欢20而非17；B限制时，A更喜欢5而非3。B亦然。因此在这些假设下，相互限制是  **纳什均衡** "
-"，任何一方单独改变都不能提高得分。双方却都更想要17而非5，这就是  **囚徒困境** 。共享在此是帕累托有效，不意味着每方取得最高个人分数。 "
-"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-
-#: ../../book/index.rst:79
-msgid ""
-"The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
-"particular numbers. It identifies a possible strategic trap. It does not "
-"measure the actual costs of US or Chinese policy, and it does not establish "
-"that an outcome outside this small table is impossible."
-msgstr "结论依赖  **20 > 17 > 5 > 3**  的排序而非具体数字。它指出可能的战略陷阱，不测量现实成本，也不排除表外结果。"
-
-#: ../../book/index.rst:81
-msgid "What Could Change the Result?"
-msgstr "什么可能改变结果？"
-
-#: ../../book/index.rst:84
-msgid ""
-"A control that prevents a serious misuse could provide security benefits "
-"large enough to change the ranking. A chip bottleneck, different national "
-"capabilities or an effective agreement could also change incentives. Export "
-"controls do not automatically prevent domestic publication, and public "
-"access does not automatically make a system safe. Those questions need "
-"evidence beyond this example. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-msgstr ""
-"避免严重滥用的管制可能带来足够安全收益，改变排序。芯片瓶颈、能力差异或有效协议也会改变激励。出口管制不自动阻止国内公开，公开也不自动安全；这些问题需额外证据。"
-" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
-"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-
-#: ../../book/index.rst:86
-msgid ""
-"Countries also interact repeatedly. In this simplified game, suppose "
-"cooperation continues while both share, but a deviation earns 20 once and is"
-" followed by 5 forever. Let :math:`\\delta` represent how much a country "
-"values the next round relative to this one. Cooperation is at least as "
-"attractive as that deviation when:"
-msgstr ""
-"国家会反复互动。例中双方共享就继续合作，一次偏离可得20，此后永远得5。:math:`\\delta` "
-"表示下一轮相对当下的价值。合作至少同样有利的条件是："
-
-#: ../../book/index.rst:88
-msgid ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-msgstr ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-
 #: ../../book/index.rst:93
 msgid ""
-"This is a calculation inside the assumed game, not a diplomatic forecast. It"
-" assumes an indefinite relationship, observable choices and a credible "
-"response to deviation. Errors, hidden actions or a known final round can "
-"undermine that strategy. The useful policy question is how to make continued"
-" cooperation credible, rather than treating mistrust as inevitable. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-msgstr ""
-"这是假设博弈内的计算，不是外交预测。它假定无限期关系、可观察选择和可信回应；错误、隐藏行动或已知最后一轮可能破坏策略。关键在如何使持续合作可信。 "
-"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
+msgstr "两队的四种结局。分数是虚构偏好，本例中越高表示越偏好。"
 
-#: ../../book/index.rst:95
-msgid "Why More Review Can Help, Without Guaranteeing Safety"
-msgstr "更多审查可能有益，但不保证安全"
+#: ../../book/index.rst:99
+msgid "Why the Wall Starts to Look Like the Safer Choice"
+msgstr "为什么筑墙开始显得更稳妥"
 
-#: ../../book/index.rst:98
+#: ../../book/index.rst:102
 msgid ""
-"Open access can make independent testing and repair easier. A simple "
-"probability example explains one possible benefit. If a flaw exists with "
-"probability :math:`p_0` and each of :math:`n` teams independently detects it"
-" with probability :math:`q`, then:"
+"A's government considers what B might do. **If B shares**, A compares "
+"sharing for 17 with withholding its own contribution for 20. Under our "
+"assumptions, A chooses the wall to gain the one-sided advantage. In the "
+"picture, this means comparing the two boxes in the left column."
 msgstr ""
-"开放可方便独立测试与修复。若缺陷存在概率为 :math:`p_0`，每个独立团队发现概率为 :math:`q`，共有 :math:`n` 个团队，则："
-
-#: ../../book/index.rst:100
-msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
-msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+"A政府考虑B可能怎么做。 **如果B共享** "
+"，A比较共享得17与保留自身贡献得20。按我们的假设，A选择筑墙以取得单边优势。图中对应左列两个格子的比较。"
 
 #: ../../book/index.rst:104
 msgid ""
-"For a flaw known to exist and an assumed detection chance of one half, one "
-"team misses it with probability 50%, four independent teams with 6.25%, and "
-"ten with about 0.098%. These are conditional calculations. Real teams can "
-"share blind spots, lack testing resources or find a flaw without fixing it. "
-"An undetected-flaw probability is not a measure of total cyber, biological "
-"or societal risk."
-msgstr ""
-"已知存在缺陷且每队发现概率假定一半时，1队漏检50%，4队6.25%，10队约0.098%。这是条件计算。现实团队可能盲点相同、资源不足，或发现后未修复。漏检概率不是总体网络、生物或社会风险。"
+"**If B builds a wall**, A compares sharing alone for 3 with also restricting"
+" for 5. A again chooses the wall, this time to avoid being the only side "
+"sharing. In the picture, this means comparing the two boxes in the right "
+"column."
+msgstr "**如果B筑墙** ，A比较独自共享得3与也实行限制得5。A再次选择墙，这次是为了避免独自共享。图中对应右列两个格子的比较。"
 
 #: ../../book/index.rst:106
 msgid ""
-"Open weights can also help harmful actors modify a system or remove "
-"safeguards. NTIA's 2024 report considered both benefits and risks, "
-"recommending monitoring rather than restricting then-current open weights. "
-"Research on open foundation models stresses the need to compare the extra "
-"risk with existing alternatives. Neither source establishes a universal "
-"safety multiplier for openness. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"B reasons the same way. Each government can tell itself that its wall is "
+"sensible whatever the other does. Both therefore choose walls and receive 5 "
+"each, even though both would prefer the 17 each available through "
+"cooperation. Neither has to want a poorer joint result for that result to "
+"emerge."
 msgstr ""
-"公开权重也可能方便恶意修改或删除防护。NTIA在2024年权衡收益与风险，建议监测当时的开放权重。研究强调比较相对现有替代品的新增风险；两者均未确立普遍的安全倍数。"
-" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
-"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"B也作同样推理。无论对方如何，各国都能认为筑墙合乎自身利益。结果双方筑墙，各得5分，尽管双方都更愿意通过合作各得17分。即使没人希望共同结果变差，这种结果仍可能出现。"
 
 #: ../../book/index.rst:108
 msgid ""
-"Our recommendation is to make controls precise, assess their security "
-"benefit against their cost to cooperation, and protect workable routes for "
-"legitimate open research. That is an argument informed by the evidence, not "
-"a theorem that every restriction harms everyone."
-msgstr "我们主张精准管制，比较安全收益与合作成本，并保护合法开放研究的可行路径。这是基于证据的观点，不是所有限制伤害所有人的定理。"
+"This is the **Prisoner's Dilemma**. The ending is also a **Nash "
+"equilibrium**: with the other wall still in place, neither government "
+"improves its score by changing its choice alone. For A, opening alone would "
+"move its score from 5 down to 3. Mutual sharing needs both to change, or a "
+"change in what makes cooperation worthwhile. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"这就是  **囚徒困境** 。结局也是  **纳什均衡** "
+"：只要另一道墙仍在，任何政府单独改变选择都无法提高得分。A单独开放会从5降到3。相互共享需要双方改变，或改变使合作值得的激励条件。 `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
 #: ../../book/index.rst:110
-msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
-msgstr "本书的核心实证发现：一扇微启的通道，而非封死的高墙"
+msgid "What This Explains About Export Controls"
+msgstr "这如何帮助理解出口管制"
 
 #: ../../book/index.rst:113
 msgid ""
-"When we turn from game theory back to the verified legal texts of November "
-"2026, we find something remarkable: despite alarming headlines, regulators "
-"in both Beijing and Washington have deliberately left real bridges standing "
-"for open-source AI:"
+"The story puts a policy question behind the technical entries in the next "
+"chapters. A government may see protection or bargaining advantage in a broad"
+" restriction. Across both countries, the same restrictions may interrupt "
+"complementary improvements, duplicate effort and make smaller research "
+"teams' work harder. Those are mechanisms to investigate, not costs that our "
+"invented scores have measured."
 msgstr ""
-"当我们从数理博弈论回到截至 2026 年 11 "
-"月经逐字核验的官方文本时，一个值得深思的事实浮现出来：尽管舆论场上的标题惊心动魄，北京与华盛顿的立法者却都不约而同地为开源人工智能特意留出了真实的通行桥梁："
+"故事为后续技术条目提出政策问题。政府可能把广泛限制视为保护或谈判筹码；从两国共同看，同样的限制也可能打断互补改进、增加重复劳动，让小团队更难工作。这些是待研究的机制，不是虚构得分测出的成本。"
 
-#: ../../book/index.rst:115 ../../book/index.rst:120
+#: ../../book/index.rst:115
+msgid ""
+"Real US and Chinese controls are not this symmetric two-choice game. The "
+"countries have different capabilities and legal tools. A reporting duty, a "
+"prohibition, a normal license, a public-information exclusion and an easier "
+"release route can affect cooperation differently. The following chapters "
+"separate those cases. We do not label every filing requirement a wall or "
+"every exclusion a complete freedom to transfer."
+msgstr ""
+"中美实际管制不是这个对称的二选一游戏。两国能力与法律工具不同。申报、禁止、普通许可、公开信息排除与便利发布路径，对合作的影响也不同。后续章节逐一分辨。我们不把所有申报要求都称为墙，也不把任何排除视为完全自由转移。"
+
+#: ../../book/index.rst:117
+msgid ""
+"A narrow control that prevents serious harm could also change the ranking of"
+" outcomes. Public model access has benefits and misuse risks. The policy "
+"task is to identify the specific risk being controlled and the cooperation "
+"being lost, rather than treating either complete openness or broad closure "
+"as an automatic answer. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"能防止严重伤害的针对性管制也可能改变结局排序。公开模型既有益处，也有滥用风险。政策任务是识别所控制的具体风险与所损失的合作，而非自动认定完全开放或广泛封闭就是答案。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/index.rst:119
+msgid "Can the Teams Keep Working Together?"
+msgstr "团队能否继续合作？"
+
+#: ../../book/index.rst:122
+msgid ""
+"Return to the workbench. The teams expect to make another improvement next "
+"month, and another after that. A government that takes a short-term "
+"advantage today may lose access to future cooperation it values. A credible "
+"continuing arrangement can therefore change the choice. Whether that works "
+"depends on observable actions, the value of future exchanges and the "
+"possibility of mistakes; a promise alone does not solve the problem."
+msgstr ""
+"回到工作台。团队预计下月还会改进，之后继续改进。政府今天取得短期优势，可能失去它重视的未来合作。可信且持续的安排因此可能改变选择。是否有效取决于可观察的行动、未来交换价值和出错可能；承诺本身不能解决问题。"
+
+#: ../../book/index.rst:124
+msgid ""
+"We carry one question into the rest of the book: **which rules address a "
+"specific danger while leaving a workable route for the next useful "
+"contribution?** As we examine model files, hardware, medical platforms and "
+"solar equipment, the object being shared changes. The question about lost "
+"cooperation remains. An optional calculation is in :ref:`checking-game-"
+"example`; the story can be followed without it."
+msgstr ""
+"我们带着一个问题阅读全书： **哪些规则既应对具体危险，又为下一项有用贡献留下可行路径？**  "
+"从模型文件到硬件、医疗平台和光伏设备，共享对象不断变化，但合作损失的问题仍在。可选计算见 :ref:`checking-game-"
+"example`，不看公式也能理解故事。"
+
+#: ../../book/index.rst:126
+msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
+msgstr "本书的核心实证发现：一扇微启的通道，而非封死的高墙"
+
+#: ../../book/index.rst:129
+msgid ""
+"The fictional wall hides distinctions that matter in the real rules. Is the "
+"technology already public? Is a new transfer prohibited, restricted or "
+"eligible for an easier route? Announcement 48 and the US rules answer "
+"different questions. We now turn from our imagined workbench to the source "
+"texts:"
+msgstr ""
+"虚构的墙掩盖了真实规则中的重要区别。技术是否已经公开？新转移是禁止、限制，还是能走便利路径？48号公告与美国规则回答不同问题。现在从想象中的工作台转向原始文本："
+
+#: ../../book/index.rst:131 ../../book/index.rst:136
 msgid ""
 "Computing, biomedicine and solar manufacturing, shown through a processor, a"
 " cell and the layers of a solar panel."
 msgstr "处理器、细胞和太阳能板的分层结构，分别展示计算、生物医药和光伏制造。"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:138
 msgid "The 40 proposed technology points"
 msgstr "拟新增的40项技术"
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:142
 msgid "Area"
 msgstr "领域"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:143
 msgid "Proposed prohibited"
 msgstr "拟禁止"
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:144
 msgid "Proposed restricted"
 msgstr "拟限制"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:145
 msgid "AI and computing hardware"
 msgstr "AI及计算硬件"
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:146
 msgid "6"
 msgstr "6"
 
-#: ../../book/index.rst:131
+#: ../../book/index.rst:147
 msgid "17"
 msgstr "17"
 
-#: ../../book/index.rst:132
+#: ../../book/index.rst:148
 msgid "Biomedicine"
 msgstr "生物医药"
 
-#: ../../book/index.rst:133
+#: ../../book/index.rst:149
 msgid "3"
 msgstr "3"
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:150
 msgid "2"
 msgstr "2"
 
-#: ../../book/index.rst:135
+#: ../../book/index.rst:151
 msgid "Solar manufacturing"
 msgstr "光伏制造"
 
-#: ../../book/index.rst:136
+#: ../../book/index.rst:152
 msgid "5"
 msgstr "5"
 
-#: ../../book/index.rst:137
+#: ../../book/index.rst:153
 msgid "7"
 msgstr "7"
 
-#: ../../book/index.rst:139
+#: ../../book/index.rst:155
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -441,7 +533,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:140
+#: ../../book/index.rst:156
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -461,7 +553,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " 。"
 
-#: ../../book/index.rst:141
+#: ../../book/index.rst:157
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -477,11 +569,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:143
+#: ../../book/index.rst:159
 msgid "How to Read This Book"
 msgstr "如何阅读本书"
 
-#: ../../book/index.rst:146
+#: ../../book/index.rst:162
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -489,7 +581,7 @@ msgid ""
 msgstr ""
 "我们为每一位怀抱好奇心的普通读者写下此书（无论你是工程师、科研人员、临床医生、创业者、青年学子、记者还是关心未来的公民），只要你渴望在严谨的一手证据之上读懂清晰生动的真相，都能按图索骥："
 
-#: ../../book/index.rst:148
+#: ../../book/index.rst:164
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -497,7 +589,7 @@ msgstr ""
 ":doc:`announcement` 与 :doc:`atlas` 为您拆解北京第48号公告并行跳动的两套时钟，以及全部  **40 "
 "项受控技术指标**  的通俗地图。"
 
-#: ../../book/index.rst:149
+#: ../../book/index.rst:165
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -505,20 +597,20 @@ msgstr ""
 ":doc:`ai` 带您深入大模型软件配方与硅基芯片、存储及万卡集群底座（ ``266504X`` 、 ``266506X`` 、 "
 "``266507X`` ）。"
 
-#: ../../book/index.rst:150
+#: ../../book/index.rst:166
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
 msgstr ":doc:`open-models` 区分公开发布与私有转移，并把当前义务与提议路径分开。"
 
-#: ../../book/index.rst:151
+#: ../../book/index.rst:167
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
 msgstr ""
 ":doc:`biomedicine` 与 :doc:`solar` 探访鲜活的基因制药平台与光伏制造车间，看核心工艺如何寄身于物理装备之中远渡重洋。"
 
-#: ../../book/index.rst:152
+#: ../../book/index.rst:168
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -531,7 +623,7 @@ msgstr ""
 "commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-"
 "rule-strengthens>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_ 。"
 
-#: ../../book/index.rst:153
+#: ../../book/index.rst:169
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -541,7 +633,7 @@ msgstr ""
 ":doc:`comparison` 将中美两套管制体系并置对照，并附上办理官方审批所需的  "
 "**主管部门、在线申报平台、法定工作日时限，以及逐一核实的电话、传真、邮箱与办公地址名录**  。"
 
-#: ../../book/index.rst:154
+#: ../../book/index.rst:170
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -550,7 +642,7 @@ msgstr ""
 ":doc:`questions` 与 :doc:`sources` 以六个鲜活日常案例、一份平实易懂的术语表，以及截至  **2026 年 11 月 2"
 " 日**  核验无误的全部  **26 份一手官方文献**  收束全书。"
 
-#: ../../book/index.rst:158
+#: ../../book/index.rst:174
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

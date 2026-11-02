@@ -71,11 +71,13 @@ msgstr ""
 
 #: ../../book/index.rst:19
 msgid ""
-"Then the walls began to rise: not only in the sky of software, but deep "
-"underground in the bedrock of silicon."
+"Sharing a model is only the beginning. To turn shared knowledge into a "
+"useful tool, a team also needs computers and a way to keep learning from "
+"other teams."
 msgstr ""
-"Entonces empezaron a levantarse los muros: no solo en el cielo del software,"
-" sino muy hondo bajo tierra, en la roca viva del silicio."
+"Compartir un modelo es solo el comienzo. Para convertir el conocimiento "
+"compartido en una herramienta útil, un equipo también necesita ordenadores y"
+" seguir aprendiendo de otros equipos."
 
 #: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
@@ -84,16 +86,13 @@ msgstr ""
 
 #: ../../book/index.rst:24
 msgid ""
-"Most conversations about open-source AI make a comforting mistake. They "
-"imagine an AI model as pure, weightless poetry: a file of code and numbers "
-"that can stay free forever as long as someone places an MIT or Apache 2.0 "
-"license on GitHub."
+"A model can travel as code and learned numbers. The computers that train and"
+" run it are physical machines. An open software license and access to those "
+"machines solve different parts of the problem."
 msgstr ""
-"Casi todas las conversaciones sobre la IA de código abierto incurren en un "
-"equívoco reconfortante. Imaginan un modelo de inteligencia artificial como "
-"poesía pura e ingrávida: un archivo de código y números llamado a seguir "
-"siendo libre para siempre con tal de que alguien estampe una licencia MIT o "
-"Apache 2.0 en GitHub."
+"Un modelo puede viajar como código y números aprendidos. Los ordenadores que"
+" lo entrenan y ejecutan son máquinas físicas. La licencia abierta y el "
+"acceso a esas máquinas resuelven partes distintas del problema."
 
 #: ../../book/index.rst:26
 msgid ""
@@ -167,19 +166,13 @@ msgstr ""
 
 #: ../../book/index.rst:40
 msgid ""
-"Even if software licenses remain free on paper, open-source AI cannot thrive"
-" in a vacuum: if export controls ration the chips needed to train open "
-"models, lock up open silicon blueprints, or price local hardware out of "
-"reach for hospitals and universities, humanity gets nudged back from owning "
-"minds to renting metered corporate cloud windows."
+"A team may have permission to use an open model yet struggle to obtain "
+"suitable computers. Our story therefore follows both the knowledge being "
+"shared and the hardware needed to use it."
 msgstr ""
-"Aunque las licencias de software sigan siendo libres sobre el papel, la IA "
-"de código abierto no puede prosperar en el vacío: si los controles de "
-"exportación racionan los chips necesarios para entrenar modelos abiertos, "
-"encierran bajo llave los planos abiertos de silicio o encarecen el hardware "
-"local hasta volverlo inalcanzable para hospitales y universidades, la "
-"humanidad se verá empujada de regreso, de ser dueña de sus herramientas "
-"intelectuales a alquilar por minutos ventanillas corporativas en la nube."
+"Un equipo puede tener permiso para usar un modelo abierto y aun así carecer "
+"de ordenadores adecuados. Por eso seguimos tanto el conocimiento compartido "
+"como el hardware necesario para utilizarlo."
 
 #: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
@@ -187,41 +180,50 @@ msgstr "La trampa de la fortaleza: cómo pueden perder ambos"
 
 #: ../../book/index.rst:45
 msgid ""
-"The central argument of this book is that broad restrictions on shared "
-"knowledge can leave both countries worse off. We can show one way this "
-"happens with a simple game. We cannot prove that every export control has "
-"this effect merely by choosing numbers for a table."
+"The hardware problem leads to a political problem. A useful open model "
+"depends on contributions from many teams, yet each government also wants to "
+"protect its country's capabilities. How can choices made for national "
+"advantage end up holding back both sides? We can follow the problem through "
+"a fictional shared workbench."
 msgstr ""
-"El argumento central es que las restricciones amplias al conocimiento pueden"
-" perjudicar a ambos países. Un juego muestra una forma de hacerlo. Elegir "
-"números no demuestra que todo control tenga ese efecto."
+"El problema del hardware conduce a uno político. Un modelo abierto útil "
+"depende de aportaciones de muchos equipos, pero cada gobierno quiere "
+"proteger las capacidades de su país. ¿Cómo pueden decisiones tomadas para "
+"obtener una ventaja nacional acabar frenando a ambos? Lo seguimos mediante "
+"un taller compartido ficticio."
 
 #: ../../book/index.rst:47
-msgid ""
-"Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
-"Sharing means allowing ordinary research and open-model cooperation; a wall "
-"means broadly restricting it. This deliberately simplifies real policy. "
-"Targeted controls, legitimate security benefits, third countries and unequal"
-" access to chips are not represented in the first example."
-msgstr ""
-"Dos países eligen  **Compartir (S)**  o  **Muro (W)** . Simplificamos la "
-"cooperación ordinaria y su restricción amplia. Al principio no modelamos "
-"controles precisos, beneficios de seguridad, terceros ni acceso desigual a "
-"chips."
+msgid "Two Teams, One Shared Starting Point"
+msgstr "Dos equipos y un mismo punto de partida"
 
-#: ../../book/index.rst:51
+#: ../../book/index.rst:50
 msgid ""
-"**Assumptions, not measurements.** The scores below are invented teaching "
-"values. They express preferences within this example, not dollars, measured "
-"innovation or national welfare. The table does not estimate a 70% loss or a "
-"fourfold increase in danger."
+"Imagine a research team in Country A and another in Country B. Both start "
+"from the same publicly available AI model. They want to adapt it for "
+"ordinary local-language work. A's team finds a way to run it with less "
+"memory. B's team develops tests that uncover errors and helps fix them. "
+"These are imagined teams and contributions, not accounts of actual "
+"deployments."
 msgstr ""
-" **Supuestos, no mediciones.**  Los puntos son valores didácticos "
-"inventados. Expresan preferencias, no dinero, innovación medida ni bienestar"
-" nacional. La tabla no estima una pérdida del 70% ni un riesgo cuatro veces "
-"mayor."
+"Imaginemos un equipo en el país A y otro en B. Ambos parten del mismo modelo"
+" público de IA y quieren adaptarlo a tareas habituales en sus lenguas "
+"locales. A encuentra cómo ejecutarlo con menos memoria. B desarrolla pruebas"
+" que descubren errores y ayuda a corregirlos. Los equipos y las aportaciones"
+" son imaginarios; no describen despliegues reales."
 
-#: ../../book/index.rst:53 ../../book/index.rst:58
+#: ../../book/index.rst:52
+msgid ""
+"If the teams exchange their next improvements, each can build on the other's"
+" work. A receives better testing; B receives a model that needs fewer "
+"resources. Both still need computers, staff and time. Sharing knowledge "
+"helps them use those resources; it does not make physical hardware free."
+msgstr ""
+"Si intercambian sus próximas mejoras, cada uno aprovecha el trabajo del "
+"otro. A recibe mejores pruebas; B, un modelo que necesita menos recursos. "
+"Ambos aún requieren ordenadores, personal y tiempo. Compartir conocimiento "
+"ayuda a usar esos recursos, sin convertir el hardware en gratuito."
+
+#: ../../book/index.rst:54 ../../book/index.rst:59
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
@@ -231,11 +233,170 @@ msgstr ""
 " tropiezan cuando los separa un muro. Ilustra el juego supuesto, no un "
 "resultado medido."
 
-#: ../../book/index.rst:62
-msgid "Assumed scores in the teaching game"
-msgstr "Puntos supuestos en el juego didáctico"
+#: ../../book/index.rst:61
+msgid "Two Choices for Each Government"
+msgstr "Dos opciones para cada gobierno"
 
-#: ../../book/index.rst:62
+#: ../../book/index.rst:64
+msgid ""
+"Now the governments make policy for the next round of work. Each wants "
+"useful progress at home. Each also worries about giving the other country an"
+" advantage without receiving anything in return. We simplify their choices "
+"to two:"
+msgstr ""
+"Los gobiernos deciden la política para la siguiente ronda. Cada uno desea "
+"progreso útil en su país y teme dar una ventaja al otro sin recibir nada. "
+"Simplificamos sus opciones a dos:"
+
+#: ../../book/index.rst:66
+msgid ""
+"**Share:** Allow the teams' ordinary research improvements to be exchanged."
+msgstr ""
+"**Compartir:**  Permitir el intercambio de mejoras de investigación "
+"ordinaria de los equipos."
+
+#: ../../book/index.rst:67
+msgid ""
+"**Wall:** Broadly restrict the country's new contributions from reaching the"
+" other side."
+msgstr ""
+"**Muro:**  Restringir ampliamente que las nuevas aportaciones del país "
+"lleguen al otro."
+
+#: ../../book/index.rst:69
+msgid ""
+"The wall concerns future contributions. It cannot make copies of an already-"
+"public model disappear. The teams can keep their starting files, but their "
+"next improvements may stop reaching each other. Real export controls offer "
+"many more choices, including narrow restrictions and specific permissions. "
+"We first set those complications aside so we can see one incentive problem "
+"clearly."
+msgstr ""
+"El muro afecta a aportaciones futuras. No puede hacer desaparecer las copias"
+" de un modelo ya público. Los equipos conservan los archivos iniciales, pero"
+" sus próximas mejoras pueden dejar de llegar al otro. Los controles reales "
+"ofrecen más opciones, incluidas restricciones específicas y permisos. "
+"Primero apartamos esas complicaciones para entender un problema de "
+"incentivos."
+
+#: ../../book/index.rst:71
+msgid "Four Possible Endings, Then Four Scores"
+msgstr "Cuatro finales posibles, después cuatro puntuaciones"
+
+#: ../../book/index.rst:74
+msgid ""
+"We now give the outcomes invented preference scores. A higher score means "
+"that a government prefers that outcome in this story. The scores combine its"
+" assumed concern for useful progress, protection and relative advantage. "
+"They are not AI test results, percentages or measured national gains. "
+"Nothing in the announcement supplies these numbers."
+msgstr ""
+"Asignamos a los resultados puntos de preferencia inventados. Más puntos "
+"significan que un gobierno prefiere ese resultado en el relato. Combinan su "
+"supuesta preocupación por el progreso útil, la protección y la ventaja "
+"relativa. No son pruebas de IA, porcentajes ni ganancias nacionales medidas."
+" El anuncio no proporciona estas cifras."
+
+#: ../../book/index.rst:76
+msgid ""
+"**Both share: 17 each.** A's memory-saving improvement reaches B, and B's "
+"testing and fixes reach A. Both teams improve their work without "
+"independently repeating every discovery. We give each government 17 to "
+"represent a good result from mutual cooperation."
+msgstr ""
+"**Ambos comparten: 17 cada uno.**  La mejora de memoria de A llega a B y las"
+" pruebas y correcciones de B llegan a A. Los dos avanzan sin repetir cada "
+"descubrimiento. Damos 17 a cada gobierno para representar un buen resultado "
+"de cooperación mutua."
+
+#: ../../book/index.rst:78
+msgid ""
+"**A shares while B builds a wall: A gets 3, B gets 20.** B can use A's newly"
+" shared improvement while withholding its own new contribution. We assume B "
+"values that one-sided advantage most, so it gets 20. A gets 3 because we "
+"assume its government dislikes sharing alone while the other country "
+"protects its contribution. A's team can still do useful work; 3 expresses "
+"its government's least-preferred outcome here."
+msgstr ""
+"**A comparte y B levanta un muro: A recibe 3, B recibe 20.**  B usa la nueva"
+" mejora pública de A y retiene su propia aportación. Suponemos que B "
+"prefiere esa ventaja unilateral: recibe 20. A recibe 3 porque suponemos que "
+"su gobierno rechaza compartir solo mientras el otro protege su aportación. "
+"El equipo A sigue haciendo trabajo útil;3 expresa el resultado que su "
+"gobierno menos prefiere aquí."
+
+#: ../../book/index.rst:80
+msgid ""
+"**A builds a wall while B shares: A gets 20, B gets 3.** The roles reverse. "
+"A takes the one-sided advantage, while B is the only country sharing. We "
+"give both countries the same assumed priorities so we can see the strategic "
+"problem without assigning today's United States or China to either role."
+msgstr ""
+"**A levanta un muro y B comparte: A recibe 20, B recibe 3.**  Se invierten "
+"los papeles. A obtiene la ventaja unilateral y B comparte solo. Asignamos a "
+"ambos las mismas prioridades supuestas para mostrar el problema estratégico "
+"sin identificar a ninguno con los actuales Estados Unidos o China."
+
+#: ../../book/index.rst:82
+msgid ""
+"**Both build walls: 5 each.** Neither receives the other's next "
+"contribution. They keep working from the public starting point, but must "
+"repeat more work or go without useful improvements. We assume each "
+"government prefers protecting its contribution to being the only side "
+"sharing, so 5 is above 3. We also assume both value mutual cooperation more "
+"than mutual isolation, so 17 is above 5."
+msgstr ""
+"**Ambos levantan muros:5 cada uno.**  Ninguno recibe la siguiente aportación"
+" del otro. Siguen trabajando desde el punto público inicial, pero repiten "
+"más trabajo o pierden mejoras útiles. Suponemos que cada gobierno prefiere "
+"proteger su aportación a compartir solo:5 supera a 3. También suponemos que "
+"ambos prefieren cooperación mutua a aislamiento:17 supera a 5."
+
+#: ../../book/index.rst:84
+msgid ""
+"The hardest assumption is that **20 is better than 17**: each government "
+"values a one-sided advantage more than shared progress in this round. That "
+"preference creates the temptation to restrict. If a government instead "
+"values mutual progress most, this particular trap may not arise. The numbers"
+" describe an assumed ranking; choosing them does not prove that real "
+"governments have it. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"El supuesto más exigente es que  **20 es mejor que 17** : cada gobierno "
+"valora una ventaja unilateral más que el progreso compartido de esta ronda. "
+"Eso crea la tentación de restringir. Si un gobierno prefiere el progreso "
+"mutuo, esta trampa puede no aparecer. Elegir números describe una "
+"clasificación supuesta; no demuestra que los gobiernos reales la tengan. "
+"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/index.rst:86
+msgid "Reading the Game Picture"
+msgstr "Cómo leer el gráfico del juego"
+
+#: ../../book/index.rst:89
+msgid ""
+"Country A's choice selects a row. Country B's choice selects a column. The "
+"box where they meet gives A's score beside the letter A and B's score beside"
+" B. For example, the top-right box means A shares and B builds a wall: A "
+"gets 3 and B gets 20. The green box is mutual sharing; the red box is mutual"
+" restriction."
+msgstr ""
+"La decisión de A elige una fila y la de B una columna. Su intersección "
+"muestra la puntuación de A junto a A y la de B junto a B. Arriba a la "
+"derecha, A comparte y B restringe: A recibe 3 y B 20. La casilla verde "
+"representa compartir mutuamente y la roja restringir mutuamente."
+
+#: ../../book/index.rst:93
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr ""
+"A elige fila y B columna. Compartir ambos da 17 a cada uno. Si solo A "
+"comparte, A recibe 3 y B 20. Si solo B comparte, A recibe 20 y B 3. "
+"Restringir ambos da 5 a cada uno. Todas las puntuaciones son supuestas."
+
+#: ../../book/index.rst:93
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -243,208 +404,176 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"es\")"
 
-#: ../../book/index.rst:69
-msgid "Reading the Four Outcomes"
-msgstr "Leer los cuatro resultados"
-
-#: ../../book/index.rst:72
-msgid ""
-"**Both share:** A gets 17 and B gets 17. In this example, both value the "
-"benefits of exchange."
-msgstr ""
-" **Ambos comparten:**  A recibe 17 y B recibe 17. Suponemos que ambos "
-"valoran el intercambio."
-
-#: ../../book/index.rst:73
-msgid ""
-"**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
-"temporary advantage while still using A's public work."
-msgstr ""
-" **A comparte, B restringe:**  A recibe 3 y B 20. Suponemos una ventaja "
-"temporal para B, que usa el trabajo público de A."
-
-#: ../../book/index.rst:74
-msgid ""
-"**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
-msgstr ""
-" **A restringe, B comparte:**  A recibe 20 y B 3. Es el caso simétrico."
-
-#: ../../book/index.rst:75
-msgid ""
-"**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
-"duplicated effort outweigh the security benefits of these broad walls."
-msgstr ""
-" **Ambos restringen:**  Cada uno recibe 5. Suponemos que cooperación perdida"
-" y duplicación cuestan más que el beneficio de estos muros."
-
-#: ../../book/index.rst:77
-msgid ""
-"If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
-"the same choices. A wall is therefore each country's best response whatever "
-"the other chooses. Under these assumptions, mutual restriction is a **Nash "
-"equilibrium**: neither can improve its score by changing its choice alone. "
-"Yet both would prefer 17 to 5. This is a **Prisoner's Dilemma**. Mutual "
-"sharing is a **Pareto-efficient** outcome here, but that term does not mean "
-"every country gets its largest possible individual score. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-msgstr ""
-"Si B comparte, A prefiere 20 a 17. Si B restringe, prefiere 5 a 3. B razona "
-"igual. Bajo estos supuestos, ambos restringen en un  **equilibrio de Nash** "
-": nadie mejora cambiando solo. Ambos preferirían 17 a 5. Es un  **dilema del"
-" prisionero** . Compartir es eficiente en el sentido de Pareto aquí, no el "
-"máximo individual de cada uno. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
-
-#: ../../book/index.rst:79
-msgid ""
-"The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
-"particular numbers. It identifies a possible strategic trap. It does not "
-"measure the actual costs of US or Chinese policy, and it does not establish "
-"that an outcome outside this small table is impossible."
-msgstr ""
-"La conclusión depende del orden  **20 > 17 > 5 > 3** , no de las cifras "
-"exactas. Explica una posible trampa, no costes reales ni la imposibilidad de"
-" resultados fuera de esta tabla."
-
-#: ../../book/index.rst:81
-msgid "What Could Change the Result?"
-msgstr "¿Qué cambiaría el resultado?"
-
-#: ../../book/index.rst:84
-msgid ""
-"A control that prevents a serious misuse could provide security benefits "
-"large enough to change the ranking. A chip bottleneck, different national "
-"capabilities or an effective agreement could also change incentives. Export "
-"controls do not automatically prevent domestic publication, and public "
-"access does not automatically make a system safe. Those questions need "
-"evidence beyond this example. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-msgstr ""
-"Una medida que evite un abuso grave puede cambiar las preferencias. También "
-"lo harían un cuello de botella, capacidades distintas o un acuerdo eficaz. "
-"Controlar exportaciones no impide automáticamente publicar dentro del país; "
-"publicar tampoco garantiza seguridad. Hace falta más evidencia. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-
-#: ../../book/index.rst:86
-msgid ""
-"Countries also interact repeatedly. In this simplified game, suppose "
-"cooperation continues while both share, but a deviation earns 20 once and is"
-" followed by 5 forever. Let :math:`\\delta` represent how much a country "
-"values the next round relative to this one. Cooperation is at least as "
-"attractive as that deviation when:"
-msgstr ""
-"Los países interactúan repetidamente. Supongamos cooperación mientras ambos "
-"compartan; desviarse da 20 una vez y después 5 para siempre. :math:`\\delta`"
-" expresa cuánto se valora la siguiente ronda. Cooperar resulta al menos "
-"igual de atractivo cuando:"
-
-#: ../../book/index.rst:88
-msgid ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-msgstr ""
-"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
-"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
-
 #: ../../book/index.rst:93
 msgid ""
-"This is a calculation inside the assumed game, not a diplomatic forecast. It"
-" assumes an indefinite relationship, observable choices and a credible "
-"response to deviation. Errors, hidden actions or a known final round can "
-"undermine that strategy. The useful policy question is how to make continued"
-" cooperation credible, rather than treating mistrust as inevitable. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
 msgstr ""
-"Es un cálculo del juego, no una predicción diplomática. Supone una relación "
-"indefinida, decisiones observables y respuesta creíble. Errores, acciones "
-"ocultas o una última ronda conocida pueden romper la estrategia. La pregunta"
-" útil es cómo hacer creíble cooperar. `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"Cuatro finales para los dos equipos. Los puntos son preferencias inventadas;"
+" más alto significa preferido dentro del ejemplo."
 
-#: ../../book/index.rst:95
-msgid "Why More Review Can Help, Without Guaranteeing Safety"
-msgstr "Más revisión puede ayudar sin garantizar seguridad"
+#: ../../book/index.rst:99
+msgid "Why the Wall Starts to Look Like the Safer Choice"
+msgstr "Por qué el muro empieza a parecer la opción más segura"
 
-#: ../../book/index.rst:98
+#: ../../book/index.rst:102
 msgid ""
-"Open access can make independent testing and repair easier. A simple "
-"probability example explains one possible benefit. If a flaw exists with "
-"probability :math:`p_0` and each of :math:`n` teams independently detects it"
-" with probability :math:`q`, then:"
+"A's government considers what B might do. **If B shares**, A compares "
+"sharing for 17 with withholding its own contribution for 20. Under our "
+"assumptions, A chooses the wall to gain the one-sided advantage. In the "
+"picture, this means comparing the two boxes in the left column."
 msgstr ""
-"El acceso abierto facilita pruebas y reparaciones. Si existe un defecto con "
-"probabilidad :math:`p_0` y cada uno de :math:`n` equipos lo detecta de forma"
-" independiente con probabilidad :math:`q`, entonces:"
-
-#: ../../book/index.rst:100
-msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
-msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+"El gobierno A considera qué hará B.  **Si B comparte** , A compara compartir"
+" por 17 con retener su aportación por 20. Según nuestros supuestos, elige el"
+" muro para obtener la ventaja unilateral. En el gráfico comparamos las dos "
+"casillas de la columna izquierda."
 
 #: ../../book/index.rst:104
 msgid ""
-"For a flaw known to exist and an assumed detection chance of one half, one "
-"team misses it with probability 50%, four independent teams with 6.25%, and "
-"ten with about 0.098%. These are conditional calculations. Real teams can "
-"share blind spots, lack testing resources or find a flaw without fixing it. "
-"An undetected-flaw probability is not a measure of total cyber, biological "
-"or societal risk."
+"**If B builds a wall**, A compares sharing alone for 3 with also restricting"
+" for 5. A again chooses the wall, this time to avoid being the only side "
+"sharing. In the picture, this means comparing the two boxes in the right "
+"column."
 msgstr ""
-"Para un defecto existente y detección supuesta de la mitad, un equipo falla "
-"el 50%, cuatro el 6,25% y diez cerca del 0,098%. Son cálculos condicionales."
-" Equipos reales comparten puntos ciegos, carecen de recursos o no corrigen "
-"lo detectado. Esto no mide todo riesgo social, biológico o cibernético."
+"**Si B levanta un muro** , A compara compartir solo por 3 con restringir "
+"también por 5. A vuelve a elegir el muro, esta vez para evitar compartir "
+"solo. Comparamos las dos casillas de la columna derecha."
 
 #: ../../book/index.rst:106
 msgid ""
-"Open weights can also help harmful actors modify a system or remove "
-"safeguards. NTIA's 2024 report considered both benefits and risks, "
-"recommending monitoring rather than restricting then-current open weights. "
-"Research on open foundation models stresses the need to compare the extra "
-"risk with existing alternatives. Neither source establishes a universal "
-"safety multiplier for openness. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"B reasons the same way. Each government can tell itself that its wall is "
+"sensible whatever the other does. Both therefore choose walls and receive 5 "
+"each, even though both would prefer the 17 each available through "
+"cooperation. Neither has to want a poorer joint result for that result to "
+"emerge."
 msgstr ""
-"Los pesos abiertos también permiten modificaciones dañinas o retirar "
-"salvaguardas. NTIA en 2024 consideró beneficios y riesgos y recomendó "
-"vigilar los pesos de entonces. La investigación pide comparar el riesgo "
-"añadido con alternativas existentes. Ninguna fuente establece un "
-"multiplicador universal de seguridad. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"B razona igual. Cada gobierno puede decirse que su muro es sensato haga lo "
+"que haga el otro. Ambos terminan con muros y 5 puntos cada uno, aunque "
+"prefieran los 17 de cooperar. No necesitan desear un peor resultado conjunto"
+" para producirlo."
 
 #: ../../book/index.rst:108
 msgid ""
-"Our recommendation is to make controls precise, assess their security "
-"benefit against their cost to cooperation, and protect workable routes for "
-"legitimate open research. That is an argument informed by the evidence, not "
-"a theorem that every restriction harms everyone."
+"This is the **Prisoner's Dilemma**. The ending is also a **Nash "
+"equilibrium**: with the other wall still in place, neither government "
+"improves its score by changing its choice alone. For A, opening alone would "
+"move its score from 5 down to 3. Mutual sharing needs both to change, or a "
+"change in what makes cooperation worthwhile. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 msgstr ""
-"Recomendamos precisión, comparar seguridad y coste de cooperación y mantener"
-" rutas reales para investigación legítima. Es un argumento informado, no un "
-"teorema de que toda restricción perjudique a todos."
+"Es el  **dilema del prisionero** . El final también es un  **equilibrio de "
+"Nash** : mientras el otro muro siga, ningún gobierno mejora cambiando solo "
+"su propia decisión. Si A abre solo, baja de 5 a 3. La cooperación requiere "
+"que ambos cambien o que cambien los incentivos para cooperar. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
 #: ../../book/index.rst:110
+msgid "What This Explains About Export Controls"
+msgstr "Qué explica esto sobre los controles de exportación"
+
+#: ../../book/index.rst:113
+msgid ""
+"The story puts a policy question behind the technical entries in the next "
+"chapters. A government may see protection or bargaining advantage in a broad"
+" restriction. Across both countries, the same restrictions may interrupt "
+"complementary improvements, duplicate effort and make smaller research "
+"teams' work harder. Those are mechanisms to investigate, not costs that our "
+"invented scores have measured."
+msgstr ""
+"El relato plantea una pregunta política detrás de las entradas técnicas de "
+"los próximos capítulos. Un gobierno puede ver protección o ventaja "
+"negociadora en una restricción amplia. En ambos países, esas restricciones "
+"pueden interrumpir mejoras complementarias, duplicar esfuerzos y dificultar "
+"el trabajo de equipos pequeños. Son mecanismos que investigar, no costes "
+"medidos por nuestros puntos."
+
+#: ../../book/index.rst:115
+msgid ""
+"Real US and Chinese controls are not this symmetric two-choice game. The "
+"countries have different capabilities and legal tools. A reporting duty, a "
+"prohibition, a normal license, a public-information exclusion and an easier "
+"release route can affect cooperation differently. The following chapters "
+"separate those cases. We do not label every filing requirement a wall or "
+"every exclusion a complete freedom to transfer."
+msgstr ""
+"Los controles estadounidenses y chinos no son este juego simétrico de dos "
+"opciones. Tienen capacidades e instrumentos legales distintos. Declaración, "
+"prohibición, licencia normal, exclusión de información pública y publicación"
+" facilitada afectan de distintas formas a la cooperación. Los próximos "
+"capítulos las separan. No llamamos muro a todo trámite ni libertad completa "
+"a toda exclusión."
+
+#: ../../book/index.rst:117
+msgid ""
+"A narrow control that prevents serious harm could also change the ranking of"
+" outcomes. Public model access has benefits and misuse risks. The policy "
+"task is to identify the specific risk being controlled and the cooperation "
+"being lost, rather than treating either complete openness or broad closure "
+"as an automatic answer. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"Un control específico que evite daños graves puede cambiar las preferencias."
+" El acceso público a modelos tiene beneficios y riesgos de uso indebido. "
+"Debemos identificar el riesgo controlado y la cooperación perdida, sin "
+"aceptar automáticamente ni apertura total ni cierre amplio. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/index.rst:119
+msgid "Can the Teams Keep Working Together?"
+msgstr "¿Pueden seguir colaborando los equipos?"
+
+#: ../../book/index.rst:122
+msgid ""
+"Return to the workbench. The teams expect to make another improvement next "
+"month, and another after that. A government that takes a short-term "
+"advantage today may lose access to future cooperation it values. A credible "
+"continuing arrangement can therefore change the choice. Whether that works "
+"depends on observable actions, the value of future exchanges and the "
+"possibility of mistakes; a promise alone does not solve the problem."
+msgstr ""
+"Volvemos al taller. Los equipos esperan otra mejora el próximo mes y otra "
+"después. Un gobierno que aprovecha una ventaja inmediata puede perder "
+"cooperación futura que valora. Un acuerdo continuo creíble puede cambiar su "
+"elección. Depende de acciones observables, del valor de intercambios futuros"
+" y de errores posibles; una promesa sola no basta."
+
+#: ../../book/index.rst:124
+msgid ""
+"We carry one question into the rest of the book: **which rules address a "
+"specific danger while leaving a workable route for the next useful "
+"contribution?** As we examine model files, hardware, medical platforms and "
+"solar equipment, the object being shared changes. The question about lost "
+"cooperation remains. An optional calculation is in :ref:`checking-game-"
+"example`; the story can be followed without it."
+msgstr ""
+"Llevamos una pregunta al resto del libro:  **¿qué normas abordan un peligro "
+"concreto y dejan una vía viable para la siguiente aportación útil?**  Cambia"
+" lo compartido al estudiar modelos, hardware, plataformas médicas y equipos "
+"solares. Permanece la pregunta por la cooperación perdida. El cálculo "
+"opcional está en :ref:`checking-game-example`; el relato se entiende sin él."
+
+#: ../../book/index.rst:126
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr ""
 "El hallazgo documental central: una puerta entreabierta, no un muro sellado"
 
-#: ../../book/index.rst:113
+#: ../../book/index.rst:129
 msgid ""
-"When we turn from game theory back to the verified legal texts of November "
-"2026, we find something remarkable: despite alarming headlines, regulators "
-"in both Beijing and Washington have deliberately left real bridges standing "
-"for open-source AI:"
+"The fictional wall hides distinctions that matter in the real rules. Is the "
+"technology already public? Is a new transfer prohibited, restricted or "
+"eligible for an easier route? Announcement 48 and the US rules answer "
+"different questions. We now turn from our imagined workbench to the source "
+"texts:"
 msgstr ""
-"Cuando volvemos la mirada de la teoría de juegos hacia los textos jurídicos "
-"verificados a noviembre de 2026, descubrimos algo notable: pese al estrépito"
-" de los titulares, los reguladores tanto en Pekín como en Washington han "
-"dejado deliberadamente en pie puentes reales para la IA de código abierto:"
+"El muro ficticio oculta distinciones esenciales de las normas reales. ¿La "
+"tecnología ya es pública? ¿La nueva transferencia está prohibida, "
+"restringida o puede usar una vía facilitada? El Anuncio 48 y las normas "
+"estadounidenses responden preguntas distintas. Pasamos del taller imaginado "
+"a las fuentes:"
 
-#: ../../book/index.rst:115 ../../book/index.rst:120
+#: ../../book/index.rst:131 ../../book/index.rst:136
 msgid ""
 "Computing, biomedicine and solar manufacturing, shown through a processor, a"
 " cell and the layers of a solar panel."
@@ -452,59 +581,59 @@ msgstr ""
 "Un procesador, una célula y las capas de un panel muestran computación, "
 "biomedicina y fabricación solar."
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:138
 msgid "The 40 proposed technology points"
 msgstr "Los40 puntos tecnológicos propuestos"
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:142
 msgid "Area"
 msgstr "Área"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:143
 msgid "Proposed prohibited"
 msgstr "Prohibición propuesta"
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:144
 msgid "Proposed restricted"
 msgstr "Restricción propuesta"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:145
 msgid "AI and computing hardware"
 msgstr "IA y hardware de cómputo"
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:146
 msgid "6"
 msgstr "6"
 
-#: ../../book/index.rst:131
+#: ../../book/index.rst:147
 msgid "17"
 msgstr "17"
 
-#: ../../book/index.rst:132
+#: ../../book/index.rst:148
 msgid "Biomedicine"
 msgstr "Biomedicina"
 
-#: ../../book/index.rst:133
+#: ../../book/index.rst:149
 msgid "3"
 msgstr "3"
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:150
 msgid "2"
 msgstr "2"
 
-#: ../../book/index.rst:135
+#: ../../book/index.rst:151
 msgid "Solar manufacturing"
 msgstr "Fabricación solar"
 
-#: ../../book/index.rst:136
+#: ../../book/index.rst:152
 msgid "5"
 msgstr "5"
 
-#: ../../book/index.rst:137
+#: ../../book/index.rst:153
 msgid "7"
 msgstr "7"
 
-#: ../../book/index.rst:139
+#: ../../book/index.rst:155
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -524,7 +653,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:140
+#: ../../book/index.rst:156
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -548,7 +677,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/index.rst:141
+#: ../../book/index.rst:157
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -566,11 +695,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:143
+#: ../../book/index.rst:159
 msgid "How to Read This Book"
 msgstr "Cómo leer este libro"
 
-#: ../../book/index.rst:146
+#: ../../book/index.rst:162
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -580,7 +709,7 @@ msgstr ""
 " investigadores, médicos, fundadores, estudiantes, periodistas y ciudadanos)"
 " que buscan claridad viva respaldada por pruebas primarias verificadas:"
 
-#: ../../book/index.rst:148
+#: ../../book/index.rst:164
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -588,7 +717,7 @@ msgstr ""
 ":doc:`announcement` y :doc:`atlas` desglosan el Anuncio 48 de Pekín, sus dos"
 " relojes paralelos y las  **40 tecnologías custodiadas** ."
 
-#: ../../book/index.rst:149
+#: ../../book/index.rst:165
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -596,7 +725,7 @@ msgstr ""
 ":doc:`ai` se adentra tanto en la receta del software como en los cimientos "
 "de silicio y hardware (``266504X``, ``266506X``, ``266507X``)."
 
-#: ../../book/index.rst:150
+#: ../../book/index.rst:166
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
@@ -604,7 +733,7 @@ msgstr ""
 ":doc:`open-models` distingue publicaciones públicas y transferencias "
 "privadas, y separa las obligaciones actuales de las vías propuestas."
 
-#: ../../book/index.rst:151
+#: ../../book/index.rst:167
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
@@ -613,7 +742,7 @@ msgstr ""
 "la maquinaria fotovoltaica en las que el saber hacer viaja encarnado dentro "
 "de equipos físicos."
 
-#: ../../book/index.rst:152
+#: ../../book/index.rst:168
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -628,7 +757,7 @@ msgstr ""
 "intelligence-diffusion-rule-strengthens>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_."
 
-#: ../../book/index.rst:153
+#: ../../book/index.rst:169
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -640,7 +769,7 @@ msgstr ""
 "números verificados de teléfono, fax, correo electrónico y direcciones "
 "postales**  para obtener autorización oficial."
 
-#: ../../book/index.rst:154
+#: ../../book/index.rst:170
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -650,7 +779,7 @@ msgstr ""
 "cotidianas, un glosario en lenguaje claro y el registro íntegro de las  **26"
 " fuentes primarias**  verificadas a  **2 de noviembre de 2026** ."
 
-#: ../../book/index.rst:158
+#: ../../book/index.rst:174
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

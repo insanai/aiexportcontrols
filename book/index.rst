@@ -16,12 +16,12 @@ An idea can be shared without using it up. Thomas Jefferson expressed this in an
 
 Open-weight models can give researchers and smaller organizations more control over how they use AI. A clinic, a language project or a university might adapt a public model on its own computers. These are illustrative uses, not documented deployments or proof that a model is clinically safe. Downloadable weights also differ from the fuller requirements of the Open Source AI Definition. `OSI <https://opensource.org/ai/open-source-ai-definition>`_ `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN <https://github.com/QwenLM/Qwen3>`_
 
-Then the walls began to rise: not only in the sky of software, but deep underground in the bedrock of silicon.
+Sharing a model is only the beginning. To turn shared knowledge into a useful tool, a team also needs computers and a way to keep learning from other teams.
 
 Not Just Software or Weights: The Hardware Beneath Open Minds
 =============================================================
 
-Most conversations about open-source AI make a comforting mistake. They imagine an AI model as pure, weightless poetry: a file of code and numbers that can stay free forever as long as someone places an MIT or Apache 2.0 license on GitHub.
+A model can travel as code and learned numbers. The computers that train and run it are physical machines. An open software license and access to those machines solve different parts of the problem.
 
 Open models depend on physical computers. Large training runs can need advanced processors, memory and fast networks; smaller models can run on less demanding equipment. Not every open-model user needs the latest manufacturing process or a cluster of ten thousand cards. Controls on scarce hardware can nevertheless affect which teams can train, inspect and deploy models.
 
@@ -37,18 +37,21 @@ Open models depend on physical computers. Large training runs can need advanced 
 
 .. important::
 
-   Even if software licenses remain free on paper, open-source AI cannot thrive in a vacuum: if export controls ration the chips needed to train open models, lock up open silicon blueprints, or price local hardware out of reach for hospitals and universities, humanity gets nudged back from owning minds to renting metered corporate cloud windows.
+   A team may have permission to use an open model yet struggle to obtain suitable computers. Our story therefore follows both the knowledge being shared and the hardware needed to use it.
+
+.. _shared-workbench-story:
 
 The Fortress Trap: How Both Sides Can Lose
 ==========================================
 
-The central argument of this book is that broad restrictions on shared knowledge can leave both countries worse off. We can show one way this happens with a simple game. We cannot prove that every export control has this effect merely by choosing numbers for a table.
+The hardware problem leads to a political problem. A useful open model depends on contributions from many teams, yet each government also wants to protect its country's capabilities. How can choices made for national advantage end up holding back both sides? We can follow the problem through a fictional shared workbench.
 
-Imagine two countries choosing between **Share (S)** and **Wall (W)**. Sharing means allowing ordinary research and open-model cooperation; a wall means broadly restricting it. This deliberately simplifies real policy. Targeted controls, legitimate security benefits, third countries and unequal access to chips are not represented in the first example.
+Two Teams, One Shared Starting Point
+------------------------------------
 
-.. note::
+Imagine a research team in Country A and another in Country B. Both start from the same publicly available AI model. They want to adapt it for ordinary local-language work. A's team finds a way to run it with less memory. B's team develops tests that uncover errors and helps fix them. These are imagined teams and contributions, not accounts of actual deployments.
 
-   **Assumptions, not measurements.** The scores below are invented teaching values. They express preferences within this example, not dollars, measured innovation or national welfare. The table does not estimate a 70% loss or a fourfold increase in danger.
+If the teams exchange their next improvements, each can build on the other's work. A receives better testing; B receives a model that needs fewer resources. Both still need computers, staff and time. Sharing knowledge helps them use those resources; it does not make physical hardware free.
 
 .. figure:: assets/illustrations/cooperation.jpg
    :name: fig-game-theory
@@ -57,60 +60,75 @@ Imagine two countries choosing between **Share (S)** and **Wall (W)**. Sharing m
 
    Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
 
+Two Choices for Each Government
+-------------------------------
+
+Now the governments make policy for the next round of work. Each wants useful progress at home. Each also worries about giving the other country an advantage without receiving anything in return. We simplify their choices to two:
+
+* **Share:** Allow the teams' ordinary research improvements to be exchanged.
+* **Wall:** Broadly restrict the country's new contributions from reaching the other side.
+
+The wall concerns future contributions. It cannot make copies of an already-public model disappear. The teams can keep their starting files, but their next improvements may stop reaching each other. Real export controls offer many more choices, including narrow restrictions and specific permissions. We first set those complications aside so we can see one incentive problem clearly.
+
+Four Possible Endings, Then Four Scores
+----------------------------------------
+
+We now give the outcomes invented preference scores. A higher score means that a government prefers that outcome in this story. The scores combine its assumed concern for useful progress, protection and relative advantage. They are not AI test results, percentages or measured national gains. Nothing in the announcement supplies these numbers.
+
+**Both share: 17 each.** A's memory-saving improvement reaches B, and B's testing and fixes reach A. Both teams improve their work without independently repeating every discovery. We give each government 17 to represent a good result from mutual cooperation.
+
+**A shares while B builds a wall: A gets 3, B gets 20.** B can use A's newly shared improvement while withholding its own new contribution. We assume B values that one-sided advantage most, so it gets 20. A gets 3 because we assume its government dislikes sharing alone while the other country protects its contribution. A's team can still do useful work; 3 expresses its government's least-preferred outcome here.
+
+**A builds a wall while B shares: A gets 20, B gets 3.** The roles reverse. A takes the one-sided advantage, while B is the only country sharing. We give both countries the same assumed priorities so we can see the strategic problem without assigning today's United States or China to either role.
+
+**Both build walls: 5 each.** Neither receives the other's next contribution. They keep working from the public starting point, but must repeat more work or go without useful improvements. We assume each government prefers protecting its contribution to being the only side sharing, so 5 is above 3. We also assume both value mutual cooperation more than mutual isolation, so 17 is above 5.
+
+The hardest assumption is that **20 is better than 17**: each government values a one-sided advantage more than shared progress in this round. That preference creates the temptation to restrict. If a government instead values mutual progress most, this particular trap may not arise. The numbers describe an assumed ranking; choosing them does not prove that real governments have it. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+
+Reading the Game Picture
+-------------------------
+
+Country A's choice selects a row. Country B's choice selects a column. The box where they meet gives A's score beside the letter A and B's score beside B. For example, the top-right box means A shares and B builds a wall: A gets 3 and B gets 20. The green box is mutual sharing; the red box is mutual restriction.
+
 .. typst-diagram::
    :name: fig-game-scores
-   :caption: Assumed scores in the teaching game
-   :alt: Assumed scores in the teaching game
+   :caption: Four endings for the two teams. The scores are invented preferences; higher means preferred within this example.
+   :alt: A chooses a row and B a column. Both sharing gives 17 each. A alone sharing gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting gives 5 each. All scores are assumptions.
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
 
+Why the Wall Starts to Look Like the Safer Choice
+-------------------------------------------------
 
-Reading the Four Outcomes
---------------------------
+A's government considers what B might do. **If B shares**, A compares sharing for 17 with withholding its own contribution for 20. Under our assumptions, A chooses the wall to gain the one-sided advantage. In the picture, this means comparing the two boxes in the left column.
 
-* **Both share:** A gets 17 and B gets 17. In this example, both value the benefits of exchange.
-* **A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a temporary advantage while still using A's public work.
-* **A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image.
-* **Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and duplicated effort outweigh the security benefits of these broad walls.
+**If B builds a wall**, A compares sharing alone for 3 with also restricting for 5. A again chooses the wall, this time to avoid being the only side sharing. In the picture, this means comparing the two boxes in the right column.
 
-If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces the same choices. A wall is therefore each country's best response whatever the other chooses. Under these assumptions, mutual restriction is a **Nash equilibrium**: neither can improve its score by changing its choice alone. Yet both would prefer 17 to 5. This is a **Prisoner's Dilemma**. Mutual sharing is a **Pareto-efficient** outcome here, but that term does not mean every country gets its largest possible individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+B reasons the same way. Each government can tell itself that its wall is sensible whatever the other does. Both therefore choose walls and receive 5 each, even though both would prefer the 17 each available through cooperation. Neither has to want a poorer joint result for that result to emerge.
 
-The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those particular numbers. It identifies a possible strategic trap. It does not measure the actual costs of US or Chinese policy, and it does not establish that an outcome outside this small table is impossible.
+This is the **Prisoner's Dilemma**. The ending is also a **Nash equilibrium**: with the other wall still in place, neither government improves its score by changing its choice alone. For A, opening alone would move its score from 5 down to 3. Mutual sharing needs both to change, or a change in what makes cooperation worthwhile. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
 
-What Could Change the Result?
-------------------------------
+What This Explains About Export Controls
+-----------------------------------------
 
-A control that prevents a serious misuse could provide security benefits large enough to change the ranking. A chip bottleneck, different national capabilities or an effective agreement could also change incentives. Export controls do not automatically prevent domestic publication, and public access does not automatically make a system safe. Those questions need evidence beyond this example. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
+The story puts a policy question behind the technical entries in the next chapters. A government may see protection or bargaining advantage in a broad restriction. Across both countries, the same restrictions may interrupt complementary improvements, duplicate effort and make smaller research teams' work harder. Those are mechanisms to investigate, not costs that our invented scores have measured.
 
-Countries also interact repeatedly. In this simplified game, suppose cooperation continues while both share, but a deviation earns 20 once and is followed by 5 forever. Let :math:`\delta` represent how much a country values the next round relative to this one. Cooperation is at least as attractive as that deviation when:
+Real US and Chinese controls are not this symmetric two-choice game. The countries have different capabilities and legal tools. A reporting duty, a prohibition, a normal license, a public-information exclusion and an easier release route can affect cooperation differently. The following chapters separate those cases. We do not label every filing requirement a wall or every exclusion a complete freedom to transfer.
 
-.. math::
+A narrow control that prevents serious harm could also change the ranking of outcomes. Public model access has benefits and misuse risks. The policy task is to identify the specific risk being controlled and the cooperation being lost, rather than treating either complete openness or broad closure as an automatic answer. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
 
-   \frac{17}{1-\delta} \ge 20 + \frac{5\delta}{1-\delta}
-   \quad\Longleftrightarrow\quad \delta \ge \frac{1}{5}
+Can the Teams Keep Working Together?
+--------------------------------------
 
-This is a calculation inside the assumed game, not a diplomatic forecast. It assumes an indefinite relationship, observable choices and a credible response to deviation. Errors, hidden actions or a known final round can undermine that strategy. The useful policy question is how to make continued cooperation credible, rather than treating mistrust as inevitable. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+Return to the workbench. The teams expect to make another improvement next month, and another after that. A government that takes a short-term advantage today may lose access to future cooperation it values. A credible continuing arrangement can therefore change the choice. Whether that works depends on observable actions, the value of future exchanges and the possibility of mistakes; a promise alone does not solve the problem.
 
-Why More Review Can Help, Without Guaranteeing Safety
------------------------------------------------------
-
-Open access can make independent testing and repair easier. A simple probability example explains one possible benefit. If a flaw exists with probability :math:`p_0` and each of :math:`n` teams independently detects it with probability :math:`q`, then:
-
-.. math::
-
-   P(\text{flaw remains undetected}) = p_0(1-q)^n
-
-For a flaw known to exist and an assumed detection chance of one half, one team misses it with probability 50%, four independent teams with 6.25%, and ten with about 0.098%. These are conditional calculations. Real teams can share blind spots, lack testing resources or find a flaw without fixing it. An undetected-flaw probability is not a measure of total cyber, biological or societal risk.
-
-Open weights can also help harmful actors modify a system or remove safeguards. NTIA's 2024 report considered both benefits and risks, recommending monitoring rather than restricting then-current open weights. Research on open foundation models stresses the need to compare the extra risk with existing alternatives. Neither source establishes a universal safety multiplier for openness. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
-
-Our recommendation is to make controls precise, assess their security benefit against their cost to cooperation, and protect workable routes for legitimate open research. That is an argument informed by the evidence, not a theorem that every restriction harms everyone.
+We carry one question into the rest of the book: **which rules address a specific danger while leaving a workable route for the next useful contribution?** As we examine model files, hardware, medical platforms and solar equipment, the object being shared changes. The question about lost cooperation remains. An optional calculation is in :ref:`checking-game-example`; the story can be followed without it.
 
 The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall
 =================================================================
 
-When we turn from game theory back to the verified legal texts of November 2026, we find something remarkable: despite alarming headlines, regulators in both Beijing and Washington have deliberately left real bridges standing for open-source AI:
+The fictional wall hides distinctions that matter in the real rules. Is the technology already public? Is a new transfer prohibited, restricted or eligible for an easier route? Announcement 48 and the US rules answer different questions. We now turn from our imagined workbench to the source texts:
 
 .. figure:: assets/illustrations/sectors.jpg
    :name: fig-forty-overview

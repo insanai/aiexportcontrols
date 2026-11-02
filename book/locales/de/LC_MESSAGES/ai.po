@@ -360,3 +360,24 @@ msgstr ""
 "herstellerübergreifende Cluster-Orchestrierung kontrolliert (``266507X``), "
 "liegen quelloffene Frameworks für verteiltes Training mitten auf der "
 "tektonischen Bruchlinie beider Systeme!"
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"As Speicherverbesserung und Bs Tests sind austauschbares Wissen. Ihre "
+"Computer bilden eine weitere Abhängigkeit. Eine offene Lizenz liefert keinen"
+" fehlenden Chip, und eine Hardwarebeschränkung bestimmt nicht allein den "
+"Rechtsstatus jeder Modelldatei. Wir verfolgen beide Teile der Werkbank."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

@@ -171,3 +171,21 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/744>`_.  *(한편 대량의 인간 유전체 데이터는 미국 법무부의 "
 "데이터 보안 프로그램 `DOJ <https://www.justice.gov/nsd/data-security>`_ 등 양국에서 별도의 "
 "데이터 보안 규제를 적용받는다.)* "
+
+#: ../../book/biomedicine.rst:34
+msgid "What This Means for the Two Teams"
+msgstr "두 팀에 주는 의미"
+
+#: ../../book/biomedicine.rst:37
+msgid ""
+"In medicine, the shared workbench involves platforms, research and "
+"particular treatments. The distinctions above help us ask which "
+"collaboration a rule reaches and which it leaves possible. We do not "
+"transfer the AI game scores to medicine or assume that open access alone "
+"establishes patient safety."
+msgstr ""
+"의료의 공동 작업대는 플랫폼, 연구와 개별 치료를 다룹니다. 위 구분은 규칙이 어떤 협력을 다루고 무엇을 남기는지 묻게 합니다. AI "
+"점수를 의료에 적용하거나 공개만으로 환자 안전을 입증한다고 가정하지 않습니다."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

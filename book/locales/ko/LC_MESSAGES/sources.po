@@ -818,3 +818,123 @@ msgid ""
 msgstr ""
 "7개 판은 독립 법률·원어민 전문 검토를 받지 않은 편집 번역입니다. 원문 법률이 우선하며 사례·점수는 공식 분류나 실측 예측이 "
 "아닙니다."
+
+#: ../../book/sources.rst:179
+msgid "Optional: Checking the Game Example"
+msgstr "선택: 게임 예제 계산 확인"
+
+#: ../../book/sources.rst:182
+msgid ""
+"The opening story can be understood without these calculations. Here we make"
+" the extra assumptions explicit for readers who want to check them."
+msgstr "도입 이야기는 계산 없이 이해할 수 있습니다. 확인하려는 독자를 위해 추가 가정을 명시합니다."
+
+#: ../../book/sources.rst:184
+msgid "Why the Ending Is Stable"
+msgstr "결말이 안정적인 이유"
+
+#: ../../book/sources.rst:187
+msgid ""
+"The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever"
+" the other chooses. With two walls, either country sharing alone would move "
+"its score from 5 to 3. Mutual sharing is Pareto-efficient in this small "
+"game: no other listed outcome improves one country's score without lowering "
+"the other's. That does not mean either country receives its largest "
+"individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"20 >17 >5 >3이라는 순서는 상대와 무관하게 제한할 이유를 줍니다. 양쪽 장벽 아래 혼자 공유하면 5에서 3이 됩니다. 상호 "
+"공유는 이 작은 게임에서 파레토 효율적입니다. 나열된 다른 결과로 어느 한쪽을 악화하지 않고 다른 쪽을 개선할 수 없습니다. 각자의 개인"
+" 최고 점수라는 뜻은 아닙니다. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+
+#: ../../book/sources.rst:189
+msgid "When Future Cooperation Matters"
+msgstr "미래 협력이 중요해질 때"
+
+#: ../../book/sources.rst:192
+msgid ""
+"For the next calculation, we additionally treat the invented scores as "
+"comparable payoffs in each round. The numerical threshold depends on that "
+"scale, not just on the order of preferences."
+msgstr ""
+"다음 계산은 가상 점수를 각 단계에서 비교 가능한 보수로 취급하는 가정을 추가합니다. 수치 기준은 선호 순서뿐 아니라 이 척도에 달려 "
+"있습니다."
+
+#: ../../book/sources.rst:194
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"국가는 반복 교류합니다. 둘 다 공유하면 협력하며 이탈은 한 번20, 그 뒤 영원히5라고 가정합니다. :math:`\\delta` 는 "
+"다음 회차의 현재 대비 가치입니다. 협력이 적어도 유리한 조건은:"
+
+#: ../../book/sources.rst:196
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/sources.rst:201
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"가정 게임의 계산이지 외교 예측이 아닙니다. 무기한 관계·관찰 가능한 행동·믿을 만한 대응을 전제합니다. 실수·숨은 행동·알려진 마지막 "
+"회차는 이를 깨뜨립니다. 지속 협력을 믿게 만드는 방법이 질문입니다. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:205
+msgid "Optional: Independent Review Is Not a Safety Guarantee"
+msgstr "선택: 독립 검토는 안전을 보장하지 않는다"
+
+#: ../../book/sources.rst:208
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"개방은 독립 검사·수리를 돕습니다. 결함 존재 확률이 :math:`p_0`, 각 독립 팀의 탐지 확률이 :math:`q`, 팀 수가 "
+":math:`n` 이면:"
+
+#: ../../book/sources.rst:210
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/sources.rst:214
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"존재하는 결함과 탐지 절반 가정에서 한 팀 누락50%, 네 팀6.25%, 열 팀 약0.098%입니다. 조건부 계산입니다. 실제 팀은 같은"
+" 맹점·자원 부족·미수리가 있을 수 있어 전체 사이버·생물·사회 위험 측정은 아닙니다."
+
+#: ../../book/sources.rst:216
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"공개 가중치는 악용 수정·방호 제거도 돕습니다. NTIA는 2024년 이익·위험을 비교해 당시 모델 관찰을 권했습니다. 연구는 기존 대안"
+" 대비 추가 위험 비교를 요구합니다. 보편 안전 배수는 입증되지 않았습니다. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"

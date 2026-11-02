@@ -372,3 +372,25 @@ msgstr ""
 " al avión; los  *restringidos*  exigen un permiso declarado de exportación; "
 "la  *licencia automática*  es el torno electrónico de paso rápido; y los "
 "artículos  *excluidos*  viajan en su mochila sin detenerse en la aduana."
+
+#: ../../book/announcement.rst:69
+msgid "What This Means for the Two Teams"
+msgstr "Qué significa esto para los dos equipos"
+
+#: ../../book/announcement.rst:72
+msgid ""
+"For our two teams, filing information before a covered transfer and being "
+"forbidden to transfer are different obstacles. The story asks what "
+"cooperation survives each rule. This chapter establishes which duty operates"
+" now and which catalogue changes remain proposed, before we judge their "
+"effects."
+msgstr ""
+"Para nuestros equipos, registrar información antes de una transferencia "
+"cubierta y tener prohibido transferir son obstáculos distintos. El relato "
+"pregunta qué cooperación permite cada norma. Este capítulo aclara qué "
+"obligación rige ahora y qué cambios siguen propuestos antes de evaluar sus "
+"efectos."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"El punto de partida de los equipos está en :ref:`shared-workbench-story`."

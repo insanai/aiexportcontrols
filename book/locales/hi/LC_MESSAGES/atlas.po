@@ -961,3 +961,21 @@ msgstr ""
 "<=110-माइक्रोमीटर वेफ़रों पर क्रिस्टलीय-सिलिकॉन फ़िल्म डिपॉज़िशन, कम-चाँदी "
 "(<=30%) वाले सिल्वर-कोटेड कॉपर पेस्ट और कॉपर-प्लेटेड HJT इलेक्ट्रोड शामिल "
 "हैं।"
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"एटलस प्रस्तावित तकनीकी बिंदु गिनता है। खेल के अंक कल्पित पसंद हैं, तकनीकों "
+"की संख्या नहीं। दलों के लिए सवाल यह है कि अगले योगदान पर कौन सी सटीक "
+"प्रविष्टि और शर्तें लागू हैं, न कि पूरी एआई एक दीवार के पीछे है या नहीं।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

@@ -200,3 +200,25 @@ msgstr ""
 "datos en ambos países, incluido el Programa de Seguridad de Datos del "
 "Departamento de Justicia de EE. UU. `DOJ <https://www.justice.gov/nsd/data-"
 "security>`_.)* "
+
+#: ../../book/biomedicine.rst:34
+msgid "What This Means for the Two Teams"
+msgstr "Qué significa esto para los dos equipos"
+
+#: ../../book/biomedicine.rst:37
+msgid ""
+"In medicine, the shared workbench involves platforms, research and "
+"particular treatments. The distinctions above help us ask which "
+"collaboration a rule reaches and which it leaves possible. We do not "
+"transfer the AI game scores to medicine or assume that open access alone "
+"establishes patient safety."
+msgstr ""
+"En medicina, el taller compartido incluye plataformas, investigación y "
+"tratamientos concretos. Las distinciones anteriores permiten preguntar qué "
+"colaboración alcanza una norma y cuál permite. No trasladamos los puntos de "
+"IA a medicina ni suponemos que abrir el acceso garantice seguridad para "
+"pacientes."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"El punto de partida de los equipos está en :ref:`shared-workbench-story`."

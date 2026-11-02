@@ -299,3 +299,21 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 " 워싱턴이 엔비디아 GPU(``3A090``)를 조이고 베이징이 다중 제조사 클러스터 결합 기술(``266507X``)을 통제할 때, "
 "오픈소스 분산 학습 프레임워크는 두 체제가 맞부딪치는 단층선 한복판에 놓이게 된다!"
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "두 팀에 주는 의미"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"A의 메모리 개선과 B의 테스트는 교환 가능한 지식이며 컴퓨터는 별도의 의존 조건입니다. 공개 라이선스가 없는 칩을 공급하지 않으며 "
+"하드웨어 제한만으로 모든 모델 파일의 법적 지위가 정해지지 않습니다. 작업대의 두 부분을 함께 봅니다."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

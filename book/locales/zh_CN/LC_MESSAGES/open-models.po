@@ -254,10 +254,40 @@ msgid ""
 msgstr "没有识别因果的证据，就不能说某模型效率提升由芯片管制造成。参数少不保证排除。本地使用可能减少远程依赖，但不自动保证隐私、安全或临床可靠性。"
 
 #: ../../book/open-models.rst:65
+msgid "Independent Review and Its Limits"
+msgstr "独立审查及其局限"
+
+#: ../../book/open-models.rst:68
+msgid ""
+"Open access can let teams outside the original developer inspect a model and"
+" suggest repairs. More reviewers can help, but they can share the same blind"
+" spots or lack resources to test well. Finding a flaw is also different from"
+" fixing it. The optional probability example in :ref:`checking-review-"
+"example` explains these limits."
+msgstr ""
+"开放让原开发者之外的团队检查模型并建议修复。更多审查者可能有帮助，但也可能共享盲点或缺乏测试资源。发现缺陷也不同于修复缺陷。:ref:`checking-"
+"review-example` 中的可选概率例子解释这些局限。"
+
+#: ../../book/open-models.rst:70
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"公开权重也可能方便恶意修改或删除防护。NTIA在2024年权衡收益与风险，建议监测当时的开放权重。研究强调比较相对现有替代品的新增风险；两者均未确立普遍的安全倍数。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/open-models.rst:72
 msgid "A Practical Release Record"
 msgstr "实用的发布记录"
 
-#: ../../book/open-models.rst:68
+#: ../../book/open-models.rst:75
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"
@@ -270,3 +300,20 @@ msgstr ""
 "我们建议记录版本、文件哈希、许可、公开与私有内容、数据类别、指标、接收方、目的地和交付方式，并保存公开及手续证据。这是记录建议，不是新强制表格，也不替代官方登记。"
 " `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
+
+#: ../../book/open-models.rst:77
+msgid "What This Means for the Two Teams"
+msgstr "这对两支团队意味着什么"
+
+#: ../../book/open-models.rst:80
+msgid ""
+"Our teams keep their public starting model. Their next contribution could be"
+" a paper, new code, private weights or a service, each needing its own "
+"assessment. Public-information exclusions and proposed facilitated routes "
+"matter because they may preserve specific exchanges that the story's broad "
+"wall would stop."
+msgstr ""
+"团队保留公开起始模型。下一项贡献可能是论文、新代码、私有权重或服务，各需单独评估。公开信息排除与拟议便利路径的重要之处，在于可能保留故事中广泛墙体会阻断的特定交换。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "两队的起点见 :ref:`shared-workbench-story`。"

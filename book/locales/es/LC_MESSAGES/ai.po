@@ -362,3 +362,24 @@ msgstr ""
 " el tejido multimarca de superclústeres (``266507X``), los entornos abiertos"
 " de entrenamiento distribuido quedan situados justo sobre la falla sísmica "
 "que separa ambos regímenes."
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "Qué significa esto para los dos equipos"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"La mejora de memoria de A y las pruebas de B son conocimiento "
+"intercambiable. Sus ordenadores son otra dependencia. Una licencia abierta "
+"no entrega un chip que falta, y una restricción de hardware no determina por"
+" sí sola el estado legal de cada archivo. Seguimos ambas partes del taller."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"El punto de partida de los equipos está en :ref:`shared-workbench-story`."

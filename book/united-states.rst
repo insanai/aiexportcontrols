@@ -42,3 +42,10 @@ Beside BIS stand two separate federal gatekeepers:
 
 * **US Treasury Outbound Investment Security Program:** Since **2 January 2025**, US persons funding Chinese semiconductors, quantum tech, or certain AI systems face prohibition or mandatory notification; on **22 October 2026**, Treasury opened public comments (through **7 December 2026**) on proposed refinements to technical thresholds `TREAS <https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_.
 * **US Department of Justice Data Security Program:** Restricts bulk cross-border transfers or access involving sensitive US personal data (genomic, biometric, health, financial, geolocation) and government-related data `DOJ <https://www.justice.gov/nsd/data-security>`_.
+
+What This Means for the Two Teams
+===================================
+
+Country A and Country B in the game are fictional. US and Chinese controls have different scopes, institutions and positions in the computing supply chain. This chapter explains those differences; it does not assign either real country a score of 3, 5, 17 or 20.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

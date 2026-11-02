@@ -354,12 +354,12 @@ msgstr ""
 "  }\n"
 "}"
 
-#: ../../book/comparison.rst:78
+#: ../../book/comparison.rst:77
 msgid ""
 "China: Government Departments, Statutory Timelines, and Verified Contacts"
 msgstr "China: Zuständige Behörden, gesetzliche Fristen und geprüfte Kontakte"
 
-#: ../../book/comparison.rst:81
+#: ../../book/comparison.rst:80
 msgid ""
 "In China, technology export administration works as a **central-plus-"
 "provincial partnership** under the *Regulations on the Administration of "
@@ -390,7 +390,7 @@ msgstr ""
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_."
 
-#: ../../book/comparison.rst:85
+#: ../../book/comparison.rst:84
 msgid ""
 "**Scope of the clocks:** The 30-working-day and 15-working-day periods "
 "describe the existing standard restricted-technology procedure in the cited "
@@ -405,11 +405,11 @@ msgstr ""
 "oder künftige Automatik. Verhandlung, Unterlagen und weitere Prüfungen "
 "zählen dazu. Kontakte aus den Quellen bitte aktuell bestätigen."
 
-#: ../../book/comparison.rst:87
+#: ../../book/comparison.rst:86
 msgid "The Three Official Filing Paths in China"
 msgstr "Die drei amtlichen Einreichungswege in China"
 
-#: ../../book/comparison.rst:90
+#: ../../book/comparison.rst:89
 msgid ""
 "**Path A: Mandatory Pre-Export Registration (Active Right Now, since 16 Oct "
 "2026):**"
@@ -417,7 +417,7 @@ msgstr ""
 " **Pfad A: Verpflichtende Vorab-Registrierung vor der Ausfuhr (bereits aktiv"
 " seit dem 16. Okt. 2026):** "
 
-#: ../../book/comparison.rst:92
+#: ../../book/comparison.rst:91
 msgid ""
 "**When required:** Before transferring technology ownership abroad, "
 "licensing domestic technology for overseas use, or changing a domestic "
@@ -434,7 +434,7 @@ msgstr ""
 "Transaktionen) `CN48, section III "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:93
+#: ../../book/comparison.rst:92
 msgid ""
 "**How to file:** Open **MOFCOM's Unified Business System Platform** "
 "(``https://ecomp.mofcom.gov.cn``), select the **Technology Trade Management "
@@ -462,7 +462,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 " `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:95
+#: ../../book/comparison.rst:94
 msgid ""
 "**Path B: Open-Source, Chip Tape-Out & Cloud Fast-Track (\"Automatic "
 "Licensing\", Proposed in Footnotes 2 & 3):**"
@@ -470,7 +470,7 @@ msgstr ""
 " **Pfad B: Schnellspur für Open Source, Chip-Tape-out & eigene Cloud "
 "(„Automatische Lizenzierung“, vorgeschlagen in den Fußnoten 2 & 3):** "
 
-#: ../../book/comparison.rst:97
+#: ../../book/comparison.rst:96
 msgid ""
 "**When applicable:** Once the revised catalogue takes effect, open-sourcing "
 "restricted AI technology, deploying models on a **Chinese firm's self-built,"
@@ -490,7 +490,7 @@ msgstr ""
 "humanitären Hilfe `CN-A1, notes 2 and 3 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/comparison.rst:98
+#: ../../book/comparison.rst:97
 msgid ""
 "**What is specified:** The draft and official explanation propose automatic "
 "licensing or similar facilitation. They do not establish a complete final "
@@ -507,14 +507,14 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/comparison.rst:100
+#: ../../book/comparison.rst:99
 msgid ""
 "**Path C: Standard Two-Stage Restricted Technology Export License (** "
 "``技术出口许可证`` **):**"
 msgstr ""
 " **Pfad C: Zweistufige reguläre Technologieexportlizenz**  (``技术出口许可证``):"
 
-#: ../../book/comparison.rst:102
+#: ../../book/comparison.rst:101
 msgid ""
 "**Stage 1: Before substantive negotiation or signing a contract (up to 30 "
 "working days):** File the *Application for Chinese Restricted Export "
@@ -557,7 +557,7 @@ msgstr ""
 "rechtsverbindliche Zusagen abgeben)*  `CNMEAS, Art. 11 "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_."
 
-#: ../../book/comparison.rst:103
+#: ../../book/comparison.rst:102
 msgid ""
 "**Stage 2: After signing the contract (up to 15 working days):** Sign the "
 "contract, log contract details in the online system, and submit to "
@@ -601,11 +601,11 @@ msgstr ""
 " <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/comparison.rst:107
+#: ../../book/comparison.rst:106
 msgid "**Verified China Official Contact Directory**"
 msgstr " **Geprüftes Verzeichnis amtlicher Kontakte in China** "
 
-#: ../../book/comparison.rst:109
+#: ../../book/comparison.rst:108
 msgid ""
 "**Lead Central Departments (Catalogue Policy, Scope & Public "
 "Consultation):** Bureau of Industry, Security, Import and Export Control, "
@@ -620,7 +620,7 @@ msgstr ""
 "`CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:110
+#: ../../book/comparison.rst:109
 msgid ""
 "**Postal Address:** No. 2 Dongchang'an Avenue, Beijing 100731, China "
 "(``北京市东长安街2号商务部安全与管制局，邮编：100731``) `CN48 "
@@ -630,7 +630,7 @@ msgstr ""
 "(``北京市东长安街2号商务部安全与管制局，邮编：100731``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:111
+#: ../../book/comparison.rst:110
 msgid ""
 "**Official Consultation & Policy Email:** ``jinxianmulu@mofcom.gov.cn`` "
 "*(for public comments through 15 Nov 2026, mark subject* "
@@ -644,7 +644,7 @@ msgstr ""
 "und bei Einreichung durch Organisationen das Firmensiegel beifügen)*  `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:112
+#: ../../book/comparison.rst:111
 msgid ""
 "**Official Fax:** ``+86-10-6519-7565`` (``010-65197565``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
@@ -652,7 +652,7 @@ msgstr ""
 " **Offizielles Fax:**  ``+86-10-6519-7565`` (``010-65197565``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:113
+#: ../../book/comparison.rst:112
 msgid ""
 "**Unified Online Registration & Licensing Portal:** "
 "``https://ecomp.mofcom.gov.cn``: *Technology Trade Management Information "
@@ -670,7 +670,7 @@ msgstr ""
 " `CNMEAS, Art. 16 <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ "
 "`CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:114
+#: ../../book/comparison.rst:113
 msgid ""
 "**Unified Platform Technical Support Phone:** ``+86-10-6787-0108`` "
 "(``86-10-67870108``) `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
@@ -679,7 +679,7 @@ msgstr ""
 "``+86-10-6787-0108`` (``86-10-67870108``) `CNPLAT "
 "<http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:115
+#: ../../book/comparison.rst:114
 msgid ""
 "**Local Licensing Authorities:** Provincial, Autonomous-Region, or Municipal"
 " Commerce Department and Science & Technology Department in the exporter's "
@@ -692,13 +692,13 @@ msgstr ""
 "(``所在地省、自治区、直辖市商务主管部门会同科技行政主管部门``) `CNMEAS, Art. 4 "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_."
 
-#: ../../book/comparison.rst:117
+#: ../../book/comparison.rst:116
 msgid ""
 "United States: Federal Agencies, SNAP-R Workflow, and Verified Contacts"
 msgstr ""
 "Vereinigte Staaten: Bundesbehörden, SNAP-R-Ablauf und geprüfte Kontakte"
 
-#: ../../book/comparison.rst:120
+#: ../../book/comparison.rst:119
 msgid ""
 "In the United States, dual-use hardware, software, and technology export "
 "licensing is administered federally by the **Bureau of Industry and Security"
@@ -716,11 +716,11 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:122
+#: ../../book/comparison.rst:121
 msgid "Four Steps to Classify or Obtain US Export Approval"
 msgstr "In vier Schritten zur US-Einstufung oder Exportgenehmigung"
 
-#: ../../book/comparison.rst:125
+#: ../../book/comparison.rst:124
 msgid ""
 "**Step 1: Establish jurisdiction and publication status:** Check the exact "
 "artifact under 734.3, 734.7, 734.8 and the 4E091 notes. Qualifying published"
@@ -740,7 +740,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/744>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/comparison.rst:126
+#: ../../book/comparison.rst:125
 msgid ""
 "**Step 2: Obtain a Company Identification Number (CIN) on SNAP-R:** Parties "
 "exporting controlled hardware (``3A090``), chip equipment, or private "
@@ -761,7 +761,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:127
+#: ../../book/comparison.rst:126
 msgid ""
 "**Step 3: File a Commodity Classification (CCATS) or Policy Inquiry if "
 "uncertain:** Submit technical specifications as a Commodity Classification "
@@ -778,7 +778,7 @@ msgstr ""
 "BIS `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:128
+#: ../../book/comparison.rst:127
 msgid ""
 "**Step 4: Submit License Application & Track via STELA:** Upload PDF "
 "supporting documents, end-user statements, and technical specs (for January "
@@ -803,12 +803,12 @@ msgstr ""
 "verfolgen Sie über  **STELA**  (``https://snapr.bis.gov/public/stela``) "
 "`EAR734 <https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:132
+#: ../../book/comparison.rst:131
 msgid "**Verified United States Official Contact Directory**"
 msgstr ""
 " **Geprüftes Verzeichnis amtlicher Kontakte in den Vereinigten Staaten** "
 
-#: ../../book/comparison.rst:134
+#: ../../book/comparison.rst:133
 msgid ""
 "**Electronic Licensing & Tracking Portals:** SNAP-R Filing Portal: "
 "``https://snapr.bis.gov`` | STELA Status Tracker: "
@@ -822,7 +822,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:135
+#: ../../book/comparison.rst:134
 msgid ""
 "**SNAP-R Helpdesk & Account Support:** Technical Helpdesk: "
 "``snapr@bis.doc.gov`` | Account Recovery & Empowered Official Letters: "
@@ -833,7 +833,7 @@ msgstr ""
 "(Empowered Official): ``ECDOEXS@bis.doc.gov`` `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:136
+#: ../../book/comparison.rst:135
 msgid ""
 "**BIS Outreach and Educational Services Division (Washington, D.C.):** U.S. "
 "Department of Commerce, 14th and Pennsylvania Avenue, NW., Room H1099D, "
@@ -845,7 +845,7 @@ msgstr ""
 " Washington, DC 20230 | Tel.: ``+1 (202) 482-4811`` | Fax: ``+1 (202) "
 "482-2927`` `EAR734 <https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:137
+#: ../../book/comparison.rst:136
 msgid ""
 "**BIS Western Regional Office (Southern California):** 2302 Martin St., "
 "Suite 330, Irvine, CA 92612 | Tel: ``+1 (949) 660-0144`` | Fax: ``+1 (949) "
@@ -855,7 +855,7 @@ msgstr ""
 "330, Irvine, CA 92612 | Tel.: ``+1 (949) 660-0144`` | Fax: ``+1 (949) "
 "660-9347`` `EAR734 <https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:138
+#: ../../book/comparison.rst:137
 msgid ""
 "**BIS Northern California Branch (Silicon Valley):** 160 W. Santa Clara "
 "Street, Suite 725, San Jose, CA 95113 | Tel: ``+1 (408) 998-8806`` | Fax: "
@@ -865,7 +865,7 @@ msgstr ""
 "Street, Suite 725, San Jose, CA 95113 | Tel.: ``+1 (408) 998-8806`` | Fax: "
 "``+1 (408) 998-8677`` `EAR734 <https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:139
+#: ../../book/comparison.rst:138
 msgid ""
 "**BIS Regulatory Policy Division:** Room 2099B, U.S. Department of Commerce,"
 " Washington, DC 20230 | Tel: ``+1 (202) 482-2440`` | Email: "
@@ -883,7 +883,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "`EAR742 <https://www.bis.gov/regulations/ear/742>`_."
 
-#: ../../book/comparison.rst:140
+#: ../../book/comparison.rst:139
 msgid ""
 "**BIS Technical Leads (Semiconductors & AI):** Category 3 Semiconductors "
 "(``3A090``): Carlos Monroy, ``+1 (202) 482-3246``, "
@@ -905,7 +905,7 @@ msgstr ""
 "(202) 482-0707``, ``Aaron.Amundson@bis.doc.gov`` `US25 "
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_."
 
-#: ../../book/comparison.rst:141
+#: ../../book/comparison.rst:140
 msgid ""
 "**U.S. Department of the Treasury (Outbound Investment Security Program):** "
 "``https://home.treasury.gov/policy-issues/international/outbound-investment-"
@@ -924,7 +924,7 @@ msgstr ""
 "<https://home.treasury.gov/policy-issues/international/outbound-investment-"
 "program>`_."
 
-#: ../../book/comparison.rst:142
+#: ../../book/comparison.rst:141
 msgid ""
 "**U.S. Department of Justice (Data Security Program, National Security "
 "Division):** ``https://www.justice.gov/nsd/data-security`` | Compliance: "
@@ -936,3 +936,25 @@ msgstr ""
 "security`` | Compliance: ``NSD.FIRS.datasecurity@usdoj.gov`` | Presse- & "
 "Öffentlichkeitsarbeit: ``nsd.public@usdoj.gov`` `DOJ "
 "<https://www.justice.gov/nsd/data-security>`_."
+
+#: ../../book/comparison.rst:143
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/comparison.rst:146
+msgid ""
+"The shared-workbench story now becomes a practical inquiry: what is being "
+"transferred, which system covers it, and which route remains available? "
+"Clear exclusions, usable procedures and credible continuing cooperation may "
+"change incentives. Their effects need evidence; a completed form alone "
+"cannot tell us whether cooperation has improved."
+msgstr ""
+"Die Geschichte führt zur praktischen Prüfung: Was wird übertragen, welches "
+"System erfasst es und welcher Weg bleibt? Klare Ausnahmen, nutzbare "
+"Verfahren und glaubwürdige dauerhafte Zusammenarbeit können Anreize ändern. "
+"Ihre Folgen brauchen Belege; ein ausgefülltes Formular allein zeigt keine "
+"verbesserte Kooperation."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

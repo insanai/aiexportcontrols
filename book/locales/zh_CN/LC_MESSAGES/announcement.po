@@ -309,3 +309,20 @@ msgid ""
 msgstr ""
 "不妨把它想象成一座国际机场：  *禁止出口*  物品严禁登机；  *限制出口*  物品须凭申报批件放行；  *自动许可*  "
 "如同刷证秒过的自助快捷通道；而  *不纳入管理范围*  的物品则安稳留在你的随身背包里，连海关申报台都无需驻足。"
+
+#: ../../book/announcement.rst:69
+msgid "What This Means for the Two Teams"
+msgstr "这对两支团队意味着什么"
+
+#: ../../book/announcement.rst:72
+msgid ""
+"For our two teams, filing information before a covered transfer and being "
+"forbidden to transfer are different obstacles. The story asks what "
+"cooperation survives each rule. This chapter establishes which duty operates"
+" now and which catalogue changes remain proposed, before we judge their "
+"effects."
+msgstr ""
+"对两队而言，转移前申报信息与禁止转移是不同障碍。故事关注每条规则下还剩下哪些合作。在判断影响前，本章先明确当前实行的义务与仍在提议中的目录变化。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "两队的起点见 :ref:`shared-workbench-story`。"

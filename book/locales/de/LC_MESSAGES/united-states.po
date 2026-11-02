@@ -300,3 +300,23 @@ msgstr ""
 "personenbezogene Daten aus den USA (Genom-, Biometrie-, Gesundheits-, "
 "Finanz- und Standortdaten) sowie regierungsbezogene Datensätze `DOJ "
 "<https://www.justice.gov/nsd/data-security>`_."
+
+#: ../../book/united-states.rst:46
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/united-states.rst:49
+msgid ""
+"Country A and Country B in the game are fictional. US and Chinese controls "
+"have different scopes, institutions and positions in the computing supply "
+"chain. This chapter explains those differences; it does not assign either "
+"real country a score of 3, 5, 17 or 20."
+msgstr ""
+"Land A und B sind erfunden. Die Kontrollen der USA und Chinas haben andere "
+"Reichweiten, Institutionen und Positionen in der Lieferkette. Dieses Kapitel"
+" erklärt diese Unterschiede, ohne einem realen Land 3, 5, 17 oder 20 Punkte "
+"zu geben."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

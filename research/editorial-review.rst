@@ -25,6 +25,13 @@ Evidence anchors
 * `NTIA's 2024 open-model report <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ and `On the Societal Impact of Open Foundation Models <https://arxiv.org/abs/2403.07918>`_ support a balanced discussion of access and risk. Neither supplies a universal safety multiplier.
 * `Pass and Tseng's textbook <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_ supports the strategic concepts. Our numerical scores remain our teaching assumptions.
 
+Following the Shared Workbench
+-------------------------------
+
+The opening now follows two fictional research teams working from the same public model. One reduces memory requirements; the other tests errors and helps fix them. We explain sharing and broad restriction, all four endings, and the meaning of each preference score before presenting the matrix. We then compare each government's choices one case at a time. Government preferences, model quality and measured national effects remain distinct.
+
+Each policy chapter returns to the teams and links back to their starting point. These passages distinguish the story's broad wall from real registration, exclusions, licenses and prohibitions. The landing page provides the same reasoning and links to the worked story. Calculations for repeated cooperation and independent review move to optional sections in the sources chapter. The repeated-game calculation states its additional assumption of comparable per-round payoffs.
+
 Visual changes
 --------------
 
@@ -46,6 +53,6 @@ We build through the native GuideDog 1.0.0-beta.10 pipeline. All seven HTML and 
 
 We check the assembled site's internal links and anchors, archive hashes, PDF text, required control codes and credits. Browser checks exercise all seven editions, the 40-card atlas and its sector, status and code filters. We also check live search, the scenario selector, language links, desktop and mobile layouts, dark mode, and image loading.
 
-The final assembly contains 99 HTML pages and 5,208 checked internal links, with no missing files or anchors. The seven PDF editions contain 44 to 50 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
+The final assembly contains 99 HTML pages and 5,733 checked internal links, with no missing files or anchors. The seven PDF editions contain 46 to 53 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
 
 This review records a local build and source review. It does not establish the outcome of a future regulatory decision or clear an individual transaction. The published date on a source, a contact detail and a current legal rule are separate facts that can change independently.

@@ -62,7 +62,21 @@ Possible Effects on Open Models
 
 We should not claim that chip restrictions caused a particular model's efficiency improvements without evidence isolating that cause. Smaller parameter counts do not guarantee exclusion because other criteria may apply. Local use can reduce reliance on a remote service, but it does not by itself guarantee privacy, security or clinical reliability.
 
+Independent Review and Its Limits
+==================================
+
+Open access can let teams outside the original developer inspect a model and suggest repairs. More reviewers can help, but they can share the same blind spots or lack resources to test well. Finding a flaw is also different from fixing it. The optional probability example in :ref:`checking-review-example` explains these limits.
+
+Open weights can also help harmful actors modify a system or remove safeguards. NTIA's 2024 report considered both benefits and risks, recommending monitoring rather than restricting then-current open weights. Research on open foundation models stresses the need to compare the extra risk with existing alternatives. Neither source establishes a universal safety multiplier for openness. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
+
 A Practical Release Record
 ============================
 
 Our suggested record identifies the model version, file hashes, license, public and private artifacts, data categories, measured criteria, recipient, destination and transfer form. Keep publication evidence and any relevant filing or permission. This is a documentation suggestion, not a new compulsory form or a substitute for the official registration fields. `CN-A2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_
+
+What This Means for the Two Teams
+===================================
+
+Our teams keep their public starting model. Their next contribution could be a paper, new code, private weights or a service, each needing its own assessment. Public-information exclusions and proposed facilitated routes matter because they may preserve specific exchanges that the story's broad wall would stop.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

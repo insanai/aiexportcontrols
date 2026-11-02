@@ -139,3 +139,10 @@ Four Steps to Classify or Obtain US Export Approval
    * **BIS Technical Leads (Semiconductors & AI):** Category 3 Semiconductors (``3A090``): Carlos Monroy, ``+1 (202) 482-3246``, ``Carlos.Monroy@bis.doc.gov`` `US25 <https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ `US26 <https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ | Category 4 Computers & AI Model Weights (``4E091``): Aaron Amundson, ``+1 (202) 482-0707``, ``Aaron.Amundson@bis.doc.gov`` `US25 <https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_.
    * **U.S. Department of the Treasury (Outbound Investment Security Program):** ``https://home.treasury.gov/policy-issues/international/outbound-investment-program`` | Inquiries: ``Outbound@treasury.gov`` | Regulations: ``OIS.Outbound.Regulations@treasury.gov`` | IT Support: ``Outbound.ITSupport@treasury.gov`` `TREAS <https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_.
    * **U.S. Department of Justice (Data Security Program, National Security Division):** ``https://www.justice.gov/nsd/data-security`` | Compliance: ``NSD.FIRS.datasecurity@usdoj.gov`` | Public Affairs: ``nsd.public@usdoj.gov`` `DOJ <https://www.justice.gov/nsd/data-security>`_.
+
+What This Means for the Two Teams
+===================================
+
+The shared-workbench story now becomes a practical inquiry: what is being transferred, which system covers it, and which route remains available? Clear exclusions, usable procedures and credible continuing cooperation may change incentives. Their effects need evidence; a completed form alone cannot tell us whether cooperation has improved.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

@@ -785,3 +785,19 @@ msgid ""
 msgstr ""
 "涵盖四大异质结（HJT）电池核心降本增效工艺簇：低铟（铟占比 <=50%）或超高速透明导电氧化物（TCO）镀膜、在 <=110 "
 "微米超薄硅片上沉积晶硅薄膜、低银含量（银占比 <=30%）银包铜导电浆料应用，以及异质结铜电镀栅线电极工艺。"
+
+#: ../../book/atlas.rst:284
+msgid "What This Means for the Two Teams"
+msgstr "这对两支团队意味着什么"
+
+#: ../../book/atlas.rst:287
+msgid ""
+"The atlas counts proposed technology points. The game scores express "
+"invented preferences; they do not count technologies. For the two teams, the"
+" useful question is which precise entry and conditions cover the next "
+"contribution, rather than whether all AI sits behind one wall."
+msgstr ""
+"索引统计的是拟议技术点。博弈分数表达虚构偏好，不是技术数量。对团队更有用的问题是下一项贡献具体符合哪个条目与条件，而非把所有AI放在同一道墙后面。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "两队的起点见 :ref:`shared-workbench-story`。"

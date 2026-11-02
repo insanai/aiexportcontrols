@@ -30,3 +30,10 @@ Undisclosed Biological Targets and Biosecurity Walls
 Two **proposed restricted** entries (``262705X`` and ``262706X``) cover Chinese-owned technology for discovering and validating **wholly new therapeutic targets** in CGT and siRNA medicine, defined strictly as molecular targets **never previously disclosed anywhere in the world** in patents, journals, public databases, industry filings, or conferences `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_. Even there, **Footnote 3** provides **automatic-licensing facilitation** for public-health emergencies, humanitarian relief, international collaborative research using overseas resources, and overseas out-licensing `CN-A1, note 3 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_.
 
 The fifth entry (``267302J``, proposed prohibited) is a pure **biosecurity wall** against artificial genetic modification and directed serial-passage methods that enhance pathogen virulence or accelerate controlled pathogen evolution `CN-A1, 267302J <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_, paralleling Category 1 pathogen controls and ``EAR 744.4`` on the US side `EAR774 <https://www.bis.gov/regulations/ear/774>`_ `EAR744 <https://www.bis.gov/regulations/ear/744>`_. *(Bulk human genomic data, meanwhile, faces separate data-security rules in both countries, including the US Justice Department's Data Security Program `DOJ <https://www.justice.gov/nsd/data-security>`_.)*
+
+What This Means for the Two Teams
+===================================
+
+In medicine, the shared workbench involves platforms, research and particular treatments. The distinctions above help us ask which collaboration a rule reaches and which it leaves possible. We do not transfer the AI game scores to medicine or assume that open access alone establishes patient safety.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.

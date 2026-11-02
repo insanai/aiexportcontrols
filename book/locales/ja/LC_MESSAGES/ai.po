@@ -297,3 +297,20 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " ワシントンがNVIDIA製GPU（ ``3A090`` ）を規制し、北京がマルチベンダー・クラスタ統合技術（ ``266507X`` "
 "）を規制するとき、オープンソースの分散学習フレームワークはまさに両体制がぶつかり合う断層線の上に立つことになるのです。"
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "二つのチームにとっての意味"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"Aの省メモリー改良とBのテストは交換し得る知識で、計算機は別の依存条件です。公開ライセンスは不足する半導体を供給せず、機器規制だけで全モデルファイルの法的扱いは決まりません。作業台の両面を追います。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

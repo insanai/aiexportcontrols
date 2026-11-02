@@ -139,18 +139,29 @@ msgstr "किले का जाल: दोनों कैसे नुकस
 
 #: ../../site/index.rst:54
 msgid ""
-"Two countries can each choose a broad wall because they fear giving the "
-"other an advantage. In the book's illustrative game, both then receive 5, "
-"although both would prefer the 17 available through mutual sharing. This is "
-"a possible cooperation failure, not proof that every export control harms "
-"every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
-"html/chapter1.html>`_"
+"Imagine two research teams starting from one public AI model. A's team makes"
+" it run with less memory. B's team tests errors and helps fix them. Sharing "
+"the next improvements helps both, but each government worries about giving "
+"the other a one-sided advantage."
 msgstr ""
-"दूसरे की बढ़त के डर में दोनों दीवार चुनें तो उदाहरण में5-5, साझा में17-17 "
-"हैं। संभव सहयोग विफलता, हर नियंत्रण के नुकसान का प्रमाण नहीं। `GAME "
-"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"दो दल एक सार्वजनिक मॉडल से शुरू करते हैं। A मेमोरी घटाता है, B त्रुटियां "
+"खोजकर सुधार में मदद करता है। अगले सुधार साझा करना दोनों के काम आता है, पर हर"
+" सरकार दूसरे को एकतरफा बढ़त देने से डरती है।"
 
-#: ../../site/index.rst:56 ../../site/index.rst:61
+#: ../../site/index.rst:56
+msgid ""
+"We give the four endings invented preference scores: mutual sharing gives 17"
+" each; withholding while the other shares gives 20 to the withholding "
+"country and 3 to the sharing country; mutual restriction gives 5 each. "
+"Higher means preferred within this example. The book explains why we assume "
+"that ranking before showing how it creates the trap."
+msgstr ""
+"चार अंत को कल्पित पसंद के अंक देते हैं: दोनों साझा करें तो हर एक 17; दूसरे "
+"के साझा करते समय रोकने वाले को20 और साझा करने वाले को3; दोनों रोकें तो हर एक"
+" 5। अधिक यानी इस उदाहरण में ज्यादा पसंद। पुस्तक पहले इस क्रम की मान्यताएं "
+"समझाती है, फिर उससे बना जाल।"
+
+#: ../../site/index.rst:58 ../../site/index.rst:63
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
@@ -159,11 +170,17 @@ msgstr ""
 "दो दल पुर्जे और ज्ञान साझा करके कंप्यूटर पूरा करते हैं, लेकिन दीवार बनने पर "
 "अटक जाते हैं। यह माने हुए खेल का चित्र है, मापा हुआ परिणाम नहीं।"
 
-#: ../../site/index.rst:65
-msgid "Assumed scores in the teaching game"
-msgstr "उदाहरण के खेल में माने हुए अंक"
+#: ../../site/index.rst:67
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr ""
+"A पंक्ति, B स्तंभ चुनता है। दोनों साझा करें तो हर एक 17। केवल A साझा करे तो "
+"A 3, B 20। केवल B साझा करे तो A 20, B 3। दोनों रोकें तो हर एक 5। सभी अंक "
+"माने हुए हैं।"
 
-#: ../../site/index.rst:65
+#: ../../site/index.rst:67
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -171,22 +188,34 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"hi\")"
 
-#: ../../site/index.rst:72
+#: ../../site/index.rst:67
 msgid ""
-"The book explains why the result follows from its assumptions, what could "
-"reverse it, and how a repeated relationship can make cooperation worthwhile."
-" It also separates the possible benefits of public auditing from the risks "
-"of wider access. Our case for precise controls and workable open-research "
-"routes does not depend on invented loss estimates. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
 msgstr ""
-"पुस्तक मान्यताएं, उलटे उदाहरण और बार-बार सहयोग समझाती है। जांच लाभ और खुली "
-"पहुंच के जोखिम अलग हैं। दलील को गढ़े नुकसान आंकड़े नहीं चाहिए। `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"दो दलों के चार अंत। अंक कल्पित पसंद हैं; इस उदाहरण में अधिक का अर्थ ज्यादा "
+"पसंद।"
 
 #: ../../site/index.rst:74
+msgid ""
+"Each government then sees a reason to restrict: 20 beats 17 if the other "
+"shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 "
+"each, although both prefer mutual sharing at 17 each. This is a possible "
+"failure of cooperation under our assumptions, not a measurement of US or "
+"Chinese policy. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"हर सरकार को रोक का कारण दिखता है: दूसरा साझा करे तो20 अंक 17 से बेहतर; दूसरा"
+" रोके तो5, 3 से बेहतर। दोनों दीवार बनाकर 5 पाते हैं, हालांकि सहयोग के17 "
+"दोनों पसंद करते हैं। यह मान्यताओं में संभव सहयोग की विफलता है, अमेरिकी या "
+"चीनी नीति का माप नहीं। `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+
+#: ../../site/index.rst:76
+msgid "`Read the worked story and its limits <read-game_>`_"
+msgstr "`पूरी कहानी और उसकी सीमाएं पढ़ें <read-game_>`_"
+
+#: ../../site/index.rst:78
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
@@ -194,7 +223,7 @@ msgid ""
 msgstr ""
 "स्रोत वर्तमान नियम, प्रस्ताव और विश्लेषण अलग करके तीन पढ़ने आदत बताते हैं:"
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:80
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -207,7 +236,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:77
+#: ../../site/index.rst:81
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -222,7 +251,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:78
+#: ../../site/index.rst:82
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -236,7 +265,7 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:82
+#: ../../site/index.rst:86
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
@@ -244,7 +273,7 @@ msgstr ""
 " **आवरण और प्रस्तावना:**  `जेफ़रसन की मोमबत्ती, हार्डवेयर की जड़ें और "
 "गेम-थ्योरी प्रमाण <read-cover_>`_"
 
-#: ../../site/index.rst:83
+#: ../../site/index.rst:87
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -252,7 +281,7 @@ msgstr ""
 " **अध्याय 01 और 02:**  `घोषणा 48 की दो घड़ियाँ <read-ch1_>`_ व `इंटरैक्टिव "
 "40-जाँच-बिंदु एटलस <read-atlas_>`_"
 
-#: ../../site/index.rst:84
+#: ../../site/index.rst:88
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -260,7 +289,7 @@ msgstr ""
 " **अध्याय 03 और 04:**  `मस्तिष्क और सिलिकॉन हार्डवेयर स्टैक <read-ai_>`_ व "
 "`द्वारों से पहले और बाद में ओपन-सोर्स एआई <read-open_>`_"
 
-#: ../../site/index.rst:85
+#: ../../site/index.rst:89
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

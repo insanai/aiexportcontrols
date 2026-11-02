@@ -173,3 +173,44 @@ Written by **Vikrant Rathore**, with assistance from **Jennifer Yuan, Vicky Ni, 
 Original text, editorial work and new illustrations are licensed under **CC BY-SA 4.0**. Attribution and sharing adaptations under the same license are required. Official documents, quoted material, fonts, software and other third-party materials retain their own copyrights and licenses. See the repository's LICENSE and NOTICE files for the terms and exclusions.
 
 All seven language editions are editorial translations. They have not received independent professional legal or native-language review. Original legal texts prevail. Examples and game scores must not be treated as official classifications or empirical forecasts.
+
+.. _checking-game-example:
+
+Optional: Checking the Game Example
+====================================
+
+The opening story can be understood without these calculations. Here we make the extra assumptions explicit for readers who want to check them.
+
+Why the Ending Is Stable
+-------------------------
+
+The ranking 20 > 17 > 5 > 3 gives each country a reason to restrict whatever the other chooses. With two walls, either country sharing alone would move its score from 5 to 3. Mutual sharing is Pareto-efficient in this small game: no other listed outcome improves one country's score without lowering the other's. That does not mean either country receives its largest individual score. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+
+When Future Cooperation Matters
+--------------------------------
+
+For the next calculation, we additionally treat the invented scores as comparable payoffs in each round. The numerical threshold depends on that scale, not just on the order of preferences.
+
+Countries also interact repeatedly. In this simplified game, suppose cooperation continues while both share, but a deviation earns 20 once and is followed by 5 forever. Let :math:`\delta` represent how much a country values the next round relative to this one. Cooperation is at least as attractive as that deviation when:
+
+.. math::
+
+   \frac{17}{1-\delta} \ge 20 + \frac{5\delta}{1-\delta}
+   \quad\Longleftrightarrow\quad \delta \ge \frac{1}{5}
+
+This is a calculation inside the assumed game, not a diplomatic forecast. It assumes an indefinite relationship, observable choices and a credible response to deviation. Errors, hidden actions or a known final round can undermine that strategy. The useful policy question is how to make continued cooperation credible, rather than treating mistrust as inevitable. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
+
+.. _checking-review-example:
+
+Optional: Independent Review Is Not a Safety Guarantee
+=======================================================
+
+Open access can make independent testing and repair easier. A simple probability example explains one possible benefit. If a flaw exists with probability :math:`p_0` and each of :math:`n` teams independently detects it with probability :math:`q`, then:
+
+.. math::
+
+   P(\text{flaw remains undetected}) = p_0(1-q)^n
+
+For a flaw known to exist and an assumed detection chance of one half, one team misses it with probability 50%, four independent teams with 6.25%, and ten with about 0.098%. These are conditional calculations. Real teams can share blind spots, lack testing resources or find a flaw without fixing it. An undetected-flaw probability is not a measure of total cyber, biological or societal risk.
+
+Open weights can also help harmful actors modify a system or remove safeguards. NTIA's 2024 report considered both benefits and risks, recommending monitoring rather than restricting then-current open weights. Research on open foundation models stresses the need to compare the extra risk with existing alternatives. Neither source establishes a universal safety multiplier for openness. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_

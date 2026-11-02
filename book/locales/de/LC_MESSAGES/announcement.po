@@ -375,3 +375,24 @@ msgstr ""
 "eine förmliche Ausfuhrgenehmigung;  *automatische Lizenzierung*  ist die "
 "elektronische Schnellschleuse; und  *ausgenommene*  Dinge bleiben einfach im"
 " Rucksack, ohne beim Zoll vorgezeigt werden zu müssen."
+
+#: ../../book/announcement.rst:69
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/announcement.rst:72
+msgid ""
+"For our two teams, filing information before a covered transfer and being "
+"forbidden to transfer are different obstacles. The story asks what "
+"cooperation survives each rule. This chapter establishes which duty operates"
+" now and which catalogue changes remain proposed, before we judge their "
+"effects."
+msgstr ""
+"Für unsere Teams sind eine Anmeldung vor einem erfassten Transfer und ein "
+"Transferverbot verschiedene Hindernisse. Die Geschichte fragt, welche "
+"Zusammenarbeit jede Regel zulässt. Dieses Kapitel klärt zuerst, welche "
+"Pflicht bereits gilt und welche Katalogänderungen vorgeschlagen bleiben."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

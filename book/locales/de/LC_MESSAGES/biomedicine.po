@@ -202,3 +202,25 @@ msgstr ""
 "Genomdatensätze unterliegen unterdessen in beiden Staaten eigenen "
 "Datensicherheitsregeln, darunter dem Data Security Program des US-"
 "Justizministeriums)*  `DOJ <https://www.justice.gov/nsd/data-security>`_."
+
+#: ../../book/biomedicine.rst:34
+msgid "What This Means for the Two Teams"
+msgstr "Was dies für die beiden Teams bedeutet"
+
+#: ../../book/biomedicine.rst:37
+msgid ""
+"In medicine, the shared workbench involves platforms, research and "
+"particular treatments. The distinctions above help us ask which "
+"collaboration a rule reaches and which it leaves possible. We do not "
+"transfer the AI game scores to medicine or assume that open access alone "
+"establishes patient safety."
+msgstr ""
+"In der Medizin umfasst die gemeinsame Werkbank Plattformen, Forschung und "
+"einzelne Behandlungen. Die Unterschiede oben helfen zu fragen, welche "
+"Zusammenarbeit eine Regel erfasst oder zulässt. Wir übertragen die KI-Punkte"
+" nicht auf Medizin und setzen offenen Zugang nicht mit Patientensicherheit "
+"gleich."
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr ""
+"Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

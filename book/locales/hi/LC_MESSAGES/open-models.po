@@ -279,10 +279,44 @@ msgstr ""
 "गोपनीयता·सुरक्षा·चिकित्सकीय भरोसा गारंटी नहीं।"
 
 #: ../../book/open-models.rst:65
+msgid "Independent Review and Its Limits"
+msgstr "स्वतंत्र समीक्षा और उसकी सीमाएं"
+
+#: ../../book/open-models.rst:68
+msgid ""
+"Open access can let teams outside the original developer inspect a model and"
+" suggest repairs. More reviewers can help, but they can share the same blind"
+" spots or lack resources to test well. Finding a flaw is also different from"
+" fixing it. The optional probability example in :ref:`checking-review-"
+"example` explains these limits."
+msgstr ""
+"खुली पहुंच से मूल निर्माता के बाहर के दल मॉडल जांच और सुधार सुझा सकते हैं। "
+"अधिक समीक्षक मदद कर सकते हैं, लेकिन समान चूक या परीक्षण संसाधनों की कमी हो "
+"सकती है। दोष ढूंढना उसे ठीक करने से अलग है। :ref:`checking-review-example` "
+"का वैकल्पिक संभाव्यता उदाहरण सीमाएं बताता है।"
+
+#: ../../book/open-models.rst:70
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"खुले भार गलत बदलाव या सुरक्षा हटाना भी आसान करते हैं। NTIA ने2024 में "
+"लाभ·जोखिम देखकर तब के मॉडल की निगरानी सुझाई। शोध मौजूदा विकल्प से अतिरिक्त "
+"जोखिम की तुलना मांगता है। सामान्य सुरक्षा गुणक सिद्ध नहीं हुआ। `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/open-models.rst:72
 msgid "A Practical Release Record"
 msgstr "उपयोगी रिलीज रिकॉर्ड"
 
-#: ../../book/open-models.rst:68
+#: ../../book/open-models.rst:75
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"
@@ -296,3 +330,23 @@ msgstr ""
 "और प्रकाशन·अनुमति प्रमाण सहेजना सुझाव है। यह नया अनिवार्य फॉर्म या सरकारी "
 "फॉर्म का विकल्प नहीं। `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
+
+#: ../../book/open-models.rst:77
+msgid "What This Means for the Two Teams"
+msgstr "दो दलों के लिए इसका अर्थ"
+
+#: ../../book/open-models.rst:80
+msgid ""
+"Our teams keep their public starting model. Their next contribution could be"
+" a paper, new code, private weights or a service, each needing its own "
+"assessment. Public-information exclusions and proposed facilitated routes "
+"matter because they may preserve specific exchanges that the story's broad "
+"wall would stop."
+msgstr ""
+"दल अपना सार्वजनिक शुरुआती मॉडल रखते हैं। अगला योगदान लेख, नया कोड, निजी भार "
+"या सेवा हो सकता है; हर एक की अलग जांच चाहिए। सार्वजनिक जानकारी की छूट और "
+"प्रस्तावित आसान मार्ग खास आदान-प्रदान बचा सकते हैं जिन्हें कहानी की व्यापक "
+"दीवार रोकती है।"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

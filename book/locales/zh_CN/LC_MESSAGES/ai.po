@@ -300,3 +300,20 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " 。当华盛顿严控英伟达高端 GPU（ ``3A090`` ），而北京拟限制多厂商异构集群混训缝合技术（ ``266507X`` "
 "）时，全球开源分布式训练框架正不偏不倚地站在两大管制体系交汇的断层线上！"
+
+#: ../../book/ai.rst:53
+msgid "What This Means for the Two Teams"
+msgstr "这对两支团队意味着什么"
+
+#: ../../book/ai.rst:56
+msgid ""
+"A's memory-saving improvement and B's tests are knowledge the teams might "
+"exchange. Their computers are a separate dependency. An open-model license "
+"cannot supply a missing chip, and a hardware restriction does not by itself "
+"describe the legal status of every model file. We follow both parts of the "
+"workbench."
+msgstr ""
+"A的内存改进与B的测试是可以交换的知识，计算机则是另一项依赖。开放模型许可无法补上缺失芯片，硬件限制也不能独自说明所有模型文件的法律状态。我们同时追踪工作台的这两个部分。"
+
+msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
+msgstr "两队的起点见 :ref:`shared-workbench-story`。"

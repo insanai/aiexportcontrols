@@ -128,17 +128,26 @@ msgstr "요새의 함정: 양쪽이 함께 잃는 구조"
 
 #: ../../site/index.rst:54
 msgid ""
-"Two countries can each choose a broad wall because they fear giving the "
-"other an advantage. In the book's illustrative game, both then receive 5, "
-"although both would prefer the 17 available through mutual sharing. This is "
-"a possible cooperation failure, not proof that every export control harms "
-"every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
-"html/chapter1.html>`_"
+"Imagine two research teams starting from one public AI model. A's team makes"
+" it run with less memory. B's team tests errors and helps fix them. Sharing "
+"the next improvements helps both, but each government worries about giving "
+"the other a one-sided advantage."
 msgstr ""
-"상대 우위를 걱정해 모두 장벽을 택하면 예에서는 각5, 협력하면17입니다. 가능한 협력 실패이지 모든 통제의 피해 증명이 아닙니다. "
-"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+"같은 공개 모델에서 시작하는 두 팀을 생각합니다. A는 메모리를 줄이고 B는 오류를 찾아 수정합니다. 다음 개선의 교환은 양쪽을 돕지만 "
+"각 정부는 상대에게 일방적 우위를 줄까 걱정합니다."
 
-#: ../../site/index.rst:56 ../../site/index.rst:61
+#: ../../site/index.rst:56
+msgid ""
+"We give the four endings invented preference scores: mutual sharing gives 17"
+" each; withholding while the other shares gives 20 to the withholding "
+"country and 3 to the sharing country; mutual restriction gives 5 each. "
+"Higher means preferred within this example. The book explains why we assume "
+"that ranking before showing how it creates the trap."
+msgstr ""
+"네 결말에 가상 선호 점수를 줍니다. 상호 공유는 각각 17, 상대가 공유할 때 보류하는 쪽은 20과 공유하는 쪽은 3, 상호 제한은각 "
+"5입니다. 높을수록 선호한다는 뜻입니다. 책은 먼저 이 순서의 가정을 설명한 다음 함정을 보여줍니다."
+
+#: ../../site/index.rst:58 ../../site/index.rst:63
 msgid ""
 "Two teams finish a computer by sharing parts and knowledge, then struggle "
 "when a wall separates them. This illustrates the assumed game, not a "
@@ -146,11 +155,16 @@ msgid ""
 msgstr ""
 "두 팀이 부품과 지식을 공유하면 컴퓨터를 완성하지만 벽으로 나뉘면 어려워집니다. 가정한 게임의 예시이며 실측 결과가 아닙니다."
 
-#: ../../site/index.rst:65
-msgid "Assumed scores in the teaching game"
-msgstr "설명용 게임의 가정한 점수"
+#: ../../site/index.rst:67
+msgid ""
+"A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
+"gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
+"gives 5 each. All scores are assumptions."
+msgstr ""
+"A는 행, B는 열을 고릅니다. 양쪽 공유는 각각 17. A만 공유하면 A 3, B 20. B만 공유하면 A 20, B 3. 양쪽 제한은"
+" 각각 5. 모든 점수는 가정입니다."
 
-#: ../../site/index.rst:65
+#: ../../site/index.rst:67
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -158,28 +172,37 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"ko\")"
 
-#: ../../site/index.rst:72
+#: ../../site/index.rst:67
 msgid ""
-"The book explains why the result follows from its assumptions, what could "
-"reverse it, and how a repeated relationship can make cooperation worthwhile."
-" It also separates the possible benefits of public auditing from the risks "
-"of wider access. Our case for precise controls and workable open-research "
-"routes does not depend on invented loss estimates. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
-msgstr ""
-"가정·반례·반복 협력을 설명하고 감사 이익과 접근 위험을 구분합니다. 주장은 가상 손실 수치에 의존하지 않습니다. `NTIA "
-"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
-"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+"Four endings for the two teams. The scores are invented preferences; higher "
+"means preferred within this example."
+msgstr "두 팀의 네 결말입니다. 가상의 선호 점수이며 이 예에서는 높을수록 선호합니다."
 
 #: ../../site/index.rst:74
+msgid ""
+"Each government then sees a reason to restrict: 20 beats 17 if the other "
+"shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 "
+"each, although both prefer mutual sharing at 17 each. This is a possible "
+"failure of cooperation under our assumptions, not a measurement of US or "
+"Chinese policy. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
+msgstr ""
+"각 정부는 제한할 이유를 봅니다. 상대 공유 시 20이 17보다, 상대 제한 시 5가 3보다 낫습니다. 모두 협력의 17을 선호하지만 "
+"장벽을 골라각 5를 얻습니다. 가정 아래 가능한 협력 실패이며 미중 정책의 실측이 아닙니다. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../site/index.rst:76
+msgid "`Read the worked story and its limits <read-game_>`_"
+msgstr "`전체 이야기와 그 한계 읽기 <read-game_>`_"
+
+#: ../../site/index.rst:78
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
 "three practical reading habits:"
 msgstr "출처는 현재 조치·제안·분석을 나누고 세 읽기 습관을 제시합니다."
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:80
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -191,7 +214,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:77
+#: ../../site/index.rst:81
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -205,7 +228,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:78
+#: ../../site/index.rst:82
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -218,13 +241,13 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:82
+#: ../../site/index.rst:86
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
 msgstr " **표지 및 서장:**  `제퍼슨의 촛불, 하드웨어의 뿌리, 그리고 게임이론 증명 <read-cover_>`_"
 
-#: ../../site/index.rst:83
+#: ../../site/index.rst:87
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -232,7 +255,7 @@ msgstr ""
 " **제01장 및 제02장:**  `제48호 공고의 두 시계 <read-ch1_>`_ 및 `인터랙티브 40개 통제 지점 지도 <read-"
 "atlas_>`_"
 
-#: ../../site/index.rst:84
+#: ../../site/index.rst:88
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -240,7 +263,7 @@ msgstr ""
 " **제03장 및 제04장:**  `지성과 실리콘 하드웨어 스택 <read-ai_>`_ 및 `장벽 이전과 이후의 오픈소스 AI "
 "<read-open_>`_"
 
-#: ../../site/index.rst:85
+#: ../../site/index.rst:89
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

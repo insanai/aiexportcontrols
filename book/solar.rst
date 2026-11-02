@@ -29,3 +29,10 @@ Footnote 4: When the Physical Machine *Is* the Recipe
 Just as AI software cannot be separated from AI chips, solar know-how cannot be separated from solar furnaces. When a supplier ships a deposition reactor, installs embedded control code, and trains foreign engineers for six months on the factory floor, the hardware carries the mind inside it.
 
 **Draft Note 4** covers specified core photovoltaic equipment when it embodies listed technical indicators, including reactors, crystal furnaces, wafer saws and coating machines. Covered exports require temporary pre-export registration now. If adopted, the final catalogue would distinguish prohibited technology from restricted technology that needs permission. A license would not make a prohibited transfer permissible; the final text and procedures must be checked. `CN-A1, note 4 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_
+
+What This Means for the Two Teams
+===================================
+
+A finished panel, a manufacturing machine and the knowledge used to operate it are different things. For a cooperating factory team, access to one does not supply all the others. The workbench question becomes which equipment and know-how can still move together under the applicable rules.
+
+The two teams' starting point is in :ref:`shared-workbench-story`.
