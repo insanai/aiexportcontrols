@@ -37,13 +37,13 @@
 }
 
 #let game-copy = (
-  en: ("ILLUSTRATIVE GAME / ASSUMED SCORES", "How both sides can lose", "Share (S)", "Wall (W)", "Country A / rows", "Country B / columns", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Both prefer sharing to mutual walls.", "A wall is each side's best reply only under these assumptions.", "Teaching values. No measured percentage loss or safety multiplier."),
-  zh_CN: ("示意博弈 / 假设得分", "双方如何一起受损", "共享 (S)", "筑墙 (W)", "A国 / 行", "B国 / 列", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方都更愿意共享，而非共同筑墙。", "只有在这些假设下，筑墙才是各自的最优回应。", "教学数值，不是实际损失比例或安全风险倍数。"),
-  ja: ("説明用ゲーム / 仮定した点数", "双方が損をする仕組み", "共有 (S)", "壁 (W)", "A国 / 行", "B国 / 列", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方は相互の壁より共有を好む。", "この仮定の下でのみ、壁が双方の最適な応答となる。", "教育用の点数であり、実測の損失率や危険倍率ではない。"),
-  ko: ("설명용 게임 / 가정한 점수", "양쪽이 함께 잃는 구조", "공유 (S)", "장벽 (W)", "A국 / 행", "B국 / 열", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "양쪽 모두 상호 장벽보다 공유를 선호합니다.", "이 가정 아래에서만 장벽이 각자의 최적 대응입니다.", "교육용 수치이며 실측 손실률이나 위험 배수가 아닙니다."),
-  hi: ("उदाहरण का खेल / माने हुए अंक", "दोनों पक्ष कैसे नुकसान उठा सकते हैं", "साझा (S)", "दीवार (W)", "देश A / पंक्ति", "देश B / स्तंभ", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "दोनों को आपसी दीवार से साझा करना बेहतर लगता है।", "केवल इन मान्यताओं में दीवार हर पक्ष का बेहतर जवाब है।", "शिक्षण के अंक, वास्तविक नुकसान प्रतिशत या सुरक्षा गुणक नहीं।"),
-  es: ("JUEGO ILUSTRATIVO / PUNTOS SUPUESTOS", "Cómo pueden perder ambos", "Compartir (S)", "Muro (W)", "País A / filas", "País B / columnas", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Ambos prefieren compartir a los muros mutuos.", "El muro es la mejor respuesta solo bajo estos supuestos.", "Puntos didácticos, no porcentajes medidos ni multiplicadores de riesgo."),
-  de: ("BEISPIELSPIEL / ANGENOMMENE PUNKTE", "Wie beide Seiten verlieren können", "Teilen (S)", "Mauer (W)", "Land A / Zeilen", "Land B / Spalten", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Beide ziehen Teilen den gegenseitigen Mauern vor.", "Nur unter diesen Annahmen ist eine Mauer die beste Antwort.", "Lehrwerte, keine gemessenen Verluste oder Risikomultiplikatoren."),
+  en: ("INVENTED PREFERENCES / HIGHER MEANS PREFERRED", "How both sides can lose", "Share", "Wall", "A chooses the row", "B chooses the column", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Both prefer sharing to mutual walls.", "A wall is each side's best reply only under these assumptions.", "These scores describe the story's priorities, not measured effects.", "Both share", "Only A shares", "Only B shares", "Both build walls"),
+  zh_CN: ("假设偏好 / 分数越高越偏好", "双方如何一起受损", "共享", "筑墙", "A选择行", "B选择列", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方都更愿意共享，而非共同筑墙。", "只有在这些假设下，筑墙才是各自的最优回应。", "分数说明故事中的偏好，不是实测影响。", "双方共享", "只有A共享", "只有B共享", "双方筑墙"),
+  ja: ("仮定の選好 / 高いほど好ましい", "双方が損をする仕組み", "共有", "壁", "Aが行を選ぶ", "Bが列を選ぶ", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方は相互の壁より共有を好む。", "この仮定の下でのみ、壁が双方の最適な応答となる。", "点数は物語の選好であり、実測の影響ではありません。", "双方が共有", "Aだけ共有", "Bだけ共有", "双方が壁を築く"),
+  ko: ("가정한 선호 / 높을수록 선호", "양쪽이 함께 잃는 구조", "공유", "장벽", "A가 행 선택", "B가 열 선택", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "양쪽 모두 상호 장벽보다 공유를 선호합니다.", "이 가정 아래에서만 장벽이 각자의 최적 대응입니다.", "점수는 이야기의 선호이며 실측 효과가 아닙니다.", "양쪽 공유", "A만 공유", "B만 공유", "양쪽 장벽"),
+  hi: ("मानी हुई प्राथमिकताएं / अधिक अंक यानी अधिक पसंद", "दोनों पक्ष कैसे नुकसान उठा सकते हैं", "साझा", "दीवार", "A पंक्ति चुनता है", "B स्तंभ चुनता है", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "दोनों को आपसी दीवार से साझा करना बेहतर लगता है।", "केवल इन मान्यताओं में दीवार हर पक्ष का बेहतर जवाब है।", "ये अंक कहानी की प्राथमिकताएं हैं, मापे हुए प्रभाव नहीं।", "दोनों साझा", "केवल A साझा", "केवल B साझा", "दोनों दीवार"),
+  es: ("PREFERENCIAS SUPUESTAS / MÁS ALTO SIGNIFICA PREFERIDO", "Cómo pueden perder ambos", "Compartir", "Muro", "A elige la fila", "B elige la columna", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Ambos prefieren compartir a los muros mutuos.", "El muro es la mejor respuesta solo bajo estos supuestos.", "Los puntos expresan las prioridades del relato, no efectos medidos.", "Ambos comparten", "Solo A comparte", "Solo B comparte", "Ambos ponen muros"),
+  de: ("ANGENOMMENE PRÄFERENZEN / HÖHER BEDEUTET BEVORZUGT", "Wie beide Seiten verlieren können", "Teilen", "Mauer", "A wählt die Zeile", "B wählt die Spalte", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Beide ziehen Teilen den gegenseitigen Mauern vor.", "Nur unter diesen Annahmen ist eine Mauer die beste Antwort.", "Die Punkte zeigen die Prioritäten der Geschichte, keine gemessenen Folgen.", "Beide teilen", "Nur A teilt", "Nur B teilt", "Beide bauen Mauern"),
 )
 #let game-theory-matrix(lang: "en") = {
   let t = pick(game-copy, lang)
@@ -62,19 +62,20 @@
       content((1.55, 8.0), block(width: 29mm, align(center, text(size: 8pt, fill: pal.muted, t.at(4)))))
       content((1.55, 6.4), block(width: 29mm, align(center, text(size: 11pt, weight: "bold", fill: pal.teal, t.at(2)))))
       content((1.55, 2.7), block(width: 29mm, align(center, text(size: 11pt, weight: "bold", fill: pal.red, t.at(3)))))
-      for (x, y, a, b, bg, accent) in (
-        (3.4, 4.8, 17, 17, rgb("#eaf5f1"), pal.teal),
-        (9.1, 4.8, 3, 20, rgb("#f6f2e9"), pal.ink),
-        (3.4, 1.1, 20, 3, rgb("#f6f2e9"), pal.ink),
-        (9.1, 1.1, 5, 5, rgb("#faece6"), pal.red),
+      for (x, y, a, b, bg, accent, label) in (
+        (3.4, 4.8, 17, 17, rgb("#eaf5f1"), pal.teal, t.at(13)),
+        (9.1, 4.8, 3, 20, rgb("#f6f2e9"), pal.ink, t.at(14)),
+        (3.4, 1.1, 20, 3, rgb("#f6f2e9"), pal.ink, t.at(15)),
+        (9.1, 1.1, 5, 5, rgb("#faece6"), pal.red, t.at(16)),
       ) {
         rect((x, y), (x + 5.3, y + 3.15), fill: bg, stroke: 0.6pt + pal.rule)
         line((x, y + 3.15), (x + 5.3, y + 3.15), stroke: 2.1pt + accent)
-        line((x + 2.65, y + 0.5), (x + 2.65, y + 2.6), stroke: 0.6pt + pal.rule)
+        line((x + 2.65, y + 0.7), (x + 2.65, y + 2.6), stroke: 0.6pt + pal.rule)
         content((x + 1.35, y + 2.45), text(size: 8.5pt, weight: "bold", fill: pal.muted, "A"))
         content((x + 3.95, y + 2.45), text(size: 8.5pt, weight: "bold", fill: pal.muted, "B"))
         content((x + 1.35, y + 1.25), text(size: 31pt, weight: "bold", fill: accent, str(a)))
         content((x + 3.95, y + 1.25), text(size: 31pt, weight: "bold", fill: accent, str(b)))
+        content((x + 2.65, y + 0.28), block(width: 48mm, align(center, text(size: 8pt, fill: pal.muted, label))))
       }
     })
     #text(size: 9.5pt, fill: pal.teal, weight: "bold", t.at(10))
