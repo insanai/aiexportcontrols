@@ -387,3 +387,19 @@ html[data-theme="dark"] .landing-article img.typst-diagram {
   font-weight: 600;
   margin: 0 0 0.4rem;
 }
+
+/* Editorial line work: white space, flat framing, and semantic accent colors. */
+.landing-article figure {
+  padding: 0;
+  background: #fff;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.landing-article figure img { border-radius: 0; }
+.landing-article figcaption {
+  padding: 0.85rem 1rem;
+  border-top: 1px solid var(--rule, var(--lp-rule));
+  background: var(--paper, var(--lp-paper));
+  max-width: 100%;
+}

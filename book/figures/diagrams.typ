@@ -6,18 +6,18 @@
 #import "@preview/fletcher:0.5.8": diagram, node, edge
 
 #let pal = (
-  paper: rgb("#f9f6ef"),
+  paper: rgb("#ffffff"),
   card: rgb("#ffffff"),
   ink: rgb("#172e38"),
   muted: rgb("#52656f"),
   rule: rgb("#d5cfc2"),
   teal: rgb("#08716d"),
-  teal-soft: rgb("#e6f4f2"),
+  teal-soft: rgb("#ffffff"),
   red: rgb("#ae3d2c"),
-  red-soft: rgb("#fbeae7"),
+  red-soft: rgb("#ffffff"),
   gold: rgb("#b87d14"),
-  gold-soft: rgb("#fdf5e3"),
-  slate-soft: rgb("#eef2f5"),
+  gold-soft: rgb("#ffffff"),
+  slate-soft: rgb("#ffffff"),
 )
 
 #let script-fonts(lang) = {
@@ -36,413 +36,46 @@
   dict.at(key, default: dict.en)
 }
 
-// ---------------------------------------------------------------------------
-// 1. Symmetric Game Theory Payoff Matrix + Many-Eyes Curve & Plain Scoreboard
-// ---------------------------------------------------------------------------
-#let game-labels = (
-  en: (
-    kicker: "PLAIN-LANGUAGE GAME THEORY · THE FORTRESS TRAP",
-    title: "Two Countries, Two Choices: Why High Walls Leave Everyone Worse Off",
-    sub: "Each box shows net gains for Country A and Country B when both choose at the same time.",
-    country-b: "Country B →",
-    country-a: "↓ Country A",
-    share: "Share Openly (S)",
-    wall: "Build a Wall (W)",
-    ss-tag: "BOTH SHARE · SHARED LIGHTHOUSE",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "World Total = 34  ·  Bug Risk = 1×",
-    ss-desc: "Both build on shared breakthroughs (+8) and audit bugs together. (Pareto Optimum)",
-    sw-tag: "A SHARES ALONE · B WALLS UP",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "World Total = 23  ·  Bug Risk = 2×",
-    sw-desc: "B still reads A's open work (+8) and grabs a short lead (+5); A lags (-5).",
-    ws-tag: "A WALLS UP · B SHARES ALONE",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "World Total = 23  ·  Bug Risk = 2×",
-    ws-desc: "A still reads B's open work (+8) and grabs a short lead (+5); B lags (-5).",
-    ww-tag: "BOTH WALL UP · FORTRESS TRAP",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "World Total = 10 (-70%)  ·  Bug Risk = 4×",
-    ww-desc: "Leads cancel to zero (5 = 5), chip plants duplicate (-1), bugs hide. (Nash Equilibrium)",
-    curve-title: "Why Secrecy Multiplies Danger (Many-Eyes Law)",
-    curve-sub: "Chance a dangerous bug survives unseen: P = p₀(1 - q)ⁿ",
-    axis-x: "Independent teams testing openly (n)",
-    axis-y: "Unseen bug risk",
-    wall-pt: "Closed silos (4× risk)",
-    open-pt: "Open sharing (1× risk)",
-    guide-title: "How Every Box Is Scored (Plain Arithmetic)",
-    g1: "+10  Homegrown R&D baseline earned by each country",
-    g2: "+8   Shared-knowledge bonus when the other side shares (S)",
-    g3: "-1   Duplicate-factory cost when building a high wall (W)",
-    g4: "+5 / -5  One-sided race lead (cancels to 0 when both wall up)",
-    g5: "Coin-flip bug check: 1 closed lab = 50% miss · 4 open = 6.2% · 10 open < 0.1%",
-  ),
-  zh_CN: (
-    kicker: "通俗博弈论图解 · 堡垒陷阱",
-    title: "两个国家、两种选择：为何筑起高墙反而让所有人受损",
-    sub: "每个方格展示 A 国与 B 国同时做出选择时，各自获得的净收益得分。",
-    country-b: "B 国的选择 →",
-    country-a: "↓ A 国的选择",
-    share: "公开共享 (S)",
-    wall: "筑起高墙 (W)",
-    ss-tag: "双方共享 · 共建灯塔",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "全球总收益 = 34  ·  漏洞风险 = 1×",
-    ss-desc: "双方共享科研突破 (+8) 并联合排查隐患，医院与高校皆可受益。（帕累托最优）",
-    sw-tag: "A 单独共享 · B 筑起高墙",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "全球总收益 = 23  ·  漏洞风险 = 2×",
-    sw-desc: "B 照看 A 的开源成果 (+8) 并抢占短期领先 (+5)；A 暂时落后 (-5)。",
-    ws-tag: "A 筑起高墙 · B 单独共享",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "全球总收益 = 23  ·  漏洞风险 = 2×",
-    ws-desc: "A 照看 B 的开源成果 (+8) 并抢占短期领先 (+5)；B 暂时落后 (-5)。",
-    ww-tag: "双方筑墙 · 堡垒陷阱",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "全球总收益 = 10 (-70%)  ·  漏洞风险 = 4×",
-    ww-desc: "领先优势互相抵消 (5 = 5)，产线重复建设 (-1)，黑箱隐患激增。（纳什均衡）",
-    curve-title: "为何封闭反而放大危险（众目定律）",
-    curve-sub: "致命漏洞未被发现而幸存的概率：P = p₀(1 - q)ⁿ",
-    axis-x: "独立公开检测的团队数量 (n)",
-    axis-y: "隐患漏检风险",
-    wall-pt: "封闭黑箱 (4× 风险)",
-    open-pt: "公开共享 (1× 风险)",
-    guide-title: "方格得分怎么算？（五步日常算术）",
-    g1: "+10  本国基础研发：各国独立科研自带的基础收益",
-    g2: "+8   共享红利：只要对方选择公开共享 (S)，本国即可获益",
-    g3: "-1   重复建设成本：选择筑起高墙 (W) 须自建全套重复产线",
-    g4: "+5 / -5  单边领先差：仅一方筑墙时产生，双方都筑墙则抵消归零",
-    g5: "抛硬币查漏洞直觉：1家封闭实验室漏检率 50% · 4家开放降至 6.2% · 10家低于 0.1%",
-  ),
-  ja: (
-    kicker: "やさしいゲーム理論 · 要塞の罠",
-    title: "2つの国と2つの選択：なぜ高い壁は全員を貧しく危険にするのか",
-    sub: "各マスは、A国とB国が同時に選択したときに双方が得る純スコアを示します。",
-    country-b: "B国の選択 →",
-    country-a: "↓ A国の選択",
-    share: "オープン共有 (S)",
-    wall: "高い壁を築く (W)",
-    ss-tag: "双方が共有 · 共有の灯台",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "世界合計 = 34  ·  欠陥リスク = 1×",
-    ss-desc: "双方が公開知 (+8) を活かし共同で欠陥を検証。最も安全で豊か。（パレート最適）",
-    sw-tag: "Aのみ共有 · Bは壁を築く",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "世界合計 = 23  ·  欠陥リスク = 2×",
-    sw-desc: "BはAの公開成果 (+8) を学びつつ短期優位 (+5) を得て、Aは遅れる (-5)。",
-    ws-tag: "Aは壁を築く · Bのみ共有",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "世界合計 = 23  ·  欠陥リスク = 2×",
-    ws-desc: "AはBの公開成果 (+8) を学びつつ短期優位 (+5) を得て、Bは遅れる (-5)。",
-    ww-tag: "双方が壁 · 要塞の罠",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "世界合計 = 10 (-70%)  ·  欠陥リスク = 4×",
-    ww-desc: "優位は相殺 (5 = 5)、工場の重複 (-1) と密室の欠陥だけが残る。（ナッシュ均衡）",
-    curve-title: "なぜ秘密主義は危険を4倍にするのか（衆目の法則）",
-    curve-sub: "重大なバグが見逃される確率：P = p₀(1 - q)ⁿ",
-    axis-x: "独立して公開検証するチーム数 (n)",
-    axis-y: "バグ見逃しリスク",
-    wall-pt: "閉鎖サイロ (4× 危険)",
-    open-pt: "オープン共有 (1× 危険)",
-    guide-title: "スコアの仕組み（シンプルな足し算・引き算）",
-    g1: "+10  自国研究の基礎点：それぞれの国が独力で生み出す価値",
-    g2: "+8   共有ボーナス：相手国がオープン共有 (S) を選ぶと得られる恩恵",
-    g3: "-1   重複コスト：高い壁 (W) を築き半導体や設備を二重投資する負担",
-    g4: "+5 / -5  単独リード：片方だけが壁を築いた時のみ発生（双方なら 0）",
-    g5: "コイン投げの直感：密室1チームの見逃し50% · 公開4チームで6.2% · 10チームで0.1%未満",
-  ),
-  ko: (
-    kicker: "쉬운 게임이론 · 요새의 함정",
-    title: "두 나라, 두 가지 선택: 왜 높은 장벽은 모두를 더 위험하게 만드는가",
-    sub: "각 칸은 A국과 B국이 동시에 선택했을 때 두 나라가 얻는 순점수를 보여줍니다.",
-    country-b: "B국의 선택 →",
-    country-a: "↓ A국의 선택",
-    share: "열린 공유 (S)",
-    wall: "높은 장벽 (W)",
-    ss-tag: "모두 공유 · 함께 켜는 등대",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "세계 합계 = 34  ·  결함 위험 = 1×",
-    ss-desc: "양국이 공개 연구(+8)를 나누고 결함을 함께 검증합니다. (파레토 최적)",
-    sw-tag: "A만 공유 · B는 장벽",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "세계 합계 = 23  ·  결함 위험 = 2×",
-    sw-desc: "B는 A의 공개 성과(+8)를 누리면서 단기 우위(+5)를 얻고, A는 뒤처집니다(-5).",
-    ws-tag: "A는 장벽 · B만 공유",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "세계 합계 = 23  ·  결함 위험 = 2×",
-    ws-desc: "A는 B의 공개 성과(+8)를 누리면서 단기 우위(+5)를 얻고, B는 뒤처집니다(-5).",
-    ww-tag: "모두 장벽 · 요새의 함정",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "세계 합계 = 10 (-70%)  ·  결함 위험 = 4×",
-    ww-desc: "우위는 상쇄되고(5 = 5), 중복 투자(-1)와 블랙박스 위험만 커집니다. (내시 균형)",
-    curve-title: "왜 비밀주의가 위험을 4배로 키우는가 (많은 눈의 법칙)",
-    curve-sub: "치명적 버그가 끝까지 숨겨질 확률: P = p₀(1 - q)ⁿ",
-    axis-x: "독립적으로 공개 검증하는 팀 수 (n)",
-    axis-y: "숨은 결함 위험",
-    wall-pt: "폐쇄 장벽 (4× 위험)",
-    open-pt: "열린 공유 (1× 위험)",
-    guide-title: "점수 계산법 (누구나 이해하는 산수)",
-    g1: "+10  자체 연구 기본점: 각국이 스스로 만들어내는 기본 가치",
-    g2: "+8   공유 보너스: 상대국이 열린 공유(S)를 선택할 때 얻는 혜택",
-    g3: "-1   중복 투자 비용: 높은 장벽(W) 뒤에서 공급망을 새로 짓는 비용",
-    g4: "+5 / -5  일방적 우위: 한쪽만 장벽을 세울 때 발생 (둘 다 세우면 0으로 상쇄)",
-    g5: "동전 던지기 비유: 밀실 1팀 놓칠 확률 50% · 공개 4팀 6.2% · 공개 10팀 0.1% 미만",
-  ),
-  hi: (
-    kicker: "सरल गेम थ्योरी · क़िले का जाल",
-    title: "दो देश, दो रास्ते: ऊँची दीवारें सबको पीछे और असुरक्षित क्यों धकेलती हैं",
-    sub: "हर खाना दिखाता है कि देश A और देश B के एक साथ चुनाव करने पर दोनों को कितने अंक मिलते हैं।",
-    country-b: "देश B का चुनाव →",
-    country-a: "↓ देश A का चुनाव",
-    share: "खुला साझा (S)",
-    wall: "ऊँची दीवार (W)",
-    ss-tag: "दोनों साझा करें · साझा प्रकाशस्तंभ",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "कुल विश्व लाभ = 34  ·  ख़ामी जोखिम = 1×",
-    ss-desc: "दोनों साझा खोजों (+8) से सीखते हैं और मिलकर कमियाँ पकड़ते हैं। (परेटो सर्वोत्तम)",
-    sw-tag: "A अकेला साझा करे · B दीवार बनाए",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "कुल विश्व लाभ = 23  ·  ख़ामी जोखिम = 2×",
-    sw-desc: "B, A के खुले काम (+8) का लाभ लेकर बढ़त (+5) पाता है; A पिछड़ता है (-5)।",
-    ws-tag: "A दीवार बनाए · B अकेला साझा करे",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "कुल विश्व लाभ = 23  ·  ख़ामी जोखिम = 2×",
-    ws-desc: "A, B के खुले काम (+8) का लाभ लेकर बढ़त (+5) पाता है; B पिछड़ता है (-5)।",
-    ww-tag: "दोनों दीवार बनाएँ · क़िले का जाल",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "कुल विश्व लाभ = 10 (-70%)  ·  ख़ामी जोखिम = 4×",
-    ww-desc: "बढ़त शून्य (5 = 5), कारख़ानों का दोहरा खर्च (-1) और छिपे दोष चार गुने। (नैश संतुलन)",
-    curve-title: "गोपनीयता ख़तरे को 4 गुना क्यों बढ़ाती है (अनेक आँखों का नियम)",
-    curve-sub: "ख़तरनाक बग के अनदेखा बचने की संभावना: P = p₀(1 - q)ⁿ",
-    axis-x: "स्वतंत्र रूप से जाँच करने वाली टीमें (n)",
-    axis-y: "अनदेखी ख़ामी जोखिम",
-    wall-pt: "बंद दीवारें (4× जोखिम)",
-    open-pt: "खुला साझा (1× जोखिम)",
-    guide-title: "हर खाने का हिसाब कैसे निकलता है? (सीधा गणित)",
-    g1: "+10  घरेलू शोध आधार: हर देश की अपनी मेहनत से बनने वाला लाभ",
-    g2: "+8   साझा ज्ञान बोनस: जब दूसरा देश खुला साझा (S) चुनता है",
-    g3: "-1   दोहरा खर्च: ऊँची दीवार (W) बनाकर अलग कारख़ाने खड़े करने की लागत",
-    g4: "+5 / -5  एकतरफ़ा बढ़त: केवल एक के दीवार बनाने पर (दोनों बनाएँ तो 0)",
-    g5: "सिक्का उछाल उदाहरण: 1 बंद लैब चूक = 50% · 4 खुली टीमें = 6.2% · 10 टीमें < 0.1%",
-  ),
-  es: (
-    kicker: "TEORÍA DE JUEGOS EN LENGUAJE CLARO · LA TRAMPA DE LA FORTALEZA",
-    title: "Dos países, dos opciones: por qué los muros altos perjudican a todos",
-    sub: "Cada casilla muestra la ganancia neta del País A y del País B al decidir al mismo tiempo.",
-    country-b: "País B →",
-    country-a: "↓ País A",
-    share: "Compartir (S)",
-    wall: "Alzar Muro (W)",
-    ss-tag: "AMBOS COMPARTEN · FARO COMÚN",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "Total Mundial = 34  ·  Riesgo = 1×",
-    ss-desc: "Ambos aprovechan avances abiertos (+8) y auditan fallos juntos. (Óptimo de Pareto)",
-    sw-tag: "A COMPARTE SOLO · B ALZA MURO",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "Total Mundial = 23  ·  Riesgo = 2×",
-    sw-desc: "B lee el trabajo abierto de A (+8) y toma ventaja (+5); A queda atrás (-5).",
-    ws-tag: "A ALZA MURO · B COMPARTE SOLO",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "Total Mundial = 23  ·  Riesgo = 2×",
-    ws-desc: "A lee el trabajo abierto de B (+8) y toma ventaja (+5); B queda atrás (-5).",
-    ww-tag: "AMBOS ALZAN MURO · TRAMPA MUTUA",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "Total Mundial = 10 (-70%)  ·  Riesgo = 4×",
-    ww-desc: "La ventaja se anula (5 = 5), se duplican fábricas (-1) y crecen los fallos. (Nash)",
-    curve-title: "Por qué el secreto multiplica el peligro (Ley de Muchos Ojos)",
-    curve-sub: "Probabilidad de que sobreviva un fallo oculto: P = p₀(1 - q)ⁿ",
-    axis-x: "Equipos independientes auditando en abierto (n)",
-    axis-y: "Riesgo de fallo oculto",
-    wall-pt: "Silos cerrados (riesgo 4×)",
-    open-pt: "Compartir abierto (riesgo 1×)",
-    guide-title: "Cómo se calcula cada casilla (aritmética sencilla)",
-    g1: "+10  Base propia de I+D que genera cada país por sí mismo",
-    g2: "+8   Bono de conocimiento compartido si el otro país comparte (S)",
-    g3: "-1   Costo de duplicar fábricas y cadenas tras un muro (W)",
-    g4: "+5 / -5  Ventaja unilateral temporal (se anula a 0 si ambos alzan muros)",
-    g5: "Prueba de la moneda: 1 lab cerrado falla 50% · 4 abiertos 6.2% · 10 abiertos < 0.1%",
-  ),
-  de: (
-    kicker: "SPIELTHEORIE EINFACH ERKLÄRT · DIE FESTUNGSFALLE",
-    title: "Zwei Länder, zwei Wege: Warum hohe Mauern allen schaden",
-    sub: "Jedes Feld zeigt den Nettonutzen für Land A und Land B bei gleichzeitiger Entscheidung.",
-    country-b: "Land B →",
-    country-a: "↓ Land A",
-    share: "Offen teilen (S)",
-    wall: "Mauer bauen (W)",
-    ss-tag: "BEIDE TEILEN · GEMEINSAMER LEUCHTTURM",
-    ss-score: "A: +17   |   B: +17",
-    ss-world: "Weltsumme = 34  ·  Fehlerrisiko = 1×",
-    ss-desc: "Beide nutzen offene Forschung (+8) und prüfen Fehler gemeinsam. (Pareto-Optimum)",
-    sw-tag: "A TEILT ALLEIN · B BAUT MAUER",
-    sw-score: "A: +3   |   B: +20",
-    sw-world: "Weltsumme = 23  ·  Fehlerrisiko = 2×",
-    sw-desc: "B nutzt A's offene Arbeit (+8) und gewinnt Vorsprung (+5); A fällt zurück (-5).",
-    ws-tag: "A BAUT MAUER · B TEILT ALLEIN",
-    ws-score: "A: +20   |   B: +3",
-    ws-world: "Weltsumme = 23  ·  Fehlerrisiko = 2×",
-    ws-desc: "A nutzt B's offene Arbeit (+8) und gewinnt Vorsprung (+5); B fällt zurück (-5).",
-    ww-tag: "BEIDE BAUEN MAUERN · FESTUNGSFALLE",
-    ww-score: "A: +5   |   B: +5",
-    ww-world: "Weltsumme = 10 (-70%)  ·  Fehlerrisiko = 4×",
-    ww-desc: "Vorsprung hebt sich auf (5 = 5), Fabriken doppelt (-1), Risiken ×4. (Nash-Falle)",
-    curve-title: "Warum Geheimhaltung Gefahren vervierfacht (Viele-Augen-Gesetz)",
-    curve-sub: "Wahrscheinlichkeit unentdeckter kritischer Fehler: P = p₀(1 - q)ⁿ",
-    axis-x: "Unabhängig prüfende offene Teams (n)",
-    axis-y: "Unentdecktes Risiko",
-    wall-pt: "Geschlossene Silos (4×)",
-    open-pt: "Offenes Teilen (1×)",
-    guide-title: "So entsteht jede Punktzahl (einfache Rechnung)",
-    g1: "+10  Eigene Forschungsbasis jedes Landes aus eigener Kraft",
-    g2: "+8   Wissensbonus, wenn das andere Land offen teilt (S)",
-    g3: "-1   Kosten doppelter Chipfabriken hinter einer Mauer (W)",
-    g4: "+5 / -5  Einseitiger Vorsprung (hebt sich bei zwei Mauern auf 0 auf)",
-    g5: "Münzwurf-Prinzip: 1 Geheimlabor übersieht 50% · 4 offene 6,2% · 10 offene < 0,1%",
-  ),
+// A teaching game. Scores express assumed preferences, not measured welfare or risk.
+#let game-copy = (
+  en: ("ILLUSTRATIVE GAME / ASSUMED SCORES", "How both sides can lose", "Share (S)", "Wall (W)", "Country A / rows", "Country B / columns", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Both prefer sharing to mutual walls.", "A wall is each side's best reply only under these assumptions.", "Teaching values. No measured percentage loss or safety multiplier."),
+  zh_CN: ("示意博弈 / 假设得分", "双方如何一起受损", "共享 (S)", "筑墙 (W)", "A国 / 行", "B国 / 列", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方都更愿意共享，而非共同筑墙。", "只有在这些假设下，筑墙才是各自的最优回应。", "教学数值，不是实际损失比例或安全风险倍数。"),
+  ja: ("説明用ゲーム / 仮定した点数", "双方が損をする仕組み", "共有 (S)", "壁 (W)", "A国 / 行", "B国 / 列", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "双方は相互の壁より共有を好む。", "この仮定の下でのみ、壁が双方の最適な応答となる。", "教育用の点数であり、実測の損失率や危険倍率ではない。"),
+  ko: ("설명용 게임 / 가정한 점수", "양쪽이 함께 잃는 구조", "공유 (S)", "장벽 (W)", "A국 / 행", "B국 / 열", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "양쪽 모두 상호 장벽보다 공유를 선호합니다.", "이 가정 아래에서만 장벽이 각자의 최적 대응입니다.", "교육용 수치이며 실측 손실률이나 위험 배수가 아닙니다."),
+  hi: ("उदाहरण का खेल / माने हुए अंक", "दोनों पक्ष कैसे नुकसान उठा सकते हैं", "साझा (S)", "दीवार (W)", "देश A / पंक्ति", "देश B / स्तंभ", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "दोनों को आपसी दीवार से साझा करना बेहतर लगता है।", "केवल इन मान्यताओं में दीवार हर पक्ष का बेहतर जवाब है।", "शिक्षण के अंक, वास्तविक नुकसान प्रतिशत या सुरक्षा गुणक नहीं।"),
+  es: ("JUEGO ILUSTRATIVO / PUNTOS SUPUESTOS", "Cómo pueden perder ambos", "Compartir (S)", "Muro (W)", "País A / filas", "País B / columnas", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Ambos prefieren compartir a los muros mutuos.", "El muro es la mejor respuesta solo bajo estos supuestos.", "Puntos didácticos, no porcentajes medidos ni multiplicadores de riesgo."),
+  de: ("BEISPIELSPIEL / ANGENOMMENE PUNKTE", "Wie beide Seiten verlieren können", "Teilen (S)", "Mauer (W)", "Land A / Zeilen", "Land B / Spalten", "A: 17   B: 17", "A: 3    B: 20", "A: 20   B: 3", "A: 5    B: 5", "Beide ziehen Teilen den gegenseitigen Mauern vor.", "Nur unter diesen Annahmen ist eine Mauer die beste Antwort.", "Lehrwerte, keine gemessenen Verluste oder Risikomultiplikatoren."),
 )
-
-#let axis-pill(label, bg, border, fg) = block(
-  width: 100%,
-  height: 100%,
-  fill: bg,
-  stroke: 1.1pt + border,
-  radius: 5pt,
-  inset: (x: 6pt, y: 4pt),
-  align(center + horizon, text(size: 8.2pt, weight: "bold", fill: fg, label)),
-)
-
-#let payoff-cell(score, tag, world, desc, bg, border, accent) = block(
-  width: 100%,
-  height: 100%,
-  fill: bg,
-  stroke: 1.3pt + border,
-  radius: 6pt,
-  inset: (x: 9pt, y: 7pt),
-)[
-  #set par(leading: 0.38em, spacing: 0.38em, first-line-indent: 0em)
-  #align(horizon, stack(
-    dir: ttb,
-    spacing: 4.2pt,
-    text(size: 7pt, weight: "bold", fill: accent, tracking: 0.03em, tag),
-    text(size: 13.8pt, weight: "bold", fill: pal.ink, score),
-    text(size: 7.6pt, weight: "bold", fill: accent, world),
-    text(size: 7.4pt, fill: pal.muted, desc),
-  ))
-]
-
 #let game-theory-matrix(lang: "en") = {
-  let t = pick(game-labels, lang)
+  let t = pick(game-copy, lang)
   set text(font: script-fonts(lang), fill: pal.ink)
-  set par(leading: 0.4em, spacing: 0.4em, first-line-indent: 0em)
-  block(
-    width: 168mm,
-    fill: pal.paper,
-    stroke: 0.8pt + pal.rule,
-    radius: 8pt,
-    inset: 11pt,
-  )[
-    #stack(
-      dir: ttb,
-      spacing: 3.5pt,
-      text(size: 7.4pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker),
-      text(size: 11.6pt, weight: "bold", fill: pal.ink, t.title),
-      text(size: 7.7pt, fill: pal.muted, t.sub),
+  set par(leading: 0.5em)
+  block(width: 168mm, fill: white, inset: 15pt)[
+    #text(size: 7.5pt, fill: pal.muted, weight: "bold", t.at(0))
+    #v(6pt)
+    #text(size: 19pt, weight: "bold", t.at(1))
+    #v(10pt)
+    #align(right, text(size: 8pt, fill: pal.muted, t.at(5)))
+    #v(6pt)
+    #grid(columns: (32mm, 1fr, 1fr), gutter: 0pt,
+      block(inset: 9pt, text(size: 8pt, fill: pal.muted, t.at(4))),
+      block(inset: 9pt, text(size: 10pt, weight: "bold", t.at(2))),
+      block(inset: 9pt, text(size: 10pt, weight: "bold", t.at(3))),
+      block(height: 24mm, inset: 9pt, stroke: (top: 0.5pt + pal.rule), text(size: 10pt, weight: "bold", t.at(2))),
+      block(height: 24mm, inset: 12pt, stroke: (top: 0.8pt + pal.teal, bottom: 0.5pt + pal.rule), text(size: 17pt, fill: pal.teal, weight: "bold", t.at(6))),
+      block(height: 24mm, inset: 12pt, stroke: (top: 0.5pt + pal.rule, bottom: 0.5pt + pal.rule), text(size: 17pt, t.at(7))),
+      block(height: 24mm, inset: 9pt, text(size: 10pt, weight: "bold", t.at(3))),
+      block(height: 24mm, inset: 12pt, text(size: 17pt, t.at(8))),
+      block(height: 24mm, inset: 12pt, stroke: (bottom: 1.1pt + pal.red), text(size: 17pt, fill: pal.red, weight: "bold", t.at(9))),
     )
-    #v(7pt)
-    // Tier 1: Perfectly Symmetric 2x2 Choice Matrix
-    #grid(
-      columns: (34mm, 1fr, 1fr),
-      rows: (13mm, 33mm, 33mm),
-      column-gutter: 6pt,
-      row-gutter: 6pt,
-      block(
-        width: 100%,
-        height: 100%,
-        fill: pal.card,
-        stroke: 0.8pt + pal.rule,
-        radius: 5pt,
-        inset: (x: 6pt, y: 3.5pt),
-      )[
-        #place(top + left, line(start: (0%, 0%), end: (100%, 100%), stroke: 0.5pt + pal.rule))
-        #align(right + top, text(size: 7.2pt, weight: "bold", fill: pal.ink, t.country-b))
-        #v(1fr)
-        #align(left + bottom, text(size: 7.2pt, weight: "bold", fill: pal.ink, t.country-a))
-      ],
-      axis-pill(t.share, pal.teal-soft, pal.teal, pal.teal),
-      axis-pill(t.wall, pal.red-soft, pal.red, pal.red),
-      axis-pill(t.share, pal.teal-soft, pal.teal, pal.teal),
-      payoff-cell(t.ss-score, t.ss-tag, t.ss-world, t.ss-desc, pal.teal-soft, pal.teal, pal.teal),
-      payoff-cell(t.sw-score, t.sw-tag, t.sw-world, t.sw-desc, pal.gold-soft, pal.gold, pal.gold),
-      axis-pill(t.wall, pal.red-soft, pal.red, pal.red),
-      payoff-cell(t.ws-score, t.ws-tag, t.ws-world, t.ws-desc, pal.gold-soft, pal.gold, pal.gold),
-      payoff-cell(t.ww-score, t.ww-tag, t.ww-world, t.ww-desc, pal.red-soft, pal.red, pal.red),
-    )
-    #v(7pt)
-    // Tier 2: Symmetric 2-Column Bottom Strip (Many-Eyes Curve + Plain Scoreboard)
-    #grid(
-      columns: (1fr, 1fr),
-      rows: (44mm,),
-      column-gutter: 7pt,
-      block(
-        width: 100%,
-        height: 100%,
-        fill: pal.card,
-        stroke: 0.8pt + pal.rule,
-        radius: 6pt,
-        inset: 8.5pt,
-      )[
-        #stack(
-          dir: ttb,
-          spacing: 2.5pt,
-          text(size: 8.1pt, weight: "bold", fill: pal.ink, t.curve-title),
-          text(size: 7.1pt, fill: pal.muted, t.curve-sub),
-        )
-        #v(3pt)
-        #align(center + horizon, cetz.canvas(length: 5.8mm, {
-          import cetz.draw: *
-          line((0, 0), (8.4, 0), stroke: 0.85pt + pal.ink, mark: (end: ">"))
-          line((0, 0), (0, 3.6), stroke: 0.85pt + pal.ink, mark: (end: ">"))
-          for y in (1, 2, 3) {
-            line((0, y), (8.1, y), stroke: (paint: pal.rule, thickness: 0.45pt, dash: "dashed"))
-          }
-          let pts = range(0, 79).map(i => {
-            let x = i * 0.1
-            (x, 3.3 * calc.exp(-0.35 * x))
-          })
-          line(..pts, stroke: 1.9pt + pal.teal)
-          let wx = 0.8
-          let wy = 3.3 * calc.exp(-0.35 * wx)
-          circle((wx, wy), radius: 0.17, fill: pal.red, stroke: 0.9pt + white)
-          content((wx + 0.25, wy + 0.22), anchor: "west", text(size: 6.9pt, weight: "bold", fill: pal.red, t.wall-pt))
-          let ox = 6.3
-          let oy = 3.3 * calc.exp(-0.35 * ox)
-          circle((ox, oy), radius: 0.17, fill: pal.teal, stroke: 0.9pt + white)
-          content((ox - 0.1, oy + 0.58), anchor: "center", text(size: 6.9pt, weight: "bold", fill: pal.teal, t.open-pt))
-          content((4.2, -0.55), text(size: 6.8pt, fill: pal.muted, t.axis-x))
-          content((0.15, 3.78), anchor: "west", text(size: 6.8pt, fill: pal.muted, t.axis-y))
-        }))
-      ],
-      block(
-        width: 100%,
-        height: 100%,
-        fill: pal.card,
-        stroke: 0.8pt + pal.rule,
-        radius: 6pt,
-        inset: 8.5pt,
-      )[
-        #stack(
-          dir: ttb,
-          spacing: 5pt,
-          text(size: 8.1pt, weight: "bold", fill: pal.ink, t.guide-title),
-          text(size: 7.3pt, fill: pal.ink, t.g1),
-          text(size: 7.3pt, fill: pal.teal, weight: "bold", t.g2),
-          text(size: 7.3pt, fill: pal.red, t.g3),
-          text(size: 7.3pt, fill: pal.gold, weight: "bold", t.g4),
-          line(length: 100%, stroke: 0.5pt + pal.rule),
-          text(size: 7.1pt, fill: pal.muted, t.g5),
-        )
-      ],
-    )
+    #v(9pt)
+    #text(size: 9pt, fill: pal.teal, t.at(10))
+    #v(5pt)
+    #text(size: 9pt, t.at(11))
+    #v(12pt)
+    #line(length: 100%, stroke: 0.5pt + pal.rule)
+    #v(6pt)
+    #text(size: 8pt, fill: pal.muted, t.at(12))
   ]
 }
 
@@ -608,7 +241,7 @@
     width: 168mm,
     fill: pal.paper,
     stroke: 0.8pt + pal.rule,
-    radius: 8pt,
+    radius: 0pt,
     inset: 12pt,
   )[
     #text(size: 7.5pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker)
@@ -618,11 +251,11 @@
     #stack(
       dir: ltr,
       spacing: 12pt,
-      stack(dir: ltr, spacing: 4pt, rect(width: 9pt, height: 9pt, fill: pal.red, radius: 2pt), text(size: 8pt, weight: "bold", fill: pal.red, t.prohibited)),
-      stack(dir: ltr, spacing: 4pt, rect(width: 9pt, height: 9pt, fill: pal.gold, radius: 2pt), text(size: 8pt, weight: "bold", fill: pal.gold, t.restricted)),
+      stack(dir: ltr, spacing: 4pt, rect(width: 9pt, height: 9pt, fill: pal.red, radius: 0pt), text(size: 8pt, weight: "bold", fill: pal.red, t.prohibited)),
+      stack(dir: ltr, spacing: 4pt, rect(width: 9pt, height: 9pt, fill: pal.gold, radius: 0pt), text(size: 8pt, weight: "bold", fill: pal.gold, t.restricted)),
     )
     #v(6pt)
-    #block(fill: pal.card, stroke: 0.7pt + pal.rule, radius: 6pt, inset: 9pt, width: 100%)[
+    #block(fill: pal.card, stroke: 0.7pt + pal.rule, radius: 0pt, inset: 9pt, width: 100%)[
       #sector-bar(t.ai, t.ai-sub, 6, 17)
       #line(length: 100%, stroke: 0.5pt + pal.rule)
       #sector-bar(t.solar, t.solar-sub, 5, 7)
@@ -637,7 +270,7 @@
         width: 100%,
         fill: pal.teal-soft,
         stroke: 1pt + pal.teal,
-        radius: 5pt,
+        radius: 0pt,
         inset: 8pt,
       )[
         #text(size: 7.3pt, weight: "bold", fill: pal.teal, tracking: 0.05em, pair.first())
@@ -725,7 +358,7 @@
     width: 168mm,
     fill: pal.paper,
     stroke: 0.8pt + pal.rule,
-    radius: 8pt,
+    radius: 0pt,
     inset: 12pt,
   )[
     #text(size: 7.5pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker)
@@ -735,7 +368,7 @@
     #align(center, diagram(
       spacing: (14mm, 8mm),
       node-stroke: 1.1pt,
-      node-corner-radius: 6pt,
+      node-corner-radius: 0pt,
       edge-stroke: 1.2pt + pal.ink,
       node((0, 0.5), align(center, text(size: 8.2pt, weight: "bold", t.origin)),
         fill: pal.card, stroke: 1.2pt + pal.ink, inset: 9pt),
@@ -759,104 +392,20 @@
 // 4. Three-Layer Hardware + Software Stack of Open-Source AI
 // ---------------------------------------------------------------------------
 #let stack-labels = (
-  en: (
-    kicker: "MIND & SILICON · THE FULL AI EXPORT-CONTROL STACK",
-    title: "Why Open-Source AI Depends on Both Software Weights and Physical Hardware",
-    l3-tag: "LAYER 3 · BAKERY WINDOW & PUBLIC COMMONS (OUTSIDE LICENSING)",
-    l3-title: "Remote APIs, Web/Mobile Apps, Edge Models & Already-Public Open Weights",
-    l3-body: "China Note 1 & MOFCOM Q&A + US 15 CFR 734.7 / 4E091 leave public MIT & Apache 2.0 repos and ordinary SaaS/API calls free to cross borders.",
-    l2-tag: "LAYER 2 · SOURDOUGH RECIPE (MODEL WEIGHTS, CHECKPOINTS & AGENTS)",
-    l2-title: "Frontier Cores (266504X: ≥10²⁶ FLOPs | ≥2T Params | Global Top-10) & US 4E091",
-    l2-body: "Private cross-border weight transfers need licenses; PRC Core Data models (266501J) are barred; new Chinese open-source AI gets Note 2 automatic-licensing fast track.",
-    l1-tag: "LAYER 1 · CAST-IRON OVEN (PHYSICAL SILICON, MEMORY & SUPERCLUSTERS)",
-    l1-title: "US AI Chips (3A090 / H200 Review) + China Chip Designs (266506X) & >10k Clusters (266507X)",
-    l1-body: "Controls clamp lithography, ≤14nm AI chip blueprints, ≤18nm DRAM/HBM & 3D NAND designs, 800 GB/s cluster fabrics, and multi-vendor GPU pools (Note 2 eases overseas tape-outs).",
-  ),
-  zh_CN: (
-    kicker: "心智与硅基 · 开源人工智能的软硬件全栈管制图谱",
-    title: "为何开源AI的未来同时取决于软件权重与物理硬件底座",
-    l3-tag: "第三层 · 面包店窗口与公共领域（目录管理之外）",
-    l3-title: "远程 API 调用、网页/移动应用、端侧轻量模型与已公开开源权重",
-    l3-body: "中国注释1与商务部答记者问、美国 15 CFR 734.7 与 4E091 均明确：已公开的 MIT/Apache 2.0 模型及普通远程 API 服务无需出口许可。",
-    l2-tag: "第二层 · 酵种与母本配方（模型权重、检查点、训练代码与智能体）",
-    l2-title: "前沿大模型核心技术（266504X：≥10²⁶ FLOPs | ≥2万亿参数 | 全球前十）与美国 4E091",
-    l2-body: "私下跨境交付权重须办许可；核心数据模型（266501J）拟禁；中国新增开源AI出口享注释2“即报即出”自动许可。",
-    l1-tag: "第一层 · 铸铁烤炉与算力底座（物理芯片、高带宽存储与万卡超算集群）",
-    l1-title: "美国算力芯片（3A090/H200审查）+ 中国AI/存储芯片设计（266506X）与超万卡集群（266507X）",
-    l1-body: "管制覆盖光刻与≤14nm处理器架构、≤18nm DRAM/HBM及3D NAND设计、800 GB/s高速互联及异构混训（注释2保障境外流片）。",
-  ),
-  ja: (
-    kicker: "知性とシリコン · オープンソースAIを支えるソフト・ハード3層構造",
-    title: "オープンAIの未来が「モデルの重み」と「物理ハードウェア」の両方で決まる理由",
-    l3-tag: "第3層 · ベーカリーの窓口と公開コモンズ（許可対象外）",
-    l3-title: "リモートAPI・アプリ提供・軽量エッジモデル・公開済みオープン重み",
-    l3-body: "中国注1・商務部Q&Aおよび米国15 CFR 734.7 / 4E091により、公開済みMIT/Apache 2.0モデルや通常のAPI利用は対象外。",
-    l2-tag: "第2層 · パン種と秘伝レシピ（重み・チェックポイント・学習コード・エージェント）",
-    l2-title: "フロンティア中核技術（266504X：≥10²⁶ FLOPs | ≥2兆パラメータ | 世界Top10）と米国4E091",
-    l2-body: "非公開重みの越境移転は許可対象。コアデータ学習モデル(266501J)は禁止案。新規オープンソース公開は注2の自動許可へ。",
-    l1-tag: "第1層 · 鋳鉄の窯と電力網（半導体・HBMメモリ・1万枚超スーパークラスタ）",
-    l1-title: "米国AIチップ(3A090) ＋ 中国AI/メモリ設計(266506X)・1万枚超クラスタ技術(266507X)",
-    l1-body: "≤14nm AI設計、≤18nm DRAM/HBM・3D NAND、800 GB/s相互接続、異種GPU統合を管理（注2で海外テープアウトを円滑化）。",
-  ),
-  ko: (
-    kicker: "지성과 실리콘 · 오픈소스 AI의 소프트웨어·하드웨어 3계층 구조",
-    title: "오픈소스 AI의 미래가 모델 가중치와 물리적 하드웨어 모두에 달린 이유",
-    l3-tag: "3계층 · 베이커리 창구와 공개 공유지 (수출 허가 제외)",
-    l3-title: "원격 API · 웹/앱 서비스 · 경량 온디바이스 모델 · 이미 공개된 오픈 가중치",
-    l3-body: "중국 주석 1·상무부 Q&A 및 미국 15 CFR 734.7 / 4E091에 따라 이미 공개된 MIT/Apache 2.0 모델과 일반 API 서비스는 자유롭게 이동.",
-    l2-tag: "2계층 · 천연 발효종과 레시피 (가중치 · 체크포인트 · 학습 코드 · 에이전트)",
-    l2-title: "프런티어 모델 핵심 기술 (266504X: ≥10²⁶ FLOPs | ≥2조 파라미터 | 글로벌 Top 10) 및 미국 4E091",
-    l2-body: "비공개 가중치 이전은 허가 대상, 핵심 데이터 모델(266501J)은 금지안, 신규 오픈소스 공개는 주석 2 자동 허가 패스트트랙 적용.",
-    l1-tag: "1계층 · 무쇠 오븐과 발전소 (물리적 AI 칩 · HBM 메모리 · 1만 장급 클러스터)",
-    l1-title: "미국 AI 칩(3A090) + 중국 AI/메모리 칩 설계(266506X) 및 >10,000장 클러스터(266507X)",
-    l1-body: "≤14nm 칩 아키텍처, ≤18nm DRAM/HBM·3D NAND, 800 GB/s 인터커넥트, 이종 GPU 통합을 통제 (주석 2로 해외 테이프아웃 지원).",
-  ),
-  hi: (
-    kicker: "मस्तिष्क और सिलिकॉन · ओपन-सोर्स AI की संपूर्ण सॉफ़्टवेयर-हार्डवेयर संरचना",
-    title: "ओपन-सोर्स AI का भविष्य मॉडल वेट्स और भौतिक हार्डवेयर दोनों पर क्यों टिका है",
-    l3-tag: "परत 3 · बेकरी की खिड़की और सार्वजनिक साझा (लाइसेंस से मुक्त)",
-    l3-title: "रिमोट API, वेब/मोबाइल ऐप, हल्के डिवाइस मॉडल व पहले से सार्वजनिक ओपन वेट्स",
-    l3-body: "चीन की टिप्पणी 1 व MOFCOM Q&A तथा अमेरिकी 15 CFR 734.7 / 4E091 सार्वजनिक MIT/Apache 2.0 मॉडलों व सामान्य API सेवाओं को मुक्त रखते हैं।",
-    l2-tag: "परत 2 · खमीर और मूल नुस्ख़ा (मॉडल वेट्स, चेकपॉइंट, ट्रेनिंग कोड व एजेंट)",
-    l2-title: "फ़्रंटियर मॉडल तकनीक (266504X: ≥10²⁶ FLOPs | ≥2 ट्रिलियन पैरामीटर | ग्लोबल टॉप-10) व US 4E091",
-    l2-body: "निजी वेट्स के हस्तांतरण पर लाइसेंस; कोर डेटा मॉडल (266501J) निषिद्ध; नए ओपन-सोर्स AI को टिप्पणी 2 की त्वरित स्वतः अनुमति।",
-    l1-tag: "परत 1 · लोहे की भट्ठी (भौतिक AI चिप्स, HBM मेमोरी व 10,000-कार्ड सुपरक्लस्टर)",
-    l1-title: "अमेरिकी AI चिप्स (3A090) + चीनी चिप डिज़ाइन (266506X) व >10k क्लस्टर (266507X)",
-    l1-body: "≤14nm प्रोसेसर ब्लूप्रिंट, ≤18nm DRAM/HBM व 3D NAND, 800 GB/s इंटरकनेक्ट और बहु-विक्रेता GPU पूल नियंत्रित (टिप्पणी 2 से टेप-आउट सुगम)।",
-  ),
-  es: (
-    kicker: "MENTE Y SILICIO · LA PILA COMPLETA DE HARDWARE Y SOFTWARE DE LA IA",
-    title: "Por qué la IA abierta depende tanto de los pesos del modelo como del silicio físico",
-    l3-tag: "CAPA 3 · VENTANA DE LA PANADERÍA Y DOMINIO PÚBLICO (SIN LICENCIA)",
-    l3-title: "APIs remotas, apps web/móviles, modelos ligeros y pesos abiertos ya publicados",
-    l3-body: "La Nota 1 y Q&A de MOFCOM junto con 15 CFR 734.7 / 4E091 de EE. UU. dejan libres los modelos públicos MIT/Apache 2.0 y las llamadas API.",
-    l2-tag: "CAPA 2 · MASA MADRE Y RECETA (PESOS, CHECKPOINTS, CÓDIGO Y AGENTES)",
-    l2-title: "Núcleos Frontera (266504X: ≥10²⁶ FLOPs | ≥2B parám. | Top-10 Mundial) y 4E091 de EE. UU.",
-    l2-body: "Transferencias privadas requieren licencia; Datos Núcleo (266501J) prohibidos; nueva IA abierta recibe vía rápida automática (Nota 2).",
-    l1-tag: "CAPA 1 · HORNO DE HIERRO (CHIPS FÍSICOS, MEMORIA HBM Y SUPERCLÚSTERES)",
-    l1-title: "Chips IA EE. UU. (3A090) + Diseños de Chips/Memoria (266506X) y Clústeres >10k (266507X)",
-    l1-body: "Controla arquitecturas ≤14nm, DRAM/HBM ≤18nm, 3D NAND, enlaces de 800 GB/s y orquestación multimarca (Nota 2 facilita el tape-out exterior).",
-  ),
-  de: (
-    kicker: "GEIST & SILIZIUM · DER VOLLSTÄNDIGE KI-STAPEL AUS SOFTWARE UND HARDWARE",
-    title: "Warum Open-Source-KI zugleich von Modellgewichten und physischer Hardware abhängt",
-    l3-tag: "EBENE 3 · BÄCKEREIFENSTER & OFFENE ALLMENDE (GENEHMIGUNGSFREI)",
-    l3-title: "Remote-APIs, Web-/Mobil-Apps, kompakte Gerätemodelle & bereits öffentliche Gewichte",
-    l3-body: "Chinas Fußnote 1 & MOFCOM-Q&A sowie US 15 CFR 734.7 / 4E091 halten öffentliche MIT-/Apache-2.0-Modelle und API-Dienste frei.",
-    l2-tag: "EBENE 2 · SAUERTEIG & REZEPT (GEWICHTE, CHECKPOINTS, TRAININGSCODE & AGENTEN)",
-    l2-title: "Frontier-Kerne (266504X: ≥10²⁶ FLOPs | ≥2 Bio. Param. | Global Top-10) & US 4E091",
-    l2-body: "Private Gewichtstransfers lizenzpflichtig; Kerndaten-Modelle (266501J) verboten; neue Open-Source-KI erhält Fußnote-2-Expresslizenz.",
-    l1-tag: "EBENE 1 · GUSSEISERNER OFEN (KI-CHIPS, HBM-SPEICHER & >10.000-KARTEN-CLUSTER)",
-    l1-title: "US-KI-Chips (3A090) + Chinas Chipdesigns (266506X) & Supercluster-Technik (266507X)",
-    l1-body: "Erfasst ≤14nm-Chipbaupläne, ≤18nm-DRAM/HBM & 3D-NAND, 800-GB/s-Verbindungen und Multi-Vendor-Training (Fußnote 2 erleichtert Tape-outs).",
-  ),
+  en: (kicker: "THREE LAYERS / DIFFERENT LEGAL QUESTIONS", title: "Open models still need physical computers", l3-tag: "PUBLIC FILES AND REMOTE SERVICES", l3-title: "Different routes, not a universal exemption", l3-body: "Identify the actual artifact. China draft Note 1, the official Q&A and US publication rules have different scopes.", l2-tag: "PRIVATE MODEL TECHNOLOGY", l2-title: "Weights, checkpoints, code and agents", l2-body: "Chinese categories remain proposed; temporary registration is current. US 4E091 text and non-enforcement are distinct.", l1-tag: "HARDWARE AND DESIGN KNOWLEDGE", l1-title: "Chips, memory and large clusters", l1-body: "US chip controls and proposed Chinese design/cluster entries concern different objects and conditions."),
+  zh_CN: (kicker: "三层结构 / 不同法律问题", title: "开放模型仍需实体计算机", l3-tag: "公开文件与远程服务", l3-title: "不同路径，不是通用豁免", l3-body: "识别实际文件。中国草案注1、官方问答与美国公开条款范围不同。", l2-tag: "私有模型技术", l2-title: "权重、检查点、代码和智能体", l2-body: "中国类别仍为提案，临时登记已实施。美国4E091文本与不执行政策应分开。", l1-tag: "硬件与设计知识", l1-title: "芯片、存储与大型集群", l1-body: "美国芯片管制与中国拟议设计及集群条目涉及不同对象和条件。"),
+  ja: (kicker: "三つの層 / 別々の法律問題", title: "公開モデルにも物理計算機が必要", l3-tag: "公開ファイルと遠隔サービス", l3-title: "異なる経路、一般免除ではない", l3-body: "実際の資料を特定する。中国案の注1、公式回答、米国公表規定は範囲が異なる。", l2-tag: "非公開モデル技術", l2-title: "重み、保存状態、コード、エージェント", l2-body: "中国分類は提案、登録は現行。米国4E091条文と不執行を区別する。", l1-tag: "機器と設計知識", l1-title: "半導体、メモリー、大規模集群", l1-body: "米国半導体管理と中国の設計・集群提案は対象と条件が異なる。"),
+  ko: (kicker: "세 계층 / 다른 법적 질문", title: "공개 모델에도 물리 컴퓨터가 필요", l3-tag: "공개 파일과 원격 서비스", l3-title: "다른 경로이며 보편 면제는 아님", l3-body: "실제 파일을 식별합니다. 중국 주석1, 공식 문답, 미국 공개 규정의 범위는 다릅니다.", l2-tag: "비공개 모델 기술", l2-title: "가중치·체크포인트·코드·에이전트", l2-body: "중국 분류는 제안이고 등록은 시행 중입니다. 미국 문구와 불집행은 별개입니다.", l1-tag: "장비와 설계 지식", l1-title: "칩·메모리·대형 클러스터", l1-body: "미국 칩 관리와 중국 설계·클러스터 제안은 대상과 조건이 다릅니다."),
+  hi: (kicker: "तीन परत / अलग कानूनी सवाल", title: "खुले मॉडल को भी भौतिक कंप्यूटर चाहिए", l3-tag: "सार्वजनिक फाइल और दूरस्थ सेवा", l3-title: "अलग रास्ते, सामान्य छूट नहीं", l3-body: "असली फाइल पहचानें। चीन का नोट1, सरकारी उत्तर और अमेरिकी प्रकाशन नियम अलग हैं।", l2-tag: "निजी मॉडल तकनीक", l2-title: "भार, चेकपॉइंट, कोड और एजेंट", l2-body: "चीनी श्रेणियां प्रस्ताव हैं; पंजीकरण लागू है। अमेरिकी पाठ और गैर-अमल अलग हैं।", l1-tag: "उपकरण और डिजाइन ज्ञान", l1-title: "चिप, मेमोरी और बड़े समूह", l1-body: "अमेरिकी चिप नियंत्रण और चीनी डिजाइन·समूह प्रस्ताव अलग वस्तु और शर्तें देखते हैं।"),
+  es: (kicker: "TRES CAPAS / PREGUNTAS JURÍDICAS DISTINTAS", title: "Los modelos abiertos necesitan ordenadores", l3-tag: "ARCHIVOS PÚBLICOS Y SERVICIOS REMOTOS", l3-title: "Rutas distintas, no una excepción universal", l3-body: "Identificamos el archivo. La Nota 1, la explicación china y las reglas estadounidenses tienen alcances distintos.", l2-tag: "TECNOLOGÍA PRIVADA", l2-title: "Pesos, puntos de control, código y agentes", l2-body: "Las categorías chinas son propuestas; el registro está vigente. El texto 4E091 y su no aplicación son distintos.", l1-tag: "EQUIPOS Y CONOCIMIENTO DE DISEÑO", l1-title: "Chips, memoria y grandes grupos", l1-body: "Los controles estadounidenses y las propuestas chinas cubren objetos y condiciones distintos."),
+  de: (kicker: "DREI EBENEN / GETRENNTE RECHTSFRAGEN", title: "Offene Modelle brauchen reale Computer", l3-tag: "ÖFFENTLICHE DATEIEN UND REMOTE-DIENSTE", l3-title: "Verschiedene Wege, keine pauschale Ausnahme", l3-body: "Die konkrete Datei bestimmen. Chinas Hinweis 1, amtliche Antworten und US-Veröffentlichungsregeln unterscheiden sich.", l2-tag: "PRIVATE MODELLTECHNIK", l2-title: "Gewichte, Speicherstände, Code und Agenten", l2-body: "Chinas Kategorien sind Entwurf, Registrierung gilt. US-4E091-Text und Nichtdurchsetzung sind getrennt.", l1-tag: "GERÄTE UND ENTWURFSWISSEN", l1-title: "Chips, Speicher und große Cluster", l1-body: "US-Chipregeln und Chinas Entwurfs-/Clusterpositionen haben verschiedene Gegenstände und Bedingungen."),
 )
 
 #let stack-layer(tag, title, body, bg, border, accent) = block(
   width: 100%,
   fill: bg,
   stroke: 1.2pt + border,
-  radius: 6pt,
+  radius: 0pt,
   inset: 9pt,
 )[
   #text(size: 7.3pt, weight: "bold", fill: accent, tracking: 0.05em, tag)
@@ -874,7 +423,7 @@
     width: 168mm,
     fill: pal.paper,
     stroke: 0.8pt + pal.rule,
-    radius: 8pt,
+    radius: 0pt,
     inset: 12pt,
   )[
     #text(size: 7.5pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker)
@@ -890,5 +439,32 @@
       align(center, text(size: 10pt, weight: "bold", fill: pal.muted, "▲   ▼")),
       stack-layer(t.l1-tag, t.l1-title, t.l1-body, pal.red-soft, pal.red, pal.red),
     )
+  ]
+}
+
+// Separate legal questions, rather than a combined China/US clearance algorithm.
+#let release-copy = (
+  en: ("THREE SEPARATE QUESTIONS", "Current Chinese registration", "Does the covered transfer require registration now?", "Proposed Chinese catalogue", "What artifact, entry, exclusion or facilitated route applies?", "US rules", "Is it subject to the EAR, and what publication notes apply?"),
+  zh_CN: ("三个独立问题", "中国当前登记", "覆盖的转移现在是否需要登记？", "中国目录草案", "具体文件、条目、排除或便利路径是什么？", "美国规则", "是否受EAR管辖，适用哪些公开条款？"),
+  ja: ("三つの別々の問い", "中国の現行登録", "対象の移転に現在の登録が必要か？", "中国の目録案", "どのファイル、条目、除外、便宜が関係するか？", "米国の規則", "EAR対象か、公表注記はどう適用されるか？"),
+  ko: ("세 가지 별도 질문", "중국 현재 등록", "대상 이전에 지금 등록이 필요한가?", "중국 목록 초안", "어떤 파일·항목·제외·편의가 관련되는가?", "미국 규정", "EAR 대상인가, 어떤 공개 주석이 적용되는가?"),
+  hi: ("तीन अलग सवाल", "चीन का वर्तमान पंजीकरण", "क्या संबंधित हस्तांतरण के लिए अभी पंजीकरण चाहिए?", "चीन की प्रस्तावित सूची", "कौन सी फाइल, श्रेणी, छूट या सुविधा लागू है?", "अमेरिकी नियम", "क्या EAR लागू है और प्रकाशन के कौन से नोट हैं?"),
+  es: ("TRES PREGUNTAS DISTINTAS", "Registro chino vigente", "¿La transferencia cubierta necesita registro ahora?", "Catálogo chino propuesto", "¿Qué archivo, entrada, exclusión o facilidad corresponde?", "Reglas de Estados Unidos", "¿Está sujeto a EAR y qué notas de publicación se aplican?"),
+  de: ("DREI GETRENNTE FRAGEN", "Heutige chinesische Registrierung", "Muss die erfasste Übertragung jetzt registriert werden?", "Chinesischer Katalogentwurf", "Welche Datei, Position, Ausnahme oder Erleichterung gilt?", "US-Regeln", "Unterliegt es den EAR, welche Veröffentlichungshinweise gelten?"),
+)
+#let release-reading-map(lang: "en") = {
+  let t = pick(release-copy, lang)
+  set text(font: script-fonts(lang), fill: pal.ink)
+  block(width: 168mm, fill: white, inset: 15pt)[
+    #text(size: 8pt, weight: "bold", fill: pal.muted, t.at(0))
+    #v(10pt)
+    #for (i, color) in (pal.ink, pal.gold, pal.teal).enumerate() {
+      block(width: 100%, inset: (y: 11pt, x: 0pt), stroke: (top: 0.7pt + color))[
+        #grid(columns: (10mm, 55mm, 1fr), gutter: 6pt,
+          text(size: 18pt, weight: "bold", fill: color, str(i + 1)),
+          text(size: 10pt, weight: "bold", t.at(1 + i * 2)),
+          text(size: 9pt, t.at(2 + i * 2)))
+      ]
+    }
   ]
 }

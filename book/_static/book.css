@@ -1,4 +1,4 @@
-/* Editorial woodcut book stylesheet layered cleanly over Guidedog's built-in theme. */
+/* Editorial line drawing book stylesheet layered cleanly over Guidedog's built-in theme. */
 
 :root,
 html[data-theme="light"] {
@@ -155,7 +155,7 @@ body {
   color: var(--muted);
 }
 
-/* Literary book typography & woodcut frames */
+/* Literary book typography & line drawing frames */
 .book-prose {
   font-size: 1.05rem;
   line-height: 1.74;
@@ -357,4 +357,20 @@ html[data-theme="dark"] svg .edge polygon { fill: #8fa6b2 !important; stroke: #8
   background: var(--teal);
   border-color: var(--teal);
   color: #ffffff;
+}
+
+/* Editorial line work: white space, flat framing, and semantic accent colors. */
+.book-prose figure {
+  padding: 0;
+  background: #fff;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.book-prose figure img { border-radius: 0; }
+.book-prose figcaption {
+  padding: 0.85rem 1rem;
+  border-top: 1px solid var(--rule, var(--lp-rule));
+  background: var(--paper, var(--lp-paper));
+  max-width: 100%;
 }

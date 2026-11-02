@@ -1,3 +1,4 @@
+#import "../figures/artwork.typ": commons
 #import "theme.typ": gd-palette, gd-serif, gd-sans, gd-mono, gd-script-fonts, configure-document
 // Guidedog's PDF book template. It is ordinary Typst: edit it freely, or delete it to
 // use Guidedog's built-in copy. The build calls it as
@@ -271,11 +272,13 @@
     #line(length: 100%, stroke: 1pt + rgb("#172e38"))
     #v(6mm)
     #block(sans-text(size: 28pt, weight: "bold", tracking: -0.02em, hyphenate: false, fill: rgb("#172e38"), par(leading: 0.25em, title)))
-    #v(4mm)
+    #v(3mm)
+    #sans-text(size: 12pt, weight: "bold")[Vikrant Rathore]
+    #v(3mm)
     #block(width: 95%, text(size: 11pt, fill: rgb("#3b4c54"), par(leading: 0.48em, cover-copy.sub)))
     #v(6mm)
     #block(width: 100%, inset: 5pt, fill: white, stroke: 0.7pt + rgb("#c9cec5"),
-      image("../assets/images/cover-walled-commons.jpg", width: 100%))
+      commons())
     #v(1fr)
     #grid(columns: (1fr, 1fr, 1fr), gutter: 8mm,
       [#sans-text(size: 29pt, weight: "bold", fill: rgb("#ae3d2c"))[23] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.ai]],
@@ -287,20 +290,25 @@
     #sans-text(size: 8.8pt, fill: rgb("#546367"))[#cover-copy.foot #h(1fr) MOFCOM 48 / US EAR]
   ]
   let colophon-credit = (
-    en: "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.",
-    zh: "本书借助 GuideDog 构建，并获 Vicky Ni、Ronak Rathore 与 Kanak Rathore 鼎力协助。",
-    ja: "本書は GuideDog の力を借り、Vicky Ni、Ronak Rathore、Kanak Rathore の協力を得て制作されました。",
-    ko: "이 책은 GuideDog의 도움과 Vicky Ni, Ronak Rathore, Kanak Rathore의 조력으로 제작되었습니다.",
-    hi: "यह पुस्तक GuideDog की सहायता तथा Vicky Ni, Ronak Rathore और Kanak Rathore के सहयोग से निर्मित की गई है।",
-    es: "Construido con la ayuda de GuideDog y con la colaboración de Vicky Ni, Ronak Rathore y Kanak Rathore.",
-    de: "Erstellt mit Hilfe von GuideDog sowie mit Unterstützung von Vicky Ni, Ronak Rathore und Kanak Rathore.",
-  ).at(lang-key, default: "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.")
+    en: "Built with the help of GuideDog, with assistance from Jennifer Yuan, Vicky Ni, Ronak Rathore, and Kanak Rathore.",
+    zh: "本书借助 GuideDog 构建，并获 Jennifer Yuan, Vicky Ni、Ronak Rathore 与 Kanak Rathore 鼎力协助。",
+    ja: "本書は GuideDog の力を借り、Jennifer Yuan, Vicky Ni、Ronak Rathore、Kanak Rathore の協力を得て制作されました。",
+    ko: "이 책은 GuideDog의 도움과 Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore의 조력으로 제작되었습니다.",
+    hi: "यह पुस्तक GuideDog की सहायता तथा Jennifer Yuan, Vicky Ni, Ronak Rathore और Kanak Rathore के सहयोग से निर्मित की गई है।",
+    es: "Construido con la ayuda de GuideDog y con la colaboración de Jennifer Yuan, Vicky Ni, Ronak Rathore y Kanak Rathore.",
+    de: "Erstellt mit Hilfe von GuideDog sowie mit Unterstützung von Jennifer Yuan, Vicky Ni, Ronak Rathore und Kanak Rathore.",
+  ).at(lang-key, default: "Built with the help of GuideDog, with assistance from Jennifer Yuan, Vicky Ni, Ronak Rathore, and Kanak Rathore.")
   page(paper: paper, margin: (x: 24mm, top: 26mm, bottom: 28mm), header: none,
     footer: none, numbering: none)[
     #set par(justify: false, first-line-indent: 0em, spacing: 0.9em)
     #set text(size: 9pt, fill: quiet, number-type: "lining")
     #v(1fr)
     #text(fill: ink, style: "italic", title)
+    #v(4mm)
+    #text(size: 9pt)[Vikrant Rathore / CC BY-SA 4.0]
+    #text(size: 8pt)[Third-party materials retain their own copyrights and licenses. See NOTICE.]
+    #v(2mm)
+    #text(size: 8pt)[Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore]
     #if version != "" [ \ #version-label #version]
     #if copyright != "" [ \ \u{a9} #copyright]
     #if author != "" and copyright == "" [ \ #author]
