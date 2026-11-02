@@ -141,10 +141,9 @@ msgid "Next"
 msgstr "下一章"
 
 msgid ""
-"Primary sources verified 2 November 2026. Built natively with Guidedog, "
-"Typst, CeTZ, Fletcher & Graphviz."
-msgstr ""
-"原始文献核验截至 2026 年 11 月 2 日。基于 Guidedog、Typst、CeTZ、Fletcher 与 Graphviz 原生构建。"
+"Primary sources verified 2 November 2026. Built natively with GuideDog and "
+"Typst."
+msgstr "一手来源核查日期为2026年11月2日。使用GuideDog和Typst原生构建。"
 
 msgid "Download PDF Book"
 msgstr "下载 PDF 全书"

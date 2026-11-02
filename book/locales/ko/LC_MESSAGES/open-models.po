@@ -41,26 +41,17 @@ msgstr ""
 "<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
 "<https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/open-models.rst:15
+#: ../../book/open-models.rst:13 ../../book/open-models.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
-msgstr ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
+"Receiving files and knowledge to work independently differs from using a "
+"service that keeps its underlying model elsewhere."
+msgstr "파일과 지식을 받아 독립적으로 작업하는 것은 기본 모델을 다른 곳에 보관하는 서비스를 이용하는 것과 다릅니다."
 
-#: ../../book/open-models.rst:15
-msgid ""
-"A release can follow different paths depending on the artifact, jurisdiction"
-" and transfer. Existing public files and first releases need different "
-"analysis."
-msgstr "파일·관할·이전 형태에 따라 경로가 다릅니다. 기존 공개와 첫 공개는 별도로 분석합니다."
-
-#: ../../book/open-models.rst:21
+#: ../../book/open-models.rst:20
 msgid "Start with the Actual Artifact"
 msgstr "실제 파일에서 시작하기"
 
-#: ../../book/open-models.rst:24
+#: ../../book/open-models.rst:23
 msgid ""
 "A public paper, downloadable weights, private training code and a later "
 "fine-tune are different artifacts. The Open Source AI Definition asks for "
@@ -73,11 +64,11 @@ msgstr ""
 "일부만 제공할 수도 있으며 저작권 명칭이 수출 지위를 결정하지 않습니다. `OSI "
 "<https://opensource.org/ai/open-source-ai-definition>`_"
 
-#: ../../book/open-models.rst:26
+#: ../../book/open-models.rst:25
 msgid "China: Registration Now, Catalogue Proposal Separately"
 msgstr "중국: 현재 등록과 목록 초안 구분"
 
-#: ../../book/open-models.rst:29
+#: ../../book/open-models.rst:28
 msgid ""
 "Announcement 48 requires temporary registration before covered transfers, "
 "including unfinished exports. It identifies ownership transfers, overseas "
@@ -95,13 +86,13 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:31
+#: ../../book/open-models.rst:30
 msgid ""
 "We read the Chinese draft with its section-wide notes, rather than treating "
 "every release as a compulsory sequence of four gates:"
 msgstr "모든 공개에 필수 관문 네 개를 적용하기보다 전체 주석과 함께 읽습니다."
 
-#: ../../book/open-models.rst:33
+#: ../../book/open-models.rst:32
 msgid ""
 "**Already-public AI technology:** Note 1 excludes technology already public "
 "through open source or papers. Identify exactly what was published. A paper "
@@ -113,7 +104,7 @@ msgstr ""
 "공개하지 않으며 비공개 파생판은 모든 제외를 자동 승계하지 않습니다. `CN-A1, note 1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:34
+#: ../../book/open-models.rst:33
 msgid ""
 "**Unpublished data-sensitive technology:** The draft places specified core-"
 "data models in a proposed prohibited category and important-data models in a"
@@ -126,7 +117,7 @@ msgstr ""
 "있습니다. 정확한 사실·해석이 필요합니다. `CN-A1, 266501J and 266504X "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:35
+#: ../../book/open-models.rst:34
 msgid ""
 "**Other unpublished controlled technology:** Check alternative model "
 "thresholds and any agent, chip-design or cluster technology being "
@@ -138,7 +129,7 @@ msgstr ""
 "항목·기존 법·묶음 파일은 별개입니다. `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:36
+#: ../../book/open-models.rst:35
 msgid ""
 "**Facilitated routes:** Note 2 proposes automatic licensing or similar "
 "facilitation for specified restricted AI exports, including open-source "
@@ -155,26 +146,50 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"ko\")"
+#: ../../book/open-models.rst:37
+msgid "Three separate questions before a transfer"
+msgstr "이전 전 별개의 세 가지 질문"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"Keep three questions separate: what is already operating, what the Chinese "
-"draft proposes, and what the US rules cover. These are reading questions, "
-"not a transaction clearance."
-msgstr "현재 등록·중국 초안·미국 규정 세 질문을 구별합니다. 읽기 안내이지 거래 승인이 아닙니다."
+#: ../../book/open-models.rst:42
+msgid "Question"
+msgstr "질문"
+
+#: ../../book/open-models.rst:43
+msgid "What we check"
+msgstr "확인 사항"
+
+#: ../../book/open-models.rst:44
+msgid "Current Chinese registration"
+msgstr "현재 중국 등록"
 
 #: ../../book/open-models.rst:45
+msgid "The covered technology and transfer, including unfinished exports."
+msgstr "아직 끝나지 않은 수출을 포함한 대상 기술과 이전."
+
+#: ../../book/open-models.rst:46
+msgid "Proposed Chinese catalogue"
+msgstr "중국 목록 초안"
+
+#: ../../book/open-models.rst:47
+msgid ""
+"The precise entry, its notes, exclusions and proposed facilitated routes."
+msgstr "정확한 항목, 주석, 예외와 제안된 간소화 경로."
+
+#: ../../book/open-models.rst:48
+msgid "Separate US rules"
+msgstr "별도의 미국 규칙"
+
+#: ../../book/open-models.rst:49
+msgid ""
+"Whether the artifact is subject to the EAR, followed by its classification "
+"and applicable conditions."
+msgstr "대상이 EAR의 적용을 받는지 먼저 확인한 다음 분류와 적용 조건을 확인합니다."
+
+#: ../../book/open-models.rst:51
 msgid "United States: A Separate Jurisdiction Test"
 msgstr "미국: 별도 관할 검사"
 
-#: ../../book/open-models.rst:48
+#: ../../book/open-models.rst:54
 msgid ""
 "First establish whether the artifact is subject to the EAR. Published-"
 "information provisions and the 4E091 notes can exclude qualifying public "
@@ -192,7 +207,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/open-models.rst:50
+#: ../../book/open-models.rst:56
 msgid ""
 "MOFCOM's answer on API, app, web, SaaS and lightweight local deployment "
 "concerns restricted large models under the proposed measures. It should not "
@@ -205,11 +220,11 @@ msgstr ""
 "아닙니다. 비공개 가중치 전달과 원격 서비스도 다릅니다. `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:52
+#: ../../book/open-models.rst:58
 msgid "Possible Effects on Open Models"
 msgstr "공개 모델에 가능한 영향"
 
-#: ../../book/open-models.rst:55
+#: ../../book/open-models.rst:61
 msgid ""
 "**Continued public releases** are consistent with the draft's explicit "
 "facilitation. **More documentation or delay** is a possible result of "
@@ -232,7 +247,7 @@ msgstr ""
 " `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
 "model-report.pdf>`_"
 
-#: ../../book/open-models.rst:57
+#: ../../book/open-models.rst:63
 msgid ""
 "We should not claim that chip restrictions caused a particular model's "
 "efficiency improvements without evidence isolating that cause. Smaller "
@@ -243,11 +258,11 @@ msgstr ""
 "원인을 분리할 증거 없이 특정 효율 향상을 칩 통제 탓으로 단정하지 않습니다. 적은 매개변수가 제외를 보장하지 않으며 로컬 사용도 "
 "개인정보·안전·임상 신뢰성을 보장하지 않습니다."
 
-#: ../../book/open-models.rst:59
+#: ../../book/open-models.rst:65
 msgid "A Practical Release Record"
 msgstr "실용적인 공개 기록"
 
-#: ../../book/open-models.rst:62
+#: ../../book/open-models.rst:68
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"

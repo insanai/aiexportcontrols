@@ -28,9 +28,11 @@ Evidence anchors
 Visual changes
 --------------
 
-We replace the active raster illustrations with original native Typst and CeTZ line drawings. Fine dark lines carry structure. Teal marks exchange or continuity. Red marks interruption. Shape and captions also convey these meanings, so color is not the only cue. We remove textures, dramatic lighting, gradients and ornamental framing from these illustrations.
+We replace the abstract line drawings with nine original generated illustrations informed by engineering cutaways, hand-colored scientific plates and historical cell-biology drawings. Recognizable people, computers, machinery, cells and laboratory tools explain the subjects. Restrained color and shaded forms support the meaning. Captions remain translated text outside the images.
 
-The drawings cover shared knowledge, computing dependencies, release paths, medicine platforms and the three technology sectors. The teaching matrix uses a restrained table with explicit assumption labels. The same source modules supply the website and PDF, without a separate image-generation step. Earlier raster assets remain unused in the repository.
+Illustrations tell the story. Precise diagrams explain the scores, dates and filing questions. The game matrix uses large paired scores and clear choices, with explicit assumption labels. Fletcher supports the two-track timeline. Graphviz separates current Chinese registration, the proposed catalogue and the independent US check. We do not encode legal rules or measured outcomes into generated image text.
+
+PNG masters and JPEG delivery files are saved in the repository at their original dimensions. Generation prompts stay outside version control. The GuideDog build remains native, and all seven editions share the same artwork with translated captions.
 
 Authorship and rights
 ---------------------
@@ -44,6 +46,6 @@ We build through the native GuideDog 1.0.0-beta.10 pipeline. All seven HTML and 
 
 We check the assembled site's internal links and anchors, archive hashes, PDF text, required control codes and credits. Browser checks exercise all seven editions, the 40-card atlas and its sector, status and code filters. We also check live search, the scenario selector, language links, desktop and mobile layouts, dark mode, and image loading.
 
-The final assembly contains 99 HTML pages and 5,166 checked internal links, with no missing files or anchors. The seven PDF editions contain 40 to 48 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
+The final assembly contains 99 HTML pages and 5,208 checked internal links, with no missing files or anchors. The seven PDF editions contain 44 to 50 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
 
 This review records a local build and source review. It does not establish the outcome of a future regulatory decision or clear an individual transaction. The published date on a source, a contact detail and a current legal rule are separate facts that can change independently.

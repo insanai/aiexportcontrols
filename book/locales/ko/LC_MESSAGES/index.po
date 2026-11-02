@@ -37,22 +37,13 @@ msgstr ""
 " 고 표현했습니다. 다른 팀의 지식을 빼앗지 않고 배울 수 있습니다. `JEFFERSON "
 "<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
 
-#: ../../book/index.rst:12
+#: ../../book/index.rst:10 ../../book/index.rst:15
 msgid ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
-msgstr ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
+"A border barrier holds up computer parts and technical plans while two "
+"research teams try to work together."
+msgstr "두 연구팀이 협력하려 하지만 국경 장벽이 컴퓨터 부품과 기술 도면의 이동을 막습니다."
 
-#: ../../book/index.rst:12
-msgid ""
-"A shared path crosses a boundary while another is interrupted. The drawing "
-"represents the distinction between cooperation and broad restriction; it is "
-"not a map of a legal procedure."
-msgstr "공유 경로 하나는 경계를 통과하고 다른 하나는 끊깁니다. 협력과 넓은 제한을 표현하는 그림으로 법적 절차는 아닙니다."
-
-#: ../../book/index.rst:18
+#: ../../book/index.rst:17
 msgid ""
 "Open-weight models can give researchers and smaller organizations more "
 "control over how they use AI. A clinic, a language project or a university "
@@ -68,18 +59,18 @@ msgstr ""
 "source-ai-definition>`_ `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
 "`QWEN <https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/index.rst:20
+#: ../../book/index.rst:19
 msgid ""
 "Then the walls began to rise: not only in the sky of software, but deep "
 "underground in the bedrock of silicon."
 msgstr ""
 "그러던 어느 순간 장벽이 솟아오르기 시작했다. 소프트웨어라는 하늘 위에서만이 아니라, 저 깊은 땅속 실리콘이라는 암반 위에서부터였다."
 
-#: ../../book/index.rst:22
+#: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
 msgstr "소프트웨어와 가중치만이 아니다: 열린 지성을 떠받치는 하드웨어"
 
-#: ../../book/index.rst:25
+#: ../../book/index.rst:24
 msgid ""
 "Most conversations about open-source AI make a comforting mistake. They "
 "imagine an AI model as pure, weightless poetry: a file of code and numbers "
@@ -90,7 +81,7 @@ msgstr ""
 "깃허브(GitHub)에 MIT나 Apache 2.0 라이선스만 달아 두면 영원히 자유로울 수 있는 코드와 숫자의 묶음으로 상상하는 "
 "것이다."
 
-#: ../../book/index.rst:27
+#: ../../book/index.rst:26
 msgid ""
 "Open models depend on physical computers. Large training runs can need "
 "advanced processors, memory and fast networks; smaller models can run on "
@@ -102,21 +93,13 @@ msgstr ""
 "모델에는 물리 컴퓨터가 필요합니다. 큰 학습은 첨단 칩·메모리·망을, 작은 모델은 보통 장비를 쓸 수 있습니다. 모두 최신 공정·만 장이"
 " 필요한 것은 아니지만 희소 장비 통제는 참여자를 바꿀 수 있습니다."
 
-#: ../../book/index.rst:31
-msgid ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-msgstr ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-
-#: ../../book/index.rst:31
+#: ../../book/index.rst:28 ../../book/index.rst:33
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
 msgstr "공개 모델은 칩·메모리·계산 기반에 의존합니다. 일부 제한은 전체 접근에 영향을 줄 수 있습니다."
 
-#: ../../book/index.rst:37
+#: ../../book/index.rst:35
 msgid ""
 "**Hardware and design knowledge:** US controls cover specified chips, "
 "manufacturing items and some foreign-made items under defined conditions. "
@@ -136,7 +119,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:38
+#: ../../book/index.rst:36
 msgid ""
 "**Models and data:** Announcement 48 began temporary registration for "
 "covered transfers on **16 October 2026**. Its proposed catalogue includes "
@@ -160,7 +143,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
 "`GAO26 <https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/index.rst:42
+#: ../../book/index.rst:40
 msgid ""
 "Even if software licenses remain free on paper, open-source AI cannot thrive"
 " in a vacuum: if export controls ration the chips needed to train open "
@@ -172,11 +155,11 @@ msgstr ""
 "필요한 칩을 배급제로 묶어 두고 개방형 실리콘 설계도를 잠가 버리거나, 병원과 대학이 감당할 수 없을 만큼 로컬 하드웨어 가격을 "
 "끌어올린다면, 인류는 지성을 직접 소유하던 시대에서 다시금 대기업의 종량제 클라우드 창구를 빌려 쓰는 시대로 떠밀려 돌아가게 된다."
 
-#: ../../book/index.rst:44
+#: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "요새의 함정: 양쪽이 함께 잃는 구조"
 
-#: ../../book/index.rst:47
+#: ../../book/index.rst:45
 msgid ""
 "The central argument of this book is that broad restrictions on shared "
 "knowledge can leave both countries worse off. We can show one way this "
@@ -186,7 +169,7 @@ msgstr ""
 "넓은 지식 제한은 두 나라 모두에게 해로울 수 있습니다. 게임은 한 경로를 보여주지만 숫자를 선택하는 것만으로 모든 통제 효과를 "
 "증명하지는 못합니다."
 
-#: ../../book/index.rst:49
+#: ../../book/index.rst:47
 msgid ""
 "Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
 "Sharing means allowing ordinary research and open-model cooperation; a wall "
@@ -197,7 +180,7 @@ msgstr ""
 "두 나라가  **공유(S)**  또는  **장벽(W)**  을 선택합니다. 일상 연구와 넓은 제한을 단순화했으며 정밀 통제·안보 "
 "이익·제3국·자원 격차는 처음에 제외했습니다."
 
-#: ../../book/index.rst:53
+#: ../../book/index.rst:51
 msgid ""
 "**Assumptions, not measurements.** The scores below are invented teaching "
 "values. They express preferences within this example, not dollars, measured "
@@ -206,7 +189,19 @@ msgid ""
 msgstr ""
 " **가정이지 측정이 아닙니다.**  가상 교육 점수로 돈·실측 혁신·복지가 아닙니다. 70% 손실이나 위험 네 배를 추정하지 않습니다."
 
-#: ../../book/index.rst:56
+#: ../../book/index.rst:53 ../../book/index.rst:58
+msgid ""
+"Two teams finish a computer by sharing parts and knowledge, then struggle "
+"when a wall separates them. This illustrates the assumed game, not a "
+"measured outcome."
+msgstr ""
+"두 팀이 부품과 지식을 공유하면 컴퓨터를 완성하지만 벽으로 나뉘면 어려워집니다. 가정한 게임의 예시이며 실측 결과가 아닙니다."
+
+#: ../../book/index.rst:62
+msgid "Assumed scores in the teaching game"
+msgstr "설명용 게임의 가정한 점수"
+
+#: ../../book/index.rst:62
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -214,41 +209,34 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"ko\")"
 
-#: ../../book/index.rst:56
-msgid ""
-"Two countries can each prefer a wall while both prefer the outcome of mutual"
-" sharing. The scores are assumptions, not measured effects of export "
-"controls."
-msgstr "각자는 장벽을 택하더라도 둘 다 상호 공유를 더 좋아할 수 있습니다. 가정 점수이지 실측 효과가 아닙니다."
-
-#: ../../book/index.rst:62
+#: ../../book/index.rst:69
 msgid "Reading the Four Outcomes"
 msgstr "네 결과 읽기"
 
-#: ../../book/index.rst:65
+#: ../../book/index.rst:72
 msgid ""
 "**Both share:** A gets 17 and B gets 17. In this example, both value the "
 "benefits of exchange."
 msgstr " **모두 공유:**  A와 B 각각17. 교류를 가치 있게 본다는 가정입니다."
 
-#: ../../book/index.rst:66
+#: ../../book/index.rst:73
 msgid ""
 "**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
 "temporary advantage while still using A's public work."
 msgstr " **A 공유·B 제한:**  A3·B20. B가 공개 지식을 쓰며 잠시 우위라는 가정입니다."
 
-#: ../../book/index.rst:67
+#: ../../book/index.rst:74
 msgid ""
 "**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
 msgstr " **A 제한·B 공유:**  A20·B3. 거울상입니다."
 
-#: ../../book/index.rst:68
+#: ../../book/index.rst:75
 msgid ""
 "**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
 "duplicated effort outweigh the security benefits of these broad walls."
 msgstr " **모두 제한:**  각5. 잃는 협력·중복 노력이 넓은 장벽의 안보 이익보다 크다고 가정합니다."
 
-#: ../../book/index.rst:70
+#: ../../book/index.rst:77
 msgid ""
 "If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
 "the same choices. A wall is therefore each country's best response whatever "
@@ -264,7 +252,7 @@ msgstr ""
 " 뜻은 아닙니다. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
 "html/chapter1.html>`_"
 
-#: ../../book/index.rst:72
+#: ../../book/index.rst:79
 msgid ""
 "The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
 "particular numbers. It identifies a possible strategic trap. It does not "
@@ -274,11 +262,11 @@ msgstr ""
 "핵심은  **20 > 17 > 5 > 3**  순서입니다. 가능한 함정을 설명할 뿐 실제 비용 측정이나 표 밖 결과 불가능의 증명은 "
 "아닙니다."
 
-#: ../../book/index.rst:74
+#: ../../book/index.rst:81
 msgid "What Could Change the Result?"
 msgstr "무엇이 결과를 바꿀까"
 
-#: ../../book/index.rst:77
+#: ../../book/index.rst:84
 msgid ""
 "A control that prevents a serious misuse could provide security benefits "
 "large enough to change the ranking. A chip bottleneck, different national "
@@ -294,7 +282,7 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:79
+#: ../../book/index.rst:86
 msgid ""
 "Countries also interact repeatedly. In this simplified game, suppose "
 "cooperation continues while both share, but a deviation earns 20 once and is"
@@ -305,7 +293,7 @@ msgstr ""
 "국가는 반복 교류합니다. 둘 다 공유하면 협력하며 이탈은 한 번20, 그 뒤 영원히5라고 가정합니다. :math:`\\delta` 는 "
 "다음 회차의 현재 대비 가치입니다. 협력이 적어도 유리한 조건은:"
 
-#: ../../book/index.rst:81
+#: ../../book/index.rst:88
 msgid ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
@@ -313,7 +301,7 @@ msgstr ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
 
-#: ../../book/index.rst:86
+#: ../../book/index.rst:93
 msgid ""
 "This is a calculation inside the assumed game, not a diplomatic forecast. It"
 " assumes an indefinite relationship, observable choices and a credible "
@@ -326,11 +314,11 @@ msgstr ""
 "회차는 이를 깨뜨립니다. 지속 협력을 믿게 만드는 방법이 질문입니다. `GAME "
 "<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:88
+#: ../../book/index.rst:95
 msgid "Why More Review Can Help, Without Guaranteeing Safety"
 msgstr "많은 검토가 도움은 되지만 안전 보장은 아니다"
 
-#: ../../book/index.rst:91
+#: ../../book/index.rst:98
 msgid ""
 "Open access can make independent testing and repair easier. A simple "
 "probability example explains one possible benefit. If a flaw exists with "
@@ -340,11 +328,11 @@ msgstr ""
 "개방은 독립 검사·수리를 돕습니다. 결함 존재 확률이 :math:`p_0`, 각 독립 팀의 탐지 확률이 :math:`q`, 팀 수가 "
 ":math:`n` 이면:"
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:100
 msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 
-#: ../../book/index.rst:97
+#: ../../book/index.rst:104
 msgid ""
 "For a flaw known to exist and an assumed detection chance of one half, one "
 "team misses it with probability 50%, four independent teams with 6.25%, and "
@@ -356,7 +344,7 @@ msgstr ""
 "존재하는 결함과 탐지 절반 가정에서 한 팀 누락50%, 네 팀6.25%, 열 팀 약0.098%입니다. 조건부 계산입니다. 실제 팀은 같은"
 " 맹점·자원 부족·미수리가 있을 수 있어 전체 사이버·생물·사회 위험 측정은 아닙니다."
 
-#: ../../book/index.rst:99
+#: ../../book/index.rst:106
 msgid ""
 "Open weights can also help harmful actors modify a system or remove "
 "safeguards. NTIA's 2024 report considered both benefits and risks, "
@@ -372,7 +360,7 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:101
+#: ../../book/index.rst:108
 msgid ""
 "Our recommendation is to make controls precise, assess their security "
 "benefit against their cost to cooperation, and protect workable routes for "
@@ -382,11 +370,11 @@ msgstr ""
 "정밀한 통제·안보 이익과 협력 비용 비교·합법 연구 경로를 권합니다. 증거에 따른 주장이지 모든 제한이 모두에게 해롭다는 정리는 "
 "아닙니다."
 
-#: ../../book/index.rst:103
+#: ../../book/index.rst:110
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr "핵심 사실의 발견: 완전히 봉쇄된 성벽이 아니라 반쯤 열린 문"
 
-#: ../../book/index.rst:106
+#: ../../book/index.rst:113
 msgid ""
 "When we turn from game theory back to the verified legal texts of November "
 "2026, we find something remarkable: despite alarming headlines, regulators "
@@ -396,24 +384,65 @@ msgstr ""
 "게임이론에서 눈을 돌려 2026년 11월 현재 검증된 실제 법률 원문으로 돌아오면 놀라운 사실 하나를 발견하게 된다. 숨 가쁜 언론의 "
 "경고성 제목들과 달리, 베이징과 워싱턴의 규제 당국 모두 오픈소스 AI를 위해 의도적으로 실질적인 다리를 남겨 두었다는 점이다:"
 
-#: ../../book/index.rst:109
+#: ../../book/index.rst:115 ../../book/index.rst:120
 msgid ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"ko\")"
+"Computing, biomedicine and solar manufacturing, shown through a processor, a"
+" cell and the layers of a solar panel."
+msgstr "프로세서, 세포, 태양광 패널의 층으로 컴퓨팅, 바이오의약과 태양광 제조를 보여줍니다."
 
-#: ../../book/index.rst:109
-msgid ""
-"Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar "
-"(12), and biomedicine (5), alongside the three footnote fast lanes "
-"preserving open-source and humanitarian science."
-msgstr ""
-"부속서 1이 제안한 AI·하드웨어(23개), 태양광(12개), 바이오의약(5개) 등 40개 통제 지점과, 오픈소스 및 인도주의 과학을 "
-"보전하는 세 가지 주석 패스트트랙."
+#: ../../book/index.rst:122
+msgid "The 40 proposed technology points"
+msgstr "제안된 기술40개 항목"
 
-#: ../../book/index.rst:115
+#: ../../book/index.rst:126
+msgid "Area"
+msgstr "분야"
+
+#: ../../book/index.rst:127
+msgid "Proposed prohibited"
+msgstr "금지 제안"
+
+#: ../../book/index.rst:128
+msgid "Proposed restricted"
+msgstr "제한 제안"
+
+#: ../../book/index.rst:129
+msgid "AI and computing hardware"
+msgstr "AI 및 컴퓨팅 하드웨어"
+
+#: ../../book/index.rst:130
+msgid "6"
+msgstr "6"
+
+#: ../../book/index.rst:131
+msgid "17"
+msgstr "17"
+
+#: ../../book/index.rst:132
+msgid "Biomedicine"
+msgstr "바이오의약"
+
+#: ../../book/index.rst:133
+msgid "3"
+msgstr "3"
+
+#: ../../book/index.rst:134
+msgid "2"
+msgstr "2"
+
+#: ../../book/index.rst:135
+msgid "Solar manufacturing"
+msgstr "태양광 제조"
+
+#: ../../book/index.rst:136
+msgid "5"
+msgstr "5"
+
+#: ../../book/index.rst:137
+msgid "7"
+msgstr "7"
+
+#: ../../book/index.rst:139
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -431,7 +460,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:116
+#: ../../book/index.rst:140
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -451,7 +480,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/index.rst:117
+#: ../../book/index.rst:141
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -467,11 +496,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:119
+#: ../../book/index.rst:143
 msgid "How to Read This Book"
 msgstr "이 책을 읽는 법"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:146
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -480,7 +509,7 @@ msgstr ""
 "우리는 검증된 1차 사료에 뿌리를 둔 생생하고 명쾌한 이해를 원하는 평범하고 호기심 많은 독자들(개발자, 연구자, 의사, 창업자, 학생,"
 " 언론인, 그리고 시민들)을 위해 이 책을 썼다:"
 
-#: ../../book/index.rst:124
+#: ../../book/index.rst:148
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -488,7 +517,7 @@ msgstr ""
 ":doc:`announcement` 및 :doc:`atlas`\\ 에서는 베이징의 제48호 공고와 두 개의 서로 다른 시계, 그리고  "
 "**40개 통제 대상 기술**  전체를 하나씩 풀어낸다."
 
-#: ../../book/index.rst:125
+#: ../../book/index.rst:149
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -496,13 +525,13 @@ msgstr ""
 ":doc:`ai`\\ 에서는 소프트웨어 레시피와 실리콘 하드웨어 스택(``266504X``, ``266506X``, "
 "``266507X``)의 내부로 깊이 들어간다."
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:150
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
 msgstr ":doc:`open-models` 에서 공개 배포와 비공개 이전, 현재 의무와 제안된 경로를 구분합니다."
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:151
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
@@ -510,7 +539,7 @@ msgstr ""
 ":doc:`biomedicine` 및 :doc:`solar`\\ 에서는 살아 있는 유전자 플랫폼과, 제조 노하우가 물리적 설비 안에 담겨"
 " 이동하는 태양광 장비를 탐구한다."
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:152
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -524,7 +553,7 @@ msgstr ""
 "biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_."
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:153
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -534,7 +563,7 @@ msgstr ""
 ":doc:`comparison`\\ 에서는 양국 체제를 나란히 비교하고, 공식 승인을 받기 위한  **담당 정부 부처, 온라인 포털, "
 "정확한 법정 처리 기한, 검증된 전화번호·팩스·이메일·도로명 주소**  총람을 제공한다."
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:154
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -543,7 +572,7 @@ msgstr ""
 ":doc:`questions` 및 :doc:`sources`\\ 에서는 여섯 가지 일상적 실전 시나리오와 쉬운 용어 해설, 그리고  "
 "**2026년 11월 2일**  기준 검증을 마친  **26개 1차 사료**  전체로 대단원을 맺는다."
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:158
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

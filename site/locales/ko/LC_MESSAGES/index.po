@@ -52,26 +52,17 @@ msgstr ""
 "`책 읽기 시작하기 <read-cover_>`_ `조판 PDF 도서 다운로드 <book-pdf_>`_ `40개 통제 지점 모두 보기 "
 "<read-atlas_>`_ `공식 허가 절차 및 연락처 <read-contacts_>`_"
 
-#: ../../site/index.rst:25
+#: ../../site/index.rst:23 ../../site/index.rst:28
 msgid ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
-msgstr ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
+"A border barrier holds up computer parts and technical plans while two "
+"research teams try to work together."
+msgstr "두 연구팀이 협력하려 하지만 국경 장벽이 컴퓨터 부품과 기술 도면의 이동을 막습니다."
 
-#: ../../site/index.rst:25
-msgid ""
-"A shared path crosses a boundary while another is interrupted. The drawing "
-"represents the distinction between cooperation and broad restriction; it is "
-"not a map of a legal procedure."
-msgstr "공유 경로 하나는 경계를 통과하고 다른 하나는 끊깁니다. 협력과 넓은 제한을 표현하는 그림으로 법적 절차는 아닙니다."
-
-#: ../../site/index.rst:31
+#: ../../site/index.rst:30
 msgid "From an Open Republic of Ideas to a Guarded Horizon"
 msgstr "열린 사상의 공화국에서 검문소가 세워진 지평선으로"
 
-#: ../../site/index.rst:34
+#: ../../site/index.rst:33
 msgid ""
 "An open model can let a university, a small business or a language project "
 "adapt a shared tool. These possibilities do not guarantee safety or equal "
@@ -81,7 +72,7 @@ msgstr ""
 "공개 모델은 대학·작은 기업·언어 프로젝트를 돕지만 안전·평등을 보장하지 않습니다. 각자 우위를 추구해도 넓은 제한은 협력을 해칠 수 "
 "있습니다."
 
-#: ../../site/index.rst:36
+#: ../../site/index.rst:35
 msgid ""
 "Open AI also needs physical computers. Large training runs can require "
 "advanced chips, memory and networks; smaller models can run on more ordinary"
@@ -89,21 +80,13 @@ msgid ""
 " when a model has a permissive license."
 msgstr "공개 AI는 컴퓨터가 필요합니다. 큰 학습과 작은 모델의 장비는 다르며 개방 라이선스도 장비 접근 문제를 없애지는 않습니다."
 
-#: ../../site/index.rst:42
-msgid ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-msgstr ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-
-#: ../../site/index.rst:42
+#: ../../site/index.rst:39 ../../site/index.rst:44
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
 msgstr "공개 모델은 칩·메모리·계산 기반에 의존합니다. 일부 제한은 전체 접근에 영향을 줄 수 있습니다."
 
-#: ../../site/index.rst:50
+#: ../../site/index.rst:48
 msgid ""
 "**Hardware:** US rules cover specified chips and manufacturing items. China "
 "proposes controls on specified processor and memory designs and certain "
@@ -121,7 +104,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "`EAR734 <https://www.bis.gov/regulations/ear/734>`_"
 
-#: ../../site/index.rst:51
+#: ../../site/index.rst:49
 msgid ""
 "**Models:** Chinese temporary registration has started, while new catalogue "
 "prohibitions and restrictions remain proposed. US model-weight text and its "
@@ -139,11 +122,11 @@ msgstr ""
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../site/index.rst:53
+#: ../../site/index.rst:51
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "요새의 함정: 양쪽이 함께 잃는 구조"
 
-#: ../../site/index.rst:56
+#: ../../site/index.rst:54
 msgid ""
 "Two countries can each choose a broad wall because they fear giving the "
 "other an advantage. In the book's illustrative game, both then receive 5, "
@@ -155,7 +138,19 @@ msgstr ""
 "상대 우위를 걱정해 모두 장벽을 택하면 예에서는 각5, 협력하면17입니다. 가능한 협력 실패이지 모든 통제의 피해 증명이 아닙니다. "
 "`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../site/index.rst:59
+#: ../../site/index.rst:56 ../../site/index.rst:61
+msgid ""
+"Two teams finish a computer by sharing parts and knowledge, then struggle "
+"when a wall separates them. This illustrates the assumed game, not a "
+"measured outcome."
+msgstr ""
+"두 팀이 부품과 지식을 공유하면 컴퓨터를 완성하지만 벽으로 나뉘면 어려워집니다. 가정한 게임의 예시이며 실측 결과가 아닙니다."
+
+#: ../../site/index.rst:65
+msgid "Assumed scores in the teaching game"
+msgstr "설명용 게임의 가정한 점수"
+
+#: ../../site/index.rst:65
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -163,13 +158,7 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"ko\")"
 
-#: ../../site/index.rst:59
-msgid ""
-"The fortress trap is a teaching game with assumed scores. It does not "
-"measure a percentage loss of innovation or a multiplier of real-world risk."
-msgstr "가정 점수의 교육 게임이며 혁신 손실률이나 실제 위험 배수를 측정하지 않습니다."
-
-#: ../../site/index.rst:64
+#: ../../site/index.rst:72
 msgid ""
 "The book explains why the result follows from its assumptions, what could "
 "reverse it, and how a repeated relationship can make cooperation worthwhile."
@@ -183,14 +172,14 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../site/index.rst:66
+#: ../../site/index.rst:74
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
 "three practical reading habits:"
 msgstr "출처는 현재 조치·제안·분석을 나누고 세 읽기 습관을 제시합니다."
 
-#: ../../site/index.rst:68
+#: ../../site/index.rst:76
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -202,7 +191,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:69
+#: ../../site/index.rst:77
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -216,7 +205,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:70
+#: ../../site/index.rst:78
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -229,13 +218,13 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:74
+#: ../../site/index.rst:82
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
 msgstr " **표지 및 서장:**  `제퍼슨의 촛불, 하드웨어의 뿌리, 그리고 게임이론 증명 <read-cover_>`_"
 
-#: ../../site/index.rst:75
+#: ../../site/index.rst:83
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -243,7 +232,7 @@ msgstr ""
 " **제01장 및 제02장:**  `제48호 공고의 두 시계 <read-ch1_>`_ 및 `인터랙티브 40개 통제 지점 지도 <read-"
 "atlas_>`_"
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:84
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -251,7 +240,7 @@ msgstr ""
 " **제03장 및 제04장:**  `지성과 실리콘 하드웨어 스택 <read-ai_>`_ 및 `장벽 이전과 이후의 오픈소스 AI "
 "<read-open_>`_"
 
-#: ../../site/index.rst:77
+#: ../../site/index.rst:85
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

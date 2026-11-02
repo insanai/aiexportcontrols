@@ -39,7 +39,14 @@ msgstr ""
 "官方解释区分制造技术及其产品。第48号公告没有全面禁止成品光伏板。这不代表其他海关规定或措施不会影响具体运输。 `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/solar.rst:13
+#: ../../book/solar.rst:13 ../../book/solar.rst:18
+msgid ""
+"A crystal-growing furnace, thin wafers and a coating machine show the "
+"equipment and knowledge behind a finished solar panel. The machinery is "
+"schematic."
+msgstr "晶体生长炉、薄硅片和涂层设备展示成品太阳能板背后的设备与知识。机器为示意结构。"
+
+#: ../../book/solar.rst:20
 msgid ""
 "Why, then, do **12 of the 40 technology points** (5 proposed prohibited, 7 "
 "proposed restricted) target solar manufacturing? Because China leads the "
@@ -61,7 +68,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " ："
 
-#: ../../book/solar.rst:15
+#: ../../book/solar.rst:22
 msgid ""
 "**Silicon purification (263003J & 263004X):** Proposed prohibitions cover "
 "mega-scale cold-hydrogenation fluidized beds (:math:`\\ge 250{,}000\\text{ "
@@ -79,7 +86,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " 。"
 
-#: ../../book/solar.rst:16
+#: ../../book/solar.rst:23
 msgid ""
 "**Ingot pulling and paper-thin wafers (263004J & 263005X):** Slicing silicon"
 " wafers :math:`\\le 70\\text{ micrometers}` thick (including control "
@@ -101,7 +108,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " 。"
 
-#: ../../book/solar.rst:17
+#: ../../book/solar.rst:24
 msgid ""
 "**Tandem and high-efficiency cells (263801J & 263802X):** Proposed "
 "prohibitions guard mass-produced **perovskite and silicon-perovskite "
@@ -121,11 +128,11 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " 。"
 
-#: ../../book/solar.rst:19
+#: ../../book/solar.rst:26
 msgid "Footnote 4: When the Physical Machine *Is* the Recipe"
 msgstr "注释 4：当物理装备  *本身*  就是核心配方"
 
-#: ../../book/solar.rst:22
+#: ../../book/solar.rst:29
 msgid ""
 "Just as AI software cannot be separated from AI chips, solar know-how cannot"
 " be separated from solar furnaces. When a supplier ships a deposition "
@@ -134,7 +141,7 @@ msgid ""
 msgstr ""
 "正如人工智能软件无法脱离算力芯片而独存，光伏制造诀窍也无法与车间里的炉台装备剥离。当一家装备供应商将薄膜沉积反应腔发往海外、刷入嵌入式控制代码，并派工程师驻厂六个月手把手调试带教时，冰冷的机器内部早已承载着整套工艺心智。"
 
-#: ../../book/solar.rst:24
+#: ../../book/solar.rst:31
 msgid ""
 "**Draft Note 4** covers specified core photovoltaic equipment when it "
 "embodies listed technical indicators, including reactors, crystal furnaces, "

@@ -1,4 +1,3 @@
-#import "../figures/artwork.typ": commons
 #import "theme.typ": gd-palette, gd-serif, gd-sans, gd-mono, gd-script-fonts, configure-document
 // Guidedog's PDF book template. It is ordinary Typst: edit it freely, or delete it to
 // use Guidedog's built-in copy. The build calls it as
@@ -278,7 +277,7 @@
     #block(width: 95%, text(size: 11pt, fill: rgb("#3b4c54"), par(leading: 0.48em, cover-copy.sub)))
     #v(6mm)
     #block(width: 100%, inset: 5pt, fill: white, stroke: 0.7pt + rgb("#c9cec5"),
-      commons())
+      image("../assets/illustrations/cover.jpg", width: 100%))
     #v(1fr)
     #grid(columns: (1fr, 1fr, 1fr), gutter: 8mm,
       [#sans-text(size: 29pt, weight: "bold", fill: rgb("#ae3d2c"))[23] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.ai]],

@@ -72,15 +72,8 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:"
 
-#: ../../book/announcement.rst:16
-msgid ""
-"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
-"#two-clocks-timeline(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
-"#two-clocks-timeline(lang: \"es\")"
-
-#: ../../book/announcement.rst:16
+#: ../../book/announcement.rst:15 ../../book/announcement.rst:20
+#: ../../book/announcement.rst:24
 msgid ""
 "Announcement No. 48 splits into two parallel tracks on 16 October 2026: a "
 "30-day consultation on 40 proposed catalogue entries, and an immediate pre-"
@@ -91,7 +84,15 @@ msgstr ""
 "catálogo y un mandato inmediato de registro previo a la exportación en "
 "ecomp.mofcom.gov.cn."
 
-#: ../../book/announcement.rst:22
+#: ../../book/announcement.rst:24
+msgid ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"es\")"
+
+#: ../../book/announcement.rst:31
 msgid ""
 "**The Consultation Clock (16 October to 15 November 2026):** Beijing "
 "proposes adding **40 technology points** (14 prohibited from export and 26 "
@@ -114,7 +115,7 @@ msgstr ""
 "sections I and II "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/announcement.rst:23
+#: ../../book/announcement.rst:32
 msgid ""
 "**The Registration Clock (Running Right Now):** From the moment Announcement"
 " 48 went live on 16 October 2026 until the day the final revised catalogue "
@@ -136,7 +137,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/announcement.rst:25
+#: ../../book/announcement.rst:34
 msgid ""
 "Confusing those two clocks is the single most common mistake people make "
 "when discussing China's new rules. Registration is active today, yet "
@@ -159,11 +160,11 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/announcement.rst:27
+#: ../../book/announcement.rst:36
 msgid "Crossing a Border Without Packing a Single Crate"
 msgstr "Cruzar una frontera sin embalar una sola caja"
 
-#: ../../book/announcement.rst:30
+#: ../../book/announcement.rst:39
 msgid ""
 "When our grandparents heard the word *export*, they pictured harbor cranes "
 "lifting steel containers onto a cargo ship in Shanghai or Rotterdam. When a "
@@ -176,7 +177,7 @@ msgstr ""
 "pronuncia  *exportación* , no hace falta que un solo cajón de madera pise un"
 " muelle."
 
-#: ../../book/announcement.rst:32
+#: ../../book/announcement.rst:41
 msgid ""
 "Under Section III(2) of Announcement 48, four transactions trigger mandatory"
 " pre-export registration before completion, **including transfers that had "
@@ -190,7 +191,7 @@ msgstr ""
 "concluido**  `CN48, section III(2) "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_:"
 
-#: ../../book/announcement.rst:34
+#: ../../book/announcement.rst:43
 msgid ""
 "**Selling the crown jewels abroad:** Transferring ownership of domestic "
 "technology to an overseas buyer, such as assigning patents or selling "
@@ -200,7 +201,7 @@ msgstr ""
 " de tecnología nacional a un comprador foráneo, como ceder patentes o vender"
 " la propiedad intelectual de un modelo o de un diseño de chip."
 
-#: ../../book/announcement.rst:35
+#: ../../book/announcement.rst:44
 msgid ""
 "**Granting an overseas license:** Keeping ownership in China while licensing"
 " a foreign partner, client, or subsidiary to use covered domestic technology"
@@ -211,7 +212,7 @@ msgstr ""
 "extranjero para utilizar fuera del país tecnología nacional sujeta al "
 "catálogo."
 
-#: ../../book/announcement.rst:36
+#: ../../book/announcement.rst:45
 msgid ""
 "**Changing who holds the steering wheel:** A corporate acquisition, "
 "restructuring, or cap-table shift through which the owner or *actual "
@@ -226,7 +227,7 @@ msgstr ""
 " o Pekín, si el control corporativo último cruza la frontera, la norma entra"
 " en juego."
 
-#: ../../book/announcement.rst:37
+#: ../../book/announcement.rst:46
 msgid ""
 "**Additional scenarios notified by MOFCOM:** A statutory catch-all allowing "
 "the ministry to address new transfer structures by official notice."
@@ -235,7 +236,7 @@ msgstr ""
 "faculta al ministerio para abarcar nuevas fórmulas de transferencia mediante"
 " aviso oficial."
 
-#: ../../book/announcement.rst:39
+#: ../../book/announcement.rst:48
 msgid ""
 "When an exporter logs into the Technology Trade Management Information "
 "Application on ``ecomp.mofcom.gov.cn`` to file **Attachment 2** (*Technology"
@@ -268,11 +269,11 @@ msgstr ""
 "declaraciones separadas `CN48, section III(3) "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/announcement.rst:41
+#: ../../book/announcement.rst:50
 msgid "Four Words That Change Everything"
 msgstr "Cuatro palabras que lo cambian todo"
 
-#: ../../book/announcement.rst:44
+#: ../../book/announcement.rst:53
 msgid ""
 "Legal catalogues look intimidating because casual readers read every line as"
 " a \"ban.\" In practice, four regulatory categories carry vastly different "
@@ -291,11 +292,11 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:"
 
-#: ../../book/announcement.rst:46
+#: ../../book/announcement.rst:55
 msgid "Prohibited (``禁止出口``, codes ending in ``J``)"
 msgstr "Prohibida (``禁止出口``, códigos terminados en ``J``)"
 
-#: ../../book/announcement.rst:47
+#: ../../book/announcement.rst:56
 msgid ""
 "A solid red wall. Once finalized, covered technology within the stated scope"
 " cannot legally be exported at all `CNTIER, Art. 32 "
@@ -306,11 +307,11 @@ msgstr ""
 "ningún concepto `CNTIER, Art. 32 "
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_."
 
-#: ../../book/announcement.rst:49
+#: ../../book/announcement.rst:58
 msgid "Restricted (``限制出口``, codes ending in ``X``)"
 msgstr "Restringida (``限制出口``, códigos terminados en ``X``)"
 
-#: ../../book/announcement.rst:50
+#: ../../book/announcement.rst:59
 msgid ""
 "A guarded gate with a lock and a key. Export is lawful, provided the "
 "exporter obtains official government permission before transferring the "
@@ -322,11 +323,11 @@ msgstr ""
 "transferir la tecnología `CNTIER, Art. 33 "
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_."
 
-#: ../../book/announcement.rst:52
+#: ../../book/announcement.rst:61
 msgid "Automatic licensing (``自动许可``)"
 msgstr "Licencia automática (``自动许可``)"
 
-#: ../../book/announcement.rst:53
+#: ../../book/announcement.rst:62
 msgid ""
 "Proposed facilitation for specified restricted exports. MOFCOM describes the"
 " intended process as nearly immediate, but this is distinct from an "
@@ -343,11 +344,11 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/announcement.rst:55
+#: ../../book/announcement.rst:64
 msgid "Excluded (``不纳入管理范围``)"
 msgstr "Excluida (``不纳入管理范围``)"
 
-#: ../../book/announcement.rst:56
+#: ../../book/announcement.rst:65
 msgid ""
 "Outside this catalogue altogether. Already-public open-source AI and "
 "published academic papers sit here under Footnote 1, while ordinary laws "
@@ -360,7 +361,7 @@ msgstr ""
 "intelectual `CN-A1, note 1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/announcement.rst:58
+#: ../../book/announcement.rst:67
 msgid ""
 "Think of it like an international airport: *prohibited* items cannot fly; "
 "*restricted* items need a declared export permit; *automatic licensing* is "

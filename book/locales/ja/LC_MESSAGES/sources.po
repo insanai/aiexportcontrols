@@ -792,13 +792,13 @@ msgstr ""
 
 #: ../../book/sources.rst:173
 msgid ""
-"Original text, editorial work and new line illustrations are licensed under "
-"**CC BY-SA 4.0**. Attribution and sharing adaptations under the same license"
-" are required. Official documents, quoted material, fonts, software and "
-"other third-party materials retain their own copyrights and licenses. See "
-"the repository's LICENSE and NOTICE files for the terms and exclusions."
+"Original text, editorial work and new illustrations are licensed under **CC "
+"BY-SA 4.0**. Attribution and sharing adaptations under the same license are "
+"required. Official documents, quoted material, fonts, software and other "
+"third-party materials retain their own copyrights and licenses. See the "
+"repository's LICENSE and NOTICE files for the terms and exclusions."
 msgstr ""
-"独自本文、編集、新しい線画は  **CC BY-SA 4.0**  "
+"独自本文、編集、新しい挿絵は  **CC BY-SA 4.0**  "
 "です。表示と同一条件による改変共有が必要です。公式文書、引用、書体、ソフト等は元の権利とライセンスを維持します。LICENSEとNOTICEを参照します。"
 
 #: ../../book/sources.rst:175

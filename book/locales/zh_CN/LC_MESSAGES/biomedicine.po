@@ -42,22 +42,13 @@ msgstr ""
 "）编写疗法。过去十年间，中国生物科技团队已从早年的专利到期仿制药车间，跨越式成长为原创底层平台的发明者，构建起可反复复用的  "
 "**细胞与基因治疗（CGT）**  研发引擎，以及能够在致病蛋白合成之前精准沉默致病基因的  **小干扰核酸（siRNA）**  技术平台。"
 
-#: ../../book/biomedicine.rst:15
+#: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
-msgstr ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"medicine-development platform differs from a particular treatment."
+msgstr "细胞、DNA、RNA和实验工具让主题更具体。可复用的药物研发平台与某一种治疗不同。"
 
-#: ../../book/biomedicine.rst:15
-msgid ""
-"Reusable biological platforms and manufacturing equipment carry different "
-"kinds of knowledge. Their legal categories and exclusions must be read "
-"separately."
-msgstr "可复用生物平台和制造设备承载不同知识，其法律类别与排除应分别阅读。"
-
-#: ../../book/biomedicine.rst:21
+#: ../../book/biomedicine.rst:20
 msgid ""
 "The draft distinguishes ownership of a reusable medicine-development "
 "platform from specific drug projects. It proposes limits on covered platform"
@@ -74,7 +65,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/biomedicine.rst:23
+#: ../../book/biomedicine.rst:22
 msgid ""
 "Picture a foundational CGT or siRNA platform as a custom **printing press** "
 "perfected over ten years (delivery vectors, chemical stabilization recipes, "
@@ -86,7 +77,7 @@ msgstr ""
 "，其中凝聚着递送载体、化学修饰稳定配方与模块化序列设计规则，足以在未来源源不断印制出二十种新疗法；而某一款进入临床管线的具体候选新药，则是这台印刷机印出的"
 "  **一本书**  ："
 
-#: ../../book/biomedicine.rst:25
+#: ../../book/biomedicine.rst:24
 msgid ""
 "**Platform ownership transfer is proposed prohibited (262704J and "
 "262705J).** The draft targets overseas ownership transfers of the specified "
@@ -99,7 +90,7 @@ msgstr ""
 "草案针对指定可复用平台的境外所有权转移并设排除。它不是第48号公告已经正式实施的新禁令。 `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/biomedicine.rst:26
+#: ../../book/biomedicine.rst:25
 msgid ""
 "**Out-licensing, contract manufacturing, and single-drug partnerships stay "
 "open:** Three explicit notes under both entries carve out overseas **out-"
@@ -122,11 +113,11 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " 。唯有那种名义上叫“许可”、实质上永久买断并掏空境内所有权的变相转让，才会触碰红线。"
 
-#: ../../book/biomedicine.rst:28
+#: ../../book/biomedicine.rst:27
 msgid "Undisclosed Biological Targets and Biosecurity Walls"
 msgstr "全球未公开全新靶点与生物安全红线"
 
-#: ../../book/biomedicine.rst:31
+#: ../../book/biomedicine.rst:30
 msgid ""
 "Two **proposed restricted** entries (``262705X`` and ``262706X``) cover "
 "Chinese-owned technology for discovering and validating **wholly new "
@@ -154,7 +145,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " 。"
 
-#: ../../book/biomedicine.rst:33
+#: ../../book/biomedicine.rst:32
 msgid ""
 "The fifth entry (``267302J``, proposed prohibited) is a pure **biosecurity "
 "wall** against artificial genetic modification and directed serial-passage "

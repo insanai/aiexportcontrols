@@ -10,13 +10,12 @@ An Open License Is One Part of a Release
 
 A team can publish code and weights for others to inspect, adapt and run. A permissive copyright license is one part of that release. Applicable export, data and safety rules still need assessment. DeepSeek-R1 and Qwen3 are documented examples of public releases; their publication does not establish an exemption for every related activity. `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN <https://github.com/QwenLM/Qwen3>`_
 
-.. typst-diagram::
+.. figure:: assets/illustrations/release.jpg
    :name: fig-release-gates
-   :caption: A release can follow different paths depending on the artifact, jurisdiction and transfer. Existing public files and first releases need different analysis.
-   :alt: One file follows branching routes, with an open path, a review point and an interruption.
+   :alt: Receiving files and knowledge to work independently differs from using a service that keeps its underlying model elsewhere.
+   :width: 100%
 
-   #import "figures/artwork.typ": release-gates
-   #release-gates()
+   Receiving files and knowledge to work independently differs from using a service that keeps its underlying model elsewhere.
 
 Start with the Actual Artifact
 ================================
@@ -35,12 +34,19 @@ We read the Chinese draft with its section-wide notes, rather than treating ever
 3. **Other unpublished controlled technology:** Check alternative model thresholds and any agent, chip-design or cluster technology being transferred. Being below one model threshold does not clear every entry, existing law or bundled artifact. `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 4. **Facilitated routes:** Note 2 proposes automatic licensing or similar facilitation for specified restricted AI exports, including open-source releases, overseas chip fabrication and certain self-operated computing centers. An exclusion and an easier permission route are different. Final procedures and applicable conditions still matter. `CN-A1, note 2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_
 
-.. typst-diagram::
-   :caption: Keep three questions separate: what is already operating, what the Chinese draft proposes, and what the US rules cover. These are reading questions, not a transaction clearance.
+.. list-table:: Three separate questions before a transfer
    :name: fig-flowchart-release
+   :header-rows: 1
+   :widths: 35 65
 
-   #import "figures/diagrams.typ": release-reading-map
-   #release-reading-map(lang: "en")
+   * - Question
+     - What we check
+   * - Current Chinese registration
+     - The covered technology and transfer, including unfinished exports.
+   * - Proposed Chinese catalogue
+     - The precise entry, its notes, exclusions and proposed facilitated routes.
+   * - Separate US rules
+     - Whether the artifact is subject to the EAR, followed by its classification and applicable conditions.
 
 United States: A Separate Jurisdiction Test
 ============================================

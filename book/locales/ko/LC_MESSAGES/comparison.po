@@ -15,9 +15,9 @@ msgstr ""
 
 #: ../../book/comparison.rst:1
 msgid ""
-"Chapter 8: Side-by-side comparison of China and US export controls, plus "
-"official approval flowcharts, government departments, statutory timelines, "
-"and verified phone, fax, email, and room contacts."
+"Chapter 8: Side-by-side comparison of China and US export controls, plus an "
+"illustrated filing guide, government departments, statutory timelines, and "
+"verified phone, fax, email, and room contacts."
 msgstr ""
 "제8장: 중국과 미국의 수출 통제 체제 심층 비교, 공식 승인 절차 흐름도, 소관 정부 부처, 법정 심사 기한, 그리고 검증된 "
 "전화·팩스·이메일·사무실 호수 연락처 편람."
@@ -249,8 +249,8 @@ msgstr ""
 
 #: ../../book/comparison.rst:43
 msgid ""
-":numref:`fig-flowchart-approval` maps every official step in both countries "
-"from start to finish `CN48 "
+":numref:`fig-flowchart-approval` introduces the documents involved in a "
+"filing. The country-specific steps and contacts follow below `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
@@ -261,8 +261,8 @@ msgid ""
 "<https://www.bis.gov/regulations/ear/742>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_:"
 msgstr ""
-":numref:`fig-flowchart-approval`\\ 은 양국에서의 모든 공식 절차를 처음부터 끝까지 한눈에 보여 준다 "
-"`CN48 "
+":numref:`fig-flowchart-approval` 에서 신고에 필요한 문서를 소개합니다. 아래에 국가별 절차와 연락처를 "
+"설명합니다。 `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CN-A2 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
@@ -271,138 +271,65 @@ msgstr ""
 "<http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ `EAR734 "
 "<https://www.bis.gov/regulations/ear/734>`_ `EAR742 "
 "<https://www.bis.gov/regulations/ear/742>`_ `SNAPR "
-"<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_:"
+"<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_"
 
-#: ../../book/comparison.rst:47
+#: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"digraph gov_approval {\n"
-"  graph [rankdir=TB, bgcolor=\"transparent\", pad=\"0.24\", nodesep=\"0.34\", ranksep=\"0.46\",\n"
-"         fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\"];\n"
-"  node [shape=box, style=\"rounded,filled\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"        fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\",\n"
-"        fontcolor=\"#172e38\", fontsize=9.8, margin=\"0.16,0.10\"];\n"
-"  edge [color=\"#4e616a\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\",\n"
-"        fontcolor=\"#4e616a\", fontsize=8.8, arrowsize=0.7];\n"
-"\n"
-"  subgraph cluster_cn {\n"
-"    label=\"CHINA · MOFCOM / MOST & Provincial Licensing Workflow\";\n"
-"    fontsize=10.5;\n"
-"    fontcolor=\"#ae3d2c\";\n"
-"    style=\"rounded\";\n"
-"    color=\"#ae3d2c\";\n"
-"\n"
-"    cn0 [class=\"gd-input\", fillcolor=\"#faeae7\", color=\"#ae3d2c\",\n"
-"         label=<<B>Active Today (from 16 Oct 2026)</B><BR/><FONT POINT-SIZE=\"8.5\">Log into ecomp.mofcom.gov.cn -&gt; Tech Trade App<BR/>File Attachment 2 Registration (with company seal)</FONT>>];\n"
-"    cn_route [class=\"gd-choice\", fillcolor=\"#fcf3de\", color=\"#a66f10\",\n"
-"              label=<<B>Once Final Revised Catalogue Takes Effect</B><BR/><FONT POINT-SIZE=\"8.5\">Which restricted (X) channel applies?</FONT>>];\n"
-"    cn_fast [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"             label=<<B>Footnotes 2 &amp; 3 · Automatic Licensing</B><BR/><FONT POINT-SIZE=\"8.5\">Open-source AI, self-owned cloud, chip tape-out,<BR/>bio out-licensing / relief (&quot;Apply &amp; Go&quot;)</FONT>>];\n"
-"    cn_s1 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#ae3d2c\",\n"
-"           label=<<B>Stage 1 · Pre-Negotiation Application</B><BR/><FONT POINT-SIZE=\"8.5\">Provincial Commerce + Provincial S&amp;T review<BR/>Internal review steps within a 30-working-day decision period<BR/>-&gt; Letter of Intent (valid up to 3 years)</FONT>>];\n"
-"    cn_s2 [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"           label=<<B>Stage 2 · Post-Contract License</B><BR/><FONT POINT-SIZE=\"8.5\">Sign contract + submit checklist &amp; party proofs<BR/>Provincial Commerce decides in &le;15 working days<BR/>-&gt; Tech Export License (contract takes effect;<BR/>clears Customs, FX, Banking &amp; Tax)</FONT>>];\n"
-"\n"
-"    cn0 -> cn_route [style=dashed, label=\" Separate future track\"];\n"
-"    cn_route -> cn_fast [label=\" Open / Tape-out\"];\n"
-"    cn_route -> cn_s1 [label=\" Private transfer\"];\n"
-"    cn_s1 -> cn_s2 [label=\" Sign contract\"];\n"
+"A researcher presents technical documents for review. The illustration "
+"introduces the paperwork, not a complete legal procedure or a promise of "
+"approval."
+msgstr "연구자가 기술 문서를 제출해 검토를 받습니다. 서류 작업의 소개이며 완전한 법적 절차나 승인 보장은 아닙니다."
+
+#: ../../book/comparison.rst:55
+msgid ""
+"Current Chinese registration, the proposed Chinese catalogue and US "
+"jurisdiction are separate checks. Dashed lines mark the proposed track."
+msgstr "중국의 현재 등록, 중국 목록 초안과 미국 관할은 별개의 확인입니다. 점선은 제안된 경로입니다."
+
+#: ../../book/comparison.rst:55
+msgid ""
+"digraph approval_questions {\n"
+"  graph [rankdir=TB, bgcolor=\"transparent\", pad=\"0.15\", nodesep=\"0.25\", ranksep=\"0.4\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\"];\n"
+"  node [shape=box, style=\"rounded,filled\", fillcolor=\"#f6f2e9\", color=\"#8d9b9b\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\", fontsize=11, margin=\"0.18,0.16\"];\n"
+"  edge [color=\"#687c7b\", arrowsize=0.7];\n"
+"  subgraph cluster_current {\n"
+"    label=\"CHINA / CURRENT REGISTRATION\"; fontcolor=\"#ae3d2c\"; fontsize=11; color=\"#d4b6aa\"; style=rounded;\n"
+"    c1 [label=\"Covered technology\\nand transfer\"]; c2 [label=\"Register before completion\\necomp.mofcom.gov.cn\",fillcolor=\"#edf5ef\"]; c1 -> c2;\n"
 "  }\n"
-"\n"
+"  subgraph cluster_draft {\n"
+"    label=\"CHINA / PROPOSED CATALOGUE\"; fontcolor=\"#956c16\"; fontsize=11; color=\"#d5c7a5\"; style=\"rounded,dashed\";\n"
+"    d1 [label=\"Read the entry, exclusions\\nand section notes\"]; d2 [label=\"Check the applicable route\\nif the final text is adopted\",style=\"rounded,dashed,filled\"]; d1 -> d2 [style=dashed];\n"
+"  }\n"
 "  subgraph cluster_us {\n"
-"    label=\"UNITED STATES · Commerce BIS (SNAP-R & STELA) Workflow\";\n"
-"    fontsize=10.5;\n"
-"    fontcolor=\"#08716d\";\n"
-"    style=\"rounded\";\n"
-"    color=\"#08716d\";\n"
-"\n"
-"    us1 [class=\"gd-choice\", fillcolor=\"#fcf3de\", color=\"#a66f10\",\n"
-"         label=<<B>Step 1 · Public / Open-Source Check</B><BR/><FONT POINT-SIZE=\"8.5\">Unrestricted open code/weights or fundamental research?<BR/>(15 CFR 734.7 / 734.8 / 4E091 notes; check Part 744)</FONT>>];\n"
-"    us_free [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"             label=<<B>OUTSIDE EAR LICENSING</B><BR/><FONT POINT-SIZE=\"8.5\">No BIS export license needed</FONT>>];\n"
-"    us2 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"         label=<<B>Step 2 · Register CIN on SNAP-R</B><BR/><FONT POINT-SIZE=\"8.5\">https://snapr.bis.gov (free electronic account)</FONT>>];\n"
-"    us3 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"         label=<<B>Step 3 · CCATS or Export License Filing</B><BR/><FONT POINT-SIZE=\"8.5\">File CCATS classification (3A090 / 4E091) or License<BR/>(China/Macau H200-class 742.6(b)(10): attach US supply,<BR/>KYC &amp; independent US lab test certifications)</FONT>>];\n"
-"    us4 [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"         label=<<B>Step 4 · Interagency Review &amp; STELA</B><BR/><FONT POINT-SIZE=\"8.5\">Track ACN at snapr.bis.gov/public/stela</FONT>>];\n"
-"\n"
-"    us1 -> us_free [label=\" Public\"];\n"
-"    us1 -> us2 [label=\" Controlled chip / private tech\"];\n"
-"    us2 -> us3 -> us4;\n"
+"    label=\"UNITED STATES / SEPARATE CHECK\"; fontcolor=\"#08716d\"; fontsize=11; color=\"#9dbfba\"; style=rounded;\n"
+"    u1 [label=\"Is the item subject\\nto the EAR?\"]; u2 [label=\"If covered: classify the item,\\ndestination, parties and use\"]; u3 [label=\"Check the permission route\\nSNAP-R where required\",fillcolor=\"#edf5ef\"]; u1 -> u2 -> u3;\n"
 "  }\n"
 "}"
 msgstr ""
-"digraph gov_approval {\n"
-"  graph [rankdir=TB, bgcolor=\"transparent\", pad=\"0.24\", nodesep=\"0.34\", ranksep=\"0.46\",\n"
-"         fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\"];\n"
-"  node [shape=box, style=\"rounded,filled\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"        fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\",\n"
-"        fontcolor=\"#172e38\", fontsize=9.8, margin=\"0.16,0.10\"];\n"
-"  edge [color=\"#4e616a\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\",\n"
-"        fontcolor=\"#4e616a\", fontsize=8.8, arrowsize=0.7];\n"
-"\n"
-"  subgraph cluster_cn {\n"
-"    label=\"중국 · 상무부(MOFCOM)·과학기술부(MOST) 및 성급 수출 허가 절차\";\n"
-"    fontsize=10.5;\n"
-"    fontcolor=\"#ae3d2c\";\n"
-"    style=\"rounded\";\n"
-"    color=\"#ae3d2c\";\n"
-"\n"
-"    cn0 [class=\"gd-input\", fillcolor=\"#faeae7\", color=\"#ae3d2c\",\n"
-"         label=<<B>현재 즉시 시행 중 (2026년 10월 16일부터)</B><BR/><FONT POINT-SIZE=\"8.5\">ecomp.mofcom.gov.cn 로그인 -&gt; 기술무역 관리 앱<BR/>부속서 2 수출 전 정보 등록 제출 (법인 직인 날인)</FONT>>];\n"
-"    cn_route [class=\"gd-choice\", fillcolor=\"#fcf3de\", color=\"#a66f10\",\n"
-"              label=<<B>최종 개정 목록 정식 발효 이후</B><BR/><FONT POINT-SIZE=\"8.5\">어느 수출 제한(X) 경로가 적용되는가?</FONT>>];\n"
-"    cn_fast [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"             label=<<B>주석 2 &amp; 3 · 자동 허가 패스트트랙</B><BR/><FONT POINT-SIZE=\"8.5\">오픈소스 AI, 자체 해외 클라우드, 칩 테이프아웃,<BR/>바이오 라이선스·구호 (&quot;신청 즉시 처리&quot;)</FONT>>];\n"
-"    cn_s1 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#ae3d2c\",\n"
-"           label=<<B>1단계 · 협상 전 사전 신청</B><BR/><FONT POINT-SIZE=\"8.5\">성급 상무청 + 성급 과학기술청 합동 심사<BR/>5일 이첩 + 15일 전문가 심사 = &le;30영업일 이내<BR/>-&gt; 기술수출 허가의향서 (최대 3년 유효)</FONT>>];\n"
-"    cn_s2 [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"           label=<<B>2단계 · 계약 체결 후 본허가</B><BR/><FONT POINT-SIZE=\"8.5\">계약 체결 + 수출 자료 목록 &amp; 당사자 증빙 제출<BR/>성급 상무청 &le;15영업일 이내 결정<BR/>-&gt; 기술수출허가증 발급 (계약 효력 발생;<BR/>세관·외환·은행·세무 통관 처리)</FONT>>];\n"
-"\n"
-"    cn0 -> cn_route [style=dashed];\n"
-"    cn_route -> cn_fast [label=\" 오픈소스 / 테이프아웃\"];\n"
-"    cn_route -> cn_s1 [label=\" 비공개 이전\"];\n"
-"    cn_s1 -> cn_s2 [label=\" 계약 체결\"];\n"
+"digraph approval_questions {\n"
+"  graph [rankdir=TB, bgcolor=\"transparent\", pad=\"0.15\", nodesep=\"0.25\", ranksep=\"0.4\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\"];\n"
+"  node [shape=box, style=\"rounded,filled\", fillcolor=\"#f6f2e9\", color=\"#8d9b9b\", fontname=\"Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif\", fontsize=11, margin=\"0.18,0.16\"];\n"
+"  edge [color=\"#687c7b\", arrowsize=0.7];\n"
+"  subgraph cluster_current {\n"
+"    label=\"중국 / 현재 등록\"; fontcolor=\"#ae3d2c\"; fontsize=11; color=\"#d4b6aa\"; style=rounded;\n"
+"    c1 [label=\"대상 기술\\n및 이전\"]; c2 [label=\"완료 전에 등록\\necomp.mofcom.gov.cn\",fillcolor=\"#edf5ef\"]; c1 -> c2;\n"
 "  }\n"
-"\n"
+"  subgraph cluster_draft {\n"
+"    label=\"중국 / 목록 초안\"; fontcolor=\"#956c16\"; fontsize=11; color=\"#d5c7a5\"; style=\"rounded,dashed\";\n"
+"    d1 [label=\"항목, 예외와\\n해당 주석 확인\"]; d2 [label=\"최종안 채택 시\\n적용 경로 확인\",style=\"rounded,dashed,filled\"]; d1 -> d2 [style=dashed];\n"
+"  }\n"
 "  subgraph cluster_us {\n"
-"    label=\"미국 · 상무부 산업안보국 BIS (SNAP-R & STELA) 허가 절차\";\n"
-"    fontsize=10.5;\n"
-"    fontcolor=\"#08716d\";\n"
-"    style=\"rounded\";\n"
-"    color=\"#08716d\";\n"
-"\n"
-"    us1 [class=\"gd-choice\", fillcolor=\"#fcf3de\", color=\"#a66f10\",\n"
-"         label=<<B>1단계 · 공개 / 오픈소스 면제 확인</B><BR/><FONT POINT-SIZE=\"8.5\">접근 제한 없는 오픈 코드·가중치 또는 기초 연구인가?<BR/>(15 CFR 734.7 / 734.8 / 4E091 주석; Part 744 확인)</FONT>>];\n"
-"    us_free [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"             label=<<B>EAR 수출 허가 제외</B><BR/><FONT POINT-SIZE=\"8.5\">BIS 수출 허가 불필요</FONT>>];\n"
-"    us2 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"         label=<<B>2단계 · SNAP-R 기업식별번호(CIN) 등록</B><BR/><FONT POINT-SIZE=\"8.5\">https://snapr.bis.gov (무료 전자 계정)</FONT>>];\n"
-"    us3 [class=\"gd-input\", fillcolor=\"#fcfaf5\", color=\"#08716d\",\n"
-"         label=<<B>3단계 · CCATS 분류 또는 수출 허가 신청</B><BR/><FONT POINT-SIZE=\"8.5\">CCATS 품목 분류(3A090 / 4E091) 또는 허가 신청<BR/>(중국/마카오 H200급 742.6(b)(10): 미국 내 공급,<BR/>KYC 보안 &amp; 미국 독립 시험기관 성적서 첨부)</FONT>>];\n"
-"    us4 [class=\"gd-output\", fillcolor=\"#e4f3f1\", color=\"#08716d\",\n"
-"         label=<<B>4단계 · 부처 간 합동 심사 &amp; STELA 조회</B><BR/><FONT POINT-SIZE=\"8.5\">snapr.bis.gov/public/stela 에서 ACN 번호 추적</FONT>>];\n"
-"\n"
-"    us1 -> us_free [label=\" 공개 기술\"];\n"
-"    us1 -> us2 [label=\" 통제 칩 / 비공개 기술\"];\n"
-"    us2 -> us3 -> us4;\n"
+"    label=\"미국 / 별도 확인\"; fontcolor=\"#08716d\"; fontsize=11; color=\"#9dbfba\"; style=rounded;\n"
+"    u1 [label=\"대상이 EAR의\\n적용을 받는가?\"]; u2 [label=\"해당 시 분류, 목적지,\\n당사자와 용도 확인\"]; u3 [label=\"허가 경로 확인\\n필요 시 SNAP-R\",fillcolor=\"#edf5ef\"]; u1 -> u2 -> u3;\n"
 "  }\n"
 "}"
 
-#: ../../book/comparison.rst:47
-msgid ""
-"Official government registration and export-licensing workflows in China "
-"(MOFCOM/MOST + Provincial Authorities) and the United States (BIS SNAP-R & "
-"STELA)."
-msgstr ""
-"중국(상무부·과학기술부 및 성급 주관 당국)과 미국(BIS SNAP-R 및 STELA)의 공식 정부 등록 및 수출 허가 업무 흐름도."
-
-#: ../../book/comparison.rst:107
+#: ../../book/comparison.rst:78
 msgid ""
 "China: Government Departments, Statutory Timelines, and Verified Contacts"
 msgstr "중국: 소관 정부 부처, 법정 처리 기한 및 검증된 연락처"
 
-#: ../../book/comparison.rst:110
+#: ../../book/comparison.rst:81
 msgid ""
 "In China, technology export administration works as a **central-plus-"
 "provincial partnership** under the *Regulations on the Administration of "
@@ -427,7 +354,7 @@ msgstr ""
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_."
 
-#: ../../book/comparison.rst:114
+#: ../../book/comparison.rst:85
 msgid ""
 "**Scope of the clocks:** The 30-working-day and 15-working-day periods "
 "describe the existing standard restricted-technology procedure in the cited "
@@ -440,17 +367,17 @@ msgstr ""
 " **기간 범위:** 30·15근무일은 기존 표준 절차입니다. 총45일 보장이나 임시 등록·미래 자동 허가 기한이 아닙니다. "
 "협상·서류·추가 심사가 더 걸릴 수 있으며 연락처도 현재 정보를 확인합니다."
 
-#: ../../book/comparison.rst:116
+#: ../../book/comparison.rst:87
 msgid "The Three Official Filing Paths in China"
 msgstr "중국에서의 세 가지 공식 신고·신청 경로"
 
-#: ../../book/comparison.rst:119
+#: ../../book/comparison.rst:90
 msgid ""
 "**Path A: Mandatory Pre-Export Registration (Active Right Now, since 16 Oct "
 "2026):**"
 msgstr " **경로 A: 의무적 수출 전 정보 등록 (2026년 10월 16일부터 현재 즉시 시행 중):** "
 
-#: ../../book/comparison.rst:121
+#: ../../book/comparison.rst:92
 msgid ""
 "**When required:** Before transferring technology ownership abroad, "
 "licensing domestic technology for overseas use, or changing a domestic "
@@ -464,7 +391,7 @@ msgstr ""
 "포함) `CN48, section III "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:122
+#: ../../book/comparison.rst:93
 msgid ""
 "**How to file:** Open **MOFCOM's Unified Business System Platform** "
 "(``https://ecomp.mofcom.gov.cn``), select the **Technology Trade Management "
@@ -487,13 +414,13 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 " `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:124
+#: ../../book/comparison.rst:95
 msgid ""
 "**Path B: Open-Source, Chip Tape-Out & Cloud Fast-Track (\"Automatic "
 "Licensing\", Proposed in Footnotes 2 & 3):**"
 msgstr " **경로 B: 오픈소스, 칩 테이프아웃 및 자체 클라우드 패스트트랙 (주석 2 및 3의 \"자동 허가\" 제안):** "
 
-#: ../../book/comparison.rst:126
+#: ../../book/comparison.rst:97
 msgid ""
 "**When applicable:** Once the revised catalogue takes effect, open-sourcing "
 "restricted AI technology, deploying models on a **Chinese firm's self-built,"
@@ -509,7 +436,7 @@ msgstr ""
 "수출하는 경우 `CN-A1, notes 2 and 3 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/comparison.rst:127
+#: ../../book/comparison.rst:98
 msgid ""
 "**What is specified:** The draft and official explanation propose automatic "
 "licensing or similar facilitation. They do not establish a complete final "
@@ -524,13 +451,13 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/comparison.rst:129
+#: ../../book/comparison.rst:100
 msgid ""
 "**Path C: Standard Two-Stage Restricted Technology Export License (** "
 "``技术出口许可证`` **):**"
 msgstr " **경로 C: 표준 2단계 수출 제한 기술 수출 허가증 (**  ``技术出口许可证``  **):** "
 
-#: ../../book/comparison.rst:131
+#: ../../book/comparison.rst:102
 msgid ""
 "**Stage 1: Before substantive negotiation or signing a contract (up to 30 "
 "working days):** File the *Application for Chinese Restricted Export "
@@ -565,7 +492,7 @@ msgstr ""
 "`CNMEAS, Art. 11 <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_.)*"
 " "
 
-#: ../../book/comparison.rst:132
+#: ../../book/comparison.rst:103
 msgid ""
 "**Stage 2: After signing the contract (up to 15 working days):** Sign the "
 "contract, log contract details in the online system, and submit to "
@@ -601,11 +528,11 @@ msgstr ""
 " <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/comparison.rst:136
+#: ../../book/comparison.rst:107
 msgid "**Verified China Official Contact Directory**"
 msgstr " **검증된 중국 정부 공식 연락처 편람** "
 
-#: ../../book/comparison.rst:138
+#: ../../book/comparison.rst:109
 msgid ""
 "**Lead Central Departments (Catalogue Policy, Scope & Public "
 "Consultation):** Bureau of Industry, Security, Import and Export Control, "
@@ -617,7 +544,7 @@ msgstr ""
 "산업안보수출입통제국(``中华人民共和国商务部安全与管制局``) 및 과학기술부(``科学技术部``) 합동 `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:139
+#: ../../book/comparison.rst:110
 msgid ""
 "**Postal Address:** No. 2 Dongchang'an Avenue, Beijing 100731, China "
 "(``北京市东长安街2号商务部安全与管制局，邮编：100731``) `CN48 "
@@ -627,7 +554,7 @@ msgstr ""
 " Avenue, Beijing 100731, China (``北京市东长安街2号商务部安全与管制局，邮编：100731``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:140
+#: ../../book/comparison.rst:111
 msgid ""
 "**Official Consultation & Policy Email:** ``jinxianmulu@mofcom.gov.cn`` "
 "*(for public comments through 15 Nov 2026, mark subject* "
@@ -640,7 +567,7 @@ msgstr ""
 " 연락처와 함께 법인 직인을 날인하여 첨부)*  `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:141
+#: ../../book/comparison.rst:112
 msgid ""
 "**Official Fax:** ``+86-10-6519-7565`` (``010-65197565``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
@@ -648,7 +575,7 @@ msgstr ""
 " **공식 팩스:**  ``+86-10-6519-7565`` (``010-65197565``) `CN48 "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/comparison.rst:142
+#: ../../book/comparison.rst:113
 msgid ""
 "**Unified Online Registration & Licensing Portal:** "
 "``https://ecomp.mofcom.gov.cn``: *Technology Trade Management Information "
@@ -665,7 +592,7 @@ msgstr ""
 " `CNMEAS, Art. 16 <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ "
 "`CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:143
+#: ../../book/comparison.rst:114
 msgid ""
 "**Unified Platform Technical Support Phone:** ``+86-10-6787-0108`` "
 "(``86-10-67870108``) `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
@@ -673,7 +600,7 @@ msgstr ""
 " **통합 플랫폼 기술지원 전화:**  ``+86-10-6787-0108`` (``86-10-67870108``) `CNPLAT "
 "<http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/comparison.rst:144
+#: ../../book/comparison.rst:115
 msgid ""
 "**Local Licensing Authorities:** Provincial, Autonomous-Region, or Municipal"
 " Commerce Department and Science & Technology Department in the exporter's "
@@ -684,12 +611,12 @@ msgstr ""
 "(``所在地省、自治区、直辖市商务主管部门会同科技行政主管部门``) `CNMEAS, Art. 4 "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_."
 
-#: ../../book/comparison.rst:146
+#: ../../book/comparison.rst:117
 msgid ""
 "United States: Federal Agencies, SNAP-R Workflow, and Verified Contacts"
 msgstr "미국: 소관 연방 기관, SNAP-R 업무 절차 및 검증된 연락처"
 
-#: ../../book/comparison.rst:149
+#: ../../book/comparison.rst:120
 msgid ""
 "In the United States, dual-use hardware, software, and technology export "
 "licensing is administered federally by the **Bureau of Industry and Security"
@@ -705,11 +632,11 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:151
+#: ../../book/comparison.rst:122
 msgid "Four Steps to Classify or Obtain US Export Approval"
 msgstr "미국 수출 통제 분류 판정 및 허가 승인을 위한 4단계 절차"
 
-#: ../../book/comparison.rst:154
+#: ../../book/comparison.rst:125
 msgid ""
 "**Step 1: Establish jurisdiction and publication status:** Check the exact "
 "artifact under 734.3, 734.7, 734.8 and the 4E091 notes. Qualifying published"
@@ -727,7 +654,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/744>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/comparison.rst:155
+#: ../../book/comparison.rst:126
 msgid ""
 "**Step 2: Obtain a Company Identification Number (CIN) on SNAP-R:** Parties "
 "exporting controlled hardware (``3A090``), chip equipment, or private "
@@ -745,7 +672,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:156
+#: ../../book/comparison.rst:127
 msgid ""
 "**Step 3: File a Commodity Classification (CCATS) or Policy Inquiry if "
 "uncertain:** Submit technical specifications as a Commodity Classification "
@@ -760,7 +687,7 @@ msgstr ""
 " <https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:157
+#: ../../book/comparison.rst:128
 msgid ""
 "**Step 4: Submit License Application & Track via STELA:** Upload PDF "
 "supporting documents, end-user statements, and technical specs (for January "
@@ -783,11 +710,11 @@ msgstr ""
 "시스템(``https://snapr.bis.gov/public/stela``)에서 심사 진행 현황을 실시간으로 조회한다 `EAR734 "
 "<https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:161
+#: ../../book/comparison.rst:132
 msgid "**Verified United States Official Contact Directory**"
 msgstr " **검증된 미국 연방 정부 공식 연락처 편람** "
 
-#: ../../book/comparison.rst:163
+#: ../../book/comparison.rst:134
 msgid ""
 "**Electronic Licensing & Tracking Portals:** SNAP-R Filing Portal: "
 "``https://snapr.bis.gov`` | STELA Status Tracker: "
@@ -800,7 +727,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/734>`_ `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:164
+#: ../../book/comparison.rst:135
 msgid ""
 "**SNAP-R Helpdesk & Account Support:** Technical Helpdesk: "
 "``snapr@bis.doc.gov`` | Account Recovery & Empowered Official Letters: "
@@ -810,7 +737,7 @@ msgstr ""
 "수권임원(Empowered Official) 서한 접수: ``ECDOEXS@bis.doc.gov`` `SNAPR "
 "<https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_."
 
-#: ../../book/comparison.rst:165
+#: ../../book/comparison.rst:136
 msgid ""
 "**BIS Outreach and Educational Services Division (Washington, D.C.):** U.S. "
 "Department of Commerce, 14th and Pennsylvania Avenue, NW., Room H1099D, "
@@ -822,7 +749,7 @@ msgstr ""
 " 482-4811`` | 팩스: ``+1 (202) 482-2927`` `EAR734 "
 "<https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:166
+#: ../../book/comparison.rst:137
 msgid ""
 "**BIS Western Regional Office (Southern California):** 2302 Martin St., "
 "Suite 330, Irvine, CA 92612 | Tel: ``+1 (949) 660-0144`` | Fax: ``+1 (949) "
@@ -832,7 +759,7 @@ msgstr ""
 "| 전화: ``+1 (949) 660-0144`` | 팩스: ``+1 (949) 660-9347`` `EAR734 "
 "<https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:167
+#: ../../book/comparison.rst:138
 msgid ""
 "**BIS Northern California Branch (Silicon Valley):** 160 W. Santa Clara "
 "Street, Suite 725, San Jose, CA 95113 | Tel: ``+1 (408) 998-8806`` | Fax: "
@@ -842,7 +769,7 @@ msgstr ""
 "Jose, CA 95113 | 전화: ``+1 (408) 998-8806`` | 팩스: ``+1 (408) 998-8677`` "
 "`EAR734 <https://www.bis.gov/regulations/ear/734>`_."
 
-#: ../../book/comparison.rst:168
+#: ../../book/comparison.rst:139
 msgid ""
 "**BIS Regulatory Policy Division:** Room 2099B, U.S. Department of Commerce,"
 " Washington, DC 20230 | Tel: ``+1 (202) 482-2440`` | Email: "
@@ -860,7 +787,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "`EAR742 <https://www.bis.gov/regulations/ear/742>`_."
 
-#: ../../book/comparison.rst:169
+#: ../../book/comparison.rst:140
 msgid ""
 "**BIS Technical Leads (Semiconductors & AI):** Category 3 Semiconductors "
 "(``3A090``): Carlos Monroy, ``+1 (202) 482-3246``, "
@@ -881,7 +808,7 @@ msgstr ""
 "``Aaron.Amundson@bis.doc.gov`` `US25 "
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_."
 
-#: ../../book/comparison.rst:170
+#: ../../book/comparison.rst:141
 msgid ""
 "**U.S. Department of the Treasury (Outbound Investment Security Program):** "
 "``https://home.treasury.gov/policy-issues/international/outbound-investment-"
@@ -899,7 +826,7 @@ msgstr ""
 "<https://home.treasury.gov/policy-issues/international/outbound-investment-"
 "program>`_."
 
-#: ../../book/comparison.rst:171
+#: ../../book/comparison.rst:142
 msgid ""
 "**U.S. Department of Justice (Data Security Program, National Security "
 "Division):** ``https://www.justice.gov/nsd/data-security`` | Compliance: "

@@ -10,6 +10,13 @@ You Can Ship the Solar Panel, Not the Secret Kitchen
 
 The official explanation distinguishes manufacturing technology from products made with it. Announcement 48 does not create a blanket ban on finished solar panels. That statement concerns this announcement, not every customs rule or other measure that could affect a shipment. `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_
 
+.. figure:: assets/illustrations/solar.jpg
+   :name: fig-solar-workshop
+   :alt: A crystal-growing furnace, thin wafers and a coating machine show the equipment and knowledge behind a finished solar panel. The machinery is schematic.
+   :width: 100%
+
+   A crystal-growing furnace, thin wafers and a coating machine show the equipment and knowledge behind a finished solar panel. The machinery is schematic.
+
 Why, then, do **12 of the 40 technology points** (5 proposed prohibited, 7 proposed restricted) target solar manufacturing? Because China leads the world in turning raw quartz into ultra-pure polysilicon, pulling giant monocrystalline ingots, slicing wafers thinner than office paper, and coating next-generation tandem cells. As foreign governments offer subsidies and erect import tariffs to build domestic solar factories, Beijing is drawing a border around **both the industrial recipes and the physical factory machines that carry them** `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_:
 
 1. **Silicon purification (263003J & 263004X):** Proposed prohibitions cover mega-scale cold-hydrogenation fluidized beds (:math:`\ge 250{,}000\text{ tonnes/year}` trichlorosilane on a single line) and silane fluidized beds (:math:`\ge 20{,}000\text{ tonnes/year}`); restricted entries cover :math:`\ge 30{,}000\text{-tonne}` plant packages and :math:`\ge 800\text{-tonne-per-furnace}` reduction recipes `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_.

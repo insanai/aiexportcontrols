@@ -46,29 +46,19 @@ msgstr ""
 "<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
 "<https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/open-models.rst:15
+#: ../../book/open-models.rst:13 ../../book/open-models.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
+"Receiving files and knowledge to work independently differs from using a "
+"service that keeps its underlying model elsewhere."
 msgstr ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
+"Recibir archivos y conocimientos para trabajar de forma independiente "
+"difiere de usar un servicio cuyo modelo permanece en otro lugar."
 
-#: ../../book/open-models.rst:15
-msgid ""
-"A release can follow different paths depending on the artifact, jurisdiction"
-" and transfer. Existing public files and first releases need different "
-"analysis."
-msgstr ""
-"La ruta depende del archivo, la jurisdicción y la transferencia. Los "
-"archivos ya públicos y las primeras publicaciones requieren análisis "
-"distintos."
-
-#: ../../book/open-models.rst:21
+#: ../../book/open-models.rst:20
 msgid "Start with the Actual Artifact"
 msgstr "Empezamos por el archivo concreto"
 
-#: ../../book/open-models.rst:24
+#: ../../book/open-models.rst:23
 msgid ""
 "A public paper, downloadable weights, private training code and a later "
 "fine-tune are different artifacts. The Open Source AI Definition asks for "
@@ -83,11 +73,11 @@ msgstr ""
 " parte de ello. La licencia de autor no decide el estatus de exportación. "
 "`OSI <https://opensource.org/ai/open-source-ai-definition>`_"
 
-#: ../../book/open-models.rst:26
+#: ../../book/open-models.rst:25
 msgid "China: Registration Now, Catalogue Proposal Separately"
 msgstr "China: registro actual y catálogo propuesto por separado"
 
-#: ../../book/open-models.rst:29
+#: ../../book/open-models.rst:28
 msgid ""
 "Announcement 48 requires temporary registration before covered transfers, "
 "including unfinished exports. It identifies ownership transfers, overseas "
@@ -108,7 +98,7 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:31
+#: ../../book/open-models.rst:30
 msgid ""
 "We read the Chinese draft with its section-wide notes, rather than treating "
 "every release as a compulsory sequence of four gates:"
@@ -116,7 +106,7 @@ msgstr ""
 "Leemos el borrador con sus notas generales, sin convertir cada publicación "
 "en cuatro puertas obligatorias:"
 
-#: ../../book/open-models.rst:33
+#: ../../book/open-models.rst:32
 msgid ""
 "**Already-public AI technology:** Note 1 excludes technology already public "
 "through open source or papers. Identify exactly what was published. A paper "
@@ -130,7 +120,7 @@ msgstr ""
 " las exclusiones. `CN-A1, note 1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:34
+#: ../../book/open-models.rst:33
 msgid ""
 "**Unpublished data-sensitive technology:** The draft places specified core-"
 "data models in a proposed prohibited category and important-data models in a"
@@ -146,7 +136,7 @@ msgstr ""
 " 266501J and 266504X "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:35
+#: ../../book/open-models.rst:34
 msgid ""
 "**Other unpublished controlled technology:** Check alternative model "
 "thresholds and any agent, chip-design or cluster technology being "
@@ -160,7 +150,7 @@ msgstr ""
 " "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:36
+#: ../../book/open-models.rst:35
 msgid ""
 "**Facilitated routes:** Note 2 proposes automatic licensing or similar "
 "facilitation for specified restricted AI exports, including open-source "
@@ -180,28 +170,55 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"es\")"
+#: ../../book/open-models.rst:37
+msgid "Three separate questions before a transfer"
+msgstr "Tres preguntas distintas antes de transferir"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"Keep three questions separate: what is already operating, what the Chinese "
-"draft proposes, and what the US rules cover. These are reading questions, "
-"not a transaction clearance."
-msgstr ""
-"Separamos registro actual, catálogo chino propuesto y reglas "
-"estadounidenses. Son preguntas de lectura, no autorización de una operación."
+#: ../../book/open-models.rst:42
+msgid "Question"
+msgstr "Pregunta"
+
+#: ../../book/open-models.rst:43
+msgid "What we check"
+msgstr "Qué comprobamos"
+
+#: ../../book/open-models.rst:44
+msgid "Current Chinese registration"
+msgstr "Registro chino actual"
 
 #: ../../book/open-models.rst:45
+msgid "The covered technology and transfer, including unfinished exports."
+msgstr ""
+"La tecnología y transferencia cubiertas, incluidas exportaciones sin "
+"terminar."
+
+#: ../../book/open-models.rst:46
+msgid "Proposed Chinese catalogue"
+msgstr "Catálogo chino propuesto"
+
+#: ../../book/open-models.rst:47
+msgid ""
+"The precise entry, its notes, exclusions and proposed facilitated routes."
+msgstr ""
+"La entrada exacta, sus notas, exclusiones y vías facilitadas propuestas."
+
+#: ../../book/open-models.rst:48
+msgid "Separate US rules"
+msgstr "Normas estadounidenses separadas"
+
+#: ../../book/open-models.rst:49
+msgid ""
+"Whether the artifact is subject to the EAR, followed by its classification "
+"and applicable conditions."
+msgstr ""
+"Si el objeto está sujeto a EAR y después su clasificación y condiciones "
+"aplicables."
+
+#: ../../book/open-models.rst:51
 msgid "United States: A Separate Jurisdiction Test"
 msgstr "Estados Unidos: una jurisdicción distinta"
 
-#: ../../book/open-models.rst:48
+#: ../../book/open-models.rst:54
 msgid ""
 "First establish whether the artifact is subject to the EAR. Published-"
 "information provisions and the 4E091 notes can exclude qualifying public "
@@ -221,7 +238,7 @@ msgstr ""
 " `EAR774, 4E091 notes <https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/open-models.rst:50
+#: ../../book/open-models.rst:56
 msgid ""
 "MOFCOM's answer on API, app, web, SaaS and lightweight local deployment "
 "concerns restricted large models under the proposed measures. It should not "
@@ -236,11 +253,11 @@ msgstr ""
 "Entregar pesos privados difiere de prestar un servicio remoto. `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:52
+#: ../../book/open-models.rst:58
 msgid "Possible Effects on Open Models"
 msgstr "Posibles efectos sobre los modelos abiertos"
 
-#: ../../book/open-models.rst:55
+#: ../../book/open-models.rst:61
 msgid ""
 "**Continued public releases** are consistent with the draft's explicit "
 "facilitation. **More documentation or delay** is a possible result of "
@@ -266,7 +283,7 @@ msgstr ""
 " `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
 "model-report.pdf>`_"
 
-#: ../../book/open-models.rst:57
+#: ../../book/open-models.rst:63
 msgid ""
 "We should not claim that chip restrictions caused a particular model's "
 "efficiency improvements without evidence isolating that cause. Smaller "
@@ -279,11 +296,11 @@ msgstr ""
 " reduce dependencia remota, pero no garantiza privacidad, seguridad o "
 "fiabilidad clínica."
 
-#: ../../book/open-models.rst:59
+#: ../../book/open-models.rst:65
 msgid "A Practical Release Record"
 msgstr "Un registro práctico de publicación"
 
-#: ../../book/open-models.rst:62
+#: ../../book/open-models.rst:68
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"

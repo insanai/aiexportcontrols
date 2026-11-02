@@ -48,24 +48,16 @@ msgstr ""
 "**ARN pequeño de interferencia (siRNA)**  capaces de silenciar genes "
 "patógenos antes de que lleguen a formarse proteínas dañinas."
 
-#: ../../book/biomedicine.rst:15
+#: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"medicine-development platform differs from a particular treatment."
 msgstr ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"La célula, el ADN, el ARN y los instrumentos hacen tangible el tema. Una "
+"plataforma reutilizable de desarrollo de medicamentos difiere de un "
+"tratamiento concreto."
 
-#: ../../book/biomedicine.rst:15
-msgid ""
-"Reusable biological platforms and manufacturing equipment carry different "
-"kinds of knowledge. Their legal categories and exclusions must be read "
-"separately."
-msgstr ""
-"Las plataformas biológicas y los equipos industriales transmiten "
-"conocimientos diferentes. Sus categorías y exclusiones se leen por separado."
-
-#: ../../book/biomedicine.rst:21
+#: ../../book/biomedicine.rst:20
 msgid ""
 "The draft distinguishes ownership of a reusable medicine-development "
 "platform from specific drug projects. It proposes limits on covered platform"
@@ -86,7 +78,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/biomedicine.rst:23
+#: ../../book/biomedicine.rst:22
 msgid ""
 "Picture a foundational CGT or siRNA platform as a custom **printing press** "
 "perfected over ten years (delivery vectors, chemical stabilization recipes, "
@@ -100,7 +92,7 @@ msgstr ""
 "diseño capaces de imprimir veinte terapias futuras. Imagine ahora un fármaco"
 " candidato concreto como  **un solo libro**  salido de esa imprenta:"
 
-#: ../../book/biomedicine.rst:25
+#: ../../book/biomedicine.rst:24
 msgid ""
 "**Platform ownership transfer is proposed prohibited (262704J and "
 "262705J).** The draft targets overseas ownership transfers of the specified "
@@ -115,7 +107,7 @@ msgstr ""
 " ya creada por el Anuncio 48. `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/biomedicine.rst:26
+#: ../../book/biomedicine.rst:25
 msgid ""
 "**Out-licensing, contract manufacturing, and single-drug partnerships stay "
 "open:** Three explicit notes under both entries carve out overseas **out-"
@@ -145,11 +137,11 @@ msgstr ""
 " Solo una «licencia perpetua de compra encubierta» que vacíe de contenido la"
 " titularidad nacional cruza la línea roja."
 
-#: ../../book/biomedicine.rst:28
+#: ../../book/biomedicine.rst:27
 msgid "Undisclosed Biological Targets and Biosecurity Walls"
 msgstr "Dianas biológicas inéditas y muros de bioseguridad"
 
-#: ../../book/biomedicine.rst:31
+#: ../../book/biomedicine.rst:30
 msgid ""
 "Two **proposed restricted** entries (``262705X`` and ``262706X``) cover "
 "Chinese-owned technology for discovering and validating **wholly new "
@@ -181,7 +173,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/biomedicine.rst:33
+#: ../../book/biomedicine.rst:32
 msgid ""
 "The fifth entry (``267302J``, proposed prohibited) is a pure **biosecurity "
 "wall** against artificial genetic modification and directed serial-passage "

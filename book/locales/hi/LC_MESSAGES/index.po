@@ -40,24 +40,15 @@ msgstr ""
 "ज्ञान छीने बिना सीख सकती है। `JEFFERSON "
 "<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
 
-#: ../../book/index.rst:12
+#: ../../book/index.rst:10 ../../book/index.rst:15
 msgid ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
+"A border barrier holds up computer parts and technical plans while two "
+"research teams try to work together."
 msgstr ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
+"दो शोध दल साथ काम करना चाहते हैं, लेकिन सीमा की बाधा कंप्यूटर के पुर्जे और "
+"तकनीकी नक्शे रोकती है।"
 
-#: ../../book/index.rst:12
-msgid ""
-"A shared path crosses a boundary while another is interrupted. The drawing "
-"represents the distinction between cooperation and broad restriction; it is "
-"not a map of a legal procedure."
-msgstr ""
-"एक साझा रास्ता सीमा पार करता है, दूसरा कटता है। सहयोग·व्यापक रोक की उपमा, "
-"कानूनी प्रक्रिया नहीं।"
-
-#: ../../book/index.rst:18
+#: ../../book/index.rst:17
 msgid ""
 "Open-weight models can give researchers and smaller organizations more "
 "control over how they use AI. A clinic, a language project or a university "
@@ -75,7 +66,7 @@ msgstr ""
 "<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
 "<https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/index.rst:20
+#: ../../book/index.rst:19
 msgid ""
 "Then the walls began to rise: not only in the sky of software, but deep "
 "underground in the bedrock of silicon."
@@ -83,11 +74,11 @@ msgstr ""
 "तभी दीवारें उठने लगीं: केवल सॉफ़्टवेयर के आकाश में ही नहीं, बल्कि धरती के "
 "भीतर सिलिकॉन की बुनियादी चट्टानों में भी।"
 
-#: ../../book/index.rst:22
+#: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
 msgstr "केवल सॉफ़्टवेयर या वेट्स नहीं: खुले मस्तिष्कों के नीचे टिका हार्डवेयर"
 
-#: ../../book/index.rst:25
+#: ../../book/index.rst:24
 msgid ""
 "Most conversations about open-source AI make a comforting mistake. They "
 "imagine an AI model as pure, weightless poetry: a file of code and numbers "
@@ -99,7 +90,7 @@ msgstr ""
 "हमेशा आज़ाद रहेगी, बस शर्त इतनी है कि कोई GitHub पर MIT या Apache 2.0 "
 "लाइसेंस लगा दे।"
 
-#: ../../book/index.rst:27
+#: ../../book/index.rst:26
 msgid ""
 "Open models depend on physical computers. Large training runs can need "
 "advanced processors, memory and fast networks; smaller models can run on "
@@ -112,15 +103,7 @@ msgstr ""
 "छोटा मॉडल साधारण उपकरण। हर उपयोगकर्ता को नवीन कारखाना या दस हजार कार्ड नहीं "
 "चाहिए, पर दुर्लभ हार्डवेयर के नियंत्रण से भागीदारी बदल सकती है।"
 
-#: ../../book/index.rst:31
-msgid ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-msgstr ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-
-#: ../../book/index.rst:31
+#: ../../book/index.rst:28 ../../book/index.rst:33
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
@@ -128,7 +111,7 @@ msgstr ""
 "खुले मॉडल चिप·मेमोरी·ढांचे पर टिके हैं। एक हिस्से की रोक पूरे तक पहुंच पर "
 "असर डाल सकती है।"
 
-#: ../../book/index.rst:37
+#: ../../book/index.rst:35
 msgid ""
 "**Hardware and design knowledge:** US controls cover specified chips, "
 "manufacturing items and some foreign-made items under defined conditions. "
@@ -149,7 +132,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:38
+#: ../../book/index.rst:36
 msgid ""
 "**Models and data:** Announcement 48 began temporary registration for "
 "covered transfers on **16 October 2026**. Its proposed catalogue includes "
@@ -174,7 +157,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
 "`GAO26 <https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/index.rst:42
+#: ../../book/index.rst:40
 msgid ""
 "Even if software licenses remain free on paper, open-source AI cannot thrive"
 " in a vacuum: if export controls ration the chips needed to train open "
@@ -189,11 +172,11 @@ msgstr ""
 "तो मानवता अपने मस्तिष्क की मालकियत खोकर फिर से मीटर से चलने वाली कॉरपोरेट "
 "क्लाउड खिड़कियों की किरायेदार बनने को विवश हो जाएगी।"
 
-#: ../../book/index.rst:44
+#: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "किले का जाल: दोनों कैसे नुकसान उठा सकते हैं"
 
-#: ../../book/index.rst:47
+#: ../../book/index.rst:45
 msgid ""
 "The central argument of this book is that broad restrictions on shared "
 "knowledge can leave both countries worse off. We can show one way this "
@@ -203,7 +186,7 @@ msgstr ""
 "व्यापक ज्ञान रोक से दोनों देश खराब स्थिति में आ सकते हैं। खेल एक तरीका "
 "दिखाता है। मनचाहे अंक चुनने से हर नियंत्रण का असर साबित नहीं होता।"
 
-#: ../../book/index.rst:49
+#: ../../book/index.rst:47
 msgid ""
 "Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
 "Sharing means allowing ordinary research and open-model cooperation; a wall "
@@ -215,7 +198,7 @@ msgstr ""
 "का सरल रूप है। लक्षित नियंत्रण, सुरक्षा लाभ, तीसरे देश और चिप असमानता पहले "
 "उदाहरण में नहीं हैं।"
 
-#: ../../book/index.rst:53
+#: ../../book/index.rst:51
 msgid ""
 "**Assumptions, not measurements.** The scores below are invented teaching "
 "values. They express preferences within this example, not dollars, measured "
@@ -225,7 +208,20 @@ msgstr ""
 " **मान्यताएं, माप नहीं।**  अंक बनाए गए शिक्षण मूल्य हैं, पैसा·मापी "
 "खोज·कल्याण नहीं। तालिका70% नुकसान या चार गुना खतरा नहीं आंकती।"
 
-#: ../../book/index.rst:56
+#: ../../book/index.rst:53 ../../book/index.rst:58
+msgid ""
+"Two teams finish a computer by sharing parts and knowledge, then struggle "
+"when a wall separates them. This illustrates the assumed game, not a "
+"measured outcome."
+msgstr ""
+"दो दल पुर्जे और ज्ञान साझा करके कंप्यूटर पूरा करते हैं, लेकिन दीवार बनने पर "
+"अटक जाते हैं। यह माने हुए खेल का चित्र है, मापा हुआ परिणाम नहीं।"
+
+#: ../../book/index.rst:62
+msgid "Assumed scores in the teaching game"
+msgstr "उदाहरण के खेल में माने हुए अंक"
+
+#: ../../book/index.rst:62
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -233,26 +229,17 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"hi\")"
 
-#: ../../book/index.rst:56
-msgid ""
-"Two countries can each prefer a wall while both prefer the outcome of mutual"
-" sharing. The scores are assumptions, not measured effects of export "
-"controls."
-msgstr ""
-"हर देश दीवार चाहे, फिर भी दोनों आपसी साझे को बेहतर मान सकते हैं। अंक मान लिए"
-" गए हैं, मापे असर नहीं।"
-
-#: ../../book/index.rst:62
+#: ../../book/index.rst:69
 msgid "Reading the Four Outcomes"
 msgstr "चार नतीजे पढ़ना"
 
-#: ../../book/index.rst:65
+#: ../../book/index.rst:72
 msgid ""
 "**Both share:** A gets 17 and B gets 17. In this example, both value the "
 "benefits of exchange."
 msgstr " **दोनों साझा:**  A17,B17। दोनों आदान-प्रदान का लाभ मानते हैं।"
 
-#: ../../book/index.rst:66
+#: ../../book/index.rst:73
 msgid ""
 "**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
 "temporary advantage while still using A's public work."
@@ -260,12 +247,12 @@ msgstr ""
 " **A साझा,B रोके:**  A3,B20। B खुले काम से सीखकर अस्थायी बढ़त लेता है, यह "
 "मान्यता है।"
 
-#: ../../book/index.rst:67
+#: ../../book/index.rst:74
 msgid ""
 "**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
 msgstr " **A रोके,B साझा:**  A20,B3। उल्टा वही मामला।"
 
-#: ../../book/index.rst:68
+#: ../../book/index.rst:75
 msgid ""
 "**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
 "duplicated effort outweigh the security benefits of these broad walls."
@@ -273,7 +260,7 @@ msgstr ""
 " **दोनों रोकें:**  दोनों5। मानते हैं कि साझा काम खोना·दोहराव इन दीवारों के "
 "सुरक्षा लाभ से ज्यादा है।"
 
-#: ../../book/index.rst:70
+#: ../../book/index.rst:77
 msgid ""
 "If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
 "the same choices. A wall is therefore each country's best response whatever "
@@ -290,7 +277,7 @@ msgstr ""
 "परेटो-कुशल है, हर पक्ष का अधिकतम निजी अंक नहीं। `GAME "
 "<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:72
+#: ../../book/index.rst:79
 msgid ""
 "The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
 "particular numbers. It identifies a possible strategic trap. It does not "
@@ -300,11 +287,11 @@ msgstr ""
 "नतीजा  **20 > 17 > 5 > 3**  के क्रम पर है, खास अंकों पर नहीं। यह संभव जाल "
 "है, असली लागत का माप या तालिका के बाहर नतीजा असंभव होने का प्रमाण नहीं।"
 
-#: ../../book/index.rst:74
+#: ../../book/index.rst:81
 msgid "What Could Change the Result?"
 msgstr "नतीजा क्या बदल सकता है?"
 
-#: ../../book/index.rst:77
+#: ../../book/index.rst:84
 msgid ""
 "A control that prevents a serious misuse could provide security benefits "
 "large enough to change the ranking. A chip bottleneck, different national "
@@ -321,7 +308,7 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:79
+#: ../../book/index.rst:86
 msgid ""
 "Countries also interact repeatedly. In this simplified game, suppose "
 "cooperation continues while both share, but a deviation earns 20 once and is"
@@ -333,7 +320,7 @@ msgstr ""
 "हमेशा5 मिले। :math:`\\delta` अगली बार का आज के मुकाबले मूल्य है। सहयोग कम से"
 " कम उतना अच्छा होगा जब:"
 
-#: ../../book/index.rst:81
+#: ../../book/index.rst:88
 msgid ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
@@ -341,7 +328,7 @@ msgstr ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
 
-#: ../../book/index.rst:86
+#: ../../book/index.rst:93
 msgid ""
 "This is a calculation inside the assumed game, not a diplomatic forecast. It"
 " assumes an indefinite relationship, observable choices and a credible "
@@ -355,11 +342,11 @@ msgstr ""
 "बदलते हैं। सहयोग विश्वसनीय कैसे हो, यही सवाल है। `GAME "
 "<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:88
+#: ../../book/index.rst:95
 msgid "Why More Review Can Help, Without Guaranteeing Safety"
 msgstr "अधिक जांच मदद कर सकती है, सुरक्षा गारंटी नहीं"
 
-#: ../../book/index.rst:91
+#: ../../book/index.rst:98
 msgid ""
 "Open access can make independent testing and repair easier. A simple "
 "probability example explains one possible benefit. If a flaw exists with "
@@ -370,11 +357,11 @@ msgstr ""
 ":math:`p_0`, हर स्वतंत्र टीम की पहचान संभावना :math:`q` और टीम संख्या "
 ":math:`n` हो तो:"
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:100
 msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 
-#: ../../book/index.rst:97
+#: ../../book/index.rst:104
 msgid ""
 "For a flaw known to exist and an assumed detection chance of one half, one "
 "team misses it with probability 50%, four independent teams with 6.25%, and "
@@ -387,7 +374,7 @@ msgstr ""
 "चूकती हैं। यह शर्त वाला हिसाब है। असली टीम की साझा भूल, कम संसाधन या बिना "
 "मरम्मत खोज हो सकती है। यह कुल साइबर·जैविक·सामाजिक खतरा नहीं।"
 
-#: ../../book/index.rst:99
+#: ../../book/index.rst:106
 msgid ""
 "Open weights can also help harmful actors modify a system or remove "
 "safeguards. NTIA's 2024 report considered both benefits and risks, "
@@ -404,7 +391,7 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:101
+#: ../../book/index.rst:108
 msgid ""
 "Our recommendation is to make controls precise, assess their security "
 "benefit against their cost to cooperation, and protect workable routes for "
@@ -415,11 +402,11 @@ msgstr ""
 " सुझाते हैं। यह प्रमाण आधारित दलील है, हर रोक सबका नुकसान है ऐसा प्रमेय "
 "नहीं।"
 
-#: ../../book/index.rst:103
+#: ../../book/index.rst:110
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr "केंद्रीय तथ्यात्मक खोज: अधखुला द्वार, सीलबंद दीवार नहीं"
 
-#: ../../book/index.rst:106
+#: ../../book/index.rst:113
 msgid ""
 "When we turn from game theory back to the verified legal texts of November "
 "2026, we find something remarkable: despite alarming headlines, regulators "
@@ -431,25 +418,67 @@ msgstr ""
 "और वॉशिंगटन दोनों के नियामकों ने ओपन-सोर्स एआई के लिए जानबूझकर वास्तविक पुल "
 "कायम रखे हैं:"
 
-#: ../../book/index.rst:109
+#: ../../book/index.rst:115 ../../book/index.rst:120
 msgid ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"en\")"
+"Computing, biomedicine and solar manufacturing, shown through a processor, a"
+" cell and the layers of a solar panel."
 msgstr ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"hi\")"
+"प्रोसेसर, कोशिका और सौर पैनल की परतें कंप्यूटिंग, जैव-चिकित्सा और सौर "
+"निर्माण को दिखाती हैं।"
 
-#: ../../book/index.rst:109
-msgid ""
-"Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar "
-"(12), and biomedicine (5), alongside the three footnote fast lanes "
-"preserving open-source and humanitarian science."
-msgstr ""
-"संलग्नक 1 के अंतर्गत एआई व हार्डवेयर (23), सौर ऊर्जा (12) और बायोमेडिसिन (5)"
-" के 40 प्रस्तावित जाँच-बिंदु, साथ में ओपन-सोर्स और मानवीय विज्ञान की रक्षा "
-"करने वाले तीन टिप्पणी-आधारित त्वरित मार्ग।"
+#: ../../book/index.rst:122
+msgid "The 40 proposed technology points"
+msgstr "प्रस्तावित40 तकनीकी बिंदु"
 
-#: ../../book/index.rst:115
+#: ../../book/index.rst:126
+msgid "Area"
+msgstr "क्षेत्र"
+
+#: ../../book/index.rst:127
+msgid "Proposed prohibited"
+msgstr "प्रस्तावित निषेध"
+
+#: ../../book/index.rst:128
+msgid "Proposed restricted"
+msgstr "प्रस्तावित सीमा"
+
+#: ../../book/index.rst:129
+msgid "AI and computing hardware"
+msgstr "एआई और कंप्यूटिंग हार्डवेयर"
+
+#: ../../book/index.rst:130
+msgid "6"
+msgstr "6"
+
+#: ../../book/index.rst:131
+msgid "17"
+msgstr "17"
+
+#: ../../book/index.rst:132
+msgid "Biomedicine"
+msgstr "जैव-चिकित्सा"
+
+#: ../../book/index.rst:133
+msgid "3"
+msgstr "3"
+
+#: ../../book/index.rst:134
+msgid "2"
+msgstr "2"
+
+#: ../../book/index.rst:135
+msgid "Solar manufacturing"
+msgstr "सौर निर्माण"
+
+#: ../../book/index.rst:136
+msgid "5"
+msgstr "5"
+
+#: ../../book/index.rst:137
+msgid "7"
+msgstr "7"
+
+#: ../../book/index.rst:139
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -468,7 +497,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:116
+#: ../../book/index.rst:140
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -491,7 +520,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_\\"
 " ।"
 
-#: ../../book/index.rst:117
+#: ../../book/index.rst:141
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -508,11 +537,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:119
+#: ../../book/index.rst:143
 msgid "How to Read This Book"
 msgstr "इस पुस्तक को कैसे पढ़ें"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:146
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -522,7 +551,7 @@ msgstr ""
 " संस्थापकों, विद्यार्थियों, पत्रकारों और नागरिकों) के लिए लिखी है, जो "
 "सत्यापित प्राथमिक साक्ष्यों पर टिकी जीवंत स्पष्टता चाहते हैं:"
 
-#: ../../book/index.rst:124
+#: ../../book/index.rst:148
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -530,7 +559,7 @@ msgstr ""
 ":doc:`announcement` और :doc:`atlas` बीजिंग की घोषणा 48, उसकी दो अलग-अलग "
 "घड़ियों और सभी  **40 पहरेदार तकनीकों**  की परतें खोलते हैं।"
 
-#: ../../book/index.rst:125
+#: ../../book/index.rst:149
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -538,7 +567,7 @@ msgstr ""
 ":doc:`ai` आपको सॉफ़्टवेयर नुस्ख़े और सिलिकॉन हार्डवेयर संरचना (``266504X``, "
 "``266506X``, ``266507X``) दोनों के भीतर ले जाता है।"
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:150
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
@@ -546,7 +575,7 @@ msgstr ""
 ":doc:`open-models` सार्वजनिक प्रकाशन और निजी हस्तांतरण तथा वर्तमान दायित्व "
 "और प्रस्तावित रास्तों का अंतर बताता है।"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:151
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
@@ -554,7 +583,7 @@ msgstr ""
 ":doc:`biomedicine` और :doc:`solar` जीवित जीन प्लेटफ़ॉर्म तथा सौर मशीनों की "
 "पड़ताल करते हैं, जहाँ तकनीकी कौशल भौतिक उपकरणों के भीतर यात्रा करता है।"
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:152
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -568,7 +597,7 @@ msgstr ""
 "rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
 "`GAO26 <https://www.gao.gov/products/b-337935>`_\\ ।"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:153
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -580,7 +609,7 @@ msgstr ""
 "समय-सीमाओं तथा सत्यापित फ़ोन नंबरों, फ़ैक्स, ईमेल और डाक पतों**  की संपूर्ण "
 "निर्देशिका देता है।"
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:154
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -590,7 +619,7 @@ msgstr ""
 "  **2 नवम्बर 2026**  तक सत्यापित सभी  **26 प्राथमिक स्रोतों**  के साथ पुस्तक"
 " का समापन करते हैं।"
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:158
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

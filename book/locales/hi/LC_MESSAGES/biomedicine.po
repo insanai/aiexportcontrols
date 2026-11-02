@@ -47,24 +47,15 @@ msgstr ""
 "**स्मॉल-इंटरफ़ेयरिंग RNA (siRNA)**  प्लेटफ़ॉर्मों का आविष्कार करने लगी हैं, "
 "जो हानिकारक प्रोटीन बनने से पहले ही रोगजनक जीनों को शांत कर देते हैं।"
 
-#: ../../book/biomedicine.rst:15
+#: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"medicine-development platform differs from a particular treatment."
 msgstr ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"कोशिका, DNA, RNA और प्रयोगशाला के उपकरण विषय को ठोस रूप देते हैं। दोबारा "
+"इस्तेमाल होने वाला दवा विकास मंच किसी खास उपचार से अलग है।"
 
-#: ../../book/biomedicine.rst:15
-msgid ""
-"Reusable biological platforms and manufacturing equipment carry different "
-"kinds of knowledge. Their legal categories and exclusions must be read "
-"separately."
-msgstr ""
-"जैविक मंच और निर्माण उपकरण अलग ज्ञान रखते हैं। उनके कानूनी वर्ग·छूट अलग "
-"पढ़ें।"
-
-#: ../../book/biomedicine.rst:21
+#: ../../book/biomedicine.rst:20
 msgid ""
 "The draft distinguishes ownership of a reusable medicine-development "
 "platform from specific drug projects. It proposes limits on covered platform"
@@ -84,7 +75,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/biomedicine.rst:23
+#: ../../book/biomedicine.rst:22
 msgid ""
 "Picture a foundational CGT or siRNA platform as a custom **printing press** "
 "perfected over ten years (delivery vectors, chemical stabilization recipes, "
@@ -98,7 +89,7 @@ msgstr ""
 "चिकित्साएँ छाप सकते हैं। और किसी विशिष्ट क्लिनिकल दवा को उस छापेखाने से छपी"
 "  **एक किताब**  मानिए:"
 
-#: ../../book/biomedicine.rst:25
+#: ../../book/biomedicine.rst:24
 msgid ""
 "**Platform ownership transfer is proposed prohibited (262704J and "
 "262705J).** The draft targets overseas ownership transfers of the specified "
@@ -112,7 +103,7 @@ msgstr ""
 "नहीं बनाया। `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/biomedicine.rst:26
+#: ../../book/biomedicine.rst:25
 msgid ""
 "**Out-licensing, contract manufacturing, and single-drug partnerships stay "
 "open:** Three explicit notes under both entries carve out overseas **out-"
@@ -140,11 +131,11 @@ msgstr ""
 " । केवल ऐसा छद्म \"स्थायी एकमुश्त लाइसेंस\" लक्ष्मण-रेखा पार करता है जो "
 "वास्तव में घरेलू स्वामित्व ही छीन ले।"
 
-#: ../../book/biomedicine.rst:28
+#: ../../book/biomedicine.rst:27
 msgid "Undisclosed Biological Targets and Biosecurity Walls"
 msgstr "अप्रकाशित जैविक लक्ष्य और जैव-सुरक्षा की दीवारें"
 
-#: ../../book/biomedicine.rst:31
+#: ../../book/biomedicine.rst:30
 msgid ""
 "Two **proposed restricted** entries (``262705X`` and ``262706X``) cover "
 "Chinese-owned technology for discovering and validating **wholly new "
@@ -177,7 +168,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_\\"
 " ।"
 
-#: ../../book/biomedicine.rst:33
+#: ../../book/biomedicine.rst:32
 msgid ""
 "The fifth entry (``267302J``, proposed prohibited) is a pure **biosecurity "
 "wall** against artificial genetic modification and directed serial-passage "

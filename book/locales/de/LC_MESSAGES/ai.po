@@ -107,24 +107,13 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/ai.rst:20
+#: ../../book/ai.rst:19 ../../book/ai.rst:24
 msgid ""
-"#import \"figures/diagrams.typ\": ai-hardware-software-stack\n"
-"#ai-hardware-software-stack(lang: \"en\")"
+"Open models depend on chips, memory and computing infrastructure. A "
+"restriction on one part can affect access to the whole system."
 msgstr ""
-"#import \"figures/diagrams.typ\": ai-hardware-software-stack\n"
-"#ai-hardware-software-stack(lang: \"de\")"
-
-#: ../../book/ai.rst:20
-msgid ""
-"The three-layer AI stack showing how China's proposed entries and US EAR "
-"rules separate open public/API access (top) from frontier model cores "
-"(middle) and physical silicon & superclusters (bottom)."
-msgstr ""
-"Der dreischichtige KI-Stapel zeigt, wie Chinas Katalogentwurf und die US-"
-"EAR-Regeln den offenen Öffentlichkeits- und API-Zugang (oben) von "
-"Spitzenmodell-Kernen (Mitte) sowie physischem Silizium und Superclustern "
-"(unten) abgrenzen."
+"Offene Modelle brauchen Chips, Speicher und Infrastruktur. Einschränkung "
+"eines Teils kann den Zugang zum Ganzen beeinflussen."
 
 #: ../../book/ai.rst:26
 msgid "Three Tripwires for a Frontier Model (``266504X``)"

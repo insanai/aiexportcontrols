@@ -1,5 +1,5 @@
 .. meta::
-   :description: Chapter 8: Side-by-side comparison of China and US export controls, plus official approval flowcharts, government departments, statutory timelines, and verified phone, fax, email, and room contacts.
+   :description: Chapter 8: Side-by-side comparison of China and US export controls, plus an illustrated filing guide, government departments, statutory timelines, and verified phone, fax, email, and room contacts.
 
 ===============================================================
 08. Two Border Systems and How to Get Official Approval
@@ -40,69 +40,39 @@ Step-by-Step: How to Register or Apply for Official Approval
 
 Because most writing on export controls stops at ominous warnings, everyday founders, open-source maintainers, university researchers, and equipment buyers are left asking a simple practical question: *"If our release, chip tape-out, or partnership actually falls inside these rules, which government department handles it, what portal do we open, how many working days does approval take, and whom can we call or email?"*
 
-:numref:`fig-flowchart-approval` maps every official step in both countries from start to finish `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_ `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 <https://www.bis.gov/regulations/ear/742>`_ `SNAPR <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_:
+:numref:`fig-flowchart-approval` introduces the documents involved in a filing. The country-specific steps and contacts follow below `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_ `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 <https://www.bis.gov/regulations/ear/742>`_ `SNAPR <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_:
+
+.. figure:: assets/illustrations/filing.jpg
+   :name: fig-flowchart-approval
+   :alt: A researcher presents technical documents for review. The illustration introduces the paperwork, not a complete legal procedure or a promise of approval.
+   :width: 100%
+
+   A researcher presents technical documents for review. The illustration introduces the paperwork, not a complete legal procedure or a promise of approval.
 
 .. graphviz::
    :class: graphviz-adaptive
-   :caption: Official government registration and export-licensing workflows in China (MOFCOM/MOST + Provincial Authorities) and the United States (BIS SNAP-R & STELA).
-   :name: fig-flowchart-approval
+   :name: fig-approval-questions
+   :caption: Current Chinese registration, the proposed Chinese catalogue and US jurisdiction are separate checks. Dashed lines mark the proposed track.
+   :alt: Current Chinese registration, the proposed Chinese catalogue and US jurisdiction are separate checks. Dashed lines mark the proposed track.
 
-   digraph gov_approval {
-     graph [rankdir=TB, bgcolor="transparent", pad="0.24", nodesep="0.34", ranksep="0.46",
-            fontname="Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif"];
-     node [shape=box, style="rounded,filled", fillcolor="#fcfaf5", color="#08716d",
-           fontname="Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif",
-           fontcolor="#172e38", fontsize=9.8, margin="0.16,0.10"];
-     edge [color="#4e616a", fontname="Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif",
-           fontcolor="#4e616a", fontsize=8.8, arrowsize=0.7];
-
-     subgraph cluster_cn {
-       label="CHINA · MOFCOM / MOST & Provincial Licensing Workflow";
-       fontsize=10.5;
-       fontcolor="#ae3d2c";
-       style="rounded";
-       color="#ae3d2c";
-
-       cn0 [class="gd-input", fillcolor="#faeae7", color="#ae3d2c",
-            label=<<B>Active Today (from 16 Oct 2026)</B><BR/><FONT POINT-SIZE="8.5">Log into ecomp.mofcom.gov.cn -&gt; Tech Trade App<BR/>File Attachment 2 Registration (with company seal)</FONT>>];
-       cn_route [class="gd-choice", fillcolor="#fcf3de", color="#a66f10",
-                 label=<<B>Once Final Revised Catalogue Takes Effect</B><BR/><FONT POINT-SIZE="8.5">Which restricted (X) channel applies?</FONT>>];
-       cn_fast [class="gd-output", fillcolor="#e4f3f1", color="#08716d",
-                label=<<B>Footnotes 2 &amp; 3 · Automatic Licensing</B><BR/><FONT POINT-SIZE="8.5">Open-source AI, self-owned cloud, chip tape-out,<BR/>bio out-licensing / relief (&quot;Apply &amp; Go&quot;)</FONT>>];
-       cn_s1 [class="gd-input", fillcolor="#fcfaf5", color="#ae3d2c",
-              label=<<B>Stage 1 · Pre-Negotiation Application</B><BR/><FONT POINT-SIZE="8.5">Provincial Commerce + Provincial S&amp;T review<BR/>Internal review steps within a 30-working-day decision period<BR/>-&gt; Letter of Intent (valid up to 3 years)</FONT>>];
-       cn_s2 [class="gd-output", fillcolor="#e4f3f1", color="#08716d",
-              label=<<B>Stage 2 · Post-Contract License</B><BR/><FONT POINT-SIZE="8.5">Sign contract + submit checklist &amp; party proofs<BR/>Provincial Commerce decides in &le;15 working days<BR/>-&gt; Tech Export License (contract takes effect;<BR/>clears Customs, FX, Banking &amp; Tax)</FONT>>];
-
-       cn0 -> cn_route [style=dashed, label=" Separate future track"];
-       cn_route -> cn_fast [label=" Open / Tape-out"];
-       cn_route -> cn_s1 [label=" Private transfer"];
-       cn_s1 -> cn_s2 [label=" Sign contract"];
+   digraph approval_questions {
+     graph [rankdir=TB, bgcolor="transparent", pad="0.15", nodesep="0.25", ranksep="0.4", fontname="Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif"];
+     node [shape=box, style="rounded,filled", fillcolor="#f6f2e9", color="#8d9b9b", fontname="Lato, Noto Serif CJK SC, Noto Serif CJK JP, Noto Serif CJK KR, Noto Serif Devanagari, sans-serif", fontsize=11, margin="0.18,0.16"];
+     edge [color="#687c7b", arrowsize=0.7];
+     subgraph cluster_current {
+       label="CHINA / CURRENT REGISTRATION"; fontcolor="#ae3d2c"; fontsize=11; color="#d4b6aa"; style=rounded;
+       c1 [label="Covered technology\nand transfer"]; c2 [label="Register before completion\necomp.mofcom.gov.cn",fillcolor="#edf5ef"]; c1 -> c2;
      }
-
+     subgraph cluster_draft {
+       label="CHINA / PROPOSED CATALOGUE"; fontcolor="#956c16"; fontsize=11; color="#d5c7a5"; style="rounded,dashed";
+       d1 [label="Read the entry, exclusions\nand section notes"]; d2 [label="Check the applicable route\nif the final text is adopted",style="rounded,dashed,filled"]; d1 -> d2 [style=dashed];
+     }
      subgraph cluster_us {
-       label="UNITED STATES · Commerce BIS (SNAP-R & STELA) Workflow";
-       fontsize=10.5;
-       fontcolor="#08716d";
-       style="rounded";
-       color="#08716d";
-
-       us1 [class="gd-choice", fillcolor="#fcf3de", color="#a66f10",
-            label=<<B>Step 1 · Public / Open-Source Check</B><BR/><FONT POINT-SIZE="8.5">Unrestricted open code/weights or fundamental research?<BR/>(15 CFR 734.7 / 734.8 / 4E091 notes; check Part 744)</FONT>>];
-       us_free [class="gd-output", fillcolor="#e4f3f1", color="#08716d",
-                label=<<B>OUTSIDE EAR LICENSING</B><BR/><FONT POINT-SIZE="8.5">No BIS export license needed</FONT>>];
-       us2 [class="gd-input", fillcolor="#fcfaf5", color="#08716d",
-            label=<<B>Step 2 · Register CIN on SNAP-R</B><BR/><FONT POINT-SIZE="8.5">https://snapr.bis.gov (free electronic account)</FONT>>];
-       us3 [class="gd-input", fillcolor="#fcfaf5", color="#08716d",
-            label=<<B>Step 3 · CCATS or Export License Filing</B><BR/><FONT POINT-SIZE="8.5">File CCATS classification (3A090 / 4E091) or License<BR/>(China/Macau H200-class 742.6(b)(10): attach US supply,<BR/>KYC &amp; independent US lab test certifications)</FONT>>];
-       us4 [class="gd-output", fillcolor="#e4f3f1", color="#08716d",
-            label=<<B>Step 4 · Interagency Review &amp; STELA</B><BR/><FONT POINT-SIZE="8.5">Track ACN at snapr.bis.gov/public/stela</FONT>>];
-
-       us1 -> us_free [label=" Public"];
-       us1 -> us2 [label=" Controlled chip / private tech"];
-       us2 -> us3 -> us4;
+       label="UNITED STATES / SEPARATE CHECK"; fontcolor="#08716d"; fontsize=11; color="#9dbfba"; style=rounded;
+       u1 [label="Is the item subject\nto the EAR?"]; u2 [label="If covered: classify the item,\ndestination, parties and use"]; u3 [label="Check the permission route\nSNAP-R where required",fillcolor="#edf5ef"]; u1 -> u2 -> u3;
      }
    }
+
 
 China: Government Departments, Statutory Timelines, and Verified Contacts
 =========================================================================

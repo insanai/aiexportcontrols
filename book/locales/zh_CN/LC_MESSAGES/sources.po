@@ -791,13 +791,13 @@ msgstr ""
 
 #: ../../book/sources.rst:173
 msgid ""
-"Original text, editorial work and new line illustrations are licensed under "
-"**CC BY-SA 4.0**. Attribution and sharing adaptations under the same license"
-" are required. Official documents, quoted material, fonts, software and "
-"other third-party materials retain their own copyrights and licenses. See "
-"the repository's LICENSE and NOTICE files for the terms and exclusions."
+"Original text, editorial work and new illustrations are licensed under **CC "
+"BY-SA 4.0**. Attribution and sharing adaptations under the same license are "
+"required. Official documents, quoted material, fonts, software and other "
+"third-party materials retain their own copyrights and licenses. See the "
+"repository's LICENSE and NOTICE files for the terms and exclusions."
 msgstr ""
-"原创文字、编辑工作及新线描插图采用  **CC BY-SA 4.0** "
+"原创文字、编辑工作及新插图插图采用  **CC BY-SA 4.0** "
 "。使用时须署名，改编须沿用同一许可。官方文件、引文、字体、软件和其他第三方材料保留自身版权及许可，范围见仓库LICENSE和NOTICE。"
 
 #: ../../book/sources.rst:175

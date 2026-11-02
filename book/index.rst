@@ -7,13 +7,12 @@ Impact of Export Controls on the Future of Open Source AI
 
 An idea can be shared without using it up. Thomas Jefferson expressed this in an 1813 letter: *"He who lights his taper at mine, receives light without darkening me."* That image captures the promise of open-source AI: one team can learn from another without taking its knowledge away. `JEFFERSON <https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_
 
-.. typst-diagram::
+.. figure:: assets/illustrations/cover.jpg
    :name: fig-cover-commons
-   :caption: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
-   :alt: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
+   :alt: A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   :width: 100%
 
-   #import "figures/artwork.typ": commons
-   #commons()
+   A border barrier holds up computer parts and technical plans while two research teams try to work together.
 
 Open-weight models can give researchers and smaller organizations more control over how they use AI. A clinic, a language project or a university might adapt a public model on its own computers. These are illustrative uses, not documented deployments or proof that a model is clinically safe. Downloadable weights also differ from the fuller requirements of the Open Source AI Definition. `OSI <https://opensource.org/ai/open-source-ai-definition>`_ `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN <https://github.com/QwenLM/Qwen3>`_
 
@@ -26,13 +25,12 @@ Most conversations about open-source AI make a comforting mistake. They imagine 
 
 Open models depend on physical computers. Large training runs can need advanced processors, memory and fast networks; smaller models can run on less demanding equipment. Not every open-model user needs the latest manufacturing process or a cluster of ten thousand cards. Controls on scarce hardware can nevertheless affect which teams can train, inspect and deploy models.
 
-.. typst-diagram::
+.. figure:: assets/illustrations/hardware.jpg
    :name: fig-mind-silicon
-   :caption: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
    :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
+   :width: 100%
 
-   #import "figures/artwork.typ": mind-and-silicon
-   #mind-and-silicon()
+   Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
 
 * **Hardware and design knowledge:** US controls cover specified chips, manufacturing items and some foreign-made items under defined conditions. China proposes controls on specified processor and memory designs, and on certain technologies for clusters with **more than 10,000** accelerator cards. Design knowledge, finished chips and clusters are different objects of control. `US26 <https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 <https://www.bis.gov/regulations/ear/742>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 * **Models and data:** Announcement 48 began temporary registration for covered transfers on **16 October 2026**. Its proposed catalogue includes model core technology meeting any of three tests: training calculation, parameter count or a qualifying global top-10 assessment. These proposed categories are separate from the registration already operating and from the US model-weight rule. `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `US25 <https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_
@@ -52,12 +50,21 @@ Imagine two countries choosing between **Share (S)** and **Wall (W)**. Sharing m
 
    **Assumptions, not measurements.** The scores below are invented teaching values. They express preferences within this example, not dollars, measured innovation or national welfare. The table does not estimate a 70% loss or a fourfold increase in danger.
 
-.. typst-diagram::
-   :caption: Two countries can each prefer a wall while both prefer the outcome of mutual sharing. The scores are assumptions, not measured effects of export controls.
+.. figure:: assets/illustrations/cooperation.jpg
    :name: fig-game-theory
+   :alt: Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+   :width: 100%
+
+   Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+
+.. typst-diagram::
+   :name: fig-game-scores
+   :caption: Assumed scores in the teaching game
+   :alt: Assumed scores in the teaching game
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
+
 
 Reading the Four Outcomes
 --------------------------
@@ -105,12 +112,29 @@ The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall
 
 When we turn from game theory back to the verified legal texts of November 2026, we find something remarkable: despite alarming headlines, regulators in both Beijing and Washington have deliberately left real bridges standing for open-source AI:
 
-.. typst-diagram::
-   :caption: Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar (12), and biomedicine (5), alongside the three footnote fast lanes preserving open-source and humanitarian science.
+.. figure:: assets/illustrations/sectors.jpg
    :name: fig-forty-overview
+   :alt: Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
+   :width: 100%
 
-   #import "figures/diagrams.typ": forty-checkpoints-chart
-   #forty-checkpoints-chart(lang: "en")
+   Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
+
+.. list-table:: The 40 proposed technology points
+   :header-rows: 1
+   :widths: 50 25 25
+
+   * - Area
+     - Proposed prohibited
+     - Proposed restricted
+   * - AI and computing hardware
+     - 6
+     - 17
+   * - Biomedicine
+     - 3
+     - 2
+   * - Solar manufacturing
+     - 5
+     - 7
 
 * **Already public and newly released are different.** The Chinese draft excludes AI technology already public through open source or papers. US rules have their own published-information provisions and model-weight notes. A public paper does not necessarily disclose private weights; a new private derivative needs its own assessment. Neither exclusion settles every other legal question. `CN-A1, note 1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 <https://www.bis.gov/regulations/ear/774>`_
 * **New open-source AI and chip tape-outs get a dedicated fast lane.** Rather than banning open releases of restricted AI, China's Footnote 2 proposes **automatic licensing and facilitation** ("apply and go" in MOFCOM's official explanation) for open-source exports, overseas foundry chip tape-outs (``芯片流片``), and Chinese firms' self-operated overseas compute clouds `CN-A1, note 2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_.

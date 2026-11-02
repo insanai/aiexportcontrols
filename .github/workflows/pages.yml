@@ -2,7 +2,7 @@
 # Guidedog v1.0.0-beta.10 (https://github.com/insanai/guidedog/releases/tag/v1.0.0-beta.10):
 #   - Multilingual landing pages (site/)
 #   - 11-chapter web book in 7 languages (book/)
-#   - 7 typeset A4 PDF books with embedded Typst, CeTZ, Fletcher & Graphviz (books/)
+#   - 7 typeset A4 PDF books with illustrations and native diagrams (books/)
 #   - Verified primary source archives (sources/)
 name: Build and publish the book
 on:

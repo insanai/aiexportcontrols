@@ -15,7 +15,7 @@ smartquotes = false
 source_suffix = [".rst"]
 root_doc = "index"
 
-gettext_additional_targets = ["literal-block"]
+gettext_additional_targets = ["literal-block", "image"]
 gettext_last_translator = "Vikrant Rathore"
 gettext_language_team = "Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore"
 

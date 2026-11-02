@@ -20,13 +20,12 @@ AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS
    `Explore All 40 Checkpoints <read-atlas_>`_
    `Official Approval & Contacts <read-contacts_>`_
 
-.. typst-diagram::
+.. figure:: images/illustrations/cover.jpg
    :name: landing-hero-art
-   :caption: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
-   :alt: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
+   :alt: A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   :width: 100%
 
-   #import "figures/artwork.typ": commons
-   #commons()
+   A border barrier holds up computer parts and technical plans while two research teams try to work together.
 
 From an Open Republic of Ideas to a Guarded Horizon
 ---------------------------------------------------
@@ -37,13 +36,12 @@ Open AI also needs physical computers. Large training runs can require advanced 
 
 .. container:: landing-duet
 
-   .. typst-diagram::
+   .. figure:: images/illustrations/hardware.jpg
       :name: landing-stack-art
-      :caption: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
       :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
+      :width: 100%
 
-      #import "figures/artwork.typ": mind-and-silicon
-      #mind-and-silicon()
+      Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
 
    .. container:: landing-duet-copy
 
@@ -55,11 +53,21 @@ The Fortress Trap: How Both Sides Can Lose
 
 Two countries can each choose a broad wall because they fear giving the other an advantage. In the book's illustrative game, both then receive 5, although both would prefer the 17 available through mutual sharing. This is a possible cooperation failure, not proof that every export control harms every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
 
+.. figure:: images/illustrations/cooperation.jpg
+   :name: landing-game-art
+   :alt: Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+   :width: 100%
+
+   Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+
 .. typst-diagram::
-   :caption: The fortress trap is a teaching game with assumed scores. It does not measure a percentage loss of innovation or a multiplier of real-world risk.
+   :name: landing-game-scores
+   :caption: Assumed scores in the teaching game
+   :alt: Assumed scores in the teaching game
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
+
 
 The book explains why the result follows from its assumptions, what could reverse it, and how a repeated relationship can make cooperation worthwhile. It also separates the possible benefits of public auditing from the risks of wider access. Our case for precise controls and workable open-research routes does not depend on invented loss estimates. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
 

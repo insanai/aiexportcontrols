@@ -45,28 +45,19 @@ msgstr ""
 "<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
 "<https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/open-models.rst:15
+#: ../../book/open-models.rst:13 ../../book/open-models.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
+"Receiving files and knowledge to work independently differs from using a "
+"service that keeps its underlying model elsewhere."
 msgstr ""
-"#import \"figures/artwork.typ\": release-gates\n"
-"#release-gates()"
+"फाइलें और ज्ञान लेकर स्वतंत्र काम करना, उस सेवा को इस्तेमाल करने से अलग है "
+"जिसका मूल मॉडल कहीं और रहता है।"
 
-#: ../../book/open-models.rst:15
-msgid ""
-"A release can follow different paths depending on the artifact, jurisdiction"
-" and transfer. Existing public files and first releases need different "
-"analysis."
-msgstr ""
-"फाइल, कानून का क्षेत्र और हस्तांतरण तय करते हैं कि रास्ता क्या होगा। पहले से"
-" खुली फाइल और पहली रिलीज अलग हैं।"
-
-#: ../../book/open-models.rst:21
+#: ../../book/open-models.rst:20
 msgid "Start with the Actual Artifact"
 msgstr "असली फाइल से शुरू करें"
 
-#: ../../book/open-models.rst:24
+#: ../../book/open-models.rst:23
 msgid ""
 "A public paper, downloadable weights, private training code and a later "
 "fine-tune are different artifacts. The Open Source AI Definition asks for "
@@ -80,11 +71,11 @@ msgstr ""
 "केवल कुछ भाग दे सकता है। कॉपीराइट नाम निर्यात स्थिति नहीं तय करता। `OSI "
 "<https://opensource.org/ai/open-source-ai-definition>`_"
 
-#: ../../book/open-models.rst:26
+#: ../../book/open-models.rst:25
 msgid "China: Registration Now, Catalogue Proposal Separately"
 msgstr "चीन: वर्तमान पंजीकरण और सूची प्रस्ताव अलग"
 
-#: ../../book/open-models.rst:29
+#: ../../book/open-models.rst:28
 msgid ""
 "Announcement 48 requires temporary registration before covered transfers, "
 "including unfinished exports. It identifies ownership transfers, overseas "
@@ -104,7 +95,7 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:31
+#: ../../book/open-models.rst:30
 msgid ""
 "We read the Chinese draft with its section-wide notes, rather than treating "
 "every release as a compulsory sequence of four gates:"
@@ -112,7 +103,7 @@ msgstr ""
 "हर रिलीज के चार अनिवार्य दरवाजे मानने की जगह पूरी श्रेणी के नोट के साथ मसौदा"
 " पढ़ें:"
 
-#: ../../book/open-models.rst:33
+#: ../../book/open-models.rst:32
 msgid ""
 "**Already-public AI technology:** Note 1 excludes technology already public "
 "through open source or papers. Identify exactly what was published. A paper "
@@ -125,7 +116,7 @@ msgstr ""
 "को हर छूट अपने आप नहीं मिलती। `CN-A1, note 1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:34
+#: ../../book/open-models.rst:33
 msgid ""
 "**Unpublished data-sensitive technology:** The draft places specified core-"
 "data models in a proposed prohibited category and important-data models in a"
@@ -139,7 +130,7 @@ msgstr ""
 "ज्यादा शर्तें हैं। सही तथ्य·व्याख्या चाहिए। `CN-A1, 266501J and 266504X "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:35
+#: ../../book/open-models.rst:34
 msgid ""
 "**Other unpublished controlled technology:** Check alternative model "
 "thresholds and any agent, chip-design or cluster technology being "
@@ -152,7 +143,7 @@ msgstr ""
 "`CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/open-models.rst:36
+#: ../../book/open-models.rst:35
 msgid ""
 "**Facilitated routes:** Note 2 proposes automatic licensing or similar "
 "facilitation for specified restricted AI exports, including open-source "
@@ -170,28 +161,50 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": release-reading-map\n"
-"#release-reading-map(lang: \"hi\")"
+#: ../../book/open-models.rst:37
+msgid "Three separate questions before a transfer"
+msgstr "हस्तांतरण से पहले तीन अलग सवाल"
 
-#: ../../book/open-models.rst:39
-msgid ""
-"Keep three questions separate: what is already operating, what the Chinese "
-"draft proposes, and what the US rules cover. These are reading questions, "
-"not a transaction clearance."
-msgstr ""
-"वर्तमान पंजीकरण, चीन का प्रस्ताव और अमेरिकी नियम तीन अलग सवाल हैं। यह समझने "
-"का तरीका है, सौदे की मंजूरी नहीं।"
+#: ../../book/open-models.rst:42
+msgid "Question"
+msgstr "सवाल"
+
+#: ../../book/open-models.rst:43
+msgid "What we check"
+msgstr "हम क्या जांचते हैं"
+
+#: ../../book/open-models.rst:44
+msgid "Current Chinese registration"
+msgstr "चीन का वर्तमान पंजीकरण"
 
 #: ../../book/open-models.rst:45
+msgid "The covered technology and transfer, including unfinished exports."
+msgstr "संबंधित तकनीक और हस्तांतरण, जिनमें अधूरे निर्यात भी हैं।"
+
+#: ../../book/open-models.rst:46
+msgid "Proposed Chinese catalogue"
+msgstr "चीन की प्रस्तावित सूची"
+
+#: ../../book/open-models.rst:47
+msgid ""
+"The precise entry, its notes, exclusions and proposed facilitated routes."
+msgstr "सटीक प्रविष्टि, नोट, छूट और प्रस्तावित आसान रास्ते।"
+
+#: ../../book/open-models.rst:48
+msgid "Separate US rules"
+msgstr "अलग अमेरिकी नियम"
+
+#: ../../book/open-models.rst:49
+msgid ""
+"Whether the artifact is subject to the EAR, followed by its classification "
+"and applicable conditions."
+msgstr "वस्तु EAR के अधीन है या नहीं, फिर उसका वर्ग और लागू शर्तें।"
+
+#: ../../book/open-models.rst:51
 msgid "United States: A Separate Jurisdiction Test"
 msgstr "अमेरिका: अलग अधिकार क्षेत्र जांच"
 
-#: ../../book/open-models.rst:48
+#: ../../book/open-models.rst:54
 msgid ""
 "First establish whether the artifact is subject to the EAR. Published-"
 "information provisions and the 4E091 notes can exclude qualifying public "
@@ -210,7 +223,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/open-models.rst:50
+#: ../../book/open-models.rst:56
 msgid ""
 "MOFCOM's answer on API, app, web, SaaS and lightweight local deployment "
 "concerns restricted large models under the proposed measures. It should not "
@@ -224,11 +237,11 @@ msgstr ""
 "बनाते। निजी भार देना दूरस्थ सेवा से अलग है। `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/open-models.rst:52
+#: ../../book/open-models.rst:58
 msgid "Possible Effects on Open Models"
 msgstr "खुले मॉडलों पर संभावित असर"
 
-#: ../../book/open-models.rst:55
+#: ../../book/open-models.rst:61
 msgid ""
 "**Continued public releases** are consistent with the draft's explicit "
 "facilitation. **More documentation or delay** is a possible result of "
@@ -253,7 +266,7 @@ msgstr ""
 " `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
 "model-report.pdf>`_"
 
-#: ../../book/open-models.rst:57
+#: ../../book/open-models.rst:63
 msgid ""
 "We should not claim that chip restrictions caused a particular model's "
 "efficiency improvements without evidence isolating that cause. Smaller "
@@ -265,11 +278,11 @@ msgstr ""
 " पैरामीटर छूट की गारंटी नहीं। स्थानीय उपयोग दूरस्थ निर्भरता घटा सकता है, "
 "गोपनीयता·सुरक्षा·चिकित्सकीय भरोसा गारंटी नहीं।"
 
-#: ../../book/open-models.rst:59
+#: ../../book/open-models.rst:65
 msgid "A Practical Release Record"
 msgstr "उपयोगी रिलीज रिकॉर्ड"
 
-#: ../../book/open-models.rst:62
+#: ../../book/open-models.rst:68
 msgid ""
 "Our suggested record identifies the model version, file hashes, license, "
 "public and private artifacts, data categories, measured criteria, recipient,"

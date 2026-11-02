@@ -48,24 +48,16 @@ msgstr ""
 "interferierende RNA (siRNA)**  aufgestiegen, die krankheitsauslösende Gene "
 "stummschalten, noch bevor schädliche Proteine entstehen."
 
-#: ../../book/biomedicine.rst:15
+#: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"medicine-development platform differs from a particular treatment."
 msgstr ""
-"#import \"figures/artwork.typ\": living-code\n"
-"#living-code()"
+"Zelle, DNA, RNA und Laborgeräte machen das Thema greifbar. Eine "
+"wiederverwendbare Arzneientwicklungsplattform unterscheidet sich von einer "
+"einzelnen Behandlung."
 
-#: ../../book/biomedicine.rst:15
-msgid ""
-"Reusable biological platforms and manufacturing equipment carry different "
-"kinds of knowledge. Their legal categories and exclusions must be read "
-"separately."
-msgstr ""
-"Biologische Plattformen und Fertigungsgeräte tragen unterschiedliches "
-"Wissen. Kategorien und Ausnahmen sind getrennt zu lesen."
-
-#: ../../book/biomedicine.rst:21
+#: ../../book/biomedicine.rst:20
 msgid ""
 "The draft distinguishes ownership of a reusable medicine-development "
 "platform from specific drug projects. It proposes limits on covered platform"
@@ -86,7 +78,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/biomedicine.rst:23
+#: ../../book/biomedicine.rst:22
 msgid ""
 "Picture a foundational CGT or siRNA platform as a custom **printing press** "
 "perfected over ten years (delivery vectors, chemical stabilization recipes, "
@@ -101,7 +93,7 @@ msgstr ""
 "einzelnen klinischen Wirkstoffkandidaten als  **ein einzelnes Buch**  aus "
 "dieser Presse vor:"
 
-#: ../../book/biomedicine.rst:25
+#: ../../book/biomedicine.rst:24
 msgid ""
 "**Platform ownership transfer is proposed prohibited (262704J and "
 "262705J).** The draft targets overseas ownership transfers of the specified "
@@ -116,7 +108,7 @@ msgstr ""
 "eingeführtes Verbot. `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/biomedicine.rst:26
+#: ../../book/biomedicine.rst:25
 msgid ""
 "**Out-licensing, contract manufacturing, and single-drug partnerships stay "
 "open:** Three explicit notes under both entries carve out overseas **out-"
@@ -146,11 +138,11 @@ msgstr ""
 " Erst eine vorgeschobene „ewige Aufkauflizenz“, die das inländische Eigentum"
 " der Sache nach aushöhlt, überschreitet die rote Linie."
 
-#: ../../book/biomedicine.rst:28
+#: ../../book/biomedicine.rst:27
 msgid "Undisclosed Biological Targets and Biosecurity Walls"
 msgstr "Unveröffentlichte biologische Zielstrukturen und Biosicherheitsmauern"
 
-#: ../../book/biomedicine.rst:31
+#: ../../book/biomedicine.rst:30
 msgid ""
 "Two **proposed restricted** entries (``262705X`` and ``262706X``) cover "
 "Chinese-owned technology for discovering and validating **wholly new "
@@ -184,7 +176,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/biomedicine.rst:33
+#: ../../book/biomedicine.rst:32
 msgid ""
 "The fifth entry (``267302J``, proposed prohibited) is a pure **biosecurity "
 "wall** against artificial genetic modification and directed serial-passage "

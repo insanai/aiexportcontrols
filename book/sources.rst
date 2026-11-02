@@ -170,6 +170,6 @@ Credits and Reuse
 
 Written by **Vikrant Rathore**, with assistance from **Jennifer Yuan, Vicky Ni, Ronak Rathore and Kanak Rathore**.
 
-Original text, editorial work and new line illustrations are licensed under **CC BY-SA 4.0**. Attribution and sharing adaptations under the same license are required. Official documents, quoted material, fonts, software and other third-party materials retain their own copyrights and licenses. See the repository's LICENSE and NOTICE files for the terms and exclusions.
+Original text, editorial work and new illustrations are licensed under **CC BY-SA 4.0**. Attribution and sharing adaptations under the same license are required. Official documents, quoted material, fonts, software and other third-party materials retain their own copyrights and licenses. See the repository's LICENSE and NOTICE files for the terms and exclusions.
 
 All seven language editions are editorial translations. They have not received independent professional legal or native-language review. Original legal texts prevail. Examples and game scores must not be treated as official classifications or empirical forecasts.

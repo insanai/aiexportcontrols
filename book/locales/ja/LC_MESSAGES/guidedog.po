@@ -141,10 +141,9 @@ msgid "Next"
 msgstr "次の章"
 
 msgid ""
-"Primary sources verified 2 November 2026. Built natively with Guidedog, "
-"Typst, CeTZ, Fletcher & Graphviz."
-msgstr ""
-"2026年11月2日時点で一次資料を検証済み。Guidedog、Typst、CeTZ、Fletcher、Graphvizによりネイティブ組版。"
+"Primary sources verified 2 November 2026. Built natively with GuideDog and "
+"Typst."
+msgstr "一次資料の確認は2026年11月2日。GuideDogとTypstで構築しました。"
 
 msgid "Download PDF Book"
 msgstr "PDFブックを入手"

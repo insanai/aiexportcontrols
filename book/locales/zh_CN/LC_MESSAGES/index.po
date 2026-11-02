@@ -37,22 +37,13 @@ msgstr ""
 "`JEFFERSON "
 "<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
 
-#: ../../book/index.rst:12
+#: ../../book/index.rst:10 ../../book/index.rst:15
 msgid ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
-msgstr ""
-"#import \"figures/artwork.typ\": commons\n"
-"#commons()"
+"A border barrier holds up computer parts and technical plans while two "
+"research teams try to work together."
+msgstr "两支研究团队试图合作，边境障碍却阻滞了计算机部件和技术图纸的流动。"
 
-#: ../../book/index.rst:12
-msgid ""
-"A shared path crosses a boundary while another is interrupted. The drawing "
-"represents the distinction between cooperation and broad restriction; it is "
-"not a map of a legal procedure."
-msgstr "一条共享路径跨过边界，另一条被中断。画面表达合作与广泛限制的区别，不是法律程序图。"
-
-#: ../../book/index.rst:18
+#: ../../book/index.rst:17
 msgid ""
 "Open-weight models can give researchers and smaller organizations more "
 "control over how they use AI. A clinic, a language project or a university "
@@ -68,17 +59,17 @@ msgstr ""
 "<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
 "<https://github.com/QwenLM/Qwen3>`_"
 
-#: ../../book/index.rst:20
+#: ../../book/index.rst:19
 msgid ""
 "Then the walls began to rise: not only in the sky of software, but deep "
 "underground in the bedrock of silicon."
 msgstr "随后，高墙开始拔地而起：不仅横亘在软件的苍穹之上，更深扎进地底硅基的岩床之中。"
 
-#: ../../book/index.rst:22
+#: ../../book/index.rst:21
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
 msgstr "不止于软件与权重：托起开放心智的硬件底座"
 
-#: ../../book/index.rst:25
+#: ../../book/index.rst:24
 msgid ""
 "Most conversations about open-source AI make a comforting mistake. They "
 "imagine an AI model as pure, weightless poetry: a file of code and numbers "
@@ -88,7 +79,7 @@ msgstr ""
 "绝大多数关于开源人工智能的讨论，都怀着一种令人宽慰的错觉。人们习惯把人工智能模型想象成纯粹而失重的诗篇：仿佛只要有人在 GitHub 上挂一份 MIT "
 "或 Apache 2.0 许可证，那一串代码与数字便能永远自由。"
 
-#: ../../book/index.rst:27
+#: ../../book/index.rst:26
 msgid ""
 "Open models depend on physical computers. Large training runs can need "
 "advanced processors, memory and fast networks; smaller models can run on "
@@ -99,21 +90,13 @@ msgid ""
 msgstr ""
 "模型依赖实体计算机。大型训练可能需要先进处理器、存储和网络，小模型可用较普通设备。不是所有使用者都需最新制程或万卡集群，但稀缺硬件仍可能影响谁能训练、检查和部署。"
 
-#: ../../book/index.rst:31
-msgid ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-msgstr ""
-"#import \"figures/artwork.typ\": mind-and-silicon\n"
-"#mind-and-silicon()"
-
-#: ../../book/index.rst:31
+#: ../../book/index.rst:28 ../../book/index.rst:33
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
 msgstr "开放模型依赖芯片、存储与算力设施。限制一部分可能影响整体可用性。"
 
-#: ../../book/index.rst:37
+#: ../../book/index.rst:35
 msgid ""
 "**Hardware and design knowledge:** US controls cover specified chips, "
 "manufacturing items and some foreign-made items under defined conditions. "
@@ -133,7 +116,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:38
+#: ../../book/index.rst:36
 msgid ""
 "**Models and data:** Announcement 48 began temporary registration for "
 "covered transfers on **16 October 2026**. Its proposed catalogue includes "
@@ -157,7 +140,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
 "`GAO26 <https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/index.rst:42
+#: ../../book/index.rst:40
 msgid ""
 "Even if software licenses remain free on paper, open-source AI cannot thrive"
 " in a vacuum: if export controls ration the chips needed to train open "
@@ -167,11 +150,11 @@ msgid ""
 msgstr ""
 "哪怕软件许可证在纸面上依旧自由，开源人工智能也绝无可能在真空中繁茂生长：一旦出口管制配给甚至卡住训练开源模型所需的算力芯片、锁死开放芯片架构蓝图，或是让医院与大学再也买不起本地部署硬件，全人类就将在不知不觉间被推回老路：从真正拥有心智工具，退化为按量租用科技巨头的云端计费窗口。"
 
-#: ../../book/index.rst:44
+#: ../../book/index.rst:42
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "堡垒陷阱：双方如何一起受损"
 
-#: ../../book/index.rst:47
+#: ../../book/index.rst:45
 msgid ""
 "The central argument of this book is that broad restrictions on shared "
 "knowledge can leave both countries worse off. We can show one way this "
@@ -179,7 +162,7 @@ msgid ""
 "this effect merely by choosing numbers for a table."
 msgstr "本书的核心论点是广泛限制共享知识可能使双方更差。简单博弈展示一种机制，但选择一组数字不能证明所有管制都有同样效果。"
 
-#: ../../book/index.rst:49
+#: ../../book/index.rst:47
 msgid ""
 "Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
 "Sharing means allowing ordinary research and open-model cooperation; a wall "
@@ -190,7 +173,7 @@ msgstr ""
 "两国选择  **共享（S）**  或  **筑墙（W）** "
 "。共享代表普通研究合作，筑墙代表广泛限制。这简化了政策，最初没有计入精准管制、安全收益、第三国或不平等算力。"
 
-#: ../../book/index.rst:53
+#: ../../book/index.rst:51
 msgid ""
 "**Assumptions, not measurements.** The scores below are invented teaching "
 "values. They express preferences within this example, not dollars, measured "
@@ -198,7 +181,18 @@ msgid ""
 "fourfold increase in danger."
 msgstr " **假设，不是测量。**  分数是虚构教学值，代表偏好而非金钱、实测创新或国家福利。表格没有估计70%损失或四倍危险。"
 
-#: ../../book/index.rst:56
+#: ../../book/index.rst:53 ../../book/index.rst:58
+msgid ""
+"Two teams finish a computer by sharing parts and knowledge, then struggle "
+"when a wall separates them. This illustrates the assumed game, not a "
+"measured outcome."
+msgstr "两队共享部件和知识时能完成计算机，被墙隔开后却难以完成。这是书中假设博弈的示意，不是实测结果。"
+
+#: ../../book/index.rst:62
+msgid "Assumed scores in the teaching game"
+msgstr "教学博弈中的假设得分"
+
+#: ../../book/index.rst:62
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -206,41 +200,34 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"zh_CN\")"
 
-#: ../../book/index.rst:56
-msgid ""
-"Two countries can each prefer a wall while both prefer the outcome of mutual"
-" sharing. The scores are assumptions, not measured effects of export "
-"controls."
-msgstr "每方都可能更愿筑墙，但双方都更喜欢共同共享的结果。分数是假设，不是实测管制效果。"
-
-#: ../../book/index.rst:62
+#: ../../book/index.rst:69
 msgid "Reading the Four Outcomes"
 msgstr "读懂四种结果"
 
-#: ../../book/index.rst:65
+#: ../../book/index.rst:72
 msgid ""
 "**Both share:** A gets 17 and B gets 17. In this example, both value the "
 "benefits of exchange."
 msgstr " **双方共享：**  A得17、B得17。例中假定双方重视交流。"
 
-#: ../../book/index.rst:66
+#: ../../book/index.rst:73
 msgid ""
 "**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
 "temporary advantage while still using A's public work."
 msgstr " **A共享、B限制：**  A得3、B得20。假设B仍使用A公开工作并获得短暂优势。"
 
-#: ../../book/index.rst:67
+#: ../../book/index.rst:74
 msgid ""
 "**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
 msgstr " **A限制、B共享：**  A得20、B得3，是镜像情形。"
 
-#: ../../book/index.rst:68
+#: ../../book/index.rst:75
 msgid ""
 "**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
 "duplicated effort outweigh the security benefits of these broad walls."
 msgstr " **双方限制：**  各得5。假设合作损失与重复工作超过这些广泛壁垒的安全收益。"
 
-#: ../../book/index.rst:70
+#: ../../book/index.rst:77
 msgid ""
 "If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
 "the same choices. A wall is therefore each country's best response whatever "
@@ -255,7 +242,7 @@ msgstr ""
 "，任何一方单独改变都不能提高得分。双方却都更想要17而非5，这就是  **囚徒困境** 。共享在此是帕累托有效，不意味着每方取得最高个人分数。 "
 "`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:72
+#: ../../book/index.rst:79
 msgid ""
 "The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
 "particular numbers. It identifies a possible strategic trap. It does not "
@@ -263,11 +250,11 @@ msgid ""
 "that an outcome outside this small table is impossible."
 msgstr "结论依赖  **20 > 17 > 5 > 3**  的排序而非具体数字。它指出可能的战略陷阱，不测量现实成本，也不排除表外结果。"
 
-#: ../../book/index.rst:74
+#: ../../book/index.rst:81
 msgid "What Could Change the Result?"
 msgstr "什么可能改变结果？"
 
-#: ../../book/index.rst:77
+#: ../../book/index.rst:84
 msgid ""
 "A control that prevents a serious misuse could provide security benefits "
 "large enough to change the ranking. A chip bottleneck, different national "
@@ -282,7 +269,7 @@ msgstr ""
 " `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
 "model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:79
+#: ../../book/index.rst:86
 msgid ""
 "Countries also interact repeatedly. In this simplified game, suppose "
 "cooperation continues while both share, but a deviation earns 20 once and is"
@@ -293,7 +280,7 @@ msgstr ""
 "国家会反复互动。例中双方共享就继续合作，一次偏离可得20，此后永远得5。:math:`\\delta` "
 "表示下一轮相对当下的价值。合作至少同样有利的条件是："
 
-#: ../../book/index.rst:81
+#: ../../book/index.rst:88
 msgid ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
@@ -301,7 +288,7 @@ msgstr ""
 "\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
 "\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
 
-#: ../../book/index.rst:86
+#: ../../book/index.rst:93
 msgid ""
 "This is a calculation inside the assumed game, not a diplomatic forecast. It"
 " assumes an indefinite relationship, observable choices and a credible "
@@ -313,11 +300,11 @@ msgstr ""
 "这是假设博弈内的计算，不是外交预测。它假定无限期关系、可观察选择和可信回应；错误、隐藏行动或已知最后一轮可能破坏策略。关键在如何使持续合作可信。 "
 "`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:88
+#: ../../book/index.rst:95
 msgid "Why More Review Can Help, Without Guaranteeing Safety"
 msgstr "更多审查可能有益，但不保证安全"
 
-#: ../../book/index.rst:91
+#: ../../book/index.rst:98
 msgid ""
 "Open access can make independent testing and repair easier. A simple "
 "probability example explains one possible benefit. If a flaw exists with "
@@ -326,11 +313,11 @@ msgid ""
 msgstr ""
 "开放可方便独立测试与修复。若缺陷存在概率为 :math:`p_0`，每个独立团队发现概率为 :math:`q`，共有 :math:`n` 个团队，则："
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:100
 msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
 
-#: ../../book/index.rst:97
+#: ../../book/index.rst:104
 msgid ""
 "For a flaw known to exist and an assumed detection chance of one half, one "
 "team misses it with probability 50%, four independent teams with 6.25%, and "
@@ -341,7 +328,7 @@ msgid ""
 msgstr ""
 "已知存在缺陷且每队发现概率假定一半时，1队漏检50%，4队6.25%，10队约0.098%。这是条件计算。现实团队可能盲点相同、资源不足，或发现后未修复。漏检概率不是总体网络、生物或社会风险。"
 
-#: ../../book/index.rst:99
+#: ../../book/index.rst:106
 msgid ""
 "Open weights can also help harmful actors modify a system or remove "
 "safeguards. NTIA's 2024 report considered both benefits and risks, "
@@ -356,7 +343,7 @@ msgstr ""
 " `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
 "model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:101
+#: ../../book/index.rst:108
 msgid ""
 "Our recommendation is to make controls precise, assess their security "
 "benefit against their cost to cooperation, and protect workable routes for "
@@ -364,11 +351,11 @@ msgid ""
 "a theorem that every restriction harms everyone."
 msgstr "我们主张精准管制，比较安全收益与合作成本，并保护合法开放研究的可行路径。这是基于证据的观点，不是所有限制伤害所有人的定理。"
 
-#: ../../book/index.rst:103
+#: ../../book/index.rst:110
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr "本书的核心实证发现：一扇微启的通道，而非封死的高墙"
 
-#: ../../book/index.rst:106
+#: ../../book/index.rst:113
 msgid ""
 "When we turn from game theory back to the verified legal texts of November "
 "2026, we find something remarkable: despite alarming headlines, regulators "
@@ -378,23 +365,65 @@ msgstr ""
 "当我们从数理博弈论回到截至 2026 年 11 "
 "月经逐字核验的官方文本时，一个值得深思的事实浮现出来：尽管舆论场上的标题惊心动魄，北京与华盛顿的立法者却都不约而同地为开源人工智能特意留出了真实的通行桥梁："
 
-#: ../../book/index.rst:109
+#: ../../book/index.rst:115 ../../book/index.rst:120
 msgid ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
-"#forty-checkpoints-chart(lang: \"zh_CN\")"
+"Computing, biomedicine and solar manufacturing, shown through a processor, a"
+" cell and the layers of a solar panel."
+msgstr "处理器、细胞和太阳能板的分层结构，分别展示计算、生物医药和光伏制造。"
 
-#: ../../book/index.rst:109
-msgid ""
-"Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar "
-"(12), and biomedicine (5), alongside the three footnote fast lanes "
-"preserving open-source and humanitarian science."
-msgstr ""
-"第48号公告附件1横跨人工智能与硬件（23项）、光伏制造（12项）和生物医药（5项）的40项拟议管制点，以及三条守护开源协作与人道医学的注释快车道。"
+#: ../../book/index.rst:122
+msgid "The 40 proposed technology points"
+msgstr "拟新增的40项技术"
 
-#: ../../book/index.rst:115
+#: ../../book/index.rst:126
+msgid "Area"
+msgstr "领域"
+
+#: ../../book/index.rst:127
+msgid "Proposed prohibited"
+msgstr "拟禁止"
+
+#: ../../book/index.rst:128
+msgid "Proposed restricted"
+msgstr "拟限制"
+
+#: ../../book/index.rst:129
+msgid "AI and computing hardware"
+msgstr "AI及计算硬件"
+
+#: ../../book/index.rst:130
+msgid "6"
+msgstr "6"
+
+#: ../../book/index.rst:131
+msgid "17"
+msgstr "17"
+
+#: ../../book/index.rst:132
+msgid "Biomedicine"
+msgstr "生物医药"
+
+#: ../../book/index.rst:133
+msgid "3"
+msgstr "3"
+
+#: ../../book/index.rst:134
+msgid "2"
+msgstr "2"
+
+#: ../../book/index.rst:135
+msgid "Solar manufacturing"
+msgstr "光伏制造"
+
+#: ../../book/index.rst:136
+msgid "5"
+msgstr "5"
+
+#: ../../book/index.rst:137
+msgid "7"
+msgstr "7"
+
+#: ../../book/index.rst:139
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -412,7 +441,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:116
+#: ../../book/index.rst:140
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -432,7 +461,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " 。"
 
-#: ../../book/index.rst:117
+#: ../../book/index.rst:141
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -448,11 +477,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:119
+#: ../../book/index.rst:143
 msgid "How to Read This Book"
 msgstr "如何阅读本书"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:146
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -460,7 +489,7 @@ msgid ""
 msgstr ""
 "我们为每一位怀抱好奇心的普通读者写下此书（无论你是工程师、科研人员、临床医生、创业者、青年学子、记者还是关心未来的公民），只要你渴望在严谨的一手证据之上读懂清晰生动的真相，都能按图索骥："
 
-#: ../../book/index.rst:124
+#: ../../book/index.rst:148
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -468,7 +497,7 @@ msgstr ""
 ":doc:`announcement` 与 :doc:`atlas` 为您拆解北京第48号公告并行跳动的两套时钟，以及全部  **40 "
 "项受控技术指标**  的通俗地图。"
 
-#: ../../book/index.rst:125
+#: ../../book/index.rst:149
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -476,20 +505,20 @@ msgstr ""
 ":doc:`ai` 带您深入大模型软件配方与硅基芯片、存储及万卡集群底座（ ``266504X`` 、 ``266506X`` 、 "
 "``266507X`` ）。"
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:150
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
 msgstr ":doc:`open-models` 区分公开发布与私有转移，并把当前义务与提议路径分开。"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:151
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
 msgstr ""
 ":doc:`biomedicine` 与 :doc:`solar` 探访鲜活的基因制药平台与光伏制造车间，看核心工艺如何寄身于物理装备之中远渡重洋。"
 
-#: ../../book/index.rst:128
+#: ../../book/index.rst:152
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -502,7 +531,7 @@ msgstr ""
 "commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-"
 "rule-strengthens>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_ 。"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:153
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -512,7 +541,7 @@ msgstr ""
 ":doc:`comparison` 将中美两套管制体系并置对照，并附上办理官方审批所需的  "
 "**主管部门、在线申报平台、法定工作日时限，以及逐一核实的电话、传真、邮箱与办公地址名录**  。"
 
-#: ../../book/index.rst:130
+#: ../../book/index.rst:154
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -521,7 +550,7 @@ msgstr ""
 ":doc:`questions` 与 :doc:`sources` 以六个鲜活日常案例、一份平实易懂的术语表，以及截至  **2026 年 11 月 2"
 " 日**  核验无误的全部  **26 份一手官方文献**  收束全书。"
 
-#: ../../book/index.rst:134
+#: ../../book/index.rst:158
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

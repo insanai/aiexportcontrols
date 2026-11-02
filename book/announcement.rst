@@ -12,12 +12,21 @@ Picture a city council announcing on Friday afternoon that it plans to lower the
 
 That is almost literally how **Announcement No. 48 of 2026** works. Issued jointly on **16 October 2026** by China's Ministry of Commerce (MOFCOM, led by its Bureau of Industry, Security, Import and Export Control) and the Ministry of Science and Technology (MOST) under China's *Foreign Trade Law* and *Regulations on the Administration of Technology Import and Export*, the document sets two separate clocks ticking at once `CN48, sections I and III <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:
 
-.. typst-diagram::
-   :caption: Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
+.. figure:: assets/illustrations/clocks.jpg
    :name: fig-two-clocks
+   :alt: Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
+   :width: 100%
+
+   Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
+
+.. typst-diagram::
+   :name: fig-two-clocks-data
+   :caption: Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
+   :alt: Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
 
    #import "figures/diagrams.typ": two-clocks-timeline
    #two-clocks-timeline(lang: "en")
+
 
 1. **The Consultation Clock (16 October to 15 November 2026):** Beijing proposes adding **40 technology points** (14 prohibited from export and 26 restricted) across artificial intelligence and chips (23), biomedicine (5), and solar energy (12) to the *Catalogue of Technologies Prohibited or Restricted from Export*. Until the public comment window closes and a final revised catalogue is formally promulgated, those new prohibitions and licensing rules remain **proposals, not final bans** `CN48, sections I and II <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_.
 2. **The Registration Clock (Running Right Now):** From the moment Announcement 48 went live on 16 October 2026 until the day the final revised catalogue eventually takes effect (a date Beijing has intentionally left unfixed), anyone exporting a technology listed in Attachment 1 must complete **pre-export information registration** online through MOFCOM's Unified Business System Platform at ``https://ecomp.mofcom.gov.cn`` `CN48, section III(1) <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_.

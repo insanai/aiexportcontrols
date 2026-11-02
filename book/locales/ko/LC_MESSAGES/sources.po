@@ -800,13 +800,13 @@ msgstr ""
 
 #: ../../book/sources.rst:173
 msgid ""
-"Original text, editorial work and new line illustrations are licensed under "
-"**CC BY-SA 4.0**. Attribution and sharing adaptations under the same license"
-" are required. Official documents, quoted material, fonts, software and "
-"other third-party materials retain their own copyrights and licenses. See "
-"the repository's LICENSE and NOTICE files for the terms and exclusions."
+"Original text, editorial work and new illustrations are licensed under **CC "
+"BY-SA 4.0**. Attribution and sharing adaptations under the same license are "
+"required. Official documents, quoted material, fonts, software and other "
+"third-party materials retain their own copyrights and licenses. See the "
+"repository's LICENSE and NOTICE files for the terms and exclusions."
 msgstr ""
-"원본 글·편집·새 선화는  **CC BY-SA 4.0** 입니다. 출처 표시와 같은 조건의 2차 공유가 필요합니다. 공식 "
+"원본 글·편집·새 삽화는  **CC BY-SA 4.0** 입니다. 출처 표시와 같은 조건의 2차 공유가 필요합니다. 공식 "
 "문서·인용·글꼴·소프트웨어·제3자 자료는 원래 권리와 라이선스를 유지합니다. LICENSE와 NOTICE를 참고합니다."
 
 #: ../../book/sources.rst:175

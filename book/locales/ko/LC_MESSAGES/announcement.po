@@ -63,15 +63,8 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:"
 
-#: ../../book/announcement.rst:16
-msgid ""
-"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
-"#two-clocks-timeline(lang: \"en\")"
-msgstr ""
-"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
-"#two-clocks-timeline(lang: \"ko\")"
-
-#: ../../book/announcement.rst:16
+#: ../../book/announcement.rst:15 ../../book/announcement.rst:20
+#: ../../book/announcement.rst:24
 msgid ""
 "Announcement No. 48 splits into two parallel tracks on 16 October 2026: a "
 "30-day consultation on 40 proposed catalogue entries, and an immediate pre-"
@@ -80,7 +73,15 @@ msgstr ""
 "2026년 10월 16일 두 갈래 병행 궤도로 나뉜 제48호 공고: 40개 신설 기술 항목안에 대한 30일간의 의견 수렴과 "
 "ecomp.mofcom.gov.cn 포털에서의 즉시 수출 전 정보 등록 의무."
 
-#: ../../book/announcement.rst:22
+#: ../../book/announcement.rst:24
+msgid ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"ko\")"
+
+#: ../../book/announcement.rst:31
 msgid ""
 "**The Consultation Clock (16 October to 15 November 2026):** Beijing "
 "proposes adding **40 technology points** (14 prohibited from export and 26 "
@@ -99,7 +100,7 @@ msgstr ""
 "and II "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/announcement.rst:23
+#: ../../book/announcement.rst:32
 msgid ""
 "**The Registration Clock (Running Right Now):** From the moment Announcement"
 " 48 went live on 16 October 2026 until the day the final revised catalogue "
@@ -117,7 +118,7 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
 " `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_."
 
-#: ../../book/announcement.rst:25
+#: ../../book/announcement.rst:34
 msgid ""
 "Confusing those two clocks is the single most common mistake people make "
 "when discussing China's new rules. Registration is active today, yet "
@@ -137,11 +138,11 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/announcement.rst:27
+#: ../../book/announcement.rst:36
 msgid "Crossing a Border Without Packing a Single Crate"
 msgstr "나무 상자 하나 꾸리지 않고 국경을 넘는다는 것"
 
-#: ../../book/announcement.rst:30
+#: ../../book/announcement.rst:39
 msgid ""
 "When our grandparents heard the word *export*, they pictured harbor cranes "
 "lifting steel containers onto a cargo ship in Shanghai or Rotterdam. When a "
@@ -152,7 +153,7 @@ msgstr ""
 "컨테이너를 들어 올리는 모습이었다. 하지만 현대의 기술 규제 당국이  *수출* \\ 을 말할 때는 나무 상자 하나도 부두에 닿을 필요가 "
 "없다."
 
-#: ../../book/announcement.rst:32
+#: ../../book/announcement.rst:41
 msgid ""
 "Under Section III(2) of Announcement 48, four transactions trigger mandatory"
 " pre-export registration before completion, **including transfers that had "
@@ -164,7 +165,7 @@ msgstr ""
 " 16일 이전에 이미 시작되었으나 아직 완료되지 않은 이전 거래까지 포함해서**  말이다 `CN48, section III(2) "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_:"
 
-#: ../../book/announcement.rst:34
+#: ../../book/announcement.rst:43
 msgid ""
 "**Selling the crown jewels abroad:** Transferring ownership of domestic "
 "technology to an overseas buyer, such as assigning patents or selling "
@@ -173,7 +174,7 @@ msgstr ""
 " **핵심 자산을 해외에 매각하는 행위:**  특허권을 양도하거나 독자적인 모델·칩 지식재산권(IP)을 매각하는 등 국내 기술의 소유권을"
 " 해외 매수인에게 이전하는 경우."
 
-#: ../../book/announcement.rst:35
+#: ../../book/announcement.rst:44
 msgid ""
 "**Granting an overseas license:** Keeping ownership in China while licensing"
 " a foreign partner, client, or subsidiary to use covered domestic technology"
@@ -182,7 +183,7 @@ msgstr ""
 " **해외 사용 라이선스를 부여하는 행위:**  소유권은 중국 내에 그대로 두되, 해외 파트너나 고객사, 해외 자회사가 국외에서 대상 "
 "국내 기술을 사용할 수 있도록 라이선스를 허여하는 경우."
 
-#: ../../book/announcement.rst:36
+#: ../../book/announcement.rst:45
 msgid ""
 "**Changing who holds the steering wheel:** A corporate acquisition, "
 "restructuring, or cap-table shift through which the owner or *actual "
@@ -194,7 +195,7 @@ msgstr ""
 "지배자(실제 통제인)* \\ 가 해외 법인·주체로 변경되는 경우. 모든 엔지니어와 서버가 항저우나 베이징에 그대로 머물러 있더라도 "
 "궁극적인 기업 지배권이 국경을 넘어가면 규정이 즉시 작동한다."
 
-#: ../../book/announcement.rst:37
+#: ../../book/announcement.rst:46
 msgid ""
 "**Additional scenarios notified by MOFCOM:** A statutory catch-all allowing "
 "the ministry to address new transfer structures by official notice."
@@ -202,7 +203,7 @@ msgstr ""
 " **상무부가 별도로 고시하는 기타 상황:**  새로운 형태의 기술 이전 구조가 등장할 때 상무부가 공식 통지를 통해 대응할 수 있도록 "
 "열어 둔 포괄적 보충 조항."
 
-#: ../../book/announcement.rst:39
+#: ../../book/announcement.rst:48
 msgid ""
 "When an exporter logs into the Technology Trade Management Information "
 "Application on ``ecomp.mofcom.gov.cn`` to file **Attachment 2** (*Technology"
@@ -228,11 +229,11 @@ msgstr ""
 " 별도로 신고해야 한다 `CN48, section III(3) "
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_."
 
-#: ../../book/announcement.rst:41
+#: ../../book/announcement.rst:50
 msgid "Four Words That Change Everything"
 msgstr "모든 것을 바꾸는 네 가지 규제 용어"
 
-#: ../../book/announcement.rst:44
+#: ../../book/announcement.rst:53
 msgid ""
 "Legal catalogues look intimidating because casual readers read every line as"
 " a \"ban.\" In practice, four regulatory categories carry vastly different "
@@ -249,11 +250,11 @@ msgstr ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 " `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:"
 
-#: ../../book/announcement.rst:46
+#: ../../book/announcement.rst:55
 msgid "Prohibited (``禁止出口``, codes ending in ``J``)"
 msgstr "수출 금지 (``禁止出口``, ``J``\\ 로 끝나는 코드)"
 
-#: ../../book/announcement.rst:47
+#: ../../book/announcement.rst:56
 msgid ""
 "A solid red wall. Once finalized, covered technology within the stated scope"
 " cannot legally be exported at all `CNTIER, Art. 32 "
@@ -262,11 +263,11 @@ msgstr ""
 "단단한 붉은 성벽이다. 목록이 최종 확정되면 명시된 범위 안의 대상 기술은 법적으로 일절 수출할 수 없다 `CNTIER, Art. 32 "
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_."
 
-#: ../../book/announcement.rst:49
+#: ../../book/announcement.rst:58
 msgid "Restricted (``限制出口``, codes ending in ``X``)"
 msgstr "수출 제한 (``限制出口``, ``X``\\ 로 끝나는 코드)"
 
-#: ../../book/announcement.rst:50
+#: ../../book/announcement.rst:59
 msgid ""
 "A guarded gate with a lock and a key. Export is lawful, provided the "
 "exporter obtains official government permission before transferring the "
@@ -276,11 +277,11 @@ msgstr ""
 "자물쇠와 열쇠가 달린 검문 관문이다. 기술을 이전하기 전에 정부의 공식 허가를 받기만 하면 적법하게 수출할 수 있다 `CNTIER, "
 "Art. 33 <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_."
 
-#: ../../book/announcement.rst:52
+#: ../../book/announcement.rst:61
 msgid "Automatic licensing (``自动许可``)"
 msgstr "자동 허가 (``自动许可``)"
 
-#: ../../book/announcement.rst:53
+#: ../../book/announcement.rst:62
 msgid ""
 "Proposed facilitation for specified restricted exports. MOFCOM describes the"
 " intended process as nearly immediate, but this is distinct from an "
@@ -295,11 +296,11 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/announcement.rst:55
+#: ../../book/announcement.rst:64
 msgid "Excluded (``不纳入管理范围``)"
 msgstr "관리 대상 제외 (``不纳入管理范围``)"
 
-#: ../../book/announcement.rst:56
+#: ../../book/announcement.rst:65
 msgid ""
 "Outside this catalogue altogether. Already-public open-source AI and "
 "published academic papers sit here under Footnote 1, while ordinary laws "
@@ -310,7 +311,7 @@ msgstr ""
 "저작권법 같은 일반 법률만 평소처럼 적용된다 `CN-A1, note 1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/announcement.rst:58
+#: ../../book/announcement.rst:67
 msgid ""
 "Think of it like an international airport: *prohibited* items cannot fly; "
 "*restricted* items need a declared export permit; *automatic licensing* is "

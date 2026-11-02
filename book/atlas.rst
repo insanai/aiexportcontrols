@@ -12,13 +12,12 @@ How do you write a law that separates a student's weekend coding project from a 
 
 Regulators solve this by drawing **numerical performance tripwires and purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps **40 distinct technology points** inside seven-character catalogue codes: **23 in artificial intelligence and AI hardware** (6 proposed prohibited, 17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 restricted), and **12 in solar manufacturing** (5 prohibited, 7 restricted), matching the official totals of **14 prohibited** and **26 restricted** technologies `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_.
 
-.. typst-diagram::
+.. figure:: assets/illustrations/sectors.jpg
    :name: fig-three-frontiers
-   :caption: Three technology areas, drawn as processor, genetic structure and solar cell. The symbols identify subjects rather than imply measured impacts.
-   :alt: Three technology areas, drawn as processor, genetic structure and solar cell. The symbols identify subjects rather than imply measured impacts.
+   :alt: Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
+   :width: 100%
 
-   #import "figures/artwork.typ": three-frontiers
-   #three-frontiers()
+   Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
 
 Attachment 1 groups several numbered technologies under the same code. For example, 266504X has two main points, 266505X has four, 266506X has **two main points**, and 266507X has four. Our atlas splits the attachment into 40 reading checkpoints while retaining the original code and point. It is an editorial index, not a replacement legal list. `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 

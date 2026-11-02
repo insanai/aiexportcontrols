@@ -40,7 +40,14 @@ msgstr ""
 "公式説明は製造技術と製品を区別します。公告48は完成パネルの全面禁止ではありません。ただし他の税関規則や措置は別です。 `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/solar.rst:13
+#: ../../book/solar.rst:13 ../../book/solar.rst:18
+msgid ""
+"A crystal-growing furnace, thin wafers and a coating machine show the "
+"equipment and knowledge behind a finished solar panel. The machinery is "
+"schematic."
+msgstr "結晶成長炉、薄いウェハー、成膜装置で太陽光パネルの背後にある設備と知識を示します。機械は模式的です。"
+
+#: ../../book/solar.rst:20
 msgid ""
 "Why, then, do **12 of the 40 technology points** (5 proposed prohibited, 7 "
 "proposed restricted) target solar manufacturing? Because China leads the "
@@ -61,7 +68,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../book/solar.rst:15
+#: ../../book/solar.rst:22
 msgid ""
 "**Silicon purification (263003J & 263004X):** Proposed prohibitions cover "
 "mega-scale cold-hydrogenation fluidized beds (:math:`\\ge 250{,}000\\text{ "
@@ -79,7 +86,7 @@ msgstr ""
 "`CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/solar.rst:16
+#: ../../book/solar.rst:23
 msgid ""
 "**Ingot pulling and paper-thin wafers (263004J & 263005X):** Slicing silicon"
 " wafers :math:`\\le 70\\text{ micrometers}` thick (including control "
@@ -100,7 +107,7 @@ msgstr ""
 "130\\text{-micrometer}` の薄型スライス技術を対象としています。 `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/solar.rst:17
+#: ../../book/solar.rst:24
 msgid ""
 "**Tandem and high-efficiency cells (263801J & 263802X):** Proposed "
 "prohibitions guard mass-produced **perovskite and silicon-perovskite "
@@ -120,11 +127,11 @@ msgstr ""
 "またはモジュール効率 :math:`\\ge 22.3\\%` ）を対象としています。 `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/solar.rst:19
+#: ../../book/solar.rst:26
 msgid "Footnote 4: When the Physical Machine *Is* the Recipe"
 msgstr "注4：物理的な製造装置  *そのもの*  がレシピになるとき"
 
-#: ../../book/solar.rst:22
+#: ../../book/solar.rst:29
 msgid ""
 "Just as AI software cannot be separated from AI chips, solar know-how cannot"
 " be separated from solar furnaces. When a supplier ships a deposition "
@@ -133,7 +140,7 @@ msgid ""
 msgstr ""
 "AIソフトウェアをAIチップから切り離せないのと同じように、太陽光発電の製造ノウハウも製造炉から切り離すことはできません。装置メーカーが成膜リアクターを出荷し、組込み制御コードを導入し、現地の工場フロアで半年間にわたって海外エンジニアを指導するとき、ハードウェアはその内部に知性を宿したまま海を渡っているのです。"
 
-#: ../../book/solar.rst:24
+#: ../../book/solar.rst:31
 msgid ""
 "**Draft Note 4** covers specified core photovoltaic equipment when it "
 "embodies listed technical indicators, including reactors, crystal furnaces, "
