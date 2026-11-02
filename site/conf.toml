@@ -2,8 +2,8 @@
 # "Impact of Export Controls on the Future of Open Source AI"
 
 project = "Impact of Export Controls on the Future of Open Source AI"
-copyright = "2026, AI Export Controls Research"
-author = "AI Export Controls Research"
+copyright = "2026, Vikrant Rathore; original work CC BY-SA 4.0"
+author = "Vikrant Rathore"
 version = "2026.11"
 release = "2026-11-02"
 
@@ -16,8 +16,8 @@ source_suffix = [".rst"]
 root_doc = "index"
 
 gettext_additional_targets = ["literal-block"]
-gettext_last_translator = "China Export Control Research"
-gettext_language_team = "China Export Control Research"
+gettext_last_translator = "Vikrant Rathore"
+gettext_language_team = "Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore"
 
 rst_epilog = """
 .. _read-cover: en/index.html
