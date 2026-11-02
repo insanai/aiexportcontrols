@@ -37,286 +37,411 @@
 }
 
 // ---------------------------------------------------------------------------
-// 1. Game Theory Payoff Matrix + CeTZ Exponential Scrutiny Curve
+// 1. Symmetric Game Theory Payoff Matrix + Many-Eyes Curve & Plain Scoreboard
 // ---------------------------------------------------------------------------
 #let game-labels = (
   en: (
-    kicker: "MATHEMATICAL GAME THEORY · THE FORTRESS TRAP",
-    title: "Why Broad Export Walls Push Humanity Backward & Multiply Danger",
-    bloc-b: "BLOC B CHOICE →",
-    bloc-a: "BLOC A ↓",
-    open: "Open Commons (O)",
-    wall: "Broad Wall (W)",
-    oo-tag: "PARETO OPTIMUM · SHARED LIGHTHOUSE",
-    oo-world: "World Welfare = 34  |  Danger R = 1×",
-    oo-desc: "2k global teams audit flaws; hospitals & universities run local open AI.",
-    ow-tag: "LONE OPENNESS",
-    ow-world: "World = 23  |  Danger R = 2×",
-    ow-desc: "Open side lags (-5) while hoarder free-rides (+8).",
-    wo-tag: "ONE-SHOT TEMPTATION",
-    wo-world: "World = 23  |  Danger R = 2×",
-    wo-desc: "20 > 17 tempts unilateral walling.",
-    ww-tag: "NASH EQUILIBRIUM · FORTRESS TRAP",
-    ww-world: "World = 10 (−70%)  |  Danger R = 4×",
-    ww-desc: "Zero lead (5 = 5), duplicated fabs, blind silos & disarmed defenders.",
-    curve-title: "Linus's Law of Safety: Surviving Flaw Probability",
-    curve-sub: "More independent eyes drive hidden AI & chip vulnerabilities down exponentially",
-    axis-x: "Independent auditing communities (n)",
-    axis-y: "Unnoticed flaw risk",
-    wall-pt: "Walled silos (R = 4×)",
-    open-pt: "Open commons (R = 1×)",
+    kicker: "PLAIN-LANGUAGE GAME THEORY · THE FORTRESS TRAP",
+    title: "Two Countries, Two Choices: Why High Walls Leave Everyone Worse Off",
+    sub: "Each box shows net gains for Country A and Country B when both choose at the same time.",
+    country-b: "Country B →",
+    country-a: "↓ Country A",
+    share: "Share Openly (S)",
+    wall: "Build a Wall (W)",
+    ss-tag: "BOTH SHARE · SHARED LIGHTHOUSE",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "World Total = 34  ·  Bug Risk = 1×",
+    ss-desc: "Both build on shared breakthroughs (+8) and audit bugs together. (Pareto Optimum)",
+    sw-tag: "A SHARES ALONE · B WALLS UP",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "World Total = 23  ·  Bug Risk = 2×",
+    sw-desc: "B still reads A's open work (+8) and grabs a short lead (+5); A lags (-5).",
+    ws-tag: "A WALLS UP · B SHARES ALONE",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "World Total = 23  ·  Bug Risk = 2×",
+    ws-desc: "A still reads B's open work (+8) and grabs a short lead (+5); B lags (-5).",
+    ww-tag: "BOTH WALL UP · FORTRESS TRAP",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "World Total = 10 (-70%)  ·  Bug Risk = 4×",
+    ww-desc: "Leads cancel to zero (5 = 5), chip plants duplicate (-1), bugs hide. (Nash Equilibrium)",
+    curve-title: "Why Secrecy Multiplies Danger (Many-Eyes Law)",
+    curve-sub: "Chance a dangerous bug survives unseen: P = p₀(1 - q)ⁿ",
+    axis-x: "Independent teams testing openly (n)",
+    axis-y: "Unseen bug risk",
+    wall-pt: "Closed silos (4× risk)",
+    open-pt: "Open sharing (1× risk)",
+    guide-title: "How Every Box Is Scored (Plain Arithmetic)",
+    g1: "+10  Homegrown R&D baseline earned by each country",
+    g2: "+8   Shared-knowledge bonus when the other side shares (S)",
+    g3: "-1   Duplicate-factory cost when building a high wall (W)",
+    g4: "+5 / -5  One-sided race lead (cancels to 0 when both wall up)",
+    g5: "Coin-flip bug check: 1 closed lab = 50% miss · 4 open = 6.2% · 10 open < 0.1%",
   ),
   zh_CN: (
-    kicker: "数学博弈论 · 堡垒陷阱",
-    title: "为何宽泛的出口高墙会让世界倒退且更加危险",
-    bloc-b: "阵营 B 的选择 →",
-    bloc-a: "阵营 A ↓",
-    open: "开放公地 (O)",
-    wall: "宽泛高墙 (W)",
-    oo-tag: "帕累托最优 · 共享灯塔",
-    oo-world: "全球总福祉 = 34  |  系统风险 R = 1×",
-    oo-desc: "全球 2k 个独立团队审计漏洞；医院与高校本地部署开源模型。",
-    ow-tag: "单方开放受损",
-    ow-world: "全球 = 23  |  风险 R = 2×",
-    ow-desc: "开放方短期落后 (-5)，筑墙方搭便车 (+8)。",
-    wo-tag: "单步背叛诱惑",
-    wo-world: "全球 = 23  |  风险 R = 2×",
-    wo-desc: "20 > 17 诱使单边筑墙。",
-    ww-tag: "纳什均衡 · 囚徒困境陷阱",
-    ww-world: "全球 = 10（暴跌 70%） |  风险 R = 4×",
-    ww-desc: "领先优势归零 (5 = 5)，晶圆厂重复建设，黑箱盲区与民用防御解除。",
-    curve-title: "安全审查的指数律：致命漏洞幸存概率",
-    curve-sub: "独立审计社区越多，隐藏的模型对齐缺陷与芯片漏洞呈指数级归零",
-    axis-x: "独立审计社区数量 (n)",
-    axis-y: "未发现漏洞风险",
-    wall-pt: "封闭高墙 (R = 4×)",
-    open-pt: "开放公地 (R = 1×)",
+    kicker: "通俗博弈论图解 · 堡垒陷阱",
+    title: "两个国家、两种选择：为何筑起高墙反而让所有人受损",
+    sub: "每个方格展示 A 国与 B 国同时做出选择时，各自获得的净收益得分。",
+    country-b: "B 国的选择 →",
+    country-a: "↓ A 国的选择",
+    share: "公开共享 (S)",
+    wall: "筑起高墙 (W)",
+    ss-tag: "双方共享 · 共建灯塔",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "全球总收益 = 34  ·  漏洞风险 = 1×",
+    ss-desc: "双方共享科研突破 (+8) 并联合排查隐患，医院与高校皆可受益。（帕累托最优）",
+    sw-tag: "A 单独共享 · B 筑起高墙",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "全球总收益 = 23  ·  漏洞风险 = 2×",
+    sw-desc: "B 照看 A 的开源成果 (+8) 并抢占短期领先 (+5)；A 暂时落后 (-5)。",
+    ws-tag: "A 筑起高墙 · B 单独共享",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "全球总收益 = 23  ·  漏洞风险 = 2×",
+    ws-desc: "A 照看 B 的开源成果 (+8) 并抢占短期领先 (+5)；B 暂时落后 (-5)。",
+    ww-tag: "双方筑墙 · 堡垒陷阱",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "全球总收益 = 10 (-70%)  ·  漏洞风险 = 4×",
+    ww-desc: "领先优势互相抵消 (5 = 5)，产线重复建设 (-1)，黑箱隐患激增。（纳什均衡）",
+    curve-title: "为何封闭反而放大危险（众目定律）",
+    curve-sub: "致命漏洞未被发现而幸存的概率：P = p₀(1 - q)ⁿ",
+    axis-x: "独立公开检测的团队数量 (n)",
+    axis-y: "隐患漏检风险",
+    wall-pt: "封闭黑箱 (4× 风险)",
+    open-pt: "公开共享 (1× 风险)",
+    guide-title: "方格得分怎么算？（五步日常算术）",
+    g1: "+10  本国基础研发：各国独立科研自带的基础收益",
+    g2: "+8   共享红利：只要对方选择公开共享 (S)，本国即可获益",
+    g3: "-1   重复建设成本：选择筑起高墙 (W) 须自建全套重复产线",
+    g4: "+5 / -5  单边领先差：仅一方筑墙时产生，双方都筑墙则抵消归零",
+    g5: "抛硬币查漏洞直觉：1家封闭实验室漏检率 50% · 4家开放降至 6.2% · 10家低于 0.1%",
   ),
   ja: (
-    kicker: "数理ゲーム理論 · 要塞の罠",
-    title: "広範な輸出の壁が世界を後退させ危険を4倍にする理由",
-    bloc-b: "陣営 B の選択 →",
-    bloc-a: "陣営 A ↓",
-    open: "開かれた共有地 (O)",
-    wall: "広範な壁 (W)",
-    oo-tag: "パレート最適 · 共有の灯台",
-    oo-world: "世界厚生 = 34  |  危険度 R = 1×",
-    oo-desc: "世界の2kチームが脆弱性を検証し、病院や大学がローカルAIを活用。",
-    ow-tag: "単独開放の不利",
-    ow-world: "世界 = 23  |  危険度 R = 2×",
-    ow-desc: "開放側が遅れ(-5)、囲い込み側がただ乗り(+8)。",
-    wo-tag: "一方的な囲い込みの誘惑",
-    wo-world: "世界 = 23  |  危険度 R = 2×",
-    wo-desc: "20 > 17 が単独規制を誘発。",
-    ww-tag: "ナッシュ均衡 · 囚人のジレンマ",
-    ww-world: "世界 = 10（−70%） |  危険度 R = 4×",
-    ww-desc: "優位は相殺(5 = 5)、半導体投資は重複し、密室化で社会の防御力も低下。",
-    curve-title: "安全性の指数法則：重大欠陥が見逃される確率",
-    curve-sub: "独立した検証の目が増えるほど、AIと半導体の未知の欠陥は指数関数的に減少する",
-    axis-x: "独立検証コミュニティ数 (n)",
-    axis-y: "欠陥残存リスク",
-    wall-pt: "閉鎖サイロ (R = 4×)",
-    open-pt: "開放コモンズ (R = 1×)",
+    kicker: "やさしいゲーム理論 · 要塞の罠",
+    title: "2つの国と2つの選択：なぜ高い壁は全員を貧しく危険にするのか",
+    sub: "各マスは、A国とB国が同時に選択したときに双方が得る純スコアを示します。",
+    country-b: "B国の選択 →",
+    country-a: "↓ A国の選択",
+    share: "オープン共有 (S)",
+    wall: "高い壁を築く (W)",
+    ss-tag: "双方が共有 · 共有の灯台",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "世界合計 = 34  ·  欠陥リスク = 1×",
+    ss-desc: "双方が公開知 (+8) を活かし共同で欠陥を検証。最も安全で豊か。（パレート最適）",
+    sw-tag: "Aのみ共有 · Bは壁を築く",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "世界合計 = 23  ·  欠陥リスク = 2×",
+    sw-desc: "BはAの公開成果 (+8) を学びつつ短期優位 (+5) を得て、Aは遅れる (-5)。",
+    ws-tag: "Aは壁を築く · Bのみ共有",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "世界合計 = 23  ·  欠陥リスク = 2×",
+    ws-desc: "AはBの公開成果 (+8) を学びつつ短期優位 (+5) を得て、Bは遅れる (-5)。",
+    ww-tag: "双方が壁 · 要塞の罠",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "世界合計 = 10 (-70%)  ·  欠陥リスク = 4×",
+    ww-desc: "優位は相殺 (5 = 5)、工場の重複 (-1) と密室の欠陥だけが残る。（ナッシュ均衡）",
+    curve-title: "なぜ秘密主義は危険を4倍にするのか（衆目の法則）",
+    curve-sub: "重大なバグが見逃される確率：P = p₀(1 - q)ⁿ",
+    axis-x: "独立して公開検証するチーム数 (n)",
+    axis-y: "バグ見逃しリスク",
+    wall-pt: "閉鎖サイロ (4× 危険)",
+    open-pt: "オープン共有 (1× 危険)",
+    guide-title: "スコアの仕組み（シンプルな足し算・引き算）",
+    g1: "+10  自国研究の基礎点：それぞれの国が独力で生み出す価値",
+    g2: "+8   共有ボーナス：相手国がオープン共有 (S) を選ぶと得られる恩恵",
+    g3: "-1   重複コスト：高い壁 (W) を築き半導体や設備を二重投資する負担",
+    g4: "+5 / -5  単独リード：片方だけが壁を築いた時のみ発生（双方なら 0）",
+    g5: "コイン投げの直感：密室1チームの見逃し50% · 公開4チームで6.2% · 10チームで0.1%未満",
   ),
   ko: (
-    kicker: "수리 게임이론 · 요새의 함정",
-    title: "광범위한 수출 장벽이 세계를 후퇴시키고 위험을 키우는 이유",
-    bloc-b: "진영 B의 선택 →",
-    bloc-a: "진영 A ↓",
-    open: "열린 공유지 (O)",
-    wall: "광범위한 장벽 (W)",
-    oo-tag: "파레토 최적 · 공유 등대",
-    oo-world: "세계 후생 = 34  |  위험도 R = 1×",
-    oo-desc: "전 세계 2k개 팀이 결함을 검증하고 병원·대학이 로컬 AI를 운영.",
-    ow-tag: "단독 개방의 손실",
-    ow-world: "세계 = 23  |  위험도 R = 2×",
-    ow-desc: "개방 측은 뒤처지고(-5) 장벽 측은 무임승차(+8).",
-    wo-tag: "단기 독점의 유혹",
-    wo-world: "세계 = 23  |  위험도 R = 2×",
-    wo-desc: "20 > 17 때문에 일방적 장벽 유혹 발생.",
-    ww-tag: "내시 균형 · 죄수의 딜레마",
-    ww-world: "세계 = 10 (−70%)  |  위험도 R = 4×",
-    ww-desc: "격차 상쇄(5 = 5), 팹 중복 투자, 블랙박스 사각지대 및 민간 방어 약화.",
-    curve-title: "안전 검증의 지수 법칙: 치명적 결함 생존 확률",
-    curve-sub: "독립적인 검증 공동체가 많을수록 AI·칩 취약점은 지수적으로 감소",
-    axis-x: "독립 감사 공동체 수 (n)",
-    axis-y: "미발견 결함 위험",
-    wall-pt: "폐쇄 장벽 (R = 4×)",
-    open-pt: "열린 공유지 (R = 1×)",
+    kicker: "쉬운 게임이론 · 요새의 함정",
+    title: "두 나라, 두 가지 선택: 왜 높은 장벽은 모두를 더 위험하게 만드는가",
+    sub: "각 칸은 A국과 B국이 동시에 선택했을 때 두 나라가 얻는 순점수를 보여줍니다.",
+    country-b: "B국의 선택 →",
+    country-a: "↓ A국의 선택",
+    share: "열린 공유 (S)",
+    wall: "높은 장벽 (W)",
+    ss-tag: "모두 공유 · 함께 켜는 등대",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "세계 합계 = 34  ·  결함 위험 = 1×",
+    ss-desc: "양국이 공개 연구(+8)를 나누고 결함을 함께 검증합니다. (파레토 최적)",
+    sw-tag: "A만 공유 · B는 장벽",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "세계 합계 = 23  ·  결함 위험 = 2×",
+    sw-desc: "B는 A의 공개 성과(+8)를 누리면서 단기 우위(+5)를 얻고, A는 뒤처집니다(-5).",
+    ws-tag: "A는 장벽 · B만 공유",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "세계 합계 = 23  ·  결함 위험 = 2×",
+    ws-desc: "A는 B의 공개 성과(+8)를 누리면서 단기 우위(+5)를 얻고, B는 뒤처집니다(-5).",
+    ww-tag: "모두 장벽 · 요새의 함정",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "세계 합계 = 10 (-70%)  ·  결함 위험 = 4×",
+    ww-desc: "우위는 상쇄되고(5 = 5), 중복 투자(-1)와 블랙박스 위험만 커집니다. (내시 균형)",
+    curve-title: "왜 비밀주의가 위험을 4배로 키우는가 (많은 눈의 법칙)",
+    curve-sub: "치명적 버그가 끝까지 숨겨질 확률: P = p₀(1 - q)ⁿ",
+    axis-x: "독립적으로 공개 검증하는 팀 수 (n)",
+    axis-y: "숨은 결함 위험",
+    wall-pt: "폐쇄 장벽 (4× 위험)",
+    open-pt: "열린 공유 (1× 위험)",
+    guide-title: "점수 계산법 (누구나 이해하는 산수)",
+    g1: "+10  자체 연구 기본점: 각국이 스스로 만들어내는 기본 가치",
+    g2: "+8   공유 보너스: 상대국이 열린 공유(S)를 선택할 때 얻는 혜택",
+    g3: "-1   중복 투자 비용: 높은 장벽(W) 뒤에서 공급망을 새로 짓는 비용",
+    g4: "+5 / -5  일방적 우위: 한쪽만 장벽을 세울 때 발생 (둘 다 세우면 0으로 상쇄)",
+    g5: "동전 던지기 비유: 밀실 1팀 놓칠 확률 50% · 공개 4팀 6.2% · 공개 10팀 0.1% 미만",
   ),
   hi: (
-    kicker: "गणितीय गेम थ्योरी · क़िले का जाल",
-    title: "व्यापक निर्यात दीवारें दुनिया को पीछे और 4 गुना ख़तरनाक क्यों बनाती हैं",
-    bloc-b: "गुट B का चुनाव →",
-    bloc-a: "गुट A ↓",
-    open: "खुला ज्ञान-साझा (O)",
-    wall: "चौड़ी दीवार (W)",
-    oo-tag: "परेटो सर्वोत्तम · साझा प्रकाशस्तंभ",
-    oo-world: "विश्व कल्याण = 34  |  जोखिम R = 1×",
-    oo-desc: "2k वैश्विक टीमें ख़ामियाँ पकड़ती हैं; अस्पताल व विश्वविद्यालय स्थानीय AI चलाते हैं।",
-    ow-tag: "अकेले खुलेपन का नुक़सान",
-    ow-world: "विश्व = 23  |  जोखिम R = 2×",
-    ow-desc: "खुला पक्ष पिछड़ता है (-5), बंद पक्ष मुफ़्त लाभ लेता है (+8)।",
-    wo-tag: "एकतरफ़ा दीवार का प्रलोभन",
-    wo-world: "विश्व = 23  |  जोखिम R = 2×",
-    wo-desc: "20 > 17 तात्कालिक बढ़त का लालच देता है।",
-    ww-tag: "नैश संतुलन · क़ैदी की दुविधा",
-    ww-world: "विश्व = 10 (−70%)  |  जोखिम R = 4×",
-    ww-desc: "बढ़त शून्य (5 = 5), चिप कारख़ानों का दोहराव और नागरिक सुरक्षा निहत्थी।",
-    curve-title: "सुरक्षा का घातीय नियम: अनदेखी ख़ामी बचने की संभावना",
-    curve-sub: "जितनी अधिक स्वतंत्र आँखें जाँचेंगी, छिपे AI व चिप दोष उतनी तेज़ी से घटेंगे",
-    axis-x: "स्वतंत्र ऑडिट समुदाय (n)",
-    axis-y: "अनदेखा दोष जोखिम",
-    wall-pt: "बंद दीवारें (R = 4×)",
-    open-pt: "खुला साझा (R = 1×)",
+    kicker: "सरल गेम थ्योरी · क़िले का जाल",
+    title: "दो देश, दो रास्ते: ऊँची दीवारें सबको पीछे और असुरक्षित क्यों धकेलती हैं",
+    sub: "हर खाना दिखाता है कि देश A और देश B के एक साथ चुनाव करने पर दोनों को कितने अंक मिलते हैं।",
+    country-b: "देश B का चुनाव →",
+    country-a: "↓ देश A का चुनाव",
+    share: "खुला साझा (S)",
+    wall: "ऊँची दीवार (W)",
+    ss-tag: "दोनों साझा करें · साझा प्रकाशस्तंभ",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "कुल विश्व लाभ = 34  ·  ख़ामी जोखिम = 1×",
+    ss-desc: "दोनों साझा खोजों (+8) से सीखते हैं और मिलकर कमियाँ पकड़ते हैं। (परेटो सर्वोत्तम)",
+    sw-tag: "A अकेला साझा करे · B दीवार बनाए",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "कुल विश्व लाभ = 23  ·  ख़ामी जोखिम = 2×",
+    sw-desc: "B, A के खुले काम (+8) का लाभ लेकर बढ़त (+5) पाता है; A पिछड़ता है (-5)।",
+    ws-tag: "A दीवार बनाए · B अकेला साझा करे",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "कुल विश्व लाभ = 23  ·  ख़ामी जोखिम = 2×",
+    ws-desc: "A, B के खुले काम (+8) का लाभ लेकर बढ़त (+5) पाता है; B पिछड़ता है (-5)।",
+    ww-tag: "दोनों दीवार बनाएँ · क़िले का जाल",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "कुल विश्व लाभ = 10 (-70%)  ·  ख़ामी जोखिम = 4×",
+    ww-desc: "बढ़त शून्य (5 = 5), कारख़ानों का दोहरा खर्च (-1) और छिपे दोष चार गुने। (नैश संतुलन)",
+    curve-title: "गोपनीयता ख़तरे को 4 गुना क्यों बढ़ाती है (अनेक आँखों का नियम)",
+    curve-sub: "ख़तरनाक बग के अनदेखा बचने की संभावना: P = p₀(1 - q)ⁿ",
+    axis-x: "स्वतंत्र रूप से जाँच करने वाली टीमें (n)",
+    axis-y: "अनदेखी ख़ामी जोखिम",
+    wall-pt: "बंद दीवारें (4× जोखिम)",
+    open-pt: "खुला साझा (1× जोखिम)",
+    guide-title: "हर खाने का हिसाब कैसे निकलता है? (सीधा गणित)",
+    g1: "+10  घरेलू शोध आधार: हर देश की अपनी मेहनत से बनने वाला लाभ",
+    g2: "+8   साझा ज्ञान बोनस: जब दूसरा देश खुला साझा (S) चुनता है",
+    g3: "-1   दोहरा खर्च: ऊँची दीवार (W) बनाकर अलग कारख़ाने खड़े करने की लागत",
+    g4: "+5 / -5  एकतरफ़ा बढ़त: केवल एक के दीवार बनाने पर (दोनों बनाएँ तो 0)",
+    g5: "सिक्का उछाल उदाहरण: 1 बंद लैब चूक = 50% · 4 खुली टीमें = 6.2% · 10 टीमें < 0.1%",
   ),
   es: (
-    kicker: "TEORÍA DE JUEGOS · LA TRAMPA DE LA FORTALEZA",
-    title: "Por qué los muros amplios atrasan al mundo y cuadruplican el peligro",
-    bloc-b: "DECISIÓN DEL BLOQUE B →",
-    bloc-a: "BLOQUE A ↓",
-    open: "Comunes Abiertos (O)",
-    wall: "Muro Amplio (W)",
-    oo-tag: "ÓPTIMO DE PARETO · FARO COMPARTIDO",
-    oo-world: "Bienestar Mundial = 34  |  Riesgo R = 1×",
-    oo-desc: "2k equipos auditan fallos; hospitales y universidades usan IA abierta local.",
-    ow-tag: "APERTURA SOLITARIA",
-    ow-world: "Mundo = 23  |  Riesgo R = 2×",
-    ow-desc: "El bloque abierto se rezaga (-5) mientras el cerrado aprovecha (+8).",
-    wo-tag: "TENTACIÓN UNILATERAL",
-    wo-world: "Mundo = 23  |  Riesgo R = 2×",
-    wo-desc: "20 > 17 tienta a levantar el primer muro.",
-    ww-tag: "EQUILIBRIO DE NASH · DILEMA DEL PRISIONERO",
-    ww-world: "Mundo = 10 (−70%)  |  Riesgo R = 4×",
-    ww-desc: "Ventaja nula (5 = 5), fábricas duplicadas, cajas negras y defensas civiles ciegas.",
-    curve-title: "Ley Exponencial de Seguridad: Fallos No Detectados",
-    curve-sub: "Más comunidades independientes reducen exponencialmente los fallos ocultos",
-    axis-x: "Comunidades auditoras independientes (n)",
+    kicker: "TEORÍA DE JUEGOS EN LENGUAJE CLARO · LA TRAMPA DE LA FORTALEZA",
+    title: "Dos países, dos opciones: por qué los muros altos perjudican a todos",
+    sub: "Cada casilla muestra la ganancia neta del País A y del País B al decidir al mismo tiempo.",
+    country-b: "País B →",
+    country-a: "↓ País A",
+    share: "Compartir (S)",
+    wall: "Alzar Muro (W)",
+    ss-tag: "AMBOS COMPARTEN · FARO COMÚN",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "Total Mundial = 34  ·  Riesgo = 1×",
+    ss-desc: "Ambos aprovechan avances abiertos (+8) y auditan fallos juntos. (Óptimo de Pareto)",
+    sw-tag: "A COMPARTE SOLO · B ALZA MURO",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "Total Mundial = 23  ·  Riesgo = 2×",
+    sw-desc: "B lee el trabajo abierto de A (+8) y toma ventaja (+5); A queda atrás (-5).",
+    ws-tag: "A ALZA MURO · B COMPARTE SOLO",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "Total Mundial = 23  ·  Riesgo = 2×",
+    ws-desc: "A lee el trabajo abierto de B (+8) y toma ventaja (+5); B queda atrás (-5).",
+    ww-tag: "AMBOS ALZAN MURO · TRAMPA MUTUA",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "Total Mundial = 10 (-70%)  ·  Riesgo = 4×",
+    ww-desc: "La ventaja se anula (5 = 5), se duplican fábricas (-1) y crecen los fallos. (Nash)",
+    curve-title: "Por qué el secreto multiplica el peligro (Ley de Muchos Ojos)",
+    curve-sub: "Probabilidad de que sobreviva un fallo oculto: P = p₀(1 - q)ⁿ",
+    axis-x: "Equipos independientes auditando en abierto (n)",
     axis-y: "Riesgo de fallo oculto",
-    wall-pt: "Silos cerrados (R = 4×)",
-    open-pt: "Comunes abiertos (R = 1×)",
+    wall-pt: "Silos cerrados (riesgo 4×)",
+    open-pt: "Compartir abierto (riesgo 1×)",
+    guide-title: "Cómo se calcula cada casilla (aritmética sencilla)",
+    g1: "+10  Base propia de I+D que genera cada país por sí mismo",
+    g2: "+8   Bono de conocimiento compartido si el otro país comparte (S)",
+    g3: "-1   Costo de duplicar fábricas y cadenas tras un muro (W)",
+    g4: "+5 / -5  Ventaja unilateral temporal (se anula a 0 si ambos alzan muros)",
+    g5: "Prueba de la moneda: 1 lab cerrado falla 50% · 4 abiertos 6.2% · 10 abiertos < 0.1%",
   ),
   de: (
-    kicker: "SPIELTHEORIE · DIE FESTUNGSFALLE",
-    title: "Warum breite Exportmauern die Welt zurückwerfen und vierfach gefährden",
-    bloc-b: "WAHL VON BLOCK B →",
-    bloc-a: "BLOCK A ↓",
-    open: "Offene Allmende (O)",
-    wall: "Breite Mauer (W)",
-    oo-tag: "PARETO-OPTIMUM · GEMEINSAMER LEUCHTTURM",
-    oo-world: "Weltwohlfahrt = 34  |  Risiko R = 1×",
-    oo-desc: "2k Teams prüfen Fehler; Kliniken & Hochschulen nutzen lokale Open-AI.",
-    ow-tag: "EINSEITIGE OFFENHEIT",
-    ow-world: "Welt = 23  |  Risiko R = 2×",
-    ow-desc: "Offene Seite fällt zurück (-5), Abschotter nutzt Wissen (+8).",
-    wo-tag: "EINSEITIGE VERSUCHUNG",
-    wo-world: "Welt = 23  |  Risiko R = 2×",
-    wo-desc: "20 > 17 verlockt zum ersten Mauerbau.",
-    ww-tag: "NASH-GLEICHGEWICHT · GEFANGENENDILEMMA",
-    ww-world: "Welt = 10 (−70%)  |  Risiko R = 4×",
-    ww-desc: "Null Vorsprung (5 = 5), doppelte Chipfabriken, Blackbox-Silos & schwache Abwehr.",
-    curve-title: "Exponentielles Sicherheitsgesetz: Überlebende Fehler",
-    curve-sub: "Mehr unabhängige Prüfer senken unentdeckte KI- und Chip-Schwachstellen exponentiell",
-    axis-x: "Unabhängige Prüfgemeinschaften (n)",
-    axis-y: "Unentdecktes Fehlerrisiko",
-    wall-pt: "Geschlossene Silos (R = 4×)",
-    open-pt: "Offene Allmende (R = 1×)",
+    kicker: "SPIELTHEORIE EINFACH ERKLÄRT · DIE FESTUNGSFALLE",
+    title: "Zwei Länder, zwei Wege: Warum hohe Mauern allen schaden",
+    sub: "Jedes Feld zeigt den Nettonutzen für Land A und Land B bei gleichzeitiger Entscheidung.",
+    country-b: "Land B →",
+    country-a: "↓ Land A",
+    share: "Offen teilen (S)",
+    wall: "Mauer bauen (W)",
+    ss-tag: "BEIDE TEILEN · GEMEINSAMER LEUCHTTURM",
+    ss-score: "A: +17   |   B: +17",
+    ss-world: "Weltsumme = 34  ·  Fehlerrisiko = 1×",
+    ss-desc: "Beide nutzen offene Forschung (+8) und prüfen Fehler gemeinsam. (Pareto-Optimum)",
+    sw-tag: "A TEILT ALLEIN · B BAUT MAUER",
+    sw-score: "A: +3   |   B: +20",
+    sw-world: "Weltsumme = 23  ·  Fehlerrisiko = 2×",
+    sw-desc: "B nutzt A's offene Arbeit (+8) und gewinnt Vorsprung (+5); A fällt zurück (-5).",
+    ws-tag: "A BAUT MAUER · B TEILT ALLEIN",
+    ws-score: "A: +20   |   B: +3",
+    ws-world: "Weltsumme = 23  ·  Fehlerrisiko = 2×",
+    ws-desc: "A nutzt B's offene Arbeit (+8) und gewinnt Vorsprung (+5); B fällt zurück (-5).",
+    ww-tag: "BEIDE BAUEN MAUERN · FESTUNGSFALLE",
+    ww-score: "A: +5   |   B: +5",
+    ww-world: "Weltsumme = 10 (-70%)  ·  Fehlerrisiko = 4×",
+    ww-desc: "Vorsprung hebt sich auf (5 = 5), Fabriken doppelt (-1), Risiken ×4. (Nash-Falle)",
+    curve-title: "Warum Geheimhaltung Gefahren vervierfacht (Viele-Augen-Gesetz)",
+    curve-sub: "Wahrscheinlichkeit unentdeckter kritischer Fehler: P = p₀(1 - q)ⁿ",
+    axis-x: "Unabhängig prüfende offene Teams (n)",
+    axis-y: "Unentdecktes Risiko",
+    wall-pt: "Geschlossene Silos (4×)",
+    open-pt: "Offenes Teilen (1×)",
+    guide-title: "So entsteht jede Punktzahl (einfache Rechnung)",
+    g1: "+10  Eigene Forschungsbasis jedes Landes aus eigener Kraft",
+    g2: "+8   Wissensbonus, wenn das andere Land offen teilt (S)",
+    g3: "-1   Kosten doppelter Chipfabriken hinter einer Mauer (W)",
+    g4: "+5 / -5  Einseitiger Vorsprung (hebt sich bei zwei Mauern auf 0 auf)",
+    g5: "Münzwurf-Prinzip: 1 Geheimlabor übersieht 50% · 4 offene 6,2% · 10 offene < 0,1%",
   ),
+)
+
+#let axis-pill(label, bg, border, fg) = block(
+  width: 100%,
+  height: 100%,
+  fill: bg,
+  stroke: 1.1pt + border,
+  radius: 5pt,
+  inset: (x: 6pt, y: 4pt),
+  align(center + horizon, text(size: 8.2pt, weight: "bold", fill: fg, label)),
 )
 
 #let payoff-cell(score, tag, world, desc, bg, border, accent) = block(
   width: 100%,
+  height: 100%,
   fill: bg,
   stroke: 1.3pt + border,
   radius: 6pt,
-  inset: 9pt,
+  inset: (x: 9pt, y: 7pt),
 )[
-  #text(size: 7.2pt, weight: "bold", fill: accent, tracking: 0.04em, tag)
-  #v(2pt)
-  #text(size: 16pt, weight: "bold", fill: pal.ink, score)
-  #v(2pt)
-  #text(size: 8pt, weight: "bold", fill: accent, world)
-  #v(3pt)
-  #set par(leading: 0.42em)
-  #text(size: 7.8pt, fill: pal.muted, desc)
+  #set par(leading: 0.38em, spacing: 0.38em, first-line-indent: 0em)
+  #align(horizon, stack(
+    dir: ttb,
+    spacing: 4.2pt,
+    text(size: 7pt, weight: "bold", fill: accent, tracking: 0.03em, tag),
+    text(size: 13.8pt, weight: "bold", fill: pal.ink, score),
+    text(size: 7.6pt, weight: "bold", fill: accent, world),
+    text(size: 7.4pt, fill: pal.muted, desc),
+  ))
 ]
 
 #let game-theory-matrix(lang: "en") = {
   let t = pick(game-labels, lang)
   set text(font: script-fonts(lang), fill: pal.ink)
+  set par(leading: 0.4em, spacing: 0.4em, first-line-indent: 0em)
   block(
     width: 168mm,
     fill: pal.paper,
     stroke: 0.8pt + pal.rule,
     radius: 8pt,
-    inset: 12pt,
+    inset: 11pt,
   )[
-    #text(size: 7.5pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker)
-    #v(2pt)
-    #text(size: 12pt, weight: "bold", fill: pal.ink, t.title)
-    #v(8pt)
+    #stack(
+      dir: ttb,
+      spacing: 3.5pt,
+      text(size: 7.4pt, weight: "bold", fill: pal.teal, tracking: 0.08em, t.kicker),
+      text(size: 11.6pt, weight: "bold", fill: pal.ink, t.title),
+      text(size: 7.7pt, fill: pal.muted, t.sub),
+    )
+    #v(7pt)
+    // Tier 1: Perfectly Symmetric 2x2 Choice Matrix
     #grid(
-      columns: (1.28fr, 0.92fr),
-      column-gutter: 10pt,
-      // Left: 2x2 Payoff Matrix
-      block(width: 100%)[
-        #grid(
-          columns: (22mm, 1fr, 1fr),
-          column-gutter: 6pt,
-          row-gutter: 6pt,
-          align(center + horizon, text(size: 7.5pt, weight: "bold", fill: pal.muted, t.bloc-a + "\n" + t.bloc-b)),
-          align(center + horizon, block(fill: pal.teal-soft, radius: 4pt, inset: (x: 6pt, y: 4pt), width: 100%, text(size: 8.2pt, weight: "bold", fill: pal.teal, t.open))),
-          align(center + horizon, block(fill: pal.red-soft, radius: 4pt, inset: (x: 6pt, y: 4pt), width: 100%, text(size: 8.2pt, weight: "bold", fill: pal.red, t.wall))),
-          align(center + horizon, block(fill: pal.teal-soft, radius: 4pt, inset: 5pt, width: 100%, text(size: 8pt, weight: "bold", fill: pal.teal, t.open))),
-          payoff-cell("(+17, +17)", t.oo-tag, t.oo-world, t.oo-desc, pal.teal-soft, pal.teal, pal.teal),
-          payoff-cell("(+3, +20)", t.ow-tag, t.ow-world, t.ow-desc, pal.gold-soft, pal.gold, pal.gold),
-          align(center + horizon, block(fill: pal.red-soft, radius: 4pt, inset: 5pt, width: 100%, text(size: 8pt, weight: "bold", fill: pal.red, t.wall))),
-          payoff-cell("(+20, +3)", t.wo-tag, t.wo-world, t.wo-desc, pal.gold-soft, pal.gold, pal.gold),
-          payoff-cell("(+5, +5)", t.ww-tag, t.ww-world, t.ww-desc, pal.red-soft, pal.red, pal.red),
-        )
-      ],
-      // Right: CeTZ Exponential Safety Curve
+      columns: (34mm, 1fr, 1fr),
+      rows: (13mm, 33mm, 33mm),
+      column-gutter: 6pt,
+      row-gutter: 6pt,
       block(
         width: 100%,
+        height: 100%,
+        fill: pal.card,
+        stroke: 0.8pt + pal.rule,
+        radius: 5pt,
+        inset: (x: 6pt, y: 3.5pt),
+      )[
+        #place(top + left, line(start: (0%, 0%), end: (100%, 100%), stroke: 0.5pt + pal.rule))
+        #align(right + top, text(size: 7.2pt, weight: "bold", fill: pal.ink, t.country-b))
+        #v(1fr)
+        #align(left + bottom, text(size: 7.2pt, weight: "bold", fill: pal.ink, t.country-a))
+      ],
+      axis-pill(t.share, pal.teal-soft, pal.teal, pal.teal),
+      axis-pill(t.wall, pal.red-soft, pal.red, pal.red),
+      axis-pill(t.share, pal.teal-soft, pal.teal, pal.teal),
+      payoff-cell(t.ss-score, t.ss-tag, t.ss-world, t.ss-desc, pal.teal-soft, pal.teal, pal.teal),
+      payoff-cell(t.sw-score, t.sw-tag, t.sw-world, t.sw-desc, pal.gold-soft, pal.gold, pal.gold),
+      axis-pill(t.wall, pal.red-soft, pal.red, pal.red),
+      payoff-cell(t.ws-score, t.ws-tag, t.ws-world, t.ws-desc, pal.gold-soft, pal.gold, pal.gold),
+      payoff-cell(t.ww-score, t.ww-tag, t.ww-world, t.ww-desc, pal.red-soft, pal.red, pal.red),
+    )
+    #v(7pt)
+    // Tier 2: Symmetric 2-Column Bottom Strip (Many-Eyes Curve + Plain Scoreboard)
+    #grid(
+      columns: (1fr, 1fr),
+      rows: (44mm,),
+      column-gutter: 7pt,
+      block(
+        width: 100%,
+        height: 100%,
         fill: pal.card,
         stroke: 0.8pt + pal.rule,
         radius: 6pt,
-        inset: 9pt,
+        inset: 8.5pt,
       )[
-        #text(size: 8.5pt, weight: "bold", fill: pal.ink, t.curve-title)
-        #v(2pt)
-        #text(size: 7.4pt, fill: pal.muted, t.curve-sub)
-        #v(6pt)
-        #align(center, cetz.canvas(length: 8.2mm, {
+        #stack(
+          dir: ttb,
+          spacing: 2.5pt,
+          text(size: 8.1pt, weight: "bold", fill: pal.ink, t.curve-title),
+          text(size: 7.1pt, fill: pal.muted, t.curve-sub),
+        )
+        #v(3pt)
+        #align(center + horizon, cetz.canvas(length: 5.8mm, {
           import cetz.draw: *
-          // Axes
-          line((0, 0), (6.4, 0), stroke: 0.9pt + pal.ink, mark: (end: ">"))
-          line((0, 0), (0, 4.3), stroke: 0.9pt + pal.ink, mark: (end: ">"))
-          // Grid lines
-          for y in (1, 2, 3, 4) {
-            line((0, y), (6.1, y), stroke: (paint: pal.rule, thickness: 0.5pt, dash: "dashed"))
+          line((0, 0), (8.4, 0), stroke: 0.85pt + pal.ink, mark: (end: ">"))
+          line((0, 0), (0, 3.6), stroke: 0.85pt + pal.ink, mark: (end: ">"))
+          for y in (1, 2, 3) {
+            line((0, y), (8.1, y), stroke: (paint: pal.rule, thickness: 0.45pt, dash: "dashed"))
           }
-          // Exponential decay curve: y = 4.0 * exp(-0.42 * x)
-          let pts = range(0, 61).map(i => {
+          let pts = range(0, 79).map(i => {
             let x = i * 0.1
-            (x, 3.95 * calc.exp(-0.42 * x))
+            (x, 3.3 * calc.exp(-0.35 * x))
           })
-          line(..pts, stroke: 2pt + pal.teal)
-          // Walled point (small n = 0.8)
+          line(..pts, stroke: 1.9pt + pal.teal)
           let wx = 0.8
-          let wy = 3.95 * calc.exp(-0.42 * wx)
-          circle((wx, wy), radius: 0.16, fill: pal.red, stroke: 1pt + white)
-          content((wx + 0.25, wy + 0.32), anchor: "west", text(size: 7.2pt, weight: "bold", fill: pal.red, t.wall-pt))
-          // Open commons point (large n = 5.0)
-          let ox = 4.9
-          let oy = 3.95 * calc.exp(-0.42 * ox)
-          circle((ox, oy), radius: 0.16, fill: pal.teal, stroke: 1pt + white)
-          content((ox - 0.1, oy + 0.55), anchor: "center", text(size: 7.2pt, weight: "bold", fill: pal.teal, t.open-pt))
-          // Axis labels
-          content((3.2, -0.55), text(size: 7pt, fill: pal.muted, t.axis-x))
-          content((0.1, 4.55), anchor: "west", text(size: 7pt, fill: pal.muted, t.axis-y))
+          let wy = 3.3 * calc.exp(-0.35 * wx)
+          circle((wx, wy), radius: 0.17, fill: pal.red, stroke: 0.9pt + white)
+          content((wx + 0.25, wy + 0.22), anchor: "west", text(size: 6.9pt, weight: "bold", fill: pal.red, t.wall-pt))
+          let ox = 6.3
+          let oy = 3.3 * calc.exp(-0.35 * ox)
+          circle((ox, oy), radius: 0.17, fill: pal.teal, stroke: 0.9pt + white)
+          content((ox - 0.1, oy + 0.58), anchor: "center", text(size: 6.9pt, weight: "bold", fill: pal.teal, t.open-pt))
+          content((4.2, -0.55), text(size: 6.8pt, fill: pal.muted, t.axis-x))
+          content((0.15, 3.78), anchor: "west", text(size: 6.8pt, fill: pal.muted, t.axis-y))
         }))
-      ]
+      ],
+      block(
+        width: 100%,
+        height: 100%,
+        fill: pal.card,
+        stroke: 0.8pt + pal.rule,
+        radius: 6pt,
+        inset: 8.5pt,
+      )[
+        #stack(
+          dir: ttb,
+          spacing: 5pt,
+          text(size: 8.1pt, weight: "bold", fill: pal.ink, t.guide-title),
+          text(size: 7.3pt, fill: pal.ink, t.g1),
+          text(size: 7.3pt, fill: pal.teal, weight: "bold", t.g2),
+          text(size: 7.3pt, fill: pal.red, t.g3),
+          text(size: 7.3pt, fill: pal.gold, weight: "bold", t.g4),
+          line(length: 100%, stroke: 0.5pt + pal.rule),
+          text(size: 7.1pt, fill: pal.muted, t.g5),
+        )
+      ],
     )
   ]
 }

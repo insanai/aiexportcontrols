@@ -116,11 +116,11 @@ msgstr "Vorgeschlagene Einstufung"
 msgid "Prohibited (J) & Restricted (X)"
 msgstr "Verboten (J) & Beschränkt (X)"
 
-msgid "Proposed Prohibited (J — 14)"
-msgstr "Vorgeschlagen verboten (J — 14)"
+msgid "Proposed Prohibited (J: 14)"
+msgstr "Vorgeschlagen verboten (J: 14)"
 
-msgid "Proposed Restricted (X — 26)"
-msgstr "Vorgeschlagen beschränkt (X — 26)"
+msgid "Proposed Restricted (X: 26)"
+msgstr "Vorgeschlagen beschränkt (X: 26)"
 
 msgid "Interactive Scenario Guide"
 msgstr "Interaktiver Szenarien-Wegweiser"
@@ -148,3 +148,6 @@ msgstr "22 Primärquellen"
 
 msgid "GitHub Repository"
 msgstr "GitHub-Repository"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "Erstellt mit Hilfe von GuideDog sowie mit Unterstützung von Vicky Ni, Ronak Rathore und Kanak Rathore."

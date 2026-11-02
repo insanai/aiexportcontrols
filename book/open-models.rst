@@ -1,5 +1,5 @@
 .. meta::
-   :description: Chapter 4 — How open-source AI was released before export controls (4-step midnight git push) versus how it navigates 4 checkpoints under Announcement 48 and US EAR rules.
+   :description: Chapter 4: How open-source AI was released before export controls (4-step midnight git push) versus how it navigates 4 checkpoints under Announcement 48 and US EAR rules.
 
 ===================================================
 04. Open-Source AI Before and After the Walls
@@ -18,7 +18,7 @@ To feel what is at stake for human progress, rewind to how an open-source AI bre
 Suppose twenty engineers in Hangzhou, Paris, or San Francisco finished training a remarkable reasoning model on a Tuesday night. Their entire global release pipeline had **four steps**:
 
 1. **Finish internal benchmarks and safety checks** on the trained weights and inference code.
-2. **Attach a permissive copyright license** — a short text file like the **MIT License** (used by DeepSeek for its flagship DeepSeek-R1 code and weights) or **Apache License 2.0** (used by Alibaba's Qwen team for its Qwen3 family) ``[R1]`` ``[QWEN]``.
+2. **Attach a permissive copyright license**, a short text file like the **MIT License** (used by DeepSeek for its flagship DeepSeek-R1 code and weights) or **Apache License 2.0** (used by Alibaba's Qwen team for its Qwen3 family) ``[R1]`` ``[QWEN]``.
 3. **Run** ``git push`` **and upload the weight files** to global public hubs like Hugging Face, GitHub, and ModelScope alongside a technical paper.
 4. **Go to sleep** while the rest of humanity woke up and built.
 
@@ -130,7 +130,7 @@ Gate 4: Take the Open-Source Fast Lane (Versus Full Private Licensing)
 
 What if your new model *is* a Global Top-10 marvel? Here the road splits depending on whether you share with humanity or sell behind closed doors:
 
-* **Open-Source Fast Track (Footnote 2):** During today's transition period (from 16 October 2026), verify whether your cross-border release requires pre-export registration on ``ecomp.mofcom.gov.cn``. Once the revised catalogue takes effect, **Footnote 2** grants **automatic licensing and facilitation** for open-source exports of restricted AI — a streamlined mechanism MOFCOM describes as **"apply and go" (** ``即报即出`` **)**, explicitly designed to back China's open-source community and Global South AI adoption ``[CN-A1, note 2]`` ``[CNQA]``.
+* **Open-Source Fast Track (Footnote 2):** During today's transition period (from 16 October 2026), verify whether your cross-border release requires pre-export registration on ``ecomp.mofcom.gov.cn``. Once the revised catalogue takes effect, **Footnote 2** grants **automatic licensing and facilitation** for open-source exports of restricted AI, a streamlined mechanism MOFCOM describes as **"apply and go" (** ``即报即出`` **)**, explicitly designed to back China's open-source community and Global South AI adoption ``[CN-A1, note 2]`` ``[CNQA]``.
 * **Closed Private Transfer:** Licensing unpublished frontier weights privately to a foreign company or deploying full restricted weights onto third-party overseas servers does *not* get open-source facilitation; it requires pre-export registration today and a formal two-stage provincial **Technology Export License** once finalized (unless hosted on a Chinese firm's self-owned overseas cloud, which also qualifies under Footnote 2) ``[CN48]`` ``[CN-A1]`` ``[CNQA]``.
 
 How Hardware Walls Quietly Reshape What "Open" Even Means
@@ -138,7 +138,7 @@ How Hardware Walls Quietly Reshape What "Open" Even Means
 
 Because export controls pinch silicon and software at the same time, four real-world shifts are already reshaping the future of open-source AI:
 
-1. **Hardware scarcity breeds algorithmic genius — up to a point:** Restricted access to US ``3A090`` chips forced open-weight labs to pioneer frugal mixture-of-experts (MoE) routing, aggressive quantization, and reasoning distillation (``R1``, ``QWEN``). That made open models *easier* for ordinary citizens to run on smaller hardware! Yet if foundry and HBM memory walls grow tighter every year, training the *next* generation of foundational base models could concentrate inside a tiny handful of state-backed or hyperscale clusters ``[US26]`` ``[EAR742]``.
+1. **Hardware scarcity breeds algorithmic genius, up to a point:** Restricted access to US ``3A090`` chips forced open-weight labs to pioneer frugal mixture-of-experts (MoE) routing, aggressive quantization, and reasoning distillation (``R1``, ``QWEN``). That made open models *easier* for ordinary citizens to run on smaller hardware! Yet if foundry and HBM memory walls grow tighter every year, training the *next* generation of foundational base models could concentrate inside a tiny handful of state-backed or hyperscale clusters ``[US26]`` ``[EAR742]``.
 2. **The "Open Small, Cloud Giant" split:** Studios have a strong incentive to publish dazzling 7B-to-70B open models that run on consumer GPUs and clear thresholds smoothly, while holding 2-trillion-parameter titans and 60-agent swarms behind metered cloud APIs (which MOFCOM exempts from model-export licensing) ``[CN-A1]`` ``[CNQA]``.
 3. **Local hardware matters for human freedom:** An open-weight medical or legal model only protects privacy if a hospital, newsroom, or university can buy affordable high-memory workstations to run it locally. When export rules cap GPU memory bandwidth or restrict open chip architectures (``266506X``), the practical boundary of local self-reliance shrinks even if the software stays MIT-licensed.
 4. **Provenance becomes an everyday engineering habit:** Smart open-source teams now ship a simple one-page "compliance birth certificate" alongside every repository: exact commit SHA-256 hash, license text, measured training FLOPs, zero-Core-Data attestation, and download date.

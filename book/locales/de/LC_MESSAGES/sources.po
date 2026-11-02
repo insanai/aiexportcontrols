@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 12:00+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: German\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../book/sources.rst:1
 msgid ""
-"Chapter 10 — All 22 verified primary sources, untouched WPS and PDF "
+"Chapter 10: All 22 verified primary sources, untouched WPS and PDF "
 "official documents, SHA-256 verification method, and plain-language "
 "glossary as of 2 November 2026."
 msgstr ""
-"Kapitel 10 — Alle 22 geprüften Primärquellen, unveränderte amtliche WPS- "
+"Kapitel 10: Alle 22 geprüften Primärquellen, unveränderte amtliche WPS- "
 "und PDF-Dokumente, SHA-256-Prüfmethode und Klartext-Glossar mit Stand vom "
 "2. November 2026."
 
@@ -90,7 +90,7 @@ msgstr ""
 "403``), weisen wir diese Einschränkung offen aus. Im gesamten Buch sind "
 "Rechtstatsachen mit Quellenkürzeln in eckigen Klammern belegt, während "
 "unsere spieltheoretische Auszahlungsmatrix und die Zukunftsszenarien "
-"transparent als analytische Modelle ausgewiesen sind — und nicht als "
+"transparent als analytische Modelle ausgewiesen sind, und nicht als "
 "Rechtsberatung für ein einzelnes Rechtsgeschäft."
 
 #: ../../book/sources.rst:15
@@ -197,7 +197,7 @@ msgid ""
 "resume training, distil smaller models, or fine-tune for specialist tasks."
 msgstr ""
 "Eine gespeicherte Momentaufnahme der Modellgewichte während oder am Ende "
-"des Trainings — genutzt, um das Training fortzusetzen, kleinere Modelle "
+"des Trainings, genutzt, um das Training fortzusetzen, kleinere Modelle "
 "zu destillieren oder Spezialaufgaben feinabzustimmen."
 
 #: ../../book/sources.rst:36
@@ -240,11 +240,11 @@ msgstr "Chip-Tape-out (``芯片流片``)"
 #: ../../book/sources.rst:43
 msgid ""
 "Sending a finished processor blueprint from a chip-design team to a "
-"semiconductor foundry to manufacture physical silicon wafers — explicitly "
+"semiconductor foundry to manufacture physical silicon wafers, explicitly "
 "offered automatic-licensing facilitation in Announcement 48's Footnote 2."
 msgstr ""
 "Die Übergabe eines fertigen Prozessor-Bauplans vom Chipdesign-Team an "
-"eine Halbleiterfabrik (Foundry) zur Belichtung physischer Siliziumwafer — "
+"eine Halbleiterfabrik (Foundry) zur Belichtung physischer Siliziumwafer, "
 "in Fußnote 2 der Bekanntmachung 48 ausdrücklich mit automatischer "
 "Lizenzerleichterung versehen."
 
@@ -259,7 +259,7 @@ msgid ""
 "or chip designs."
 msgstr ""
 "Nutzern aus der Ferne erlauben, Anfragen an den eigenen Cloud-Server zu "
-"schicken und Antworten zu erhalten — ohne die zugrunde liegenden "
+"schicken und Antworten zu erhalten, ohne die zugrunde liegenden "
 "Modellgewichte, den Quellcode oder Chipentwürfe aus der Hand zu geben."
 
 #: ../../book/sources.rst:48
@@ -273,11 +273,10 @@ msgid ""
 "outcome (:math:`+5, +5`) far worse and more dangerous than mutual "
 "cooperation (:math:`+17, +17`)."
 msgstr ""
-"In der Spieltheorie eine Pattsituation, in der jede Seite jenen "
-"Abwehrzug (``Mauer``) wählt, der für sich allein vorteilhaft erscheint — "
-"wodurch beide gemeinsam in einem Ergebnis (:math:`+5, +5`) landen, das "
-"weit ärmer und gefährlicher ist als gegenseitige Offenheit (:math:`+17, "
-"+17`)."
+"In der Spieltheorie eine Pattsituation, in der jede Seite jenen Abwehrzug "
+"(``Mauer``) wählt, der für sich allein vorteilhaft erscheint, wodurch "
+"beide gemeinsam in einem Ergebnis (:math:`+5, +5`) landen, das weit ärmer "
+"und gefährlicher ist als gegenseitige Offenheit (:math:`+17, +17`)."
 
 #: ../../book/sources.rst:51
 msgid "Software license vs. export license"
@@ -292,10 +291,10 @@ msgid ""
 msgstr ""
 "Eine *MIT*- oder *Apache-2.0*-Lizenz ist eine privatrechtliche "
 "Urheberrechtserlaubnis der Entwickler, mit der jedermann Code oder "
-"Gewichte weiternutzen darf. Eine *Technologieexportlizenz* "
-"(``技术出口许可证`` oder BIS-Lizenz) ist dagegen eine hoheitliche Genehmigung "
-"des Staates, damit kontrollierte Technologie oder Hardware eine "
-"Landesgrenze überschreiten darf."
+"Gewichte weiternutzen darf. Eine *Technologieexportlizenz* (``技术出口许可证`` "
+"oder BIS-Lizenz) ist dagegen eine hoheitliche Genehmigung des Staates, "
+"damit kontrollierte Technologie oder Hardware eine Landesgrenze "
+"überschreiten darf."
 
 #: ../../book/sources.rst:54
 msgid "Automatic licensing (``自动许可``)"
@@ -474,8 +473,8 @@ msgid ""
 "MOFCOM & MOST Order No. 2 of 2009, Measures for Prohibited/Restricted "
 "Tech Exports"
 msgstr ""
-"Erlass Nr. 2 von MOFCOM & MOST (2009), Maßnahmen für verbotene/"
-"beschränkte Technologieexporte"
+"Erlass Nr. 2 von MOFCOM & MOST (2009), Maßnahmen für "
+"verbotene/beschränkte Technologieexporte"
 
 #: ../../book/sources.rst:93
 msgid "2009-04-20"
@@ -620,10 +619,10 @@ msgstr "``EAR734``"
 
 #: ../../book/sources.rst:116
 msgid ""
-"15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & "
+"15 CFR Part 734: Scope of the EAR, Published Open Source (``734.7``) & "
 "Contacts"
 msgstr ""
-"15 CFR Part 734 — Geltungsbereich der EAR, veröffentlichtes Open Source "
+"15 CFR Part 734: Geltungsbereich der EAR, veröffentlichtes Open Source "
 "(``734.7``) & Kontakte"
 
 #: ../../book/sources.rst:117 ../../book/sources.rst:121
@@ -645,9 +644,9 @@ msgstr "``EAR742``"
 
 #: ../../book/sources.rst:120
 msgid ""
-"15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)"
+"15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
 msgstr ""
-"15 CFR Part 742 — Kontrollpolitik: CCL-basierte Kontrollen "
+"15 CFR Part 742: Kontrollpolitik: CCL-basierte Kontrollen "
 "(``742.6(b)(10)``)"
 
 #: ../../book/sources.rst:122
@@ -664,10 +663,10 @@ msgstr "``EAR744``"
 
 #: ../../book/sources.rst:124
 msgid ""
-"15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, "
+"15 CFR Part 744: End-User and End-Use Based Controls (``744.11``, "
 "``744.23``)"
 msgstr ""
-"15 CFR Part 744 — Endnutzer- und endverwendungsbezogene Kontrollen "
+"15 CFR Part 744: Endnutzer- und endverwendungsbezogene Kontrollen "
 "(``744.11``, ``744.23``)"
 
 #: ../../book/sources.rst:126
@@ -684,9 +683,9 @@ msgstr "``EAR774``"
 
 #: ../../book/sources.rst:128
 msgid ""
-"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
 msgstr ""
-"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` und ``4E091``)"
+"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` und ``4E091``)"
 
 #: ../../book/sources.rst:130
 msgid ""
@@ -746,10 +745,9 @@ msgstr "``DOJ``"
 
 #: ../../book/sources.rst:140
 msgid ""
-"US Department of Justice National Security Division — Data Security "
-"Program"
+"US Department of Justice National Security Division: Data Security Program"
 msgstr ""
-"US-Justizministerium (National Security Division) — Data Security Program"
+"US-Justizministerium (National Security Division), Data Security Program"
 
 #: ../../book/sources.rst:142
 msgid ""
@@ -764,8 +762,8 @@ msgid "``OSI``"
 msgstr "``OSI``"
 
 #: ../../book/sources.rst:144
-msgid "Open Source Initiative — Open Source AI Definition 1.0"
-msgstr "Open Source Initiative — Open Source AI Definition 1.0"
+msgid "Open Source Initiative: Open Source AI Definition 1.0"
+msgstr "Open Source Initiative, Open Source AI Definition 1.0"
 
 #: ../../book/sources.rst:145
 msgid "2024-10-28"
@@ -823,8 +821,7 @@ msgstr "``GD``"
 
 #: ../../book/sources.rst:156
 msgid "GuideDog Documentation & Book Publishing Engine (``v1.0.0-beta.10``)"
-msgstr ""
-"GuideDog Dokumentations- & Buchsatz-Engine (``v1.0.0-beta.10``)"
+msgstr "GuideDog Dokumentations- & Buchsatz-Engine (``v1.0.0-beta.10``)"
 
 #: ../../book/sources.rst:158
 msgid ""

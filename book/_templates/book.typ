@@ -242,7 +242,7 @@
     ),
     hi: (
       kicker: "सॉफ्टवेयर  /  मॉडल वेट्स  /  सिलिकॉन हार्डवेयर  /  मानव प्रगति",
-      sub: "जब निर्यात नियंत्रण केवल कोड और मॉडल तक नहीं रुकते, बल्कि चिप्स व हार्डवेयर की जड़ों तक पहुँचते हैं — साझा मानवीय ज्ञान के भविष्य की सचित्र कथा।",
+      sub: "जब निर्यात नियंत्रण केवल कोड और मॉडल तक नहीं रुकते, बल्कि चिप्स व हार्डवेयर की जड़ों तक पहुँचते हैं: साझा मानवीय ज्ञान के भविष्य की सचित्र कथा।",
       ai: "AI व चिप द्वार", bio: "जैव-चिकित्सा", solar: "सौर मशीनरी",
       foot: "सचित्र संस्करण  •  2 नवंबर 2026",
     ),
@@ -286,6 +286,15 @@
     #v(3.5mm)
     #sans-text(size: 8.8pt, fill: rgb("#546367"))[#cover-copy.foot #h(1fr) MOFCOM 48 / US EAR]
   ]
+  let colophon-credit = (
+    en: "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.",
+    zh: "本书借助 GuideDog 构建，并获 Vicky Ni、Ronak Rathore 与 Kanak Rathore 鼎力协助。",
+    ja: "本書は GuideDog の力を借り、Vicky Ni、Ronak Rathore、Kanak Rathore の協力を得て制作されました。",
+    ko: "이 책은 GuideDog의 도움과 Vicky Ni, Ronak Rathore, Kanak Rathore의 조력으로 제작되었습니다.",
+    hi: "यह पुस्तक GuideDog की सहायता तथा Vicky Ni, Ronak Rathore और Kanak Rathore के सहयोग से निर्मित की गई है।",
+    es: "Construido con la ayuda de GuideDog y con la colaboración de Vicky Ni, Ronak Rathore y Kanak Rathore.",
+    de: "Erstellt mit Hilfe von GuideDog sowie mit Unterstützung von Vicky Ni, Ronak Rathore und Kanak Rathore.",
+  ).at(lang-key, default: "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.")
   page(paper: paper, margin: (x: 24mm, top: 26mm, bottom: 28mm), header: none,
     footer: none, numbering: none)[
     #set par(justify: false, first-line-indent: 0em, spacing: 0.9em)
@@ -296,6 +305,7 @@
     #if copyright != "" [ \ \u{a9} #copyright]
     #if author != "" and copyright == "" [ \ #author]
     #if date != "" [ \ #date]
+    \ #text(fill: ink, colophon-credit)
   ]
 
   // ---- The page ----------------------------------------------------------------------

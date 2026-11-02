@@ -3,64 +3,65 @@
   "engine": "guidedog 1.0.0-beta.10 (native rst, typst-diagram, cetz 0.3.4, fletcher 0.5.8, graphviz 16.1.0, gettext, ssg)",
   "python_scripts_used": 0,
   "html_pages": 99,
-  "local_links_and_assets": 5005,
+  "local_links_and_assets": 5089,
   "missing_files": 0,
   "missing_anchors": 0,
   "languages": 7,
-  "translated_catalog_entries_per_locale": 594,
+  "translated_catalog_entries_per_locale": 623,
   "untranslated_entries": 0,
   "fuzzy_entries": 0,
+  "em_dashes_in_sources_and_catalogs": 0,
   "technology_points_per_edition": 40,
   "primary_sources_verified": 22,
   "pdfs": [
     {
       "language": "en",
       "file": "books/en/open-source-ai-export-controls-en.pdf",
-      "pages": 47,
-      "bytes": 7623507,
-      "sha256": "c846604284f53e11451987514b2db47bd8b17696085a5261f5562d7dce5ba95a"
+      "pages": 49,
+      "bytes": 7797512,
+      "sha256": "3fbefb19156eb42cc88c142b6e40b43ee816257e7c26d2c7109511d75713f3e7"
     },
     {
       "language": "zh-cn",
       "file": "books/zh-cn/open-source-ai-export-controls-zh_CN.pdf",
-      "pages": 48,
-      "bytes": 8138841,
-      "sha256": "5a0e99703e4e69e65125ab8e72012522ccd9b7467dcb43cf5e68a4bfdb94aa7c"
+      "pages": 49,
+      "bytes": 8269775,
+      "sha256": "89d813110ccc4d5da8a6cbb85707ab6bc6c661e71fe2a6a148eb61ba73c2d738"
     },
     {
       "language": "ja",
       "file": "books/ja/open-source-ai-export-controls-ja.pdf",
       "pages": 50,
-      "bytes": 8365577,
-      "sha256": "9b4c4282f0af190bc3a3d5610d32c6a937743b43f598351f76eae73e520c4738"
+      "bytes": 8521071,
+      "sha256": "409de964adf3c2234be10d34c741c463b1103d5d439b35826e3d21ad4d0a0681"
     },
     {
       "language": "ko",
       "file": "books/ko/open-source-ai-export-controls-ko.pdf",
-      "pages": 47,
-      "bytes": 8371910,
-      "sha256": "4606db62229bbeae57ceab31dac0c6175dc27e22e3754808a0d38263c351dfa1"
+      "pages": 49,
+      "bytes": 8553240,
+      "sha256": "af04ff83af55eaef594c527391264d23e6ad4b5c5ead3a7b287ccdf0c8d6e066"
     },
     {
       "language": "hi",
       "file": "books/hi/open-source-ai-export-controls-hi.pdf",
-      "pages": 47,
-      "bytes": 8529775,
-      "sha256": "b35760593fb01096e6abaa6a82ea16ccf6d5fbe46fd94ef8c0ab9ff578b13bb7"
+      "pages": 49,
+      "bytes": 8735045,
+      "sha256": "d9ba149d5092a815460215a52b7f2d1bc9defb2159b9b9b079c3053df819849f"
     },
     {
       "language": "es",
       "file": "books/es/open-source-ai-export-controls-es.pdf",
       "pages": 52,
-      "bytes": 7656928,
-      "sha256": "39085a78eda8ebd60cfeade720e897b7dec604a93ff9ec680052e83cbc968619"
+      "bytes": 7819146,
+      "sha256": "9718cf4babbd7639db33502c46f559df6cd2657803a98459e5506542f3b25b91"
     },
     {
       "language": "de",
       "file": "books/de/open-source-ai-export-controls-de.pdf",
       "pages": 52,
-      "bytes": 7718433,
-      "sha256": "85901e65cef65d8306968cdc9290546c66ff3e959fa850c95cec3cd2f3888c53"
+      "bytes": 7878732,
+      "sha256": "01d0e97484999503c72395c1ede0e125f8d3f6a55ea0babb1baf2bc78af8d74f"
     }
   ],
   "errors": []

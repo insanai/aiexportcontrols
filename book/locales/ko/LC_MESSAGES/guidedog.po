@@ -116,11 +116,11 @@ msgstr "규제 구분안"
 msgid "Prohibited (J) & Restricted (X)"
 msgstr "수출 금지(J) 및 제한(X) 전체"
 
-msgid "Proposed Prohibited (J — 14)"
-msgstr "수출 금지안 (J — 14개)"
+msgid "Proposed Prohibited (J: 14)"
+msgstr "수출 금지안 (J: 14개)"
 
-msgid "Proposed Restricted (X — 26)"
-msgstr "수출 제한안 (X — 26개)"
+msgid "Proposed Restricted (X: 26)"
+msgstr "수출 제한안 (X: 26개)"
 
 msgid "Interactive Scenario Guide"
 msgstr "인터랙티브 시나리오 가이드"
@@ -148,3 +148,6 @@ msgstr "22개 1차 사료"
 
 msgid "GitHub Repository"
 msgstr "GitHub 저장소"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "이 웹사이트는 GuideDog의 도움과 Vicky Ni, Ronak Rathore, Kanak Rathore의 조력으로 제작되었습니다."

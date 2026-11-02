@@ -381,3 +381,9 @@ html[data-theme="dark"] .landing-article img.typst-diagram {
   font-weight: 600;
   text-decoration: none;
 }
+
+.landing-credit {
+  color: var(--lp-ink);
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}

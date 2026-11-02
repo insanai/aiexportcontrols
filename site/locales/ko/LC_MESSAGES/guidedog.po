@@ -97,3 +97,6 @@ msgstr "요청하신 페이지가 이동되었거나 존재하지 않습니다. 
 
 msgid "Open the Book (English) →"
 msgstr "도서 열기 (영어판) →"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "이 웹사이트는 GuideDog의 도움과 Vicky Ni, Ronak Rathore, Kanak Rathore의 조력으로 제작되었습니다."

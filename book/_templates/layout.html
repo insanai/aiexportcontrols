@@ -180,8 +180,8 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
             <span>{{ _('Proposed rule') }}</span>
             <select id="atlas-status">
               <option value="all">{{ _('Prohibited (J) & Restricted (X)') }}</option>
-              <option value="prohibited">{{ _('Proposed Prohibited (J — 14)') }}</option>
-              <option value="restricted">{{ _('Proposed Restricted (X — 26)') }}</option>
+              <option value="prohibited">{{ _('Proposed Prohibited (J: 14)') }}</option>
+              <option value="restricted">{{ _('Proposed Restricted (X: 26)') }}</option>
             </select>
           </label>
         </div>
@@ -214,8 +214,9 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
     {%- endblock %}
     {%- block footer %}
     <footer class="gd-footer">
+      <p class="gd-footer-credit">{{ _('Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.') }}</p>
       <p>
-        <span>© 2026 China Export Control Research.</span>
+        <span>© 2026 AI Export Controls Research.</span>
         <span>{{ _('Primary sources verified 2 November 2026. Built natively with Guidedog, Typst, CeTZ, Fletcher & Graphviz.') }}</span>
       </p>
       <p class="gd-footer-links">
@@ -223,6 +224,7 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
         {% if not ssg_no_pdf %}<a href="{{ pdf_href }}">{{ _('Download PDF Book') }}</a>{% endif %}
         <a href="sources.html">{{ _('22 Primary Sources') }}</a>
         <a href="{{ repository }}">{{ _('GitHub Repository') }}</a>
+        <a href="https://github.com/insanai/guidedog">GuideDog</a>
       </p>
     </footer>
     {%- endblock %}

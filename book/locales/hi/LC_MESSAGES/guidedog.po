@@ -114,11 +114,11 @@ msgstr "प्रस्तावित नियम"
 msgid "Prohibited (J) & Restricted (X)"
 msgstr "निषिद्ध (J) व नियंत्रित (X)"
 
-msgid "Proposed Prohibited (J — 14)"
-msgstr "प्रस्तावित निषिद्ध (J — 14)"
+msgid "Proposed Prohibited (J: 14)"
+msgstr "प्रस्तावित निषिद्ध (J: 14)"
 
-msgid "Proposed Restricted (X — 26)"
-msgstr "प्रस्तावित नियंत्रित (X — 26)"
+msgid "Proposed Restricted (X: 26)"
+msgstr "प्रस्तावित नियंत्रित (X: 26)"
 
 msgid "Interactive Scenario Guide"
 msgstr "इंटरैक्टिव परिदृश्य मार्गदर्शिका"
@@ -146,3 +146,6 @@ msgstr "22 प्राथमिक स्रोत"
 
 msgid "GitHub Repository"
 msgstr "GitHub रिपॉज़िटरी"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "यह वेबसाइट GuideDog की सहायता तथा Vicky Ni, Ronak Rathore और Kanak Rathore के सहयोग से निर्मित की गई है।"

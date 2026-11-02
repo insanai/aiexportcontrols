@@ -97,3 +97,6 @@ msgstr "您访问的页面已迁移或不存在。请在下方选择语种版本
 
 msgid "Open the Book (English) →"
 msgstr "打开英文版全书 →"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "本网站借助 GuideDog 构建，并获 Vicky Ni、Ronak Rathore 与 Kanak Rathore 鼎力协助。"

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Impact of Export Controls on the Future of Open Source AI — how software, model weights, and silicon hardware gates reshape human progress, proven with primary sources and game theory.
+   :description: Impact of Export Controls on the Future of Open Source AI: how software, model weights, and silicon hardware gates reshape human progress, proven with primary sources and game theory.
 
 =========================================================
 Impact of Export Controls on the Future of Open Source AI
@@ -10,16 +10,16 @@ Imagine a world with no tollbooths on human thought. Two centuries ago, Thomas J
 .. figure:: assets/images/cover-walled-commons.jpg
    :name: fig-cover-commons
 
-   From an open commons to a guarded horizon: ideas once sailed freely across borders like folded paper birds, before export walls rose across both silicon hardware and frontier models — leaving one narrow jade doorway ajar for open-source science.
+   From an open commons to a guarded horizon: ideas once sailed freely across borders like folded paper birds, before export walls rose across both silicon hardware and frontier models, leaving one narrow jade doorway ajar for open-source science.
 
 For four hundred years, humanity's greatest leaps rested on that quiet miracle. Movable type, germ theory, astronomical tables, the internet protocol suite, Linux, and most recently **open-source artificial intelligence** flourished because strangers across oceans could read, test, repair, and improve one another's work without waiting in line for a sovereign export stamp. Between 2023 and 2026, open-weight models turned what might have become a closed corporate priesthood into a living global commons. A rural clinic in Kenya triaging childhood pneumonia offline, a linguist rescuing an endangered mother tongue, and university students with two consumer graphics cards in Munich or Bengaluru suddenly held genuine frontier reasoning in their own hands ``[OSI]`` ``[R1]`` ``[QWEN]``.
 
-Then the walls began to rise — not only in the sky of software, but deep underground in the bedrock of silicon.
+Then the walls began to rise: not only in the sky of software, but deep underground in the bedrock of silicon.
 
 Not Just Software or Weights: The Hardware Beneath Open Minds
 =============================================================
 
-Most conversations about open-source AI make a comforting mistake. They imagine an AI model as pure, weightless poetry — a file of code and numbers that can stay free forever as long as someone places an MIT or Apache 2.0 license on GitHub.
+Most conversations about open-source AI make a comforting mistake. They imagine an AI model as pure, weightless poetry: a file of code and numbers that can stay free forever as long as someone places an MIT or Apache 2.0 license on GitHub.
 
 In physical reality, no neural network floats in thin air. Every open model sits atop an industrial pyramid of **extreme-ultraviolet lithography lenses, silicon wafers, stacked high-bandwidth memory (HBM), custom processor instruction sets, and miles of optical fiber stitching ten thousand accelerator cards into a single supercomputer**. Export controls have now clamped onto **both halves of that stack** at once:
 
@@ -28,59 +28,103 @@ In physical reality, no neural network floats in thin air. Every open model sits
 
    Mind and silicon are inseparable: open-source constellations illuminating clinics, classrooms, and workshops above ground draw their life from subterranean silicon wafers, stacked HBM memory, and ten-thousand-card supercluster cables now guarded by border gates.
 
-* **Below the surface (Hardware & Silicon Chokepoints):** Washington built its border fortress around physical computation — restricting flagship AI chips (``3A090``), semiconductor manufacturing tools, and foreign-made chips designed with US software (``15 CFR 734.9``), even after calibrating conditional case-by-case review for H200-class exports in January 2026 ``[US26]`` ``[EAR734]`` ``[EAR742]`` ``[EAR774]``. Beijing's October 2026 draft answers in kind on the architectural side, proposing export controls on **AI processor designs, custom instruction sets, IP cores, 2.5D/3D chiplet packaging, non-von-Neumann chips, high-density 3D NAND, and <=18 nm or stacked DRAM designs** (``266506X``), alongside **10,000-card supercluster interconnects and multi-vendor chip-orchestration stacks** (``266507X``) and 18 classes of solar factory machinery ``[CN-A1]``.
+* **Below the surface (Hardware & Silicon Chokepoints):** Washington built its border fortress around physical computation, restricting flagship AI chips (``3A090``), semiconductor manufacturing tools, and foreign-made chips designed with US software (``15 CFR 734.9``), even after calibrating conditional case-by-case review for H200-class exports in January 2026 ``[US26]`` ``[EAR734]`` ``[EAR742]`` ``[EAR774]``. Beijing's October 2026 draft answers in kind on the architectural side, proposing export controls on **AI processor designs, custom instruction sets, IP cores, 2.5D/3D chiplet packaging, non-von-Neumann chips, high-density 3D NAND, and <=18 nm or stacked DRAM designs** (``266506X``), alongside **10,000-card supercluster interconnects and multi-vendor chip-orchestration stacks** (``266507X``) and 18 classes of solar factory machinery ``[CN-A1]``.
 * **Above the surface (Software, Weights & Data Gates):** On **16 October 2026**, China's Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MOST) issued **Announcement No. 48 of 2026**, proposing **40 technology checkpoints** across AI and chips (23), biomedicine (5), and solar manufacturing (12) while switching on mandatory pre-export registration that same afternoon ``[CN48]`` ``[CNQA]``. Private transfers of frontier model weights crossing :math:`10^{26}` FLOPs, **2 trillion parameters**, or a **Global Top-10 benchmark** (``266504X``) enter licensing gates, alongside Washington's own contested ``4E091`` closed-weight rule ``[CN-A1]`` ``[US25]`` ``[GAO26]``.
 
 .. important::
 
    Even if software licenses remain free on paper, open-source AI cannot thrive in a vacuum: if export controls ration the chips needed to train open models, lock up open silicon blueprints, or price local hardware out of reach for hospitals and universities, humanity gets nudged back from owning minds to renting metered corporate cloud windows.
 
-The Fortress Trap: What Game Theory Proves About Walled Intelligence
-====================================================================
+The Fortress Trap: Why High Walls Leave Everyone Worse Off
+==========================================================
 
-Every capital erects export walls in the name of safety and strategic advantage. Yet if we translate the rivalry between two technological powers — call them **Bloc A** and **Bloc B** — into crisp **mathematical game theory**, a chilling paradox appears: *unilateral walls look rational in a single move, yet mutual walls drag the entire world backward while making humanity measurably more dangerous.*
+Every capital builds export walls hoping to stay ahead and stay safe. At first glance, hoarding technology inside national borders sounds like simple common sense: *if we keep our breakthroughs to ourselves, won't we be stronger and safer?*
+
+To test whether that instinct holds up in the real world, imagine two technological neighbors across a dark strait, **Country A** and **Country B**. Each country faces a basic choice over its non-military AI software and chip designs:
+
+* **Share Openly (S):** Publish research papers, open-weight AI models, and safety fixes so engineers, doctors, and universities everywhere can inspect, test, and build upon them.
+* **Build a Wall (W):** Lock AI models, chip blueprints, and computing hardware behind broad export controls so outsiders cannot easily use or inspect them.
+
+Notice the catch: what happens to Country A depends not only on Country A's own decision, but also on what Country B decides at the exact same moment. Mathematicians and economists have a name for studying situations like this. They call it **game theory**: not a study of board games, but the clear math of strategic choices where everyone's outcome is tied together.
 
 .. note::
 
-   **Analytical model:** The mathematical payoff equations below model structural strategic incentives across open and closed innovation regimes; they are analytical proofs rather than statutory rules.
+   **Analytical model:** The plain-number score sheet and equations below illustrate strategic incentives across open and closed technology choices; they are an analytical proof rather than a legal rule.
 
 .. figure:: assets/images/prisoners-fortress.jpg
    :name: fig-prisoners-fortress
 
-   Two fortresses across a dark strait: when rival powers hoard dim, solitary flames behind crimson battlements, storm shadows gather around both — whereas two flames joined in a shared lighthouse illuminate the entire sea.
+   Two fortresses across a dark strait: when rival powers hoard dim, solitary flames behind crimson battlements, storm shadows gather around both, whereas two flames joined in a shared lighthouse illuminate the entire sea.
 
-Suppose each bloc chooses between sustaining an **Open Commons** (:math:`O`) for non-weaponized AI and compute architectures or erecting a **Broad Wall** (:math:`W`) across models and hardware. Each side begins with baseline domestic R&D value :math:`V = 10`. When a bloc stays **Open** (:math:`O`), its published breakthroughs, chip tools, and safety benchmarks create :math:`+8` of compounding spillover value for the other side. Building and enforcing a **Wall** (:math:`W`) imposes :math:`-1` in supply-chain duplication (re-inventing fabs, compilers, and siloed clusters), grants :math:`+5` in short-term strategic lead if the rival stays open (while inflicting :math:`-5` lag on the lone open side), and carries an expected systemic catastrophe cost :math:`R(s_A, s_B)`.
+Step 1: Keeping Score with Plain Everyday Numbers
+-------------------------------------------------
 
-For each player :math:`i \in \{A, B\}`, net payoff is governed by one transparent equation:
+Before touching a single equation, let us keep score on a simple **20-point scale** that anyone can check on the back of an envelope:
 
-.. math::
+* **Homegrown work (+10 points):** Working purely on its own, each country's scientists, labs, and factories generate **+10** points of baseline progress.
+* **The shared-knowledge bonus (+8 points):** Whenever a country chooses **Share Openly (S)**, its published breakthroughs, open code, and bug fixes save the other country years of dead ends, adding **+8** points to the other side without taking a single point away from the sharer (Jefferson's candle).
+* **The duplicate-factory cost (-1 point):** Choosing **Build a Wall (W)** forces a country to spend billions reinventing supply chains, chip tools, and isolated computing clusters from scratch, costing **-1** point.
+* **The temporary one-sided lead (+5 or -5 points):** If *only one* country builds a wall while the other keeps sharing, the walled country briefly gets both worlds: it still reads the open country's discoveries (**+8**) while keeping its own secret, grabbing a **+5** monopoly lead and pushing the lone sharer **-5** behind. *Notice what happens if both build walls:* neither can read the other's work, so the **+5** and **-5** cancel straight back to **0**.
+* **The hidden-bug danger (-1, -2, or -4 points):** Every complex AI model or chip design can hide dangerous alignment flaws or security bugs. How much harm those hidden bugs cause depends on how many independent eyes are allowed to inspect the technology.
 
-   \Pi_i(s_i, s_j) = 10 + 8\,\mathbb{I}(s_j = O) - \mathbb{I}(s_i = W) + 5\big[\mathbb{I}(s_i = W) - \mathbb{I}(s_j = W)\big] - R(s_i, s_j)
+Step 2: Why Secrecy Multiplies Danger Instead of Safety (The Coin-Flip Test)
+----------------------------------------------------------------------------
 
-Why does systemic danger :math:`R` *rise* instead of fall when broad walls go up? Because software, hardware, cyber, and biological safety obey an **exponential law of independent scrutiny** (known in open-source engineering as Linus's Law). Suppose a frontier AI or chip stack harbors an unnoticed alignment flaw or critical zero-day vulnerability with base probability :math:`p_0`, and each independent research community catches it with probability :math:`q \in (0, 1)`. Across :math:`n` independent auditing communities, the probability that a catastrophic flaw survives undetected is:
+Why would locking AI behind high walls make the world *more* dangerous rather than safer? Think of tossing a coin while hunting for a hidden software bug.
+
+Suppose a serious flaw slips into a new AI model, and any single research team testing behind closed doors has a **50 percent** (:math:`1/2`) chance of missing it before launch:
+
+* If **1 closed lab** checks the system in secret, there is a **50%** chance the dangerous flaw survives unseen into the real world.
+* If **4 independent teams** openly inspect and test the system, *all four* would have to miss the flaw in a row: :math:`(1/2)^4 = \mathbf{6.25\%}`.
+* If **10 independent communities** around the world (universities, hospital engineers, chip designers, security auditors) inspect it openly, the chance that *every single one* misses the flaw drops to :math:`(1/2)^{10}`, **less than 0.1%** (under one in a thousand).
+
+Open-source engineers call this "many-eyes" discovery **Linus's Law** (*"given enough eyeballs, all bugs are shallow"*). In mathematics, if a hidden flaw starts with probability :math:`p_0` and each independent auditing group catches it with probability :math:`q`, then across :math:`n` independent groups the chance that a dangerous flaw survives unnoticed shrinks exponentially:
 
 .. math::
 
    P(\text{flaw survives}) = p_0 (1 - q)^n
 
-* **Mutual Open Commons** :math:`(O, O)`: :math:`2k` global communities inspect weights, reproduce benchmarks, and equip hospitals, power grids, and universities with local defensive AI. Flaw survival drops exponentially to :math:`p_0(1 - q)^{2k}`, keeping systemic risk at :math:`R(O, O) = 1`. Each side earns :math:`10 + 8 - 0 + 0 - 1 = +17` (**World Welfare = 34**).
-* **Unilateral Wall** :math:`(W, O)` **or** :math:`(O, W)`: Global scrutiny halves (:math:`R = 2`). The hoarder still reads the open bloc's papers and weights (:math:`+8`) while capturing a temporary monopoly lead (:math:`+5 - 1`), scoring :math:`+20`, while the lone open bloc drops to :math:`10 + 0 - 0 - 5 - 2 = +3` (**World Welfare = 23**).
-* **Mutual Broad Walls** :math:`(W, W)`: Three dangers compound simultaneously: **(1)** closed silos shrink independent red-teaming eyes (:math:`m \ll 2k`), leaving hidden flaws unpatched; **(2)** civilian defenders (clinics, municipal utilities, small firms) lose open-weight defensive tools while covert attackers still operate in secret; and **(3)** strategic opacity between rival black-box labs breeds worst-case fear and rushed safety testing. Systemic danger quadruples to :math:`R(W, W) = 4`. Worse still, the zero-sum lead cancels out (:math:`+5 - 5 = 0`), leaving each side at :math:`10 + 0 - 1 + 0 - 4 = +5` (**World Welfare = 10**).
+That simple curve explains why our hidden-bug penalty changes across the board:
+
+* When **both countries share (S, S)**, global teams test weights and chip tools in the open, while hospitals, power grids, and small cities can run local open AI to defend their networks. Bug risk stays low (**R = 1**).
+* When **one country walls up (S, W or W, S)**, half of global scrutiny disappears behind closed doors, doubling unseen risk (**R = 2**).
+* When **both countries wall up (W, W)**, three hazards stack together: **(1)** closed black boxes have far fewer independent testers; **(2)** everyday hospitals, schools, and utilities lose open defensive AI tools while covert attackers ignore export laws anyway; and **(3)** rival governments cannot see inside each other's secret labs, breeding worst-case suspicion and rushed launches. Hidden danger quadruples (**R = 4**).
+
+Step 3: Checking All Four Choices Side by Side
+----------------------------------------------
+
+Putting those five plain pieces together gives one transparent score rule for either country:
+
+.. math::
+
+   \text{Net Score} = 10 + B_{\text{share}} - C_{\text{wall}} + L_{\text{solo}} - R_{\text{bugs}}
+
+where :math:`B_{\text{share}} = 8` if the other side shares (else :math:`0`), :math:`C_{\text{wall}} = 1` if you build a wall (else :math:`0`), :math:`L_{\text{solo}} = +5` or :math:`-5` only when one side walls alone (:math:`0` if both make the same choice), and :math:`R_{\text{bugs}} \in \{1, 2, 4\}`.
+
+Now check all four boxes in :numref:`fig-game-theory` using ordinary addition and subtraction:
+
+* **Both Share Openly (S, S):** Each country earns :math:`10 + 8 - 1 = \mathbf{+17}`. Combined world progress reaches **34**, and bug risk stays at its safest (**1x**).
+* **Country A Shares Alone, Country B Builds a Wall (S, W):** Country B still reads A's open work (**+8**), pays **-1** for its wall, grabs the **+5** solo lead, and faces **-2** bug risk, scoring :math:`10 + 8 - 1 + 5 - 2 = \mathbf{+20}`. Country A drops to :math:`10 + 0 - 5 - 2 = \mathbf{+3}` (world total falls to **23**).
+* **Country A Builds a Wall, Country B Shares Alone (W, S):** The exact mirror image: Country A scores **+20** and Country B drops to **+3** (world total **23**).
+* **Both Build Walls (W, W):** Neither gets the **+8** shared bonus, both pay **-1** for duplicate factories, their solo leads cancel to **0**, and bug risk hits **-4**. Each country finishes with only :math:`10 + 0 - 1 + 0 - 4 = \mathbf{+5}` (world total crashes to **10**).
 
 .. typst-diagram::
-   :caption: The Prisoner's Dilemma of broad export walls (left) paired with Linus's Law of exponential flaw scrutiny (right), compiled natively with Typst and CeTZ.
+   :caption: Symmetric 2x2 payoff table for Country A and Country B (top), paired with the Many-Eyes bug-risk curve and plain arithmetic key (bottom), compiled natively with Typst and CeTZ.
    :name: fig-game-theory
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
 
-Look at the cold logic of :numref:`fig-game-theory`:
+Step 4: Three Famous Ideas That Explain the Trap
+------------------------------------------------
 
-1. **Walling is a strictly dominant one-shot temptation:** If Bloc B plays Open, Bloc A prefers Wall (:math:`20 > 17`). If Bloc B plays Wall, Bloc A still prefers Wall (:math:`5 > 3`). Left to uncoordinated fear, rational capitals march straight into the **unique pure-strategy Nash Equilibrium** :math:`(W, W) = (+5, +5)`.
-2. **The world goes backward by 70 percent:** Global welfare collapses from **34** to **10**, and neither power ends up ahead of the other (:math:`5 = 5`). Trillions of dollars go into duplicating lithography tools, memory fabs, and closed training runs merely to stand still.
-3. **The world grows four times more dangerous** (:math:`R = 4` vs. :math:`R = 1`): Secrecy feels safe inside a briefing room, yet mathematically it blinds global safety auditing and disarms civilian infrastructure.
+Once the plain numbers are on the table, three famous concepts from economics and strategy become effortless to grasp:
 
-How do intelligent societies escape a Prisoner's Dilemma? In game theory, the answer is **institutional mechanism design**: draw **high, narrow fences** around genuine weapons (core state secrets, autonomous cyber-weapons, engineered pathogens), while legally guaranteeing **open bridges** for shared science and open-source AI so neither side fears being trapped at :math:`+3`.
+1. **Pareto Optimum (top-left box, A: +17 | B: +17):** Named after economist Vilfredo Pareto, a *Pareto Optimum* simply means the best shared outcome where no change could make one country better off without hurting the other. Mutual open sharing creates **34** points of human progress and the lowest global risk (**1x**).
+2. **Prisoner's Dilemma (why smart leaders walk into a bad outcome):** Look through Country A's eyes when there is no mutual trust. *If Country B shares*, building a wall lifts A from **+17** to **+20**. *If Country B builds a wall*, building a wall protects A from falling to **+3** and gives **+5** instead. Because **+20 beats +17** and **+5 beats +3**, each side feels pressured to build a wall, even though both can see ahead of time that two walls hurt everyone. Game theorists call this self-defeating trap a **Prisoner's Dilemma**.
+3. **Nash Equilibrium (bottom-right box, A: +5 | B: +5):** Named after mathematician John Nash, a *Nash Equilibrium* is a stuck standoff where neither side can improve its score by changing course alone. Once both countries sit behind high walls at **(+5, +5)**, neither dares open up first for fear of dropping from **+5** to **+3**. Yet look at the human cost of that stalemate: **70 percent of shared progress vanishes (34 down to 10), global bug and cyber danger quadruples (4x), and neither power gains a single point of lead over the other (5 = 5).**
+
+How do wise societies escape a Prisoner's Dilemma? Never by ignoring real weapons, and never by walling off everyday science. They redesign the rules: build **high, narrow fences** around genuine weapons (core state secrets, autonomous cyber-weapons, engineered pathogens), while keeping **legally guaranteed open bridges** for shared research and open-source AI so neither country fears being stranded alone at **+3**.
 
 The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall
 =================================================================
@@ -101,7 +145,7 @@ When we turn from game theory back to the verified legal texts of November 2026,
 How to Read This Book
 =====================
 
-We wrote this book for normal, curious human beings — builders, researchers, doctors, founders, students, journalists, and citizens — who want vivid clarity backed by verified primary evidence:
+We wrote this book for normal, curious human beings (builders, researchers, doctors, founders, students, journalists, and citizens) who want vivid clarity backed by verified primary evidence:
 
 * :doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its two separate clocks, and all **40 guarded technologies**.
 * :doc:`ai` takes you inside both the software recipe and the silicon hardware stack (``266504X``, ``266506X``, ``266507X``).

@@ -97,3 +97,6 @@ msgstr "Diese Seite wurde verschoben oder existiert nicht. Wählen Sie unten ein
 
 msgid "Open the Book (English) →"
 msgstr "Buch öffnen (Englisch) →"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "Erstellt mit Hilfe von GuideDog sowie mit Unterstützung von Vicky Ni, Ronak Rathore und Kanak Rathore."

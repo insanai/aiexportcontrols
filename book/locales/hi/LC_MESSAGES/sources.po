@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:44+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 11:41+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: Hindi\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../book/sources.rst:1
 msgid ""
-"Chapter 10 — All 22 verified primary sources, untouched WPS and PDF "
+"Chapter 10: All 22 verified primary sources, untouched WPS and PDF "
 "official documents, SHA-256 verification method, and plain-language "
 "glossary as of 2 November 2026."
 msgstr ""
-"अध्याय 10 — 2 नवम्बर 2026 की स्थिति में सभी 22 सत्यापित प्राथमिक स्रोत, "
+"अध्याय 10: 2 नवम्बर 2026 की स्थिति में सभी 22 सत्यापित प्राथमिक स्रोत, "
 "अपरिवर्तित WPS व PDF आधिकारिक दस्तावेज़, SHA-256 सत्यापन पद्धति और सरल "
 "शब्दावली।"
 
@@ -234,11 +234,11 @@ msgstr "चिप टेप-आउट (``芯片流片``)"
 #: ../../book/sources.rst:43
 msgid ""
 "Sending a finished processor blueprint from a chip-design team to a "
-"semiconductor foundry to manufacture physical silicon wafers — explicitly "
+"semiconductor foundry to manufacture physical silicon wafers, explicitly "
 "offered automatic-licensing facilitation in Announcement 48's Footnote 2."
 msgstr ""
 "भौतिक सिलिकॉन वेफ़र बनवाने के लिए चिप-डिज़ाइन टीम द्वारा तैयार प्रोसेसर "
-"ब्लूप्रिंट को सेमीकंडक्टर फ़ाउंड्री भेजना — इसके लिए घोषणा 48 की टिप्पणी "
+"ब्लूप्रिंट को सेमीकंडक्टर फ़ाउंड्री भेजना, इसके लिए घोषणा 48 की टिप्पणी "
 "2 में स्पष्ट रूप से स्वतः लाइसेंसिंग सुविधा दी गई है।"
 
 #: ../../book/sources.rst:45
@@ -602,10 +602,10 @@ msgstr "``EAR734``"
 
 #: ../../book/sources.rst:116
 msgid ""
-"15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & "
+"15 CFR Part 734: Scope of the EAR, Published Open Source (``734.7``) & "
 "Contacts"
 msgstr ""
-"15 CFR Part 734 — EAR का दायरा, प्रकाशित ओपन सोर्स (``734.7``) व संपर्क"
+"15 CFR Part 734: EAR का दायरा, प्रकाशित ओपन सोर्स (``734.7``) व संपर्क"
 
 #: ../../book/sources.rst:117 ../../book/sources.rst:121
 #: ../../book/sources.rst:125 ../../book/sources.rst:129
@@ -626,9 +626,9 @@ msgstr "``EAR742``"
 
 #: ../../book/sources.rst:120
 msgid ""
-"15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)"
+"15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
 msgstr ""
-"15 CFR Part 742 — नियंत्रण नीति: CCL-आधारित नियंत्रण (``742.6(b)(10)``)"
+"15 CFR Part 742: नियंत्रण नीति: CCL-आधारित नियंत्रण (``742.6(b)(10)``)"
 
 #: ../../book/sources.rst:122
 msgid ""
@@ -644,10 +644,10 @@ msgstr "``EAR744``"
 
 #: ../../book/sources.rst:124
 msgid ""
-"15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, "
+"15 CFR Part 744: End-User and End-Use Based Controls (``744.11``, "
 "``744.23``)"
 msgstr ""
-"15 CFR Part 744 — अंतिम-उपयोगकर्ता एवं अंतिम-उपयोग आधारित नियंत्रण "
+"15 CFR Part 744: अंतिम-उपयोगकर्ता एवं अंतिम-उपयोग आधारित नियंत्रण "
 "(``744.11``, ``744.23``)"
 
 #: ../../book/sources.rst:126
@@ -664,9 +664,9 @@ msgstr "``EAR774``"
 
 #: ../../book/sources.rst:128
 msgid ""
-"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
 msgstr ""
-"15 CFR Part 774 — कॉमर्स कंट्रोल लिस्ट (ECCN ``3A090`` और ``4E091``)"
+"15 CFR Part 774: कॉमर्स कंट्रोल लिस्ट (ECCN ``3A090`` और ``4E091``)"
 
 #: ../../book/sources.rst:130
 msgid ""
@@ -726,10 +726,9 @@ msgstr "``DOJ``"
 
 #: ../../book/sources.rst:140
 msgid ""
-"US Department of Justice National Security Division — Data Security "
-"Program"
+"US Department of Justice National Security Division: Data Security Program"
 msgstr ""
-"अमेरिकी न्याय विभाग राष्ट्रीय सुरक्षा प्रभाग — डेटा सिक्योरिटी प्रोग्राम"
+"अमेरिकी न्याय विभाग राष्ट्रीय सुरक्षा प्रभाग, डेटा सिक्योरिटी प्रोग्राम"
 
 #: ../../book/sources.rst:142
 msgid ""
@@ -744,8 +743,8 @@ msgid "``OSI``"
 msgstr "``OSI``"
 
 #: ../../book/sources.rst:144
-msgid "Open Source Initiative — Open Source AI Definition 1.0"
-msgstr "Open Source Initiative — ओपन-सोर्स एआई परिभाषा 1.0"
+msgid "Open Source Initiative: Open Source AI Definition 1.0"
+msgstr "Open Source Initiative, ओपन-सोर्स एआई परिभाषा 1.0"
 
 #: ../../book/sources.rst:145
 msgid "2024-10-28"

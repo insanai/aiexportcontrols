@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
-"PO-Revision-Date: 2026-11-02 11:30+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
+"PO-Revision-Date: 2026-11-02 12:36+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: China Export Control Research\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,10 @@ msgstr ""
 
 #: ../../site/index.rst:1
 msgid ""
-"Impact of Export Controls on the Future of Open Source AI — An "
-"illustrated literary and evidentiary book on how software, model-weight, "
-"and silicon hardware borders reshape human progress."
-msgstr ""
-"出口管制对开源人工智能未来的影响——一部图文并茂的纪实与实证之书，深入剖析软件、模型权重与硅基硬件边界如何重塑人类进步。"
+"Impact of Export Controls on the Future of Open Source AI: an illustrated "
+"literary and evidentiary book on how software, model-weight, and silicon "
+"hardware borders reshape human progress."
+msgstr "出口管制对开源人工智能未来的影响：一部图文并茂的纪实与实证之书，深入剖析软件、模型权重与硅基硬件边界如何重塑人类进步。"
 
 #: ../../site/index.rst:5
 msgid "Impact of Export Controls on the Future of Open Source AI"
@@ -37,12 +36,14 @@ msgstr "一部关于开放心智、硅基硬件与人类进步的图文实证专
 #: ../../site/index.rst:14
 msgid ""
 "*\"He who lights his taper at mine, receives light without darkening "
-"me.\"* — For four centuries, human progress accelerated whenever an "
+"me.\"* For four centuries, human progress accelerated whenever an "
 "equation, a cure, or a line of code crossed an ocean without waiting for "
 "a customs stamp. Today, sovereign walls are rising across **both the "
 "software weights above ground and the silicon hardware beneath them**."
 msgstr ""
-"*“借我烛火点亮他烛之人，自己获得了光明，却分毫未使我暗淡。”* ——四百年来，每当一道方程、一味良方或一行代码无需等待海关印章便能远渡重洋，人类的进步便随之加速。而今天，主权的高墙正在同时拔地而起—— **既横亘于地上的软件模型权重之间，也深植于地下的硅基硬件底座之中** 。"
+"*“借我烛火点亮他烛之人，自己获得了光明，却分毫未使我暗淡。”* "
+"四百年来，每当一道方程、一味良方或一行代码无需等待海关印章便能远渡重洋，人类的进步便随之加速。而今天，主权的高墙正在同时拔地而起： "
+"**既横亘于地上的软件模型权重之间，也深植于地下的硅基硬件底座之中** 。"
 
 #: ../../site/index.rst:18
 msgid ""
@@ -50,16 +51,18 @@ msgid ""
 "<book-pdf_>`_ `Explore All 40 Checkpoints <read-atlas_>`_ `Official "
 "Approval & Contacts <read-contacts_>`_"
 msgstr ""
-"`开始阅读全书 <read-cover_>`_ `下载精排 PDF 全书 <book-pdf_>`_ `探索全部 40 项管制点 <read-atlas_>`_ `官方审批流程与通讯录 <read-contacts_>`_"
+"`开始阅读全书 <read-cover_>`_ `下载精排 PDF 全书 <book-pdf_>`_ `探索全部 40 项管制点 "
+"<read-atlas_>`_ `官方审批流程与通讯录 <read-contacts_>`_"
 
 #: ../../site/index.rst:26
 msgid ""
 "When open minds meet sovereign walls: between 2023 and 2026, open-source "
 "AI put frontier reasoning into the hands of rural clinics, universities, "
-"and small workshops worldwide — before export controls reached into "
-"chips, memory stacks, superclusters, and model weights alike."
+"and small workshops worldwide, before export controls reached into chips, "
+"memory stacks, superclusters, and model weights alike."
 msgstr ""
-"当开放的心智遇上主权的高墙：2023 至 2026 年间，开源人工智能曾将前沿推理能力交到世界各地的乡村诊所、大学课堂与小型工坊手中——直到出口管制的触角同时伸向算力芯片、堆叠存储、万卡超算集群与模型权重。"
+"当开放的心智遇上主权的高墙：2023 至 2026 "
+"年间，开源人工智能曾将前沿推理能力交到世界各地的乡村诊所、大学课堂与小型工坊手中，直到出口管制的触角同时伸向算力芯片、堆叠存储、万卡超算集群与模型权重。"
 
 #: ../../site/index.rst:28
 msgid "From an Open Republic of Ideas to a Guarded Horizon"
@@ -68,12 +71,12 @@ msgstr "从思想的开放共和国到设防的地平线"
 #: ../../site/index.rst:31
 msgid ""
 "Give away a loaf of bread and your kitchen has one loaf fewer. Give away "
-"an algorithm — or an open-weight neural network — and a pediatric clinic "
-"in Nairobi, a linguist in Oaxaca, and two graduate students with consumer "
+"an algorithm, or an open-weight neural network, and a pediatric clinic in "
+"Nairobi, a linguist in Oaxaca, and two graduate students with consumer "
 "graphics cards in Munich can all build tomorrow morning without "
 "diminishing the creator by a single byte."
 msgstr ""
-"送出一只面包，你的厨房里便少了一只面包；但送出一套算法——或是一座开放权重的神经网络——内罗毕的儿科诊所、瓦哈卡的语言学家，以及慕尼黑那两名只有消费级显卡的研究生，明早便都能在此之上添砖加瓦，而创造者连一个字节都不会折损。"
+"送出一只面包，你的厨房里便少了一只面包；但送出一套算法，或是一座开放权重的神经网络，内罗毕的儿科诊所、瓦哈卡的语言学家，以及慕尼黑那两名只有消费级显卡的研究生，明早便都能在此之上添砖加瓦，而创造者连一个字节都不会折损。"
 
 #: ../../site/index.rst:33
 msgid ""
@@ -84,7 +87,9 @@ msgid ""
 "stacked high-bandwidth memory (HBM), and optical cables lashing ten "
 "thousand GPUs into one machine."
 msgstr ""
-"然而，有一条冷峻的物理法则主宰着开源人工智能的未来： **没有任何开源模型能够悬浮于真空之中。** 在每一份宽松自由的 MIT 或 Apache 2.0 许可证之下，都矗立着一座沉甸甸的重工业金字塔——极紫外光刻机镜头、处理器指令集、堆叠式高带宽存储器（HBM），以及将上万张加速卡编织成同一台超级计算机的高速光缆。"
+"然而，有一条冷峻的物理法则主宰着开源人工智能的未来： **没有任何开源模型能够悬浮于真空之中。** 在每一份宽松自由的 MIT 或 Apache "
+"2.0 "
+"许可证之下，都矗立着一座沉甸甸的重工业金字塔：极紫外光刻机镜头、处理器指令集、堆叠式高带宽存储器（HBM），以及将上万张加速卡编织成同一台超级计算机的高速光缆。"
 
 #: ../../site/index.rst:40
 msgid ""
@@ -92,7 +97,8 @@ msgid ""
 "``266506X``) and 10,000-card clusters (``266507X``) reshapes open-source "
 "AI even when code stays free."
 msgstr ""
-"软件在上，硅基在下：为何即便代码依然自由，对 AI 芯片（ ``3A090`` 、 ``266506X`` ）与万卡超算集群（ ``266507X`` ）的管制仍会彻底重塑开源人工智能的未来。"
+"软件在上，硅基在下：为何即便代码依然自由，对 AI 芯片（ ``3A090`` 、 ``266506X`` ）与万卡超算集群（ "
+"``266507X`` ）的管制仍会彻底重塑开源人工智能的未来。"
 
 #: ../../site/index.rst:44
 msgid ""
@@ -103,7 +109,10 @@ msgid ""
 "DRAM/HBM & 3D NAND designs** (``266506X``), **>10,000-card cluster "
 "interconnects** (``266507X``), and **18 classes of solar machinery**."
 msgstr ""
-"**硬件咽喉要道：** 华盛顿对旗舰级 ``3A090`` 算力加速卡、晶圆制造设备及采用美国软件设计的境外芯片筑起严密藩篱（并于 2026 年 1 月校准了针对 H200 芯片的严格逐案审查）；而北京于 2026 年 10 月发布的征求意见稿则拟对 **<=14 纳米 AI 芯片架构、<=18 纳米 DRAM/HBM 与 3D NAND 存储设计** （ ``266506X`` ）、 **超万卡集群高速互联与异构调度技术** （ ``266507X`` ）以及 **18 类核心光伏制造装备** 实施出口限制。"
+"**硬件咽喉要道：** 华盛顿对旗舰级 ``3A090`` 算力加速卡、晶圆制造设备及采用美国软件设计的境外芯片筑起严密藩篱（并于 2026 年 "
+"1 月校准了针对 H200 芯片的严格逐案审查）；而北京于 2026 年 10 月发布的征求意见稿则拟对 **<=14 纳米 AI "
+"芯片架构、<=18 纳米 DRAM/HBM 与 3D NAND 存储设计** （ ``266506X`` ）、 "
+"**超万卡集群高速互联与异构调度技术** （ ``266507X`` ）以及 **18 类核心光伏制造装备** 实施出口限制。"
 
 #: ../../site/index.rst:45
 msgid ""
@@ -111,28 +120,60 @@ msgid ""
 "October 2026) switches on immediate pre-export registration at "
 "``ecomp.mofcom.gov.cn`` and proposes licensing private transfers of "
 "models crossing :math:`10^{26}` **FLOPs**, **2 trillion parameters**, or "
-"a **Global Top-10 rank** (``266504X``) — mirroring Washington's contested "
+"a **Global Top-10 rank** (``266504X``), mirroring Washington's contested "
 "``4E091`` weight rule."
 msgstr ""
-"**软件与模型权重闸门：** 中国 **商务部与科技部2026年第48号公告** （2026 年 10 月 16 日）即日启用了 ``ecomp.mofcom.gov.cn`` 上的出口前信息登记机制，并拟对私下跨境转移突破 :math:`10^{26}` **FLOPs 训练算力** 、 **2 万亿参数规模** 或位列 **全球前十榜单** 的前沿大模型核心技术（ ``266504X`` ）实施出口许可——与华盛顿备受争议的 ``4E091`` 闭源模型权重规则遥相呼应。"
+"**软件与模型权重闸门：** 中国 **商务部与科技部2026年第48号公告** （2026 年 10 月 16 日）即日启用了 "
+"``ecomp.mofcom.gov.cn`` 上的出口前信息登记机制，并拟对私下跨境转移突破 :math:`10^{26}` **FLOPs "
+"训练算力** 、 **2 万亿参数规模** 或位列 **全球前十榜单** 的前沿大模型核心技术（ ``266504X`` "
+"）实施出口许可，与华盛顿备受争议的 ``4E091`` 闭源模型权重规则遥相呼应。"
 
 #: ../../site/index.rst:47
 msgid ""
-"The Mathematical Paradox: Why Broad Walls Make the World Poorer *and* "
-"More Dangerous"
-msgstr "数学悖论：为何宽泛的高墙会让世界更贫瘠 *且* 更危险"
+"The Fortress Trap: Why High Walls Make the World Poorer *and* More "
+"Dangerous"
+msgstr "堡垒陷阱：为何筑起高墙会让世界更贫瘠 *且* 更危险"
 
 #: ../../site/index.rst:50
 msgid ""
-"Capitals build broad technology walls hoping for safety and strategic "
-"lead. Inside the book, we model that rivalry mathematically using **game "
-"theory** and **Linus's Law of exponential flaw scrutiny** "
-":math:`P(\\text{flaw survives}) = p_0(1-q)^n` — proving why uncoordinated "
-"fear traps rival blocs in a classic **Prisoner's Dilemma**:"
+"Imagine two technological neighbors (**Country A** and **Country B**) "
+"deciding how to treat non-military AI software and chip designs. Each "
+"faces two everyday choices: **Share Openly (S)**, publishing research, "
+"open-weight models, and safety fixes so everyone can inspect and build on "
+"them; or **Build a Wall (W)**, locking models and hardware blueprints "
+"behind broad border controls."
 msgstr ""
-"各国首都总是寄望于筑起宽泛的技术高墙，以换取安全感与战略领先。在本书中，我们运用 **数学博弈论** 与 **开源安全审查的指数律（Linus 定律）** :math:`P(\\text{flaw survives}) = p_0(1-q)^n` 对这场大国角力进行了严密推演，证明缺乏协调的恐惧为何会将竞争阵营双双锁入经典的 **囚徒困境** ："
+"不妨设想隔海相望的两个科技邻国（ **A 国** 与 **B 国** "
+"），正在决定如何对待非军事用途的人工智能软件与芯片设计。两国各自面临两种直观的日常选择：要么选择 **公开共享 (S)** "
+"，发表学术论文、开放权重模型与安全补丁，让全世界的工程师、医生与高校都能共同审视并在此基础上创新；要么选择 **筑起高墙 (W)** "
+"，用宽泛的边境管制把模型与硬件图纸严密锁在国门之内。"
 
-#: ../../site/index.rst:53
+#: ../../site/index.rst:52
+msgid ""
+"At first glance, hoarding breakthroughs behind a high wall feels like "
+"common sense. Yet when *both* capitals think that way at the same time, "
+"their choices collide. Mathematicians study this kind of tug-of-war using "
+"**game theory**: the simple logic of decisions where your result depends "
+"not only on your own move, but also on what the other side chooses."
+msgstr ""
+"乍看之下，把技术突破藏在高墙背后似乎完全合乎常理。然而，当 *两座* 首都同时抱有这种想法时，双方的选择便会迎头相撞。数学家用 **博弈论** "
+"来剖析这类拉锯局面：它并非深奥的棋牌理论，而是一套清晰的决策逻辑，专门研究“你的最终得失不仅取决于你自己怎么选，也取决于对方同一时刻怎么选”的现实处境。"
+
+#: ../../site/index.rst:54
+msgid ""
+"When both countries share openly, each builds on the other's discoveries "
+"and scores **+17** (**34** combined), while global researchers spot "
+"dangerous software and chip bugs early. Yet if one country builds a wall "
+"while the other keeps sharing, the hoarder still reads the open side's "
+"public work while keeping its own secret, jumping briefly to **+20** and "
+"pushing the lone sharer down to **+3**. Fearing that **+3** loss, both "
+"capitals raise high walls:"
+msgstr ""
+"当两国都选择公开共享时，双方都能站在彼此的科研肩膀上前行，各自赢得 **+17** 分（全球合计 **34** "
+"分），全球研究者也能及早揪出危险的软件与芯片漏洞。可倘若一国筑起高墙、另一国继续共享，筑墙国便能一边照看对方的公开成果，一边把自己的突破秘而不宣，短期得分跃升至 "
+"**+20** ，而独自共享的一方则跌落至 **+3** 。正因谁都害怕吃 **+3** 分的闷亏，两国首都最终双双筑起高墙："
+
+#: ../../site/index.rst:57
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -140,46 +181,52 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"zh_CN\")"
 
-#: ../../site/index.rst:53
+#: ../../site/index.rst:57
 msgid ""
-"Inside the book's mathematical proof: unilateral hoarding tempts both "
-"powers (20 > 17), locking the world into a (+5, +5) Nash Equilibrium that "
-"destroys 70% of shared welfare and quadruples systemic danger (R = 4x)."
+"Inside the book's step-by-step proof: chasing a one-sided lead (+20 vs. "
+"+17) pulls both countries into a (+5, +5) stalemate that erases 70% of "
+"shared progress and quadruples unseen bug risk (4x)."
 msgstr ""
-"书中的数学证明：单边囤积的短期诱惑（20 > 17）驱使双方竞相筑墙，最终将世界锁死在 (+5, +5) 的纳什均衡之中——不仅摧毁了 70% 的全球共享福祉，更令系统性风险暴增至四倍（R = 4x）。"
+"书中的分步推演证明：追逐单边领先的诱惑（+20 对比 +17），会将两国双双拖入 (+5, +5) 的僵局，抹去 70% "
+"的人类共享进步，并令未知漏洞风险激增至四倍（4x）。"
 
-#: ../../site/index.rst:58
+#: ../../site/index.rst:62
 msgid ""
-"When both powers retreat behind broad walls, their temporary zero-sum "
-"lead cancels out (:math:`+5 = +5`), trillions are wasted duplicating fabs "
-"and closed training runs, independent global safety auditing splinters "
-"into blind black boxes, and hospitals and utilities lose open-weight "
-"cyber defenses. **Only narrow fences around genuine weapons — paired with "
-"open bridges for shared science — escape the trap.**"
+"Look at the bottom-right box (**A: +5 | B: +5**). Economists call this "
+"trap a **Prisoner's Dilemma**, and its stuck stalemate a **Nash "
+"Equilibrium**: neither country ends up a single point ahead (``5 = 5``), "
+"trillions go into duplicating chip plants and closed training clusters, "
+"and fewer independent eyes inspect black-box systems, multiplying hidden "
+"accident and cyber risk fourfold. **Only narrow fences around genuine "
+"weapons, paired with open bridges for shared science, break the trap.**"
 msgstr ""
-"当两大阵营双双退回宽泛的高墙之后，短暂的零和领先优势彼此抵消（ :math:`+5 = +5` ），数万亿美元被虚耗在重复建设晶圆厂与封闭训练集群上，独立的全球安全审计碎裂为一个个盲人摸象的黑箱，医院与公共事业机构也失去了开放权重的网络安全盾牌。 **唯有围绕真正的武器筑起高而窄的藩篱，同时为人类共享科学架设坚固的开放之桥，才能跳出这一陷阱。**"
+"请看矩阵右下角的方格（ **A: +5 | B: +5** ）。经济学家将这种双输圈套称为 **囚徒困境** ，并将这一动弹不得的僵局称为 "
+"**纳什均衡** ：到头来谁也没有领先对手半分（ ``5 = 5`` "
+"），数万亿美元被耗费在重复兴建晶圆厂与封闭训练集群上；由于审视黑箱系统的独立目光锐减，隐藏的安全事故与网络攻击风险反而暴增至四倍。 "
+"**唯有围绕真正的武器筑起高而窄的藩篱，同时为人类共享科学架起坚固的开放之桥，才能打破这一困局。**"
 
-#: ../../site/index.rst:60
+#: ../../site/index.rst:64
 msgid "What Our Primary-Source Investigation Uncovered"
 msgstr "我们对 22 份一手官方文献的调查发现了什么"
 
-#: ../../site/index.rst:63
+#: ../../site/index.rst:67
 msgid ""
 "Reading all **22 official Chinese and American legal texts** word for "
-"word — rather than relying on breathless headlines — reveals three vital "
+"word, rather than relying on breathless headlines, reveals three vital "
 "truths for builders and citizens everywhere:"
 msgstr ""
 "摒弃耸人听闻的标题党，逐字研读全部 **22 份中美官方原始法律文本** 之后，三条关乎每一位开发者与普通公民切身利益的关键真相浮出水面："
 
-#: ../../site/index.rst:65
+#: ../../site/index.rst:69
 msgid ""
 "**Already-public open-source AI remains untouched.** China's Footnote 1 "
 "and US ``15 CFR 734.7`` / ``4E091`` explicitly leave existing public MIT "
 "and Apache 2.0 models outside export licensing."
 msgstr ""
-"**已公开的开源人工智能毫发无损。** 中国目录草案注释 1 与美国 ``15 CFR 734.7`` 及 ``4E091`` 均明确规定，已通过开源发布进入公共领域的现有 MIT 与 Apache 2.0 模型不在出口许可管制之列。"
+"**已公开的开源人工智能毫发无损。** 中国目录草案注释 1 与美国 ``15 CFR 734.7`` 及 ``4E091`` "
+"均明确规定，已通过开源发布进入公共领域的现有 MIT 与 Apache 2.0 模型不在出口许可管制之列。"
 
-#: ../../site/index.rst:66
+#: ../../site/index.rst:70
 msgid ""
 "**New open-source AI and chip tape-outs get an express doorway.** Rather "
 "than banning open releases, China's Footnote 2 proposes **automatic "
@@ -187,9 +234,11 @@ msgid ""
 "foundry chip tape-outs (``芯片流片``), and Chinese firms' self-operated "
 "overseas clouds."
 msgstr ""
-"**新增开源 AI 发布与芯片流片享有专属快车道。** 中国并未一刀切封杀开源发布，而是在注释 2 中为新增开源人工智能出口、赴境外代工厂开展芯片流片（ ``芯片流片`` ）以及中资企业自建自营境外算力中心，专门设计了 **自动许可（“即报即出”）** 便利化通道。"
+"**新增开源 AI 发布与芯片流片享有专属快车道。** 中国并未一刀切封杀开源发布，而是在注释 2 "
+"中为新增开源人工智能出口、赴境外代工厂开展芯片流片（ ``芯片流片`` ）以及中资企业自建自营境外算力中心，专门设计了 "
+"**自动许可（“即报即出”）** 便利化通道。"
 
-#: ../../site/index.rst:67
+#: ../../site/index.rst:71
 msgid ""
 "**Every gate has a real address, clock, and phone number.** Inside the "
 "book, we map the complete before-and-after open-source release flowcharts "
@@ -197,32 +246,36 @@ msgid ""
 "portals, statutory 30 + 15 working-day clocks, room numbers, emails, "
 "faxes, and helpdesk phones**."
 msgstr ""
-"**每一道闸门背后都有真实的门牌、法定时限与咨询电话。** 我们在书中绘制了出口管制前后完整的开源发布对比流程图，并逐一核验汇总了 **中国商务部、科技部、省级商务主管部门与美国 BIS SNAP-R 申报平台、30 + 15 个工作日的法定审批时限，以及真实的办公室房号、电子邮箱、传真与服务热线** 。"
+"**每一道闸门背后都有真实的门牌、法定时限与咨询电话。** 我们在书中绘制了出口管制前后完整的开源发布对比流程图，并逐一核验汇总了 "
+"**中国商务部、科技部、省级商务主管部门与美国 BIS SNAP-R 申报平台、30 + 15 "
+"个工作日的法定审批时限，以及真实的办公室房号、电子邮箱、传真与服务热线** 。"
 
-#: ../../site/index.rst:71
+#: ../../site/index.rst:75
 msgid ""
-"**Cover & Overture** — `Jefferson's Taper, Hardware Roots & the "
+"**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the "
 "Game-Theory Proof <read-cover_>`_"
-msgstr ""
-"**封面与序章** —— `杰斐逊的烛火、硅基根系与博弈论证明 <read-cover_>`_"
+msgstr "**封面与序章：** `杰斐逊的烛火、硅基根系与博弈论证明 <read-cover_>`_"
 
-#: ../../site/index.rst:72
+#: ../../site/index.rst:76
 msgid ""
-"**Chapters 01 & 02** — `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
+"**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
 msgstr ""
-"**第 01 与 02 章** —— `第48号公告的两套时钟 <read-ch1_>`_ 与 `交互式 40 项技术管制图谱 <read-atlas_>`_"
+"**第 01 与 02 章：** `第48号公告的两套时钟 <read-ch1_>`_ 与 `交互式 40 项技术管制图谱 "
+"<read-atlas_>`_"
 
-#: ../../site/index.rst:73
+#: ../../site/index.rst:77
 msgid ""
-"**Chapters 03 & 04** — `Mind & Silicon Hardware Stack <read-ai_>`_ & "
+"**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & "
 "`Open-Source AI Before and After the Gates <read-open_>`_"
 msgstr ""
-"**第 03 与 04 章** —— `心智与硅基硬件全栈解析 <read-ai_>`_ 与 `设闸前后的开源 AI 发布之路 <read-open_>`_"
+"**第 03 与 04 章：** `心智与硅基硬件全栈解析 <read-ai_>`_ 与 `设闸前后的开源 AI 发布之路 "
+"<read-open_>`_"
 
-#: ../../site/index.rst:74
+#: ../../site/index.rst:78
 msgid ""
-"**Chapters 08 & 10** — `Official Government Approval & Contact Directory "
+"**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 22 Verified Primary Sources <read-sources_>`_"
 msgstr ""
-"**第 08 与 10 章** —— `官方审批流程与政府部门通讯录 <read-contacts_>`_ 与 `全部 22 份核验一手文献库 <read-sources_>`_"
+"**第 08 与 10 章：** `官方审批流程与政府部门通讯录 <read-contacts_>`_ 与 `全部 22 份核验一手文献库 "
+"<read-sources_>`_"

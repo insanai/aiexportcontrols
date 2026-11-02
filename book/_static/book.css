@@ -58,6 +58,12 @@ body {
   border-bottom: 1px solid var(--rule);
 }
 
+.gd-footer-credit {
+  color: var(--ink);
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
 .gd-brand-symbol {
   width: 1.5rem;
   height: 1.5rem;

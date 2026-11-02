@@ -1,5 +1,5 @@
 .. meta::
-   :description: Chapter 7 — United States export controls in plain language: BIS EAR 3A090 AI chips, the January 2026 H200/MI325X rule, ECCN 4E091 model weights, and GAO Decision B-337935.
+   :description: Chapter 7: United States export controls in plain language, covering BIS EAR 3A090 AI chips, the January 2026 H200/MI325X rule, ECCN 4E091 model weights, and GAO Decision B-337935.
 
 ==============================================================
 07. Washington's Gatekeepers: Silicon Chips and Model Weights
@@ -20,7 +20,7 @@ Every project touching the US system faces four sequential questions:
 The January 2026 Semiconductor Rule: Permission to Knock, Not an Open Door
 ==========================================================================
 
-For three years, high-end AI data-center chips bound for China faced presumptive denial. On **15 January 2026**, BIS issued a targeted hardware calibration (``91 FR 1684``, revising ``15 CFR 742.6(b)(10)``): qualifying exports from the United States to end users in China or Macau may apply for **case-by-case license review** rather than automatic denial if the chip sits below **Total Processing Performance (TPP) of 21,000** and **total DRAM bandwidth of 6,500 GB/s** — a performance window exemplified in the rule by Nvidia's **H200** and AMD's **MI325X** ``[US26]`` ``[EAR742]``.
+For three years, high-end AI data-center chips bound for China faced presumptive denial. On **15 January 2026**, BIS issued a targeted hardware calibration (``91 FR 1684``, revising ``15 CFR 742.6(b)(10)``): qualifying exports from the United States to end users in China or Macau may apply for **case-by-case license review** rather than automatic denial if the chip sits below **Total Processing Performance (TPP) of 21,000** and **total DRAM bandwidth of 6,500 GB/s**, a performance window exemplified in the rule by Nvidia's **H200** and AMD's **MI325X** ``[US26]`` ``[EAR742]``.
 
 Yet read the conditions carefully: case-by-case review is permission to apply, not a free pass. Applicants must certify that US domestic customers face no supply shortage, that global foundry capacity is not diverted away from US buyers, that aggregate shipments stay within strict ratios of US volume, that rigorous physical and cybersecurity KYC controls block unauthorized remote or Entity-List use, and that an **independent US-headquartered laboratory** tests and verifies the chips' performance before export ``[US26, sections I and IV]``. Third-country reexports do not automatically enjoy the same review lane.
 
@@ -33,7 +33,7 @@ When Washington tried to move from hardware chips up into **AI model weights**, 
 * **Act 2 (13 May 2025):** BIS announced it was **directing enforcement officials not to enforce** the AI Diffusion Rule pending a formal replacement rulemaking ``[USNE]``.
 * **Act 3 (12 May 2026):** The Government Accountability Office (**GAO**, Decision ``B-337935``) ruled that a press release cannot repeal codified law: ``4E091`` remains printed in ``15 CFR Part 774`` (where we verified it live on ``bis.gov`` on 2 November 2026) until repealed through formal rulemaking, and BIS's blanket non-enforcement directive itself constituted a "rule" subject to the Congressional Review Act ``[GAO26]`` ``[EAR774]``.
 
-For open-source AI, the bright silver lining across all three acts is constant: **genuinely open, unrestricted public weights sit outside US export licensing** under ``15 CFR 734.7`` and ``4E091``'s notes. What pinches open-source builders from the US side is not a ban on ``git push`` — it is the hardware licensing wall around the ``3A090`` silicon needed to train and run the largest models.
+For open-source AI, the bright silver lining across all three acts is constant: **genuinely open, unrestricted public weights sit outside US export licensing** under ``15 CFR 734.7`` and ``4E091``'s notes. What pinches open-source builders from the US side is not a ban on ``git push``; it is the hardware licensing wall around the ``3A090`` silicon needed to train and run the largest models.
 
 Two Neighboring Washington Gates: Venture Dollars and Bulk Sensitive Data
 =========================================================================

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 11:48+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: China Export Control Research\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../book/atlas.rst:1
 msgid ""
-"Chapter 2 — Complete 40-technology plain-language atlas of China's "
+"Chapter 2: Complete 40-technology plain-language atlas of China's "
 "Announcement No. 48 Attachment 1 across AI and silicon chips (23), "
 "biomedicine (5), and solar manufacturing (12)."
 msgstr ""
-"第2章——中国2026年第48号公告附件1全部40项技术管制点的通俗全景图谱：覆盖人工智能与硅基芯片（23项）、生物医药（5项）及光伏制造（12项）。"
+"第2章：中国2026年第48号公告附件1全部40项技术管制点的通俗全景图谱：覆盖人工智能与硅基芯片（23项）、生物医药（5项）及光伏制造（12项）。"
 
 #: ../../book/atlas.rst:5
 msgid "02. The Map of Forty Guarded Technologies"
@@ -51,18 +51,20 @@ msgid ""
 "**23 in artificial intelligence and AI hardware** (6 proposed prohibited, "
 "17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 "
 "restricted), and **12 in solar manufacturing** (5 prohibited, 7 "
-"restricted) — matching the official totals of **14 prohibited** and **26 "
+"restricted), matching the official totals of **14 prohibited** and **26 "
 "restricted** technologies ``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
 msgstr ""
-"现代监管者的破题之道，是划定精确的 **量化性能标尺与专门用途边界** 。在第48号公告附件 1 中，北京在七位目录编号之下精细标绘出 **40 个具体技术控制点** ： **人工智能与 AI 硬件领域 23 项** （6 项拟禁止出口、17 项拟限制出口）、 **生物医药领域 5 项** （3 项拟禁止、2 项拟限制），以及 **光伏制造领域 12 项** （5 项拟禁止、7 项拟限制）——与官方通报的 **14 项禁止出口技术** 和 **26 项限制出口技术** 总数严丝合缝 ``[CN48]`` ``[CN-A1]`` ``[CNQA]`` 。"
+"现代监管者的破题之道，是划定精确的 **量化性能标尺与专门用途边界** 。在第48号公告附件 1 中，北京在七位目录编号之下精细标绘出 **40 "
+"个具体技术控制点** ： **人工智能与 AI 硬件领域 23 项** （6 项拟禁止出口、17 项拟限制出口）、 **生物医药领域 5 项** "
+"（3 项拟禁止、2 项拟限制），以及 **光伏制造领域 12 项** （5 项拟禁止、7 项拟限制），与官方通报的 **14 项禁止出口技术** "
+"和 **26 项限制出口技术** 总数严丝合缝 ``[CN48]`` ``[CN-A1]`` ``[CNQA]`` 。"
 
 #: ../../book/atlas.rst:18
 msgid ""
 "The three frontiers of Announcement No. 48: artificial intelligence and "
 "silicon wafer architectures (left), cellular and genetic medicine "
 "platforms (center), and precision crystalline solar manufacturing (right)."
-msgstr ""
-"第48号公告聚焦的三大技术前沿：人工智能与硅晶圆芯片架构（左）、细胞与基因治疗底层平台（中），以及精密晶硅与叠层光伏制造装备（右）。"
+msgstr "第48号公告聚焦的三大技术前沿：人工智能与硅晶圆芯片架构（左）、细胞与基因治疗底层平台（中），以及精密晶硅与叠层光伏制造装备（右）。"
 
 #: ../../book/atlas.rst:20
 msgid ""
@@ -75,7 +77,10 @@ msgid ""
 "prohibited, ``X`` for restricted) and point number intact so you can "
 "verify the Chinese original in seconds ``[CN-A1]``."
 msgstr ""
-"由于附件 1 在若干共用目录编号下嵌套了多个子项（例如 ``266504X`` 含 2 个大模型控制点、 ``266505X`` 含 4 个智能体控制点、 ``266506X`` 含 4 个芯片设计控制点、 ``266507X`` 含 4 个超万卡集群控制点），倘若只数原始 WPS 表格的自然行数，得出的数字会少于 40。下文我们将全部 40 个技术控制点逐一转化为通俗透彻的现代中文解读，并完整保留每一项官方七位编码（末尾 ``J`` 代表禁止出口， ``X`` 代表限制出口）与原控制点序号，方便您在数秒内与官方原件逐字核对 ``[CN-A1]`` 。"
+"由于附件 1 在若干共用目录编号下嵌套了多个子项（例如 ``266504X`` 含 2 个大模型控制点、 ``266505X`` 含 4 "
+"个智能体控制点、 ``266506X`` 含 4 个芯片设计控制点、 ``266507X`` 含 4 个超万卡集群控制点），倘若只数原始 WPS "
+"表格的自然行数，得出的数字会少于 40。下文我们将全部 40 个技术控制点逐一转化为通俗透彻的现代中文解读，并完整保留每一项官方七位编码（末尾 "
+"``J`` 代表禁止出口， ``X`` 代表限制出口）与原控制点序号，方便您在数秒内与官方原件逐字核对 ``[CN-A1]`` 。"
 
 #: ../../book/atlas.rst:22
 msgid "Reading the Tripwires Without Getting Tripped"
@@ -96,29 +101,40 @@ msgid ""
 "80\\%` decomposition accuracy *and* reaches :math:`\\ge 90\\%` subtask "
 "completion simultaneously ``[CN-A1]``."
 msgstr ""
-"**分清“满足其一即触发”与“全部同时满足才触发”。** 例如 ``266504X`` 第 2 点（前沿大模型核心技术）只要触及三项标准中的 *任意一项* 即落入范围：训练算力 :math:`\\ge 10^{26}\\text{ FLOPs}` ， *或* 参数规模 :math:`\\ge 2\\text{ trillion parameters}` （2 万亿）， *或* 出口时位居全球前十公开榜单。相反， ``266505X`` 第 1 点（自主任务规划智能体）则唯有在拆解子任务 :math:`\\ge 20\\text{ steps}` 、 *且* 拆解准确率 :math:`\\ge 80\\%` 、 *且* 子任务平均完成率 :math:`\\ge 90\\%` 三者同时达标时方才触发 ``[CN-A1]`` 。"
+"**分清“满足其一即触发”与“全部同时满足才触发”。** 例如 ``266504X`` 第 2 点（前沿大模型核心技术）只要触及三项标准中的 "
+"*任意一项* 即落入范围：训练算力 :math:`\\ge 10^{26}\\text{ FLOPs}` ， *或* 参数规模 "
+":math:`\\ge 2\\text{ trillion parameters}` （2 万亿）， *或* 出口时位居全球前十公开榜单。相反， "
+"``266505X`` 第 1 点（自主任务规划智能体）则唯有在拆解子任务 :math:`\\ge 20\\text{ steps}` 、 *且* "
+"拆解准确率 :math:`\\ge 80\\%` 、 *且* 子任务平均完成率 :math:`\\ge 90\\%` 三者同时达标时方才触发 "
+"``[CN-A1]`` 。"
 
 #: ../../book/atlas.rst:28
 msgid ""
-"**Purpose can be half the fence.** Several severe-looking entries — such "
-"as deepfake detection at :math:`\\ge 95\\%` accuracy (``266401J``) or "
-"high-performance sensitive agents (``266502J``) — apply *only* when built "
+"**Purpose can be half the fence.** Several severe-looking entries (such "
+"as deepfake detection at :math:`\\ge 95\\%` accuracy in ``266401J``, or "
+"high-performance sensitive agents in ``266502J``) apply *only* when built "
 "specifically or mainly for national cross-border data defense, critical "
 "infrastructure, military, or core government settings. Ordinary studio "
 "tools and consumer assistants sit outside that purpose ``[CN-A1]``."
 msgstr ""
-"**特定用途往往构成半道藩篱。** 若干看似严厉的禁止类条目——例如准确率 :math:`\\ge 95\\%` 的深度伪造检测（ ``266401J`` ）或高性能敏感场景智能体（ ``266502J`` ）—— *仅在* 专门或主要面向国家网络数据跨境安全防护、关键信息基础设施、国防军事或党政核心机关场景研发时才适用；普通的影视工作室工具与消费级日常助手并不在此用途之列 ``[CN-A1]`` 。"
+"**特定用途往往构成半道藩篱。** 若干看似严厉的禁止类条目，例如准确率 :math:`\\ge 95\\%` 的深度伪造检测（ "
+"``266401J`` ）或高性能敏感场景智能体（ ``266502J`` ），*仅在* "
+"专门或主要面向国家网络数据跨境安全防护、关键信息基础设施、国防军事或党政核心机关场景研发时才适用；普通的影视工作室工具与消费级日常助手并不在此用途之列 "
+"``[CN-A1]`` 。"
 
 #: ../../book/atlas.rst:29
 msgid ""
 "**Read the hardware inside the software list.** Notice that points 18 "
-"through 23 below (``266506X`` and ``266507X``) are not chatbots at all — "
+"through 23 below (``266506X`` and ``266507X``) are not chatbots at all: "
 "they are **processor chip architectures, 3D NAND and DRAM memory designs, "
 "and >10,000-card supercluster interconnects**, while Footnote 4 pulls "
 "**18 classes of physical solar machinery** into export control "
 "``[CN-A1]``."
 msgstr ""
-"**看清藏在软件清单里的硬核芯片与物理母机。** 请留意下文人工智能板块中的最后 6 个控制点（ ``266506X`` 与 ``266507X`` ）根本不是聊天机器人——它们是实打实的 **AI 处理器芯片架构、3D NAND 与 DRAM/HBM 存储设计，以及超万卡超算集群高速互联技术** ；与此同时，注释 4 更将 **18 类实体光伏核心制造装备** 直接拉入了技术出口管制范围 ``[CN-A1]`` 。"
+"**看清藏在软件清单里的硬核芯片与物理母机。** 请留意下文人工智能板块中的最后 6 个控制点（ ``266506X`` 与 "
+"``266507X`` ）根本不是聊天机器人，它们是实打实的 **AI 处理器芯片架构、3D NAND 与 DRAM/HBM "
+"存储设计，以及超万卡超算集群高速互联技术** ；与此同时，注释 4 更将 **18 类实体光伏核心制造装备** 直接拉入了技术出口管制范围 "
+"``[CN-A1]`` 。"
 
 #: ../../book/atlas.rst:33
 msgid "Artificial Intelligence, Chips & Superclusters (23 Checkpoints)"
@@ -126,9 +142,9 @@ msgstr "人工智能、算力芯片与超万卡集群（23 项管制点）"
 
 #: ../../book/atlas.rst:38
 msgid ""
-"**266401J · Point 1 — Cross-border security deepfake detection** "
+"**266401J · Point 1: Cross-border security deepfake detection** "
 "*(Proposed Prohibited)*"
-msgstr "**266401J · 第 1 点 —— 跨境数据安全防护深度伪造检测技术** *（拟禁止出口）*"
+msgstr "**266401J · 第 1 点：跨境数据安全防护深度伪造检测技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:40
 msgid ""
@@ -138,13 +154,14 @@ msgid ""
 "multimodal media. Ordinary consumer media checkers outside this "
 "national-security purpose are not the target."
 msgstr ""
-"主要用于维护国家网络数据跨境安全、针对深度伪造视频、音频、图像或多模态内容同时达到准确率 >=95% 且召回率 >=95% 的高阶检测系统及专用装备制造技术。不具此项国家安全专门用途的普通民用媒体鉴伪工具不在打击之列。"
+"主要用于维护国家网络数据跨境安全、针对深度伪造视频、音频、图像或多模态内容同时达到准确率 >=95% 且召回率 >=95% "
+"的高阶检测系统及专用装备制造技术。不具此项国家安全专门用途的普通民用媒体鉴伪工具不在打击之列。"
 
 #: ../../book/atlas.rst:44
 msgid ""
-"**266402J · Point 1 — Autonomous malware generation and mutation** "
+"**266402J · Point 1: Autonomous malware generation and mutation** "
 "*(Proposed Prohibited)*"
-msgstr "**266402J · 第 1 点 —— 恶意代码自主生成与变异技术** *（拟禁止出口）*"
+msgstr "**266402J · 第 1 点：恶意代码自主生成与变异技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:46
 msgid ""
@@ -154,13 +171,14 @@ msgid ""
 "scanners, 85% against mainstream antivirus, or 90% against ML detectors). "
 "Everyday coding assistants are not covered."
 msgstr ""
-"能够针对关键信息基础设施、国防系统或党政核心网络自主编写或变异生成恶意代码，并达到所列免杀绕过指标（对多引擎查杀绕过率 >=60%、对主流杀毒软件绕过率 >=85%，或对机器学习检测模型绕过率 >=90%）的网络攻击型人工智能。日常编程辅助工具不受影响。"
+"能够针对关键信息基础设施、国防系统或党政核心网络自主编写或变异生成恶意代码，并达到所列免杀绕过指标（对多引擎查杀绕过率 "
+">=60%、对主流杀毒软件绕过率 >=85%，或对机器学习检测模型绕过率 >=90%）的网络攻击型人工智能。日常编程辅助工具不受影响。"
 
 #: ../../book/atlas.rst:50
 msgid ""
-"**266402J · Point 2 — Self-adapting cyber-evasion AI** *(Proposed "
+"**266402J · Point 2: Self-adapting cyber-evasion AI** *(Proposed "
 "Prohibited)*"
-msgstr "**266402J · 第 2 点 —— 自适应环境感知与动态免杀对抗技术** *（拟禁止出口）*"
+msgstr "**266402J · 第 2 点：自适应环境感知与动态免杀对抗技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:52
 msgid ""
@@ -169,13 +187,14 @@ msgid ""
 "rewrites at least 50% of its code structure or control flow on every run "
 "while keeping its payload intact."
 msgstr ""
-"面向国家安全敏感目标构建的攻击型人工智能技术：可自动感知沙箱、调试器或模拟器分析环境并实施逃逸，或在保持攻击载荷功能不变的前提下，每次运行时自动重构 >=50% 的代码结构或控制流逻辑。"
+"面向国家安全敏感目标构建的攻击型人工智能技术：可自动感知沙箱、调试器或模拟器分析环境并实施逃逸，或在保持攻击载荷功能不变的前提下，每次运行时自动重构 "
+">=50% 的代码结构或控制流逻辑。"
 
 #: ../../book/atlas.rst:56
 msgid ""
-"**266402J · Point 3 — Mass automated evasion-variant swarms** *(Proposed "
+"**266402J · Point 3: Mass automated evasion-variant swarms** *(Proposed "
 "Prohibited)*"
-msgstr "**266402J · 第 3 点 —— 规模化自动免杀变种生成与投放技术** *（拟禁止出口）*"
+msgstr "**266402J · 第 3 点：规模化自动免杀变种生成与投放技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:58
 msgid ""
@@ -185,13 +204,14 @@ msgid ""
 "30%+ syntax-tree divergence, or 90%+ behavioral consistency inside "
 "sandboxes."
 msgstr ""
-"面向敏感网络行动、可批量生产并自动化部署免杀恶意代码变种的技术：单次生成 >=20 个结构显著不同的变种（或全流程自动化率 >=80%）、日均生成 >=10 个语法树差异度 >=30% 的变种，或在沙箱内保持 >=90% 的正常伪装行为一致性。"
+"面向敏感网络行动、可批量生产并自动化部署免杀恶意代码变种的技术：单次生成 >=20 个结构显著不同的变种（或全流程自动化率 >=80%）、日均生成 "
+">=10 个语法树差异度 >=30% 的变种，或在沙箱内保持 >=90% 的正常伪装行为一致性。"
 
 #: ../../book/atlas.rst:62
 msgid ""
-"**266501J · Point 1 — Large models trained on China's Core Data** "
+"**266501J · Point 1: Large models trained on China's Core Data** "
 "*(Proposed Prohibited)*"
-msgstr "**266501J · 第 1 点 —— 利用国家核心数据训练的大模型技术** *（拟禁止出口）*"
+msgstr "**266501J · 第 1 点：利用国家核心数据训练的大模型技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:64
 msgid ""
@@ -200,13 +220,14 @@ msgid ""
 "as services. What triggers this red line is the legal category of "
 "training data, never a company's brand name."
 msgstr ""
-"利用中国依法认定的 *国家核心数据* （《数据安全法》下最高国家安全级别数据）训练并对外提供服务的人工智能大模型技术。触发这道红线的唯一依据是训练语料的法定密级属性，与研发机构或模型的商业品牌无关。"
+"利用中国依法认定的 *国家核心数据* "
+"（《数据安全法》下最高国家安全级别数据）训练并对外提供服务的人工智能大模型技术。触发这道红线的唯一依据是训练语料的法定密级属性，与研发机构或模型的商业品牌无关。"
 
 #: ../../book/atlas.rst:68
 msgid ""
-"**266502J · Point 1 — High-performance agents for critical or defense "
+"**266502J · Point 1: High-performance agents for critical or defense "
 "settings** *(Proposed Prohibited)*"
-msgstr "**266502J · 第 1 点 —— 面向关键基础设施或国防场景的高性能智能体** *（拟禁止出口）*"
+msgstr "**266502J · 第 1 点：面向关键基础设施或国防场景的高性能智能体** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:70
 msgid ""
@@ -215,13 +236,14 @@ msgid ""
 "high-capability benchmarks defined in ``266505X``. General-purpose "
 "productivity or coding agents do not fall here."
 msgstr ""
-"专门或主要面向关键信息基础设施、国防军事或党政核心机关业务研制，且同时达到 ``266505X`` 所列高性能技术指标的人工智能智能体。通用型办公效率智能体与日常编程智能体不落入此项。"
+"专门或主要面向关键信息基础设施、国防军事或党政核心机关业务研制，且同时达到 ``266505X`` "
+"所列高性能技术指标的人工智能智能体。通用型办公效率智能体与日常编程智能体不落入此项。"
 
 #: ../../book/atlas.rst:74
 msgid ""
-"**266402X · Point 8 — Ultra-high-accuracy deepfake detection (98%+)** "
+"**266402X · Point 8: Ultra-high-accuracy deepfake detection (98%+)** "
 "*(Proposed Restricted)*"
-msgstr "**266402X · 第 8 点 —— 超高精度深度伪造检测技术（98%+）** *（拟限制出口）*"
+msgstr "**266402X · 第 8 点：超高精度深度伪造检测技术（98%+）** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:76
 msgid ""
@@ -234,9 +256,9 @@ msgstr ""
 
 #: ../../book/atlas.rst:80
 msgid ""
-"**266402X · Point 9 — Near-invisible video and image steganography** "
+"**266402X · Point 9: Near-invisible video and image steganography** "
 "*(Proposed Restricted)*"
-msgstr "**266402X · 第 9 点 —— 高鲁棒近无损图像与视频隐写技术** *（拟限制出口）*"
+msgstr "**266402X · 第 9 点：高鲁棒近无损图像与视频隐写技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:82
 msgid ""
@@ -246,13 +268,15 @@ msgid ""
 "near-total invisibility to human eyes (SSIM >=0.999, PSNR >=41 dB, or "
 "LPIPS <=0.005)."
 msgstr ""
-"在图像或视频载体中隐藏与提取秘密信息的技术，须三项严苛指标同时达标方才受控：经受压缩失真后仍具极高鲁棒性（误码率 <=0.5% 或提取完整率 >=99.9%）、误检率 <=0.1%，且肉眼几乎完全不可察觉（SSIM >=0.999、PSNR >=41 dB 或 LPIPS <=0.005）。"
+"在图像或视频载体中隐藏与提取秘密信息的技术，须三项严苛指标同时达标方才受控：经受压缩失真后仍具极高鲁棒性（误码率 <=0.5% 或提取完整率 "
+">=99.9%）、误检率 <=0.1%，且肉眼几乎完全不可察觉（SSIM >=0.999、PSNR >=41 dB 或 LPIPS "
+"<=0.005）。"
 
 #: ../../book/atlas.rst:86
 msgid ""
-"**266404X · Point 6 — AI-assisted zero-day and exploit discovery** "
+"**266404X · Point 6: AI-assisted zero-day and exploit discovery** "
 "*(Proposed Restricted)*"
-msgstr "**266404X · 第 6 点 —— AI 驱动的高阶零日漏洞挖掘与利用链生成技术** *（拟限制出口）*"
+msgstr "**266404X · 第 6 点：AI 驱动的高阶零日漏洞挖掘与利用链生成技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:88
 msgid ""
@@ -263,13 +287,15 @@ msgid ""
 "or 50+ new bugs in a major OS or open-source project in one pass; or "
 "reaching the top tier of mainstream exploit scales."
 msgstr ""
-"满足以下六项高门槛标准之一的网络安全人工智能技术：在顶级漏洞基准测试中得分 >=75%；能自动构建完整漏洞利用链（对主流操作系统/浏览器成功率 >=50% 或任意代码执行率 >=40%）；挖掘效率达资深人类安全专家的 10 倍以上；能将 >=2 个中低危漏洞自动串联组合为可执行的 PoC 攻击；单轮扫描即可在主流操作系统或大型开源项目中独立发现 >=5 个高危漏洞或 >=50 个未知新漏洞；或达到主流漏洞自动化利用能力分级的最高等级。"
+"满足以下六项高门槛标准之一的网络安全人工智能技术：在顶级漏洞基准测试中得分 >=75%；能自动构建完整漏洞利用链（对主流操作系统/浏览器成功率 "
+">=50% 或任意代码执行率 >=40%）；挖掘效率达资深人类安全专家的 10 倍以上；能将 >=2 个中低危漏洞自动串联组合为可执行的 PoC "
+"攻击；单轮扫描即可在主流操作系统或大型开源项目中独立发现 >=5 个高危漏洞或 >=50 个未知新漏洞；或达到主流漏洞自动化利用能力分级的最高等级。"
 
 #: ../../book/atlas.rst:92
 msgid ""
-"**266501X · Point 19 — High-speed, anti-spoof or dialect voiceprint ID** "
+"**266501X · Point 19: High-speed, anti-spoof or dialect voiceprint ID** "
 "*(Proposed Restricted)*"
-msgstr "**266501X · 第 19 点 —— 高并发、抗伪造及民族语/方言声纹识别技术** *（拟限制出口）*"
+msgstr "**266501X · 第 19 点：高并发、抗伪造及民族语/方言声纹识别技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:94
 msgid ""
@@ -279,13 +305,15 @@ msgid ""
 "false acceptance) against replay and synthetic voices; or >=90% accuracy "
 "tailored to Chinese minority languages or regional dialects."
 msgstr ""
-"达到以下四项标准之一的说话人声纹识别算法与系统：短语音片段在误识率 <=0.01% 下正确识别率 >=99.1%；在 >=100 次/秒高并发下响应延迟 <=300 毫秒；对录音重放及 AI 合成语音具备 >=98% 防伪检出率（或误受率 <=1%）；或针对中国少数民族语言及地方方言定制且识别准确率 >=90%。"
+"达到以下四项标准之一的说话人声纹识别算法与系统：短语音片段在误识率 <=0.01% 下正确识别率 >=99.1%；在 >=100 "
+"次/秒高并发下响应延迟 <=300 毫秒；对录音重放及 AI 合成语音具备 >=98% 防伪检出率（或误受率 "
+"<=1%）；或针对中国少数民族语言及地方方言定制且识别准确率 >=90%。"
 
 #: ../../book/atlas.rst:98
 msgid ""
-"**266501X · Point 20 — Chinese and minority-language machine "
-"translation** *(Proposed Restricted)*"
-msgstr "**266501X · 第 20 点 —— 汉语与中国少数民族语言高质量机器翻译技术** *（拟限制出口）*"
+"**266501X · Point 20: Chinese and minority-language machine translation** "
+"*(Proposed Restricted)*"
+msgstr "**266501X · 第 20 点：汉语与中国少数民族语言高质量机器翻译技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:100
 msgid ""
@@ -294,13 +322,14 @@ msgid ""
 "(MOS) of at least 4.8, or >=95% semantic fidelity paired with BLEU >=35 "
 "in general text (or BLEU >=30 in specialist domains)."
 msgstr ""
-"主要面向汉语与中国少数民族语言互译研发，且达到人工主观评价得分（MOS） >=4.8，或在语义保真度 >=95% 的同时通用领域 BLEU >=35（专业垂直领域 BLEU >=30）的机器翻译核心技术。"
+"主要面向汉语与中国少数民族语言互译研发，且达到人工主观评价得分（MOS） >=4.8，或在语义保真度 >=95% 的同时通用领域 BLEU "
+">=35（专业垂直领域 BLEU >=30）的机器翻译核心技术。"
 
 #: ../../book/atlas.rst:104
 msgid ""
-"**266504X · Point 1 — Large models trained on China's Important Data** "
+"**266504X · Point 1: Large models trained on China's Important Data** "
 "*(Proposed Restricted)*"
-msgstr "**266504X · 第 1 点 —— 利用法定重要数据训练的大模型技术** *（拟限制出口）*"
+msgstr "**266504X · 第 1 点：利用法定重要数据训练的大模型技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:106
 msgid ""
@@ -309,13 +338,15 @@ msgid ""
 "so the data neither boosts core domain R&D capability nor reappears in "
 "outputs, as well as data lawfully obtainable from public sources."
 msgstr ""
-"利用国家依法界定的 *重要数据* 训练并对外提供服务的大模型技术。尤为关键的是，说明 1 明确豁免了两类情形：一是重要数据经脱敏清洗后仅占训练语料微量比例（ <=0.1% ），既未实质增强特定领域核心研发能力、亦无法在输出中被复现；二是数据本身源自合法公开渠道。"
+"利用国家依法界定的 *重要数据* 训练并对外提供服务的大模型技术。尤为关键的是，说明 1 "
+"明确豁免了两类情形：一是重要数据经脱敏清洗后仅占训练语料微量比例（ <=0.1% "
+"），既未实质增强特定领域核心研发能力、亦无法在输出中被复现；二是数据本身源自合法公开渠道。"
 
 #: ../../book/atlas.rst:110
 msgid ""
-"**266504X · Point 2 — Frontier large-model core technology** *(Proposed "
+"**266504X · Point 2: Frontier large-model core technology** *(Proposed "
 "Restricted)*"
-msgstr "**266504X · 第 2 点 —— 前沿大模型核心技术** *（拟限制出口）*"
+msgstr "**266504X · 第 2 点：前沿大模型核心技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:112
 msgid ""
@@ -326,13 +357,15 @@ msgid ""
 "time. Open-source releases qualify for Footnote 2 automatic-licensing "
 "facilitation."
 msgstr ""
-"整份 AI 模型管制规则的核心枢纽：涵盖模型权重、关键检查点、底层源代码、模型架构、训练优化及推理加速技术——只要触及以下三项指标中的 **任意一项** 即纳入范围：累计训练算力 >=10^26 FLOPs、总参数量 >=2 万亿，或在出口行为发生时位居境内外权威公开评测全球前十。通过开源方式出口的，享受注释 2 自动许可（“即报即出”）便利。"
+"整份 AI 模型管制规则的核心枢纽：涵盖模型权重、关键检查点、底层源代码、模型架构、训练优化及推理加速技术，只要触及以下三项指标中的 "
+"**任意一项** 即纳入范围：累计训练算力 >=10^26 FLOPs、总参数量 >=2 "
+"万亿，或在出口行为发生时位居境内外权威公开评测全球前十。通过开源方式出口的，享受注释 2 自动许可（“即报即出”）便利。"
 
 #: ../../book/atlas.rst:116
 msgid ""
-"**266505X · Point 1 — Long-horizon autonomous planning agents** "
-"*(Proposed Restricted)*"
-msgstr "**266505X · 第 1 点 —— 长序列自主任务规划智能体技术** *（拟限制出口）*"
+"**266505X · Point 1: Long-horizon autonomous planning agents** *(Proposed "
+"Restricted)*"
+msgstr "**266505X · 第 1 点：长序列自主任务规划智能体技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:118
 msgid ""
@@ -341,13 +374,14 @@ msgid ""
 "decomposition accuracy and at least 90% average subtask completion. All "
 "three numbers must be met together."
 msgstr ""
-"能够将复杂自然语言指令自主拆解为 >=20 个可执行子任务序列，同时实现任务拆解准确率 >=80% 且子任务平均执行完成率 >=90% 的智能体规划技术（三项数值须同时满足）。"
+"能够将复杂自然语言指令自主拆解为 >=20 个可执行子任务序列，同时实现任务拆解准确率 >=80% 且子任务平均执行完成率 >=90% "
+"的智能体规划技术（三项数值须同时满足）。"
 
 #: ../../book/atlas.rst:122
 msgid ""
-"**266505X · Point 2 — 60-agent collaborative orchestration** *(Proposed "
+"**266505X · Point 2: 60-agent collaborative orchestration** *(Proposed "
 "Restricted)*"
-msgstr "**266505X · 第 2 点 —— 60 智能体大规模协同编排技术** *（拟限制出口）*"
+msgstr "**266505X · 第 2 点：60 智能体大规模协同编排技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:124
 msgid ""
@@ -356,12 +390,13 @@ msgid ""
 "single-agent time for equivalent quality, and reaching >=85% agreement "
 "with ground-truth answers."
 msgstr ""
-"支持 >=60 个人工智能智能体并发协同运行的多智能体编排框架：在同等产出质量下总耗时不超过最优单智能体基准耗时的 2 倍，且最终结果与标准真值的一致率达到 >=85%。"
+"支持 >=60 个人工智能智能体并发协同运行的多智能体编排框架：在同等产出质量下总耗时不超过最优单智能体基准耗时的 2 "
+"倍，且最终结果与标准真值的一致率达到 >=85%。"
 
 #: ../../book/atlas.rst:128
 msgid ""
-"**266505X · Point 3 — 200-tool operating agents** *(Proposed Restricted)*"
-msgstr "**266505X · 第 3 点 —— 200+ 外部工具调用与系统操控智能体** *（拟限制出口）*"
+"**266505X · Point 3: 200-tool operating agents** *(Proposed Restricted)*"
+msgstr "**266505X · 第 3 点：200+ 外部工具调用与系统操控智能体** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:130
 msgid ""
@@ -370,13 +405,14 @@ msgid ""
 "succeeding at least 90% end-to-end on complex tasks that chain three or "
 "more distinct tools."
 msgstr ""
-"支持集成调用 >=200 种第三方软件工具的系统操作型智能体技术：工具选择准确率 >=90%，且在需串联调用 >=3 种不同工具的复杂组合任务中端到端执行成功率 >=90%。"
+"支持集成调用 >=200 种第三方软件工具的系统操作型智能体技术：工具选择准确率 >=90%，且在需串联调用 >=3 "
+"种不同工具的复杂组合任务中端到端执行成功率 >=90%。"
 
 #: ../../book/atlas.rst:134
 msgid ""
-"**266505X · Point 4 — Real-time strategic game and decision agents** "
+"**266505X · Point 4: Real-time strategic game and decision agents** "
 "*(Proposed Restricted)*"
-msgstr "**266505X · 第 4 点 —— 毫秒级实时博弈与多单元动态决策智能体** *（拟限制出口）*"
+msgstr "**266505X · 第 4 点：毫秒级实时博弈与多单元动态决策智能体** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:136
 msgid ""
@@ -385,13 +421,14 @@ msgid ""
 "control units in dynamic environments; and outperforming 90% of human "
 "players on standard strategic benchmarks."
 msgstr ""
-"同时满足三项标准的实时策略决策智能体：具备 >=20 步前瞻规划深度（或 >=10 个并发协同智能体）；在动态对抗环境中可对 >=10 个控制单元在 <=200 毫秒内作出自适应决策；且在主流标准策略博弈评测中表现超越 >=90% 的人类选手。"
+"同时满足三项标准的实时策略决策智能体：具备 >=20 步前瞻规划深度（或 >=10 个并发协同智能体）；在动态对抗环境中可对 >=10 "
+"个控制单元在 <=200 毫秒内作出自适应决策；且在主流标准策略博弈评测中表现超越 >=90% 的人类选手。"
 
 #: ../../book/atlas.rst:140
 msgid ""
-"**266506X · Point 1 — AI processor architecture, instruction sets & IP "
+"**266506X · Point 1: AI processor architecture, instruction sets & IP "
 "cores** *(Proposed Restricted)*"
-msgstr "**266506X · 第 1 点 —— AI 处理器架构、定制指令集与计算 IP 核设计** *（拟限制出口）*"
+msgstr "**266506X · 第 1 点：AI 处理器架构、定制指令集与计算 IP 核设计** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:142
 msgid ""
@@ -403,13 +440,17 @@ msgid ""
 "vision/voice/driving uses. Footnote 2 offers automatic-licensing "
 "facilitation for overseas foundry tape-outs."
 msgstr ""
-"满足所列任一特征的人工智能处理器芯片设计技术（涵盖自定义处理器架构、指令集、核心计算 IP 核、基础软件栈及专用设计工具），包括需采用 <=14 纳米制程、具备浮点或整型张量算力、采用 2.5D/3D 芯粒（Chiplet）封装、高速片间互联、非冯·诺依曼/存算一体架构，或面向智能视觉、语音、自动驾驶等指定应用。注释 2 对赴境外晶圆代工厂开展芯片流片给予自动许可便利。"
+"满足所列任一特征的人工智能处理器芯片设计技术（涵盖自定义处理器架构、指令集、核心计算 IP 核、基础软件栈及专用设计工具），包括需采用 <=14 "
+"纳米制程、具备浮点或整型张量算力、采用 2.5D/3D "
+"芯粒（Chiplet）封装、高速片间互联、非冯·诺依曼/存算一体架构，或面向智能视觉、语音、自动驾驶等指定应用。注释 2 "
+"对赴境外晶圆代工厂开展芯片流片给予自动许可便利。"
 
 #: ../../book/atlas.rst:146
 msgid ""
-"**266506X · Point 2 — Advanced 3D NAND flash and stacked DRAM / HBM chip "
+"**266506X · Point 2: Advanced 3D NAND flash and stacked DRAM / HBM chip "
 "design** *(Proposed Restricted)*"
-msgstr "**266506X · 第 2 点 —— 高密度 3D NAND 闪存与堆叠式 DRAM / HBM 存储芯片设计** *（拟限制出口）*"
+msgstr ""
+"**266506X · 第 2 点：高密度 3D NAND 闪存与堆叠式 DRAM / HBM 存储芯片设计** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:148
 msgid ""
@@ -418,13 +459,14 @@ msgid ""
 "vertical-channel transistors, bonding, or multi-layer HBM-style wafer/die "
 "stacking."
 msgstr ""
-"存储密度 >=8 Gb/mm2、I/O 接口速率 >=1.5 Gbps 或采用晶圆键合工艺的 3D NAND 闪存芯片设计技术；以及采用 <=18 纳米光刻制程、垂直沟道晶体管（VCT）、晶圆键合或类似 HBM 多层晶圆/裸片三维堆叠架构的先进 DRAM 存储芯片设计技术。"
+"存储密度 >=8 Gb/mm2、I/O 接口速率 >=1.5 Gbps 或采用晶圆键合工艺的 3D NAND 闪存芯片设计技术；以及采用 <=18 "
+"纳米光刻制程、垂直沟道晶体管（VCT）、晶圆键合或类似 HBM 多层晶圆/裸片三维堆叠架构的先进 DRAM 存储芯片设计技术。"
 
 #: ../../book/atlas.rst:152
 msgid ""
-"**266507X · Point 1 — Ultra-fast 10,000-GPU cluster interconnects** "
+"**266507X · Point 1: Ultra-fast 10,000-GPU cluster interconnects** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · 第 1 点 —— 超万卡智算集群超高速互联技术** *（拟限制出口）*"
+msgstr "**266507X · 第 1 点：超万卡智算集群超高速互联技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:154
 msgid ""
@@ -436,9 +478,9 @@ msgstr ""
 
 #: ../../book/atlas.rst:158
 msgid ""
-"**266507X · Point 2 — Rapid fault recovery in 10,000-card training** "
+"**266507X · Point 2: Rapid fault recovery in 10,000-card training** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · 第 2 点 —— 超万卡集群分布式训练秒级容错恢复技术** *（拟限制出口）*"
+msgstr "**266507X · 第 2 点：超万卡集群分布式训练秒级容错恢复技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:160
 msgid ""
@@ -447,13 +489,14 @@ msgid ""
 "<=30 seconds of visible interruption, or <=5% effective GPU compute lost "
 "to network faults."
 msgstr ""
-"在超万卡智算集群中满足任一高可用指标的分布式训练容错自愈技术：检查点故障平均恢复时间（MTTR） <=120 秒、任务无缝迁移业务感知中断 <=30 秒，或因网络故障导致的有效算力折损率 <=5%。"
+"在超万卡智算集群中满足任一高可用指标的分布式训练容错自愈技术：检查点故障平均恢复时间（MTTR） <=120 秒、任务无缝迁移业务感知中断 "
+"<=30 秒，或因网络故障导致的有效算力折损率 <=5%。"
 
 #: ../../book/atlas.rst:164
 msgid ""
-"**266507X · Point 3 — Microsecond cluster communication scheduling** "
+"**266507X · Point 3: Microsecond cluster communication scheduling** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · 第 3 点 —— 超万卡集群微秒级通信调度优化技术** *（拟限制出口）*"
+msgstr "**266507X · 第 3 点：超万卡集群微秒级通信调度优化技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:166
 msgid ""
@@ -462,13 +505,14 @@ msgid ""
 "end-to-end latency, or >=90% overlap hiding communication behind "
 "computation."
 msgstr ""
-"面向超万卡 AI 集群、达到以下任一性能高度的集合通信调度技术：线性加速比 >=98%、支持 <=1 微秒端到端延迟的动态拓扑感知路由，或计算与通信掩盖重叠率 >=90%。"
+"面向超万卡 AI 集群、达到以下任一性能高度的集合通信调度技术：线性加速比 >=98%、支持 <=1 "
+"微秒端到端延迟的动态拓扑感知路由，或计算与通信掩盖重叠率 >=90%。"
 
 #: ../../book/atlas.rst:170
 msgid ""
-"**266507X · Point 4 — Mixed-vendor and cross-region GPU orchestration** "
+"**266507X · Point 4: Mixed-vendor and cross-region GPU orchestration** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · 第 4 点 —— 多厂商异构芯片混训与跨地域算力协同技术** *（拟限制出口）*"
+msgstr "**266507X · 第 4 点：多厂商异构芯片混训与跨地域算力协同技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:172
 msgid ""
@@ -478,7 +522,8 @@ msgid ""
 "(-20%), 99.9% uptime, or >=80% cross-data-center training efficiency "
 "marks."
 msgstr ""
-"在超万卡集群中将两家及以上不同厂商异构算力芯片统一池化混训与调度的软件及运维核心技术：达到所列高带宽互联、系统吞吐提升（+30%）、算力卡综合利用率（>=65%）、单位训练成本下降（-20%）、99.9% 可用性或跨数据中心跨域协同训练效率 >=80% 等指标。"
+"在超万卡集群中将两家及以上不同厂商异构算力芯片统一池化混训与调度的软件及运维核心技术：达到所列高带宽互联、系统吞吐提升（+30%）、算力卡综合利用率（>=65%）、单位训练成本下降（-20%）、99.9% "
+"可用性或跨数据中心跨域协同训练效率 >=80% 等指标。"
 
 #: ../../book/atlas.rst:174
 msgid "Biomedicine & Gene Platforms (5 Checkpoints)"
@@ -486,9 +531,9 @@ msgstr "生物医药与基因治疗平台（5 项管制点）"
 
 #: ../../book/atlas.rst:179
 msgid ""
-"**262704J · Point 1 — Reusable cell and gene therapy (CGT) platforms** "
+"**262704J · Point 1: Reusable cell and gene therapy (CGT) platforms** "
 "*(Proposed Prohibited)*"
-msgstr "**262704J · 第 1 点 —— 通用型细胞与基因治疗（CGT）底层研发平台** *（拟禁止出口）*"
+msgstr "**262704J · 第 1 点：通用型细胞与基因治疗（CGT）底层研发平台** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:181
 msgid ""
@@ -498,13 +543,14 @@ msgid ""
 "needed to develop, test, or market a specific individual medicine remain "
 "outside the ban."
 msgstr ""
-"中国自主拥有知识产权、可支撑多款细胞与基因治疗药物衍生开发的通用底层平台技术。关键边界在于：仅禁止将平台技术“所有权”转让至境外；对外授权许可（Out-licensing）、境内保留所有权的 CRO/CDMO 委托研发生产，以及单款具体候选药物临床试验、注册审批与商业化上市所需的技术资料均不在禁止之列。"
+"中国自主拥有知识产权、可支撑多款细胞与基因治疗药物衍生开发的通用底层平台技术。关键边界在于：仅禁止将平台技术“所有权”转让至境外；对外授权许可（Out-licensing）、境内保留所有权的 "
+"CRO/CDMO 委托研发生产，以及单款具体候选药物临床试验、注册审批与商业化上市所需的技术资料均不在禁止之列。"
 
 #: ../../book/atlas.rst:185
 msgid ""
-"**262705J · Point 1 — Reusable siRNA drug-making platforms** *(Proposed "
+"**262705J · Point 1: Reusable siRNA drug-making platforms** *(Proposed "
 "Prohibited)*"
-msgstr "**262705J · 第 1 点 —— 通用型小干扰核酸（siRNA）成药研发平台** *（拟禁止出口）*"
+msgstr "**262705J · 第 1 点：通用型小干扰核酸（siRNA）成药研发平台** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:187
 msgid ""
@@ -517,9 +563,9 @@ msgstr ""
 
 #: ../../book/atlas.rst:191
 msgid ""
-"**267302J · Point 1 — Pathogen enhancement and directed evolution** "
+"**267302J · Point 1: Pathogen enhancement and directed evolution** "
 "*(Proposed Prohibited)*"
-msgstr "**267302J · 第 1 点 —— 病原体毒力增强与受控定向进化技术** *（拟禁止出口）*"
+msgstr "**267302J · 第 1 点：病原体毒力增强与受控定向进化技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:193
 msgid ""
@@ -532,9 +578,9 @@ msgstr ""
 
 #: ../../book/atlas.rst:197
 msgid ""
-"**262705X · Point 1 — Discovery of unseen cell and gene therapy targets** "
+"**262705X · Point 1: Discovery of unseen cell and gene therapy targets** "
 "*(Proposed Restricted)*"
-msgstr "**262705X · 第 1 点 —— 全球未公开全新细胞与基因治疗靶点发现技术** *（拟限制出口）*"
+msgstr "**262705X · 第 1 点：全球未公开全新细胞与基因治疗靶点发现技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:199
 msgid ""
@@ -544,13 +590,14 @@ msgid ""
 "automatic-licensing facilitation for overseas licensing, joint R&D, and "
 "public-health emergencies."
 msgstr ""
-"中国自主研发、用于发现并确证此前从未在全球任何专利、学术期刊、公共数据库或会议上披露过的全新 CGT 治疗靶点的技术。注释 3 对对外授权许可、国际科研合作及突发公共卫生事件应急提供自动许可便利。"
+"中国自主研发、用于发现并确证此前从未在全球任何专利、学术期刊、公共数据库或会议上披露过的全新 CGT 治疗靶点的技术。注释 3 "
+"对对外授权许可、国际科研合作及突发公共卫生事件应急提供自动许可便利。"
 
 #: ../../book/atlas.rst:203
 msgid ""
-"**262706X · Point 1 — Discovery of unseen siRNA drug targets** *(Proposed "
+"**262706X · Point 1: Discovery of unseen siRNA drug targets** *(Proposed "
 "Restricted)*"
-msgstr "**262706X · 第 1 点 —— 全球未公开全新 siRNA 药物靶点发现技术** *（拟限制出口）*"
+msgstr "**262706X · 第 1 点：全球未公开全新 siRNA 药物靶点发现技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:205
 msgid ""
@@ -559,7 +606,8 @@ msgid ""
 "fast-track facilitation for international licensing, collaborative "
 "research, and humanitarian health responses."
 msgstr ""
-"中国自主研发、用于筛选与锁定全球范围内尚未公开披露的全新 siRNA 药物分子靶点的技术，同样享有注释 3 针对跨国授权合作、联合科研及人道主义卫生应急设立的自动许可快车道。"
+"中国自主研发、用于筛选与锁定全球范围内尚未公开披露的全新 siRNA 药物分子靶点的技术，同样享有注释 3 "
+"针对跨国授权合作、联合科研及人道主义卫生应急设立的自动许可快车道。"
 
 #: ../../book/atlas.rst:207
 msgid "Solar Silicon, Wafers & Factory Machinery (12 Checkpoints)"
@@ -567,36 +615,34 @@ msgstr "光伏晶硅材料、超薄硅片与产线装备（12 项管制点）"
 
 #: ../../book/atlas.rst:212
 msgid ""
-"**263003J · Point 1 — Mega-scale cold-hydrogenation polysilicon lines** "
+"**263003J · Point 1: Mega-scale cold-hydrogenation polysilicon lines** "
 "*(Proposed Prohibited)*"
-msgstr "**263003J · 第 1 点 —— 超大规模冷氢化法多晶硅生产工艺与装备技术** *（拟禁止出口）*"
+msgstr "**263003J · 第 1 点：超大规模冷氢化法多晶硅生产工艺与装备技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:214
 msgid ""
 "Cold-hydrogenation fluidized-bed recipes and equipment-making know-how "
 "capable of producing at least 250,000 tonnes of trichlorosilane per "
 "single line each year."
-msgstr ""
-"单线三氯氢硅年产能达到 >=25 万吨的超大型冷氢化流化床工艺配方及核心反应器制造技术。"
+msgstr "单线三氯氢硅年产能达到 >=25 万吨的超大型冷氢化流化床工艺配方及核心反应器制造技术。"
 
 #: ../../book/atlas.rst:218
 msgid ""
-"**263003J · Point 2 — High-capacity silane fluidized-bed processes** "
+"**263003J · Point 2: High-capacity silane fluidized-bed processes** "
 "*(Proposed Prohibited)*"
-msgstr "**263003J · 第 2 点 —— 万吨级硅烷流化床法颗粒硅工艺与装备技术** *（拟禁止出口）*"
+msgstr "**263003J · 第 2 点：万吨级硅烷流化床法颗粒硅工艺与装备技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:220
 msgid ""
 "Silane fluidized-bed chemical recipes and equipment-making technology "
 "with single-line output of at least 20,000 tonnes per year."
-msgstr ""
-"单线年产能达到 >=2 万吨的硅烷流化床法多晶硅化学制备工艺与核心成套设备制造技术。"
+msgstr "单线年产能达到 >=2 万吨的硅烷流化床法多晶硅化学制备工艺与核心成套设备制造技术。"
 
 #: ../../book/atlas.rst:224
 msgid ""
-"**263004J · Point 1 — Paper-thin 70-micrometer silicon wafers** "
-"*(Proposed Prohibited)*"
-msgstr "**263004J · 第 1 点 —— 70 微米及以下超薄光伏硅片切割工艺与装备** *（拟禁止出口）*"
+"**263004J · Point 1: Paper-thin 70-micrometer silicon wafers** *(Proposed "
+"Prohibited)*"
+msgstr "**263004J · 第 1 点：70 微米及以下超薄光伏硅片切割工艺与装备** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:226
 msgid ""
@@ -605,27 +651,27 @@ msgid ""
 "explicitly including control software, underlying algorithms, and "
 "engineering drawings."
 msgstr ""
-"厚度 <=70 微米（约相当于一根人类头发丝直径）超薄太阳能硅片的精密切割工艺与多线切割机制造技术——条文明确将底层控制软件、核心算法与全套工程机械图纸一并纳入禁止出口范围。"
+"厚度 <=70 "
+"微米（约相当于一根人类头发丝直径）超薄太阳能硅片的精密切割工艺与多线切割机制造技术，条文明确将底层控制软件、核心算法与全套工程机械图纸一并纳入禁止出口范围。"
 
 #: ../../book/atlas.rst:230
 msgid ""
-"**263801J · Point 1 — Edge passivation for thin large-format cells** "
+"**263801J · Point 1: Edge passivation for thin large-format cells** "
 "*(Proposed Prohibited)*"
-msgstr "**263801J · 第 1 点 —— 大尺寸超薄晶硅电池边缘钝化技术** *（拟禁止出口）*"
+msgstr "**263801J · 第 1 点：大尺寸超薄晶硅电池边缘钝化技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:232
 msgid ""
 "Solar-dedicated edge-passivation processes and toolmaking know-how when "
 "used on 182 to 230 mm crystalline-silicon wafers that are 140 micrometers "
 "thick or thinner."
-msgstr ""
-"应用于尺寸 182 至 230 毫米、且硅片厚度 <=140 微米的大尺寸薄片晶硅光伏电池专用边缘钝化工艺及核心装备制造技术。"
+msgstr "应用于尺寸 182 至 230 毫米、且硅片厚度 <=140 微米的大尺寸薄片晶硅光伏电池专用边缘钝化工艺及核心装备制造技术。"
 
 #: ../../book/atlas.rst:236
 msgid ""
-"**263801J · Point 2 — 30%-efficient perovskite and tandem solar tech** "
+"**263801J · Point 2: 30%-efficient perovskite and tandem solar tech** "
 "*(Proposed Prohibited)*"
-msgstr "**263801J · 第 2 点 —— 30% 转换效率钙钛矿及晶硅叠层光伏技术** *（拟禁止出口）*"
+msgstr "**263801J · 第 2 点：30% 转换效率钙钛矿及晶硅叠层光伏技术** *（拟禁止出口）*"
 
 #: ../../book/atlas.rst:238
 msgid ""
@@ -634,41 +680,40 @@ msgid ""
 ">=1.1 m wide slot-die coating; >=18%-efficient single-junction perovskite "
 "modules (>=1 m2); or >=28%-efficient tandem modules (>=1 m2)."
 msgstr ""
-"触及四项量产标尺之一的下一代钙钛矿光伏制造技术：转换效率 >=30% 的大尺寸（ >=182 毫米）晶硅-钙钛矿叠层电池工艺；幅宽 >=1.1 米的钙钛矿狭缝涂布技术；面积 >=1 平方米且效率 >=18% 的单结钙钛矿组件；或面积 >=1 平方米且效率 >=28% 的叠层光伏组件。"
+"触及四项量产标尺之一的下一代钙钛矿光伏制造技术：转换效率 >=30% 的大尺寸（ >=182 毫米）晶硅-钙钛矿叠层电池工艺；幅宽 >=1.1 "
+"米的钙钛矿狭缝涂布技术；面积 >=1 平方米且效率 >=18% 的单结钙钛矿组件；或面积 >=1 平方米且效率 >=28% 的叠层光伏组件。"
 
 #: ../../book/atlas.rst:242
 msgid ""
-"**263004X · Point 1 — 30,000-tonne polysilicon plant engineering** "
+"**263004X · Point 1: 30,000-tonne polysilicon plant engineering** "
 "*(Proposed Restricted)*"
-msgstr "**263004X · 第 1 点 —— 3 万吨级多晶硅整线工程成套设计技术** *（拟限制出口）*"
+msgstr "**263004X · 第 1 点：3 万吨级多晶硅整线工程成套设计技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:244
 msgid ""
 "Complete plant-engineering packages, factory blueprints, and equipment "
 "designs for single-line polysilicon lines producing 30,000 tonnes or more "
 "per year."
-msgstr ""
-"单线年产能 >=3 万吨的多晶硅工厂整线工程工艺包、厂房系统蓝图及成套核心设备设计技术。"
+msgstr "单线年产能 >=3 万吨的多晶硅工厂整线工程工艺包、厂房系统蓝图及成套核心设备设计技术。"
 
 #: ../../book/atlas.rst:248
 msgid ""
-"**263004X · Point 2 — 800-tonne-per-furnace reduction processes** "
+"**263004X · Point 2: 800-tonne-per-furnace reduction processes** "
 "*(Proposed Restricted)*"
-msgstr "**263004X · 第 2 点 —— 单炉年产 800 吨大型多晶硅还原炉技术** *（拟限制出口）*"
+msgstr "**263004X · 第 2 点：单炉年产 800 吨大型多晶硅还原炉技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:250
 msgid ""
 "High-yield reduction furnace recipes and equipment-manufacturing "
 "technology turning out at least 800 tonnes of polysilicon per single "
 "furnace each year."
-msgstr ""
-"单台还原炉年产量达到 >=800 吨的高产多晶硅化学气相沉积还原工艺及大型还原炉装备制造技术。"
+msgstr "单台还原炉年产量达到 >=800 吨的高产多晶硅化学气相沉积还原工艺及大型还原炉装备制造技术。"
 
 #: ../../book/atlas.rst:254
 msgid ""
-"**263005X · Point 1 — Large-chamber monocrystalline silicon pullers** "
+"**263005X · Point 1: Large-chamber monocrystalline silicon pullers** "
 "*(Proposed Restricted)*"
-msgstr "**263005X · 第 1 点 —— 大炉膛低功耗光伏单晶硅生长炉技术** *（拟限制出口）*"
+msgstr "**263005X · 第 1 点：大炉膛低功耗光伏单晶硅生长炉技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:256
 msgid ""
@@ -676,26 +721,26 @@ msgid ""
 "chamber inner diameter >=1,600 mm, thermal field >=35 inches, pull speed "
 ">=1.2 mm/min, or equal-diameter power draw <=40 kW."
 msgstr ""
-"满足任一先进指标的光伏直拉单晶生长炉设计制造技术：主炉膛内径 >=1,600 毫米、热场尺寸 >=35 英寸、平均拉晶速率 >=1.2 毫米/分钟，或等径生长阶段运行功耗 <=40 千瓦。"
+"满足任一先进指标的光伏直拉单晶生长炉设计制造技术：主炉膛内径 >=1,600 毫米、热场尺寸 >=35 英寸、平均拉晶速率 >=1.2 "
+"毫米/分钟，或等径生长阶段运行功耗 <=40 千瓦。"
 
 #: ../../book/atlas.rst:260
 msgid ""
-"**263005X · Point 2 — Long silicon-ingot cutting and grinding** "
-"*(Proposed Restricted)*"
-msgstr "**263005X · 第 2 点 —— 720 毫米以上超长单晶硅棒开方与磨削技术** *（拟限制出口）*"
+"**263005X · Point 2: Long silicon-ingot cutting and grinding** *(Proposed "
+"Restricted)*"
+msgstr "**263005X · 第 2 点：720 毫米以上超长单晶硅棒开方与磨削技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:262
 msgid ""
 "Half-ingot cropping/grinding processes or precision machining and "
 "toolmaking know-how for solar silicon ingots 720 mm or longer."
-msgstr ""
-"半棒截断磨削工艺，或针对长度 >=720 毫米超长光伏单晶硅棒的高精度一体开方磨削加工工艺与专用机床制造技术。"
+msgstr "半棒截断磨削工艺，或针对长度 >=720 毫米超长光伏单晶硅棒的高精度一体开方磨削加工工艺与专用机床制造技术。"
 
 #: ../../book/atlas.rst:266
 msgid ""
-"**263005X · Point 3 — Rectangular or 130-micrometer thin-wafer slicing** "
+"**263005X · Point 3: Rectangular or 130-micrometer thin-wafer slicing** "
 "*(Proposed Restricted)*"
-msgstr "**263005X · 第 3 点 —— 矩形硅片与 130 微米薄片钨丝金刚线切割技术** *（拟限制出口）*"
+msgstr "**263005X · 第 3 点：矩形硅片与 130 微米薄片钨丝金刚线切割技术** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:268
 msgid ""
@@ -704,13 +749,14 @@ msgid ""
 "wire saws or high-speed spindles (>=6,500 rpm) and compact roller "
 "geometry."
 msgstr ""
-"矩形光伏硅片（任一边长 >=182 毫米）或薄型硅片（厚度 <=130 微米）的精密制造与切割技术，涵盖采用母线直径 <=28 微米细钨丝金刚线、高速主轴（ >=6,500 转/分）或紧凑轴距罗拉结构的切片工艺及装备。"
+"矩形光伏硅片（任一边长 >=182 毫米）或薄型硅片（厚度 <=130 微米）的精密制造与切割技术，涵盖采用母线直径 <=28 "
+"微米细钨丝金刚线、高速主轴（ >=6,500 转/分）或紧凑轴距罗拉结构的切片工艺及装备。"
 
 #: ../../book/atlas.rst:272
 msgid ""
-"**263802X · Point 1 — High-efficiency TOPCon and back-contact (XBC) "
+"**263802X · Point 1: High-efficiency TOPCon and back-contact (XBC) "
 "cells** *(Proposed Restricted)*"
-msgstr "**263802X · 第 1 点 —— 高效 TOPCon 与背接触（XBC）晶硅电池工艺** *（拟限制出口）*"
+msgstr "**263802X · 第 1 点：高效 TOPCon 与背接触（XBC）晶硅电池工艺** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:274
 msgid ""
@@ -719,13 +765,15 @@ msgid ""
 "deposition, and XBC plating) on 182 to 230 mm wafers <=140 micrometers "
 "thick for >=25%-efficient cells or >=22.3% modules."
 msgstr ""
-"在尺寸 182 至 230 毫米、厚度 <=140 微米硅片上实现量产电池效率 >=25% 或组件效率 >=22.3% 的六大工业核心工艺簇：LPCVD/PECVD 隧穿氧化层制备、高速 ALD 原子层沉积钝化、激光选择性硼扩散、无栅铜电镀、微晶硅薄膜沉积以及背接触（XBC）金属化工艺。"
+"在尺寸 182 至 230 毫米、厚度 <=140 微米硅片上实现量产电池效率 >=25% 或组件效率 >=22.3% "
+"的六大工业核心工艺簇：LPCVD/PECVD 隧穿氧化层制备、高速 ALD "
+"原子层沉积钝化、激光选择性硼扩散、无栅铜电镀、微晶硅薄膜沉积以及背接触（XBC）金属化工艺。"
 
 #: ../../book/atlas.rst:278
 msgid ""
-"**263802X · Point 2 — High-efficiency heterojunction (HJT) cell "
+"**263802X · Point 2: High-efficiency heterojunction (HJT) cell "
 "processes** *(Proposed Restricted)*"
-msgstr "**263802X · 第 2 点 —— 高效异质结（HJT）低铟低银电池制造工艺** *（拟限制出口）*"
+msgstr "**263802X · 第 2 点：高效异质结（HJT）低铟低银电池制造工艺** *（拟限制出口）*"
 
 #: ../../book/atlas.rst:280
 msgid ""
@@ -734,4 +782,5 @@ msgid ""
 "wafers, low-silver (<=30%) silver-coated copper pastes, and copper-plated "
 "HJT electrodes."
 msgstr ""
-"涵盖四大异质结（HJT）电池核心降本增效工艺簇：低铟（铟占比 <=50%）或超高速透明导电氧化物（TCO）镀膜、在 <=110 微米超薄硅片上沉积晶硅薄膜、低银含量（银占比 <=30%）银包铜导电浆料应用，以及异质结铜电镀栅线电极工艺。"
+"涵盖四大异质结（HJT）电池核心降本增效工艺簇：低铟（铟占比 <=50%）或超高速透明导电氧化物（TCO）镀膜、在 <=110 "
+"微米超薄硅片上沉积晶硅薄膜、低银含量（银占比 <=30%）银包铜导电浆料应用，以及异质结铜电镀栅线电极工艺。"

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "engine": "guidedog 1.0.0-beta.10 (native rst, typst-diagram, cetz, fletcher, graphviz, ssg)",
-  "base": "http://127.0.0.1:34701/",
+  "base": "http://127.0.0.1:36013/",
   "checks": [
     "en: landing page, 11 desktop chapters, 5 mobile pages, 40-item atlas filter & 6 scenarios",
     "zh-cn: landing page, 11 desktop chapters, 5 mobile pages, 40-item atlas filter & 6 scenarios",

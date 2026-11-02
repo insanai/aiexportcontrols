@@ -95,3 +95,6 @@ msgstr "यह पृष्ठ स्थानांतरित हो गय�
 
 msgid "Open the Book (English) →"
 msgstr "पुस्तक खोलें (अंग्रेज़ी) →"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "यह वेबसाइट GuideDog की सहायता तथा Vicky Ni, Ronak Rathore और Kanak Rathore के सहयोग से निर्मित की गई है।"

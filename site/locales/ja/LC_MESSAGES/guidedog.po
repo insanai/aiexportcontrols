@@ -97,3 +97,6 @@ msgstr "お探しのページは移動したか存在しません。以下の各
 
 msgid "Open the Book (English) →"
 msgstr "英語版を開く →"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "本サイトは GuideDog の力を借り、Vicky Ni、Ronak Rathore、Kanak Rathore の協力を得て制作されました。"

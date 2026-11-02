@@ -116,11 +116,11 @@ msgstr "規制区分案"
 msgid "Prohibited (J) & Restricted (X)"
 msgstr "輸出禁止（J）および輸出制限（X）"
 
-msgid "Proposed Prohibited (J — 14)"
-msgstr "輸出禁止案（J — 14項目）"
+msgid "Proposed Prohibited (J: 14)"
+msgstr "輸出禁止案（J: 14項目）"
 
-msgid "Proposed Restricted (X — 26)"
-msgstr "輸出制限案（X — 26項目）"
+msgid "Proposed Restricted (X: 26)"
+msgstr "輸出制限案（X: 26項目）"
 
 msgid "Interactive Scenario Guide"
 msgstr "実務シナリオガイド"
@@ -148,3 +148,6 @@ msgstr "22の一次資料"
 
 msgid "GitHub Repository"
 msgstr "GitHubリポジトリ"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "本サイトは GuideDog の力を借り、Vicky Ni、Ronak Rathore、Kanak Rathore の協力を得て制作されました。"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 12:00+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: German\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../book/atlas.rst:1
 msgid ""
-"Chapter 2 — Complete 40-technology plain-language atlas of China's "
+"Chapter 2: Complete 40-technology plain-language atlas of China's "
 "Announcement No. 48 Attachment 1 across AI and silicon chips (23), "
 "biomedicine (5), and solar manufacturing (12)."
 msgstr ""
-"Kapitel 2 — Vollständiger Klartext-Atlas aller 40 Technologien aus Anhang "
+"Kapitel 2: Vollständiger Klartext-Atlas aller 40 Technologien aus Anhang "
 "1 von Chinas Bekanntmachung Nr. 48 für KI und Siliziumchips (23), "
 "Biomedizin (5) und Solarfertigung (12)."
 
@@ -58,7 +58,7 @@ msgid ""
 "**23 in artificial intelligence and AI hardware** (6 proposed prohibited, "
 "17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 "
 "restricted), and **12 in solar manufacturing** (5 prohibited, 7 "
-"restricted) — matching the official totals of **14 prohibited** and **26 "
+"restricted), matching the official totals of **14 prohibited** and **26 "
 "restricted** technologies ``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
 msgstr ""
 "Regulierungsbehörden lösen dieses Problem mit **numerischen "
@@ -67,7 +67,7 @@ msgstr ""
 "unter siebenstelligen Katalogcodes: **23 für künstliche Intelligenz und "
 "KI-Hardware** (6 vorgeschlagen verboten, 17 vorgeschlagen beschränkt), "
 "**5 für Biomedizin** (3 verboten, 2 beschränkt) und **12 für die "
-"Solarfertigung** (5 verboten, 7 beschränkt) — exakt die amtliche "
+"Solarfertigung** (5 verboten, 7 beschränkt), exakt die amtliche "
 "Gesamtsumme von **14 verbotenen** und **26 beschränkten** Technologien "
 "``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
 
@@ -79,8 +79,8 @@ msgid ""
 msgstr ""
 "Die drei Technologiefelder der Bekanntmachung Nr. 48: künstliche "
 "Intelligenz und Siliziumwafer-Architekturen (links), Zell- und "
-"Gentherapie-Plattformen (Mitte) sowie kristalline Präzisions-Solarfertigung "
-"(rechts)."
+"Gentherapie-Plattformen (Mitte) sowie kristalline "
+"Präzisions-Solarfertigung (rechts)."
 
 #: ../../book/atlas.rst:20
 msgid ""
@@ -131,22 +131,22 @@ msgstr ""
 "aktueller Platz in den globalen Top 10. Umgekehrt löst ``266505X`` Punkt "
 "1 (Planungsagenten) erst dann aus, wenn ein Agent Aufgaben in :math:`\\ge "
 "20\\text{ Schritte}` zerlegt *und* zugleich :math:`\\ge 80\\%` "
-"Zerlegungsgenauigkeit *und* :math:`\\ge 90\\%` Teilaufgaben-Abschlussquote "
-"erreicht ``[CN-A1]``."
+"Zerlegungsgenauigkeit *und* :math:`\\ge 90\\%` "
+"Teilaufgaben-Abschlussquote erreicht ``[CN-A1]``."
 
 #: ../../book/atlas.rst:28
 msgid ""
-"**Purpose can be half the fence.** Several severe-looking entries — such "
-"as deepfake detection at :math:`\\ge 95\\%` accuracy (``266401J``) or "
-"high-performance sensitive agents (``266502J``) — apply *only* when built "
+"**Purpose can be half the fence.** Several severe-looking entries (such "
+"as deepfake detection at :math:`\\ge 95\\%` accuracy in ``266401J``, or "
+"high-performance sensitive agents in ``266502J``) apply *only* when built "
 "specifically or mainly for national cross-border data defense, critical "
 "infrastructure, military, or core government settings. Ordinary studio "
 "tools and consumer assistants sit outside that purpose ``[CN-A1]``."
 msgstr ""
 "**Der Verwendungszweck bildet oft den halben Zaun.** Mehrere streng "
-"wirkende Einträge — etwa Deepfake-Erkennung ab :math:`\\ge 95\\%` "
+"wirkende Einträge, etwa Deepfake-Erkennung ab :math:`\\ge 95\\%` "
 "Genauigkeit (``266401J``) oder leistungsstarke Spezialagenten "
-"(``266502J``) — gelten *nur*, wenn sie eigens oder überwiegend für den "
+"(``266502J``), gelten *nur*, wenn sie eigens oder überwiegend für den "
 "staatlichen Schutz grenzüberschreitender Datenströme, kritische "
 "Infrastrukturen, das Militär oder staatliche Kernbehörden entwickelt "
 "wurden. Gewöhnliche Medienwerkzeuge und Alltagsassistenten fallen nicht "
@@ -155,15 +155,15 @@ msgstr ""
 #: ../../book/atlas.rst:29
 msgid ""
 "**Read the hardware inside the software list.** Notice that points 18 "
-"through 23 below (``266506X`` and ``266507X``) are not chatbots at all — "
+"through 23 below (``266506X`` and ``266507X``) are not chatbots at all: "
 "they are **processor chip architectures, 3D NAND and DRAM memory designs, "
 "and >10,000-card supercluster interconnects**, while Footnote 4 pulls "
 "**18 classes of physical solar machinery** into export control "
 "``[CN-A1]``."
 msgstr ""
 "**Übersehen Sie die Hardware mitten in der Softwareliste nicht.** Die "
-"unten aufgeführten Punkte 18 bis 23 (``266506X`` und ``266507X``) "
-"handeln mitnichten von Chatbots — es geht um **Prozessor-Chiparchitekturen, "
+"unten aufgeführten Punkte 18 bis 23 (``266506X`` und ``266507X``) handeln "
+"mitnichten von Chatbots, es geht um **Prozessor-Chiparchitekturen, "
 "3D-NAND- und DRAM-Speicherentwürfe sowie Verbindungen für "
 ">10.000-Karten-Supercluster**, während Fußnote 4 zusätzlich **18 Klassen "
 "physischer Photovoltaik-Maschinen** der Exportkontrolle unterstellt "
@@ -175,10 +175,10 @@ msgstr "Künstliche Intelligenz, Chips & Supercluster (23 Prüfpunkte)"
 
 #: ../../book/atlas.rst:38
 msgid ""
-"**266401J · Point 1 — Cross-border security deepfake detection** "
+"**266401J · Point 1: Cross-border security deepfake detection** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**266401J · Punkt 1 — Deepfake-Erkennung für den staatlichen "
+"**266401J · Punkt 1: Deepfake-Erkennung für den staatlichen "
 "Grenzdatenschutz** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:40
@@ -193,15 +193,15 @@ msgstr ""
 "Schutz der grenzüberschreitenden Netzwerk- und Datensicherheit Chinas "
 "dienen und bei Deepfake-Videos, -Audio, -Bildern oder multimedialen "
 "Inhalten mindestens 95 % Genauigkeit und 95 % Trefferquote (Recall) "
-"erreichen. Gewöhnliche Medienprüfer außerhalb dieses "
-"Sicherheitszwecks sind nicht gemeint."
+"erreichen. Gewöhnliche Medienprüfer außerhalb dieses Sicherheitszwecks "
+"sind nicht gemeint."
 
 #: ../../book/atlas.rst:44
 msgid ""
-"**266402J · Point 1 — Autonomous malware generation and mutation** "
+"**266402J · Point 1: Autonomous malware generation and mutation** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**266402J · Punkt 1 — Autonome Schadcode-Erzeugung und -Mutation** "
+"**266402J · Punkt 1: Autonome Schadcode-Erzeugung und -Mutation** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:46
@@ -221,10 +221,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:50
 msgid ""
-"**266402J · Point 2 — Self-adapting cyber-evasion AI** *(Proposed "
+"**266402J · Point 2: Self-adapting cyber-evasion AI** *(Proposed "
 "Prohibited)*"
 msgstr ""
-"**266402J · Punkt 2 — Selbstadaptive KI zur Umgehung von Cyberabwehr** "
+"**266402J · Punkt 2: Selbstadaptive KI zur Umgehung von Cyberabwehr** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:52
@@ -241,10 +241,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:56
 msgid ""
-"**266402J · Point 3 — Mass automated evasion-variant swarms** *(Proposed "
+"**266402J · Point 3: Mass automated evasion-variant swarms** *(Proposed "
 "Prohibited)*"
 msgstr ""
-"**266402J · Punkt 3 — Automatisierte Massenerzeugung tarnfähiger "
+"**266402J · Punkt 3: Automatisierte Massenerzeugung tarnfähiger "
 "Schadcode-Schwärme** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:58
@@ -264,10 +264,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:62
 msgid ""
-"**266501J · Point 1 — Large models trained on China's Core Data** "
+"**266501J · Point 1: Large models trained on China's Core Data** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**266501J · Punkt 1 — Große Modelle auf Basis chinesischer Kerndaten** "
+"**266501J · Punkt 1: Große Modelle auf Basis chinesischer Kerndaten** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:64
@@ -285,10 +285,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:68
 msgid ""
-"**266502J · Point 1 — High-performance agents for critical or defense "
+"**266502J · Point 1: High-performance agents for critical or defense "
 "settings** *(Proposed Prohibited)*"
 msgstr ""
-"**266502J · Punkt 1 — Hochleistungsagenten für kritische Infrastrukturen "
+"**266502J · Punkt 1: Hochleistungsagenten für kritische Infrastrukturen "
 "oder Verteidigung** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:70
@@ -305,10 +305,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:74
 msgid ""
-"**266402X · Point 8 — Ultra-high-accuracy deepfake detection (98%+)** "
+"**266402X · Point 8: Ultra-high-accuracy deepfake detection (98%+)** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266402X · Punkt 8 — Höchstpräzise Deepfake-Erkennung (ab 98 %)** "
+"**266402X · Punkt 8: Höchstpräzise Deepfake-Erkennung (ab 98 %)** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:76
@@ -320,15 +320,15 @@ msgid ""
 msgstr ""
 "Deepfake-Erkennungssysteme und Anlagenbau-Know-how für Video-, Audio-, "
 "Bild- oder multimodale Inhalte, die sowohl bei der Genauigkeit als auch "
-"bei der Trefferquote mindestens 98 % erreichen — unabhängig davon, ob sie "
+"bei der Trefferquote mindestens 98 % erreichen, unabhängig davon, ob sie "
 "dem Grenzdatenschutz dienen."
 
 #: ../../book/atlas.rst:80
 msgid ""
-"**266402X · Point 9 — Near-invisible video and image steganography** "
+"**266402X · Point 9: Near-invisible video and image steganography** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266402X · Punkt 9 — Nahezu unsichtbare Bild- und Videosteganografie** "
+"**266402X · Punkt 9: Nahezu unsichtbare Bild- und Videosteganografie** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:82
@@ -347,10 +347,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:86
 msgid ""
-"**266404X · Point 6 — AI-assisted zero-day and exploit discovery** "
+"**266404X · Point 6: AI-assisted zero-day and exploit discovery** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266404X · Punkt 6 — KI-gestützte Entdeckung von Zero-Days und "
+"**266404X · Punkt 6: KI-gestützte Entdeckung von Zero-Days und "
 "Exploits** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:88
@@ -374,10 +374,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:92
 msgid ""
-"**266501X · Point 19 — High-speed, anti-spoof or dialect voiceprint ID** "
+"**266501X · Point 19: High-speed, anti-spoof or dialect voiceprint ID** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266501X · Punkt 19 — Schnelle, täuschungsfeste oder dialektfähige "
+"**266501X · Punkt 19: Schnelle, täuschungsfeste oder dialektfähige "
 "Stimmbiometrie** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:94
@@ -389,18 +389,19 @@ msgid ""
 "tailored to Chinese minority languages or regional dialects."
 msgstr ""
 "Algorithmen und Systeme zur Sprechererkennung, die mindestens eines von "
-"vier Kriterien erfüllen: >=99,1 % Trefferquote bei <=0,01 % Falschakzeptanz "
-"auf kurzen Sprachproben; <=300 ms Latenz bei >=100 Anfragen pro Sekunde; "
-">=98 % Täuschungserkennung (oder <=1 % Falschakzeptanz) gegen Aufnahmen "
-"und synthetische Stimmen; oder >=90 % Genauigkeit speziell für "
-"chinesische Minderheitensprachen oder Regionaldialekte."
+"vier Kriterien erfüllen: >=99,1 % Trefferquote bei <=0,01 % "
+"Falschakzeptanz auf kurzen Sprachproben; <=300 ms Latenz bei >=100 "
+"Anfragen pro Sekunde; >=98 % Täuschungserkennung (oder <=1 % "
+"Falschakzeptanz) gegen Aufnahmen und synthetische Stimmen; oder >=90 % "
+"Genauigkeit speziell für chinesische Minderheitensprachen oder "
+"Regionaldialekte."
 
 #: ../../book/atlas.rst:98
 msgid ""
-"**266501X · Point 20 — Chinese and minority-language machine "
-"translation** *(Proposed Restricted)*"
+"**266501X · Point 20: Chinese and minority-language machine translation** "
+"*(Proposed Restricted)*"
 msgstr ""
-"**266501X · Punkt 20 — Maschinelle Übersetzung für Chinesisch und "
+"**266501X · Punkt 20: Maschinelle Übersetzung für Chinesisch und "
 "Minderheitensprachen** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:100
@@ -418,10 +419,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:104
 msgid ""
-"**266504X · Point 1 — Large models trained on China's Important Data** "
+"**266504X · Point 1: Large models trained on China's Important Data** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266504X · Punkt 1 — Große Modelle auf Basis Wichtiger Daten Chinas** "
+"**266504X · Punkt 1: Große Modelle auf Basis Wichtiger Daten Chinas** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:106
@@ -439,10 +440,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:110
 msgid ""
-"**266504X · Point 2 — Frontier large-model core technology** *(Proposed "
+"**266504X · Point 2: Frontier large-model core technology** *(Proposed "
 "Restricted)*"
 msgstr ""
-"**266504X · Punkt 2 — Kerntechnologie großer Spitzenmodelle** "
+"**266504X · Punkt 2: Kerntechnologie großer Spitzenmodelle** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:112
@@ -463,11 +464,11 @@ msgstr ""
 
 #: ../../book/atlas.rst:116
 msgid ""
-"**266505X · Point 1 — Long-horizon autonomous planning agents** "
-"*(Proposed Restricted)*"
+"**266505X · Point 1: Long-horizon autonomous planning agents** *(Proposed "
+"Restricted)*"
 msgstr ""
-"**266505X · Punkt 1 — Autonome Planungsagenten über lange Aufgabenketten** "
-"*(Vorgeschlagen beschränkt)*"
+"**266505X · Punkt 1: Autonome Planungsagenten über lange "
+"Aufgabenketten** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:118
 msgid ""
@@ -479,14 +480,15 @@ msgstr ""
 "Aufgabenplanungstechnik, die natürlichsprachliche Anweisungen in Ketten "
 "von mindestens 20 ausführbaren Teilaufgaben zerlegt und dabei mindestens "
 "80 % Zerlegungsgenauigkeit sowie mindestens 90 % durchschnittliche "
-"Teilaufgaben-Erfüllung erreicht. Alle drei Werte müssen zugleich vorliegen."
+"Teilaufgaben-Erfüllung erreicht. Alle drei Werte müssen zugleich "
+"vorliegen."
 
 #: ../../book/atlas.rst:122
 msgid ""
-"**266505X · Point 2 — 60-agent collaborative orchestration** *(Proposed "
+"**266505X · Point 2: 60-agent collaborative orchestration** *(Proposed "
 "Restricted)*"
 msgstr ""
-"**266505X · Punkt 2 — Kooperative Orchestrierung ab 60 Agenten** "
+"**266505X · Punkt 2: Kooperative Orchestrierung ab 60 Agenten** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:124
@@ -503,9 +505,9 @@ msgstr ""
 
 #: ../../book/atlas.rst:128
 msgid ""
-"**266505X · Point 3 — 200-tool operating agents** *(Proposed Restricted)*"
+"**266505X · Point 3: 200-tool operating agents** *(Proposed Restricted)*"
 msgstr ""
-"**266505X · Punkt 3 — Handlungsagenten für über 200 Softwarewerkzeuge** "
+"**266505X · Punkt 3: Handlungsagenten für über 200 Softwarewerkzeuge** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:130
@@ -522,10 +524,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:134
 msgid ""
-"**266505X · Point 4 — Real-time strategic game and decision agents** "
+"**266505X · Point 4: Real-time strategic game and decision agents** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266505X · Punkt 4 — Strategische Echtzeit-Spiel- und "
+"**266505X · Punkt 4: Strategische Echtzeit-Spiel- und "
 "Entscheidungsagenten** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:136
@@ -543,10 +545,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:140
 msgid ""
-"**266506X · Point 1 — AI processor architecture, instruction sets & IP "
+"**266506X · Point 1: AI processor architecture, instruction sets & IP "
 "cores** *(Proposed Restricted)*"
 msgstr ""
-"**266506X · Punkt 1 — KI-Prozessorarchitektur, Befehlssätze & IP-Kerne** "
+"**266506X · Punkt 1: KI-Prozessorarchitektur, Befehlssätze & IP-Kerne** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:142
@@ -559,21 +561,21 @@ msgid ""
 "vision/voice/driving uses. Footnote 2 offers automatic-licensing "
 "facilitation for overseas foundry tape-outs."
 msgstr ""
-"Entwurfstechnologie für KI-Prozessoren — einschließlich eigener "
-"Architekturen, Befehlssätze, Rechen-IP-Kerne und Basis-Softwarestapel — "
+"Entwurfstechnologie für KI-Prozessoren, einschließlich eigener "
+"Architekturen, Befehlssätze, Rechen-IP-Kerne und Basis-Softwarestapel, "
 "bei Vorliegen irgendeines genannten Merkmals: <=14-nm-Fertigungsbedarf, "
 "Gleitkomma- oder Ganzzahlrechenwerke, 2,5D-/3D-Chiplet-Gehäuse, "
 "Hochgeschwindigkeitsverbindungen, Nicht-von-Neumann- bzw. "
 "Compute-in-Memory-Entwürfe oder genannte Anwendungen für Bild, Sprache "
-"und autonomes Fahren. Fußnote 2 gewährt automatische Lizenzerleichterungen "
-"für Foundry-Tape-outs im Ausland."
+"und autonomes Fahren. Fußnote 2 gewährt automatische "
+"Lizenzerleichterungen für Foundry-Tape-outs im Ausland."
 
 #: ../../book/atlas.rst:146
 msgid ""
-"**266506X · Point 2 — Advanced 3D NAND flash and stacked DRAM / HBM chip "
+"**266506X · Point 2: Advanced 3D NAND flash and stacked DRAM / HBM chip "
 "design** *(Proposed Restricted)*"
 msgstr ""
-"**266506X · Punkt 2 — Moderner 3D-NAND-Flash- und gestapelter "
+"**266506X · Punkt 2: Moderner 3D-NAND-Flash- und gestapelter "
 "DRAM-/HBM-Speicherentwurf** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:148
@@ -590,10 +592,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:152
 msgid ""
-"**266507X · Point 1 — Ultra-fast 10,000-GPU cluster interconnects** "
+"**266507X · Point 1: Ultra-fast 10,000-GPU cluster interconnects** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266507X · Punkt 1 — Ultraschnelle Verbindungen für "
+"**266507X · Punkt 1: Ultraschnelle Verbindungen für "
 "10.000-GPU-Supercluster** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:154
@@ -608,10 +610,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:158
 msgid ""
-"**266507X · Point 2 — Rapid fault recovery in 10,000-card training** "
+"**266507X · Point 2: Rapid fault recovery in 10,000-card training** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266507X · Punkt 2 — Schnelle Fehlertoleranz beim Training auf "
+"**266507X · Punkt 2: Schnelle Fehlertoleranz beim Training auf "
 "10.000-Karten-Clustern** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:160
@@ -629,10 +631,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:164
 msgid ""
-"**266507X · Point 3 — Microsecond cluster communication scheduling** "
+"**266507X · Point 3: Microsecond cluster communication scheduling** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266507X · Punkt 3 — Cluster-Kommunikationssteuerung im "
+"**266507X · Punkt 3: Cluster-Kommunikationssteuerung im "
 "Mikrosekundenbereich** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:166
@@ -649,10 +651,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:170
 msgid ""
-"**266507X · Point 4 — Mixed-vendor and cross-region GPU orchestration** "
+"**266507X · Point 4: Mixed-vendor and cross-region GPU orchestration** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266507X · Punkt 4 — Hersteller- und standortübergreifende "
+"**266507X · Punkt 4: Hersteller- und standortübergreifende "
 "GPU-Orchestrierung** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:172
@@ -675,10 +677,10 @@ msgstr "Biomedizin & Gen-Plattformen (5 Prüfpunkte)"
 
 #: ../../book/atlas.rst:179
 msgid ""
-"**262704J · Point 1 — Reusable cell and gene therapy (CGT) platforms** "
+"**262704J · Point 1: Reusable cell and gene therapy (CGT) platforms** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**262704J · Punkt 1 — Wiederverwendbare Zell- und Gentherapie-Plattformen "
+"**262704J · Punkt 1: Wiederverwendbare Zell- und Gentherapie-Plattformen "
 "(CGT)** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:181
@@ -697,10 +699,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:185
 msgid ""
-"**262705J · Point 1 — Reusable siRNA drug-making platforms** *(Proposed "
+"**262705J · Point 1: Reusable siRNA drug-making platforms** *(Proposed "
 "Prohibited)*"
 msgstr ""
-"**262705J · Punkt 1 — Wiederverwendbare siRNA-Wirkstoffplattformen** "
+"**262705J · Punkt 1: Wiederverwendbare siRNA-Wirkstoffplattformen** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:187
@@ -718,10 +720,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:191
 msgid ""
-"**267302J · Point 1 — Pathogen enhancement and directed evolution** "
+"**267302J · Point 1: Pathogen enhancement and directed evolution** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**267302J · Punkt 1 — Erregerverstärkung und gerichtete Evolution** "
+"**267302J · Punkt 1: Erregerverstärkung und gerichtete Evolution** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:193
@@ -739,10 +741,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:197
 msgid ""
-"**262705X · Point 1 — Discovery of unseen cell and gene therapy targets** "
+"**262705X · Point 1: Discovery of unseen cell and gene therapy targets** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**262705X · Punkt 1 — Entdeckung bislang unveröffentlichter "
+"**262705X · Punkt 1: Entdeckung bislang unveröffentlichter "
 "CGT-Zielstrukturen** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:199
@@ -754,18 +756,18 @@ msgid ""
 "public-health emergencies."
 msgstr ""
 "In China gehaltene Verfahren zum Auffinden und Validieren völlig "
-"neuartiger therapeutischer Zielstrukturen, die weltweit noch nirgendwo "
-"in Patenten, Fachzeitschriften, öffentlichen Datenbanken oder auf "
+"neuartiger therapeutischer Zielstrukturen, die weltweit noch nirgendwo in "
+"Patenten, Fachzeitschriften, öffentlichen Datenbanken oder auf "
 "Konferenzen offengelegt wurden. Fußnote 3 sieht automatische "
 "Lizenzerleichterungen für Auslandslizenzen, gemeinsame Forschung und "
 "Gesundheitsnotfälle vor."
 
 #: ../../book/atlas.rst:203
 msgid ""
-"**262706X · Point 1 — Discovery of unseen siRNA drug targets** *(Proposed "
+"**262706X · Point 1: Discovery of unseen siRNA drug targets** *(Proposed "
 "Restricted)*"
 msgstr ""
-"**262706X · Punkt 1 — Entdeckung bislang unveröffentlichter "
+"**262706X · Punkt 1: Entdeckung bislang unveröffentlichter "
 "siRNA-Zielstrukturen** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:205
@@ -776,7 +778,7 @@ msgid ""
 "research, and humanitarian health responses."
 msgstr ""
 "In China gehaltene Verfahren zum Screening und zur Absicherung völlig "
-"neuer, weltweit unveröffentlichter siRNA-Angriffspunkte — verbunden mit "
+"neuer, weltweit unveröffentlichter siRNA-Angriffspunkte, verbunden mit "
 "derselben Schnellspur aus Fußnote 3 für internationale Lizenzvergaben, "
 "Forschungskooperationen und humanitäre Gesundheitshilfe."
 
@@ -786,10 +788,10 @@ msgstr "Solarsilizium, Wafer & Fabrikmaschinen (12 Prüfpunkte)"
 
 #: ../../book/atlas.rst:212
 msgid ""
-"**263003J · Point 1 — Mega-scale cold-hydrogenation polysilicon lines** "
+"**263003J · Point 1: Mega-scale cold-hydrogenation polysilicon lines** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**263003J · Punkt 1 — Großanlagen zur Polysilizium-Kalthydrierung** "
+"**263003J · Punkt 1: Großanlagen zur Polysilizium-Kalthydrierung** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:214
@@ -804,10 +806,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:218
 msgid ""
-"**263003J · Point 2 — High-capacity silane fluidized-bed processes** "
+"**263003J · Point 2: High-capacity silane fluidized-bed processes** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**263003J · Punkt 2 — Hochleistungs-Silan-Wirbelschichtverfahren** "
+"**263003J · Punkt 2: Hochleistungs-Silan-Wirbelschichtverfahren** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:220
@@ -821,10 +823,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:224
 msgid ""
-"**263004J · Point 1 — Paper-thin 70-micrometer silicon wafers** "
-"*(Proposed Prohibited)*"
+"**263004J · Point 1: Paper-thin 70-micrometer silicon wafers** *(Proposed "
+"Prohibited)*"
 msgstr ""
-"**263004J · Punkt 1 — Hauchdünne 70-Mikrometer-Siliziumwafer** "
+"**263004J · Punkt 1: Hauchdünne 70-Mikrometer-Siliziumwafer** "
 "*(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:226
@@ -841,11 +843,11 @@ msgstr ""
 
 #: ../../book/atlas.rst:230
 msgid ""
-"**263801J · Point 1 — Edge passivation for thin large-format cells** "
+"**263801J · Point 1: Edge passivation for thin large-format cells** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**263801J · Punkt 1 — Kantenpassivierung für dünne Großformat-Solarzellen** "
-"*(Vorgeschlagen verboten)*"
+"**263801J · Punkt 1: Kantenpassivierung für dünne "
+"Großformat-Solarzellen** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:232
 msgid ""
@@ -859,10 +861,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:236
 msgid ""
-"**263801J · Point 2 — 30%-efficient perovskite and tandem solar tech** "
+"**263801J · Point 2: 30%-efficient perovskite and tandem solar tech** "
 "*(Proposed Prohibited)*"
 msgstr ""
-"**263801J · Punkt 2 — Perowskit- und Tandemsolartechnik ab 30 % "
+"**263801J · Punkt 2: Perowskit- und Tandemsolartechnik ab 30 % "
 "Wirkungsgrad** *(Vorgeschlagen verboten)*"
 
 #: ../../book/atlas.rst:238
@@ -880,11 +882,11 @@ msgstr ""
 
 #: ../../book/atlas.rst:242
 msgid ""
-"**263004X · Point 1 — 30,000-tonne polysilicon plant engineering** "
+"**263004X · Point 1: 30,000-tonne polysilicon plant engineering** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**263004X · Punkt 1 — Anlagenplanung für 30.000-Tonnen-Polysiliziumlinien** "
-"*(Vorgeschlagen beschränkt)*"
+"**263004X · Punkt 1: Anlagenplanung für "
+"30.000-Tonnen-Polysiliziumlinien** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:244
 msgid ""
@@ -897,10 +899,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:248
 msgid ""
-"**263004X · Point 2 — 800-tonne-per-furnace reduction processes** "
+"**263004X · Point 2: 800-tonne-per-furnace reduction processes** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**263004X · Punkt 2 — Reduktionsverfahren ab 800 Tonnen Jahresausstoß pro "
+"**263004X · Punkt 2: Reduktionsverfahren ab 800 Tonnen Jahresausstoß pro "
 "Ofen** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:250
@@ -909,15 +911,15 @@ msgid ""
 "technology turning out at least 800 tonnes of polysilicon per single "
 "furnace each year."
 msgstr ""
-"Hochergiebige Reduktionsofen-Prozesse und Anlagenbau-Technologie, die "
-"pro einzelnem Ofen mindestens 800 Tonnen Polysilizium im Jahr erzeugen."
+"Hochergiebige Reduktionsofen-Prozesse und Anlagenbau-Technologie, die pro "
+"einzelnem Ofen mindestens 800 Tonnen Polysilizium im Jahr erzeugen."
 
 #: ../../book/atlas.rst:254
 msgid ""
-"**263005X · Point 1 — Large-chamber monocrystalline silicon pullers** "
+"**263005X · Point 1: Large-chamber monocrystalline silicon pullers** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**263005X · Punkt 1 — Großkammer-Ziehöfen für monokristallines Silizium** "
+"**263005X · Punkt 1: Großkammer-Ziehöfen für monokristallines Silizium** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:256
@@ -933,10 +935,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:260
 msgid ""
-"**263005X · Point 2 — Long silicon-ingot cutting and grinding** "
-"*(Proposed Restricted)*"
+"**263005X · Point 2: Long silicon-ingot cutting and grinding** *(Proposed "
+"Restricted)*"
 msgstr ""
-"**263005X · Punkt 2 — Zuschnitt und Schleifen langer Silizium-Ingots** "
+"**263005X · Punkt 2: Zuschnitt und Schleifen langer Silizium-Ingots** "
 "*(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:262
@@ -944,15 +946,16 @@ msgid ""
 "Half-ingot cropping/grinding processes or precision machining and "
 "toolmaking know-how for solar silicon ingots 720 mm or longer."
 msgstr ""
-"Verfahren zum Kappen und Schleifen von Halbingots sowie Präzisionsbearbeitungs- "
-"und Werkzeugbau-Know-how für Solarsiliziumblöcke ab 720 mm Länge."
+"Verfahren zum Kappen und Schleifen von Halbingots sowie "
+"Präzisionsbearbeitungs- und Werkzeugbau-Know-how für Solarsiliziumblöcke "
+"ab 720 mm Länge."
 
 #: ../../book/atlas.rst:266
 msgid ""
-"**263005X · Point 3 — Rectangular or 130-micrometer thin-wafer slicing** "
+"**263005X · Point 3: Rectangular or 130-micrometer thin-wafer slicing** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**263005X · Punkt 3 — Sägen rechteckiger oder 130 Mikrometer dünner "
+"**263005X · Punkt 3: Sägen rechteckiger oder 130 Mikrometer dünner "
 "Wafer** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:268
@@ -969,10 +972,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:272
 msgid ""
-"**263802X · Point 1 — High-efficiency TOPCon and back-contact (XBC) "
+"**263802X · Point 1: High-efficiency TOPCon and back-contact (XBC) "
 "cells** *(Proposed Restricted)*"
 msgstr ""
-"**263802X · Punkt 1 — Hocheffiziente TOPCon- und Rückkontakt-Solarzellen "
+"**263802X · Punkt 1: Hocheffiziente TOPCon- und Rückkontakt-Solarzellen "
 "(XBC)** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:274
@@ -990,10 +993,10 @@ msgstr ""
 
 #: ../../book/atlas.rst:278
 msgid ""
-"**263802X · Point 2 — High-efficiency heterojunction (HJT) cell "
+"**263802X · Point 2: High-efficiency heterojunction (HJT) cell "
 "processes** *(Proposed Restricted)*"
 msgstr ""
-"**263802X · Punkt 2 — Hocheffiziente Heterojunction-Solarzellprozesse "
+"**263802X · Punkt 2: Hocheffiziente Heterojunction-Solarzellprozesse "
 "(HJT)** *(Vorgeschlagen beschränkt)*"
 
 #: ../../book/atlas.rst:280
@@ -1004,6 +1007,6 @@ msgid ""
 "HJT electrodes."
 msgstr ""
 "Vier HJT-Fertigungsfamilien rund um indiumarme (<=50 %) oder "
-"ultraschnelle TCO-Beschichtung, Abscheidung kristalliner Siliziumschichten "
-"auf Wafern <=110 Mikrometer, silberarme (<=30 %) silberummantelte "
-"Kupferpasten sowie galvanisch verkupferte HJT-Elektroden."
+"ultraschnelle TCO-Beschichtung, Abscheidung kristalliner "
+"Siliziumschichten auf Wafern <=110 Mikrometer, silberarme (<=30 %) "
+"silberummantelte Kupferpasten sowie galvanisch verkupferte HJT-Elektroden."

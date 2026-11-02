@@ -111,6 +111,8 @@ let activeServer;
     await visit(ed.home + "index.html");
     assert.equal(await page.locator("h1").count(), 1);
     assert((await page.locator(".editions-grid li").count()) === 7);
+    const creditText = await page.locator(".landing-credit").textContent();
+    assert(creditText && creditText.includes("Vicky Ni") && creditText.includes("Ronak Rathore") && creditText.includes("Kanak Rathore"), `${ed.code} landing credit missing`);
     if (ed.code === "en") {
       await page.screenshot({ path: "/tmp/chinaexport-landing-desktop.png", fullPage: true });
     }
@@ -121,6 +123,10 @@ let activeServer;
     for (const slug of chapters) {
       await visit(`${ed.dir}/${slug}.html`);
       assert.equal(await page.locator("h1").count(), 1);
+      if (slug === "index") {
+        const bookCredit = await page.locator(".gd-footer-credit").textContent();
+        assert(bookCredit && bookCredit.includes("Vicky Ni") && bookCredit.includes("Ronak Rathore") && bookCredit.includes("Kanak Rathore"), `${ed.code} book credit missing`);
+      }
       const size = await page.evaluate(() => [document.documentElement.scrollWidth, innerWidth]);
       assert(size[0] <= size[1] + 2, `${ed.dir}/${slug} desktop overflow ${size}`);
     }

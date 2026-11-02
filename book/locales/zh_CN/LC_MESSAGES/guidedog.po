@@ -116,11 +116,11 @@ msgstr "拟议管制类别"
 msgid "Prohibited (J) & Restricted (X)"
 msgstr "禁止出口 (J) 与限制出口 (X)"
 
-msgid "Proposed Prohibited (J — 14)"
-msgstr "拟禁止出口（J — 14项）"
+msgid "Proposed Prohibited (J: 14)"
+msgstr "拟禁止出口（J: 14项）"
 
-msgid "Proposed Restricted (X — 26)"
-msgstr "拟限制出口（X — 26项）"
+msgid "Proposed Restricted (X: 26)"
+msgstr "拟限制出口（X: 26项）"
 
 msgid "Interactive Scenario Guide"
 msgstr "实战情境交互导引"
@@ -148,3 +148,6 @@ msgstr "22份原始文献"
 
 msgid "GitHub Repository"
 msgstr "GitHub 代码仓库"
+
+msgid "Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore."
+msgstr "本网站借助 GuideDog 构建，并获 Vicky Ni、Ronak Rathore 与 Kanak Rathore 鼎力协助。"

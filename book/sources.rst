@@ -1,5 +1,5 @@
 .. meta::
-   :description: Chapter 10 — All 22 verified primary sources, untouched WPS and PDF official documents, SHA-256 verification method, and plain-language glossary as of 2 November 2026.
+   :description: Chapter 10: All 22 verified primary sources, untouched WPS and PDF official documents, SHA-256 verification method, and plain-language glossary as of 2 November 2026.
 
 ==================================================
 10. Primary Sources, Method, and Plain Glossary
@@ -40,7 +40,7 @@ TPP & HBM (the hardware bottleneck)
    **Total Processing Performance (TPP)** measures an AI chip's raw compute throughput, while **High-Bandwidth Memory (HBM / DRAM bandwidth)** measures how fast data feeds into the chip (capped at ``TPP < 21,000`` and ``6,500 GB/s`` in the January 2026 US China-review rule ``742.6(b)(10)``).
 
 Chip tape-out (``芯片流片``)
-   Sending a finished processor blueprint from a chip-design team to a semiconductor foundry to manufacture physical silicon wafers — explicitly offered automatic-licensing facilitation in Announcement 48's Footnote 2.
+   Sending a finished processor blueprint from a chip-design team to a semiconductor foundry to manufacture physical silicon wafers, explicitly offered automatic-licensing facilitation in Announcement 48's Footnote 2.
 
 API / SaaS (the bakery window)
    Letting remote users send prompts to your cloud server and receive answers back, without handing over underlying model weights, source code, or chip designs.
@@ -113,19 +113,19 @@ Complete Register of 22 Verified Primary Sources
      - 2026-05-12
      - `gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; web-verified)*
    * - ``EAR734``
-     - 15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & Contacts
+     - 15 CFR Part 734: Scope of the EAR, Published Open Source (``734.7``) & Contacts
      - 2026-11-01
      - `bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ (``eeb76281…``)
    * - ``EAR742``
-     - 15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)
+     - 15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)
      - 2026-11-01
      - `bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ (``3eccf859…``)
    * - ``EAR744``
-     - 15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, ``744.23``)
+     - 15 CFR Part 744: End-User and End-Use Based Controls (``744.11``, ``744.23``)
      - 2026-11-01
      - `bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ (``ab19c823…``)
    * - ``EAR774``
-     - 15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)
+     - 15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)
      - 2026-11-01
      - `bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ (``01d3beba…``)
    * - ``SNAPR``
@@ -137,11 +137,11 @@ Complete Register of 22 Verified Primary Sources
      - 2026-10-22
      - `home.treasury.gov <https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ (``75f52eee…``)
    * - ``DOJ``
-     - US Department of Justice National Security Division — Data Security Program
+     - US Department of Justice National Security Division: Data Security Program
      - 2026-11-02
      - `justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ (``1bf01adb…``)
    * - ``OSI``
-     - Open Source Initiative — Open Source AI Definition 1.0
+     - Open Source Initiative: Open Source AI Definition 1.0
      - 2024-10-28
      - `opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ (``a5442179…``)
    * - ``R1``

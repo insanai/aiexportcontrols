@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 11:45+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: Korean\n"
@@ -19,11 +19,12 @@ msgstr ""
 
 #: ../../book/sources.rst:1
 msgid ""
-"Chapter 10 — All 22 verified primary sources, untouched WPS and PDF "
+"Chapter 10: All 22 verified primary sources, untouched WPS and PDF "
 "official documents, SHA-256 verification method, and plain-language "
 "glossary as of 2 November 2026."
 msgstr ""
-"제10장 — 2026년 11월 2일 기준 검증을 마친 22개 1차 사료 전집, 무수정 WPS 및 PDF 공식 문헌 원본, SHA-256 해시 검증 방법론, 그리고 쉬운 용어 사전."
+"제10장: 2026년 11월 2일 기준 검증을 마친 22개 1차 사료 전집, 무수정 WPS 및 PDF 공식 문헌 원본, "
+"SHA-256 해시 검증 방법론, 그리고 쉬운 용어 사전."
 
 #: ../../book/sources.rst:5
 msgid "10. Primary Sources, Method, and Plain Glossary"
@@ -52,7 +53,17 @@ msgid ""
 "Open Source Initiative's OSAID 1.0, the DeepSeek-R1 and Qwen3 "
 "repositories, and the GuideDog documentation platform."
 msgstr ""
-"신뢰할 수 있고 검증 가능한 지식을 옹호하는 책이라면 스스로의 근거 사료에 대해서도 독자 앞에 엄격하리만큼 정직해야 한다. 이 책에 수록된 모든 법령 조문, 수치 임계치, 날짜, 영업일 기준 처리 기한, 온라인 포털 URL, 전화번호, 팩스 번호, 이메일, 사무실 호수 주소는 **2026년 11월 2일** 기준 **22건의 공식 1차 사료**\\ 와 직접 대조해 검증을 마쳤다. 여기에는 중국 상무부·과학기술부의 제48호 공고 본문과 두 개의 WPS 원본 첨부파일, 상무부 대변인 공식 Q&A, 중국 《기술수출입관리조례》(``xzfg.moj.gov.cn``), 2009년 상무부·과학기술부령 제2호(``mofcom.gov.cn``), 상무부 업무시스템 통합 플랫폼 공지문, 미국 연방관보(Federal Register)에 게재된 2025년 1월 AI 확산 규칙 및 2026년 1월 반도체 최종 규칙 원문, ``bis.gov`` 현행 연방규정집(CFR ``734``, ``742``, ``744``, ``774`` 편), BIS 공식 SNAP-R 안내서 및 포털, 2025년 5월 BIS 집행 유예 보도자료, 2026년 5월 미 연방회계감사원(GAO) 결정문(``B-337935``), 미 재무부 및 법무부 공식 기록, 오픈소스 이니셔티브(OSI)의 OSAID 1.0 정의서, DeepSeek-R1 및 Qwen3 공식 저장소, 그리고 GuideDog 출판 플랫폼이 포함된다."
+"신뢰할 수 있고 검증 가능한 지식을 옹호하는 책이라면 스스로의 근거 사료에 대해서도 독자 앞에 엄격하리만큼 정직해야 한다. 이 책에 "
+"수록된 모든 법령 조문, 수치 임계치, 날짜, 영업일 기준 처리 기한, 온라인 포털 URL, 전화번호, 팩스 번호, 이메일, 사무실 "
+"호수 주소는 **2026년 11월 2일** 기준 **22건의 공식 1차 사료**\\ 와 직접 대조해 검증을 마쳤다. 여기에는 중국 "
+"상무부·과학기술부의 제48호 공고 본문과 두 개의 WPS 원본 첨부파일, 상무부 대변인 공식 Q&A, 중국 "
+"《기술수출입관리조례》(``xzfg.moj.gov.cn``), 2009년 상무부·과학기술부령 "
+"제2호(``mofcom.gov.cn``), 상무부 업무시스템 통합 플랫폼 공지문, 미국 연방관보(Federal Register)에 "
+"게재된 2025년 1월 AI 확산 규칙 및 2026년 1월 반도체 최종 규칙 원문, ``bis.gov`` 현행 연방규정집(CFR "
+"``734``, ``742``, ``744``, ``774`` 편), BIS 공식 SNAP-R 안내서 및 포털, 2025년 5월 "
+"BIS 집행 유예 보도자료, 2026년 5월 미 연방회계감사원(GAO) 결정문(``B-337935``), 미 재무부 및 법무부 공식 "
+"기록, 오픈소스 이니셔티브(OSI)의 OSAID 1.0 정의서, DeepSeek-R1 및 Qwen3 공식 저장소, 그리고 "
+"GuideDog 출판 플랫폼이 포함된다."
 
 #: ../../book/sources.rst:13
 msgid ""
@@ -63,7 +74,10 @@ msgid ""
 "our game-theoretic matrix and future scenarios are presented openly as "
 "analytical models rather than legal advice for a specific transaction."
 msgstr ""
-"WPS 원본 파일의 바이트 데이터와 SHA-256 해시값은 일체의 변형 없이 그대로 보존되어 열람용 PDF 변환본과 함께 제공된다. GAO 서버가 자동화된 바이트 아카이빙을 차단한 경우(``HTTP 403``)에는 그 한계 또한 투명하게 명시했다. 본문 전체에 걸쳐 1차 법령 사실에는 대괄호 인용 표기를 달았으며, 게임이론 보수 행렬과 미래 시나리오는 특정 거래에 대한 법률 자문이 아닌 이론적 분석 모델임을 분명히 밝힌다."
+"WPS 원본 파일의 바이트 데이터와 SHA-256 해시값은 일체의 변형 없이 그대로 보존되어 열람용 PDF 변환본과 함께 제공된다. "
+"GAO 서버가 자동화된 바이트 아카이빙을 차단한 경우(``HTTP 403``)에는 그 한계 또한 투명하게 명시했다. 본문 전체에 "
+"걸쳐 1차 법령 사실에는 대괄호 인용 표기를 달았으며, 게임이론 보수 행렬과 미래 시나리오는 특정 거래에 대한 법률 자문이 아닌 "
+"이론적 분석 모델임을 분명히 밝힌다."
 
 #: ../../book/sources.rst:15
 msgid "Untouched Official Document Copies"
@@ -155,7 +169,8 @@ msgid ""
 "training that hold an AI model's reasoning skills. Copying the weights "
 "copies the trained mind."
 msgstr ""
-"AI 모델의 추론 능력을 담고 있는, 학습 과정에서 미세 조율된 수십억~수조 개의 수치 값이다. 가중치 파일을 복사하는 것은 곧 훈련된 지성 자체를 복제하는 일이다."
+"AI 모델의 추론 능력을 담고 있는, 학습 과정에서 미세 조율된 수십억~수조 개의 수치 값이다. 가중치 파일을 복사하는 것은 곧 "
+"훈련된 지성 자체를 복제하는 일이다."
 
 #: ../../book/sources.rst:33
 msgid "Checkpoint"
@@ -166,7 +181,8 @@ msgid ""
 "A saved snapshot of weights during or at the end of training, used to "
 "resume training, distil smaller models, or fine-tune for specialist tasks."
 msgstr ""
-"학습 도중이나 종료 시점에 저장해 둔 가중치 스냅샷 파일로, 학습을 이어서 진행하거나 소형 모델을 증류하거나 전문 과업용으로 미세조정할 때 쓰인다."
+"학습 도중이나 종료 시점에 저장해 둔 가중치 스냅샷 파일로, 학습을 이어서 진행하거나 소형 모델을 증류하거나 전문 과업용으로 "
+"미세조정할 때 쓰인다."
 
 #: ../../book/sources.rst:36
 msgid "FLOPs (floating-point operations)"
@@ -178,7 +194,8 @@ msgid ""
 "**FLOPs** (a 1 followed by 26 zeros) is the frontier compute threshold in "
 "both China's proposed ``266504X`` and America's ``4E091``."
 msgstr ""
-"모델 학습 과정에서 수행되는 개별 수학 연산 횟수다. :math:`10^{26}` **FLOPs**\\ (1 뒤에 0이 26개 붙는 수)는 중국이 제안한 ``266504X``\\ 와 미국의 ``4E091`` 모두가 채택한 프런티어 연산 임계치다."
+"모델 학습 과정에서 수행되는 개별 수학 연산 횟수다. :math:`10^{26}` **FLOPs**\\ (1 뒤에 0이 26개 붙는 "
+"수)는 중국이 제안한 ``266504X``\\ 와 미국의 ``4E091`` 모두가 채택한 프런티어 연산 임계치다."
 
 #: ../../book/sources.rst:39
 msgid "TPP & HBM (the hardware bottleneck)"
@@ -192,7 +209,9 @@ msgid ""
 "and ``6,500 GB/s`` in the January 2026 US China-review rule "
 "``742.6(b)(10)``)."
 msgstr ""
-"**총연산성능(TPP)**\\ 은 AI 칩의 순수 연산 처리량을 재는 지표이고, **고대역폭 메모리(HBM / DRAM 대역폭)**\\ 는 칩 안으로 데이터가 얼마나 빠르게 공급되는지를 재는 지표다(2026년 1월 미국의 대중국 건별 심사 규정 ``742.6(b)(10)`` 에서는 각각 ``TPP < 21,000`` 및 ``6,500 GB/s`` 미만이 상한선이다)."
+"**총연산성능(TPP)**\\ 은 AI 칩의 순수 연산 처리량을 재는 지표이고, **고대역폭 메모리(HBM / DRAM "
+"대역폭)**\\ 는 칩 안으로 데이터가 얼마나 빠르게 공급되는지를 재는 지표다(2026년 1월 미국의 대중국 건별 심사 규정 "
+"``742.6(b)(10)`` 에서는 각각 ``TPP < 21,000`` 및 ``6,500 GB/s`` 미만이 상한선이다)."
 
 #: ../../book/sources.rst:42
 msgid "Chip tape-out (``芯片流片``)"
@@ -201,10 +220,11 @@ msgstr "칩 테이프아웃 (``芯片流片``)"
 #: ../../book/sources.rst:43
 msgid ""
 "Sending a finished processor blueprint from a chip-design team to a "
-"semiconductor foundry to manufacture physical silicon wafers — explicitly "
+"semiconductor foundry to manufacture physical silicon wafers, explicitly "
 "offered automatic-licensing facilitation in Announcement 48's Footnote 2."
 msgstr ""
-"반도체 설계 팀이 완성한 프로세서 회로 설계도를 물리적 실리콘 웨이퍼로 제조하기 위해 파운드리 공장으로 넘기는 최종 공정 단계다 — 제48호 공고 주석 2에서 자동 허가 간소화 대상으로 명시되어 있다."
+"반도체 설계 팀이 완성한 프로세서 회로 설계도를 물리적 실리콘 웨이퍼로 제조하기 위해 파운드리 공장으로 넘기는 최종 공정 단계다, "
+"제48호 공고 주석 2에서 자동 허가 간소화 대상으로 명시되어 있다."
 
 #: ../../book/sources.rst:45
 msgid "API / SaaS (the bakery window)"
@@ -216,7 +236,8 @@ msgid ""
 "answers back, without handing over underlying model weights, source code, "
 "or chip designs."
 msgstr ""
-"기반 모델 가중치나 소스 코드, 반도체 설계도를 직접 넘겨주지 않고, 원격 사용자가 클라우드 서버로 질문을 보내 답변만 받아 가도록 하는 서비스 방식이다."
+"기반 모델 가중치나 소스 코드, 반도체 설계도를 직접 넘겨주지 않고, 원격 사용자가 클라우드 서버로 질문을 보내 답변만 받아 가도록 "
+"하는 서비스 방식이다."
 
 #: ../../book/sources.rst:48
 msgid "Nash Equilibrium (the Fortress Trap)"
@@ -229,7 +250,8 @@ msgid ""
 "outcome (:math:`+5, +5`) far worse and more dangerous than mutual "
 "cooperation (:math:`+17, +17`)."
 msgstr ""
-"게임이론에서 각 행위자가 개별적으로는 최선처럼 보이는 방어적 수(``장벽``)를 선택한 결과, 양측 모두가 상호 협력(:math:`+17, +17`)보다 훨씬 열악하고 위험한 교착 상태(:math:`+5, +5`)에 갇히게 되는 균형점이다."
+"게임이론에서 각 행위자가 개별적으로는 최선처럼 보이는 방어적 수(``장벽``)를 선택한 결과, 양측 모두가 상호 "
+"협력(:math:`+17, +17`)보다 훨씬 열악하고 위험한 교착 상태(:math:`+5, +5`)에 갇히게 되는 균형점이다."
 
 #: ../../book/sources.rst:51
 msgid "Software license vs. export license"
@@ -242,7 +264,9 @@ msgid ""
 "License* (``技术出口许可证`` or BIS license) is a sovereign government permit "
 "allowing controlled technology or hardware to cross a national border."
 msgstr ""
-"*MIT* 또는 *Apache 2.0* 라이선스는 창작자가 누구나 코드나 가중치를 재사용할 수 있도록 허용하는 사적 저작권 허락이다. 반면 *기술수출허가증*\\ (``技术出口许可证`` 또는 미국 BIS 허가증)은 통제 대상 기술이나 하드웨어가 국경을 넘을 수 있도록 주권 국가 정부가 발급하는 공적 행정 허가다."
+"*MIT* 또는 *Apache 2.0* 라이선스는 창작자가 누구나 코드나 가중치를 재사용할 수 있도록 허용하는 사적 저작권 "
+"허락이다. 반면 *기술수출허가증*\\ (``技术出口许可证`` 또는 미국 BIS 허가증)은 통제 대상 기술이나 하드웨어가 국경을 넘을 "
+"수 있도록 주권 국가 정부가 발급하는 공적 행정 허가다."
 
 #: ../../book/sources.rst:54
 msgid "Automatic licensing (``自动许可``)"
@@ -255,7 +279,8 @@ msgid ""
 "self-owned overseas clouds, overseas chip tape-out, and humanitarian "
 "biomedicine."
 msgstr ""
-"제한 등급 AI의 오픈소스 공개, 자체 보유 해외 클라우드, 해외 칩 테이프아웃, 인도주의 바이오의약 협력을 위해 제48호 공고 주석에서 제안된 \"신청 즉시 처리\"(``即报即出``) 방식의 간소화된 정부 허가 경로다."
+"제한 등급 AI의 오픈소스 공개, 자체 보유 해외 클라우드, 해외 칩 테이프아웃, 인도주의 바이오의약 협력을 위해 제48호 공고 "
+"주석에서 제안된 \"신청 즉시 처리\"(``即报即出``) 방식의 간소화된 정부 허가 경로다."
 
 #: ../../book/sources.rst:57
 msgid "ECCN, CCATS & SNAP-R"
@@ -268,7 +293,9 @@ msgid ""
 "the free electronic portal where exporters file license applications and "
 "**CCATS** classification requests."
 msgstr ""
-"미국 수출 통제 체제에서 **ECCN**\\ (AI 칩은 ``3A090``, 모델 가중치는 ``4E091``)은 통제 품목 분류 번호를 뜻하며, **SNAP-R**\\ (``snapr.bis.gov``)은 수출자가 수출 허가 신청서와 **CCATS** 공식 품목 분류 판정 요청서를 무료로 제출하는 전자 포털이다."
+"미국 수출 통제 체제에서 **ECCN**\\ (AI 칩은 ``3A090``, 모델 가중치는 ``4E091``)은 통제 품목 분류 "
+"번호를 뜻하며, **SNAP-R**\\ (``snapr.bis.gov``)은 수출자가 수출 허가 신청서와 **CCATS** 공식 "
+"품목 분류 판정 요청서를 무료로 제출하는 전자 포털이다."
 
 #: ../../book/sources.rst:60
 msgid "Complete Register of 22 Verified Primary Sources"
@@ -538,9 +565,9 @@ msgstr "``EAR734``"
 
 #: ../../book/sources.rst:116
 msgid ""
-"15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & "
+"15 CFR Part 734: Scope of the EAR, Published Open Source (``734.7``) & "
 "Contacts"
-msgstr "15 CFR Part 734 — EAR 적용 범위, 공개 오픈소스 면제(``734.7``) 및 연락처"
+msgstr "15 CFR Part 734: EAR 적용 범위, 공개 오픈소스 면제(``734.7``) 및 연락처"
 
 #: ../../book/sources.rst:117 ../../book/sources.rst:121
 #: ../../book/sources.rst:125 ../../book/sources.rst:129
@@ -561,8 +588,8 @@ msgstr "``EAR742``"
 
 #: ../../book/sources.rst:120
 msgid ""
-"15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)"
-msgstr "15 CFR Part 742 — 상업통제목록(CCL) 기반 통제 정책 (``742.6(b)(10)``)"
+"15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
+msgstr "15 CFR Part 742: 상업통제목록(CCL) 기반 통제 정책 (``742.6(b)(10)``)"
 
 #: ../../book/sources.rst:122
 msgid ""
@@ -578,9 +605,9 @@ msgstr "``EAR744``"
 
 #: ../../book/sources.rst:124
 msgid ""
-"15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, "
+"15 CFR Part 744: End-User and End-Use Based Controls (``744.11``, "
 "``744.23``)"
-msgstr "15 CFR Part 744 — 최종 사용자 및 최종 용도 기반 통제 (``744.11``, ``744.23``)"
+msgstr "15 CFR Part 744: 최종 사용자 및 최종 용도 기반 통제 (``744.11``, ``744.23``)"
 
 #: ../../book/sources.rst:126
 msgid ""
@@ -596,8 +623,8 @@ msgstr "``EAR774``"
 
 #: ../../book/sources.rst:128
 msgid ""
-"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
-msgstr "15 CFR Part 774 — 상업통제목록(CCL) (ECCN ``3A090`` 및 ``4E091``)"
+"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+msgstr "15 CFR Part 774: 상업통제목록(CCL) (ECCN ``3A090`` 및 ``4E091``)"
 
 #: ../../book/sources.rst:130
 msgid ""
@@ -653,9 +680,8 @@ msgstr "``DOJ``"
 
 #: ../../book/sources.rst:140
 msgid ""
-"US Department of Justice National Security Division — Data Security "
-"Program"
-msgstr "미 법무부 국가안보국(NSD) — 데이터 보안 프로그램"
+"US Department of Justice National Security Division: Data Security Program"
+msgstr "미 법무부 국가안보국(NSD), 데이터 보안 프로그램"
 
 #: ../../book/sources.rst:142
 msgid ""
@@ -670,8 +696,8 @@ msgid "``OSI``"
 msgstr "``OSI``"
 
 #: ../../book/sources.rst:144
-msgid "Open Source Initiative — Open Source AI Definition 1.0"
-msgstr "오픈소스 이니셔티브(OSI) — 오픈소스 AI 정의 1.0 (OSAID 1.0)"
+msgid "Open Source Initiative: Open Source AI Definition 1.0"
+msgstr "오픈소스 이니셔티브(OSI), 오픈소스 AI 정의 1.0 (OSAID 1.0)"
 
 #: ../../book/sources.rst:145
 msgid "2024-10-28"

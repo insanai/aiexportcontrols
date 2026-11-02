@@ -8,10 +8,10 @@ Published in **seven native editions** matching [GuideDog](https://github.com/in
 
 ## What This Book Covers
 
-1. **From an Open Commons to Guarded Walls:** Traces how shared human thought—from movable type and Linux to open-weight AI (`DeepSeek-R1`, `Qwen3`)—now confronts sovereign border checkpoints.
+1. **From an Open Commons to Guarded Walls:** Traces how shared human thought, from movable type and Linux to open-weight AI (`DeepSeek-R1`, `Qwen3`), now confronts sovereign border checkpoints.
 2. **Mind and Silicon (Software + Hardware Together):** Explains why open-source AI never floats in thin air: export controls now clamp onto **both** frontier model weights (`266504X`, `4E091`) **and** the physical silicon stack underneath (`3A090` AI chips, `742.6(b)(10)` H200 review, `266506X` `<=14 nm` processor & `<=18 nm` DRAM/HBM/3D NAND blueprints, `266507X` `>10,000-card` supercluster interconnects, and `Footnote 4` solar machinery).
 3. **Mathematical Game Theory Proof (*The Fortress Trap*):** Proves via a symmetric Prisoner's Dilemma payoff equation and Linus's Law of exponential flaw scrutiny $P(\text{flaw survives}) = p_0(1-q)^n$ why mutual broad walls collapse global welfare from `34` to `10` (`-70%`) while quadrupling systemic danger (`R = 4x`).
-4. **Open-Source AI Release Before vs. After Export Controls:** Step-by-step visual flowcharts comparing the old 4-step midnight `git push` with today's 4-gate pipeline—highlighting **Footnote 1** (already-public open AI excluded), **15 CFR 734.7**, and **Footnote 2** ("apply and go" automatic licensing for new open-source AI, overseas foundry chip tape-outs, and self-operated overseas clouds).
+4. **Open-Source AI Release Before vs. After Export Controls:** Step-by-step visual flowcharts comparing the old 4-step midnight `git push` with today's 4-gate pipeline, highlighting **Footnote 1** (already-public open AI excluded), **15 CFR 734.7**, and **Footnote 2** ("apply and go" automatic licensing for new open-source AI, overseas foundry chip tape-outs, and self-operated overseas clouds).
 5. **Official Government Departments, Statutory Clocks & Contact Directory:** Verified filing portals (`ecomp.mofcom.gov.cn` and `snapr.bis.gov`), statutory working-day timelines (China's 30-working-day Stage 1 Letter of Intent + 15-working-day Stage 2 Technology Export License), room numbers, street addresses, emails, faxes, and helpdesk telephone numbers in Beijing, Provincial Commerce/S&T departments, Washington, D.C., and California.
 
 ## Pure GuideDog Architecture (Zero Python Build Scripts)
@@ -47,9 +47,13 @@ guidedog intl stat -l zh_CN -l ja -l ko -l hi -l es -l de book
 - [Announcement No. 48 Official Page](https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html) | [PDF Reading Copy](sources/announcement-48-official-page.pdf)
 - [Attachment 1 (Original WPS)](sources/announcement-48-attachment-1.wps) | [Converted PDF](sources/announcement-48-attachment-1.pdf)
 - [Attachment 2 (Original WPS)](sources/announcement-48-attachment-2.wps) | [Converted PDF](sources/announcement-48-attachment-2.pdf)
-- [MOFCOM & MOST Order No. 2 of 2009 — Licensing Measures PDF](sources/cnmeas.pdf)
+- [MOFCOM & MOST Order No. 2 of 2009: Licensing Measures PDF](sources/cnmeas.pdf)
 - [2026 US Semiconductor Rule (`91 FR 1684`) Official PDF](sources/us26-official.pdf)
 - [2025 US AI Diffusion Rule (`90 FR 4544`) Official PDF](sources/us25-official.pdf)
 - [US BIS Official SNAP-R Filing Guide & FAQ PDF](sources/snapr.pdf)
 
 *(An unrelated organoid presentation previously stored locally as `china_export_control.pdf` remains excluded from version control and was never used as evidence.)*
+
+## Credits & Acknowledgments
+
+Built with the help of [GuideDog](https://github.com/insanai/guidedog), with assistance from **Vicky Ni**, **Ronak Rathore**, and **Kanak Rathore**.

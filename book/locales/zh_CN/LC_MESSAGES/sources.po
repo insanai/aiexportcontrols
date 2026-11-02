@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Impact of Export Controls on the Future of Open "
 "Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"POT-Creation-Date: 2026-11-02 12:32+0000\n"
 "PO-Revision-Date: 2026-11-02 11:54+0000\n"
 "Last-Translator: China Export Control Research\n"
 "Language-Team: China Export Control Research\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../book/sources.rst:1
 msgid ""
-"Chapter 10 — All 22 verified primary sources, untouched WPS and PDF "
+"Chapter 10: All 22 verified primary sources, untouched WPS and PDF "
 "official documents, SHA-256 verification method, and plain-language "
 "glossary as of 2 November 2026."
 msgstr ""
-"第10章——截至2026年11月2日逐字核验的全部22份一手官方文献、原封不动归档的WPS与PDF原件、SHA-256哈希溯源方法，以及面向普通读者的通俗术语表。"
+"第10章：截至2026年11月2日逐字核验的全部22份一手官方文献、原封不动归档的WPS与PDF原件、SHA-256哈希溯源方法，以及面向普通读者的通俗术语表。"
 
 #: ../../book/sources.rst:5
 msgid "10. Primary Sources, Method, and Plain Glossary"
@@ -52,7 +52,16 @@ msgid ""
 "Open Source Initiative's OSAID 1.0, the DeepSeek-R1 and Qwen3 "
 "repositories, and the GuideDog documentation platform."
 msgstr ""
-"一部呼吁世界珍视可验证、可信赖知识的著作，首先必须对自己引用的每一分证据怀有绝对的诚实。截至 **2026 年 11 月 2 日** ，本书中出现的每一条法规条文、每一项量化阈值、每一个关键日期、每一道法定工作日时限、每一个在线申报网址、每一串电话与传真号码、每一个电子邮箱及每一处办公门牌室号，均已对照 **22 份一手官方原始文献** 逐字核验：涵盖中国商务部与科技部2026年第48号公告正文、两份原始 WPS 附件、商务部新闻发言人答记者问、司法部国家行政法规库收录的《中华人民共和国技术进出口管理条例》（ ``xzfg.moj.gov.cn`` ）、商务部与科技部 2009 年第 2 号令《禁止出口限制出口技术管理办法》（ ``mofcom.gov.cn`` ）、商务部业务系统统一平台公告、美国《联邦公报》刊载的 2025 年 1 月《人工智能扩散框架》与 2026 年 1 月半导体最终规则文本、 ``bis.gov`` 实时现行《联邦法规汇编》第 ``734`` 、 ``742`` 、 ``744`` 、 ``774`` 部分、BIS 官方 SNAP-R 申报指南与门户、BIS 2025 年 5 月暂停执法新闻稿、美国政府问责局（GAO）2026 年 5 月 ``B-337935`` 号正式裁决、美国财政部与司法部官方监管记录、国际开源促进会《开源人工智能定义 1.0》、DeepSeek-R1 与 Qwen3 官方开源代码仓库，以及 GuideDog 文档与图书出版引擎。"
+"一部呼吁世界珍视可验证、可信赖知识的著作，首先必须对自己引用的每一分证据怀有绝对的诚实。截至 **2026 年 11 月 2 日** "
+"，本书中出现的每一条法规条文、每一项量化阈值、每一个关键日期、每一道法定工作日时限、每一个在线申报网址、每一串电话与传真号码、每一个电子邮箱及每一处办公门牌室号，均已对照 "
+"**22 份一手官方原始文献** 逐字核验：涵盖中国商务部与科技部2026年第48号公告正文、两份原始 WPS "
+"附件、商务部新闻发言人答记者问、司法部国家行政法规库收录的《中华人民共和国技术进出口管理条例》（ ``xzfg.moj.gov.cn`` "
+"）、商务部与科技部 2009 年第 2 号令《禁止出口限制出口技术管理办法》（ ``mofcom.gov.cn`` "
+"）、商务部业务系统统一平台公告、美国《联邦公报》刊载的 2025 年 1 月《人工智能扩散框架》与 2026 年 1 月半导体最终规则文本、 "
+"``bis.gov`` 实时现行《联邦法规汇编》第 ``734`` 、 ``742`` 、 ``744`` 、 ``774`` 部分、BIS 官方 "
+"SNAP-R 申报指南与门户、BIS 2025 年 5 月暂停执法新闻稿、美国政府问责局（GAO）2026 年 5 月 ``B-337935`` "
+"号正式裁决、美国财政部与司法部官方监管记录、国际开源促进会《开源人工智能定义 1.0》、DeepSeek-R1 与 Qwen3 "
+"官方开源代码仓库，以及 GuideDog 文档与图书出版引擎。"
 
 #: ../../book/sources.rst:13
 msgid ""
@@ -63,7 +72,9 @@ msgid ""
 "our game-theoretic matrix and future scenarios are presented openly as "
 "analytical models rather than legal advice for a specific transaction."
 msgstr ""
-"我们对官方原始 WPS 字节流及其 SHA-256 加密哈希值均原封不动予以归档，并同步附上转换后的 PDF 便捷阅读版。针对美国政府问责局（GAO）服务器拦截自动化脚本抓取（返回 ``HTTP 403`` ）的情形，我们在文献表中如实透明注明。纵观全书，所有一手法律事实均标有方括号文献代号；而书中的博弈论收益矩阵与未来演进情境，则均坦诚标明属于数理分析模型与示例推演，不构成针对任何具体商业交易的正式法律意见。"
+"我们对官方原始 WPS 字节流及其 SHA-256 加密哈希值均原封不动予以归档，并同步附上转换后的 PDF "
+"便捷阅读版。针对美国政府问责局（GAO）服务器拦截自动化脚本抓取（返回 ``HTTP 403`` "
+"）的情形，我们在文献表中如实透明注明。纵观全书，所有一手法律事实均标有方括号文献代号；而书中的博弈论收益矩阵与未来演进情境，则均坦诚标明属于数理分析模型与示例推演，不构成针对任何具体商业交易的正式法律意见。"
 
 #: ../../book/sources.rst:15
 msgid "Untouched Official Document Copies"
@@ -74,7 +85,8 @@ msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 msgstr ""
-"`商务部与科技部2026年第48号公告官方页面归档（PDF阅读版） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
+"`商务部与科技部2026年第48号公告官方页面归档（PDF阅读版） "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
@@ -83,7 +95,10 @@ msgid ""
 "| `Converted PDF "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
-"`附件1：40项拟新增管制技术目录（WPS原始原件） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+"`附件1：40项拟新增管制技术目录（WPS原始原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
+"| `转换后PDF阅读版 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
@@ -92,42 +107,50 @@ msgid ""
 "| `Converted PDF "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
-"`附件2：《技术出口信息登记表》（WPS原始原件） <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ | `转换后PDF阅读版 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
+"`附件2：《技术出口信息登记表》（WPS原始原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
+"| `转换后PDF阅读版 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
 msgid ""
 "`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
 "<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 msgstr ""
-"`商务部、科技部2009年第2号令：《禁止出口限制出口技术管理办法》（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
+"`商务部、科技部2009年第2号令：《禁止出口限制出口技术管理办法》（官方PDF原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/cnmeas.pdf>`_"
 
 #: ../../book/sources.rst:22
 msgid ""
 "`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
 "<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 msgstr ""
-"`美国 BIS 2026年1月半导体许可证审查最终规则 91 FR 1684（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
+"`美国 BIS 2026年1月半导体许可证审查最终规则 91 FR 1684（官方PDF原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/us26-official.pdf>`_"
 
 #: ../../book/sources.rst:23
 msgid ""
 "`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
 "<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 msgstr ""
-"`美国 BIS 2025年1月《人工智能扩散框架》规则 90 FR 4544（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
+"`美国 BIS 2025年1月《人工智能扩散框架》规则 90 FR 4544（官方PDF原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/us25-official.pdf>`_"
 
 #: ../../book/sources.rst:24
 msgid ""
 "`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
 "<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 msgstr ""
-"`美国 BIS 官方 SNAP-R 电子申报操作指南与常见问题解答（官方PDF原件） <https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
+"`美国 BIS 官方 SNAP-R 电子申报操作指南与常见问题解答（官方PDF原件） "
+"<https://insanai.github.io/aiexportcontrols/sources/snapr.pdf>`_"
 
 #: ../../book/sources.rst:25
 msgid ""
 "`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
 "<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 msgstr ""
-"`机器可读文献溯源与 SHA-256 哈希核验清单（sources.json） <https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
+"`机器可读文献溯源与 SHA-256 哈希核验清单（sources.json） "
+"<https://insanai.github.io/aiexportcontrols/sources/sources.json>`_"
 
 #: ../../book/sources.rst:27
 msgid "Plain-Language Glossary for Normal Humans"
@@ -153,8 +176,7 @@ msgstr "检查点（Checkpoint）"
 msgid ""
 "A saved snapshot of weights during or at the end of training, used to "
 "resume training, distil smaller models, or fine-tune for specialist tasks."
-msgstr ""
-"在模型训练中途或收敛完成时保存下来的参数快照，可用于断点续训、蒸馏轻量化小模型，或针对医疗、法律等垂直任务开展微调。"
+msgstr "在模型训练中途或收敛完成时保存下来的参数快照，可用于断点续训、蒸馏轻量化小模型，或针对医疗、法律等垂直任务开展微调。"
 
 #: ../../book/sources.rst:36
 msgid "FLOPs (floating-point operations)"
@@ -166,7 +188,8 @@ msgid ""
 "**FLOPs** (a 1 followed by 26 zeros) is the frontier compute threshold in "
 "both China's proposed ``266504X`` and America's ``4E091``."
 msgstr ""
-"模型训练全过程累计执行的每一次基础数学浮点运算。 :math:`10^{26}` **FLOPs** （即 1 后面跟着 26 个零）是中国拟议 ``266504X`` 条款与美国 ``4E091`` 条款共同采用的前沿大模型算力门槛。"
+"模型训练全过程累计执行的每一次基础数学浮点运算。 :math:`10^{26}` **FLOPs** （即 1 后面跟着 26 个零）是中国拟议 "
+"``266504X`` 条款与美国 ``4E091`` 条款共同采用的前沿大模型算力门槛。"
 
 #: ../../book/sources.rst:39
 msgid "TPP & HBM (the hardware bottleneck)"
@@ -180,7 +203,9 @@ msgid ""
 "and ``6,500 GB/s`` in the January 2026 US China-review rule "
 "``742.6(b)(10)``)."
 msgstr ""
-"**总处理性能（TPP）** 衡量一颗 AI 芯片的综合算力吞吐量，而 **高带宽存储器（HBM / DRAM 带宽）** 则决定数据喂入计算核心的速度（美国 2026 年 1 月对华逐案审查条款 ``742.6(b)(10)`` 将两道上限分别卡在 ``TPP < 21,000`` 与显存带宽 ``< 6,500 GB/s`` ）。"
+"**总处理性能（TPP）** 衡量一颗 AI 芯片的综合算力吞吐量，而 **高带宽存储器（HBM / DRAM 带宽）** "
+"则决定数据喂入计算核心的速度（美国 2026 年 1 月对华逐案审查条款 ``742.6(b)(10)`` 将两道上限分别卡在 ``TPP < "
+"21,000`` 与显存带宽 ``< 6,500 GB/s`` ）。"
 
 #: ../../book/sources.rst:42
 msgid "Chip tape-out (``芯片流片``)"
@@ -189,10 +214,11 @@ msgstr "芯片流片（ ``芯片流片`` ）"
 #: ../../book/sources.rst:43
 msgid ""
 "Sending a finished processor blueprint from a chip-design team to a "
-"semiconductor foundry to manufacture physical silicon wafers — explicitly "
+"semiconductor foundry to manufacture physical silicon wafers, explicitly "
 "offered automatic-licensing facilitation in Announcement 48's Footnote 2."
 msgstr ""
-"芯片设计团队完成全部电路与版图设计后，将最终设计文件交付半导体晶圆代工厂试产或量产实体硅晶圆的关键环节——第48号公告附件 1 注释 2 明确对赴境外开展芯片流片给予自动许可便利。"
+"芯片设计团队完成全部电路与版图设计后，将最终设计文件交付半导体晶圆代工厂试产或量产实体硅晶圆的关键环节，第48号公告附件 1 注释 2 "
+"明确对赴境外开展芯片流片给予自动许可便利。"
 
 #: ../../book/sources.rst:45
 msgid "API / SaaS (the bakery window)"
@@ -203,8 +229,7 @@ msgid ""
 "Letting remote users send prompts to your cloud server and receive "
 "answers back, without handing over underlying model weights, source code, "
 "or chip designs."
-msgstr ""
-"允许境外或远程用户向你的云端服务器发送提问并接收模型生成的回答，但全程不向对方交付底层模型权重、核心源代码或芯片设计图纸。"
+msgstr "允许境外或远程用户向你的云端服务器发送提问并接收模型生成的回答，但全程不向对方交付底层模型权重、核心源代码或芯片设计图纸。"
 
 #: ../../book/sources.rst:48
 msgid "Nash Equilibrium (the Fortress Trap)"
@@ -217,7 +242,8 @@ msgid ""
 "outcome (:math:`+5, +5`) far worse and more dangerous than mutual "
 "cooperation (:math:`+17, +17`)."
 msgstr ""
-"博弈论中的一种僵局状态：每一方都出于单边自保选择了看似最有利的筑墙策略（ ``Wall`` ），结果却把双方死死锁在（ :math:`+5, +5` ）的双输结局里——无论总福祉还是安全性都远逊于携手开放共享（ :math:`+17, +17` ）。"
+"博弈论中的一种僵局状态：每一方都出于单边自保选择了看似最有利的筑墙策略（ ``Wall`` ），结果却把双方死死锁在（ :math:`+5, "
+"+5` ）的双输结局里，无论总福祉还是安全性都远逊于携手开放共享（ :math:`+17, +17` ）。"
 
 #: ../../book/sources.rst:51
 msgid "Software license vs. export license"
@@ -230,7 +256,8 @@ msgid ""
 "License* (``技术出口许可证`` or BIS license) is a sovereign government permit "
 "allowing controlled technology or hardware to cross a national border."
 msgstr ""
-"*MIT* 或 *Apache 2.0* 许可证是创作者授予公众自由使用、修改与再分发代码或权重的民事著作权授权；而 *《技术出口许可证》* （ ``技术出口许可证`` 或美国 BIS 许可证）则是主权国家政府签发、准许受控技术或硬件跨越国境的行政许可批件。"
+"*MIT* 或 *Apache 2.0* 许可证是创作者授予公众自由使用、修改与再分发代码或权重的民事著作权授权；而 *《技术出口许可证》* （ "
+"``技术出口许可证`` 或美国 BIS 许可证）则是主权国家政府签发、准许受控技术或硬件跨越国境的行政许可批件。"
 
 #: ../../book/sources.rst:54
 msgid "Automatic licensing (``自动许可``)"
@@ -243,7 +270,9 @@ msgid ""
 "self-owned overseas clouds, overseas chip tape-out, and humanitarian "
 "biomedicine."
 msgstr ""
-"第48号公告附件 1 注释中针对开源人工智能出口、中资自建自营境外算力中心、境外芯片流片及人道主义生物医药合作提出的便捷许可机制，商务部政策解读将其概括为基本实现“即报即出”（ ``即报即出`` ）。"
+"第48号公告附件 1 "
+"注释中针对开源人工智能出口、中资自建自营境外算力中心、境外芯片流片及人道主义生物医药合作提出的便捷许可机制，商务部政策解读将其概括为基本实现“即报即出”（ "
+"``即报即出`` ）。"
 
 #: ../../book/sources.rst:57
 msgid "ECCN, CCATS & SNAP-R"
@@ -256,7 +285,9 @@ msgid ""
 "the free electronic portal where exporters file license applications and "
 "**CCATS** classification requests."
 msgstr ""
-"在美国出口管制体系中， **ECCN** （如 AI 芯片的 ``3A090`` 、模型权重的 ``4E091`` ）是受控物项的分类编码； **SNAP-R** （ ``snapr.bis.gov`` ）则是出口商免费在线提交出口许可证申请与 **CCATS** 官方物项分类认定申请的电子政务门户。"
+"在美国出口管制体系中， **ECCN** （如 AI 芯片的 ``3A090`` 、模型权重的 ``4E091`` ）是受控物项的分类编码； "
+"**SNAP-R** （ ``snapr.bis.gov`` ）则是出口商免费在线提交出口许可证申请与 **CCATS** "
+"官方物项分类认定申请的电子政务门户。"
 
 #: ../../book/sources.rst:60
 msgid "Complete Register of 22 Verified Primary Sources"
@@ -302,7 +333,9 @@ msgid ""
 "<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
 "(``a5261a74…``)"
 msgstr ""
-"`mofcom.gov.cn <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ (``a5261a74…``)"
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
+"(``a5261a74…``)"
 
 #: ../../book/sources.rst:75
 msgid "``CN-A1``"
@@ -320,7 +353,9 @@ msgid ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
 "(``213158bb…``)"
 msgstr ""
-"`WPS原始原件 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ (``213158bb…``)"
+"`WPS原始原件 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
+"(``213158bb…``)"
 
 #: ../../book/sources.rst:79
 msgid "``CN-A2``"
@@ -336,7 +371,9 @@ msgid ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
 "(``d65818c2…``)"
 msgstr ""
-"`WPS原始原件 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ (``d65818c2…``)"
+"`WPS原始原件 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
+"(``d65818c2…``)"
 
 #: ../../book/sources.rst:83
 msgid "``CNQA``"
@@ -352,7 +389,9 @@ msgid ""
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
 "(``37fc685a…``)"
 msgstr ""
-"`mofcom.gov.cn <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ (``37fc685a…``)"
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
+"(``37fc685a…``)"
 
 #: ../../book/sources.rst:87
 msgid "``CNTIER``"
@@ -373,7 +412,8 @@ msgid ""
 "`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
 "(``39f4b9bb…``)"
 msgstr ""
-"`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ (``39f4b9bb…``)"
+"`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
+"(``39f4b9bb…``)"
 
 #: ../../book/sources.rst:91
 msgid "``CNMEAS``"
@@ -394,7 +434,8 @@ msgid ""
 "`mofcom.gov.cn PDF "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
 msgstr ""
-"`mofcom.gov.cn PDF <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
+"`mofcom.gov.cn PDF "
+"<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
 
 #: ../../book/sources.rst:95
 msgid "``CNPLAT``"
@@ -404,7 +445,7 @@ msgstr "``CNPLAT``"
 msgid ""
 "MOFCOM Unified Business System Platform Notice & Support "
 "(``+86-10-6787-0108``)"
-msgstr "商务部业务系统统一平台—技术贸易管理信息应用通知与支持热线（ ``+86-10-6787-0108`` ）"
+msgstr "商务部业务系统统一平台 - 技术贸易管理信息应用通知与支持热线（ ``+86-10-6787-0108`` ）"
 
 #: ../../book/sources.rst:97 ../../book/sources.rst:133
 #: ../../book/sources.rst:141 ../../book/sources.rst:157
@@ -416,7 +457,8 @@ msgid ""
 "`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
 "(``5bc9740f…``)"
 msgstr ""
-"`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ (``5bc9740f…``)"
+"`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
+"(``5bc9740f…``)"
 
 #: ../../book/sources.rst:99
 msgid "``US26``"
@@ -438,7 +480,9 @@ msgid ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "(``d3b27863…``)"
 msgstr ""
-"`govinfo.gov <https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ (``d3b27863…``)"
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
+"(``d3b27863…``)"
 
 #: ../../book/sources.rst:103
 msgid "``US25``"
@@ -460,7 +504,9 @@ msgid ""
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
 "(``6e202458…``)"
 msgstr ""
-"`govinfo.gov <https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ (``6e202458…``)"
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
+"(``6e202458…``)"
 
 #: ../../book/sources.rst:107
 msgid "``USNE``"
@@ -480,7 +526,9 @@ msgid ""
 "<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
 "(``14a05e6e…``)"
 msgstr ""
-"`bis.gov <https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ (``14a05e6e…``)"
+"`bis.gov "
+"<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
+"(``14a05e6e…``)"
 
 #: ../../book/sources.rst:111
 msgid "``GAO26``"
@@ -509,9 +557,9 @@ msgstr "``EAR734``"
 
 #: ../../book/sources.rst:116
 msgid ""
-"15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & "
+"15 CFR Part 734: Scope of the EAR, Published Open Source (``734.7``) & "
 "Contacts"
-msgstr "15 CFR 第734部分 —— EAR 管辖范围、公开开源豁免（ ``734.7`` ）与官方联系名录"
+msgstr "15 CFR 第734部分，EAR 管辖范围、公开开源豁免（ ``734.7`` ）与官方联系名录"
 
 #: ../../book/sources.rst:117 ../../book/sources.rst:121
 #: ../../book/sources.rst:125 ../../book/sources.rst:129
@@ -523,7 +571,8 @@ msgid ""
 "`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
 "(``eeb76281…``)"
 msgstr ""
-"`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ (``eeb76281…``)"
+"`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
+"(``eeb76281…``)"
 
 #: ../../book/sources.rst:119
 msgid "``EAR742``"
@@ -531,15 +580,16 @@ msgstr "``EAR742``"
 
 #: ../../book/sources.rst:120
 msgid ""
-"15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)"
-msgstr "15 CFR 第742部分 —— 基于商业管制清单（CCL）的审查政策（ ``742.6(b)(10)`` ）"
+"15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
+msgstr "15 CFR 第742部分，基于商业管制清单（CCL）的审查政策（ ``742.6(b)(10)`` ）"
 
 #: ../../book/sources.rst:122
 msgid ""
 "`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
 "(``3eccf859…``)"
 msgstr ""
-"`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ (``3eccf859…``)"
+"`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
+"(``3eccf859…``)"
 
 #: ../../book/sources.rst:123
 msgid "``EAR744``"
@@ -547,16 +597,17 @@ msgstr "``EAR744``"
 
 #: ../../book/sources.rst:124
 msgid ""
-"15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, "
+"15 CFR Part 744: End-User and End-Use Based Controls (``744.11``, "
 "``744.23``)"
-msgstr "15 CFR 第744部分 —— 基于最终用户与最终用途的管制（ ``744.11`` 、 ``744.23`` ）"
+msgstr "15 CFR 第744部分，基于最终用户与最终用途的管制（ ``744.11`` 、 ``744.23`` ）"
 
 #: ../../book/sources.rst:126
 msgid ""
 "`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
 "(``ab19c823…``)"
 msgstr ""
-"`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ (``ab19c823…``)"
+"`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
+"(``ab19c823…``)"
 
 #: ../../book/sources.rst:127
 msgid "``EAR774``"
@@ -564,15 +615,16 @@ msgstr "``EAR774``"
 
 #: ../../book/sources.rst:128
 msgid ""
-"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
-msgstr "15 CFR 第774部分 ——《商业管制清单》（ECCN ``3A090`` 与 ``4E091`` ）"
+"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+msgstr "15 CFR 第774部分，《商业管制清单》（ECCN ``3A090`` 与 ``4E091`` ）"
 
 #: ../../book/sources.rst:130
 msgid ""
 "`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
 "(``01d3beba…``)"
 msgstr ""
-"`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ (``01d3beba…``)"
+"`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
+"(``01d3beba…``)"
 
 #: ../../book/sources.rst:131
 msgid "``SNAPR``"
@@ -588,7 +640,8 @@ msgid ""
 "`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
 "(``e0c3bdee…``)"
 msgstr ""
-"`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ (``e0c3bdee…``)"
+"`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
+"(``e0c3bdee…``)"
 
 #: ../../book/sources.rst:135
 msgid "``TREAS``"
@@ -609,7 +662,9 @@ msgid ""
 "<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
 "(``75f52eee…``)"
 msgstr ""
-"`home.treasury.gov <https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ (``75f52eee…``)"
+"`home.treasury.gov "
+"<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
+"(``75f52eee…``)"
 
 #: ../../book/sources.rst:139
 msgid "``DOJ``"
@@ -617,24 +672,24 @@ msgstr "``DOJ``"
 
 #: ../../book/sources.rst:140
 msgid ""
-"US Department of Justice National Security Division — Data Security "
-"Program"
-msgstr "美国司法部国家安全司 ——“数据安全计划”（Data Security Program）"
+"US Department of Justice National Security Division: Data Security Program"
+msgstr "美国司法部国家安全司，“数据安全计划”（Data Security Program）"
 
 #: ../../book/sources.rst:142
 msgid ""
 "`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
 "(``1bf01adb…``)"
 msgstr ""
-"`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ (``1bf01adb…``)"
+"`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
+"(``1bf01adb…``)"
 
 #: ../../book/sources.rst:143
 msgid "``OSI``"
 msgstr "``OSI``"
 
 #: ../../book/sources.rst:144
-msgid "Open Source Initiative — Open Source AI Definition 1.0"
-msgstr "国际开源促进会（OSI）——《开源人工智能定义 1.0》（OSAID 1.0）"
+msgid "Open Source Initiative: Open Source AI Definition 1.0"
+msgstr "国际开源促进会（OSI），《开源人工智能定义 1.0》（OSAID 1.0）"
 
 #: ../../book/sources.rst:145
 msgid "2024-10-28"
@@ -645,7 +700,8 @@ msgid ""
 "`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
 "(``a5442179…``)"
 msgstr ""
-"`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ (``a5442179…``)"
+"`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
+"(``a5442179…``)"
 
 #: ../../book/sources.rst:147
 msgid "``R1``"
@@ -664,7 +720,8 @@ msgid ""
 "`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
 "(``875b282c…``)"
 msgstr ""
-"`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ (``875b282c…``)"
+"`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
+"(``875b282c…``)"
 
 #: ../../book/sources.rst:151
 msgid "``QWEN``"
@@ -697,4 +754,5 @@ msgid ""
 "`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
 "(``6fe7704f…``)"
 msgstr ""
-"`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ (``6fe7704f…``)"
+"`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
+"(``6fe7704f…``)"

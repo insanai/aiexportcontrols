@@ -1,5 +1,5 @@
 .. meta::
-   :description: Chapter 9 — Practical field guide and six real-world scenarios for open-source AI maintainers, hospital and university users, chip designers, investors, and equipment exporters.
+   :description: Chapter 9: Practical field guide and six real-world scenarios for open-source AI maintainers, hospital and university users, chip designers, investors, and equipment exporters.
 
 ===============================================
 09. Everyday Situations: A Reader's Field Guide
@@ -18,7 +18,7 @@ Profoundly. An MIT license gives you the *legal right* to run a model, whereas p
 If Overseas Users Chat with Our AI App or Call Our API, Is That a Model Export?
 ===============================================================================
 
-No — MOFCOM's official Q&A explicitly confirms that offering **remote API calls, web/app chat, SaaS software, or lightweight edge deployment** built on a restricted large model sits **outside large-model technology export management** ``[CNQA]``. Gates engage only if the model used prohibited PRC Core Data (``266501J``) or if full restricted weights are deployed locally onto overseas servers (where Chinese firms' self-owned overseas clouds qualify for Footnote 2 automatic licensing) ``[CN-A1]`` ``[CNQA]``.
+No. MOFCOM's official Q&A explicitly confirms that offering **remote API calls, web/app chat, SaaS software, or lightweight edge deployment** built on a restricted large model sits **outside large-model technology export management** ``[CNQA]``. Gates engage only if the model used prohibited PRC Core Data (``266501J``) or if full restricted weights are deployed locally onto overseas servers (where Chinese firms' self-owned overseas clouds qualify for Footnote 2 automatic licensing) ``[CN-A1]`` ``[CNQA]``.
 
 Our Lab Stays in China, but Foreign Investors Are Acquiring Control. Do We Register?
 ====================================================================================
@@ -67,7 +67,7 @@ Six Real-World Scenarios
 
    **5. Foreign Venture Restructuring or Cross-Border Acquisition**
 
-   A domestic startup holding unreleased ``266505X`` 60-agent orchestration software or an undisclosed ``262705X`` gene-therapy target discovery engine restructures so an offshore holding company becomes its actual controller. Even if zero files leave Shenzhen servers, Section III(2) of Announcement 48 requires **pre-export registration before the control shift completes** — and if US capital is involved, US Treasury's Outbound Investment rules must be checked in parallel ``[CN48, section III(2)]`` ``[TREAS]``.
+   A domestic startup holding unreleased ``266505X`` 60-agent orchestration software or an undisclosed ``262705X`` gene-therapy target discovery engine restructures so an offshore holding company becomes its actual controller. Even if zero files leave Shenzhen servers, Section III(2) of Announcement 48 requires **pre-export registration before the control shift completes**, and if US capital is involved, US Treasury's Outbound Investment rules must be checked in parallel ``[CN48, section III(2)]`` ``[TREAS]``.
 
 .. container:: scenario-card
 
