@@ -1,0 +1,180 @@
+@@ index | Las nuevas fronteras de la tecnología
+Una guía visual del Anuncio 48 de China, los controles estadounidenses sobre IA y el futuro de los modelos abiertos chinos.
+
+**Edición de investigación: 2 de noviembre de 2026.** Distinguimos las obligaciones actuales, las propuestas y nuestro análisis. El libro explica las fuentes; no autoriza operaciones concretas.
+
+## Dos países, distintas puertas
+
+**China: registro en vigor, catálogo en consulta.** El anuncio del 16 de octubre abarca 40 tecnologías: 23 de IA, 5 de biomedicina y 12 de energía solar. Propone prohibir 14 y restringir 26. El registro previo para las transferencias cubiertas comenzó ese mismo día e incluye exportaciones iniciadas pero no terminadas. La consulta acaba el 15 de noviembre de 2026. [CN48] [CNQA]
+
+**Estados Unidos: controles de chips vigentes y una situación compleja para los modelos.** Los chips avanzados requieren comprobar permisos, destino, comprador y uso. Desde el 15 de enero de 2026, ciertas exportaciones desde Estados Unidos de chips como el H200 a China o Macao pueden recibir evaluación individual bajo condiciones. No es aprobación automática. La norma de difusión de IA sigue en el texto publicado, aunque BIS anunció que no la aplicaría. GAO cuestionó el procedimiento de esa política en mayo de 2026. [US26] [EAR742] [USNE] [GAO26] [EAR774]
+
+## El hallazgo central
+
+El anuncio no establece una prohibición general de los modelos abiertos chinos. El borrador excluye la tecnología de IA que ya es pública mediante código abierto o publicaciones académicas. Para nuevas exportaciones abiertas de tecnología restringida propone permisos automáticos u otras facilidades. Una exclusión y un trámite de permiso son cosas distintas; otras leyes pueden seguir siendo aplicables. [CN48] [CN-A1] [CNQA]
+
+Ofrecemos capítulos, un atlas de 40 puntos y siete ediciones con PDF. Los anexos oficiales son archivos WPS; los PDF son copias convertidas localmente. El archivo local china_export_control.pdf contiene una presentación sobre organoides, ajena al anuncio, y no se usa como prueba.
+
+@@ announcement | 01. Qué cambió y cuándo
+## Un anuncio, dos calendarios
+
+El Ministerio de Comercio y el Ministerio de Ciencia y Tecnología publicaron el Anuncio 48 el 16 de octubre de 2026. Una parte propone cambios al catálogo de tecnologías prohibidas o restringidas para exportación. Otra impone registro temporal previo a las exportaciones cubiertas. El inicio del registro no convierte todas las prohibiciones propuestas en normas definitivas. [CN48]
+
+La consulta va del 16 de octubre al 15 de noviembre. El registro temporal termina cuando el catálogo revisado se publique y se aplique formalmente. No hay una fecha fija para ese final. En las fuentes revisadas para esta edición no encontramos un catálogo definitivo que sustituya esta propuesta. [CN48]
+
+## Qué transferencias importan
+
+Se incluyen la cesión de propiedad al exterior, las licencias de uso extranjero y el cambio del propietario o controlador efectivo de tecnología nacional a una entidad extranjera. El ministerio puede añadir situaciones mediante notificación. También se incluyen exportaciones en curso. Por ello, una operación empresarial puede importar aunque no cruce la frontera ninguna caja: es nuestra lectura de la cláusula de control. [CN48, III]
+
+El registro se tramita en la aplicación de comercio tecnológico de ecomp.mofcom.gov.cn. Recoge datos del exportador, receptor, destino, tecnología, uso y valor previsto. Varias tecnologías para un mismo receptor en una sola exportación pueden agruparse; los demás casos normalmente se separan. Registrarse no equivale a obtener una licencia. [CN48] [CN-A2]
+
+Una prohibición impide una exportación dentro de su alcance. Una restricción abre una vía de autorización. Una licencia automática sigue siendo un trámite. Una exclusión deja una situación fuera de una disposición concreta. Debemos leer las condiciones de cada caso. [CN-A1]
+
+Por ejemplo, una licencia de tecnología privada prevista para noviembre exige revisar la clasificación y el registro actual. No basta esperar al final de la consulta, ni afirmar que una categoría propuesta ya prohíbe toda operación. El ejemplo no es una autorización.
+
+@@ atlas | 02. Atlas de las 40 tecnologías
+## Los puntos y las filas no son lo mismo
+
+El anexo agrupa varios puntos bajo un mismo código. Nuestro atlas separa 40 puntos de lectura y conserva el código y apartado originales. Es un índice editorial, no otra lista legal. [CN48] [CN-A1]
+
+Nuestro recuento del anexo da 6 puntos de IA propuestos como prohibidos y 17 como restringidos; 3 y 2 en biomedicina; 5 y 7 en solar. Suman los totales oficiales de 14 y 26. [CN-A1] [CNQA]
+
+Leemos primero el resumen y después el texto chino en el código indicado. Algunos criterios son alternativos, otros deben cumplirse juntos, y otros dependen del uso. Las exclusiones de tecnología pública, las facilidades y las notas sobre plataformas médicas y equipos solares forman parte de la regla. Los resúmenes no reproducen todas las condiciones de medición.
+
+{{ATLAS}}
+
+@@ ai | 03. Qué cubre la propuesta de IA
+## Un modelo tiene varias piezas
+
+Los pesos son los números aprendidos por el modelo. El código indica cómo construirlo o ejecutarlo; los puntos de control guardan etapas del entrenamiento; la arquitectura es el diseño. Un servicio permite hacer consultas sin entregar todas esas piezas. El punto 266504X(2) menciona pesos, puntos de control, código, arquitectura y técnicas para mejorar entrenamiento y ejecución. [CN-A1]
+
+## Tres pruebas alternativas
+
+El borrador cubre tecnología esencial de modelos con al menos 10^26 operaciones de cálculo, al menos dos billones de parámetros o capacidad líder mundial. Basta una de esas condiciones. La tercera se refiere a estar entre los diez primeros en evaluaciones públicas al exportar, sobre capacidades, uso, seguridad o eficiencia, no solo una clasificación de conversación. No clasificamos marcas como DeepSeek o Qwen sin pruebas de la versión y fecha exactas. [CN-A1, 266504X]
+
+Los modelos entrenados con datos esenciales de China y ofrecidos como servicio aparecen en la sección propuesta como prohibida; los entrenados con datos importantes figuran como restringidos. Son categorías legales, no sinónimos de datos valiosos. La excepción por uso mínimo de datos importantes no depende solo del límite del 0,1%: también exige condiciones sobre capacidad, limpieza y reproducción en las respuestas. Hay otra vía para datos obtenibles legalmente de forma pública. [CN-A1, 266501J y 266504X]
+
+## Agentes, chips y centros de cálculo
+
+Los agentes planifican, usan herramientas o cooperan. Hay cuatro capacidades restringidas con pruebas de rendimiento. Los agentes de alto rendimiento destinados principalmente a escenarios muy sensibles tienen una categoría propuesta como prohibida. No abarca a todos los asistentes capaces de actuar. [CN-A1, 266502J y 266505X]
+
+El diseño de chips incluye características alternativas, algunas amplias, como capacidad de cálculo entero o decimal y aplicaciones específicas. No es solo una regla de 14 nm. La nota 2 facilita determinadas fabricaciones en el extranjero; no crea una prohibición general de usar fábricas extranjeras. Los grupos de cálculo se definen por más de 10.000 tarjetas aceleradoras y pruebas de conexión, recuperación y coordinación. [CN-A1, 266506X y 266507X]
+
+## Servicio remoto o entrega de tecnología
+
+La explicación oficial incluye la instalación extranjera de tecnología restringida y ofrece facilidades para nubes propias. Para modelos grandes restringidos distingue API, aplicaciones, web, SaaS y despliegues locales ligeros, que quedan fuera de la gestión de exportación de tecnología de grandes modelos. No extendemos esa respuesta a tecnología prohibida por datos esenciales, pesos privados entregados a un socio ni otras leyes. [CNQA]
+
+@@ open-models | 04. El futuro de los modelos abiertos
+## Descargar no significa poder reproducir todo
+
+Pesos descargables, licencia abierta y documentación suficiente del entrenamiento son propiedades distintas. La definición de Open Source Initiative exige libertades de uso, estudio, modificación y distribución, junto con información de datos, código y parámetros. No es el criterio jurídico chino. [OSI]
+
+El repositorio R1 de DeepSeek declara licencia MIT para código y pesos y aclara el origen de variantes destiladas. Qwen3 documenta modelos descargables y licencia Apache 2.0. Son ejemplos concretos ya publicados, no garantías sobre todos los modelos de esas empresas ni sus versiones futuras. [R1] [QWEN]
+
+La nota 1 excluye tecnología ya pública; la nota 2 facilita nuevas exportaciones abiertas de tecnología restringida. Publicar un artículo no publica necesariamente pesos privados ni código de entrenamiento. Los archivos concretos, las descargas sujetas a condiciones y las mejoras privadas posteriores requieren atención. El anuncio no resuelve todos esos casos. [CN-A1] [CNQA]
+
+## Cuatro posibilidades, sin probabilidades inventadas
+
+**Continuidad de las publicaciones.** Las facilidades explícitas apoyan la posibilidad de que las empresas mantengan modelos abiertos. Nuevas limitaciones o retrasos documentados debilitarían esa lectura. [CN-A1]
+
+**Más preparación.** Podrían documentarse mejor los datos, umbrales y archivos antes de publicar. Es nuestra inferencia, no prueba de que las publicaciones se retrasarán. [CN-A1]
+
+**Versiones diferenciadas.** Una empresa podría publicar una versión y reservar otra más potente o datos especiales. Es una posibilidad empresarial, no una obligación. [CN-A1]
+
+**Más servicios alojados.** La distinción oficial de servicios hace plausible esta vía, pero no garantiza precio, privacidad, continuidad ni ausencia de otras prohibiciones. [CNQA]
+
+Vigilaríamos el catálogo definitivo, el significado de publicación, los permisos automáticos, los nuevos puntos de control y las reglas de chips de Estados Unidos. Ninguna fuente permite fijar una fecha para el fin de los modelos abiertos chinos. Sugerimos conservar versión, licencia, fecha de descarga y cambios posteriores; es una recomendación documental, no una nueva obligación. [CN-A1] [EAR742] [EAR744]
+
+@@ biomedicine | 05. Biomedicina: plataformas y cooperación
+## La plataforma y el medicamento concreto
+
+La propuesta incluye plataformas originales de terapia celular y génica y de fármacos siRNA con propiedad intelectual propia. Una plataforma es tecnología reutilizable para varios medicamentos. Las prohibiciones de esos puntos se limitan a ceder la propiedad al exterior. Las licencias y servicios sin esa cesión, y el trabajo de un solo medicamento, tienen exclusiones específicas. [CN-A1, 262704J y 262705J]
+
+También se distingue tecnología necesaria para desarrollo, ensayos, producción, calidad, comercialización y cumplimiento en acuerdos sobre medicamentos concretos. Debemos analizar lo que se transfiere, no solo el nombre del contrato. [CN-A1]
+
+Las restricciones sobre nuevos blancos terapéuticos cubren descubrimiento y validación cuando no hubo divulgación mundial por patentes, artículos, bases de datos, materiales técnicos o conferencias. Las facilidades para emergencias sanitarias, ayuda humanitaria, investigación conjunta con recursos extranjeros y licencias pertenecen a la sección restringida; no autorizan toda tecnología prohibida. [CN-A1, 262705X, 262706X y nota 3]
+
+La categoría de patógenos trata determinadas técnicas de potenciación y pases dirigidos. Describimos su alcance sin métodos de laboratorio. No prohíbe toda investigación médica. [CN-A1, 267302J]
+
+Estados Unidos controla ciertos agentes, equipos y tecnologías biológicas y usos vinculados a armas. No es un equivalente exacto de la protección propuesta para plataformas farmacéuticas. El programa estadounidense de seguridad de datos añade preguntas para proyectos genómicos. [EAR774] [EAR744, 744.4] [DOJ]
+
+Un acuerdo sobre un solo medicamento que conserva la propiedad de la plataforma exige revisar por separado plataforma y nuevo blanco. El ejemplo no aprueba el contrato.
+
+@@ solar | 06. Solar: el conocimiento dentro de la máquina
+## Tres fases de fabricación
+
+El anexo cubre polisilicio, obleas y células solares. Propone prohibir procesos de gran capacidad especificados, tecnología de obleas de 70 micrómetros o menos, cierto tratamiento de bordes y ciertas tecnologías de perovskita y células tándem. No es una prohibición general de paneles terminados. [CN-A1] [CNQA]
+
+Los puntos restringidos cubren ingeniería, reducción, crecimiento del cristal, mecanizado y procesos de células eficientes. Varias pruebas combinan dimensiones, espesor, capacidad y eficiencia. Un solo número no basta para clasificar una línea. [CN-A1, 263004X, 263005X y 263802X]
+
+La nota 4 incluye equipos clave que incorporan tecnología cubierta y enumera categorías. La explicación oficial limita esta previsión a equipos con tecnología que alcanza los indicadores; los equipos no enumerados quedan generalmente fuera de este anuncio. [CN-A1] [CNQA]
+
+Vender un panel, entregar planos e instalar una fábrica son actividades distintas. Instalación, ajuste y mejoras pueden transferir conocimientos. Una entrega de línea, software y formación exige identificar máquinas, prestaciones, tecnología y registro actual. Es un ejemplo, no una clasificación oficial. [CN48] [CN-A1]
+
+Los aranceles cambian el coste de importar; los controles de exportación regulan transferencias al exterior. No convertimos disputas arancelarias en prohibiciones tecnológicas equivalentes. Los efectos sobre nuevas fábricas son posibilidades, no resultados cuantificados. [CNQA]
+
+@@ united-states | 07. Los controles de Estados Unidos
+## Jurisdicción, clasificación, destino y uso
+
+Las EAR cubren artículos estadounidenses y algunos fabricados fuera bajo condiciones concretas. Después importan la clasificación, las partes, el destino y el uso. La Lista de Entidades es solo una parte del sistema. Una conexión vaga con Estados Unidos no demuestra jurisdicción. [EAR734] [EAR744] [EAR774]
+
+La norma del 15 de enero de 2026 permite evaluación individual de ciertas exportaciones desde Estados Unidos a China o Macao con rendimiento total inferior a 21.000 y ancho de banda DRAM inferior a 6.500 GB/s. H200 y MI325X son ejemplos, no aprobaciones. [US26] [EAR742]
+
+Exige condiciones sobre suministro estadounidense, capacidad de fabricación, proporción de envíos, identificación de clientes, seguridad y pruebas independientes en Estados Unidos. La autorización sigue siendo discrecional; reexportaciones y compradores vinculados a China en otros países no reciben necesariamente el mismo trato. [US26]
+
+## La norma de difusión y su aplicación
+
+El marco de enero de 2025 añadió controles de ciertos pesos avanzados. El texto actual conserva 4E091 para parámetros de modelos entrenados con al menos 10^26 operaciones y notas sobre parámetros publicados, derivados y referencia a capacidades abiertas. [US25] [EAR774]
+
+BIS anunció el 13 de mayo de 2025 que no lo aplicaría y que preparaba su derogación. GAO explicó el 12 de mayo de 2026 que seguía legalmente vigente mientras faltara la derogación formal y que la política de no aplicación debía someterse al procedimiento de revisión del Congreso. No describimos esta situación como una derogación completa ni como aplicación ordinaria sin complicaciones. [USNE] [GAO26] [EAR774]
+
+EAR734.7 excluye generalmente tecnología y software publicados que cumplen sus condiciones, con excepciones. EAR734.8 trata resultados de investigación básica destinados a publicación. Un artículo relacionado no convierte todo archivo privado en material excluido. [EAR734]
+
+## Programas próximos, pero distintos
+
+El programa del Tesoro sobre inversión exterior cubre determinadas inversiones relacionadas con semiconductores, tecnología cuántica e IA en relación con China, Hong Kong y Macao. La norma de 2024 entró en vigor el 2 de enero de 2025. Hay otra propuesta del 22 de octubre de 2026 con consulta hasta el 7 de diciembre; no es automáticamente una norma definitiva. El programa de Justicia trata acceso a datos sensibles. Ninguno sustituye una licencia de exportación de chips. [TREAS] [DOJ]
+
+@@ comparison | 08. Cuando los sistemas se cruzan
+## Comparar los puntos de control
+
+China se centra aquí en tecnología que sale de su territorio y en cambios de propiedad o control. Estados Unidos comprueba artículos cubiertos, partes, destinos y usos, incluidos algunos artículos extranjeros. Un proyecto puede encontrarse con ambos sistemas en fases distintas. [CN48] [EAR734] [EAR742] [EAR744]
+
+{{COMPARISON}}
+
+Imaginemos un desarrollador chino que usa chips cubiertos en un centro extranjero y después licencia tecnología privada a otro socio. Los chips y sus usos plantean preguntas estadounidenses; la transferencia del modelo, preguntas chinas. Cumplir un sistema no prueba cumplir el otro. Es un ejemplo hipotético. [CN48] [CN-A1] [EAR744]
+
+Más documentación, productos alojados o cambios de ubicación industrial son mecanismos plausibles. No tenemos evidencia para cuantificar efectos sobre precios, empleo, inversión, energía o rendimiento. Tampoco iguales cifras significan iguales reglas: el 10^26 chino es una alternativa entre varias y el estadounidense tiene definiciones, notas y problemas de aplicación propios. [CN-A1] [EAR774] [GAO26]
+
+@@ questions | 09. Preguntas para el presente
+## ¿Se acaban las descargas?
+
+El anuncio no dice eso. Distingue tecnología ya pública y nuevas exportaciones abiertas restringidas. Cada versión exige hechos concretos. [CN-A1]
+
+## ¿Un chatbot exporta necesariamente su modelo?
+
+La respuesta oficial sobre modelos restringidos distingue servicios y transferencia tecnológica. No es una excepción universal para datos, tecnología prohibida u otras actividades. [CNQA]
+
+## ¿Una adquisición es solo financiera?
+
+El registro incluye que una entidad extranjera pase a ser propietaria o controladora efectiva de tecnología nacional. Eso no significa que toda inversión extranjera quede prohibida. [CN48]
+
+## ¿Qué conviene documentar?
+
+Sugerimos versión, código y punto, mediciones, archivos públicos o privados, datos, forma de entrega, receptor, país y fechas, junto con las fuentes y exclusiones. El formulario oficial tiene sus propios campos. La sugerencia no lo sustituye. Nuevas reglas e interpretaciones pueden cambiar respuestas. [CN-A2]
+
+{{SCENARIOS}}
+
+@@ sources | 10. Fuentes, método y vocabulario
+## Cómo investigamos
+
+Leímos anuncio, dos anexos WPS y explicación oficial. Contrastamos Federal Register, textos actuales de BIS, anuncio de no aplicación y decisión de GAO. Para inversiones, datos y modelos usamos Tesoro, Justicia y los propios publicadores. Fecha de comprobación: 2 de noviembre de 2026.
+
+Los identificadores enlazan fuentes y localizadores. Conservamos archivos, huellas digitales y límites de descarga en research. El atlas es una paráfrasis editorial. Los textos originales prevalecen. Los PDF de anexos son conversiones locales con LibreOffice; también ofrecemos una impresión del anuncio. Su paginación puede variar. El PDF de organoides no se utilizó.
+
+Las siete ediciones cubren los mismos capítulos y 40 puntos. Las traducciones son ayudas de lectura sin revisión profesional independiente, jurídica o de hablantes nativos. Los ejemplos y escenarios no son permisos ni predicciones.
+
+**Pesos:** números aprendidos del modelo. **Entrenamiento:** ajustar esos números con datos y cálculo. **Inferencia:** usar el modelo para responder. **Agente:** sistema que planifica y usa herramientas. **API:** acceso a un servicio desde otro programa.
+
+**Pesos abiertos:** parámetros descargables; no garantiza código y datos completos. **Licencia:** puede ser permiso público o permiso de derechos de autor; son distintos. **Propuesto:** categoría aún consultada, no prueba de una nueva prohibición definitiva.
+
+{{SOURCES}}

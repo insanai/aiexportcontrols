@@ -1,0 +1,18 @@
+[
+  {
+    "id": "US26-PDF",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf",
+    "sha256": "7fb7dae40d9b277a61ac64df1e1ba09a7bdab98dc6c2ed720aacdfd87edf8125",
+    "file": "public/sources/us26-official.pdf",
+    "accessed": "2026-11-02",
+    "kind": "Official PDF, unchanged bytes"
+  },
+  {
+    "id": "US25-PDF",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-15/pdf/2025-00636.pdf",
+    "sha256": "0ec0f7fc1016b9654ea0559819e821d1baee1814efe1e0048a10d5df9230f86c",
+    "file": "public/sources/us25-official.pdf",
+    "accessed": "2026-11-02",
+    "kind": "Official PDF, unchanged bytes"
+  }
+]

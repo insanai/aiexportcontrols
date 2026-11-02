@@ -1,0 +1,178 @@
+@@ index | Die neuen Grenzen der Technologie
+Ein anschauliches Buch über Chinas Bekanntmachung 48, amerikanische KI-Ausfuhrkontrollen und die Zukunft offener Modelle aus China.
+
+**Forschungsstand: 2. November 2026.** Wir unterscheiden geltende Pflichten, Entwürfe und unsere eigene Analyse. Dieses Buch erklärt Quellen und genehmigt keine einzelne Transaktion.
+
+## Zwei Länder, unterschiedliche Zugänge
+
+**China: Registrierung gilt, Katalogänderung ist vorgeschlagen.** Die Bekanntmachung vom 16. Oktober betrifft 40 Technologien: 23 in der KI, 5 in der Biomedizin und 12 in der Solartechnik. Vorgeschlagen sind 14 verbotene und 26 beschränkte Technologien. Die vorübergehende Registrierung erfasster Ausfuhren begann sofort und umfasst noch nicht abgeschlossene Vorgänge. Stellungnahmen sind bis zum 15. November 2026 möglich. [CN48] [CNQA]
+
+**USA: Chipkontrollen gelten, bei Modellregeln zählt auch die Vollzugslage.** Fortschrittliche KI-Chips unterliegen Prüfungen von Genehmigung, Ziel, Käufer und Verwendung. Seit dem 15. Januar 2026 können bestimmte Ausfuhren etwa von H200-Chips aus den USA nach China oder Macau unter Bedingungen einzeln geprüft werden. Das ist keine automatische Genehmigung. Die KI-Diffusionsregel steht weiter im veröffentlichten Regeltext, obwohl BIS ihre Nichtdurchsetzung ankündigte. GAO beanstandete im Mai 2026 das Verfahren dieser Politik. [US26] [EAR742] [USNE] [GAO26] [EAR774]
+
+## Das wichtigste Ergebnis
+
+Die Bekanntmachung verbietet chinesische offene Modelle nicht pauschal. Bereits durch offene Veröffentlichung oder Fachaufsätze allgemein zugängliche KI-Technologie ist im Entwurf ausgenommen. Für neue offene Ausfuhren beschränkter KI-Technologie sind automatische Genehmigungen oder ähnliche Erleichterungen vorgesehen. Ausnahme und Genehmigungsverfahren sind verschieden. Andere Gesetze können weiter gelten. [CN48] [CN-A1] [CNQA]
+
+Das Buch bietet Kapitel, einen Atlas mit 40 Punkten und sieben PDF-Ausgaben. Die amtlichen Anhänge sind WPS-Dateien; unsere PDFs sind lokal erstellte Lesekopien. Die vorhandene Datei china_export_control.pdf ist eine sachfremde Präsentation zur Organoidforschung und keine Beweisquelle.
+
+@@ announcement | 01. Was sich wann geändert hat
+## Eine Bekanntmachung, zwei Zeitabläufe
+
+Handelsministerium und Wissenschaftsministerium veröffentlichten die Bekanntmachung am 16. Oktober 2026. Der eine Teil stellt Änderungen am Katalog verbotener oder beschränkter Technologieausfuhren zur Diskussion. Der andere führt sofort eine vorübergehende Registrierung ein. Der Beginn der Registrierung macht die vorgeschlagenen Verbote nicht automatisch zu endgültigen Regeln. [CN48]
+
+Die Anhörung dauert vom 16. Oktober bis zum 15. November. Die Registrierung endet mit der formellen Veröffentlichung und Umsetzung des geänderten Katalogs. Dafür nennt die Bekanntmachung keinen festen Termin. In den für diese Ausgabe geprüften Quellen fanden wir keinen endgültigen Ersatz für diesen Entwurf. [CN48]
+
+## Welche Übertragungen zählen
+
+Erfasst werden Eigentumsübertragungen ins Ausland, Lizenzen zur Nutzung inländischer Technologie im Ausland und der Wechsel des Eigentümers oder tatsächlichen Kontrolleurs zu einem ausländischen Rechtsträger. Das Ministerium kann weitere Fälle benennen. Auch begonnene, noch nicht abgeschlossene Ausfuhren zählen. Ein Unternehmenskauf kann deshalb ohne Warenbewegung relevant sein. Dieser letzte Schluss ist unsere Auslegung der Kontrollklausel. [CN48, III]
+
+Die Registrierung erfolgt in der Anwendung für Technologiehandel auf ecomp.mofcom.gov.cn. Sie erfasst Beteiligte, Ziel, Technologie, Nutzung und erwarteten Wert. Mehrere Technologien an denselben Empfänger in einer Ausfuhr können zusammen eingetragen werden; andere Fälle grundsätzlich getrennt. Registrierung ist keine Ausfuhrgenehmigung. [CN48] [CN-A2]
+
+Ein Verbot stoppt erfasste Übertragungen. Eine Beschränkung eröffnet einen Genehmigungsweg. Eine automatische Genehmigung bleibt ein Verfahren. Eine Ausnahme nimmt einen bestimmten Fall aus dem jeweiligen Anwendungsbereich. Die Bedingungen entscheiden. [CN-A1]
+
+Eine für November geplante Lizenz privater Modelltechnologie verlangt daher eine Prüfung heutiger Registrierung und bestehender Regeln. Warten bis zum Ende der Anhörung genügt nicht. Ebenso wäre es falsch, allein aus einer Entwurfskategorie ein bereits umfassend geltendes Verbot abzuleiten. Das Beispiel ist keine Freigabe.
+
+@@ atlas | 02. Der Atlas der 40 Technologien
+## Punkte sind keine Tabellenzeilen
+
+Anhang 1 bündelt mehrere Technologiepunkte unter einem Code. Unser Atlas trennt sie in 40 Leseeinträge und erhält Code und Unterpunkt. Er ist ein redaktionelles Verzeichnis, keine neue Rechtsliste. [CN48] [CN-A1]
+
+Unsere Zählung ergibt für KI 6 vorgeschlagene Verbote und 17 Beschränkungen, für Biomedizin 3 und 2, für Solar 5 und 7. Zusammen sind das die amtlichen 14 und 26. [CN-A1] [CNQA]
+
+Wir lesen zuerst die Erklärung und dann den chinesischen Originalpunkt. Manche Merkmale gelten alternativ, andere gemeinsam; manche Einträge hängen vom Zweck ab. Die Hinweise zu öffentlicher KI, Erleichterungen, Arzneiplattformen und Solarmaschinen gehören zum Inhalt. Unsere Kurztexte enthalten nicht jede Messbedingung.
+
+{{ATLAS}}
+
+@@ ai | 03. Welche KI-Technologie betroffen ist
+## Mehr als ein Chatfenster
+
+Gewichte sind die gelernten Zahlen eines Modells. Quellcode beschreibt Aufbau oder Betrieb. Kontrollpunkte speichern Trainingsstände. Architektur ist der Bauplan. Ein gehosteter Dienst liefert Antworten, ohne diese Bestandteile abzugeben. 266504X(2) nennt Gewichte, wichtige Kontrollpunkte, Code, Architektur sowie Techniken für Training und schnelleren Betrieb. [CN-A1]
+
+## Drei alternative Schwellen
+
+Der Entwurf nennt mindestens 10^26 Rechenoperationen, mindestens zwei Billionen Parameter oder weltweit führende Fähigkeiten. Ein einziges Kriterium genügt. Führend bedeutet eine öffentliche Platzierung unter den ersten zehn zum Ausfuhrzeitpunkt in den genannten Bewertungsarten, etwa Leistung, Nutzung, Sicherheit oder Trainingseffizienz. Ein einzelnes Chat-Ranking ist nicht der einzige Maßstab. Wir ordnen DeepSeek oder Qwen nicht allein anhand des Markennamens rechtlich ein. [CN-A1, 266504X]
+
+Modelle, die mit Chinas gesetzlich definierten Kerndaten trainiert und anschließend als Dienste bereitgestellt werden, stehen im vorgeschlagenen Verbotsbereich. Modelle mit wichtigen Daten stehen im Beschränkungsbereich. Das sind Rechtsbegriffe, keine Alltagssprache. Die Ausnahme bei höchstens 0,1% wichtigen Daten hat zusätzliche Bedingungen zu Fähigkeiten, Bereinigung und fehlender Wiedergabe. Für rechtmäßig öffentlich verfügbare Daten gibt es eine weitere Möglichkeit. Die Prozentzahl allein genügt nicht. [CN-A1, 266501J und 266504X]
+
+## Agenten und Recheninfrastruktur
+
+Agenten planen, nutzen Werkzeuge oder arbeiten zusammen. Vier Leistungsgruppen sollen beschränkt werden. Besonders leistungsfähige Agenten hauptsächlich für sehr sensible Bereiche fallen in eine eigene vorgeschlagene Verbotskategorie, nicht alle handlungsfähigen Assistenten. [CN-A1, 266502J und 266505X]
+
+Der Chipentwurf enthält alternative, teils weit formulierte Merkmale wie Ganzzahl- oder Gleitkommaberechnung und bestimmte Anwendungen. Er lässt sich nicht auf 14 nm reduzieren. Die Erleichterungen für Fertigung im Ausland sind kein allgemeines Verbot ausländischer Fabriken. Clusterregeln betreffen mehr als 10.000 KI-Beschleunigerkarten und bestimmte Verbindungs-, Wiederherstellungs- und Koordinationsleistungen. [CN-A1, 266506X und 266507X]
+
+Laut Ministerium zählt die lokale Bereitstellung beschränkter Modelltechnologie im Ausland zum Technologietransfer. Eigene ausländische Clouds können Erleichterungen nutzen. Bei beschränkten großen Modellen werden API, Apps, Web, SaaS und leichte lokale Bereitstellung vom Bereich der Modelltechnologieausfuhr unterschieden. Das ist keine allgemeine Ausnahme für verbotene Kerndatenmodelle, übergebene private Gewichte oder andere Gesetze. [CNQA]
+
+@@ open-models | 04. Die Zukunft offener Modelle
+## Offenheit hat mehrere Bedeutungen
+
+Herunterladbare Gewichte, offene Lizenzen und ausreichende Trainingsinformationen sind verschiedene Eigenschaften. Die Definition der Open Source Initiative verlangt Nutzung, Untersuchung, Änderung und Weitergabe sowie Dateninformationen, Code und Parameter. Sie ist nicht der chinesische Rechtsmaßstab. [OSI]
+
+DeepSeek R1 nennt MIT für Code und Gewichte und erläutert die Herkunft destillierter Varianten. Qwen3 dokumentiert veröffentlichte Modelle und Apache 2.0. Das sind konkrete bestehende Veröffentlichungen, keine Garantie für jede Modellfamilie oder zukünftige Version. [R1] [QWEN]
+
+Hinweis 1 nimmt bereits öffentliche Technologie aus; Hinweis 2 erleichtert neue offene Ausfuhren beschränkter Technologie. Ein Aufsatz veröffentlicht nicht automatisch private Gewichte oder Trainingscode. Die tatsächlichen Dateien, Zugangsbeschränkungen und spätere private Änderungen müssen einzeln betrachtet werden. Die Bekanntmachung beantwortet nicht jeden Grenzfall. [CN-A1] [CNQA]
+
+## Vier Möglichkeiten, keine Vorhersagen
+
+**Weiter offene Veröffentlichungen.** Die ausdrücklichen Erleichterungen stützen diesen Weg. Neue Einschränkungen oder belegte Verzögerungen würden diese Einschätzung schwächen. [CN-A1]
+
+**Mehr Vorbereitung.** Teams könnten Daten, Schwellen und Veröffentlichungsumfang besser dokumentieren. Das ist unsere Schlussfolgerung, kein Nachweis langsamerer Veröffentlichungen. [CN-A1]
+
+**Geteilte Produktlinien.** Ein Unternehmen könnte eine Version öffnen und stärkere Modelle oder besondere Daten privat behalten. Das ist eine Geschäftsmöglichkeit, keine Pflicht. [CN-A1]
+
+**Mehr gehostete Dienste.** Die amtliche Abgrenzung macht diesen Weg plausibel, garantiert aber weder Preis, Datenschutz, Verfügbarkeit noch Freiheit von anderen Verboten. [CNQA]
+
+Wir würden den endgültigen Katalog, die Definition öffentlicher Veröffentlichung, automatische Verfahren, neue Kontrollpunkte und US-Chipregeln beobachten. Wir kennen keine belastbare Grundlage für ein Datum, an dem chinesische offene Modelle enden. Version, Lizenz, Downloadzeit und spätere Änderungen aufzubewahren ist unser Vorschlag, keine neue Rechtspflicht. [CN-A1] [EAR742] [EAR744]
+
+@@ biomedicine | 05. Biomedizin: Plattformen und Zusammenarbeit
+## Die Plattform und das einzelne Arzneimittel
+
+Vorgeschlagene Verbote betreffen eigene wiederverwendbare Plattformen für Zell- und Gentherapie und siRNA-Medikamente. Die Plattform kann mehrere Arzneimittel tragen. Die Verbote dieser Einträge gelten nur für Eigentumsübertragung ins Ausland. Lizenzen und Leistungen ohne Eigentumswechsel sowie bestimmte Arbeiten an einem einzelnen Medikament sind ausgenommen. [CN-A1, 262704J und 262705J]
+
+Hinweise unterscheiden notwendige Technik für Entwicklung, Studien, Produktion, Qualität, Marktzugang und Regelbefolgung bei konkreten Arzneimittelgeschäften. Entscheidend ist der tatsächliche Inhalt, nicht nur der Vertragsname. [CN-A1]
+
+Beschränkte Zielstrukturen betreffen Entdeckung und Bestätigung weltweit noch nicht über Patente, Aufsätze, Datenbanken, Fachmaterialien oder Tagungen offengelegter Ziele. Erleichterungen für Gesundheitsnotfälle, humanitäre Hilfe, gemeinsame Forschung mit ausländischen Ressourcen und Lizenzen gehören zum beschränkten Bereich. Sie erlauben nicht jede verbotene Technik. [CN-A1, 262705X, 262706X und Hinweis 3]
+
+Der Erregereintrag betrifft bestimmte Verstärkungs- und gerichtete Passageverfahren. Wir nennen den Rechtsbereich ohne Laboranleitung. Er ist kein Verbot sämtlicher medizinischer Forschung. [CN-A1, 267302J]
+
+Die USA kontrollieren bestimmte biologische Stoffe, Geräte, Technologie und Waffenverwendungen. Das entspricht nicht genau dem chinesischen Schutz von Arzneiplattformen. Das US-Datensicherheitsprogramm ist für bestimmte sensible Daten ein zusätzlicher Prüfpunkt, etwa in Genomprojekten. [EAR774] [EAR744, 744.4] [DOJ]
+
+Eine Lizenz für ein einzelnes Medikament bei behaltenem Plattformeigentum verlangt getrennte Prüfung der Plattform- und Zieleinträge. Das Beispiel genehmigt keinen Vertrag.
+
+@@ solar | 06. Solar: Wissen in Maschinen
+## Drei Produktionsstufen
+
+Die Vorschläge betreffen Polysilizium, Wafer und Solarzellen. Verbote umfassen bestimmte Hochkapazitätsprozesse, Wafertechnik mit höchstens 70 Mikrometern Dicke, bestimmte Randbehandlung sowie bestimmte Perowskit- und Tandemverfahren. Das ist kein pauschales Verbot fertiger Module. [CN-A1] [CNQA]
+
+Beschränkte Punkte behandeln Anlagenplanung, Reduktion, Kristallziehen, Bearbeitung und effiziente Zellprozesse. Maße, Dicke, Durchsatz und Wirkungsgrad können gemeinsam verlangt sein. Eine einzelne Zahl klassifiziert keine komplette Fabrik. [CN-A1]
+
+Hinweis 4 erfasst ausdrücklich genannte Schlüsselmaschinen, die entsprechende Technologie tragen. Laut Ministerium müssen die Kontrollindikatoren erreicht sein; nicht genannte Maschinen fallen grundsätzlich nicht unter diese Bekanntmachung. [CN-A1] [CNQA]
+
+Modulverkauf, Bauplanübergabe und Installation einer Produktionslinie sind verschieden. Einrichtung, Anpassung und Verbesserungen können Wissen übertragen. Bei einer Linie mit Software und Schulung betrachten wir Maschinen, Leistung, Technik und aktuelle Registrierung einzeln. Das ist ein Beispiel. [CN48] [CN-A1]
+
+Zölle ändern Importkosten. Ausfuhrkontrollen regeln Übertragungen ins Ausland. Wir setzen Solarzollstreitigkeiten nicht mit Technologieverboten gleich. Auswirkungen auf Fabrikpläne sind mögliche Mechanismen, keine hier gemessenen Ergebnisse. [CNQA]
+
+@@ united-states | 07. Die amerikanischen Regeln einfach erklärt
+## Vier Prüfungen
+
+Die EAR erfassen US-Artikel und unter bestimmten Bedingungen auch ausländische Erzeugnisse. Danach zählen Klassifizierung, Ziel, Beteiligte und Verwendung. Die Entity List ist nur ein Teil. Eine unklare Verbindung zu den USA beweist noch keine Zuständigkeit. [EAR734] [EAR744] [EAR774]
+
+Die Regel vom 15. Januar 2026 ermöglicht Einzelfallprüfung bestimmter Ausfuhren aus den USA nach China oder Macau unter den Schwellen 21.000 für Gesamtverarbeitungsleistung und 6.500 GB/s für DRAM-Bandbreite. H200 und MI325X sind Beispiele, keine Genehmigungen. [US26] [EAR742]
+
+Bedingungen betreffen US-Versorgung, Fertigungskapazität, Versandmengenverhältnis, Kundenkontrolle, Sicherheit und unabhängige Tests in den USA. Eine Genehmigung bleibt eine Ermessensentscheidung. Wiederausfuhren und chinesisch verbundene Käufer in anderen Ländern erhalten nicht automatisch dieselbe Behandlung. [US26]
+
+## Modellgewichte: Text und Vollzug
+
+Das Rahmenwerk von Januar 2025 führte bestimmte Gewichtskontrollen ein. Im aktuellen Text steht weiter 4E091 für Parameter ab 10^26 Trainingsoperationen mit Hinweisen zu veröffentlichten Parametern, Ableitungen und offenen Fähigkeitsvergleichen. [US25] [EAR774]
+
+BIS kündigte am 13. Mai 2025 Nichtdurchsetzung und geplante Aufhebung an. GAO erklärte am 12. Mai 2026, die Regel gelte bis zur formellen Aufhebung rechtlich weiter; auch die pauschale Nichtdurchsetzung müsse nach dem Congressional Review Act vorgelegt werden. Wir schreiben deshalb weder einfach aufgehoben noch problemlos normal durchgesetzt. [USNE] [GAO26] [EAR774]
+
+734.7 nimmt grundsätzlich passende veröffentlichte, nicht geheime Technologie und Software aus, mit Ausnahmen. 734.8 betrifft zur Veröffentlichung bestimmte Grundlagenforschung. Ein verwandter Aufsatz macht nicht jedes private Modellartefakt öffentlich. [EAR734]
+
+## Benachbarte Regeln
+
+Das Treasury-Programm betrifft bestimmte Investitionen in Halbleiter, Quantentechnik und KI mit Bezug auf China, Hongkong und Macau. Die endgültige Regel von 2024 gilt seit dem 2. Januar 2025. Eine neue Vorlage vom 22. Oktober 2026 hat eine Stellungnahmefrist bis 7. Dezember und ist nicht automatisch endgültiges Recht. Das Justizprogramm behandelt bestimmte sensible Datenzugänge. Diese Genehmigungsfragen sind nicht austauschbar. [TREAS] [DOJ]
+
+@@ comparison | 08. Wo beide Systeme zusammentreffen
+## Die konkreten Zugänge vergleichen
+
+China behandelt hier ausgehende Technologie und Eigentums- oder Kontrollwechsel. Die USA prüfen erfasste Artikel, Ziele, Beteiligte und Verwendungen, darunter bestimmte ausländische Artikel. Ein Projekt kann beide Systeme berühren. [CN48] [EAR734] [EAR742] [EAR744]
+
+{{COMPARISON}}
+
+Ein hypothetischer chinesischer Entwickler nutzt erfasste US-Chips in einem ausländischen Rechenzentrum und lizenziert danach private Modelltechnik. Die Hardware kann US-Fragen auslösen, die Modellübertragung chinesische. Rechtmäßigkeit in einem System beweist nicht die Erfüllung des anderen. Das ist kein Bericht über ein reales Unternehmen. [CN48] [CN-A1] [EAR744]
+
+Mehr Dokumentation, gehostete Angebote und andere Fabrikstandorte sind plausible Möglichkeiten. Wir quantifizieren keine Folgen für Preise, Beschäftigung, Investitionen, Energie oder Modellleistung. Die gleiche Zahl 10^26 macht Regeln nicht gleich: China hat alternative Auslöser; die USA eigene Definitionen, Ausnahmen und Vollzugsfragen. [CN-A1] [EAR774] [GAO26]
+
+@@ questions | 09. Fragen für heute
+## Enden Downloads?
+
+Das sagt die Bekanntmachung nicht. Bereits öffentliche KI und neue offene Ausfuhren beschränkter Technik werden unterschiedlich behandelt. Die konkrete Version zählt. [CN-A1]
+
+## Ist ein Chatbot immer ein Modellexport?
+
+Die amtliche Antwort zu beschränkten großen Modellen unterscheidet Dienst und Technologieübergabe. Das ist keine pauschale Ausnahme für Daten, verbotene Technik oder andere Tätigkeiten. [CNQA]
+
+## Ist eine Übernahme rein finanziell?
+
+Registrierung kann den Wechsel des Technologieeigentümers oder tatsächlichen Kontrolleurs ins Ausland erfassen. Daraus folgt kein Verbot jeder ausländischen Investition. [CN48]
+
+## Was halten wir fest?
+
+Unser Vorschlag nennt Version, Code und Punkt, Messwerte, öffentliche und private Dateien, Datenart, Übertragungsform, Empfänger, Ziel und Datum sowie Quellen und beanspruchte Ausnahmen. Das ersetzt nicht das amtliche Formular. Endgültige Regeln und spätere Auslegungen können Antworten ändern. [CN-A2]
+
+{{SCENARIOS}}
+
+@@ sources | 10. Quellen, Methode und Begriffe
+## Unsere Arbeitsweise
+
+Wir lasen Bekanntmachung, beide WPS-Anhänge und amtliche Antworten. Wir verglichen Federal Register, aktuelle BIS-Texte, Vollzugsankündigung und GAO-Entscheidung. Für Nachbarprogramme und Modelle nutzten wir die zuständigen Behörden und Herausgeber. Prüfung: 2. November 2026.
+
+Quellenkürzel führen zu Link, Datum und Fundstelle. Dateien, Prüfsummen und Downloadgrenzen liegen in research. Der Atlas ist redaktionell; Originaltexte gehen vor. Anhang-PDFs sind lokale LibreOffice-Konvertierungen; zusätzlich bieten wir einen Ausdruck der Bekanntmachung. Seiten können abweichen. Die Organoid-PDF wurde nicht verwendet.
+
+Alle sieben Ausgaben enthalten dieselben Kapitel und 40 Punkte. Übersetzungen sind Lesehilfen ohne unabhängige juristische oder muttersprachliche Fachprüfung. Beispiele sind keine Freigaben, Szenarien keine Prognosen.
+
+**Gewichte:** gelernte Modellzahlen. **Training:** deren Anpassung mit Daten und Rechenarbeit. **Inferenz:** das Modell für Antworten einsetzen. **Agent:** ein planendes System mit Werkzeugen. **API:** Zugriff eines Programms auf einen Dienst.
+
+**Offene Gewichte:** herunterladbare Parameter, nicht zwingend vollständiger Trainingscode und Daten. **Lizenz:** behördliche Erlaubnis oder urheberrechtliche Nutzungsrechte, je nach Zusammenhang. **Vorgeschlagen:** Entwurfskategorie, kein Beleg eines bereits endgültigen neuen Verbots.
+
+{{SOURCES}}

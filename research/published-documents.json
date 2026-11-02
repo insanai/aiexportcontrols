@@ -1,0 +1,37 @@
+[
+  {
+    "file": "public/sources/announcement-48-attachment-1.wps",
+    "sha256": "213158bbda29e17f386f25acbf8bd45a746b5da9dba5fe57a64c2b1827cefbcd",
+    "bytes": 191488
+  },
+  {
+    "file": "public/sources/announcement-48-attachment-2.pdf",
+    "sha256": "5478db78f17970f51de0470b65142d2e6fd45055d236db2625ed47ab39e4d21a",
+    "bytes": 115688
+  },
+  {
+    "file": "public/sources/us26-official.pdf",
+    "sha256": "7fb7dae40d9b277a61ac64df1e1ba09a7bdab98dc6c2ed720aacdfd87edf8125",
+    "bytes": 252319
+  },
+  {
+    "file": "public/sources/us25-official.pdf",
+    "sha256": "0ec0f7fc1016b9654ea0559819e821d1baee1814efe1e0048a10d5df9230f86c",
+    "bytes": 737117
+  },
+  {
+    "file": "public/sources/announcement-48-attachment-2.wps",
+    "sha256": "d65818c20115b8562a817b66794834ec321aa4c226f5377e4f95eb13a55d62b7",
+    "bytes": 31744
+  },
+  {
+    "file": "public/sources/announcement-48-attachment-1.pdf",
+    "sha256": "1bd947f2ce6f1f7fca2028e53dea6f2fb4e6e16b223eb8148f424ecffcea6961",
+    "bytes": 564558
+  },
+  {
+    "file": "public/sources/announcement-48-official-page.pdf",
+    "sha256": "351bec81c003cb2140529f6f49b2036dac84c82baf96b322b6b610a71ef6b6a2",
+    "bytes": 510469
+  }
+]

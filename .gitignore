@@ -1,0 +1,13 @@
+AGENTS.md
+AGENT.md
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+_build/
+.cache/
+node_modules/
+__pycache__/
+.DS_Store
+china_export_control.pdf
+
+book/*/_templates/
