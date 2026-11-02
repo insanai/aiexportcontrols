@@ -1,0 +1,31 @@
+project = "तकनीक की नई सीमाएं"
+author = "China Export Control Research"
+copyright = "2026"
+language = "hi"
+root_doc = "index"
+smartquotes = false
+source_suffix = [".md"]
+templates_path = ["../_templates"]
+include_roots = [".."]
+html_static_path = ["../_static"]
+exclude_patterns = ["_build"]
+html_title = "तकनीक की नई सीमाएं"
+html_short_title = "तकनीक की सीमाएं"
+html_baseurl = "https://insanai.github.io/chinaexportcontrol/hi/"
+pdf_paper_size = "a4"
+pdf_font_paths = ["/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "technology-borders.pdf"
+title = "तकनीक की नई सीमाएं"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+edition = "hi"
+u = {"brand" = "तकनीक की सीमाएं", "edition" = "शोध संस्करण / 2 नवंबर 2026", "read" = "पढ़ना शुरू करें", "download" = "PDF डाउनलोड", "chapters" = "अध्याय", "search" = "खोज", "search_placeholder" = "इस भाषा में खोजें", "close" = "बंद करें", "menu" = "मेनू", "theme" = "रंग बदलें", "contents" = "इस पृष्ठ पर", "previous" = "पिछला", "next" = "अगला", "sources" = "स्रोत", "source_documents" = "आधिकारिक दस्तावेज", "original" = "मूल WPS", "converted" = "बदला PDF", "all" = "सभी क्षेत्र", "ai" = "कृत्रिम बुद्धिमत्ता", "bio" = "जैव चिकित्सा", "solar" = "सौर ऊर्जा", "prohibited" = "प्रस्तावित प्रतिबंध", "restricted" = "प्रस्तावित सीमा", "filter" = "तकनीक छांटें", "no_results" = "कोई परिणाम नहीं", "results" = "परिणाम", "scenario" = "एक स्थिति समझें", "scenario_note" = "उदाहरण कानूनी मंजूरी नहीं हैं। स्रोत व वास्तविक तथ्य देखें।", "choose" = "उदाहरण चुनें", "public" = "पहले से खुला मॉडल", "fresh" = "पहली खुली रिलीज", "private" = "निजी भार देना", "service" = "दूरस्थ मॉडल सेवा", "acquisition" = "स्वामित्व बदलाव", "line" = "सौर उत्पादन लाइन", "evidence" = "प्रमाण पढ़ें", "github" = "स्रोत रिपॉजिटरी", "top" = "ऊपर जाएं", "reading" = "पढ़ने की प्रगति", "translation" = "संपादकीय अनुवाद। मूल कानूनी पाठ प्रमुख है।"}
+languages = [{path = "en", name = "English"}, {path = "zh-cn", name = "简体中文"}, {path = "ja", name = "日本語"}, {path = "ko", name = "한국어"}, {path = "hi", name = "हिन्दी"}, {path = "es", name = "Español"}, {path = "de", name = "Deutsch"}]
+chapters = [{slug = "index", title = "तकनीक की नई सीमाएं"}, {slug = "announcement", title = "01. क्या बदला और कब"}, {slug = "atlas", title = "02. 40 तकनीकों का मानचित्र"}, {slug = "ai", title = "03. AI का कौन सा हिस्सा शामिल है"}, {slug = "open-models", title = "04. चीन के खुले मॉडल आगे कहां जाएंगे"}, {slug = "biomedicine", title = "05. जैव चिकित्सा: मंच और सहयोग"}, {slug = "solar", title = "06. सौर ऊर्जा: मशीन में छिपा ज्ञान"}, {slug = "united-states", title = "07. अमेरिका के नियम सरल शब्दों में"}, {slug = "comparison", title = "08. दोनों व्यवस्थाएं कहां मिलती हैं"}, {slug = "questions", title = "09. अभी पूछे जा सकने वाले सवाल"}, {slug = "sources", title = "10. स्रोत, तरीका और शब्द"}]

@@ -1,0 +1,52 @@
+{
+  "checked": "2026-11-02",
+  "html_pages": 93,
+  "local_links_and_assets": 3706,
+  "languages": 7,
+  "technology_points_per_edition": 40,
+  "pdfs": [
+    {
+      "language": "en",
+      "pages": 31,
+      "bytes": 571367,
+      "sha256": "20e9641ade166f83e49214109d995afaceb686d05025827f7180a8995883a0c8"
+    },
+    {
+      "language": "zh-cn",
+      "pages": 31,
+      "bytes": 771928,
+      "sha256": "80a0b4e103721705c974213b82d894d9995f47ab758d3c6766c94409de0fec25"
+    },
+    {
+      "language": "ja",
+      "pages": 31,
+      "bytes": 782965,
+      "sha256": "80348be127613324ddea96c4e134f0fc79eec8cbb477c9e8a0d449d5e07a3639"
+    },
+    {
+      "language": "ko",
+      "pages": 31,
+      "bytes": 703901,
+      "sha256": "ac618be73dc3b12c9f20507691f4bd9968592db0b36894bb598fcb5e347d9b09"
+    },
+    {
+      "language": "hi",
+      "pages": 31,
+      "bytes": 754779,
+      "sha256": "cf3c44f8207d289576b3a1dde1420d7dc1171b0a50dd2f35959861a18198cf75"
+    },
+    {
+      "language": "es",
+      "pages": 31,
+      "bytes": 491353,
+      "sha256": "fc8f127cb54de99fa9aebcb237fa85c2c39d0152c880c20f68b84cab019bb5b3"
+    },
+    {
+      "language": "de",
+      "pages": 31,
+      "bytes": 482683,
+      "sha256": "9332d8bb11ad607578e2d3831d2538305989027ef4164c546d1b0d92435fdad5"
+    }
+  ],
+  "errors": []
+}

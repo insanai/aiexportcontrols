@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-02",
+  "base": "http://127.0.0.1:8778/",
+  "checks": [
+    "en: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "zh-cn: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "ja: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "ko: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "hi: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "es: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios",
+    "de: 11 desktop chapters, 5 mobile pages, 40 atlas items, filters, code search and 6 scenarios"
+  ],
+  "additional": [
+    "Root landing: country comparison and seven editions",
+    "Language switch preserves chapter",
+    "Theme persists after reload",
+    "Static full atlas works without JavaScript"
+  ],
+  "page_errors": [],
+  "failed_local_responses": []
+}

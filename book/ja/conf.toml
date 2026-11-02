@@ -1,0 +1,31 @@
+project = "技術の新しい国境"
+author = "China Export Control Research"
+copyright = "2026"
+language = "ja"
+root_doc = "index"
+smartquotes = false
+source_suffix = [".md"]
+templates_path = ["../_templates"]
+include_roots = [".."]
+html_static_path = ["../_static"]
+exclude_patterns = ["_build"]
+html_title = "技術の新しい国境"
+html_short_title = "技術の国境"
+html_baseurl = "https://insanai.github.io/chinaexportcontrol/ja/"
+pdf_paper_size = "a4"
+pdf_font_paths = ["/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "technology-borders.pdf"
+title = "技術の新しい国境"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+edition = "ja"
+u = {"brand" = "技術の国境", "edition" = "調査版 / 2026年11月2日", "read" = "読み始める", "download" = "PDFを取得", "chapters" = "章", "search" = "検索", "search_placeholder" = "この言語版を検索", "close" = "閉じる", "menu" = "メニュー", "theme" = "表示を切替", "contents" = "このページ", "previous" = "前の章", "next" = "次の章", "sources" = "出典", "source_documents" = "公式資料", "original" = "原本WPS", "converted" = "変換PDF", "all" = "全分野", "ai" = "人工知能", "bio" = "バイオ医薬", "solar" = "太陽光", "prohibited" = "提案禁止", "restricted" = "提案制限", "filter" = "技術を絞り込む", "no_results" = "該当なし", "results" = "件", "scenario" = "事例を調べる", "scenario_note" = "説明用の例であり、許可判断ではありません。出典と事実を確認します。", "choose" = "例を選ぶ", "public" = "既存の公開モデル", "fresh" = "初めての公開", "private" = "私有重みの引渡し", "service" = "遠隔モデルサービス", "acquisition" = "所有者の変更", "line" = "太陽光生産ライン", "evidence" = "根拠を読む", "github" = "ソース倉庫", "top" = "先頭へ", "reading" = "読書の進み具合", "translation" = "参考訳です。原法律文書が優先します。"}
+languages = [{path = "en", name = "English"}, {path = "zh-cn", name = "简体中文"}, {path = "ja", name = "日本語"}, {path = "ko", name = "한국어"}, {path = "hi", name = "हिन्दी"}, {path = "es", name = "Español"}, {path = "de", name = "Deutsch"}]
+chapters = [{slug = "index", title = "技術の新しい国境"}, {slug = "announcement", title = "01. 何がいつ変わったか"}, {slug = "atlas", title = "02. 40技術の地図"}, {slug = "ai", title = "03. AIの何を管理するのか"}, {slug = "open-models", title = "04. 中国の公開モデルの将来"}, {slug = "biomedicine", title = "05. 医薬：基盤と協力"}, {slug = "solar", title = "06. 太陽光：設備が運ぶ知識"}, {slug = "united-states", title = "07. 米国の管理を平易に読む"}, {slug = "comparison", title = "08. 二つの制度が重なる場所"}, {slug = "questions", title = "09. 今確認できる問い"}, {slug = "sources", title = "10. 出典、方法、用語"}]

@@ -1,0 +1,31 @@
+project = "The new technology borders"
+author = "China Export Control Research"
+copyright = "2026"
+language = "en"
+root_doc = "index"
+smartquotes = false
+source_suffix = [".md"]
+templates_path = ["../_templates"]
+include_roots = [".."]
+html_static_path = ["../_static"]
+exclude_patterns = ["_build"]
+html_title = "The new technology borders"
+html_short_title = "TECHNOLOGY BORDERS"
+html_baseurl = "https://insanai.github.io/chinaexportcontrol/en/"
+pdf_paper_size = "a4"
+pdf_font_paths = ["/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "technology-borders.pdf"
+title = "The new technology borders"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+edition = "en"
+u = {"brand" = "TECHNOLOGY BORDERS", "edition" = "RESEARCH EDITION / 02 NOV 2026", "read" = "Start reading", "download" = "Download PDF", "chapters" = "Chapters", "search" = "Search", "search_placeholder" = "Search this edition", "close" = "Close", "menu" = "Menu", "theme" = "Change theme", "contents" = "On this page", "previous" = "Previous", "next" = "Next", "sources" = "Sources", "source_documents" = "Official documents", "original" = "Original WPS", "converted" = "Converted PDF", "all" = "All sectors", "ai" = "Artificial intelligence", "bio" = "Biomedicine", "solar" = "Solar energy", "prohibited" = "Proposed prohibited", "restricted" = "Proposed restricted", "filter" = "Filter technologies", "no_results" = "No results", "results" = "results", "scenario" = "Explore a situation", "scenario_note" = "Illustrations, not legal clearance. Check the linked source and exact facts.", "choose" = "Choose an example", "public" = "An existing public model", "fresh" = "A first open release", "private" = "Private weights for a partner", "service" = "A hosted model service", "acquisition" = "A change of ownership", "line" = "A solar production line", "evidence" = "Read the evidence", "github" = "Source repository", "top" = "Back to top", "reading" = "Reading progress", "translation" = "Editorial translation. Original legal texts prevail."}
+languages = [{path = "en", name = "English"}, {path = "zh-cn", name = "简体中文"}, {path = "ja", name = "日本語"}, {path = "ko", name = "한국어"}, {path = "hi", name = "हिन्दी"}, {path = "es", name = "Español"}, {path = "de", name = "Deutsch"}]
+chapters = [{slug = "index", title = "The new technology borders"}, {slug = "announcement", title = "01. What changed, and when"}, {slug = "atlas", title = "02. The 40-technology atlas"}, {slug = "ai", title = "03. AI: what is actually covered"}, {slug = "open-models", title = "04. The future of open models from China"}, {slug = "biomedicine", title = "05. Biomedicine: platforms, targets and cooperation"}, {slug = "solar", title = "06. Solar: knowledge can travel inside a machine"}, {slug = "united-states", title = "07. America's controls, in plain language"}, {slug = "comparison", title = "08. What the comparison tells us"}, {slug = "questions", title = "09. Questions we can ask now"}, {slug = "sources", title = "10. Sources, method and small glossary"}]

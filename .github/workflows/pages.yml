@@ -1,0 +1,42 @@
+name: Verify and publish the book
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'content/**'
+      - 'research/**'
+      - 'tools/verify.py'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install PDF verification tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Verify editions, PDFs, source hashes and links
+        run: python3 tools/verify.py
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: public
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v6.0.0
+      - name: Publish verified package
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

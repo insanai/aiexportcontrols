@@ -1,0 +1,31 @@
+project = "기술의 새로운 국경"
+author = "China Export Control Research"
+copyright = "2026"
+language = "ko"
+root_doc = "index"
+smartquotes = false
+source_suffix = [".md"]
+templates_path = ["../_templates"]
+include_roots = [".."]
+html_static_path = ["../_static"]
+exclude_patterns = ["_build"]
+html_title = "기술의 새로운 국경"
+html_short_title = "기술의 국경"
+html_baseurl = "https://insanai.github.io/chinaexportcontrol/ko/"
+pdf_paper_size = "a4"
+pdf_font_paths = ["/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "technology-borders.pdf"
+title = "기술의 새로운 국경"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+edition = "ko"
+u = {"brand" = "기술의 국경", "edition" = "조사판 / 2026년 11월 2일", "read" = "읽기 시작", "download" = "PDF 받기", "chapters" = "목차", "search" = "검색", "search_placeholder" = "이 언어판 검색", "close" = "닫기", "menu" = "메뉴", "theme" = "테마 변경", "contents" = "이 페이지", "previous" = "이전 장", "next" = "다음 장", "sources" = "출처", "source_documents" = "공식 문서", "original" = "원본 WPS", "converted" = "변환 PDF", "all" = "모든 분야", "ai" = "인공지능", "bio" = "바이오의약", "solar" = "태양광", "prohibited" = "금지 제안", "restricted" = "제한 제안", "filter" = "기술 필터", "no_results" = "결과 없음", "results" = "개 결과", "scenario" = "상황 살펴보기", "scenario_note" = "설명용이며 법적 승인이 아닙니다. 출처와 사실을 확인합니다.", "choose" = "사례 선택", "public" = "기존 공개 모델", "fresh" = "최초 공개", "private" = "비공개 가중치 전달", "service" = "원격 모델 서비스", "acquisition" = "소유권 변경", "line" = "태양광 생산선", "evidence" = "근거 읽기", "github" = "소스 저장소", "top" = "맨 위로", "reading" = "읽기 진행", "translation" = "편집 번역이며 원문 법률이 우선합니다."}
+languages = [{path = "en", name = "English"}, {path = "zh-cn", name = "简体中文"}, {path = "ja", name = "日本語"}, {path = "ko", name = "한국어"}, {path = "hi", name = "हिन्दी"}, {path = "es", name = "Español"}, {path = "de", name = "Deutsch"}]
+chapters = [{slug = "index", title = "기술의 새로운 국경"}, {slug = "announcement", title = "01. 무엇이 언제 바뀌었나"}, {slug = "atlas", title = "02. 40개 기술 지도"}, {slug = "ai", title = "03. AI의 어떤 부분을 다루나"}, {slug = "open-models", title = "04. 중국 공개 모델의 미래"}, {slug = "biomedicine", title = "05. 바이오의약: 플랫폼과 협력"}, {slug = "solar", title = "06. 태양광: 장비 속의 지식"}, {slug = "united-states", title = "07. 미국 제도를 쉬운 말로"}, {slug = "comparison", title = "08. 두 제도가 만나는 곳"}, {slug = "questions", title = "09. 지금 던질 질문"}, {slug = "sources", title = "10. 출처, 방법, 용어"}]

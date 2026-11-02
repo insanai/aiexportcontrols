@@ -1,0 +1,31 @@
+project = "Las nuevas fronteras de la tecnología"
+author = "China Export Control Research"
+copyright = "2026"
+language = "es"
+root_doc = "index"
+smartquotes = false
+source_suffix = [".md"]
+templates_path = ["../_templates"]
+include_roots = [".."]
+html_static_path = ["../_static"]
+exclude_patterns = ["_build"]
+html_title = "Las nuevas fronteras de la tecnología"
+html_short_title = "FRONTERAS TECNOLÓGICAS"
+html_baseurl = "https://insanai.github.io/chinaexportcontrol/es/"
+pdf_paper_size = "a4"
+pdf_font_paths = ["/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "technology-borders.pdf"
+title = "Las nuevas fronteras de la tecnología"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+edition = "es"
+u = {"brand" = "FRONTERAS TECNOLÓGICAS", "edition" = "EDICIÓN / 2 NOV 2026", "read" = "Empezar a leer", "download" = "Descargar PDF", "chapters" = "Capítulos", "search" = "Buscar", "search_placeholder" = "Buscar en esta edición", "close" = "Cerrar", "menu" = "Menú", "theme" = "Cambiar tema", "contents" = "En esta página", "previous" = "Anterior", "next" = "Siguiente", "sources" = "Fuentes", "source_documents" = "Documentos oficiales", "original" = "WPS original", "converted" = "PDF convertido", "all" = "Todos los sectores", "ai" = "Inteligencia artificial", "bio" = "Biomedicina", "solar" = "Energía solar", "prohibited" = "Propuesto = prohibido", "restricted" = "Propuesto = restringido", "filter" = "Filtrar tecnologías", "no_results" = "Sin resultados", "results" = "resultados", "scenario" = "Explorar una situación", "scenario_note" = "Ejemplos, no autorizaciones. Comprobamos fuentes y hechos.", "choose" = "Elegir ejemplo", "public" = "Un modelo ya público", "fresh" = "Primera publicación abierta", "private" = "Pesos privados para un socio", "service" = "Un servicio alojado", "acquisition" = "Cambio de propiedad", "line" = "Una línea de producción solar", "evidence" = "Leer las pruebas", "github" = "Repositorio", "top" = "Volver arriba", "reading" = "Progreso de lectura", "translation" = "Traducción editorial. Prevalecen los textos legales originales."}
+languages = [{path = "en", name = "English"}, {path = "zh-cn", name = "简体中文"}, {path = "ja", name = "日本語"}, {path = "ko", name = "한국어"}, {path = "hi", name = "हिन्दी"}, {path = "es", name = "Español"}, {path = "de", name = "Deutsch"}]
+chapters = [{slug = "index", title = "Las nuevas fronteras de la tecnología"}, {slug = "announcement", title = "01. Qué cambió y cuándo"}, {slug = "atlas", title = "02. Atlas de las 40 tecnologías"}, {slug = "ai", title = "03. Qué cubre la propuesta de IA"}, {slug = "open-models", title = "04. El futuro de los modelos abiertos"}, {slug = "biomedicine", title = "05. Biomedicina: plataformas y cooperación"}, {slug = "solar", title = "06. Solar: el conocimiento dentro de la máquina"}, {slug = "united-states", title = "07. Los controles de Estados Unidos"}, {slug = "comparison", title = "08. Cuando los sistemas se cruzan"}, {slug = "questions", title = "09. Preguntas para el presente"}, {slug = "sources", title = "10. Fuentes, método y vocabulario"}]

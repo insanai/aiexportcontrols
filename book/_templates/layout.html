@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ language | replace('_', '-') }}" data-edition="{{ edition }}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{ html_title }}. Announcement 48, AI, open models, biomedicine and solar. Verified research, 2 November 2026.">
+<meta name="color-scheme" content="light dark">
+<title>{{ title }} | {{ u.brand }}</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://insanai.github.io/chinaexportcontrol/{{ edition }}/{{ pagename }}.html">
+{% for l in languages %}<link rel="alternate" hreflang="{{ l.path }}" href="https://insanai.github.io/chinaexportcontrol/{{ l.path }}/{{ pagename }}.html">{% endfor %}
+<link rel="stylesheet" href="{{ pathto_root }}_static/book.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('borders-theme')||'light'}catch(e){}</script>
+<script src="{{ pathto_root }}_static/book.js" defer></script>
+</head>
+<body data-page="{{ pagename }}">
+<a class="skip" href="#content">{{ u.read }}</a>
+<div class="reading-meter" role="progressbar" aria-label="{{ u.reading }}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+<header class="masthead">
+<a class="wordmark" href="index.html"><span class="mark" aria-hidden="true">T<span>B</span></span><span>{{ u.brand }}</span></a>
+<div class="masthead-actions">
+<button type="button" id="search-open" class="quiet-button">{{ u.search }} <kbd>/</kbd></button>
+<button type="button" id="theme-switch" class="quiet-button" aria-label="{{ u.theme }}"><span aria-hidden="true">◐</span></button>
+<label class="sr-only" for="language">Language</label><select id="language" aria-label="Language">
+{% for l in languages %}<option value="{{ l.path }}"{% if l.path == edition %} selected{% endif %}>{{ l.name }}</option>{% endfor %}</select>
+<button id="menu-toggle" class="quiet-button mobile-menu" aria-expanded="false" aria-controls="chapter-nav">{{ u.menu }}</button>
+</div>
+</header>
+<div class="edition-line"><span>{{ u.edition }}</span><a href="technology-borders.pdf" class="pdf-link">{{ u.download }} <span aria-hidden="true">↓</span></a></div>
+<div class="book-layout{% if pagename == 'index' %} cover-layout{% endif %}">
+<aside id="chapter-nav" class="chapter-nav" aria-label="{{ u.chapters }}">
+<p class="eyebrow">{{ u.chapters }}</p><nav>{% for c in chapters %}<a href="{{ c.slug }}.html"{% if c.slug == pagename %} aria-current="page"{% endif %}><span class="chapter-number">{% if loop.index0 < 10 %}0{% endif %}{{ loop.index0 }}</span><span>{{ c.title }}</span></a>{% endfor %}</nav>
+<div class="nav-note"><span class="status-dot"></span> 02 / 11 / 2026<br>{{ u.translation }}</div>
+</aside>
+<main id="content" tabindex="-1">
+{% if pagename == 'index' %}<div class="cover-kicker"><span>CHINA</span><span class="kicker-rule"></span><span>USA</span><span class="kicker-rule"></span><span>AI</span></div>{% endif %}
+<article class="prose">{{ body }}</article>
+{% if pagename == 'index' %}<div class="cover-actions"><a class="primary-link" href="announcement.html">{{ u.read }} <span aria-hidden="true">↗</span></a><a href="technology-borders.pdf">{{ u.download }}</a></div>
+<section class="chapter-shelf" aria-label="{{ u.chapters }}">{% for c in chapters %}{% if loop.index0 > 0 %}<a href="{{ c.slug }}.html"><span class="shelf-number">{% if loop.index0 < 10 %}0{% endif %}{{ loop.index0 }}</span><h2>{{ c.title }}</h2><span aria-hidden="true">↗</span></a>{% endif %}{% endfor %}</section>{% endif %}
+{% if pagename == 'atlas' %}<section id="atlas-interactive" class="interactive" hidden aria-label="{{ u.filter }}"><div class="interactive-heading"><span class="eyebrow">40 / {{ u.filter }}</span><span id="atlas-count" role="status" aria-live="polite"></span></div><div class="filters"><label><span>{{ u.search }}</span><input type="search" id="atlas-query" placeholder="{{ u.search_placeholder }}"></label><label><span>{{ u.filter }}</span><select id="atlas-sector"><option value="all">{{ u.all }}</option><option value="ai">{{ u.ai }}</option><option value="bio">{{ u.bio }}</option><option value="solar">{{ u.solar }}</option></select></label><label><span>{{ u.filter }}</span><select id="atlas-status"><option value="all">{{ u.prohibited }} / {{ u.restricted }}</option><option value="proposed-prohibited">{{ u.prohibited }}</option><option value="proposed-restricted">{{ u.restricted }}</option></select></label></div><div id="atlas-grid" class="atlas-grid"></div></section>{% endif %}
+{% if pagename == 'questions' %}<section id="scenario-interactive" class="interactive" hidden><p class="eyebrow">{{ u.scenario }}</p><p>{{ u.scenario_note }}</p><label for="scenario-select">{{ u.choose }}</label><select id="scenario-select">{% for k in ['public','fresh','private','service','acquisition','line'] %}<option value="{{ loop.index0 }}">{{ u[k] }}</option>{% endfor %}</select><div id="scenario-answer" role="status" aria-live="polite"></div><a href="sources.html">{{ u.evidence }}</a></section>{% endif %}
+<nav class="page-turn" aria-label="{{ u.chapters }}">{% if prev %}<a href="{{ prev.url }}"><small>{{ u.previous }}</small><strong>{{ prev.title }}</strong></a>{% endif %}{% if next %}<a href="{{ next.url }}"><small>{{ u.next }}</small><strong>{{ next.title }}</strong></a>{% endif %}</nav>
+</main>
+<aside class="page-outline" aria-label="{{ u.contents }}"><p class="eyebrow">{{ u.contents }}</p><nav id="page-outline"></nav><a class="outline-pdf" href="technology-borders.pdf">{{ u.download }}</a></aside>
+</div>
+<footer class="site-footer"><a class="footer-brand" href="index.html">{{ u.brand }}</a><p>{{ u.translation }}</p><div><a href="sources.html">{{ u.sources }}</a><a href="https://github.com/insanai/chinaexportcontrol">{{ u.github }}</a><a href="https://github.com/insanai/guidedog">GuideDog + Typst</a><a href="#">{{ u.top }}</a></div></footer>
+<dialog id="search-dialog"><form method="dialog"><button aria-label="{{ u.close }}">{{ u.close }}</button></form><label for="book-search">{{ u.search }}</label><input id="book-search" type="search" placeholder="{{ u.search_placeholder }}"><div id="search-results" role="status" aria-live="polite"></div></dialog>
+</body></html>
