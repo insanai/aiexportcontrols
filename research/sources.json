@@ -46,6 +46,42 @@
     "sha256": "37fc685aa2d175443fcbc069a7584e4d77be9bde790617df651af6e62c5f1e9d"
   },
   {
+    "id": "CNTIER",
+    "title": "State Council of the PRC, Regulations on the Administration of Technology Import and Export",
+    "date": "2020-11-29",
+    "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=898",
+    "locator": "Articles 30 to 39 (30-day & 15-day export license stages)",
+    "accessed": "2026-11-02",
+    "resolved_url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=898",
+    "http_status": 200,
+    "snapshot": "research/snapshots/cntier.html",
+    "sha256": "39f4b9bbf11b6d78f826cf5b2934f8ba61d249a6164c62c28154e7dd2226d2ed"
+  },
+  {
+    "id": "CNMEAS",
+    "title": "MOFCOM and MOST, Measures for Prohibited and Restricted Technology Exports (Order No. 2 of 2009)",
+    "date": "2009-04-20",
+    "url": "https://www.mofcom.gov.cn/dl/file/20211203230621.pdf",
+    "locator": "Articles 4 to 18 (provincial review, 5/15/30-day & 15-day stages)",
+    "accessed": "2026-11-02",
+    "resolved_url": "https://www.mofcom.gov.cn/dl/file/20211203230621.pdf",
+    "http_status": 200,
+    "snapshot": "research/snapshots/cnmeas.pdf",
+    "sha256": "d14e5230e748cffaf734e63c2e53b502022566b4264d24c0b4524c6f85b7cdd4"
+  },
+  {
+    "id": "CNPLAT",
+    "title": "MOFCOM, Unified Business System Platform Notice for Technology Trade Application",
+    "date": "2026-11-02",
+    "url": "http://jsjckqy.fwmys.mofcom.gov.cn/notice",
+    "locator": "Unified platform integration and helpdesk (+86-10-6787-0108)",
+    "accessed": "2026-11-02",
+    "resolved_url": "http://jsjckqy.fwmys.mofcom.gov.cn/notice",
+    "http_status": 200,
+    "snapshot": "research/snapshots/cnplat.html",
+    "sha256": "5bc9740f891cc4cfeefb5a72a11ecf1bbfe9dbfba558b2baac82178682d1cbec"
+  },
+  {
     "id": "US26",
     "title": "BIS, semiconductor license review final rule",
     "date": "2026-01-15",
@@ -137,6 +173,18 @@
     "http_status": 200,
     "snapshot": "research/snapshots/ear774.html",
     "sha256": "01d3beba5bdd0193d8bc01e9a4461fa7ddd73a844b0abab0ee4cbf6fb5d39b36"
+  },
+  {
+    "id": "SNAPR",
+    "title": "BIS, SNAP-R Frequently Asked Questions and Electronic Filing Guide",
+    "date": "2026-11-02",
+    "url": "https://snapr.bis.gov/help/SNAPR-FAQ.pdf",
+    "locator": "CIN registration, CCATS work items, ACN and ECDOEXS@bis.doc.gov",
+    "accessed": "2026-11-02",
+    "resolved_url": "https://snapr.bis.gov/help/SNAPR-FAQ.pdf",
+    "http_status": 200,
+    "snapshot": "research/snapshots/snapr.pdf",
+    "sha256": "e0c3bdee2fbc2c1f8449706d0217d5edcc26b8ba3877db40e4d857ac206222d4"
   },
   {
     "id": "TREAS",

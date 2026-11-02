@@ -1,0 +1,99 @@
+# UI strings for site/_templates/layout.html and 404.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "輸出管理がオープンソースAIの未来に与える影響"
+
+msgid "Open Source AI & Export Controls"
+msgstr "オープンソースAIと輸出管理"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "light"
+msgstr "ライト"
+
+msgid "dark"
+msgstr "ダーク"
+
+msgid "system"
+msgstr "システム"
+
+msgid "Copy"
+msgstr "コピー"
+
+msgid "Copied"
+msgstr "コピーしました"
+
+msgid "Skip to content"
+msgstr "本文へスキップ"
+
+msgid "Book navigation"
+msgstr "書籍ナビゲーション"
+
+msgid "Read the Book"
+msgstr "本編を読む"
+
+msgid "40 Checkpoints"
+msgstr "40の管理項目"
+
+msgid "Open AI Flowcharts"
+msgstr "オープンAI公開フロー"
+
+msgid "Contacts & Approval"
+msgstr "申請窓口・連絡先"
+
+msgid "22 Sources"
+msgstr "22の一次資料"
+
+msgid "Search the book"
+msgstr "書籍内を検索"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF"
+msgstr "全7言語ネイティブ版 · ウェブ版＆A4組版PDF"
+
+msgid "Read the Complete Book in Seven Languages"
+msgstr "全7言語で本書の完全版を読む"
+
+msgid "Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book."
+msgstr "すべての言語版に全11章の本文、描き下ろし木版画イラスト、Typst / CeTZ / Fletcher・Graphvizによるネイティブ図解、インタラクティブな40項目技術アトラス、検証済み政府窓口一覧、およびA4組版PDFブックを完全収録しています。"
+
+msgid "Read Web Edition →"
+msgstr "ウェブ版を読む →"
+
+msgid "Footer links"
+msgstr "フッターリンク"
+
+msgid "40-Technology Atlas"
+msgstr "40項目技術アトラス"
+
+msgid "Official Contacts & Licensing"
+msgstr "公式窓口・許可手続"
+
+msgid "22 Verified Primary Sources"
+msgstr "検証済み一次資料（全22件）"
+
+msgid "GitHub Repository"
+msgstr "GitHubリポジトリ"
+
+msgid "Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail."
+msgstr "2026年11月2日時点で中米22件の公式一次資料に基づき検証済み。法的解釈は原文の公式法令が優先されます。"
+
+msgid "Page not found"
+msgstr "ページが見つかりません"
+
+msgid "That page has moved or does not exist. Choose an edition below or open the English book directly."
+msgstr "お探しのページは移動したか存在しません。以下の各言語版から選択するか、英語版を直接お開きください。"
+
+msgid "Open the Book (English) →"
+msgstr "英語版を開く →"

@@ -34,6 +34,16 @@
   page-ref: none,
   body,
 ) = {
+  let lang-key = lower(lang.replace("_", "-").split("-").first())
+  title = (
+    en: "Impact of Export Controls on the Future of Open Source AI",
+    zh: "出口管制对开源人工智能未来的影响",
+    ja: "輸出管理がオープンソースAIの未来に与える影響",
+    ko: "수출 통제가 오픈소스 AI의 미래에 미치는 영향",
+    hi: "ओपन-सोर्स एआई के भविष्य पर निर्यात नियंत्रणों का प्रभाव",
+    es: "El impacto de los controles de exportación en el futuro de la IA de código abierto",
+    de: "Auswirkungen von Exportkontrollen auf die Zukunft von Open-Source-KI",
+  ).at(lang-key, default: title)
   show: configure-document.with(lang: lang, serif: serif, sans: sans, mono: mono,
     size: size, accent: accent)
   sans = sans + gd-script-fonts(lang)
@@ -184,43 +194,97 @@
 
   // ---- Quotes and footnotes ---------------------------------------------------------
   set quote(block: true)
-  show quote.where(block: true): it => pad(left: 1.6em, right: 1.6em,
-    block(above: 1.2em, below: 1.2em, {
-      set text(size: 0.95em)
+  show quote.where(block: true): it => block(
+    width: 100%, above: 1.35em, below: 1.35em,
+    inset: (left: 14pt, right: 12pt, top: 9pt, bottom: 9pt),
+    fill: gd-palette.paper.lighten(35%),
+    stroke: (left: 3pt + rgb("#ae3d2c")),
+    {
+      set text(size: 0.98em, style: "italic")
+      set par(first-line-indent: 0em)
       it.body
       if it.attribution != none {
-        set par(first-line-indent: 0em)
-        align(end, text(size: 0.95em, fill: quiet)[- #it.attribution])
+        align(end, text(size: 0.9em, style: "normal", fill: quiet)[- #it.attribution])
       }
-    }))
+    }
+  )
   set footnote.entry(separator: line(length: 25%, stroke: 0.5pt + rule), clearance: 1em,
     gap: 0.5em, indent: 0em)
   show footnote.entry: set text(size: 0.84em)
   show footnote.entry: set par(first-line-indent: 0em, leading: 0.5em)
 
   // ---- Title page and colophon ------------------------------------------------------
-  let label-style(body) = sans-text(size: 9pt, weight: "bold", tracking: 0.12em,
-    fill: accent, upper(body))
-  page(paper: paper, margin: (x: 24mm, top: 24mm, bottom: 23mm), fill: rgb("#f4f0e7"), header: none, footer: none, numbering: none)[
+  let lang-key = lower(lang.replace("_", "-").split("-").first())
+  let cover-copy = (
+    en: (
+      kicker: "SOFTWARE  /  MODELS  /  SILICON HARDWARE  /  HUMAN PROGRESS",
+      sub: "Why export controls reach beyond code and model weights into the physical hardware beneath open-source AI, and what happens to humanity when shared minds meet border walls.",
+      ai: "AI & CHIP GATES", bio: "BIOMEDICINE", solar: "SOLAR MACHINES",
+      foot: "ILLUSTRATED EDITION  •  02 NOV 2026",
+    ),
+    zh: (
+      kicker: "软件协议  /  模型权重  /  芯片算力底座  /  人类共同进步",
+      sub: "当技术管制不仅越过代码与模型权重，更深入晶圆、存储与万卡硬件集群：从思想公地到高墙关口的纪实与博弈推演。",
+      ai: "AI与芯片关口", bio: "生物医药", solar: "光伏装备",
+      foot: "图解纪实版  •  2026年11月2日",
+    ),
+    ja: (
+      kicker: "ソフトウェア  /  モデル重み  /  半導体ハードウェア  /  人類の進歩",
+      sub: "コードやモデル重みにとどまらず、その土台となる半導体・クラスタ装置にまで及ぶ輸出管理が、オープンソースAIと人類の未来をどう変えるのか。",
+      ai: "AI・半導体項目", bio: "バイオ医薬", solar: "太陽光装置",
+      foot: "図解ビジュアル版  •  2026年11月2日",
+    ),
+    ko: (
+      kicker: "소프트웨어  /  모델 가중치  /  반도체 하드웨어  /  인류의 진보",
+      sub: "코드와 가중치를 넘어 칩·메모리·초대형 클러스터 하드웨어까지 파고든 수출 통제가 오픈소스 AI와 인류의 미래를 어떻게 바꾸는가.",
+      ai: "AI·반도체 관문", bio: "바이오의약", solar: "태양광 장비",
+      foot: "일러스트 에디션  •  2026년 11월 2일",
+    ),
+    hi: (
+      kicker: "सॉफ्टवेयर  /  मॉडल वेट्स  /  सिलिकॉन हार्डवेयर  /  मानव प्रगति",
+      sub: "जब निर्यात नियंत्रण केवल कोड और मॉडल तक नहीं रुकते, बल्कि चिप्स व हार्डवेयर की जड़ों तक पहुँचते हैं — साझा मानवीय ज्ञान के भविष्य की सचित्र कथा।",
+      ai: "AI व चिप द्वार", bio: "जैव-चिकित्सा", solar: "सौर मशीनरी",
+      foot: "सचित्र संस्करण  •  2 नवंबर 2026",
+    ),
+    es: (
+      kicker: "SOFTWARE  /  MODELOS  /  HARDWARE DE SILICIO  /  PROGRESO HUMANO",
+      sub: "Por qué los controles de exportación no se detienen en el código ni en los pesos del modelo, sino que alcanzan los chips y máquinas que sostienen la IA abierta.",
+      ai: "PUERTAS IA Y CHIPS", bio: "BIOMEDICINA", solar: "EQUIPOS SOLARES",
+      foot: "EDICIÓN ILUSTRADA  •  2 NOV 2026",
+    ),
+    de: (
+      kicker: "SOFTWARE  /  MODELLE  /  SILIZIUM-HARDWARE  /  FORTSCHRITT",
+      sub: "Warum Exportkontrollen nicht bei Code und Modellgewichten enden, sondern bis zu den Chips und Rechenclustern unter der offenen KI reichen.",
+      ai: "KI- & CHIP-TORE", bio: "BIOMEDIZIN", solar: "SOLAR-ANLAGEN",
+      foot: "ILLUSTRIERTE AUSGABE  •  2. NOV. 2026",
+    ),
+  ).at(lang-key, default: (
+    kicker: "SOFTWARE  /  MODELS  /  SILICON HARDWARE  /  HUMAN PROGRESS",
+    sub: "Why export controls reach beyond code and model weights into the physical hardware beneath open-source AI, and what happens to humanity when shared minds meet border walls.",
+    ai: "AI & CHIP GATES", bio: "BIOMEDICINE", solar: "SOLAR MACHINES",
+    foot: "ILLUSTRATED EDITION  •  02 NOV 2026",
+  ))
+  page(paper: paper, margin: (x: 22mm, top: 18mm, bottom: 18mm), fill: rgb("#f4f0e7"), header: none, footer: none, numbering: none)[
     #set par(justify: false, first-line-indent: 0em)
-    #sans-text(size: 10pt, weight: "bold", tracking: 0.12em, fill: rgb("#ae3d2c"))[CHINA / USA / AI]
-    #v(14mm)
+    #sans-text(size: 8.8pt, weight: "bold", tracking: 0.1em, fill: rgb("#ae3d2c"))[#cover-copy.kicker]
+    #v(4mm)
     #line(length: 100%, stroke: 1pt + rgb("#172e38"))
-    #v(18mm)
-    #block(sans-text(size: 46pt, weight: "bold", tracking: -0.02em, hyphenate: false, fill: rgb("#172e38"), par(leading: 0.26em, title)))
-    #v(10mm)
-    #line(length: 32mm, stroke: 4pt + rgb("#ae3d2c"))
-    #h(5mm)
-    #line(length: 32mm, stroke: 4pt + rgb("#08716d"))
+    #v(6mm)
+    #block(sans-text(size: 28pt, weight: "bold", tracking: -0.02em, hyphenate: false, fill: rgb("#172e38"), par(leading: 0.25em, title)))
+    #v(4mm)
+    #block(width: 95%, text(size: 11pt, fill: rgb("#3b4c54"), par(leading: 0.48em, cover-copy.sub)))
+    #v(6mm)
+    #block(width: 100%, inset: 5pt, fill: white, stroke: 0.7pt + rgb("#c9cec5"),
+      image("../assets/images/cover-walled-commons.jpg", width: 100%))
     #v(1fr)
     #grid(columns: (1fr, 1fr, 1fr), gutter: 8mm,
-      [#sans-text(size: 40pt, weight: "bold", fill: rgb("#ae3d2c"))[23] #v(2mm) #sans-text(size: 11pt)[AI]],
-      [#sans-text(size: 40pt, weight: "bold", fill: rgb("#08716d"))[05] #v(2mm) #sans-text(size: 11pt)[BIO]],
-      [#sans-text(size: 40pt, weight: "bold", fill: rgb("#986711"))[12] #v(2mm) #sans-text(size: 11pt)[SOLAR]])
-    #v(12mm)
-    #line(length: 100%, stroke: 0.5pt + rgb("#c9cec5"))
+      [#sans-text(size: 29pt, weight: "bold", fill: rgb("#ae3d2c"))[23] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.ai]],
+      [#sans-text(size: 29pt, weight: "bold", fill: rgb("#08716d"))[05] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.bio]],
+      [#sans-text(size: 29pt, weight: "bold", fill: rgb("#986711"))[12] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.solar]])
     #v(5mm)
-    #sans-text(size: 10pt, fill: rgb("#546367"))[02 / 11 / 2026 #h(1fr) 48 / 2026]
+    #line(length: 100%, stroke: 0.5pt + rgb("#c9cec5"))
+    #v(3.5mm)
+    #sans-text(size: 8.8pt, fill: rgb("#546367"))[#cover-copy.foot #h(1fr) MOFCOM 48 / US EAR]
   ]
   page(paper: paper, margin: (x: 24mm, top: 26mm, bottom: 28mm), header: none,
     footer: none, numbering: none)[

@@ -1,0 +1,97 @@
+# UI strings for site/_templates/layout.html and 404.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "ओपन-सोर्स एआई के भविष्य पर निर्यात नियंत्रणों का प्रभाव"
+
+msgid "Open Source AI & Export Controls"
+msgstr "ओपन-सोर्स एआई और निर्यात नियंत्रण"
+
+msgid "Theme"
+msgstr "थीम"
+
+msgid "light"
+msgstr "हल्का"
+
+msgid "dark"
+msgstr "गहरा"
+
+msgid "system"
+msgstr "सिस्टम"
+
+msgid "Copy"
+msgstr "कॉपी करें"
+
+msgid "Copied"
+msgstr "कॉपी हो गया"
+
+msgid "Skip to content"
+msgstr "मुख्य सामग्री पर जाएँ"
+
+msgid "Book navigation"
+msgstr "पुस्तक नेविगेशन"
+
+msgid "Read the Book"
+msgstr "पुस्तक पढ़ें"
+
+msgid "40 Checkpoints"
+msgstr "40 जाँच-बिंदु"
+
+msgid "Open AI Flowcharts"
+msgstr "ओपन एआई फ़्लोचार्ट"
+
+msgid "Contacts & Approval"
+msgstr "संपर्क व मंज़ूरी"
+
+msgid "22 Sources"
+msgstr "22 स्रोत"
+
+msgid "Search the book"
+msgstr "पुस्तक में खोजें"
+
+msgid "Language"
+msgstr "भाषा"
+
+msgid "SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF"
+msgstr "सात मूल संस्करण · वेब और टाइपसेट A4 PDF"
+
+msgid "Read the Complete Book in Seven Languages"
+msgstr "सात भाषाओं में संपूर्ण पुस्तक पढ़ें"
+
+msgid "Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book."
+msgstr "हर संस्करण में सभी 11 अध्याय, विशेष वुडकट चित्र, मूल Typst/CeTZ/Fletcher व Graphviz आरेख, इंटरैक्टिव 40-जाँच-बिंदु एटलस, सत्यापित सरकारी संपर्क और A4 PDF पुस्तक शामिल हैं।"
+
+msgid "Read Web Edition →"
+msgstr "वेब संस्करण पढ़ें →"
+
+msgid "Footer links"
+msgstr "फ़ुटर कड़ियाँ"
+
+msgid "40-Technology Atlas"
+msgstr "40-तकनीक एटलस"
+
+msgid "Official Contacts & Licensing"
+msgstr "आधिकारिक संपर्क व लाइसेंसिंग"
+
+msgid "22 Verified Primary Sources"
+msgstr "22 सत्यापित प्राथमिक स्रोत"
+
+msgid "GitHub Repository"
+msgstr "GitHub रिपॉज़िटरी"
+
+msgid "Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail."
+msgstr "2 नवम्बर 2026 की स्थिति में 22 आधिकारिक चीनी और अमेरिकी प्राथमिक अभिलेखों से सत्यापित। मूल विधिक पाठ ही मान्य होंगे।"
+
+msgid "Page not found"
+msgstr "पृष्ठ नहीं मिला"
+
+msgid "That page has moved or does not exist. Choose an edition below or open the English book directly."
+msgstr "यह पृष्ठ स्थानांतरित हो गया है या मौजूद नहीं है। नीचे कोई संस्करण चुनें या सीधे अंग्रेज़ी पुस्तक खोलें।"
+
+msgid "Open the Book (English) →"
+msgstr "पुस्तक खोलें (अंग्रेज़ी) →"

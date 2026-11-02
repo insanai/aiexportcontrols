@@ -1,0 +1,230 @@
+# Korean translation for site/index.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:30+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../site/index.rst:1
+msgid ""
+"Impact of Export Controls on the Future of Open Source AI — An "
+"illustrated literary and evidentiary book on how software, model-weight, "
+"and silicon hardware borders reshape human progress."
+msgstr ""
+"수출 통제가 오픈소스 AI의 미래에 미치는 영향 — 소프트웨어, 모델 가중치, 실리콘 하드웨어의 국경 장벽이 인류의 진보를 어떻게 재편하는지 1차 사료와 수리 모델로 밝혀낸 일러스트 논픽션."
+
+#: ../../site/index.rst:5
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "수출 통제가 오픈소스 AI의 미래에 미치는 영향"
+
+#: ../../site/index.rst:10
+msgid ""
+"AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS"
+msgstr "열린 지성, 실리콘 하드웨어, 그리고 인류의 진보에 관한 일러스트 도서"
+
+#: ../../site/index.rst:14
+msgid ""
+"*\"He who lights his taper at mine, receives light without darkening "
+"me.\"* — For four centuries, human progress accelerated whenever an "
+"equation, a cure, or a line of code crossed an ocean without waiting for "
+"a customs stamp. Today, sovereign walls are rising across **both the "
+"software weights above ground and the silicon hardware beneath them**."
+msgstr ""
+"*\"내 초에서 불을 옮겨 붙이는 이는 나를 어둡게 하지 않고도 빛을 얻는다.\"* — 지난 4세기 동안 방정식 하나, 치료법 하나, 코드 한 줄이 세관의 도장을 기다리지 않고 바다를 건널 때마다 인류의 진보는 가속되었다. 그러나 오늘날 주권 국가의 장벽은 **지상의 소프트웨어 가중치와 그 아래를 떠받치는 실리콘 하드웨어 모두**\\ 를 가로지르며 높아지고 있다."
+
+#: ../../site/index.rst:18
+msgid ""
+"`Begin Reading the Book <read-cover_>`_ `Download Typeset PDF Book "
+"<book-pdf_>`_ `Explore All 40 Checkpoints <read-atlas_>`_ `Official "
+"Approval & Contacts <read-contacts_>`_"
+msgstr ""
+"`책 읽기 시작하기 <read-cover_>`_ `조판 PDF 도서 다운로드 "
+"<book-pdf_>`_ `40개 통제 지점 모두 보기 <read-atlas_>`_ `공식 허가 절차 및 연락처 <read-contacts_>`_"
+
+#: ../../site/index.rst:26
+msgid ""
+"When open minds meet sovereign walls: between 2023 and 2026, open-source "
+"AI put frontier reasoning into the hands of rural clinics, universities, "
+"and small workshops worldwide — before export controls reached into "
+"chips, memory stacks, superclusters, and model weights alike."
+msgstr ""
+"열린 지성이 주권의 성벽을 만날 때: 2023년부터 2026년 사이, 오픈소스 AI는 세계 곳곳의 시골 진료소와 대학 연구실, 작은 작업장에 최첨단 추론 지능을 안겨 주었다 — 수출 통제가 칩과 메모리 스택, 슈퍼클러스터, 그리고 모델 가중치 전반에 손을 뻗기 전까지는."
+
+#: ../../site/index.rst:28
+msgid "From an Open Republic of Ideas to a Guarded Horizon"
+msgstr "열린 사상의 공화국에서 검문소가 세워진 지평선으로"
+
+#: ../../site/index.rst:31
+msgid ""
+"Give away a loaf of bread and your kitchen has one loaf fewer. Give away "
+"an algorithm — or an open-weight neural network — and a pediatric clinic "
+"in Nairobi, a linguist in Oaxaca, and two graduate students with consumer "
+"graphics cards in Munich can all build tomorrow morning without "
+"diminishing the creator by a single byte."
+msgstr ""
+"빵 한 덩이를 나누어 주면 내 식탁의 빵은 한 덩이 줄어든다. 하지만 알고리즘 하나 — 혹은 오픈 가중치 신경망 하나 — 를 나누어 주면 나이로비의 소아과 진료소와 오아하카의 언어학자, 그리고 뮌헨에서 소비자용 그래픽카드 두 장을 맞물린 대학원생 두 명이 내일 아침 당장 새로운 도구를 만들어 낼 수 있으면서도, 원창작자의 지식은 단 1바이트도 줄어들지 않는다."
+
+#: ../../site/index.rst:33
+msgid ""
+"Yet an uncomfortable physical truth governs the future of open-source "
+"artificial intelligence: **no open model floats in thin air.** Beneath "
+"every permissive MIT or Apache 2.0 license lies a heavy industrial "
+"pyramid of extreme-ultraviolet lithography, processor instruction sets, "
+"stacked high-bandwidth memory (HBM), and optical cables lashing ten "
+"thousand GPUs into one machine."
+msgstr ""
+"그러나 오픈소스 인공지능의 미래는 불편한 물리적 진실 위에 서 있다. **어떠한 오픈 모델도 허공에 떠 있지 않다는 사실이다.** 자유로운 MIT나 Apache 2.0 라이선스 한 장 아래에는 극자외선(EUV) 노광 장비와 프로세서 명령어 집합, 적층형 고대역폭 메모리(HBM), 그리고 1만 장의 GPU를 하나의 기계로 묶어 내는 광케이블이라는 거대한 중공업 피라미드가 자리하고 있다."
+
+#: ../../site/index.rst:40
+msgid ""
+"Software above, silicon below: why controlling AI chips (``3A090``, "
+"``266506X``) and 10,000-card clusters (``266507X``) reshapes open-source "
+"AI even when code stays free."
+msgstr ""
+"위로는 소프트웨어, 아래로는 실리콘: 코드가 자유롭게 열려 있더라도 AI 칩(``3A090``, ``266506X``)과 1만 장급 클러스터(``266507X``) 통제가 오픈소스 AI의 지형을 뒤바꾸는 이유."
+
+#: ../../site/index.rst:44
+msgid ""
+"**The Hardware Chokepoint:** Washington restricts flagship ``3A090`` "
+"accelerators, fab tools, and foreign chips built with US software "
+"(calibrating strict H200 review in January 2026), while Beijing's October "
+"2026 draft proposes restricting **<=14 nm AI chip architectures, <=18 nm "
+"DRAM/HBM & 3D NAND designs** (``266506X``), **>10,000-card cluster "
+"interconnects** (``266507X``), and **18 classes of solar machinery**."
+msgstr ""
+"**하드웨어 병목 지점:** 워싱턴은 핵심 ``3A090`` 가속기와 반도체 제조 장비, 미국산 소프트웨어로 설계된 해외 생산 칩을 통제하며(2026년 1월 엄격한 조건부 H200 심사 규정 조정 포함), 베이징의 2026년 10월 개정안 초안은 **14nm 이하 AI 칩 아키텍처, 18nm 이하 DRAM/HBM 및 3D NAND 설계**\\ (``266506X``), **1만 장 초과 클러스터 인터커넥트**\\ (``266507X``), 그리고 **18종의 태양광 핵심 제조 장비**\\ 에 대한 수출 제한을 제안한다."
+
+#: ../../site/index.rst:45
+msgid ""
+"**The Software & Weight Gate:** China's **Announcement No. 48** (16 "
+"October 2026) switches on immediate pre-export registration at "
+"``ecomp.mofcom.gov.cn`` and proposes licensing private transfers of "
+"models crossing :math:`10^{26}` **FLOPs**, **2 trillion parameters**, or "
+"a **Global Top-10 rank** (``266504X``) — mirroring Washington's contested "
+"``4E091`` weight rule."
+msgstr ""
+"**소프트웨어 및 가중치 관문:** 중국의 **2026년 제48호 공고**\\ (2026년 10월 16일)는 ``ecomp.mofcom.gov.cn`` 포털에서의 즉시 수출 전 정보 등록을 가동하는 한편, 학습 연산량 :math:`10^{26}` **FLOPs**, **2조 개 파라미터**, 또는 **글로벌 상위 10위권 성능**\\ (``266504X``) 기준을 넘는 모델의 비공개 이전에 허가제를 도입하고자 한다 — 이는 법적 공방에 휩싸인 워싱턴의 ``4E091`` 가중치 규정과 정교한 대칭을 이룬다."
+
+#: ../../site/index.rst:47
+msgid ""
+"The Mathematical Paradox: Why Broad Walls Make the World Poorer *and* "
+"More Dangerous"
+msgstr ""
+"수학적 역설: 광범위한 장벽은 왜 세계를 더 가난하고 *동시에* 더 위험하게 만드는가"
+
+#: ../../site/index.rst:50
+msgid ""
+"Capitals build broad technology walls hoping for safety and strategic "
+"lead. Inside the book, we model that rivalry mathematically using **game "
+"theory** and **Linus's Law of exponential flaw scrutiny** "
+":math:`P(\\text{flaw survives}) = p_0(1-q)^n` — proving why uncoordinated "
+"fear traps rival blocs in a classic **Prisoner's Dilemma**:"
+msgstr ""
+"각국 수도는 안전과 전략적 우위를 기대하며 포괄적인 기술 장벽을 세운다. 이 책에서는 그 경쟁을 **게임이론**\\ 과 **독립 검증의 지수 법칙(리누스의 법칙)** :math:`P(\\text{flaw survives}) = p_0(1-q)^n` 수식으로 정밀하게 모델링하여, 조율되지 않은 두려움이 왜 경쟁 진영 모두를 전형적인 **죄수의 딜레마**\\ 에 가두는지 수학적으로 증명한다:"
+
+#: ../../site/index.rst:53
+msgid ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"ko\")"
+
+#: ../../site/index.rst:53
+msgid ""
+"Inside the book's mathematical proof: unilateral hoarding tempts both "
+"powers (20 > 17), locking the world into a (+5, +5) Nash Equilibrium that "
+"destroys 70% of shared welfare and quadruples systemic danger (R = 4x)."
+msgstr ""
+"본문의 수리적 증명 요약: 일방적 독점의 유혹(20 > 17)이 두 강대국을 끌어당긴 끝에 세계는 (+5, +5) 내시 균형에 갇히며, 그 결과 전 지구적 후생의 70%가 파괴되고 시스템 위험은 네 배(R = 4×)로 치솟는다."
+
+#: ../../site/index.rst:58
+msgid ""
+"When both powers retreat behind broad walls, their temporary zero-sum "
+"lead cancels out (:math:`+5 = +5`), trillions are wasted duplicating fabs "
+"and closed training runs, independent global safety auditing splinters "
+"into blind black boxes, and hospitals and utilities lose open-weight "
+"cyber defenses. **Only narrow fences around genuine weapons — paired with "
+"open bridges for shared science — escape the trap.**"
+msgstr ""
+"두 강대국이 모두 높은 장벽 뒤로 물러서면 일시적인 제로섬 우위는 서로 상쇄되고(:math:`+5 = +5`), 반도체 공장과 폐쇄형 모델 학습을 중복 구축하는 데 수조 달러가 허비되며, 전 세계의 독립적 안전 검증은 앞을 볼 수 없는 블랙박스로 조각나고, 병원과 공공 인프라는 오픈 가중치 기반의 사이버 방어 수단을 잃는다. **진정한 무기 주변에만 좁고 높은 울타리를 세우고, 공유 과학을 위해 열린 다리를 보장할 때만 이 함정에서 벗어날 수 있다.**"
+
+#: ../../site/index.rst:60
+msgid "What Our Primary-Source Investigation Uncovered"
+msgstr "1차 사료 정밀 검증으로 밝혀낸 핵심 사실"
+
+#: ../../site/index.rst:63
+msgid ""
+"Reading all **22 official Chinese and American legal texts** word for "
+"word — rather than relying on breathless headlines — reveals three vital "
+"truths for builders and citizens everywhere:"
+msgstr ""
+"자극적인 헤드라인에 의존하는 대신 **중국과 미국의 공식 법령 및 원문 문헌 22건**\\ 을 한 줄 한 줄 대조해 읽으면, 전 세계의 개발자와 시민이 꼭 알아야 할 세 가지 핵심 사실이 드러난다:"
+
+#: ../../site/index.rst:65
+msgid ""
+"**Already-public open-source AI remains untouched.** China's Footnote 1 "
+"and US ``15 CFR 734.7`` / ``4E091`` explicitly leave existing public MIT "
+"and Apache 2.0 models outside export licensing."
+msgstr ""
+"**이미 공개된 오픈소스 AI는 통제받지 않는다.** 중국 초안의 주석 1과 미국의 ``15 CFR 734.7`` 및 ``4E091`` 규정은 이미 공개된 MIT 및 Apache 2.0 모델을 수출 허가 대상 바깥에 명시적으로 남겨 둔다."
+
+#: ../../site/index.rst:66
+msgid ""
+"**New open-source AI and chip tape-outs get an express doorway.** Rather "
+"than banning open releases, China's Footnote 2 proposes **automatic "
+"licensing (\"apply and go\")** for new open-source AI exports, overseas "
+"foundry chip tape-outs (``芯片流片``), and Chinese firms' self-operated "
+"overseas clouds."
+msgstr ""
+"**신규 오픈소스 AI 공개와 칩 테이프아웃에는 급행 통로가 열린다.** 중국 초안의 주석 2는 오픈소스 공개를 금지하는 대신, 신규 오픈소스 AI 수출, 해외 파운드리 칩 테이프아웃(``芯片流片``), 중국 기업의 자체 운영 해외 클라우드에 대해 **자동 허가(\"신청 즉시 처리\")** 패스트트랙을 제안한다."
+
+#: ../../site/index.rst:67
+msgid ""
+"**Every gate has a real address, clock, and phone number.** Inside the "
+"book, we map the complete before-and-after open-source release flowcharts "
+"alongside verified **MOFCOM, MOST, Provincial Commerce, and US BIS SNAP-R "
+"portals, statutory 30 + 15 working-day clocks, room numbers, emails, "
+"faxes, and helpdesk phones**."
+msgstr ""
+"**모든 관문에는 실제 주소와 법정 기한, 전화번호가 존재한다.** 이 책에서는 수출 통제 전후의 오픈소스 공개 절차 흐름도와 함께 검증된 **중국 상무부(MOFCOM)·과학기술부(MOST)·성급 상무청 및 미국 산업안보국(BIS) SNAP-R 포털, 30 + 15영업일의 법정 심사 기한, 사무실 호수, 이메일, 팩스, 헬프데스크 전화번호**\\ 를 빠짐없이 수록했다."
+
+#: ../../site/index.rst:71
+msgid ""
+"**Cover & Overture** — `Jefferson's Taper, Hardware Roots & the "
+"Game-Theory Proof <read-cover_>`_"
+msgstr ""
+"**표지 및 서장** — `제퍼슨의 촛불, 하드웨어의 뿌리, 그리고 게임이론 증명 <read-cover_>`_"
+
+#: ../../site/index.rst:72
+msgid ""
+"**Chapters 01 & 02** — `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
+"Interactive 40-Checkpoint Atlas <read-atlas_>`_"
+msgstr ""
+"**제01장 및 제02장** — `제48호 공고의 두 시계 <read-ch1_>`_ 및 `인터랙티브 40개 통제 지점 지도 <read-atlas_>`_"
+
+#: ../../site/index.rst:73
+msgid ""
+"**Chapters 03 & 04** — `Mind & Silicon Hardware Stack <read-ai_>`_ & "
+"`Open-Source AI Before and After the Gates <read-open_>`_"
+msgstr ""
+"**제03장 및 제04장** — `지성과 실리콘 하드웨어 스택 <read-ai_>`_ 및 `장벽 이전과 이후의 오픈소스 AI <read-open_>`_"
+
+#: ../../site/index.rst:74
+msgid ""
+"**Chapters 08 & 10** — `Official Government Approval & Contact Directory "
+"<read-contacts_>`_ & `All 22 Verified Primary Sources <read-sources_>`_"
+msgstr ""
+"**제08장 및 제10장** — `정부 공식 허가 절차 및 연락처 편람 <read-contacts_>`_ 및 `검증된 22개 1차 사료 전집 <read-sources_>`_"

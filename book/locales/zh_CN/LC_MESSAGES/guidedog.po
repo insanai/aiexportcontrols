@@ -1,0 +1,150 @@
+# UI strings for book/_templates/layout.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "出口管制对开源人工智能未来的影响"
+
+msgid "Open Source AI & Export Controls"
+msgstr "开源人工智能与出口管制"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "light"
+msgstr "浅色"
+
+msgid "dark"
+msgstr "深色"
+
+msgid "system"
+msgstr "跟随系统"
+
+msgid "No pages match."
+msgstr "未找到匹配页面。"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Copied"
+msgstr "已复制"
+
+msgid "matching checkpoints"
+msgstr "项匹配管制点"
+
+msgid "No checkpoints match your filter."
+msgstr "没有符合筛选条件的技术管制点。"
+
+msgid "Skip to content"
+msgstr "跳至正文"
+
+msgid "Navigation"
+msgstr "目录导航"
+
+msgid "Overview"
+msgstr "全书导览"
+
+msgid "Search the book (press /)"
+msgstr "搜索全书（按 / 键）"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Chapters"
+msgstr "全书章节"
+
+msgid "Verified 2 Nov 2026"
+msgstr "2026年11月2日核验"
+
+msgid "Download A4 PDF Book"
+msgstr "下载 A4 精排 PDF 全书"
+
+msgid "Research & literary edition. Official Chinese and US legal texts prevail."
+msgstr "纪实研究读本。具体法律效力以中美官方正式文本为准。"
+
+msgid "Breadcrumbs"
+msgstr "位置导航"
+
+msgid "Book Cover"
+msgstr "全书封面"
+
+msgid "On this page"
+msgstr "本页目录"
+
+msgid "SOFTWARE · MODELS · SILICON HARDWARE · HUMANITY"
+msgstr "软件 · 模型权重 · 硅基硬件 · 人类未来"
+
+msgid "Filter 40 technologies"
+msgstr "筛选 40 项技术管制点"
+
+msgid "Interactive 40-Checkpoint Explorer"
+msgstr "40 项技术管制点交互检索器"
+
+msgid "Keyword or code"
+msgstr "关键词或目录编号"
+
+msgid "e.g. 266504X, HBM, wafer, siRNA..."
+msgstr "例如：266504X、HBM、硅片、siRNA……"
+
+msgid "Sector"
+msgstr "技术领域"
+
+msgid "All 40 checkpoints"
+msgstr "全部 40 项管制点"
+
+msgid "AI, Chips & Superclusters (23)"
+msgstr "人工智能、芯片与超算集群 (23)"
+
+msgid "Biomedicine & Gene Platforms (5)"
+msgstr "生物医药与基因平台 (5)"
+
+msgid "Solar Silicon & Machinery (12)"
+msgstr "光伏硅材料与核心装备 (12)"
+
+msgid "Proposed rule"
+msgstr "拟议管制类别"
+
+msgid "Prohibited (J) & Restricted (X)"
+msgstr "禁止出口 (J) 与限制出口 (X)"
+
+msgid "Proposed Prohibited (J — 14)"
+msgstr "拟禁止出口（J — 14项）"
+
+msgid "Proposed Restricted (X — 26)"
+msgstr "拟限制出口（X — 26项）"
+
+msgid "Interactive Scenario Guide"
+msgstr "实战情境交互导引"
+
+msgid "Jump to a Real-World Scenario"
+msgstr "快速跳转至真实场景"
+
+msgid "Previous and next"
+msgstr "上一章与下一章"
+
+msgid "Previous"
+msgstr "上一章"
+
+msgid "Next"
+msgstr "下一章"
+
+msgid "Primary sources verified 2 November 2026. Built natively with Guidedog, Typst, CeTZ, Fletcher & Graphviz."
+msgstr "原始文献核验截至 2026 年 11 月 2 日。基于 Guidedog、Typst、CeTZ、Fletcher 与 Graphviz 原生构建。"
+
+msgid "Download PDF Book"
+msgstr "下载 PDF 全书"
+
+msgid "22 Primary Sources"
+msgstr "22份原始文献"
+
+msgid "GitHub Repository"
+msgstr "GitHub 代码仓库"

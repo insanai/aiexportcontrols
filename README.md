@@ -1,70 +1,55 @@
-# The new technology borders
+# Impact of Export Controls on the Future of Open Source AI
 
-A visual research book about China's Announcement 48 of 2026, US export controls and the future of open AI models from China.
+An illustrated literary and primary-source book on how sovereign export controls across **both software/model weights and physical silicon hardware** reshape open-source artificial intelligence, scientific cooperation, and human progress.
 
-[Read the book](https://insanai.github.io/chinaexportcontrol/) | [English PDF](https://insanai.github.io/chinaexportcontrol/en/technology-borders.pdf) | [Sources and method](https://insanai.github.io/chinaexportcontrol/en/sources.html)
+[Read the Website & Landing Page](https://insanai.github.io/chinaexportcontrol/) | [Read the English Book](https://insanai.github.io/chinaexportcontrol/en/index.html) | [Download English A4 PDF](https://insanai.github.io/chinaexportcontrol/books/en/open-source-ai-export-controls-en.pdf) | [22 Primary Sources](https://insanai.github.io/chinaexportcontrol/en/sources.html)
 
-The seven editions match GuideDog's languages: English, Simplified Chinese, Japanese, Korean, Hindi, Spanish and German. Every edition has ten chapters, a complete 40-point atlas and a PDF. The website includes chapter search, sector and status filters, examples, language switching and light or dark reading. Typst draws the figures and typesets the books.
+Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
 
-## Findings and research date
+## What This Book Covers
 
-We checked the sources on 2 November 2026. China's temporary registration requirement has started. The catalogue changes remain a consultation proposal. The draft excludes already public AI technology and proposes facilitation for new open-source exports of restricted technology. It does not establish a blanket ban on Chinese open models.
+1. **From an Open Commons to Guarded Walls:** Traces how shared human thought—from movable type and Linux to open-weight AI (`DeepSeek-R1`, `Qwen3`)—now confronts sovereign border checkpoints.
+2. **Mind and Silicon (Software + Hardware Together):** Explains why open-source AI never floats in thin air: export controls now clamp onto **both** frontier model weights (`266504X`, `4E091`) **and** the physical silicon stack underneath (`3A090` AI chips, `742.6(b)(10)` H200 review, `266506X` `<=14 nm` processor & `<=18 nm` DRAM/HBM/3D NAND blueprints, `266507X` `>10,000-card` supercluster interconnects, and `Footnote 4` solar machinery).
+3. **Mathematical Game Theory Proof (*The Fortress Trap*):** Proves via a symmetric Prisoner's Dilemma payoff equation and Linus's Law of exponential flaw scrutiny $P(\text{flaw survives}) = p_0(1-q)^n$ why mutual broad walls collapse global welfare from `34` to `10` (`-70%`) while quadrupling systemic danger (`R = 4x`).
+4. **Open-Source AI Release Before vs. After Export Controls:** Step-by-step visual flowcharts comparing the old 4-step midnight `git push` with today's 4-gate pipeline—highlighting **Footnote 1** (already-public open AI excluded), **15 CFR 734.7**, and **Footnote 2** ("apply and go" automatic licensing for new open-source AI, overseas foundry chip tape-outs, and self-operated overseas clouds).
+5. **Official Government Departments, Statutory Clocks & Contact Directory:** Verified filing portals (`ecomp.mofcom.gov.cn` and `snapr.bis.gov`), statutory working-day timelines (China's 30-working-day Stage 1 Letter of Intent + 15-working-day Stage 2 Technology Export License), room numbers, street addresses, emails, faxes, and helpdesk telephone numbers in Beijing, Provincial Commerce/S&T departments, Washington, D.C., and California.
 
-We distinguish the published US model-weight rule from BIS's announced non-enforcement policy and GAO's May 2026 decision. We also explain the January 2026 chip licensing change. Examples and possible futures are marked as analysis.
+## Pure GuideDog Architecture (Zero Python Build Scripts)
 
-The translations preserve the findings, chapters, source links and complete atlas, with wording adapted for each language. They are editorial reading aids without independent legal or native-language professional review. Original legal texts prevail.
+This project is authored **100% natively in [GuideDog v1.0.0-beta.10](https://github.com/insanai/guidedog/releases/tag/v1.0.0-beta.10)** without Python wrapper scripts:
 
-## Official documents
-
-MOFCOM published the two attachments as WPS documents. We downloaded the original bytes and converted reading copies with LibreOffice. We also printed the official article as a separate PDF with a provenance note. The US Federal Register PDFs are unchanged official downloads.
-
-- [Announcement 48, original official page](https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html)
-- [Announcement, PDF reading copy](public/sources/announcement-48-official-page.pdf)
-- [Attachment 1, original WPS](public/sources/announcement-48-attachment-1.wps) and [PDF reading copy](public/sources/announcement-48-attachment-1.pdf)
-- [Attachment 2, original WPS](public/sources/announcement-48-attachment-2.wps) and [PDF reading copy](public/sources/announcement-48-attachment-2.pdf)
-- [2026 US chip rule, official PDF](public/sources/us26-official.pdf)
-- [2025 US AI Diffusion Rule, official PDF](public/sources/us25-official.pdf)
-
-The file originally supplied as `china_export_control.pdf` contains an unrelated organoid research presentation. We preserved it locally, excluded it from version control and did not use it as evidence.
-
-## Build
-
-We use [GuideDog](https://github.com/insanai/guidedog), installed as `guidedog`, with embedded Typst. This edition was built with GuideDog 1.0.0-beta.8 and Typst 0.15.1. Python 3.11 or later and Noto CJK and Devanagari fonts are needed. The PDF theme also uses the installed Lato family. Font paths in `tools/build.py` follow Debian's locations.
+- **Markup:** Native reStructuredText (`.rst`) in [`site/`](site/) (landing page) and [`book/`](book/) (11 chapters).
+- **Diagrams & Math:**
+  - Native `.. typst-diagram::` compiled by GuideDog's embedded Typst `0.15.1` engine with `@preview/cetz:0.3.4` and `@preview/fletcher:0.5.8` ([`book/figures/diagrams.typ`](book/figures/diagrams.typ)).
+  - Native `.. graphviz::` (`:class: graphviz-adaptive`) compiled by GuideDog's linked Graphviz `16.1.0` engine.
+  - Native `.. math::` and `:math:` rendered via local offline SVG MathJax in HTML and native Typst math in PDF.
+- **Internationalization:** Native Gettext catalogs (`locales/<lang>/LC_MESSAGES/*.po`) managed with `guidedog build -b gettext` and `guidedog intl`, plus Jinja `{{ _('...') }}` templates.
+- **Atomic Multi-Mount Build:** Root [`conf.toml`](conf.toml) assembles all 7 landing pages, 7 HTML book editions, 7 typeset A4 PDF books, and primary-source archives in one command:
 
 ```sh
-python3 tools/build.py
-python3 tools/verify.py
+# Build the complete multilingual website + 7 PDF books into public/
+guidedog ssg build . --out public
+
+# Check every internal link across the assembled site
+linkcheck public -v
+
+# Check translation completeness across all 6 translated languages
+guidedog intl stat -l zh_CN -l ja -l ko -l hi -l es -l de site
+guidedog intl stat -l zh_CN -l ja -l ko -l hi -l es -l de book
 ```
 
-We edit prose in `content/<language>.book`, translated atlas entries in `content/<language>.atlas`, and the source atlas in `content/atlas.json`. `tools/ui.py` holds interface translations. The build assembles ordinary GuideDog Markdown projects in `book/<language>`, uses shared HTML and Typst templates, and puts the complete Pages package in `public`. Intermediate files remain in `_build`.
+*(Note: CJK and Devanagari PDF editions use `fonts-noto-cjk` and `fonts-noto-core` on Debian/Ubuntu, configured in `pdf_font_paths`.)*
 
-Every GuideDog HTML and PDF build uses `-W`, so warnings stop publication. The atlas checks preserve original codes, point numbers and proposed status across all languages. Local links and assets, source hashes and searchable PDF contents are checked before deployment.
+## Untouched Official Documents & Primary Sources
 
-For a local preview and browser checks:
+`research/sources.json` records all **22 primary sources**, retrieval dates (`2026-11-02`), HTTP statuses, and SHA-256 hashes (with GAO Decision `B-337935` noted transparently as web-verified due to `HTTP 403` on automated byte archiving):
 
-```sh
-python3 -m http.server 8778 --bind 127.0.0.1 --directory public
-# In another shell, with Playwright and Chromium installed:
-PLAYWRIGHT_MODULE=/path/to/playwright node tools/browser_check.cjs
-```
+- [Announcement No. 48 Official Page](https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html) | [PDF Reading Copy](sources/announcement-48-official-page.pdf)
+- [Attachment 1 (Original WPS)](sources/announcement-48-attachment-1.wps) | [Converted PDF](sources/announcement-48-attachment-1.pdf)
+- [Attachment 2 (Original WPS)](sources/announcement-48-attachment-2.wps) | [Converted PDF](sources/announcement-48-attachment-2.pdf)
+- [MOFCOM & MOST Order No. 2 of 2009 — Licensing Measures PDF](sources/cnmeas.pdf)
+- [2026 US Semiconductor Rule (`91 FR 1684`) Official PDF](sources/us26-official.pdf)
+- [2025 US AI Diffusion Rule (`90 FR 4544`) Official PDF](sources/us25-official.pdf)
+- [US BIS Official SNAP-R Filing Guide & FAQ PDF](sources/snapr.pdf)
 
-We can override `BOOK_BASE_URL`, `CHROMIUM_PATH` and `PLAYWRIGHT_MODULE`. Browser verification exercises every chapter on desktop, selected chapters on mobile, all filters, search, language switching, theme persistence, six scenarios and the atlas without JavaScript.
-
-To re-create the attachment conversions, LibreOffice must be installed:
-
-```sh
-soffice --headless --convert-to pdf --outdir public/sources research/snapshots/announcement-48-attachment-1.wps research/snapshots/announcement-48-attachment-2.wps
-PLAYWRIGHT_MODULE=/path/to/playwright node tools/render_sources.cjs
-```
-
-`tools/fetch_sources.py` refreshes source snapshots when explicitly run. A source refresh needs a new editorial review; it does not automatically update the legal analysis or research date.
-
-## Publish
-
-GitHub Actions verifies the committed `public` package, then deploys it to GitHub Pages. The workflow runs on changes to the publication or checks. The site has no server, analytics or external runtime service. Search and filters use local edition data. Theme choice stays in the reader's browser.
-
-## Source record
-
-`research/sources.json` lists 18 primary sources, source locations, access dates, downloaded-byte hashes and download limitations. The GAO page was verified with web research; its direct archive request returned HTTP 403, so we do not claim a local byte snapshot of it. The Chinese attachment originals have byte-identical public copies.
-
-`research/package-verification.json` and `research/browser-verification.json` record prepublication checks. Fonts retain their licenses in the static font directory. Legal documents and publisher materials retain their original rights; their presence does not imply endorsement of this book.
+*(An unrelated organoid presentation previously stored locally as `china_export_control.pdf` remains excluded from version control and was never used as evidence.)*

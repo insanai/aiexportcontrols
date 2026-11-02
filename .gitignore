@@ -4,10 +4,12 @@ CLAUDE.md
 CLAUDE.local.md
 .claude/
 _build/
+public/
+.public.guidedog/
+**/locales/**/*.mo
 .cache/
 node_modules/
 __pycache__/
 .DS_Store
+Thumbs.db
 china_export_control.pdf
-
-book/*/_templates/

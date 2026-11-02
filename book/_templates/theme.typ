@@ -7,7 +7,7 @@
   amber: rgb("#a4520a"),
 )
 #let gd-serif = ("Libertinus Serif", "New Computer Modern")
-#let gd-sans = ("Lato", "Libertinus Sans", "Libertinus Serif")
+#let gd-sans = ("Lato", "Libertinus Serif")
 #let gd-mono = ("DejaVu Sans Mono",)
 #let gd-language(lang) = {
   let parts = lang.replace("_", "-").split("-")

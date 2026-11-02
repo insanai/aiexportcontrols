@@ -1,0 +1,74 @@
+# Root Guidedog website configuration for:
+# "Impact of Export Controls on the Future of Open Source AI"
+#
+# Build everything (multilingual landing pages, 7 HTML book editions, 7 typeset A4 PDF
+# books, and verified primary source archives) in one atomic generation with:
+#
+#   guidedog ssg build . --out public
+
+project = "Impact of Export Controls on the Future of Open Source AI"
+version = "2026.11"
+release = "2026-11-02"
+exclude_patterns = ["**"]
+
+[site]
+base_url = "https://insanai.github.io/chinaexportcontrol"
+sitemap = true
+
+[[site.mounts]]
+name = "home"
+source = "site"
+output = ""
+exclude = ["search.html", "_static/searchindex.js"]
+overrides = ['''rst_epilog="""
+.. _read-cover: mount://book/index.html
+.. _read-ch1: mount://book/announcement.html
+.. _read-atlas: mount://book/atlas.html
+.. _read-ai: mount://book/ai.html
+.. _read-open: mount://book/open-models.html
+.. _read-contacts: mount://book/comparison.html
+.. _read-sources: mount://book/sources.html
+.. _book-pdf: mount://books/open-source-ai-export-controls-{language}.pdf
+"""''']
+editions = [
+  {language = "en", output = ""},
+  {language = "zh_CN", output = "home/zh-cn", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+  {language = "ja", output = "home/ja", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+  {language = "ko", output = "home/ko", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+  {language = "hi", output = "home/hi", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+  {language = "es", output = "home/es", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+  {language = "de", output = "home/de", overrides = ['html_additional_pages={}', 'extensions=["sphinx.ext.graphviz", "sphinx.ext.mathjax"]']},
+]
+
+[[site.mounts]]
+name = "book"
+source = "book"
+output = ""
+editions = [
+  {language = "en", output = "en"},
+  {language = "zh_CN", output = "zh-cn"},
+  {language = "ja", output = "ja"},
+  {language = "ko", output = "ko"},
+  {language = "hi", output = "hi"},
+  {language = "es", output = "es"},
+  {language = "de", output = "de"},
+]
+
+[[site.mounts]]
+name = "books"
+source = "book"
+output = "books"
+builder = "pdf"
+editions = [
+  {language = "en", output = "en"},
+  {language = "zh_CN", output = "zh-cn"},
+  {language = "ja", output = "ja"},
+  {language = "ko", output = "ko"},
+  {language = "hi", output = "hi"},
+  {language = "es", output = "es"},
+  {language = "de", output = "de"},
+]
+
+[[site.assets]]
+source = "sources"
+output = "sources"

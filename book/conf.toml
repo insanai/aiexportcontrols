@@ -1,0 +1,58 @@
+# Guidedog project configuration for the 11-chapter book:
+# "Impact of Export Controls on the Future of Open Source AI"
+
+project = "Impact of Export Controls on the Future of Open Source AI"
+copyright = "2026, China Export Control Research"
+author = "China Export Control Research"
+version = "2026.11"
+release = "2026-11-02"
+
+extensions = ["sphinx.ext.graphviz", "sphinx.ext.mathjax"]
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "locales/**", "README*", "Thumbs.db", ".DS_Store"]
+language = "en"
+today_fmt = "%Y-%m-%d"
+smartquotes = false
+source_suffix = [".rst"]
+root_doc = "index"
+numfig = true
+
+gettext_additional_targets = ["literal-block"]
+gettext_last_translator = "China Export Control Research"
+gettext_language_team = "China Export Control Research"
+
+html_theme = "guidedog"
+html_static_path = ["_static"]
+html_css_files = ["book.css"]
+html_js_files = ["book.js"]
+html_favicon = "_static/favicon.svg"
+mathjax_path = "_static/data/mathjax/tex-svg-full.js"
+mathjax_config_path = "_static/math.js"
+html_title = "Impact of Export Controls on the Future of Open Source AI"
+html_short_title = "Open Source AI & Export Controls"
+html_copy_source = false
+html_use_index = false
+
+pdf_paper_size = "a4"
+pdf_font_paths = ["_static/fonts", "/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[[pdf_documents]]
+root = "index"
+file = "open-source-ai-export-controls.pdf"
+title = "Impact of Export Controls on the Future of Open Source AI"
+author = "China Export Control Research"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+repository = "https://github.com/insanai/chinaexportcontrol"
+book_languages = [
+  {code = "en", tag = "en", name = "English", dir = "en", home = ""},
+  {code = "zh_CN", tag = "zh-CN", name = "简体中文", dir = "zh-cn", home = "home/zh-cn/"},
+  {code = "ja", tag = "ja", name = "日本語", dir = "ja", home = "home/ja/"},
+  {code = "ko", tag = "ko", name = "한국어", dir = "ko", home = "home/ko/"},
+  {code = "hi", tag = "hi", name = "हिन्दी", dir = "hi", home = "home/hi/"},
+  {code = "es", tag = "es", name = "Español", dir = "es", home = "home/es/"},
+  {code = "de", tag = "de", name = "Deutsch", dir = "de", home = "home/de/"},
+]

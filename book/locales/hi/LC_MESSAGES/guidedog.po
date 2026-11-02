@@ -1,0 +1,148 @@
+# UI strings for book/_templates/layout.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "ओपन-सोर्स एआई के भविष्य पर निर्यात नियंत्रणों का प्रभाव"
+
+msgid "Open Source AI & Export Controls"
+msgstr "ओपन-सोर्स एआई और निर्यात नियंत्रण"
+
+msgid "Search"
+msgstr "खोजें"
+
+msgid "Theme"
+msgstr "थीम"
+
+msgid "light"
+msgstr "हल्का"
+
+msgid "dark"
+msgstr "गहरा"
+
+msgid "system"
+msgstr "सिस्टम"
+
+msgid "No pages match."
+msgstr "कोई पृष्ठ मेल नहीं खाता।"
+
+msgid "Copy"
+msgstr "कॉपी करें"
+
+msgid "Copied"
+msgstr "कॉपी हो गया"
+
+msgid "matching checkpoints"
+msgstr "मेल खाते जाँच-बिंदु"
+
+msgid "No checkpoints match your filter."
+msgstr "आपके फ़िल्टर से कोई जाँच-बिंदु मेल नहीं खाता।"
+
+msgid "Skip to content"
+msgstr "मुख्य सामग्री पर जाएँ"
+
+msgid "Navigation"
+msgstr "नेविगेशन"
+
+msgid "Overview"
+msgstr "अवलोकन"
+
+msgid "Search the book (press /)"
+msgstr "पुस्तक में खोजें (/ दबाएँ)"
+
+msgid "Language"
+msgstr "भाषा"
+
+msgid "Chapters"
+msgstr "अध्याय"
+
+msgid "Verified 2 Nov 2026"
+msgstr "2 नवम्बर 2026 को सत्यापित"
+
+msgid "Download A4 PDF Book"
+msgstr "A4 PDF पुस्तक डाउनलोड करें"
+
+msgid "Research & literary edition. Official Chinese and US legal texts prevail."
+msgstr "शोध एवं साहित्यिक संस्करण। आधिकारिक चीनी और अमेरिकी विधिक पाठ ही मान्य होंगे।"
+
+msgid "Breadcrumbs"
+msgstr "पथ-संकेत"
+
+msgid "Book Cover"
+msgstr "पुस्तक आवरण"
+
+msgid "On this page"
+msgstr "इस पृष्ठ पर"
+
+msgid "SOFTWARE · MODELS · SILICON HARDWARE · HUMANITY"
+msgstr "सॉफ़्टवेयर · मॉडल · सिलिकॉन हार्डवेयर · मानवता"
+
+msgid "Filter 40 technologies"
+msgstr "40 तकनीकों को फ़िल्टर करें"
+
+msgid "Interactive 40-Checkpoint Explorer"
+msgstr "इंटरैक्टिव 40-जाँच-बिंदु अन्वेषक"
+
+msgid "Keyword or code"
+msgstr "कीवर्ड या कोड"
+
+msgid "e.g. 266504X, HBM, wafer, siRNA..."
+msgstr "उदा. 266504X, HBM, वेफ़र, siRNA..."
+
+msgid "Sector"
+msgstr "क्षेत्र"
+
+msgid "All 40 checkpoints"
+msgstr "सभी 40 जाँच-बिंदु"
+
+msgid "AI, Chips & Superclusters (23)"
+msgstr "एआई, चिप्स व सुपरक्लस्टर (23)"
+
+msgid "Biomedicine & Gene Platforms (5)"
+msgstr "बायोमेडिसिन व जीन प्लेटफ़ॉर्म (5)"
+
+msgid "Solar Silicon & Machinery (12)"
+msgstr "सौर सिलिकॉन व मशीनरी (12)"
+
+msgid "Proposed rule"
+msgstr "प्रस्तावित नियम"
+
+msgid "Prohibited (J) & Restricted (X)"
+msgstr "निषिद्ध (J) व नियंत्रित (X)"
+
+msgid "Proposed Prohibited (J — 14)"
+msgstr "प्रस्तावित निषिद्ध (J — 14)"
+
+msgid "Proposed Restricted (X — 26)"
+msgstr "प्रस्तावित नियंत्रित (X — 26)"
+
+msgid "Interactive Scenario Guide"
+msgstr "इंटरैक्टिव परिदृश्य मार्गदर्शिका"
+
+msgid "Jump to a Real-World Scenario"
+msgstr "किसी वास्तविक परिदृश्य पर जाएँ"
+
+msgid "Previous and next"
+msgstr "पिछला और अगला"
+
+msgid "Previous"
+msgstr "पिछला"
+
+msgid "Next"
+msgstr "अगला"
+
+msgid "Primary sources verified 2 November 2026. Built natively with Guidedog, Typst, CeTZ, Fletcher & Graphviz."
+msgstr "प्राथमिक स्रोत 2 नवम्बर 2026 को सत्यापित। Guidedog, Typst, CeTZ, Fletcher और Graphviz से मूल रूप में निर्मित।"
+
+msgid "Download PDF Book"
+msgstr "PDF पुस्तक डाउनलोड करें"
+
+msgid "22 Primary Sources"
+msgstr "22 प्राथमिक स्रोत"
+
+msgid "GitHub Repository"
+msgstr "GitHub रिपॉज़िटरी"

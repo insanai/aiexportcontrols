@@ -1,0 +1,251 @@
+# Japanese translation for book/questions.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:45+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/questions.rst:1
+msgid ""
+"Chapter 9 — Practical field guide and six real-world scenarios for "
+"open-source AI maintainers, hospital and university users, chip "
+"designers, investors, and equipment exporters."
+msgstr ""
+"第9章 — オープンソースAI開発者、病院・大学の利用者、半導体設計者、投資家、製造装置輸出者のための実務フィールドガイドと6つの具体的シナリオ。"
+
+#: ../../book/questions.rst:5
+msgid "09. Everyday Situations: A Reader's Field Guide"
+msgstr "09. 日常の実務で出会う場面：読者のためのフィールドガイド"
+
+#: ../../book/questions.rst:8
+msgid ""
+"Can I Still Download DeepSeek, Qwen, or Other Open Models onto My Own "
+"Hardware?"
+msgstr ""
+"DeepSeekやQwenなどのオープンモデルは、今後も自分のハードウェアへダウンロードして使えますか？"
+
+#: ../../book/questions.rst:11
+msgid ""
+"Yes. Downloading, studying, quantizing, or fine-tuning an already-public "
+"model from Hugging Face or GitHub breaks neither country's export rules. "
+"China's draft Footnote 1 expressly excludes AI technology already in the "
+"public domain via open source or published papers, and US rule ``15 CFR "
+"734.7`` (plus ``4E091`` notes) leaves unrestricted public code and "
+"weights outside the EAR ``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]``. "
+"For *future* open releases from Chinese labs, Footnote 2 proposes "
+"automatic-licensing facilitation so open-source sharing can continue "
+"lawfully ``[CN-A1, note 2]`` ``[CNQA]``."
+msgstr ""
+"はい、問題なく使えます。すでに公開されているモデルをHugging FaceやGitHubからダウンロードし、研究・量子化・ファインチューニングすることは、中米いずれの輸出規制にも抵触しません。中国改正案の注1はオープンソースや発表論文を通じてすでにパブリックドメインに入ったAI技術を目録管理の対象外と明記しており、米国の ``15 CFR 734.7`` （および ``4E091`` 注記）も利用制限のない公開コードと重みをEARの対象外としています。 ``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]`` また、中国の研究所による *今後の* 新規オープン公開についても、適法にオープンソース共有を継続できるよう、注2で自動許可による円滑化措置が提案されています。 ``[CN-A1, note 2]`` ``[CNQA]``"
+
+#: ../../book/questions.rst:13
+msgid ""
+"Does Hardware Affect Open-Source AI Even When the Software License Is MIT "
+"or Apache 2.0?"
+msgstr ""
+"ソフトウェア・ライセンスがMITやApache 2.0であっても、ハードウェア規制はオープンソースAIに影響しますか？"
+
+#: ../../book/questions.rst:16
+msgid ""
+"Profoundly. An MIT license gives you the *legal right* to run a model, "
+"whereas physical GPUs, high-bandwidth memory, and cluster interconnects "
+"give you the *physical ability* to train or run it. US rules (``3A090``, "
+"``742.6(b)(10)``) govern who can buy advanced AI accelerators, while "
+"China's proposed ``266506X`` and ``266507X`` govern cross-border "
+"transfers of AI processor architectures, 3D NAND/DRAM designs, and "
+">10,000-card cluster engineering (with Footnote 2 easing overseas foundry "
+"tape-outs) ``[CN-A1]`` ``[US26]`` ``[EAR742]``. Always check both the "
+"software files and any custom silicon or cluster stack moving alongside "
+"them."
+msgstr ""
+"深く影響します。MITライセンスはモデルを動かす *法的権利* を与えてくれますが、実際にモデルを学習・実行する *物理的能力* を与えるのは物理的なGPU、広帯域幅メモリ（HBM）、そしてクラスタ相互接続網だからです。米国規則（ ``3A090`` 、 ``742.6(b)(10)`` ）は誰が先端AIアクセラレータを購入できるかを規律し、中国改正案の ``266506X`` と ``266507X`` はAIプロセッサ設計、3D NAND / DRAM設計、1万枚超クラスタ技術の越境移転を規律します（海外ファウンドリでのテープアウトは注2で円滑化されます）。 ``[CN-A1]`` ``[US26]`` ``[EAR742]`` したがって、ソフトウェアファイルだけでなく、それに伴って移動する独自シリコン設計やクラスタ基盤の双方を常に点検してください。"
+
+#: ../../book/questions.rst:18
+msgid ""
+"If Overseas Users Chat with Our AI App or Call Our API, Is That a Model "
+"Export?"
+msgstr ""
+"海外ユーザーが当社のAIアプリでチャットしたりAPIを呼び出したりする場合、「モデルの輸出」にあたりますか？"
+
+#: ../../book/questions.rst:21
+msgid ""
+"No — MOFCOM's official Q&A explicitly confirms that offering **remote API "
+"calls, web/app chat, SaaS software, or lightweight edge deployment** "
+"built on a restricted large model sits **outside large-model technology "
+"export management** ``[CNQA]``. Gates engage only if the model used "
+"prohibited PRC Core Data (``266501J``) or if full restricted weights are "
+"deployed locally onto overseas servers (where Chinese firms' self-owned "
+"overseas clouds qualify for Footnote 2 automatic licensing) ``[CN-A1]`` "
+"``[CNQA]``."
+msgstr ""
+"いいえ、あたりません。中国商務部の公式記者会見Q&Aは、制限対象の大規模モデルをベースに **リモートAPI呼び出し、ウェブ・アプリの対話サービス、SaaSソフトウェア、または端末上の軽量モデル配備** を提供することは **大規模モデル技術輸出管理の対象外** であると明確に確認しています。 ``[CNQA]`` 規制ゲートが作動するのは、モデルが禁止対象の中国コアデータ（ ``266501J`` ）を用いて学習された場合か、制限対象の完全な重みを海外サーバー上にローカル配備する場合（ただし中国企業が自社運営する海外クラウドへの配備は注2の自動許可対象）に限られます。 ``[CN-A1]`` ``[CNQA]``"
+
+#: ../../book/questions.rst:23
+msgid ""
+"Our Lab Stays in China, but Foreign Investors Are Acquiring Control. Do "
+"We Register?"
+msgstr ""
+"研究室は中国国内に留まりますが、海外投資家が支配権を取得します。登録は必要ですか？"
+
+#: ../../book/questions.rst:26
+msgid ""
+"Check immediately. Section III(2) of Announcement 48 requires pre-export "
+"registration whenever the **owner or actual controller of covered "
+"domestic technology changes into an overseas entity**, even if every "
+"server and engineer stays put ``[CN48, section III(2)]``. If US investors "
+"participate, separately verify US Treasury's Outbound Investment rules "
+"(``Outbound@treasury.gov``) ``[TREAS]``."
+msgstr ""
+"ただちに確認が必要です。第48号公告の第3条第2項は、たとえすべてのサーバーとエンジニアが国内に留まっていても、 **対象となる国内技術の所有者または実質的支配者が海外の事業体へと変更される場合** には完了前の輸出前情報登録を義務づけています。 ``[CN48, section III(2)]`` また、米国の投資家が参加する場合には、米国財務省の対外投資規制（ ``Outbound@treasury.gov`` ）も別途確認してください。 ``[TREAS]``"
+
+#: ../../book/questions.rst:28
+msgid ""
+"What Should We Record in a Two-Page \"Release Passport\" Before "
+"Publishing?"
+msgstr ""
+"公開前に用意しておくべき2ページの「リリース・パスポート」には何を記録すべきですか？"
+
+#: ../../book/questions.rst:31
+msgid ""
+"Before any major open-weight release, overseas chip tape-out, or "
+"cross-border license, keep a clean internal folder recording: **(1)** "
+"exact version and SHA-256 hash; **(2)** catalogue codes checked "
+"(``266504X``, ``266506X``, ``266507X``, ``3A090``, ``4E091``); **(3)** "
+"measured training FLOPs, parameter count, and public benchmark rankings "
+"on the release date; **(4)** training-data audit confirming zero Core "
+"Data and documenting public/trace Important Data; **(5)** prior "
+"publication proof or first-release status; and **(6)** copies of any "
+"``ecomp.mofcom.gov.cn`` registration or ``snapr.bis.gov`` ACN filing "
+"``[CN-A1]`` ``[CN-A2]`` ``[SNAPR]``."
+msgstr ""
+"主要なオープンウェイト公開、海外チップ・テープアウト、または越境ライセンス契約の前には、社内フォルダを整理して次の6点を記録しておきましょう。 **(1)** 正確なバージョン番号とSHA-256ハッシュ値、 **(2)** 照合した目録・規制番号（ ``266504X`` 、 ``266506X`` 、 ``266507X`` 、 ``3A090`` 、 ``4E091`` ）、 **(3)** 実測した学習FLOPs、パラメータ数、および公開日時点での公開ベンチマーク順位、 **(4)** コアデータ不使用を確認し、公開または微量の重要データについて記録した学習データ監査証跡、 **(5)** 既公開の証明または初回公開である旨の記録、そして **(6)** ``ecomp.mofcom.gov.cn`` での登録控えまたは ``snapr.bis.gov`` のACN申請控えの写しです。 ``[CN-A1]`` ``[CN-A2]`` ``[SNAPR]``"
+
+#: ../../book/questions.rst:33
+msgid "Six Real-World Scenarios"
+msgstr "現場で起こり得る6つの実務シナリオ"
+
+#: ../../book/questions.rst:38
+msgid ""
+"**Illustrative scenarios:** The six cases below demonstrate how verified "
+"rules operate in practice; always check exact project facts and official "
+"primary texts before acting."
+msgstr ""
+"**例示シナリオに関する注記：** 以下の6つのケースは検証済みルールが実務でどう機能するかを示す例示です。実際の判断にあたっては、必ず個別案件の事実関係と公式の一次法令原文を確認してください。"
+
+#: ../../book/questions.rst:44
+msgid "**1. Fine-Tuning an Existing Public Open-Weight Model**"
+msgstr "**1. 既存の公開オープンウェイト・モデルをファインチューニングする場合**"
+
+#: ../../book/questions.rst:46
+msgid ""
+"A hospital research team in Berlin or a startup in São Paulo downloads "
+"publicly released Apache 2.0 or MIT weights (such as Qwen3 or "
+"DeepSeek-R1) onto local workstations to fine-tune an offline clinical "
+"assistant. Because those weights already entered the public domain "
+"lawfully, China's Footnote 1 and US ``15 CFR 734.7`` / ``4E091`` leave "
+"the public model outside export-catalogue licensing ``[CN-A1, note 1]`` "
+"``[EAR734]``. Keep the original download hash, license file, and local "
+"patient-privacy safeguards."
+msgstr ""
+"ベルリンの病院研究チームやサンパウロのスタートアップが、一般公開されているApache 2.0またはMITライセンスの重み（Qwen3やDeepSeek-R1など）をローカルのワークステーションにダウンロードし、オフライン臨床支援モデルへとファインチューニングするケースです。これらの重みはすでに適法にパブリックドメインへ入っているため、中国の注1および米国の ``15 CFR 734.7`` / ``4E091`` により輸出目録の許可対象外となります。 ``[CN-A1, note 1]`` ``[EAR734]`` 取得時のハッシュ値、ライセンスファイル、および院内の患者プライバシー保護措置を適切に保管してください。"
+
+#: ../../book/questions.rst:50
+msgid "**2. Publishing a Brand-New Top-10 Open-Source Model from China**"
+msgstr "**2. 中国から世界トップ10性能の新規オープンソース・モデルを初公開する場合**"
+
+#: ../../book/questions.rst:52
+msgid ""
+"A Chinese AI lab prepares the very first global open-source upload of a "
+"newly trained reasoning model whose live benchmarks place it at #7 in the "
+"world (crossing ``266504X(2)``). First confirm zero PRC Core Data "
+"(``266501J``) and check Important Data trace rules. During the post-16 "
+"October 2026 transition window, verify pre-export registration "
+"requirements on ``ecomp.mofcom.gov.cn``; once the revised catalogue takes "
+"effect, use **Footnote 2's automatic-licensing fast lane** (\"apply and "
+"go\") ``[CN48]`` ``[CN-A1, note 2]`` ``[CNQA]``."
+msgstr ""
+"中国のAI研究所が、公開ベンチマークで世界7位にランクされる新規学習済み推論モデル（ ``266504X(2)`` に該当）を、世界で初めてオープンソース公開しようとするケースです。まず中国のコアデータ（ ``266501J`` ）が一切含まれないことを確認し、重要データの微量除外ルールを点検します。2026年10月16日以降の移行期間中は ``ecomp.mofcom.gov.cn`` での輸出前情報登録の要否を確認し、改正目録の正式施行後は **注2の自動許可ファストレーン** （「申請即許可」）を利用します。 ``[CN48]`` ``[CN-A1, note 2]`` ``[CNQA]``"
+
+#: ../../book/questions.rst:56
+msgid ""
+"**3. Licensing Private Frontier Weights or Custom Chip IP to a Foreign "
+"Partner**"
+msgstr "**3. 非公開の最先端モデル重みまたは独自チップIPを海外提携先へライセンス供与する場合**"
+
+#: ../../book/questions.rst:58
+msgid ""
+"A Beijing team signs a closed commercial contract handing unpublished "
+"2.4-trillion-parameter weights (``266504X``) or a custom 7 nm NPU "
+"instruction-set core (``266506X``) to an overseas enterprise. Because "
+"this is a private commercial transfer rather than open-source "
+"publication, file **Attachment 2 pre-export registration** on "
+"``ecomp.mofcom.gov.cn`` today, and prepare for the **two-stage Provincial "
+"Commerce + Provincial S&T license** (30 working days for Letter of Intent "
+"+ 15 working days for formal Technology Export License) once finalized "
+"``[CN48]`` ``[CNTIER]`` ``[CNMEAS]``. *(Note: sending a chip layout "
+"abroad solely for foundry wafer fabrication qualifies for Footnote 2 "
+"facilitation.)*"
+msgstr ""
+"北京の開発チームが非公開の商用契約を締結し、未公開の2.4兆パラメータの重み（ ``266504X`` ）または独自7 nm NPU命令セットIPコア（ ``266506X`` ）を海外企業へ引き渡すケースです。これはオープンソース公開ではなく個別の非公開商用移転にあたるため、現在は ``ecomp.mofcom.gov.cn`` で **付属書2の輸出前情報登録** を行い、正式施行後は **地方商務部門＋地方科学技術部門による2段階の技術輸出許可** （意向書に30営業日＋正式な技術輸出許可証に15営業日）に備える必要があります。 ``[CN48]`` ``[CNTIER]`` ``[CNMEAS]`` *（注：ファウンドリでのウェハ製造委託のみを目的としてチップ設計レイアウトを海外へ送付する場合は、注2の円滑化措置の対象となります。）*"
+
+#: ../../book/questions.rst:62
+msgid "**4. Offering Global Web Chat or Metered API Access**"
+msgstr "**4. 世界向けにウェブチャットや従量課金APIアクセスを提供する場合**"
+
+#: ../../book/questions.rst:64
+msgid ""
+"A Shanghai startup serves overseas customers through a web interface and "
+"HTTPS API powered by its flagship frontier model hosted in China. "
+"MOFCOM's official Q&A confirms that remote API and app services without "
+"transferring underlying weights or source code sit **outside large-model "
+"technology export controls** (provided the model was not trained on "
+"prohibited Core Data ``266501J``) ``[CN-A1]`` ``[CNQA]``."
+msgstr ""
+"上海のスタートアップが、中国国内でホストする主力フロンティアモデルを用い、ウェブ画面およびHTTPS API経由で海外顧客にサービスを提供するケースです。商務部の公式Q&Aは、基盤となる重みやソースコードを移転しないリモートAPI・アプリ提供が **大規模モデル技術輸出管理の対象外** であることを確認しています（ただし、禁止対象のコアデータ ``266501J`` で学習されていないことが前提です）。 ``[CN-A1]`` ``[CNQA]``"
+
+#: ../../book/questions.rst:68
+msgid "**5. Foreign Venture Restructuring or Cross-Border Acquisition**"
+msgstr "**5. 外資による組織再編（VIE・オフショア化）やクロスボーダー買収の場合**"
+
+#: ../../book/questions.rst:70
+msgid ""
+"A domestic startup holding unreleased ``266505X`` 60-agent orchestration "
+"software or an undisclosed ``262705X`` gene-therapy target discovery "
+"engine restructures so an offshore holding company becomes its actual "
+"controller. Even if zero files leave Shenzhen servers, Section III(2) of "
+"Announcement 48 requires **pre-export registration before the control "
+"shift completes** — and if US capital is involved, US Treasury's Outbound "
+"Investment rules must be checked in parallel ``[CN48, section III(2)]`` "
+"``[TREAS]``."
+msgstr ""
+"未公開の ``266505X`` 60体エージェント協調制御ソフトウェアや未公開の ``262705X`` 遺伝子治療新規標的探索エンジンを保有する国内スタートアップが組織再編を行い、オフショア持株会社が実質的支配者となるケースです。深センのサーバーからファイルが1つも外へ出なくても、第48号公告の第3条第2項により **支配権変更が完了する前に輸出前情報登録** を行う義務が生じます。また、米国資本が関与する場合には米国財務省の対外投資規制も並行して確認しなければなりません。 ``[CN48, section III(2)]`` ``[TREAS]``"
+
+#: ../../book/questions.rst:74
+msgid "**6. Shipping a Turnkey Solar Wafer or Perovskite Line Overseas**"
+msgstr "**6. 太陽光ウェハやペロブスカイト製造ライン一式を海外工場へ出荷する場合**"
+
+#: ../../book/questions.rst:76
+msgid ""
+"A Chinese equipment maker contracts to ship monocrystalline "
+"crystal-pulling furnaces and PECVD coaters to equip a new overseas solar "
+"plant, bundled with process recipes and engineer commissioning. Under "
+"**Footnote 4**, the physical machines themselves fall under export "
+"control if they embody listed ``263004X``–``263802X`` indicators (and "
+"``<=70 micrometer`` wafer slicing ``263004J`` or ``>=30%`` tandem recipes "
+"``263801J`` face proposed prohibition). Complete ``ecomp.mofcom.gov.cn`` "
+"pre-export registration before completion ``[CN48]`` ``[CN-A1, note 4]`` "
+"``[CNQA]``."
+msgstr ""
+"中国の装置メーカーが海外の新設太陽光パネル工場向けに、単結晶引上げ炉やPECVD成膜装置をプロセスレシピおよび現地エンジニアによる試運転指導とセットで納入するケースです。 **注4** により、物理的な製造装置自体が ``263004X`` 〜 ``263802X`` の技術指標を備えていれば輸出管理の対象となります（さらに ``70マイクロメートル以下`` のウェハ切断 ``263004J`` や変換効率 ``30%以上`` のタンデム技術 ``263801J`` は輸出禁止案に該当します）。取引完了前に ``ecomp.mofcom.gov.cn`` での輸出前情報登録を完了する必要があります。 ``[CN48]`` ``[CN-A1, note 4]`` ``[CNQA]``"

@@ -1,0 +1,228 @@
+# Simplified Chinese translation for site/index.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:30+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../site/index.rst:1
+msgid ""
+"Impact of Export Controls on the Future of Open Source AI — An "
+"illustrated literary and evidentiary book on how software, model-weight, "
+"and silicon hardware borders reshape human progress."
+msgstr ""
+"出口管制对开源人工智能未来的影响——一部图文并茂的纪实与实证之书，深入剖析软件、模型权重与硅基硬件边界如何重塑人类进步。"
+
+#: ../../site/index.rst:5
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "出口管制对开源人工智能未来的影响"
+
+#: ../../site/index.rst:10
+msgid ""
+"AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS"
+msgstr "一部关于开放心智、硅基硬件与人类进步的图文实证专著"
+
+#: ../../site/index.rst:14
+msgid ""
+"*\"He who lights his taper at mine, receives light without darkening "
+"me.\"* — For four centuries, human progress accelerated whenever an "
+"equation, a cure, or a line of code crossed an ocean without waiting for "
+"a customs stamp. Today, sovereign walls are rising across **both the "
+"software weights above ground and the silicon hardware beneath them**."
+msgstr ""
+"*“借我烛火点亮他烛之人，自己获得了光明，却分毫未使我暗淡。”* ——四百年来，每当一道方程、一味良方或一行代码无需等待海关印章便能远渡重洋，人类的进步便随之加速。而今天，主权的高墙正在同时拔地而起—— **既横亘于地上的软件模型权重之间，也深植于地下的硅基硬件底座之中** 。"
+
+#: ../../site/index.rst:18
+msgid ""
+"`Begin Reading the Book <read-cover_>`_ `Download Typeset PDF Book "
+"<book-pdf_>`_ `Explore All 40 Checkpoints <read-atlas_>`_ `Official "
+"Approval & Contacts <read-contacts_>`_"
+msgstr ""
+"`开始阅读全书 <read-cover_>`_ `下载精排 PDF 全书 <book-pdf_>`_ `探索全部 40 项管制点 <read-atlas_>`_ `官方审批流程与通讯录 <read-contacts_>`_"
+
+#: ../../site/index.rst:26
+msgid ""
+"When open minds meet sovereign walls: between 2023 and 2026, open-source "
+"AI put frontier reasoning into the hands of rural clinics, universities, "
+"and small workshops worldwide — before export controls reached into "
+"chips, memory stacks, superclusters, and model weights alike."
+msgstr ""
+"当开放的心智遇上主权的高墙：2023 至 2026 年间，开源人工智能曾将前沿推理能力交到世界各地的乡村诊所、大学课堂与小型工坊手中——直到出口管制的触角同时伸向算力芯片、堆叠存储、万卡超算集群与模型权重。"
+
+#: ../../site/index.rst:28
+msgid "From an Open Republic of Ideas to a Guarded Horizon"
+msgstr "从思想的开放共和国到设防的地平线"
+
+#: ../../site/index.rst:31
+msgid ""
+"Give away a loaf of bread and your kitchen has one loaf fewer. Give away "
+"an algorithm — or an open-weight neural network — and a pediatric clinic "
+"in Nairobi, a linguist in Oaxaca, and two graduate students with consumer "
+"graphics cards in Munich can all build tomorrow morning without "
+"diminishing the creator by a single byte."
+msgstr ""
+"送出一只面包，你的厨房里便少了一只面包；但送出一套算法——或是一座开放权重的神经网络——内罗毕的儿科诊所、瓦哈卡的语言学家，以及慕尼黑那两名只有消费级显卡的研究生，明早便都能在此之上添砖加瓦，而创造者连一个字节都不会折损。"
+
+#: ../../site/index.rst:33
+msgid ""
+"Yet an uncomfortable physical truth governs the future of open-source "
+"artificial intelligence: **no open model floats in thin air.** Beneath "
+"every permissive MIT or Apache 2.0 license lies a heavy industrial "
+"pyramid of extreme-ultraviolet lithography, processor instruction sets, "
+"stacked high-bandwidth memory (HBM), and optical cables lashing ten "
+"thousand GPUs into one machine."
+msgstr ""
+"然而，有一条冷峻的物理法则主宰着开源人工智能的未来： **没有任何开源模型能够悬浮于真空之中。** 在每一份宽松自由的 MIT 或 Apache 2.0 许可证之下，都矗立着一座沉甸甸的重工业金字塔——极紫外光刻机镜头、处理器指令集、堆叠式高带宽存储器（HBM），以及将上万张加速卡编织成同一台超级计算机的高速光缆。"
+
+#: ../../site/index.rst:40
+msgid ""
+"Software above, silicon below: why controlling AI chips (``3A090``, "
+"``266506X``) and 10,000-card clusters (``266507X``) reshapes open-source "
+"AI even when code stays free."
+msgstr ""
+"软件在上，硅基在下：为何即便代码依然自由，对 AI 芯片（ ``3A090`` 、 ``266506X`` ）与万卡超算集群（ ``266507X`` ）的管制仍会彻底重塑开源人工智能的未来。"
+
+#: ../../site/index.rst:44
+msgid ""
+"**The Hardware Chokepoint:** Washington restricts flagship ``3A090`` "
+"accelerators, fab tools, and foreign chips built with US software "
+"(calibrating strict H200 review in January 2026), while Beijing's October "
+"2026 draft proposes restricting **<=14 nm AI chip architectures, <=18 nm "
+"DRAM/HBM & 3D NAND designs** (``266506X``), **>10,000-card cluster "
+"interconnects** (``266507X``), and **18 classes of solar machinery**."
+msgstr ""
+"**硬件咽喉要道：** 华盛顿对旗舰级 ``3A090`` 算力加速卡、晶圆制造设备及采用美国软件设计的境外芯片筑起严密藩篱（并于 2026 年 1 月校准了针对 H200 芯片的严格逐案审查）；而北京于 2026 年 10 月发布的征求意见稿则拟对 **<=14 纳米 AI 芯片架构、<=18 纳米 DRAM/HBM 与 3D NAND 存储设计** （ ``266506X`` ）、 **超万卡集群高速互联与异构调度技术** （ ``266507X`` ）以及 **18 类核心光伏制造装备** 实施出口限制。"
+
+#: ../../site/index.rst:45
+msgid ""
+"**The Software & Weight Gate:** China's **Announcement No. 48** (16 "
+"October 2026) switches on immediate pre-export registration at "
+"``ecomp.mofcom.gov.cn`` and proposes licensing private transfers of "
+"models crossing :math:`10^{26}` **FLOPs**, **2 trillion parameters**, or "
+"a **Global Top-10 rank** (``266504X``) — mirroring Washington's contested "
+"``4E091`` weight rule."
+msgstr ""
+"**软件与模型权重闸门：** 中国 **商务部与科技部2026年第48号公告** （2026 年 10 月 16 日）即日启用了 ``ecomp.mofcom.gov.cn`` 上的出口前信息登记机制，并拟对私下跨境转移突破 :math:`10^{26}` **FLOPs 训练算力** 、 **2 万亿参数规模** 或位列 **全球前十榜单** 的前沿大模型核心技术（ ``266504X`` ）实施出口许可——与华盛顿备受争议的 ``4E091`` 闭源模型权重规则遥相呼应。"
+
+#: ../../site/index.rst:47
+msgid ""
+"The Mathematical Paradox: Why Broad Walls Make the World Poorer *and* "
+"More Dangerous"
+msgstr "数学悖论：为何宽泛的高墙会让世界更贫瘠 *且* 更危险"
+
+#: ../../site/index.rst:50
+msgid ""
+"Capitals build broad technology walls hoping for safety and strategic "
+"lead. Inside the book, we model that rivalry mathematically using **game "
+"theory** and **Linus's Law of exponential flaw scrutiny** "
+":math:`P(\\text{flaw survives}) = p_0(1-q)^n` — proving why uncoordinated "
+"fear traps rival blocs in a classic **Prisoner's Dilemma**:"
+msgstr ""
+"各国首都总是寄望于筑起宽泛的技术高墙，以换取安全感与战略领先。在本书中，我们运用 **数学博弈论** 与 **开源安全审查的指数律（Linus 定律）** :math:`P(\\text{flaw survives}) = p_0(1-q)^n` 对这场大国角力进行了严密推演，证明缺乏协调的恐惧为何会将竞争阵营双双锁入经典的 **囚徒困境** ："
+
+#: ../../site/index.rst:53
+msgid ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"zh_CN\")"
+
+#: ../../site/index.rst:53
+msgid ""
+"Inside the book's mathematical proof: unilateral hoarding tempts both "
+"powers (20 > 17), locking the world into a (+5, +5) Nash Equilibrium that "
+"destroys 70% of shared welfare and quadruples systemic danger (R = 4x)."
+msgstr ""
+"书中的数学证明：单边囤积的短期诱惑（20 > 17）驱使双方竞相筑墙，最终将世界锁死在 (+5, +5) 的纳什均衡之中——不仅摧毁了 70% 的全球共享福祉，更令系统性风险暴增至四倍（R = 4x）。"
+
+#: ../../site/index.rst:58
+msgid ""
+"When both powers retreat behind broad walls, their temporary zero-sum "
+"lead cancels out (:math:`+5 = +5`), trillions are wasted duplicating fabs "
+"and closed training runs, independent global safety auditing splinters "
+"into blind black boxes, and hospitals and utilities lose open-weight "
+"cyber defenses. **Only narrow fences around genuine weapons — paired with "
+"open bridges for shared science — escape the trap.**"
+msgstr ""
+"当两大阵营双双退回宽泛的高墙之后，短暂的零和领先优势彼此抵消（ :math:`+5 = +5` ），数万亿美元被虚耗在重复建设晶圆厂与封闭训练集群上，独立的全球安全审计碎裂为一个个盲人摸象的黑箱，医院与公共事业机构也失去了开放权重的网络安全盾牌。 **唯有围绕真正的武器筑起高而窄的藩篱，同时为人类共享科学架设坚固的开放之桥，才能跳出这一陷阱。**"
+
+#: ../../site/index.rst:60
+msgid "What Our Primary-Source Investigation Uncovered"
+msgstr "我们对 22 份一手官方文献的调查发现了什么"
+
+#: ../../site/index.rst:63
+msgid ""
+"Reading all **22 official Chinese and American legal texts** word for "
+"word — rather than relying on breathless headlines — reveals three vital "
+"truths for builders and citizens everywhere:"
+msgstr ""
+"摒弃耸人听闻的标题党，逐字研读全部 **22 份中美官方原始法律文本** 之后，三条关乎每一位开发者与普通公民切身利益的关键真相浮出水面："
+
+#: ../../site/index.rst:65
+msgid ""
+"**Already-public open-source AI remains untouched.** China's Footnote 1 "
+"and US ``15 CFR 734.7`` / ``4E091`` explicitly leave existing public MIT "
+"and Apache 2.0 models outside export licensing."
+msgstr ""
+"**已公开的开源人工智能毫发无损。** 中国目录草案注释 1 与美国 ``15 CFR 734.7`` 及 ``4E091`` 均明确规定，已通过开源发布进入公共领域的现有 MIT 与 Apache 2.0 模型不在出口许可管制之列。"
+
+#: ../../site/index.rst:66
+msgid ""
+"**New open-source AI and chip tape-outs get an express doorway.** Rather "
+"than banning open releases, China's Footnote 2 proposes **automatic "
+"licensing (\"apply and go\")** for new open-source AI exports, overseas "
+"foundry chip tape-outs (``芯片流片``), and Chinese firms' self-operated "
+"overseas clouds."
+msgstr ""
+"**新增开源 AI 发布与芯片流片享有专属快车道。** 中国并未一刀切封杀开源发布，而是在注释 2 中为新增开源人工智能出口、赴境外代工厂开展芯片流片（ ``芯片流片`` ）以及中资企业自建自营境外算力中心，专门设计了 **自动许可（“即报即出”）** 便利化通道。"
+
+#: ../../site/index.rst:67
+msgid ""
+"**Every gate has a real address, clock, and phone number.** Inside the "
+"book, we map the complete before-and-after open-source release flowcharts "
+"alongside verified **MOFCOM, MOST, Provincial Commerce, and US BIS SNAP-R "
+"portals, statutory 30 + 15 working-day clocks, room numbers, emails, "
+"faxes, and helpdesk phones**."
+msgstr ""
+"**每一道闸门背后都有真实的门牌、法定时限与咨询电话。** 我们在书中绘制了出口管制前后完整的开源发布对比流程图，并逐一核验汇总了 **中国商务部、科技部、省级商务主管部门与美国 BIS SNAP-R 申报平台、30 + 15 个工作日的法定审批时限，以及真实的办公室房号、电子邮箱、传真与服务热线** 。"
+
+#: ../../site/index.rst:71
+msgid ""
+"**Cover & Overture** — `Jefferson's Taper, Hardware Roots & the "
+"Game-Theory Proof <read-cover_>`_"
+msgstr ""
+"**封面与序章** —— `杰斐逊的烛火、硅基根系与博弈论证明 <read-cover_>`_"
+
+#: ../../site/index.rst:72
+msgid ""
+"**Chapters 01 & 02** — `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
+"Interactive 40-Checkpoint Atlas <read-atlas_>`_"
+msgstr ""
+"**第 01 与 02 章** —— `第48号公告的两套时钟 <read-ch1_>`_ 与 `交互式 40 项技术管制图谱 <read-atlas_>`_"
+
+#: ../../site/index.rst:73
+msgid ""
+"**Chapters 03 & 04** — `Mind & Silicon Hardware Stack <read-ai_>`_ & "
+"`Open-Source AI Before and After the Gates <read-open_>`_"
+msgstr ""
+"**第 03 与 04 章** —— `心智与硅基硬件全栈解析 <read-ai_>`_ 与 `设闸前后的开源 AI 发布之路 <read-open_>`_"
+
+#: ../../site/index.rst:74
+msgid ""
+"**Chapters 08 & 10** — `Official Government Approval & Contact Directory "
+"<read-contacts_>`_ & `All 22 Verified Primary Sources <read-sources_>`_"
+msgstr ""
+"**第 08 与 10 章** —— `官方审批流程与政府部门通讯录 <read-contacts_>`_ 与 `全部 22 份核验一手文献库 <read-sources_>`_"

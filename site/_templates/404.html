@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% set title = _('Page not found') %}
+{% block body %}
+<h1>{{ _('Page not found') }}</h1>
+<p>{{ _('That page has moved or does not exist. Choose an edition below or open the English book directly.') }}</p>
+<p><a href="en/index.html">{{ _('Open the Book (English) →') }}</a></p>
+{% endblock %}

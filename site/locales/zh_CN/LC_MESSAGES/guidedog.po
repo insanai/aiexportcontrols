@@ -1,0 +1,99 @@
+# UI strings for site/_templates/layout.html and 404.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "出口管制对开源人工智能未来的影响"
+
+msgid "Open Source AI & Export Controls"
+msgstr "开源人工智能与出口管制"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "light"
+msgstr "浅色"
+
+msgid "dark"
+msgstr "深色"
+
+msgid "system"
+msgstr "跟随系统"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Copied"
+msgstr "已复制"
+
+msgid "Skip to content"
+msgstr "跳至正文"
+
+msgid "Book navigation"
+msgstr "全书导航"
+
+msgid "Read the Book"
+msgstr "阅读全书"
+
+msgid "40 Checkpoints"
+msgstr "40项管制点"
+
+msgid "Open AI Flowcharts"
+msgstr "开源流程图解"
+
+msgid "Contacts & Approval"
+msgstr "审批与联系方式"
+
+msgid "22 Sources"
+msgstr "22份原始文献"
+
+msgid "Search the book"
+msgstr "搜索全书"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF"
+msgstr "七种母语精编版本 · 网页版与精排 A4 PDF"
+
+msgid "Read the Complete Book in Seven Languages"
+msgstr "以七种语言阅读完整全书"
+
+msgid "Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book."
+msgstr "每个语种版本均完整收录全部 11 章正文、原创木刻版画插图、原生 Typst/CeTZ/Fletcher 与 Graphviz 专业图解、交互式 40 项技术管制图谱、经核验的官方审批联系方式，以及精排 A4 PDF 全书。"
+
+msgid "Read Web Edition →"
+msgstr "阅读网页版 →"
+
+msgid "Footer links"
+msgstr "页脚链接"
+
+msgid "40-Technology Atlas"
+msgstr "40项技术管制图谱"
+
+msgid "Official Contacts & Licensing"
+msgstr "官方审批与名录"
+
+msgid "22 Verified Primary Sources"
+msgstr "22份核验原始文献"
+
+msgid "GitHub Repository"
+msgstr "GitHub 代码仓库"
+
+msgid "Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail."
+msgstr "截至 2026 年 11 月 2 日，已对照 22 份中美官方一手文献逐字核验；具体法律效力均以官方正式文本为准。"
+
+msgid "Page not found"
+msgstr "未找到页面"
+
+msgid "That page has moved or does not exist. Choose an edition below or open the English book directly."
+msgstr "您访问的页面已迁移或不存在。请在下方选择语种版本，或直接打开英文原版全书。"
+
+msgid "Open the Book (English) →"
+msgstr "打开英文版全书 →"

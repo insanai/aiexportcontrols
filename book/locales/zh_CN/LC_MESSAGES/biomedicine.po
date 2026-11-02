@@ -1,0 +1,129 @@
+# Simplified Chinese translation for book/biomedicine.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:36+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/biomedicine.rst:1
+msgid ""
+"Chapter 5 — Biomedicine in Announcement 48: guarding domestic ownership "
+"of reusable cell/gene therapy and siRNA platforms while keeping "
+"individual cures and global licensing open."
+msgstr ""
+"第5章——第48号公告中的生物医药规则：守住通用型细胞与基因治疗（CGT）及小核酸（siRNA）底层研发平台的境内所有权，同时让具体创新药与全球对外授权畅通无阻。"
+
+#: ../../book/biomedicine.rst:5
+msgid "05. Living Code: Gene Platforms and Shared Cures"
+msgstr "05. 生命的代码：基因平台与共享良方"
+
+#: ../../book/biomedicine.rst:8
+msgid "Guarding the Printing Press While Sharing the Books"
+msgstr "留住活字印刷机，让良方典籍传遍天下"
+
+#: ../../book/biomedicine.rst:11
+msgid ""
+"Artificial intelligence writes in floating-point numbers; modern "
+"biomedicine writes in the four-letter alphabet of life (``A, C, G, "
+"U/T``). Over the past decade, Chinese biotech teams have advanced from "
+"making off-patent generics to inventing reusable **cell and gene therapy "
+"(CGT)** engines and **small-interfering RNA (siRNA)** platforms that "
+"silence disease-causing genes before harmful proteins form."
+msgstr ""
+"如果说人工智能是用浮点数谱写思想，现代生物医药便是用生命的四字母密码（ ``A, C, G, U/T`` ）编写疗法。过去十年间，中国生物科技团队已从早年的专利到期仿制药车间，跨越式成长为原创底层平台的发明者——构建起可反复复用的 **细胞与基因治疗（CGT）** 研发引擎，以及能够在致病蛋白合成之前精准沉默致病基因的 **小干扰核酸（siRNA）** 技术平台。"
+
+#: ../../book/biomedicine.rst:16
+msgid ""
+"Knowledge inside living cells and industrial furnaces: on the left, "
+"reusable genetic platforms print individual medicines for patients "
+"worldwide; on the right, precision crystal-pulling furnaces carry "
+"manufacturing know-how inside physical hardware."
+msgstr ""
+"寄身于活体细胞与工业炉膛中的知识：左侧，可复用的基因研发平台为全球患者源源不断“印制”单款创新药；右侧，精密单晶生长炉将核心制造工艺凝聚在物理装备之中。"
+
+#: ../../book/biomedicine.rst:18
+msgid ""
+"When doctors and patient advocates first saw \"biomedicine\" on "
+"Announcement 48's cover, many feared cross-border cancer trials or "
+"rare-disease partnerships might stall. Reading Attachment 1 closely "
+"reveals a surgical distinction: **Beijing guards domestic ownership of "
+"the reusable drug-making platform while leaving individual medicines free "
+"to travel the world** ``[CN-A1, 262704J and 262705J]`` ``[CNQA]``."
+msgstr ""
+"当临床医生与罕见病患者组织初见第48号公告封面上的“生物医药”字样时，不少人曾担忧跨国肿瘤临床试验或新药出海合作会不会就此停摆。然而细读附件 1 的条文与说明，便会看到一刀极为精准的外科手术式切分： **北京守住的是通用型底层制药平台的境内所有权，而单款具体药物的全球开发与惠及患者之路依然敞开** ``[CN-A1, 262704J and 262705J]`` ``[CNQA]`` 。"
+
+#: ../../book/biomedicine.rst:20
+msgid ""
+"Picture a foundational CGT or siRNA platform as a custom **printing "
+"press** perfected over ten years — delivery vectors, chemical "
+"stabilization recipes, and modular design rules capable of printing "
+"twenty future therapies. Picture a specific clinical drug candidate as "
+"**one book** printed on that press:"
+msgstr ""
+"不妨将一套十年磨一剑的 CGT 或 siRNA 底层技术平台想象成一台定制的 **活字印刷机** ——其中凝聚着递送载体、化学修饰稳定配方与模块化序列设计规则，足以在未来源源不断印制出二十种新疗法；而某一款进入临床管线的具体候选新药，则是这台印刷机印出的 **一本书** ："
+
+#: ../../book/biomedicine.rst:22
+msgid ""
+"**Selling ownership of the printing press abroad is proposed prohibited "
+"(262704J & 262705J):** Chinese-owned original, reusable CGT and siRNA "
+"platforms cannot have their underlying **ownership** transferred to "
+"foreign buyers ``[CN-A1]``."
+msgstr ""
+"**将“印刷机”所有权卖往境外拟予禁止（262704J 与 262705J）：** 中国自主拥有知识产权、具备多管线复用能力的原创 CGT 与 siRNA 底层技术平台，不得将其技术 **所有权** 转让给境外买方 ``[CN-A1]`` 。"
+
+#: ../../book/biomedicine.rst:23
+msgid ""
+"**Out-licensing, contract manufacturing, and single-drug partnerships "
+"stay open:** Three explicit notes under both entries carve out overseas "
+"**out-licensing** (``对外授权许可``), **outsourced R&D and manufacturing "
+"(CRO/CDMO)** where ownership remains domestic, and all pipeline data "
+"needed for **preclinical research, clinical trials, manufacturing, "
+"quality control, regulatory approval, and commercialization of specific "
+"drug candidates** in global business-development deals ``[CN-A1]`` "
+"``[CNQA]``. Only a sham \"perpetual buyout license\" that strips domestic "
+"ownership in substance crosses the red line."
+msgstr ""
+"**对外授权许可、委托研发生产与单药出海合作全面放行：** 两项条目下设的三条明确说明，特意豁免了技术所有权留在境内的 **对外授权许可** （ ``对外授权许可`` ）、 **委托研发与生产（CRO/CDMO）** ，以及跨国医药商务拓展（BD）合作中围绕 **特定候选药物开展临床前研究、临床试验、生产制造、质量控制、注册申报及商业化上市** 所需的全部管线技术资料 ``[CN-A1]`` ``[CNQA]`` 。唯有那种名义上叫“许可”、实质上永久买断并掏空境内所有权的变相转让，才会触碰红线。"
+
+#: ../../book/biomedicine.rst:25
+msgid "Undisclosed Biological Targets and Biosecurity Walls"
+msgstr "全球未公开全新靶点与生物安全红线"
+
+#: ../../book/biomedicine.rst:28
+msgid ""
+"Two **proposed restricted** entries (``262705X`` and ``262706X``) cover "
+"Chinese-owned technology for discovering and validating **wholly new "
+"therapeutic targets** in CGT and siRNA medicine — defined strictly as "
+"molecular targets **never previously disclosed anywhere in the world** in "
+"patents, journals, public databases, industry filings, or conferences "
+"``[CN-A1]``. Even there, **Footnote 3** provides **automatic-licensing "
+"facilitation** for public-health emergencies, humanitarian relief, "
+"international collaborative research using overseas resources, and "
+"overseas out-licensing ``[CN-A1, note 3]`` ``[CNQA]``."
+msgstr ""
+"另有两项 **拟限制出口** 条目（ ``262705X`` 与 ``262706X`` ）聚焦于中国自主研发的 CGT 与 siRNA **全新治疗靶点发现与确证技术** ——其范围被严格界定为 **此前从未在全世界任何专利、学术期刊、公共数据库、行业披露或学术会议上公开过的全新分子靶点** ``[CN-A1]`` 。即便在这一领域， **注释 3** 也专门为突发公共卫生事件应急、人道主义救援、利用境外资源开展国际科研合作以及对外授权许可提供了 **自动许可便利化通道** ``[CN-A1, note 3]`` ``[CNQA]`` 。"
+
+#: ../../book/biomedicine.rst:30
+msgid ""
+"The fifth entry (``267302J``, proposed prohibited) is a pure "
+"**biosecurity wall** against artificial genetic modification and directed "
+"serial-passage methods that enhance pathogen virulence or accelerate "
+"controlled pathogen evolution ``[CN-A1, 267302J]`` — paralleling Category "
+"1 pathogen controls and ``EAR 744.4`` on the US side ``[EAR774]`` "
+"``[EAR744]``. *(Bulk human genomic data, meanwhile, faces separate "
+"data-security rules in both countries, including the US Justice "
+"Department's Data Security Program ``[DOJ]``.)*"
+msgstr ""
+"第五项生物医药条目（ ``267302J`` ，拟禁止出口）则是一道纯粹的 **生物安全防火墙** ，严禁出口通过人工基因改造或受控连续传代等方式增强病原体毒力、实现规模化毒力维持或加速病原体定向进化的技术 ``[CN-A1, 267302J]`` ——这与美国《出口管理条例》第一类病原体管制及 ``EAR 744.4`` 生物武器最终用途禁令遥相对应 ``[EAR774]`` ``[EAR744]`` 。 *（与此同时，大批量人类基因组数据在中美两国均另受专门的数据安全法规约束，例如美国司法部实施的“数据安全计划”* ``[DOJ]`` *。）*"

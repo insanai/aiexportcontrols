@@ -1,0 +1,740 @@
+# Korean translation for book/sources.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:45+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/sources.rst:1
+msgid ""
+"Chapter 10 — All 22 verified primary sources, untouched WPS and PDF "
+"official documents, SHA-256 verification method, and plain-language "
+"glossary as of 2 November 2026."
+msgstr ""
+"제10장 — 2026년 11월 2일 기준 검증을 마친 22개 1차 사료 전집, 무수정 WPS 및 PDF 공식 문헌 원본, SHA-256 해시 검증 방법론, 그리고 쉬운 용어 사전."
+
+#: ../../book/sources.rst:5
+msgid "10. Primary Sources, Method, and Plain Glossary"
+msgstr "10. 1차 사료, 검증 방법론, 그리고 쉬운 용어 사전"
+
+#: ../../book/sources.rst:8
+msgid "How Every Fact in This Book Was Verified"
+msgstr "이 책의 모든 사실은 어떻게 검증되었는가"
+
+#: ../../book/sources.rst:11
+msgid ""
+"A book arguing for trustworthy, verifiable knowledge owes its readers "
+"strict honesty about its own evidence. Every statutory rule, numerical "
+"threshold, date, working-day deadline, portal URL, telephone number, fax, "
+"email, and room address in this book was verified against **22 primary "
+"sources** as of **2 November 2026**: MOFCOM and MOST's Announcement 48, "
+"both original WPS attachments, MOFCOM's spokesperson Q&A, China's "
+"*Regulations on the Administration of Technology Import and Export* "
+"(``xzfg.moj.gov.cn``), MOFCOM & MOST Order No. 2 of 2009 "
+"(``mofcom.gov.cn``), MOFCOM's Unified Platform notice, the US Federal "
+"Register texts of the January 2025 AI Diffusion Rule and January 2026 "
+"Semiconductor Rule, live Code of Federal Regulations parts (``734``, "
+"``742``, ``744``, ``774``) on ``bis.gov``, BIS's official SNAP-R guide "
+"and portal, BIS's May 2025 non-enforcement release, GAO's May 2026 "
+"decision (``B-337935``), US Treasury and Justice Department records, the "
+"Open Source Initiative's OSAID 1.0, the DeepSeek-R1 and Qwen3 "
+"repositories, and the GuideDog documentation platform."
+msgstr ""
+"신뢰할 수 있고 검증 가능한 지식을 옹호하는 책이라면 스스로의 근거 사료에 대해서도 독자 앞에 엄격하리만큼 정직해야 한다. 이 책에 수록된 모든 법령 조문, 수치 임계치, 날짜, 영업일 기준 처리 기한, 온라인 포털 URL, 전화번호, 팩스 번호, 이메일, 사무실 호수 주소는 **2026년 11월 2일** 기준 **22건의 공식 1차 사료**\\ 와 직접 대조해 검증을 마쳤다. 여기에는 중국 상무부·과학기술부의 제48호 공고 본문과 두 개의 WPS 원본 첨부파일, 상무부 대변인 공식 Q&A, 중국 《기술수출입관리조례》(``xzfg.moj.gov.cn``), 2009년 상무부·과학기술부령 제2호(``mofcom.gov.cn``), 상무부 업무시스템 통합 플랫폼 공지문, 미국 연방관보(Federal Register)에 게재된 2025년 1월 AI 확산 규칙 및 2026년 1월 반도체 최종 규칙 원문, ``bis.gov`` 현행 연방규정집(CFR ``734``, ``742``, ``744``, ``774`` 편), BIS 공식 SNAP-R 안내서 및 포털, 2025년 5월 BIS 집행 유예 보도자료, 2026년 5월 미 연방회계감사원(GAO) 결정문(``B-337935``), 미 재무부 및 법무부 공식 기록, 오픈소스 이니셔티브(OSI)의 OSAID 1.0 정의서, DeepSeek-R1 및 Qwen3 공식 저장소, 그리고 GuideDog 출판 플랫폼이 포함된다."
+
+#: ../../book/sources.rst:13
+msgid ""
+"Original WPS bytes and SHA-256 hashes are preserved untouched alongside "
+"converted PDF reading copies. Where GAO's server blocked automated byte "
+"archiving (``HTTP 403``), we note that limitation transparently. "
+"Throughout the book, primary legal facts carry bracketed citations, while "
+"our game-theoretic matrix and future scenarios are presented openly as "
+"analytical models rather than legal advice for a specific transaction."
+msgstr ""
+"WPS 원본 파일의 바이트 데이터와 SHA-256 해시값은 일체의 변형 없이 그대로 보존되어 열람용 PDF 변환본과 함께 제공된다. GAO 서버가 자동화된 바이트 아카이빙을 차단한 경우(``HTTP 403``)에는 그 한계 또한 투명하게 명시했다. 본문 전체에 걸쳐 1차 법령 사실에는 대괄호 인용 표기를 달았으며, 게임이론 보수 행렬과 미래 시나리오는 특정 거래에 대한 법률 자문이 아닌 이론적 분석 모델임을 분명히 밝힌다."
+
+#: ../../book/sources.rst:15
+msgid "Untouched Official Document Copies"
+msgstr "무수정 공식 원문 사본 다운로드"
+
+#: ../../book/sources.rst:18
+msgid ""
+"`Announcement No. 48 Official Page (PDF reading copy) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+msgstr ""
+"`제48호 공고 공식 웹페이지 (열람용 PDF 사본) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-official-page.pdf>`_"
+
+#: ../../book/sources.rst:19
+msgid ""
+"`Attachment 1: 40 Proposed Technologies (Original WPS) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"| `Converted PDF "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+msgstr ""
+"`부속서 1: 40개 신설 제안 기술 목록 (원본 WPS) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"| `변환 PDF 열람본 "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.pdf>`_"
+
+#: ../../book/sources.rst:20
+msgid ""
+"`Attachment 2: Pre-Export Registration Form (Original WPS) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"| `Converted PDF "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+msgstr ""
+"`부속서 2: 기술수출 정보등록표 양식 (원본 WPS) "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"| `변환 PDF 열람본 "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.pdf>`_"
+
+#: ../../book/sources.rst:21
+msgid ""
+"`MOFCOM & MOST Order No. 2 of 2009: Licensing Measures (Official PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+msgstr ""
+"`2009년 상무부·과학기술부령 제2호: 수출금지·수출제한 기술 관리방법 (공식 PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/cnmeas.pdf>`_"
+
+#: ../../book/sources.rst:22
+msgid ""
+"`US BIS Jan 2026 Semiconductor Rule 91 FR 1684 (Official PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+msgstr ""
+"`미국 BIS 2026년 1월 반도체 규정 91 FR 1684 (공식 PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/us26-official.pdf>`_"
+
+#: ../../book/sources.rst:23
+msgid ""
+"`US BIS Jan 2025 AI Diffusion Rule 90 FR 4544 (Official PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+msgstr ""
+"`미국 BIS 2025년 1월 AI 확산 프레임워크 90 FR 4544 (공식 PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/us25-official.pdf>`_"
+
+#: ../../book/sources.rst:24
+msgid ""
+"`US BIS Official SNAP-R Filing Guide & FAQ (Official PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+msgstr ""
+"`미국 BIS 공식 SNAP-R 전자 신청 가이드 및 FAQ (공식 PDF) "
+"<https://insanai.github.io/chinaexportcontrol/sources/snapr.pdf>`_"
+
+#: ../../book/sources.rst:25
+msgid ""
+"`Machine-Readable Provenance & SHA-256 Manifest (sources.json) "
+"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+msgstr ""
+"`기계 판독용 사료 출처 및 SHA-256 해시 매니페스트 (sources.json) "
+"<https://insanai.github.io/chinaexportcontrol/sources/sources.json>`_"
+
+#: ../../book/sources.rst:27
+msgid "Plain-Language Glossary for Normal Humans"
+msgstr "일반 독자를 위한 쉬운 용어 사전"
+
+#: ../../book/sources.rst:30
+msgid "Model weights (parameters)"
+msgstr "모델 가중치 (파라미터)"
+
+#: ../../book/sources.rst:31
+msgid ""
+"The billions or trillions of tuned numerical values learned during "
+"training that hold an AI model's reasoning skills. Copying the weights "
+"copies the trained mind."
+msgstr ""
+"AI 모델의 추론 능력을 담고 있는, 학습 과정에서 미세 조율된 수십억~수조 개의 수치 값이다. 가중치 파일을 복사하는 것은 곧 훈련된 지성 자체를 복제하는 일이다."
+
+#: ../../book/sources.rst:33
+msgid "Checkpoint"
+msgstr "체크포인트 (Checkpoint)"
+
+#: ../../book/sources.rst:34
+msgid ""
+"A saved snapshot of weights during or at the end of training, used to "
+"resume training, distil smaller models, or fine-tune for specialist tasks."
+msgstr ""
+"학습 도중이나 종료 시점에 저장해 둔 가중치 스냅샷 파일로, 학습을 이어서 진행하거나 소형 모델을 증류하거나 전문 과업용으로 미세조정할 때 쓰인다."
+
+#: ../../book/sources.rst:36
+msgid "FLOPs (floating-point operations)"
+msgstr "FLOPs (부동소수점 연산 횟수)"
+
+#: ../../book/sources.rst:37
+msgid ""
+"Individual math steps performed during training. :math:`10^{26}` "
+"**FLOPs** (a 1 followed by 26 zeros) is the frontier compute threshold in "
+"both China's proposed ``266504X`` and America's ``4E091``."
+msgstr ""
+"모델 학습 과정에서 수행되는 개별 수학 연산 횟수다. :math:`10^{26}` **FLOPs**\\ (1 뒤에 0이 26개 붙는 수)는 중국이 제안한 ``266504X``\\ 와 미국의 ``4E091`` 모두가 채택한 프런티어 연산 임계치다."
+
+#: ../../book/sources.rst:39
+msgid "TPP & HBM (the hardware bottleneck)"
+msgstr "TPP 및 HBM (하드웨어 병목 지표)"
+
+#: ../../book/sources.rst:40
+msgid ""
+"**Total Processing Performance (TPP)** measures an AI chip's raw compute "
+"throughput, while **High-Bandwidth Memory (HBM / DRAM bandwidth)** "
+"measures how fast data feeds into the chip (capped at ``TPP < 21,000`` "
+"and ``6,500 GB/s`` in the January 2026 US China-review rule "
+"``742.6(b)(10)``)."
+msgstr ""
+"**총연산성능(TPP)**\\ 은 AI 칩의 순수 연산 처리량을 재는 지표이고, **고대역폭 메모리(HBM / DRAM 대역폭)**\\ 는 칩 안으로 데이터가 얼마나 빠르게 공급되는지를 재는 지표다(2026년 1월 미국의 대중국 건별 심사 규정 ``742.6(b)(10)`` 에서는 각각 ``TPP < 21,000`` 및 ``6,500 GB/s`` 미만이 상한선이다)."
+
+#: ../../book/sources.rst:42
+msgid "Chip tape-out (``芯片流片``)"
+msgstr "칩 테이프아웃 (``芯片流片``)"
+
+#: ../../book/sources.rst:43
+msgid ""
+"Sending a finished processor blueprint from a chip-design team to a "
+"semiconductor foundry to manufacture physical silicon wafers — explicitly "
+"offered automatic-licensing facilitation in Announcement 48's Footnote 2."
+msgstr ""
+"반도체 설계 팀이 완성한 프로세서 회로 설계도를 물리적 실리콘 웨이퍼로 제조하기 위해 파운드리 공장으로 넘기는 최종 공정 단계다 — 제48호 공고 주석 2에서 자동 허가 간소화 대상으로 명시되어 있다."
+
+#: ../../book/sources.rst:45
+msgid "API / SaaS (the bakery window)"
+msgstr "API / SaaS (베이커리 판매 창구)"
+
+#: ../../book/sources.rst:46
+msgid ""
+"Letting remote users send prompts to your cloud server and receive "
+"answers back, without handing over underlying model weights, source code, "
+"or chip designs."
+msgstr ""
+"기반 모델 가중치나 소스 코드, 반도체 설계도를 직접 넘겨주지 않고, 원격 사용자가 클라우드 서버로 질문을 보내 답변만 받아 가도록 하는 서비스 방식이다."
+
+#: ../../book/sources.rst:48
+msgid "Nash Equilibrium (the Fortress Trap)"
+msgstr "내시 균형 (요새의 함정)"
+
+#: ../../book/sources.rst:49
+msgid ""
+"In game theory, a stalemate where each player chooses a defensive move "
+"(``Wall``) that looks best individually, trapping both sides in an "
+"outcome (:math:`+5, +5`) far worse and more dangerous than mutual "
+"cooperation (:math:`+17, +17`)."
+msgstr ""
+"게임이론에서 각 행위자가 개별적으로는 최선처럼 보이는 방어적 수(``장벽``)를 선택한 결과, 양측 모두가 상호 협력(:math:`+17, +17`)보다 훨씬 열악하고 위험한 교착 상태(:math:`+5, +5`)에 갇히게 되는 균형점이다."
+
+#: ../../book/sources.rst:51
+msgid "Software license vs. export license"
+msgstr "소프트웨어 라이선스 vs. 기술수출 허가증"
+
+#: ../../book/sources.rst:52
+msgid ""
+"An *MIT* or *Apache 2.0* license is a private copyright permission from "
+"creators allowing anyone to reuse code or weights. A *Technology Export "
+"License* (``技术出口许可证`` or BIS license) is a sovereign government permit "
+"allowing controlled technology or hardware to cross a national border."
+msgstr ""
+"*MIT* 또는 *Apache 2.0* 라이선스는 창작자가 누구나 코드나 가중치를 재사용할 수 있도록 허용하는 사적 저작권 허락이다. 반면 *기술수출허가증*\\ (``技术出口许可证`` 또는 미국 BIS 허가증)은 통제 대상 기술이나 하드웨어가 국경을 넘을 수 있도록 주권 국가 정부가 발급하는 공적 행정 허가다."
+
+#: ../../book/sources.rst:54
+msgid "Automatic licensing (``自动许可``)"
+msgstr "자동 허가 (``自动许可``)"
+
+#: ../../book/sources.rst:55
+msgid ""
+"The streamlined \"apply-and-go\" (``即报即出``) government permit channel "
+"proposed in Announcement 48's footnotes for open-sourcing restricted AI, "
+"self-owned overseas clouds, overseas chip tape-out, and humanitarian "
+"biomedicine."
+msgstr ""
+"제한 등급 AI의 오픈소스 공개, 자체 보유 해외 클라우드, 해외 칩 테이프아웃, 인도주의 바이오의약 협력을 위해 제48호 공고 주석에서 제안된 \"신청 즉시 처리\"(``即报即出``) 방식의 간소화된 정부 허가 경로다."
+
+#: ../../book/sources.rst:57
+msgid "ECCN, CCATS & SNAP-R"
+msgstr "ECCN, CCATS 및 SNAP-R"
+
+#: ../../book/sources.rst:58
+msgid ""
+"In the US system, an **ECCN** (``3A090`` for AI chips, ``4E091`` for "
+"weights) identifies a controlled item; **SNAP-R** (``snapr.bis.gov``) is "
+"the free electronic portal where exporters file license applications and "
+"**CCATS** classification requests."
+msgstr ""
+"미국 수출 통제 체제에서 **ECCN**\\ (AI 칩은 ``3A090``, 모델 가중치는 ``4E091``)은 통제 품목 분류 번호를 뜻하며, **SNAP-R**\\ (``snapr.bis.gov``)은 수출자가 수출 허가 신청서와 **CCATS** 공식 품목 분류 판정 요청서를 무료로 제출하는 전자 포털이다."
+
+#: ../../book/sources.rst:60
+msgid "Complete Register of 22 Verified Primary Sources"
+msgstr "검증된 22개 1차 사료 전체 등록부"
+
+#: ../../book/sources.rst:63
+msgid ""
+"Primary legal, regulatory, and technical sources verified 2 November 2026"
+msgstr "2026년 11월 2일 기준 검증을 완료한 1차 법령·규제·기술 문헌 목록"
+
+#: ../../book/sources.rst:67
+msgid "Code"
+msgstr "사료 코드"
+
+#: ../../book/sources.rst:68
+msgid "Official Source & Scope Verified"
+msgstr "공식 문헌 명칭 및 검증 범위"
+
+#: ../../book/sources.rst:69
+msgid "Date"
+msgstr "일자"
+
+#: ../../book/sources.rst:70
+msgid "Primary URL & SHA-256 Prefix"
+msgstr "원문 URL 및 SHA-256 해시 앞자리"
+
+#: ../../book/sources.rst:71
+msgid "``CN48``"
+msgstr "``CN48``"
+
+#: ../../book/sources.rst:72
+msgid "MOFCOM & MOST, Announcement No. 48 of 2026 (Sections I, II & III)"
+msgstr "중국 상무부·과학기술부, 2026년 제48호 공고 (제1·2·3조 전문)"
+
+#: ../../book/sources.rst:73 ../../book/sources.rst:77
+#: ../../book/sources.rst:81 ../../book/sources.rst:85
+msgid "2026-10-16"
+msgstr "2026-10-16"
+
+#: ../../book/sources.rst:74
+msgid ""
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
+"(``a5261a74…``)"
+msgstr ""
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
+"(``a5261a74…``)"
+
+#: ../../book/sources.rst:75
+msgid "``CN-A1``"
+msgstr "``CN-A1``"
+
+#: ../../book/sources.rst:76
+msgid ""
+"Announcement 48, Attachment 1: 40 Proposed Technologies & 4 Footnotes "
+"(WPS)"
+msgstr "제48호 공고 부속서 1: 40개 신설 제안 기술 항목 및 4개 주석 (WPS 원본)"
+
+#: ../../book/sources.rst:78
+msgid ""
+"`Original WPS "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"(``213158bb…``)"
+msgstr ""
+"`원본 WPS "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-1.wps>`_ "
+"(``213158bb…``)"
+
+#: ../../book/sources.rst:79
+msgid "``CN-A2``"
+msgstr "``CN-A2``"
+
+#: ../../book/sources.rst:80
+msgid "Announcement 48, Attachment 2: Pre-Export Registration Form (WPS)"
+msgstr "제48호 공고 부속서 2: 기술수출 정보등록표 양식 (WPS 원본)"
+
+#: ../../book/sources.rst:82
+msgid ""
+"`Original WPS "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"(``d65818c2…``)"
+msgstr ""
+"`원본 WPS "
+"<https://insanai.github.io/chinaexportcontrol/sources/announcement-48-attachment-2.wps>`_ "
+"(``d65818c2…``)"
+
+#: ../../book/sources.rst:83
+msgid "``CNQA``"
+msgstr "``CNQA``"
+
+#: ../../book/sources.rst:84
+msgid "MOFCOM Spokesperson Official Q&A on Announcement No. 48"
+msgstr "제48호 공고에 관한 중국 상무부 대변인 공식 기자 문답(Q&A)"
+
+#: ../../book/sources.rst:86
+msgid ""
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
+"(``37fc685a…``)"
+msgstr ""
+"`mofcom.gov.cn "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
+"(``37fc685a…``)"
+
+#: ../../book/sources.rst:87
+msgid "``CNTIER``"
+msgstr "``CNTIER``"
+
+#: ../../book/sources.rst:88
+msgid ""
+"PRC State Council, Regulations on Administration of Tech Import & Export "
+"(Arts. 30–39)"
+msgstr "중국 국무원, 《중화인민공화국 기술수출입관리조례》 (제30~39조)"
+
+#: ../../book/sources.rst:89
+msgid "2020-11-29"
+msgstr "2020-11-29"
+
+#: ../../book/sources.rst:90
+msgid ""
+"`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
+"(``39f4b9bb…``)"
+msgstr ""
+"`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
+"(``39f4b9bb…``)"
+
+#: ../../book/sources.rst:91
+msgid "``CNMEAS``"
+msgstr "``CNMEAS``"
+
+#: ../../book/sources.rst:92
+msgid ""
+"MOFCOM & MOST Order No. 2 of 2009, Measures for Prohibited/Restricted "
+"Tech Exports"
+msgstr "2009년 상무부·과학기술부령 제2호, 《수출금지·수출제한 기술 관리방법》"
+
+#: ../../book/sources.rst:93
+msgid "2009-04-20"
+msgstr "2009-04-20"
+
+#: ../../book/sources.rst:94
+msgid ""
+"`mofcom.gov.cn PDF "
+"<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
+msgstr ""
+"`mofcom.gov.cn PDF "
+"<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
+
+#: ../../book/sources.rst:95
+msgid "``CNPLAT``"
+msgstr "``CNPLAT``"
+
+#: ../../book/sources.rst:96
+msgid ""
+"MOFCOM Unified Business System Platform Notice & Support "
+"(``+86-10-6787-0108``)"
+msgstr "상무부 업무시스템 통합 플랫폼 공지 및 기술지원 안내 (``+86-10-6787-0108``)"
+
+#: ../../book/sources.rst:97 ../../book/sources.rst:133
+#: ../../book/sources.rst:141 ../../book/sources.rst:157
+msgid "2026-11-02"
+msgstr "2026-11-02"
+
+#: ../../book/sources.rst:98
+msgid ""
+"`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
+"(``5bc9740f…``)"
+msgstr ""
+"`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
+"(``5bc9740f…``)"
+
+#: ../../book/sources.rst:99
+msgid "``US26``"
+msgstr "``US26``"
+
+#: ../../book/sources.rst:100
+msgid ""
+"US BIS Final Rule on Semiconductor License Review (``91 FR 1684``; "
+"``742.6(b)(10)``)"
+msgstr "미국 BIS 반도체 수출 허가 심사 최종 규칙 (``91 FR 1684``; ``742.6(b)(10)``)"
+
+#: ../../book/sources.rst:101
+msgid "2026-01-15"
+msgstr "2026-01-15"
+
+#: ../../book/sources.rst:102
+msgid ""
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
+"(``d3b27863…``)"
+msgstr ""
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
+"(``d3b27863…``)"
+
+#: ../../book/sources.rst:103
+msgid "``US25``"
+msgstr "``US25``"
+
+#: ../../book/sources.rst:104
+msgid ""
+"US BIS Framework for Artificial Intelligence Diffusion (``90 FR 4544``; "
+"``4E091``)"
+msgstr "미국 BIS 인공지능 확산 프레임워크 (``90 FR 4544``; ``4E091``)"
+
+#: ../../book/sources.rst:105
+msgid "2025-01-15"
+msgstr "2025-01-15"
+
+#: ../../book/sources.rst:106
+msgid ""
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
+"(``6e202458…``)"
+msgstr ""
+"`govinfo.gov "
+"<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
+"(``6e202458…``)"
+
+#: ../../book/sources.rst:107
+msgid "``USNE``"
+msgstr "``USNE``"
+
+#: ../../book/sources.rst:108
+msgid "US BIS Press Release Directing Non-Enforcement of AI Diffusion Rule"
+msgstr "AI 확산 규칙 미집행 지시에 관한 미국 BIS 공식 보도자료"
+
+#: ../../book/sources.rst:109
+msgid "2025-05-13"
+msgstr "2025-05-13"
+
+#: ../../book/sources.rst:110
+msgid ""
+"`bis.gov "
+"<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
+"(``14a05e6e…``)"
+msgstr ""
+"`bis.gov "
+"<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
+"(``14a05e6e…``)"
+
+#: ../../book/sources.rst:111
+msgid "``GAO26``"
+msgstr "``GAO26``"
+
+#: ../../book/sources.rst:112
+msgid ""
+"US GAO Decision ``B-337935`` on AI Diffusion Rule & Congressional Review "
+"Act"
+msgstr "AI 확산 규칙 및 의회검토법(CRA) 적용에 관한 미 연방회계감사원(GAO) 결정 ``B-337935``"
+
+#: ../../book/sources.rst:113
+msgid "2026-05-12"
+msgstr "2026-05-12"
+
+#: ../../book/sources.rst:114
+msgid ""
+"`gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; "
+"web-verified)*"
+msgstr ""
+"`gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; 웹 열람 검증)*"
+
+#: ../../book/sources.rst:115
+msgid "``EAR734``"
+msgstr "``EAR734``"
+
+#: ../../book/sources.rst:116
+msgid ""
+"15 CFR Part 734 — Scope of the EAR, Published Open Source (``734.7``) & "
+"Contacts"
+msgstr "15 CFR Part 734 — EAR 적용 범위, 공개 오픈소스 면제(``734.7``) 및 연락처"
+
+#: ../../book/sources.rst:117 ../../book/sources.rst:121
+#: ../../book/sources.rst:125 ../../book/sources.rst:129
+msgid "2026-11-01"
+msgstr "2026-11-01"
+
+#: ../../book/sources.rst:118
+msgid ""
+"`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
+"(``eeb76281…``)"
+msgstr ""
+"`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
+"(``eeb76281…``)"
+
+#: ../../book/sources.rst:119
+msgid "``EAR742``"
+msgstr "``EAR742``"
+
+#: ../../book/sources.rst:120
+msgid ""
+"15 CFR Part 742 — Control Policy: CCL Based Controls (``742.6(b)(10)``)"
+msgstr "15 CFR Part 742 — 상업통제목록(CCL) 기반 통제 정책 (``742.6(b)(10)``)"
+
+#: ../../book/sources.rst:122
+msgid ""
+"`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
+"(``3eccf859…``)"
+msgstr ""
+"`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
+"(``3eccf859…``)"
+
+#: ../../book/sources.rst:123
+msgid "``EAR744``"
+msgstr "``EAR744``"
+
+#: ../../book/sources.rst:124
+msgid ""
+"15 CFR Part 744 — End-User and End-Use Based Controls (``744.11``, "
+"``744.23``)"
+msgstr "15 CFR Part 744 — 최종 사용자 및 최종 용도 기반 통제 (``744.11``, ``744.23``)"
+
+#: ../../book/sources.rst:126
+msgid ""
+"`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
+"(``ab19c823…``)"
+msgstr ""
+"`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
+"(``ab19c823…``)"
+
+#: ../../book/sources.rst:127
+msgid "``EAR774``"
+msgstr "``EAR774``"
+
+#: ../../book/sources.rst:128
+msgid ""
+"15 CFR Part 774 — Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+msgstr "15 CFR Part 774 — 상업통제목록(CCL) (ECCN ``3A090`` 및 ``4E091``)"
+
+#: ../../book/sources.rst:130
+msgid ""
+"`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
+"(``01d3beba…``)"
+msgstr ""
+"`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
+"(``01d3beba…``)"
+
+#: ../../book/sources.rst:131
+msgid "``SNAPR``"
+msgstr "``SNAPR``"
+
+#: ../../book/sources.rst:132
+msgid ""
+"US BIS SNAP-R Electronic Filing FAQ & Contact Guide (``snapr.bis.gov``)"
+msgstr "미국 BIS SNAP-R 전자 신청 FAQ 및 연락처 안내서 (``snapr.bis.gov``)"
+
+#: ../../book/sources.rst:134
+msgid ""
+"`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
+"(``e0c3bdee…``)"
+msgstr ""
+"`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
+"(``e0c3bdee…``)"
+
+#: ../../book/sources.rst:135
+msgid "``TREAS``"
+msgstr "``TREAS``"
+
+#: ../../book/sources.rst:136
+msgid ""
+"US Treasury Outbound Investment Security Program & Oct 2026 Proposed Rule"
+msgstr "미 재무부 해외투자 안보 프로그램 및 2026년 10월 규칙 개정안"
+
+#: ../../book/sources.rst:137
+msgid "2026-10-22"
+msgstr "2026-10-22"
+
+#: ../../book/sources.rst:138
+msgid ""
+"`home.treasury.gov "
+"<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
+"(``75f52eee…``)"
+msgstr ""
+"`home.treasury.gov "
+"<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
+"(``75f52eee…``)"
+
+#: ../../book/sources.rst:139
+msgid "``DOJ``"
+msgstr "``DOJ``"
+
+#: ../../book/sources.rst:140
+msgid ""
+"US Department of Justice National Security Division — Data Security "
+"Program"
+msgstr "미 법무부 국가안보국(NSD) — 데이터 보안 프로그램"
+
+#: ../../book/sources.rst:142
+msgid ""
+"`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
+"(``1bf01adb…``)"
+msgstr ""
+"`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
+"(``1bf01adb…``)"
+
+#: ../../book/sources.rst:143
+msgid "``OSI``"
+msgstr "``OSI``"
+
+#: ../../book/sources.rst:144
+msgid "Open Source Initiative — Open Source AI Definition 1.0"
+msgstr "오픈소스 이니셔티브(OSI) — 오픈소스 AI 정의 1.0 (OSAID 1.0)"
+
+#: ../../book/sources.rst:145
+msgid "2024-10-28"
+msgstr "2024-10-28"
+
+#: ../../book/sources.rst:146
+msgid ""
+"`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
+"(``a5442179…``)"
+msgstr ""
+"`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
+"(``a5442179…``)"
+
+#: ../../book/sources.rst:147
+msgid "``R1``"
+msgstr "``R1``"
+
+#: ../../book/sources.rst:148
+msgid "DeepSeek-R1 Official Repository & MIT License Record"
+msgstr "DeepSeek-R1 공식 저장소 및 MIT 라이선스 기록"
+
+#: ../../book/sources.rst:149
+msgid "2025-01-20"
+msgstr "2025-01-20"
+
+#: ../../book/sources.rst:150
+msgid ""
+"`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
+"(``875b282c…``)"
+msgstr ""
+"`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
+"(``875b282c…``)"
+
+#: ../../book/sources.rst:151
+msgid "``QWEN``"
+msgstr "``QWEN``"
+
+#: ../../book/sources.rst:152
+msgid "Qwen3 Official Repository & Apache 2.0 License Record"
+msgstr "Qwen3 공식 저장소 및 Apache 2.0 라이선스 기록"
+
+#: ../../book/sources.rst:153
+msgid "2025-04-29"
+msgstr "2025-04-29"
+
+#: ../../book/sources.rst:154
+msgid ""
+"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9…``)"
+msgstr ""
+"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9…``)"
+
+#: ../../book/sources.rst:155
+msgid "``GD``"
+msgstr "``GD``"
+
+#: ../../book/sources.rst:156
+msgid "GuideDog Documentation & Book Publishing Engine (``v1.0.0-beta.10``)"
+msgstr "GuideDog 문서 및 도서 출판 엔진 (``v1.0.0-beta.10``)"
+
+#: ../../book/sources.rst:158
+msgid ""
+"`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
+"(``6fe7704f…``)"
+msgstr ""
+"`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
+"(``6fe7704f…``)"

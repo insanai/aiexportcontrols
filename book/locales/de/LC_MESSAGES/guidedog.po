@@ -1,0 +1,150 @@
+# UI strings for book/_templates/layout.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "Auswirkungen von Exportkontrollen auf die Zukunft von Open-Source-KI"
+
+msgid "Open Source AI & Export Controls"
+msgstr "Open-Source-KI & Exportkontrollen"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Theme"
+msgstr "Darstellung"
+
+msgid "light"
+msgstr "Hell"
+
+msgid "dark"
+msgstr "Dunkel"
+
+msgid "system"
+msgstr "System"
+
+msgid "No pages match."
+msgstr "Keine passenden Seiten gefunden."
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Copied"
+msgstr "Kopiert"
+
+msgid "matching checkpoints"
+msgstr "passende Prüfpunkte"
+
+msgid "No checkpoints match your filter."
+msgstr "Keine Prüfpunkte entsprechen Ihrem Filter."
+
+msgid "Skip to content"
+msgstr "Direkt zum Inhalt"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Overview"
+msgstr "Übersicht"
+
+msgid "Search the book (press /)"
+msgstr "Im Buch suchen (Taste /)"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Chapters"
+msgstr "Kapitel"
+
+msgid "Verified 2 Nov 2026"
+msgstr "Geprüft am 2. Nov. 2026"
+
+msgid "Download A4 PDF Book"
+msgstr "A4-PDF-Buch herunterladen"
+
+msgid "Research & literary edition. Official Chinese and US legal texts prevail."
+msgstr "Wissenschaftliche Sachbuchausgabe. Maßgeblich sind die amtlichen chinesischen und US-amerikanischen Rechtstexte."
+
+msgid "Breadcrumbs"
+msgstr "Pfadnavigation"
+
+msgid "Book Cover"
+msgstr "Buchumschlag"
+
+msgid "On this page"
+msgstr "Auf dieser Seite"
+
+msgid "SOFTWARE · MODELS · SILICON HARDWARE · HUMANITY"
+msgstr "SOFTWARE · MODELLE · SILIZIUM-HARDWARE · MENSCHHEIT"
+
+msgid "Filter 40 technologies"
+msgstr "40 Technologien filtern"
+
+msgid "Interactive 40-Checkpoint Explorer"
+msgstr "Interaktiver Explorer der 40 Prüfpunkte"
+
+msgid "Keyword or code"
+msgstr "Stichwort oder Code"
+
+msgid "e.g. 266504X, HBM, wafer, siRNA..."
+msgstr "z. B. 266504X, HBM, Wafer, siRNA …"
+
+msgid "Sector"
+msgstr "Sektor"
+
+msgid "All 40 checkpoints"
+msgstr "Alle 40 Prüfpunkte"
+
+msgid "AI, Chips & Superclusters (23)"
+msgstr "KI, Chips & Supercluster (23)"
+
+msgid "Biomedicine & Gene Platforms (5)"
+msgstr "Biomedizin & Gen-Plattformen (5)"
+
+msgid "Solar Silicon & Machinery (12)"
+msgstr "Solarsilizium & Produktionsanlagen (12)"
+
+msgid "Proposed rule"
+msgstr "Vorgeschlagene Einstufung"
+
+msgid "Prohibited (J) & Restricted (X)"
+msgstr "Verboten (J) & Beschränkt (X)"
+
+msgid "Proposed Prohibited (J — 14)"
+msgstr "Vorgeschlagen verboten (J — 14)"
+
+msgid "Proposed Restricted (X — 26)"
+msgstr "Vorgeschlagen beschränkt (X — 26)"
+
+msgid "Interactive Scenario Guide"
+msgstr "Interaktiver Szenarien-Wegweiser"
+
+msgid "Jump to a Real-World Scenario"
+msgstr "Direkt zu einem Praxisszenario springen"
+
+msgid "Previous and next"
+msgstr "Zurück und weiter"
+
+msgid "Previous"
+msgstr "Zurück"
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "Primary sources verified 2 November 2026. Built natively with Guidedog, Typst, CeTZ, Fletcher & Graphviz."
+msgstr "Primärquellen geprüft am 2. November 2026. Nativ erstellt mit Guidedog, Typst, CeTZ, Fletcher & Graphviz."
+
+msgid "Download PDF Book"
+msgstr "PDF-Buch herunterladen"
+
+msgid "22 Primary Sources"
+msgstr "22 Primärquellen"
+
+msgid "GitHub Repository"
+msgstr "GitHub-Repository"

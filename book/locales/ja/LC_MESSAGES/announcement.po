@@ -1,0 +1,256 @@
+# Japanese translation for book/announcement.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:34+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/announcement.rst:1
+msgid ""
+"Chapter 1 — How China's Announcement No. 48 of 16 October 2026 started "
+"two separate clocks: a 30-day public consultation and immediate "
+"pre-export registration on ecomp.mofcom.gov.cn."
+msgstr ""
+"第1章 — 2026年10月16日の中国・第48号公告が同時に動かした2つの時計：30日間のパブリックコメントと、ecomp.mofcom.gov.cnでの即日輸出前情報登録。"
+
+#: ../../book/announcement.rst:5
+msgid "01. The Day Knowledge Got a Customs Booth"
+msgstr "01. 知識に税関ブースが設けられた日"
+
+#: ../../book/announcement.rst:8
+msgid "One Friday Afternoon, Two Very Different Clocks"
+msgstr "ある金曜日の午後、同時に動き出した2つの時計"
+
+#: ../../book/announcement.rst:11
+msgid ""
+"Picture a city council announcing on Friday afternoon that it plans to "
+"lower the speed limit on forty stretches of highway next winter, and "
+"inviting citizens to write in with comments for thirty days. Then read "
+"the second half of the notice: starting that same Friday afternoon, a "
+"real tollbooth is already open on the highway, recording every covered "
+"truck that drives past — including trucks that left the warehouse "
+"yesterday and have not yet crossed the bridge."
+msgstr ""
+"ある金曜日の午後、市議会がこんな発表をしたと想像してみてください。「来冬から高速道路の40区間で制限速度を引き下げる予定であり、本日より30日間、市民からの意見を募集します」。ところが通知の後半を読み進めると、こう書かれています。「なお、本日金曜日の午後ただいまより、高速道路上ではすでに実際の料金所が稼働しており、対象となるすべてのトラック——昨日倉庫を出発し、まだ橋を渡り終えていないトラックも含め——の通行記録を開始しています」。"
+
+#: ../../book/announcement.rst:13
+msgid ""
+"That is almost literally how **Announcement No. 48 of 2026** works. "
+"Issued jointly on **16 October 2026** by China's Ministry of Commerce "
+"(MOFCOM, led by its Bureau of Industry, Security, Import and Export "
+"Control) and the Ministry of Science and Technology (MOST) under China's "
+"*Foreign Trade Law* and *Regulations on the Administration of Technology "
+"Import and Export*, the document sets two separate clocks ticking at once "
+"``[CN48, sections I and III]`` ``[CNTIER]``:"
+msgstr ""
+"**2026年第48号公告** の仕組みは、まさにこのたとえそのものです。中国の *『対外貿易法』* および *『技術輸出入管理条例』* に基づき、 **2026年10月16日** に中国商務部（MOFCOM、主幹は産業安全・輸出入管理局〔安全・管制局〕）と科学技術部（MOST）が共同で公布したこの文書は、性質の異なる2つの時計を同時に動かし始めました。 ``[CN48, sections I and III]`` ``[CNTIER]``"
+
+#: ../../book/announcement.rst:16
+msgid ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": two-clocks-timeline\n"
+"#two-clocks-timeline(lang: \"ja\")"
+
+#: ../../book/announcement.rst:16
+msgid ""
+"Announcement No. 48 splits into two parallel tracks on 16 October 2026: a "
+"30-day consultation on 40 proposed catalogue entries, and an immediate "
+"pre-export registration mandate on ecomp.mofcom.gov.cn."
+msgstr ""
+"2026年10月16日に2つの並行トラックへ分岐した第48号公告：40項目の目録追加案に対する30日間の意見募集と、ecomp.mofcom.gov.cnにおける即日の輸出前情報登録義務。"
+
+#: ../../book/announcement.rst:22
+msgid ""
+"**The Consultation Clock (16 October to 15 November 2026):** Beijing "
+"proposes adding **40 technology points** — 14 prohibited from export and "
+"26 restricted — across artificial intelligence and chips (23), "
+"biomedicine (5), and solar energy (12) to the *Catalogue of Technologies "
+"Prohibited or Restricted from Export*. Until the public comment window "
+"closes and a final revised catalogue is formally promulgated, those new "
+"prohibitions and licensing rules remain **proposals, not final bans** "
+"``[CN48, sections I and II]``."
+msgstr ""
+"**時計1：パブリックコメントの時計（2026年10月16日〜11月15日）：** 中国政府は、人工知能・半導体（23項目）、バイオ医薬（5項目）、太陽光発電（12項目）にわたる **40の技術項目** （輸出禁止14項目、輸出制限26項目）を *『中国輸出禁止・輸出制限技術目録』* に追加する改正案を提示しました。意見募集期間が終了し、改正目録が正式に公布・施行されるまでは、これらの新たな禁止・許可ルールはあくまで **改正案であり、確定した輸出禁止ではありません** 。 ``[CN48, sections I and II]``"
+
+#: ../../book/announcement.rst:23
+msgid ""
+"**The Registration Clock (Running Right Now):** From the moment "
+"Announcement 48 went live on 16 October 2026 until the day the final "
+"revised catalogue eventually takes effect (a date Beijing has "
+"intentionally left unfixed), anyone exporting a technology listed in "
+"Attachment 1 must complete **pre-export information registration** online "
+"through MOFCOM's Unified Business System Platform at "
+"``https://ecomp.mofcom.gov.cn`` ``[CN48, section III(1)]`` ``[CNPLAT]``."
+msgstr ""
+"**時計2：事前登録の時計（現在すでに稼働中）：** 2026年10月16日に第48号公告が公布されたその瞬間から、改正目録が将来正式に施行される日（施行日は意図的に未定とされています）までの移行期間中、付属書1に掲げられた技術を輸出する者はすべて、商務部業務システム統一プラットフォーム（ ``https://ecomp.mofcom.gov.cn`` ）を通じてオンラインで **輸出前情報登録** を完了しなければなりません。 ``[CN48, section III(1)]`` ``[CNPLAT]``"
+
+#: ../../book/announcement.rst:25
+msgid ""
+"Confusing those two clocks is the single most common mistake people make "
+"when discussing China's new rules. Registration is active today, yet "
+"registration is a reporting gate, not an export ban. Conversely, waiting "
+"until mid-November to pay attention can catch a startup or university lab "
+"off guard if it is signing an overseas license, shipping covered "
+"equipment, or closing a foreign financing round right now ``[CN48]`` "
+"``[CNQA]``."
+msgstr ""
+"この2つの時計を混同することこそ、中国の新ルールをめぐる議論で最も頻繁に見られる誤解です。事前登録はすでに今日から義務づけられていますが、それは届出ゲートであって輸出禁止ではありません。反対に、「11月中旬の意見募集終了まで様子を見ればよい」と構えていると、まさにいま海外ライセンス契約を結ぼうとしている企業や、対象装置を出荷しようとしているメーカー、あるいは外資を含む資金調達ラウンドを完了しようとしているスタートアップや大学研究室は、思わぬ不意打ちを受けることになります。 ``[CN48]`` ``[CNQA]``"
+
+#: ../../book/announcement.rst:27
+msgid "Crossing a Border Without Packing a Single Crate"
+msgstr "木箱をひとつも積まずに国境を越える"
+
+#: ../../book/announcement.rst:30
+msgid ""
+"When our grandparents heard the word *export*, they pictured harbor "
+"cranes lifting steel containers onto a cargo ship in Shanghai or "
+"Rotterdam. When a modern technology regulator says *export*, not a single "
+"wooden crate needs to touch a dock."
+msgstr ""
+"私たちの祖父母の世代が *輸出* という言葉を耳にしたとき、思い浮かべたのは上海やロッテルダムの港で巨大なクレーンが貨物船へ鋼鉄のコンテナを積み込む光景でした。しかし現代の技術規制当局が *輸出* と呼ぶ行為には、木箱ひとつ埠頭に触れる必要さえありません。"
+
+#: ../../book/announcement.rst:32
+msgid ""
+"Under Section III(2) of Announcement 48, four transactions trigger "
+"mandatory pre-export registration before completion — **including "
+"transfers that had already started before October 16 but are not yet "
+"finished** ``[CN48, section III(2)]``:"
+msgstr ""
+"第48号公告の第3条第2項に基づき、以下の4類型の取引は完了前に輸出前情報登録を行うことが義務づけられます—— **10月16日以前にすでに着手されていたものの、まだ完了していない移転も含まれます** 。 ``[CN48, section III(2)]``"
+
+#: ../../book/announcement.rst:34
+msgid ""
+"**Selling the crown jewels abroad:** Transferring ownership of domestic "
+"technology to an overseas buyer, such as assigning patents or selling "
+"proprietary model or chip intellectual property."
+msgstr ""
+"**中核知財の海外売却：** 特許権の譲渡や、独自モデル・半導体設計の知的財産権の売却など、国内技術の所有権（帰属権）を海外の買主へ移転すること。"
+
+#: ../../book/announcement.rst:35
+msgid ""
+"**Granting an overseas license:** Keeping ownership in China while "
+"licensing a foreign partner, client, or subsidiary to use covered "
+"domestic technology outside the country."
+msgstr ""
+"**海外へのライセンス供与：** 所有権を中国国内に残したまま、海外の提携先、顧客、または海外子会社に対して、対象となる国内技術を国外で使用するライセンスを許諾すること。"
+
+#: ../../book/announcement.rst:36
+msgid ""
+"**Changing who holds the steering wheel:** A corporate acquisition, "
+"restructuring, or cap-table shift through which the owner or *actual "
+"controller* of domestic technology changes into an overseas entity. Even "
+"if every engineer and server stays in Hangzhou or Beijing, if ultimate "
+"corporate control crosses the border, the rule engages."
+msgstr ""
+"**舵を握る支配者の変更：** 企業買収、組織再編、資本構成の変更などにより、国内技術の所有者または *実質的支配者* が海外の事業体へと変わること。たとえエンジニア全員とサーバーすべてが杭州や北京に留まっていても、最終的な企業支配権が国境を越えればこの規定が適用されます。"
+
+#: ../../book/announcement.rst:37
+msgid ""
+"**Additional scenarios notified by MOFCOM:** A statutory catch-all "
+"allowing the ministry to address new transfer structures by official "
+"notice."
+msgstr ""
+"**商務部が別途通知するその他の類型：** 新たな移転スキームに対し、商務部が公式通知によって対応できるようにするための包括条項。"
+
+#: ../../book/announcement.rst:39
+msgid ""
+"When an exporter logs into the Technology Trade Management Information "
+"Application on ``ecomp.mofcom.gov.cn`` to file **Attachment 2** "
+"(*Technology Export Information Registration Form*), the portal asks for "
+"concrete, auditable facts: the exporter's corporate identity and official "
+"company seal (``公章``), the technology owner, the foreign recipient's "
+"Chinese and English names, country, address, and corporate relationship "
+"to the exporter, the exact seven-character catalogue code and technical "
+"metrics, the end user and end use, whether the IP is self-developed, and "
+"the contract value converted into US dollars ``[CN-A2]``. Multiple "
+"technologies transferred to the same overseas partner in one deal may be "
+"bundled onto one form; separate partners require separate filings "
+"``[CN48, section III(3)]``."
+msgstr ""
+"輸出者が ``ecomp.mofcom.gov.cn`` 上の技術貿易管理情報アプリケーションにログインし、 **付属書2** （ *『技術輸出情報登録表』* ）を提出する際には、監査可能な具体的事実の記載が求められます。すなわち、輸出者の法人情報と会社公印（ ``公章`` ）、技術保有者、海外受領者の中国語・英語名称、国・地域、住所および輸出者との資本・取引関係、正確な7桁の目録番号と技術指標、最終需要者および最終用途、自主開発知財か否かの別、そして米ドル換算した契約金額です。 ``[CN-A2]`` 1件の取引で同一の海外相手方に複数の技術を移転する場合は1枚のフォームにまとめて登録できますが、相手方が異なる場合は個別の届出が必要となります。 ``[CN48, section III(3)]``"
+
+#: ../../book/announcement.rst:41
+msgid "Four Words That Change Everything"
+msgstr "すべてを左右する4つの規制区分"
+
+#: ../../book/announcement.rst:44
+msgid ""
+"Legal catalogues look intimidating because casual readers read every line "
+"as a \"ban.\" In practice, four regulatory categories carry vastly "
+"different meanings for human progress ``[CN-A1, notes 1 to 4]`` "
+"``[CNQA]`` ``[CNTIER]``:"
+msgstr ""
+"法令の目録が一見すると威圧的に映るのは、慣れない読者がすべての行を「全面禁止」と読んでしまうからです。実際には、以下の4つの規制区分は人類の進歩にとってまったく異なる意味を持っています。 ``[CN-A1, notes 1 to 4]`` ``[CNQA]`` ``[CNTIER]``"
+
+#: ../../book/announcement.rst:46
+msgid "Prohibited (``禁止出口``, codes ending in ``J``)"
+msgstr "輸出禁止（ ``禁止出口`` 、末尾 ``J`` の番号）"
+
+#: ../../book/announcement.rst:47
+msgid ""
+"A solid red wall. Once finalized, covered technology within the stated "
+"scope cannot legally be exported at all ``[CNTIER, Art. 32]``."
+msgstr ""
+"越えることのできない赤い壁です。正式施行後は、記載された範囲に該当する技術を合法的に輸出することは一切できません。 ``[CNTIER, Art. 32]``"
+
+#: ../../book/announcement.rst:49
+msgid "Restricted (``限制出口``, codes ending in ``X``)"
+msgstr "輸出制限（ ``限制出口`` 、末尾 ``X`` の番号）"
+
+#: ../../book/announcement.rst:50
+msgid ""
+"A guarded gate with a lock and a key. Export is lawful, provided the "
+"exporter obtains official government permission before transferring the "
+"technology ``[CNTIER, Art. 33]``."
+msgstr ""
+"鍵のかかった検問ゲートです。技術移転の前に政府の公式な許可を取得しさえすれば、輸出は適法に行うことができます。 ``[CNTIER, Art. 33]``"
+
+#: ../../book/announcement.rst:52
+msgid "Automatic licensing (``自动许可``)"
+msgstr "自動許可（ ``自动许可`` ）"
+
+#: ../../book/announcement.rst:53
+msgid ""
+"The express lane at the gate. Proposed in Footnotes 2 and 3 for "
+"open-source AI releases, Chinese firms' self-owned overseas clouds, "
+"overseas foundry chip tape-outs, and humanitarian biomedicine, MOFCOM "
+"describes this path as virtually **\"apply and go\" (** ``即报即出`` **)** — "
+"an administrative record rather than a roadblock ``[CN-A1, notes 2 and "
+"3]`` ``[CNQA]``."
+msgstr ""
+"ゲートに設けられた優先ファストレーンです。オープンソースAIの公開、中国企業が自社運営する海外クラウド、海外ファウンドリでのチップ・テープアウト、人道的バイオ医薬連携を対象として注2および注3で提案されており、商務部はこれを事実上の **「申請即許可」（** ``即报即出`` **）** ——行く手を阻む障壁ではなく行政上の記録手続——と説明しています。 ``[CN-A1, notes 2 and 3]`` ``[CNQA]``"
+
+#: ../../book/announcement.rst:55
+msgid "Excluded (``不纳入管理范围``)"
+msgstr "管理対象外（ ``不纳入管理范围`` ）"
+
+#: ../../book/announcement.rst:56
+msgid ""
+"Outside this catalogue altogether. Already-public open-source AI and "
+"published academic papers sit here under Footnote 1, while ordinary laws "
+"like data security or copyright remain in place ``[CN-A1, note 1]``."
+msgstr ""
+"そもそも本目録の管理対象に入らない領域です。注1に基づき、すでに公開されたオープンソースAIや発表済みの学術論文はここに位置づけられます（もっとも、データセキュリティ法や著作権法などの一般法令は引き続き適用されます）。 ``[CN-A1, note 1]``"
+
+#: ../../book/announcement.rst:58
+msgid ""
+"Think of it like an international airport: *prohibited* items cannot fly; "
+"*restricted* items need a declared export permit; *automatic licensing* "
+"is the fast-track e-gate; and *excluded* items stay in your backpack "
+"without stopping at customs."
+msgstr ""
+"国際空港にたとえるなら、 *輸出禁止* は機内持込・預入ともに不可の危険物、 *輸出制限* は税関申告と輸出許可証が必要な品目、 *自動許可* は自動化ゲートを通り抜けるファストトラック、そして *管理対象外* は税関で立ち止まることなくリュックに入れたまま通過できる手荷物にあたります。"

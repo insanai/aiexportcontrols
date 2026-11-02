@@ -1,0 +1,99 @@
+# UI strings for site/_templates/layout.html and 404.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "Auswirkungen von Exportkontrollen auf die Zukunft von Open-Source-KI"
+
+msgid "Open Source AI & Export Controls"
+msgstr "Open-Source-KI & Exportkontrollen"
+
+msgid "Theme"
+msgstr "Darstellung"
+
+msgid "light"
+msgstr "Hell"
+
+msgid "dark"
+msgstr "Dunkel"
+
+msgid "system"
+msgstr "System"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Copied"
+msgstr "Kopiert"
+
+msgid "Skip to content"
+msgstr "Direkt zum Inhalt"
+
+msgid "Book navigation"
+msgstr "Buchnavigation"
+
+msgid "Read the Book"
+msgstr "Buch lesen"
+
+msgid "40 Checkpoints"
+msgstr "40 Prüfpunkte"
+
+msgid "Open AI Flowcharts"
+msgstr "Open-KI-Ablaufpläne"
+
+msgid "Contacts & Approval"
+msgstr "Kontakte & Genehmigung"
+
+msgid "22 Sources"
+msgstr "22 Quellen"
+
+msgid "Search the book"
+msgstr "Im Buch suchen"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF"
+msgstr "SIEBEN ORIGINALAUSGABEN · WEB & GESETZTES A4-PDF"
+
+msgid "Read the Complete Book in Seven Languages"
+msgstr "Das vollständige Buch in sieben Sprachen lesen"
+
+msgid "Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book."
+msgstr "Jede Ausgabe umfasst alle elf Kapitel, eigens geschaffene Holzschnitt-Illustrationen, native Typst-/CeTZ-/Fletcher- und Graphviz-Diagramme, den interaktiven Atlas der 40 Prüfpunkte, geprüfte Behördenkontakte sowie ein fertig gesetztes A4-PDF-Buch."
+
+msgid "Read Web Edition →"
+msgstr "Webausgabe lesen →"
+
+msgid "Footer links"
+msgstr "Fußzeilen-Links"
+
+msgid "40-Technology Atlas"
+msgstr "Atlas der 40 Technologien"
+
+msgid "Official Contacts & Licensing"
+msgstr "Behördenkontakte & Lizenzen"
+
+msgid "22 Verified Primary Sources"
+msgstr "22 geprüfte Primärquellen"
+
+msgid "GitHub Repository"
+msgstr "GitHub-Repository"
+
+msgid "Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail."
+msgstr "Geprüft mit Stand vom 2. November 2026 anhand von 22 amtlichen chinesischen und US-amerikanischen Primärdokumenten. Maßgeblich sind allein die amtlichen Originaltexte."
+
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+msgid "That page has moved or does not exist. Choose an edition below or open the English book directly."
+msgstr "Diese Seite wurde verschoben oder existiert nicht. Wählen Sie unten eine Sprachausgabe oder öffnen Sie direkt die englische Buchausgabe."
+
+msgid "Open the Book (English) →"
+msgstr "Buch öffnen (Englisch) →"

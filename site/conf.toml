@@ -1,0 +1,65 @@
+# Guidedog configuration for the literary Landing Page of:
+# "Impact of Export Controls on the Future of Open Source AI"
+
+project = "Impact of Export Controls on the Future of Open Source AI"
+copyright = "2026, China Export Control Research"
+author = "China Export Control Research"
+version = "2026.11"
+release = "2026-11-02"
+
+extensions = ["sphinx.ext.githubpages", "sphinx.ext.graphviz", "sphinx.ext.mathjax"]
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "locales/**", "README*", "Thumbs.db", ".DS_Store"]
+language = "en"
+smartquotes = false
+source_suffix = [".rst"]
+root_doc = "index"
+
+gettext_additional_targets = ["literal-block"]
+gettext_last_translator = "China Export Control Research"
+gettext_language_team = "China Export Control Research"
+
+rst_epilog = """
+.. _read-cover: en/index.html
+.. _read-ch1: en/announcement.html
+.. _read-atlas: en/atlas.html
+.. _read-ai: en/ai.html
+.. _read-open: en/open-models.html
+.. _read-contacts: en/comparison.html
+.. _read-sources: en/sources.html
+.. _book-pdf: books/en/open-source-ai-export-controls-en.pdf
+"""
+
+html_theme = "guidedog"
+html_title = "Impact of Export Controls on the Future of Open Source AI"
+html_short_title = "Open Source AI & Export Controls"
+html_static_path = ["_static"]
+html_css_files = ["site.css"]
+html_js_files = ["languages.js"]
+html_favicon = "_static/favicon.svg"
+mathjax_path = "_static/data/mathjax/tex-svg-full.js"
+mathjax_config_path = "_static/math.js"
+html_copy_source = false
+html_use_index = false
+
+pdf_font_paths = ["../book/_static/fonts", "/usr/share/fonts/opentype/noto", "/usr/share/fonts/truetype/noto"]
+
+[html_additional_pages]
+404 = "404.html"
+
+[html_theme_options]
+accent = "#08716d"
+
+[html_context]
+site_base = "/chinaexportcontrol/"
+site_url = "https://insanai.github.io/chinaexportcontrol/"
+repository = "https://github.com/insanai/chinaexportcontrol"
+site_languages = [
+  {code = "en", tag = "en", name = "English", home = "", book = "en/"},
+  {code = "zh_CN", tag = "zh-CN", name = "简体中文", home = "home/zh-cn/", book = "zh-cn/"},
+  {code = "ja", tag = "ja", name = "日本語", home = "home/ja/", book = "ja/"},
+  {code = "ko", tag = "ko", name = "한국어", home = "home/ko/", book = "ko/"},
+  {code = "hi", tag = "hi", name = "हिन्दी", home = "home/hi/", book = "hi/"},
+  {code = "es", tag = "es", name = "Español", home = "home/es/", book = "es/"},
+  {code = "de", tag = "de", name = "Deutsch", home = "home/de/", book = "de/"},
+]

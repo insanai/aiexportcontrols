@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://insanai.github.io/chinaexportcontrol/sitemap.xml

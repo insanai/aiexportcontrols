@@ -1,0 +1,464 @@
+# Japanese translation for book/index.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:32+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/index.rst:1
+msgid ""
+"Impact of Export Controls on the Future of Open Source AI — how software, "
+"model weights, and silicon hardware gates reshape human progress, proven "
+"with primary sources and game theory."
+msgstr ""
+"輸出管理がオープンソースAIの未来に与える影響 — ソフトウェア、モデルの重み、シリコン・ハードウェアをめぐる国境のゲートが人類の進歩をいかに変容させるかを、一次資料とゲーム理論で解き明かす。"
+
+#: ../../book/index.rst:5
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "輸出管理がオープンソースAIの未来に与える影響"
+
+#: ../../book/index.rst:8
+msgid ""
+"Imagine a world with no tollbooths on human thought. Two centuries ago, "
+"Thomas Jefferson marveled at a peculiarity of the human mind that no "
+"customs officer could quite grasp: *\"He who receives an idea from me, "
+"receives instruction himself without lessening mine; as he who lights his "
+"taper at mine, receives light without darkening me.\"* Give away a loaf "
+"of bread and your table has one loaf fewer; give away an equation and two "
+"kitchens can bake tomorrow."
+msgstr ""
+"人間の思考に料金所がひとつもない世界を想像してみてください。いまから2世紀前、トマス・ジェファーソンは、税関吏には到底とらえきれない人間の知性の不思議な性質に感嘆の言葉を遺しました。 *「私から着想を受け取る者は、私の知を減らすことなく自ら学びを得る。ちょうど、私の蝋燭から自分の蝋燭に火を移す者が、私を暗くすることなく光を受け取るように。」* 一斤のパンを人に譲れば食卓のパンは一斤減りますが、1つの方程式を分かち合えば、翌朝には2つの台所でパンを焼き上げることができるのです。"
+
+#: ../../book/index.rst:13
+msgid ""
+"From an open commons to a guarded horizon: ideas once sailed freely "
+"across borders like folded paper birds, before export walls rose across "
+"both silicon hardware and frontier models — leaving one narrow jade "
+"doorway ajar for open-source science."
+msgstr ""
+"開かれた共有地（コモンズ）から、検問所の立つ地平へ：かつて折り紙の鳥のように国境を越えて自由に羽ばたいていた知は、いまシリコン・ハードウェアと最先端モデルの双方に築かれた輸出の壁に直面しています。それでもなお、オープンソース科学のために、細い翡翠色の扉がわずかに開かれています。"
+
+#: ../../book/index.rst:15
+msgid ""
+"For four hundred years, humanity's greatest leaps rested on that quiet "
+"miracle. Movable type, germ theory, astronomical tables, the internet "
+"protocol suite, Linux, and most recently **open-source artificial "
+"intelligence** flourished because strangers across oceans could read, "
+"test, repair, and improve one another's work without waiting in line for "
+"a sovereign export stamp. Between 2023 and 2026, open-weight models "
+"turned what might have become a closed corporate priesthood into a living "
+"global commons. A rural clinic in Kenya triaging childhood pneumonia "
+"offline, a linguist rescuing an endangered mother tongue, and university "
+"students with two consumer graphics cards in Munich or Bengaluru suddenly "
+"held genuine frontier reasoning in their own hands ``[OSI]`` ``[R1]`` "
+"``[QWEN]``."
+msgstr ""
+"400年にわたり、人類の最も偉大な飛躍は、その静かな奇跡の上に築かれてきました。活版印刷、細菌学説、天文表、インターネット・プロトコル群、Linux、そしてごく最近の **オープンソース人工知能** に至るまで、これらが豊かに花開いたのは、海の向こうの見知らぬ人々が国家の輸出許可印を待つことなく、互いの成果を読み、試し、直し、磨き上げることができたからです。2023年から2026年にかけて、オープンウェイト・モデルの登場は、巨大企業の密室に閉じ込められた「聖職者の秘儀」になりかねなかった技術を、生きた地球規模の共有財産へと変えました。オフライン環境で小児肺炎のトリアージを行うケニアの地方診療所も、消滅危機にある母語を記録・復興する言語学者も、市販のグラフィックスカード2枚を手にしたミュンヘンやベンガルールの大学生も、突如として最先端の推論力を自らの手中に収めたのです。 ``[OSI]`` ``[R1]`` ``[QWEN]``"
+
+#: ../../book/index.rst:17
+msgid ""
+"Then the walls began to rise — not only in the sky of software, but deep "
+"underground in the bedrock of silicon."
+msgstr ""
+"ところがそのとき、壁が立ち上がり始めました。ソフトウェアという空の上だけでなく、はるか地下深く、シリコンという岩盤の奥底からも。"
+
+#: ../../book/index.rst:19
+msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
+msgstr "ソフトウェアや重みだけではない——開かれた知性を支えるハードウェア"
+
+#: ../../book/index.rst:22
+msgid ""
+"Most conversations about open-source AI make a comforting mistake. They "
+"imagine an AI model as pure, weightless poetry — a file of code and "
+"numbers that can stay free forever as long as someone places an MIT or "
+"Apache 2.0 license on GitHub."
+msgstr ""
+"オープンソースAIをめぐる議論の多くは、心地よい錯覚に陥りがちです。AIモデルを重さのない純粋な詩のようなもの——誰かがGitHubにMITライセンスやApache 2.0ライセンスを添えて置きさえすれば、永遠に自由であり続けられるコードと数値のファイルだと想像してしまうのです。"
+
+#: ../../book/index.rst:24
+msgid ""
+"In physical reality, no neural network floats in thin air. Every open "
+"model sits atop an industrial pyramid of **extreme-ultraviolet "
+"lithography lenses, silicon wafers, stacked high-bandwidth memory (HBM), "
+"custom processor instruction sets, and miles of optical fiber stitching "
+"ten thousand accelerator cards into a single supercomputer**. Export "
+"controls have now clamped onto **both halves of that stack** at once:"
+msgstr ""
+"しかし物理的な現実において、真空中に浮かぶニューラルネットワークなど存在しません。あらゆるオープンモデルは、 **極端紫外線（EUV）露光レンズ、シリコンウェハ、積層型の広帯域幅メモリ（HBM）、独自プロセッサ命令セット、そして1万枚のアクセラレータカードを1台のスーパーコンピュータへと縫い合わせる何マイルもの光ファイバー網** という、巨大な産業ピラミッドの頂に乗っています。そしていま、輸出管理は **その上下両層** を同時に締め上げているのです。"
+
+#: ../../book/index.rst:29
+msgid ""
+"Mind and silicon are inseparable: open-source constellations illuminating "
+"clinics, classrooms, and workshops above ground draw their life from "
+"subterranean silicon wafers, stacked HBM memory, and ten-thousand-card "
+"supercluster cables now guarded by border gates."
+msgstr ""
+"知性とシリコンは切り離せません。地上の診療所や教室、工房を照らすオープンソースの星座は、いまや国境ゲートに守られた地下のシリコンウェハ、積層HBMメモリ、そして1万枚超規模のスーパークラスタを結ぶケーブル群から命を汲み上げているのです。"
+
+#: ../../book/index.rst:31
+msgid ""
+"**Below the surface (Hardware & Silicon Chokepoints):** Washington built "
+"its border fortress around physical computation — restricting flagship AI "
+"chips (``3A090``), semiconductor manufacturing tools, and foreign-made "
+"chips designed with US software (``15 CFR 734.9``), even after "
+"calibrating conditional case-by-case review for H200-class exports in "
+"January 2026 ``[US26]`` ``[EAR734]`` ``[EAR742]`` ``[EAR774]``. Beijing's "
+"October 2026 draft answers in kind on the architectural side, proposing "
+"export controls on **AI processor designs, custom instruction sets, IP "
+"cores, 2.5D/3D chiplet packaging, non-von-Neumann chips, high-density 3D "
+"NAND, and <=18 nm or stacked DRAM designs** (``266506X``), alongside "
+"**10,000-card supercluster interconnects and multi-vendor "
+"chip-orchestration stacks** (``266507X``) and 18 classes of solar factory "
+"machinery ``[CN-A1]``."
+msgstr ""
+"**地下の基盤（ハードウェアとシリコンのチョークポイント）：** 米国政府は物理的な計算資源の周囲に国境の要塞を築きました。2026年1月にH200クラスの輸出に対する条件付き個別審査を調整した後もなお、最先端AIチップ（ ``3A090`` ）、半導体製造装置、さらには米国製ソフトウェアを用いて設計された外国製チップ（ ``15 CFR 734.9`` ）を厳しく規制しています。 ``[US26]`` ``[EAR734]`` ``[EAR742]`` ``[EAR774]`` これに対し、中国政府の2026年10月改正案はアーキテクチャ面から対抗し、 **AIプロセッサ設計、独自命令セット、IPコア、2.5D / 3Dチップレット実装、非ノイマン型チップ、高密度3D NAND、および18 nm以下または積層型DRAM設計** （ ``266506X`` ）に加え、 **1万枚超規模のスーパークラスタ相互接続技術や異種ベンダー統合オーケストレーション基盤** （ ``266507X`` ）、さらには太陽光発電プラントの主要製造装置18分類に輸出管理を課すことを提案しています。 ``[CN-A1]``"
+
+#: ../../book/index.rst:32
+msgid ""
+"**Above the surface (Software, Weights & Data Gates):** On **16 October "
+"2026**, China's Ministry of Commerce (MOFCOM) and Ministry of Science and "
+"Technology (MOST) issued **Announcement No. 48 of 2026**, proposing **40 "
+"technology checkpoints** across AI and chips (23), biomedicine (5), and "
+"solar manufacturing (12) while switching on mandatory pre-export "
+"registration that same afternoon ``[CN48]`` ``[CNQA]``. Private transfers "
+"of frontier model weights crossing :math:`10^{26}` FLOPs, **2 trillion "
+"parameters**, or a **Global Top-10 benchmark** (``266504X``) enter "
+"licensing gates, alongside Washington's own contested ``4E091`` "
+"closed-weight rule ``[CN-A1]`` ``[US25]`` ``[GAO26]``."
+msgstr ""
+"**地上の領域（ソフトウェア・重み・データのゲート）：** **2026年10月16日** 、中国商務部（MOFCOM）と科学技術部（MOST）は **2026年第48号公告** を公布し、AI・半導体（23項目）、バイオ医薬（5項目）、太陽光発電製造（12項目）にわたる **40項目の技術チェックポイント案** を提示すると同時に、その日の午後から輸出前情報登録の義務化を即日稼働させました。 ``[CN48]`` ``[CNQA]`` 学習計算量 :math:`10^{26}` FLOPs、 **2兆パラメータ** 、または **世界トップ10ベンチマーク** （ ``266504X`` ）のいずれかを超える最先端モデルの重みの非公開移転は、米国側で法的議論が続くクローズドモデル重み規制 ``4E091`` と並び、許可ゲートの対象となります。 ``[CN-A1]`` ``[US25]`` ``[GAO26]``"
+
+#: ../../book/index.rst:36
+msgid ""
+"Even if software licenses remain free on paper, open-source AI cannot "
+"thrive in a vacuum: if export controls ration the chips needed to train "
+"open models, lock up open silicon blueprints, or price local hardware out "
+"of reach for hospitals and universities, humanity gets nudged back from "
+"owning minds to renting metered corporate cloud windows."
+msgstr ""
+"たとえ紙の上でソフトウェア・ライセンスが自由なままであっても、オープンソースAIは真空の中では生きられません。輸出管理によってオープンモデルの学習に必要なチップが配給制のようになり、オープンな半導体設計図が閉じ込められ、病院や大学の手の届かない価格へとローカル・ハードウェアが押し上げられれば、人類は「知性を自ら所有する時代」から「企業の従量課金クラウドの窓口を借りる時代」へと押し戻されてしまいます。"
+
+#: ../../book/index.rst:38
+msgid "The Fortress Trap: What Game Theory Proves About Walled Intelligence"
+msgstr "要塞の罠——壁に囲まれた知性についてゲーム理論が証明すること"
+
+#: ../../book/index.rst:41
+msgid ""
+"Every capital erects export walls in the name of safety and strategic "
+"advantage. Yet if we translate the rivalry between two technological "
+"powers — call them **Bloc A** and **Bloc B** — into crisp **mathematical "
+"game theory**, a chilling paradox appears: *unilateral walls look "
+"rational in a single move, yet mutual walls drag the entire world "
+"backward while making humanity measurably more dangerous.*"
+msgstr ""
+"どの国の首都も、安全保障と戦略的優位の名のもとに輸出の壁を築きます。しかし、2つの技術大国——ここでは **陣営A** と **陣営B** と呼びましょう——の競争を明快な **数理ゲーム理論** へと置き換えてみると、背筋の凍るような逆説が浮かび上がります。 *単独で壁を築く一手は一見すると合理的に見えるのに、双方が壁を築き合えば、世界全体が後退するばかりか、人類の危険度は確実に跳ね上がるのです。*"
+
+#: ../../book/index.rst:45
+msgid ""
+"**Analytical model:** The mathematical payoff equations below model "
+"structural strategic incentives across open and closed innovation "
+"regimes; they are analytical proofs rather than statutory rules."
+msgstr ""
+"**分析モデルに関する注記：** 以下に示す利得方程式は、開放型と閉鎖型のイノベーション体制における構造的な戦略インセンティブをモデル化した数理的証明であり、法令上の規定そのものではありません。"
+
+#: ../../book/index.rst:50
+msgid ""
+"Two fortresses across a dark strait: when rival powers hoard dim, "
+"solitary flames behind crimson battlements, storm shadows gather around "
+"both — whereas two flames joined in a shared lighthouse illuminate the "
+"entire sea."
+msgstr ""
+"暗い海峡を挟んで向き合う2つの要塞：対立する大国が真紅の城壁の奥にほの暗い孤立した炎を抱え込めば、双方の周囲に嵐の影が立ち込めます。しかし、2つの炎を共有の灯台でひとつに合わせれば、海原全体が明るく照らし出されるのです。"
+
+#: ../../book/index.rst:52
+msgid ""
+"Suppose each bloc chooses between sustaining an **Open Commons** "
+"(:math:`O`) for non-weaponized AI and compute architectures or erecting a "
+"**Broad Wall** (:math:`W`) across models and hardware. Each side begins "
+"with baseline domestic R&D value :math:`V = 10`. When a bloc stays "
+"**Open** (:math:`O`), its published breakthroughs, chip tools, and safety "
+"benchmarks create :math:`+8` of compounding spillover value for the other "
+"side. Building and enforcing a **Wall** (:math:`W`) imposes :math:`-1` in "
+"supply-chain duplication (re-inventing fabs, compilers, and siloed "
+"clusters), grants :math:`+5` in short-term strategic lead if the rival "
+"stays open (while inflicting :math:`-5` lag on the lone open side), and "
+"carries an expected systemic catastrophe cost :math:`R(s_A, s_B)`."
+msgstr ""
+"いま、各陣営が非兵器領域のAIと計算アーキテクチャについて **開かれた共有地（Open Commons）** （ :math:`O` ）を維持するか、モデルとハードウェア全般に **広範な壁（Broad Wall）** （ :math:`W` ）を築くかを選択するとしましょう。双方の基礎的な国内研究開発価値を :math:`V = 10` とします。ある陣営が **開放** （ :math:`O` ）を選べば、公開された技術革新や半導体ツール、安全性ベンチマークが相手側にも複利的な波及価値 :math:`+8` をもたらします。一方、 **壁** （ :math:`W` ）の構築と執行にはサプライチェーンの重複コスト（半導体工場、コンパイラ、分断されたクラスタの再発明）として :math:`-1` がかかり、相手が開放を維持している場合に限り短期的な戦略リード :math:`+5` を得る（同時に単独開放側に :math:`-5` の遅れを負わせる）ほか、システミックな大惨事の期待損失 :math:`R(s_A, s_B)` を伴うものとします。"
+
+#: ../../book/index.rst:54
+msgid ""
+"For each player :math:`i \\in \\{A, B\\}`, net payoff is governed by one "
+"transparent equation:"
+msgstr ""
+"各プレイヤー :math:`i \\in \\{A, B\\}` の純利得は、次の明快な1本の方程式で表されます。"
+
+#: ../../book/index.rst:56
+msgid ""
+"\\Pi_i(s_i, s_j) = 10 + 8\\,\\mathbb{I}(s_j = O) - \\mathbb{I}(s_i = W) + "
+"5\\big[\\mathbb{I}(s_i = W) - \\mathbb{I}(s_j = W)\\big] - R(s_i, s_j)"
+msgstr ""
+"\\Pi_i(s_i, s_j) = 10 + 8\\,\\mathbb{I}(s_j = O) - \\mathbb{I}(s_i = W) + "
+"5\\big[\\mathbb{I}(s_i = W) - \\mathbb{I}(s_j = W)\\big] - R(s_i, s_j)"
+
+#: ../../book/index.rst:60
+msgid ""
+"Why does systemic danger :math:`R` *rise* instead of fall when broad "
+"walls go up? Because software, hardware, cyber, and biological safety "
+"obey an **exponential law of independent scrutiny** (known in open-source "
+"engineering as Linus's Law). Suppose a frontier AI or chip stack harbors "
+"an unnoticed alignment flaw or critical zero-day vulnerability with base "
+"probability :math:`p_0`, and each independent research community catches "
+"it with probability :math:`q \\in (0, 1)`. Across :math:`n` independent "
+"auditing communities, the probability that a catastrophic flaw survives "
+"undetected is:"
+msgstr ""
+"広範な壁が高く築かれたとき、なぜシステミックな危険度 :math:`R` は下がるどころか *上昇* するのでしょうか。それは、ソフトウェア・ハードウェア・サイバー・バイオの安全性が **独立検証の指数法則** （オープンソース工学で「リーナスの法則」と呼ばれる原理）に従うからです。最先端のAIや半導体スタックに未知のアライメント欠陥や致命的なゼロデイ脆弱性が潜む基礎確率を :math:`p_0` とし、独立した各研究コミュニティがそれを発見できる確率を :math:`q \\in (0, 1)` としましょう。このとき、 :math:`n` 個の独立した監査コミュニティの目を経てもなお、致命的な欠陥が見逃されて生き残る確率は次のようになります。"
+
+#: ../../book/index.rst:62
+msgid "P(\\text{flaw survives}) = p_0 (1 - q)^n"
+msgstr "P(\\text{flaw survives}) = p_0 (1 - q)^n"
+
+#: ../../book/index.rst:66
+msgid ""
+"**Mutual Open Commons** :math:`(O, O)`: :math:`2k` global communities "
+"inspect weights, reproduce benchmarks, and equip hospitals, power grids, "
+"and universities with local defensive AI. Flaw survival drops "
+"exponentially to :math:`p_0(1 - q)^{2k}`, keeping systemic risk at "
+":math:`R(O, O) = 1`. Each side earns :math:`10 + 8 - 0 + 0 - 1 = +17` "
+"(**World Welfare = 34**)."
+msgstr ""
+"**相互に開かれた共有地** :math:`(O, O)` ：世界 :math:`2k` 個のコミュニティが重みを検証し、ベンチマークを再現し、病院や電力網、大学にローカルな防御用AIを配備します。欠陥残存確率は :math:`p_0(1 - q)^{2k}` へと指数関数的に低下し、システミック・リスクは最小の :math:`R(O, O) = 1` に抑えられます。双方の利得は :math:`10 + 8 - 0 + 0 - 1 = +17` となり、 **世界全体の厚生は 34** に達します。"
+
+#: ../../book/index.rst:67
+msgid ""
+"**Unilateral Wall** :math:`(W, O)` **or** :math:`(O, W)`: Global scrutiny "
+"halves (:math:`R = 2`). The hoarder still reads the open bloc's papers "
+"and weights (:math:`+8`) while capturing a temporary monopoly lead "
+"(:math:`+5 - 1`), scoring :math:`+20`, while the lone open bloc drops to "
+":math:`10 + 0 - 0 - 5 - 2 = +3` (**World Welfare = 23**)."
+msgstr ""
+"**一方的な壁** :math:`(W, O)` **または** :math:`(O, W)` ：世界全体の検証の目が半減します（ :math:`R = 2` ）。囲い込む側は開放側の論文や重みの恩恵（ :math:`+8` ）にただ乗りしつつ一時的な独占リード（ :math:`+5 - 1` ）を握って :math:`+20` を得る一方、単独で開放を続けた側は :math:`10 + 0 - 0 - 5 - 2 = +3` へと落ち込みます（ **世界厚生 = 23** ）。"
+
+#: ../../book/index.rst:68
+msgid ""
+"**Mutual Broad Walls** :math:`(W, W)`: Three dangers compound "
+"simultaneously: **(1)** closed silos shrink independent red-teaming eyes "
+"(:math:`m \\ll 2k`), leaving hidden flaws unpatched; **(2)** civilian "
+"defenders (clinics, municipal utilities, small firms) lose open-weight "
+"defensive tools while covert attackers still operate in secret; and "
+"**(3)** strategic opacity between rival black-box labs breeds worst-case "
+"fear and rushed safety testing. Systemic danger quadruples to :math:`R(W, "
+"W) = 4`. Worse still, the zero-sum lead cancels out (:math:`+5 - 5 = 0`), "
+"leaving each side at :math:`10 + 0 - 1 + 0 - 4 = +5` (**World Welfare = "
+"10**)."
+msgstr ""
+"**相互の広範な壁** :math:`(W, W)` ：3つの危険が同時に重なります。 **(1)** 閉鎖されたサイロ化によって独立したレッドチーミングの目が激減し（ :math:`m \\ll 2k` ）、隠れた欠陥が修正されないまま残ること。 **(2)** 秘密裏に動く攻撃者が活動を続ける一方で、民間の守り手（診療所、自治体の公益事業、中小企業）がオープンウェイトの防御ツールを失うこと。 **(3)** 対立するブラックボックス研究所間の不透明性が最悪事態への疑心暗鬼を生み、安全性検証の拙速化を招くこと。この結果、システミックな危険度は4倍の :math:`R(W, W) = 4` へと膨れ上がります。さらに悪いことに、ゼロサムの優位は完全に相殺され（ :math:`+5 - 5 = 0` ）、双方とも :math:`10 + 0 - 1 + 0 - 4 = +5` に沈みます（ **世界厚生 = 10** ）。"
+
+#: ../../book/index.rst:71
+msgid ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": game-theory-matrix\n"
+"#game-theory-matrix(lang: \"ja\")"
+
+#: ../../book/index.rst:71
+msgid ""
+"The Prisoner's Dilemma of broad export walls (left) paired with Linus's "
+"Law of exponential flaw scrutiny (right), compiled natively with Typst "
+"and CeTZ."
+msgstr ""
+"広範な輸出の壁が生む囚人のジレンマ（左）と、リーナスの法則による欠陥発見の指数曲線（右）。TypstおよびCeTZによるネイティブ組版。"
+
+#: ../../book/index.rst:77
+msgid "Look at the cold logic of :numref:`fig-game-theory`:"
+msgstr ":numref:`fig-game-theory` が突きつける冷徹な論理を見てみましょう。"
+
+#: ../../book/index.rst:79
+msgid ""
+"**Walling is a strictly dominant one-shot temptation:** If Bloc B plays "
+"Open, Bloc A prefers Wall (:math:`20 > 17`). If Bloc B plays Wall, Bloc A "
+"still prefers Wall (:math:`5 > 3`). Left to uncoordinated fear, rational "
+"capitals march straight into the **unique pure-strategy Nash "
+"Equilibrium** :math:`(W, W) = (+5, +5)`."
+msgstr ""
+"**壁を築くことは1回限りのゲームにおける強支配戦略の誘惑となります：** 陣営Bが開放を選べば、陣営Aは壁を選ぶ方が得をし（ :math:`20 > 17` ）、陣営Bが壁を選んでも、やはり陣営Aは壁を選ぶ方がましになります（ :math:`5 > 3` ）。協調なき恐怖に身を委ねれば、合理的なはずの各国の首都は **唯一の純粋戦略ナッシュ均衡** :math:`(W, W) = (+5, +5)` へと一直線に行進してしまいます。"
+
+#: ../../book/index.rst:80
+msgid ""
+"**The world goes backward by 70 percent:** Global welfare collapses from "
+"**34** to **10**, and neither power ends up ahead of the other (:math:`5 "
+"= 5`). Trillions of dollars go into duplicating lithography tools, memory "
+"fabs, and closed training runs merely to stand still."
+msgstr ""
+"**世界全体が70％後退します：** 世界の総厚生は **34** から **10** へと崩落し、しかもどちらの大国も相手より優位に立つことはできません（ :math:`5 = 5` ）。露光装置やメモリ工場、密室でのモデル学習の重複投資に何兆ドルも費やしながら、ただ同じ場所に立ち尽くすだけなのです。"
+
+#: ../../book/index.rst:81
+msgid ""
+"**The world grows four times more dangerous** (:math:`R = 4` vs. :math:`R "
+"= 1`): Secrecy feels safe inside a briefing room, yet mathematically it "
+"blinds global safety auditing and disarms civilian infrastructure."
+msgstr ""
+"**世界の危険度は4倍に膨れ上がります** （ :math:`R = 4` 対 :math:`R = 1` ）：機密主義は会議室の中では安全に感じられますが、数理的には地球規模の安全性監査から目を奪い、民間インフラを丸腰にしてしまいます。"
+
+#: ../../book/index.rst:83
+msgid ""
+"How do intelligent societies escape a Prisoner's Dilemma? In game theory, "
+"the answer is **institutional mechanism design**: draw **high, narrow "
+"fences** around genuine weapons (core state secrets, autonomous "
+"cyber-weapons, engineered pathogens), while legally guaranteeing **open "
+"bridges** for shared science and open-source AI so neither side fears "
+"being trapped at :math:`+3`."
+msgstr ""
+"知性ある社会はどうすれば囚人のジレンマから抜け出せるのでしょうか。ゲーム理論が示す答えは **制度的メカニズムデザイン** です。すなわち、真の兵器（国家の中核機密、自律型サイバー兵器、人工改変病原体）の周囲にだけ **高く狭いフェンス** を張り巡らせる一方で、共有の科学とオープンソースAIには **開かれた橋** を法的に保障し、どちらの側も :math:`+3` の不利に陥る恐怖を抱かずに済むようにすることです。"
+
+#: ../../book/index.rst:85
+msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
+msgstr "一次資料が明かす核心的事実——閉ざされた壁ではなく、半開きの扉"
+
+#: ../../book/index.rst:88
+msgid ""
+"When we turn from game theory back to the verified legal texts of "
+"November 2026, we find something remarkable: despite alarming headlines, "
+"regulators in both Beijing and Washington have deliberately left real "
+"bridges standing for open-source AI:"
+msgstr ""
+"ゲーム理論から2026年11月時点の検証済み法令テキストへと目を戻すと、驚くべき事実に気づきます。危機感を煽る報道見出しとは裏腹に、北京とワシントンの規制当局はいずれも、オープンソースAIのために確かな橋を意図的に残しているのです。"
+
+#: ../../book/index.rst:91
+msgid ""
+"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
+"#forty-checkpoints-chart(lang: \"en\")"
+msgstr ""
+"#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
+"#forty-checkpoints-chart(lang: \"ja\")"
+
+#: ../../book/index.rst:91
+msgid ""
+"Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar "
+"(12), and biomedicine (5), alongside the three footnote fast lanes "
+"preserving open-source and humanitarian science."
+msgstr ""
+"付属書1が提案するAI・ハードウェア（23項目）、太陽光発電（12項目）、バイオ医薬（5項目）の計40チェックポイントと、オープンソースおよび人道的科学を守る3つの注記ファストレーン。"
+
+#: ../../book/index.rst:97
+msgid ""
+"**Already-public open AI stays free.** Footnote 1 of China's draft "
+"explicitly excludes AI technologies that have already entered the public "
+"domain through open-source releases or published academic papers, "
+"mirroring the US published-information exemption in ``15 CFR 734.7`` and "
+"``4E091``. Existing MIT and Apache 2.0 models are not pulled back behind "
+"a wall ``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]`` ``[R1]`` ``[QWEN]``."
+msgstr ""
+"**すでに公開されたオープンAIは自由なまま保たれます。** 中国改正案の注1は、オープンソース公開や学術論文発表を通じてすでにパブリックドメインに入ったAI技術を目録管理の対象外と明記しており、これは米国の公開情報除外規定（ ``15 CFR 734.7`` および ``4E091`` ）と軌を一にしています。既存のMITライセンスやApache 2.0ライセンスのモデルが壁の向こうへ引き戻されることはありません。 ``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]`` ``[R1]`` ``[QWEN]``"
+
+#: ../../book/index.rst:98
+msgid ""
+"**New open-source AI and chip tape-outs get a dedicated fast lane.** "
+"Rather than banning open releases of restricted AI, China's Footnote 2 "
+"proposes **automatic licensing and facilitation** (\"apply and go\" in "
+"MOFCOM's official explanation) for open-source exports, overseas foundry "
+"chip tape-outs (``芯片流片``), and Chinese firms' self-operated overseas "
+"compute clouds ``[CN-A1, note 2]`` ``[CNQA]``."
+msgstr ""
+"**新規オープンソースAIと海外テープアウトには専用の迅速レーンが用意されます。** 中国改正案の注2は、制限対象のAI技術をオープン公開することを禁じるのではなく、オープンソース輸出、海外ファウンドリでのチップ製造委託（テープアウト、 ``芯片流片`` ）、および中国企業が自社運営する海外計算クラウドに対して **自動許可・円滑化措置** （商務部の公式解説によれば「申請即許可」）を提案しています。 ``[CN-A1, note 2]`` ``[CNQA]``"
+
+#: ../../book/index.rst:99
+msgid ""
+"**Yet the unguarded midnight upload is ending.** Pre-export registration "
+"on ``ecomp.mofcom.gov.cn`` already operates today for covered IP sales, "
+"overseas licenses, and foreign-control shifts; Core Data models "
+"(``266501J``) face outright prohibition; and hardware chokepoints "
+"continue to test who can build tomorrow's open minds ``[CN48]`` "
+"``[CN-A1]`` ``[EAR742]``."
+msgstr ""
+"**ただし「何の手続きもない深夜のアップロード」の時代は終わりつつあります。** 対象となる知財譲渡、海外ライセンス供与、外国支配への変更に対する ``ecomp.mofcom.gov.cn`` での輸出前情報登録はすでに本日時点で稼働しており、コアデータ学習モデル（ ``266501J`` ）は全面禁止案の対象となり、ハードウェアのチョークポイントは明日誰が開かれた知性を構築できるかを試す関門であり続けています。 ``[CN48]`` ``[CN-A1]`` ``[EAR742]``"
+
+#: ../../book/index.rst:101
+msgid "How to Read This Book"
+msgstr "本書の読み方"
+
+#: ../../book/index.rst:104
+msgid ""
+"We wrote this book for normal, curious human beings — builders, "
+"researchers, doctors, founders, students, journalists, and citizens — who "
+"want vivid clarity backed by verified primary evidence:"
+msgstr ""
+"本書は、検証済みの一次資料に裏打ちされた明快な見取り図を求める、知的好奇心にあふれたすべての読者——エンジニア、研究者、医師、起業家、学生、ジャーナリスト、そして市民——のために書かれました。"
+
+#: ../../book/index.rst:106
+msgid ""
+":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, "
+"its two separate clocks, and all **40 guarded technologies**."
+msgstr ""
+":doc:`announcement` と :doc:`atlas` では、中国の第48号公告が動かした「2つの異なる時計」と、 **管理対象案の全40技術** を平易な言葉で解き明かします。"
+
+#: ../../book/index.rst:107
+msgid ""
+":doc:`ai` takes you inside both the software recipe and the silicon "
+"hardware stack (``266504X``, ``266506X``, ``266507X``)."
+msgstr ""
+":doc:`ai` では、AIのソフトウェア・レシピとシリコン・ハードウェア基盤（ ``266504X`` 、 ``266506X`` 、 ``266507X`` ）の双方の内部へと踏み込みます。"
+
+#: ../../book/index.rst:108
+msgid ""
+":doc:`open-models` walks step-by-step, with visual flowcharts, through "
+"how open-source AI was released *before* export controls and how it "
+"navigates checkpoints *now*."
+msgstr ""
+":doc:`open-models` では、輸出管理導入 *以前* にオープンソースAIがどのように公開されていたのか、そして *現在* いかに4つのゲートを通過するのかを、視覚的なフローチャートで順を追ってたどります。"
+
+#: ../../book/index.rst:109
+msgid ""
+":doc:`biomedicine` and :doc:`solar` explore living gene platforms and "
+"solar machines where know-how travels inside physical equipment."
+msgstr ""
+":doc:`biomedicine` と :doc:`solar` では、生きた遺伝子創薬プラットフォームと、物理的な製造装置の内部にノウハウが宿る太陽光発電マシンを探ります。"
+
+#: ../../book/index.rst:110
+msgid ""
+":doc:`united-states` demystifies Washington's chip (``3A090``) and "
+"model-weight (``4E091``) rules, including the May 2026 GAO clash "
+"``[USNE]`` ``[GAO26]``."
+msgstr ""
+":doc:`united-states` では、2026年5月のGAO裁定をめぐる法的応酬も含め、米国のAIチップ規制（ ``3A090`` ）とモデル重み規制（ ``4E091`` ）をわかりやすく紐解きます。 ``[USNE]`` ``[GAO26]``"
+
+#: ../../book/index.rst:111
+msgid ""
+":doc:`comparison` sets both countries side by side with a complete "
+"directory of **government departments, portals, exact statutory "
+"timelines, and verified phone numbers, faxes, emails, and street "
+"addresses** for getting official approval."
+msgstr ""
+":doc:`comparison` では、中米両国の制度を並べて比較するとともに、公式な許可を得るための **所管官庁、オンライン申請ポータル、法定審査期間、検証済みの電話番号・FAX・メールアドレス・所在地** を完全収録します。"
+
+#: ../../book/index.rst:112
+msgid ""
+":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
+"plain-language glossary, and all **22 primary sources** verified as of "
+"**2 November 2026**."
+msgstr ""
+":doc:`questions` と :doc:`sources` では、6つの実務シナリオ、平易な用語集、そして **2026年11月2日** 時点で検証された **全22件の一次資料** をもって本書を締めくくります。"
+
+#: ../../book/index.rst:116
+msgid ""
+"**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
+"format; we preserve the untouched original files in :doc:`sources` "
+"alongside local PDF reading copies. An unrelated organoid research "
+"presentation previously saved locally as ``china_export_control.pdf`` was "
+"excluded from our evidence."
+msgstr ""
+"**公式ファイルに関する注記：** 中国商務部は付属書1および付属書2をWPS形式で公開しました。本書では :doc:`sources` において、改変なしの原本ファイルと閲覧用PDFの双方を保存しています。なお、以前に ``china_export_control.pdf`` の名称でローカル保存されていた無関係なオルガノイド研究プレゼンテーション資料は、本書の根拠資料から除外しています。"

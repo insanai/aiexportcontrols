@@ -1,0 +1,201 @@
+# Simplified Chinese translation for book/united-states.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:43+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/united-states.rst:1
+msgid ""
+"Chapter 7 — United States export controls in plain language: BIS EAR "
+"3A090 AI chips, the January 2026 H200/MI325X rule, ECCN 4E091 model "
+"weights, and GAO Decision B-337935."
+msgstr ""
+"第7章——通俗读懂美国出口管制体系：商务部 BIS《出口管理条例》下的 3A090 算力芯片、2026年1月 H200/MI325X 审查新规、ECCN 4E091 模型权重条款，以及美国政府问责局 B-337935 号裁决。"
+
+#: ../../book/united-states.rst:5
+msgid "07. Washington's Gatekeepers: Silicon Chips and Model Weights"
+msgstr "07. 华盛顿的守门人：算力芯片与模型权重"
+
+#: ../../book/united-states.rst:8
+msgid "Guarding the Physical Engines of Global Computing"
+msgstr "扼守全球算力的物理引擎"
+
+#: ../../book/united-states.rst:11
+msgid ""
+"Cross the Pacific to Washington, D.C., and you meet the older, "
+"hardware-first half of the global border architecture. Administered by "
+"the Department of Commerce's **Bureau of Industry and Security (BIS)** "
+"under the **Export Administration Regulations (15 CFR Parts 730–774)**, "
+"the US system governs global access to **frontier computing hardware, "
+"chip-design software, and semiconductor manufacturing tools** "
+"``[EAR734]`` ``[EAR742]`` ``[EAR774]``."
+msgstr ""
+"越过太平洋来到华盛顿特区，映入眼帘的便是全球技术边界体系中历史更久、也更以物理硬件为先导的另一半版图。这套由美国商务部 **工业与安全局（BIS）** 依据 **《出口管理条例》（EAR，美国联邦法规汇编 15 CFR 第 730 至 774 部分）** 执掌的监管制度，牢牢把控着全球获取 **前沿算力硬件、芯片电子设计自动化（EDA）软件与半导体制造核心装备** 的阀门 ``[EAR734]`` ``[EAR742]`` ``[EAR774]`` 。"
+
+#: ../../book/united-states.rst:13
+msgid ""
+"Every project touching the US system faces four sequential questions:"
+msgstr "任何一个可能触及美国出口管制体系的项目，都需要按顺序回答以下四个核心问题："
+
+#: ../../book/united-states.rst:15
+msgid ""
+"**Is it subject to the EAR (Part 734)?** Every item in the US, every "
+"US-origin item worldwide, and certain *foreign-manufactured* AI chips and "
+"equipment produced using US software or fab tools under the **Foreign "
+"Direct Product Rules (734.9)** fall inside US jurisdiction. Crucially, "
+"however, **unrestricted published open-source software, published model "
+"weights, and fundamental scientific research (734.7 and 734.8) sit "
+"outside the EAR** ``[EAR734]``."
+msgstr ""
+"**第一问：是否受 EAR 管辖（第 734 部分）？** 凡位于美国境内的物项、全球范围内原产于美国的物项，以及依据 **“外国直接产品规则”（734.9）** 使用美国软件或晶圆制造设备在境外代工生产的特定 AI 芯片与装备，均落入美国长臂管辖范围。但至关重要的是， **无限制公开发布的开源软件、已公开的模型权重以及基础科学研究（734.7 与 734.8）明确处于 EAR 管辖范围之外** ``[EAR734]`` 。"
+
+#: ../../book/united-states.rst:16
+msgid ""
+"**What is its ECCN (Part 774)?** Controlled items carry codes on the "
+"Commerce Control List, notably **3A090** for advanced AI accelerators and "
+"**4E091** for certain closed frontier AI model weights ``[EAR774]``."
+msgstr ""
+"**第二问：对应的出口管制分类编码（ECCN，第 774 部分）是什么？** 受控物项在《商业管制清单》（CCL）中均配有专属代码，其中最核心的两个便是代表先进 AI 算力加速卡的 **3A090** ，以及针对特定闭源前沿大模型权重的 **4E091** ``[EAR774]`` 。"
+
+#: ../../book/united-states.rst:17
+msgid ""
+"**Where is it going (Part 742)?** Licensing turns on destination country "
+"groups."
+msgstr "**第三问：运往哪个目的地（第 742 部分）？** 是否需要申请许可证及适用何种审查标准，直接取决于目的地所属的国家组别。"
+
+#: ../../book/united-states.rst:18
+msgid ""
+"**Who is the end user, and what is the end use (Part 744)?** Shipments to "
+"parties on the **Entity List (744.11)** or supporting restricted "
+"supercomputer, advanced-node semiconductor, or weapons end uses "
+"(``744.23``, ``744.4``) require licenses even when an item would "
+"otherwise be unrestricted ``[EAR744]``."
+msgstr ""
+"**第四问：最终用户是谁、最终用途是什么（第 744 部分）？** 凡向被列入 **实体清单（744.11）** 的机构供货，或用于受限超级计算机、先进制程半导体制造及大规模杀伤性武器等最终用途（ ``744.23`` 、 ``744.4`` ），即便物项本身原本不受限，依然必须申领出口许可证 ``[EAR744]`` 。"
+
+#: ../../book/united-states.rst:20
+msgid ""
+"The January 2026 Semiconductor Rule: Permission to Knock, Not an Open Door"
+msgstr "2026 年 1 月半导体新规：只是“允许敲门”，绝非敞开大门"
+
+#: ../../book/united-states.rst:23
+msgid ""
+"For three years, high-end AI data-center chips bound for China faced "
+"presumptive denial. On **15 January 2026**, BIS issued a targeted "
+"hardware calibration (``91 FR 1684``, revising ``15 CFR 742.6(b)(10)``): "
+"qualifying exports from the United States to end users in China or Macau "
+"may apply for **case-by-case license review** rather than automatic "
+"denial if the chip sits below **Total Processing Performance (TPP) of "
+"21,000** and **total DRAM bandwidth of 6,500 GB/s** — a performance "
+"window exemplified in the rule by Nvidia's **H200** and AMD's **MI325X** "
+"``[US26]`` ``[EAR742]``."
+msgstr ""
+"在此前整整三年里，输往中国的高端数据中心 AI 芯片一律面临“推定拒绝”的铁门。 **2026 年 1 月 15 日** ，BIS 发布了一项精准校准硬件审查口径的最终规则（联邦公报 ``91 FR 1684`` ，修订 ``15 CFR 742.6(b)(10)`` ）：对于从美国直接出口至中国内地或澳门地区最终用户的特定芯片，只要其 **总处理性能（TPP）低于 21,000** 且 **总 DRAM 显存带宽低于 6,500 GB/s** ——规则正文中直接点名英伟达 **H200** 与 AMD **MI325X** 作为处于这一性能窗口的代表型号——便可申请适用 **逐案审查（case-by-case review）** ，而不再直接推定拒绝 ``[US26]`` ``[EAR742]`` 。"
+
+#: ../../book/united-states.rst:25
+msgid ""
+"Yet read the conditions carefully: case-by-case review is permission to "
+"apply, not a free pass. Applicants must certify that US domestic "
+"customers face no supply shortage, that global foundry capacity is not "
+"diverted away from US buyers, that aggregate shipments stay within strict "
+"ratios of US volume, that rigorous physical and cybersecurity KYC "
+"controls block unauthorized remote or Entity-List use, and that an "
+"**independent US-headquartered laboratory** tests and verifies the chips' "
+"performance before export ``[US26, sections I and IV]``. Third-country "
+"reexports do not automatically enjoy the same review lane."
+msgstr ""
+"然而只要细读附加条件便会明白，“逐案审查”仅仅意味着允许上前敲门递交申请，绝非免签通行证。申请人必须逐项立据证明：美国本土客户未面临任何供应短缺、全球晶圆代工产能未因此从美国买家处被挤占转移、累计对华出货量严格控制在对美交付量的限定比例之内、已部署严密的物理安防与网络安全“了解你的客户”（KYC）机制以杜绝未经授权的远程调用或实体清单主体使用，并且在芯片装运出口前须经由一家 **总部位于美国的独立第三方检测实验室** 对实际算力与带宽指标完成抽检核验 ``[US26, sections I and IV]`` 。此外，经由第三国转口的再出口交易并不自动适用这一审查通道。"
+
+#: ../../book/united-states.rst:27
+msgid "The Strange Legal Life of America's AI Model-Weight Rule (``4E091``)"
+msgstr "美国 AI 模型权重规则（ ``4E091`` ）一波三折的奇特法律命运"
+
+#: ../../book/united-states.rst:30
+msgid ""
+"When Washington tried to move from hardware chips up into **AI model "
+"weights**, it produced a remarkable three-act legal drama:"
+msgstr ""
+"当华盛顿试图将管制边界从物理芯片向上延伸至虚拟的 **人工智能模型权重** 时，却上演了一出耐人寻味的“三幕法律剧”："
+
+#: ../../book/united-states.rst:32
+msgid ""
+"**Act 1 (15 January 2025):** BIS published the **Framework for Artificial "
+"Intelligence Diffusion** (``90 FR 4544``), creating ECCN **4E091** to "
+"license exports of closed model weights trained with at least "
+":math:`10^{26}` computational operations, while **expressly excluding "
+"publicly available open-weight models** (and models below the leading "
+"open-weight benchmark) ``[US25]`` ``[EAR774, 4E091]``."
+msgstr ""
+"**第一幕（2025 年 1 月 15 日）：** BIS 公布 **《人工智能扩散框架》** 临时最终规则（ ``90 FR 4544`` ），正式增设 ECCN **4E091** 编码，对训练运算量达到 :math:`10^{26}` 次及以上的闭源前沿模型权重实施出口许可管制，同时在注释中 **明确豁免公开发布的开放权重模型** （以及性能低于当前领先开源模型基准的闭源模型） ``[US25]`` ``[EAR774, 4E091]`` 。"
+
+#: ../../book/united-states.rst:33
+msgid ""
+"**Act 2 (13 May 2025):** BIS announced it was **directing enforcement "
+"officials not to enforce** the AI Diffusion Rule pending a formal "
+"replacement rulemaking ``[USNE]``."
+msgstr ""
+"**第二幕（2025 年 5 月 13 日）：** BIS 发表官方新闻公报，宣布在正式出台替代法规之前， **指示执法部门暂停执行** 《人工智能扩散框架》规则 ``[USNE]`` 。"
+
+#: ../../book/united-states.rst:34
+msgid ""
+"**Act 3 (12 May 2026):** The Government Accountability Office (**GAO**, "
+"Decision ``B-337935``) ruled that a press release cannot repeal codified "
+"law: ``4E091`` remains printed in ``15 CFR Part 774`` (where we verified "
+"it live on ``bis.gov`` on 2 November 2026) until repealed through formal "
+"rulemaking, and BIS's blanket non-enforcement directive itself "
+"constituted a \"rule\" subject to the Congressional Review Act "
+"``[GAO26]`` ``[EAR774]``."
+msgstr ""
+"**第三幕（2026 年 5 月 12 日）：** 美国政府问责局（ **GAO** ）作出 ``B-337935`` 号正式法律裁决，认定行政机关的一纸新闻稿无权废止已编入法典的正式法规：在历经法定行政立法程序正式废止之前， ``4E091`` 条文依然白纸黑字保留在 ``15 CFR Part 774`` 之中（我们于 2026 年 11 月 2 日在 ``bis.gov`` 现行法典库中实地核验确认其仍在册），且 BIS 全面暂停执法的指令本身已构成一项须受《国会审查法》约束的“行政规则” ``[GAO26]`` ``[EAR774]`` 。"
+
+#: ../../book/united-states.rst:36
+msgid ""
+"For open-source AI, the bright silver lining across all three acts is "
+"constant: **genuinely open, unrestricted public weights sit outside US "
+"export licensing** under ``15 CFR 734.7`` and ``4E091``'s notes. What "
+"pinches open-source builders from the US side is not a ban on ``git "
+"push`` — it is the hardware licensing wall around the ``3A090`` silicon "
+"needed to train and run the largest models."
+msgstr ""
+"对于全球开源人工智能社区而言，贯穿这三幕跌宕剧情的明朗底线始终未变：依据 ``15 CFR 734.7`` 与 ``4E091`` 注释， **真正无限制公开的开放权重始终处于美国出口许可证制度之外** 。从美国一侧真正卡住开源建设者咽喉的，从来不是对 ``git push`` 的禁令，而是筑在训练与运行超大模型所必需的 ``3A090`` 算力芯片四周的那道硬件高墙。"
+
+#: ../../book/united-states.rst:38
+msgid ""
+"Two Neighboring Washington Gates: Venture Dollars and Bulk Sensitive Data"
+msgstr "华盛顿身旁另外两道闸门：跨境美元资本与大批量敏感数据"
+
+#: ../../book/united-states.rst:41
+msgid "Beside BIS stand two separate federal gatekeepers:"
+msgstr "在商务部 BIS 身旁，还并排站立着另外两位独立的联邦守门人："
+
+#: ../../book/united-states.rst:43
+msgid ""
+"**US Treasury Outbound Investment Security Program:** Since **2 January "
+"2025**, US persons funding Chinese semiconductors, quantum tech, or "
+"certain AI systems face prohibition or mandatory notification; on **22 "
+"October 2026**, Treasury opened public comments (through **7 December "
+"2026**) on proposed refinements to technical thresholds ``[TREAS]``."
+msgstr ""
+"**美国财政部“对外投资安全计划”（Outbound Investment Security Program）：** 自 **2025 年 1 月 2 日** 起，美国主体对中国半导体与微电子、量子信息技术及特定人工智能系统开展股权或特定投资，须面临禁止交易或强制申报审查； **2026 年 10 月 22 日** ，美国财政部又就拟议细化技术门槛的修订规则启动公开征求意见（截止期至 **2026 年 12 月 7 日** ） ``[TREAS]`` 。"
+
+#: ../../book/united-states.rst:44
+msgid ""
+"**US Department of Justice Data Security Program:** Restricts bulk "
+"cross-border transfers or access involving sensitive US personal data "
+"(genomic, biometric, health, financial, geolocation) and "
+"government-related data ``[DOJ]``."
+msgstr ""
+"**美国司法部“数据安全计划”（Data Security Program）：** 严格限制向受关注国家跨境批量传输或开放访问美国敏感个人数据（涵盖人类基因组、生物识别、健康医疗、个人金融及精准地理定位数据）与美国政府相关数据 ``[DOJ]`` 。"

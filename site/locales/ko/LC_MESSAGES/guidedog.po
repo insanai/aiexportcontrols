@@ -1,0 +1,99 @@
+# UI strings for site/_templates/layout.html and 404.html
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Impact of Export Controls on the Future of Open Source AI"
+msgstr "수출 통제가 오픈소스 AI의 미래에 미치는 영향"
+
+msgid "Open Source AI & Export Controls"
+msgstr "오픈소스 AI와 수출 통제"
+
+msgid "Theme"
+msgstr "테마"
+
+msgid "light"
+msgstr "라이트"
+
+msgid "dark"
+msgstr "다크"
+
+msgid "system"
+msgstr "시스템"
+
+msgid "Copy"
+msgstr "복사"
+
+msgid "Copied"
+msgstr "복사됨"
+
+msgid "Skip to content"
+msgstr "본문으로 건너뛰기"
+
+msgid "Book navigation"
+msgstr "도서 탐색"
+
+msgid "Read the Book"
+msgstr "책 읽기"
+
+msgid "40 Checkpoints"
+msgstr "40개 통제 지점"
+
+msgid "Open AI Flowcharts"
+msgstr "오픈 AI 흐름도"
+
+msgid "Contacts & Approval"
+msgstr "공식 연락처 및 허가"
+
+msgid "22 Sources"
+msgstr "22개 1차 사료"
+
+msgid "Search the book"
+msgstr "책 내용 검색"
+
+msgid "Language"
+msgstr "언어"
+
+msgid "SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF"
+msgstr "7개 언어 원어 에디션 · 웹 및 조판 A4 PDF"
+
+msgid "Read the Complete Book in Seven Languages"
+msgstr "7개 언어로 읽는 완역본 도서"
+
+msgid "Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book."
+msgstr "모든 에디션에는 전체 11개 장, 맞춤형 목판화 일러스트, 네이티브 Typst·CeTZ·Fletcher 및 Graphviz 도표, 인터랙티브 40개 통제 지점 지도, 검증된 정부 기관 연락처, 그리고 정밀 조판된 A4 PDF 도서가 수록되어 있습니다."
+
+msgid "Read Web Edition →"
+msgstr "웹 에디션 읽기 →"
+
+msgid "Footer links"
+msgstr "하단 링크"
+
+msgid "40-Technology Atlas"
+msgstr "40개 기술 통제 지도"
+
+msgid "Official Contacts & Licensing"
+msgstr "공식 연락처 및 수출 허가"
+
+msgid "22 Verified Primary Sources"
+msgstr "검증된 22개 1차 사료"
+
+msgid "GitHub Repository"
+msgstr "GitHub 저장소"
+
+msgid "Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail."
+msgstr "2026년 11월 2일 기준 중국 및 미국의 공식 1차 문헌 22건을 대조·검증했습니다. 법적 효력은 각국 원문 법령에 있습니다."
+
+msgid "Page not found"
+msgstr "페이지를 찾을 수 없습니다"
+
+msgid "That page has moved or does not exist. Choose an edition below or open the English book directly."
+msgstr "요청하신 페이지가 이동되었거나 존재하지 않습니다. 아래에서 원하는 언어판을 선택하거나 영어판 도서를 바로 열어 보세요."
+
+msgid "Open the Book (English) →"
+msgstr "도서 열기 (영어판) →"

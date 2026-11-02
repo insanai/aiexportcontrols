@@ -1,0 +1,777 @@
+# Japanese translation for book/atlas.rst
+# Copyright (C) 2026, China Export Control Research
+# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Impact of Export Controls on the Future of Open "
+"Source AI 2026.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 11:23+0000\n"
+"PO-Revision-Date: 2026-11-02 11:50+0000\n"
+"Last-Translator: China Export Control Research\n"
+"Language-Team: China Export Control Research\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../book/atlas.rst:1
+msgid ""
+"Chapter 2 — Complete 40-technology plain-language atlas of China's "
+"Announcement No. 48 Attachment 1 across AI and silicon chips (23), "
+"biomedicine (5), and solar manufacturing (12)."
+msgstr ""
+"第2章 — 中国・第48号公告の付属書1に掲げられた全40技術（AI・半導体チップ23項目、バイオ医薬5項目、太陽光発電製造12項目）を平易な言葉で網羅する技術アトラス。"
+
+#: ../../book/atlas.rst:5
+msgid "02. The Map of Forty Guarded Technologies"
+msgstr "02. 40の管理対象技術アトラス"
+
+#: ../../book/atlas.rst:8
+msgid "How Governments Measure an Idea"
+msgstr "国家はどうやって「アイデア」に物差しを当てるのか"
+
+#: ../../book/atlas.rst:11
+msgid ""
+"How do you write a law that separates a student's weekend coding project "
+"from a strategic national asset? If you write \"advanced AI and hardware "
+"are controlled,\" every calculator app and circuit board drowns in "
+"paperwork. If you name a specific company or model brand, tomorrow's "
+"rename slips straight past the gate."
+msgstr ""
+"学生が週末に書いたプログラミング課題と、国家の戦略資産とを線引きする法律は、いったいどう書けばよいのでしょうか。もし「先端AIおよびハードウェアを規制する」と曖昧に書けば、あらゆる電卓アプリや回路基板が申請書類の山に埋もれてしまいます。かといって特定の企業名やモデル名を名指しすれば、翌日に名前を変えるだけで規制の網をすり抜けてしまいます。"
+
+#: ../../book/atlas.rst:13
+msgid ""
+"Regulators solve this by drawing **numerical performance tripwires and "
+"purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps "
+"**40 distinct technology points** inside seven-character catalogue codes: "
+"**23 in artificial intelligence and AI hardware** (6 proposed prohibited, "
+"17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 "
+"restricted), and **12 in solar manufacturing** (5 prohibited, 7 "
+"restricted) — matching the official totals of **14 prohibited** and **26 "
+"restricted** technologies ``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
+msgstr ""
+"規制当局がこの難問を解く手法は、 **数値による性能基準（トリップワイヤー）と用途の境界線** を引くことです。第48号公告の付属書1において、中国政府は7桁の目録番号の内部に **40の個別技術項目** を配置しました。内訳は **人工知能およびAIハードウェアが23項目** （輸出禁止案6、輸出制限案17）、 **バイオ医薬が5項目** （禁止案3、制限案2）、 **太陽光発電製造が12項目** （禁止案5、制限案7）であり、公式発表の合計である **輸出禁止14項目・輸出制限26項目** と完全に一致します。 ``[CN48]`` ``[CN-A1]`` ``[CNQA]``"
+
+#: ../../book/atlas.rst:18
+msgid ""
+"The three frontiers of Announcement No. 48: artificial intelligence and "
+"silicon wafer architectures (left), cellular and genetic medicine "
+"platforms (center), and precision crystalline solar manufacturing (right)."
+msgstr ""
+"第48号公告が対象とする3つの最前線：人工知能およびシリコンウェハ設計（左）、細胞・遺伝子創薬プラットフォーム（中央）、精密結晶シリコン太陽光発電製造（右）。"
+
+#: ../../book/atlas.rst:20
+msgid ""
+"Because Attachment 1 nests multiple numbered points under shared codes "
+"(for instance, ``266504X`` houses two large-model points, ``266505X`` "
+"houses four AI-agent points, ``266506X`` houses four chip-design points, "
+"and ``266507X`` houses four supercluster points), counting raw table rows "
+"in the WPS file yields fewer than 40. Below, we translate all 40 points "
+"into plain language while keeping every official code (``J`` for "
+"prohibited, ``X`` for restricted) and point number intact so you can "
+"verify the Chinese original in seconds ``[CN-A1]``."
+msgstr ""
+"付属書1では1つの目録番号の下に複数の枝番項目が入れ子状に収められているため（たとえば ``266504X`` には大規模モデル2項目、 ``266505X`` にはAIエージェント4項目、 ``266506X`` には半導体設計4項目、 ``266507X`` にはスーパークラスタ4項目が含まれます）、WPSファイルの表の行数だけを数えると40行より少なくなります。以下では、中国語原文と数秒で照合できるよう、すべての公式番号（末尾 ``J`` は禁止、 ``X`` は制限）と項番をそのまま保持したうえで、全40項目を平易な日本語で解説します。 ``[CN-A1]``"
+
+#: ../../book/atlas.rst:22
+msgid "Reading the Tripwires Without Getting Tripped"
+msgstr "基準線でつまずかないための3つの読み方"
+
+#: ../../book/atlas.rst:25
+msgid "Keep three practical reading habits in mind as you explore the map:"
+msgstr "この地図を読み進めるにあたり、実務上大切な3つの視点をおさえておきましょう。"
+
+#: ../../book/atlas.rst:27
+msgid ""
+"**Spot \"any one\" versus \"all together.\"** Entry ``266504X`` Point 2 "
+"(frontier large models) triggers if *any single one* of its three tests "
+"is met: :math:`\\ge 10^{26}\\text{ FLOPs}`, *or* :math:`\\ge 2\\text{ "
+"trillion parameters}`, *or* a live Global Top-10 benchmark rank. By "
+"contrast, ``266505X`` Point 1 (planning agents) triggers only if an agent "
+"splits tasks into :math:`\\ge 20\\text{ steps}` *and* hits :math:`\\ge "
+"80\\%` decomposition accuracy *and* reaches :math:`\\ge 90\\%` subtask "
+"completion simultaneously ``[CN-A1]``."
+msgstr ""
+"**「いずれか1つ（OR）」か「すべて同時（AND）」かを見極める：** 項目 ``266504X`` 第2項（最先端大規模モデル）は、 :math:`\\ge 10^{26}\\text{ FLOPs}` 、 *または* :math:`\\ge 2\\text{ trillion parameters}` （2兆パラメータ以上）、 *または* 輸出時点での世界トップ10ランクという3条件のうち *どれか1つでも* 満たせば該当します。対照的に、 ``266505X`` 第1項（計画型エージェント）は、タスクを :math:`\\ge 20\\text{ steps}` 以上に分解し、 *かつ* 分解精度 :math:`\\ge 80\\%` 、 *かつ* サブタスク達成率 :math:`\\ge 90\\%` を同時に満たした場合にのみ該当します。 ``[CN-A1]``"
+
+#: ../../book/atlas.rst:28
+msgid ""
+"**Purpose can be half the fence.** Several severe-looking entries — such "
+"as deepfake detection at :math:`\\ge 95\\%` accuracy (``266401J``) or "
+"high-performance sensitive agents (``266502J``) — apply *only* when built "
+"specifically or mainly for national cross-border data defense, critical "
+"infrastructure, military, or core government settings. Ordinary studio "
+"tools and consumer assistants sit outside that purpose ``[CN-A1]``."
+msgstr ""
+"**「用途」がフェンスの半分を決めている：** 精度 :math:`\\ge 95\\%` のディープフェイク検知（ ``266401J`` ）や高性能機微エージェント（ ``266502J`` ）など一見厳しそうに見えるいくつかの項目は、国家の越境データ安全防衛、重要インフラ、軍事、または中核的な政務領域向けに *専用または主目的として* 構築された場合にのみ適用されます。通常の制作スタジオ用ツールや一般消費者向けアシスタントは、この用途要件の外側にあります。 ``[CN-A1]``"
+
+#: ../../book/atlas.rst:29
+msgid ""
+"**Read the hardware inside the software list.** Notice that points 18 "
+"through 23 below (``266506X`` and ``266507X``) are not chatbots at all — "
+"they are **processor chip architectures, 3D NAND and DRAM memory designs, "
+"and >10,000-card supercluster interconnects**, while Footnote 4 pulls "
+"**18 classes of physical solar machinery** into export control "
+"``[CN-A1]``."
+msgstr ""
+"**ソフトウェア目録の中に潜むハードウェアを読み取る：** 以下の18番目から23番目（ ``266506X`` および ``266507X`` ）はチャットボットではなく、 **プロセッサ・アーキテクチャ、3D NAND・DRAMメモリ設計、そして1万枚超規模のスーパークラスタ相互接続技術** です。さらに注4は **物理的な太陽光発電製造装置18分類** を直接輸出管理の対象に引き入れています。 ``[CN-A1]``"
+
+#: ../../book/atlas.rst:33
+msgid "Artificial Intelligence, Chips & Superclusters (23 Checkpoints)"
+msgstr "人工知能・半導体チップ・スーパークラスタ（23項目）"
+
+#: ../../book/atlas.rst:38
+msgid ""
+"**266401J · Point 1 — Cross-border security deepfake detection** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**266401J · 第1項 — 越境データ安全防衛向けディープフェイク検知** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:40
+msgid ""
+"High-grade detection systems and equipment know-how built mainly to guard "
+"China's cross-border network-data security, achieving at least 95% "
+"accuracy and 95% recall across deepfake video, audio, images, or "
+"multimodal media. Ordinary consumer media checkers outside this "
+"national-security purpose are not the target."
+msgstr ""
+"中国の越境ネットワーク・データ安全を守ることを主目的に構築され、ディープフェイク映像・音声・画像・マルチモーダル媒体に対して正解率95％以上かつ再現率95％以上を達成する高精度検知システムおよび装置製造技術です。この国家安全保障用途にあたらない一般向けのメディア真偽判定ツールは対象外です。"
+
+#: ../../book/atlas.rst:44
+msgid ""
+"**266402J · Point 1 — Autonomous malware generation and mutation** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**266402J · 第1項 — 自律型マルウェア生成・変異技術** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:46
+msgid ""
+"AI that autonomously writes or mutates malicious code capable of striking "
+"critical infrastructure, defense systems, or core government networks, "
+"hitting listed attack-success rates (at least 60% against multi-engine "
+"scanners, 85% against mainstream antivirus, or 90% against ML detectors). "
+"Everyday coding assistants are not covered."
+msgstr ""
+"重要インフラ、防衛システム、または中核的な政府ネットワークを攻撃し得る悪性コードを自律的に生成・変異させ、所定の攻撃成功率（マルチエンジン検査に対し60％以上、主要アンチウイルスに対し85％以上、機械学習検知器に対し90％以上）に達するAI技術です。日常的なコーディング支援AIは対象外です。"
+
+#: ../../book/atlas.rst:50
+msgid ""
+"**266402J · Point 2 — Self-adapting cyber-evasion AI** *(Proposed "
+"Prohibited)*"
+msgstr ""
+"**266402J · 第2項 — 環境適応型の検知回避サイバーAI** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:52
+msgid ""
+"Offensive AI built for sensitive national-security targets that senses "
+"sandboxes, debuggers, or emulators to escape them, or automatically "
+"rewrites at least 50% of its code structure or control flow on every run "
+"while keeping its payload intact."
+msgstr ""
+"国家安全保障上の機微領域を標的とし、サンドボックス・デバッガ・エミュレータ環境を検知して回避するか、攻撃ペイロードを維持したまま実行ごとにコード構造または制御フローの50％以上を自動的に書き換える攻撃型AI技術です。"
+
+#: ../../book/atlas.rst:56
+msgid ""
+"**266402J · Point 3 — Mass automated evasion-variant swarms** *(Proposed "
+"Prohibited)*"
+msgstr ""
+"**266402J · 第3項 — 回避型マルウェア亜種の大量自動生成・展開** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:58
+msgid ""
+"Technology for sensitive cyber operations that mass-produces and deploys "
+"evasive malware variants at scale: generating 20+ structurally distinct "
+"variants at once (or 80%+ end-to-end automation), 10+ daily variants with "
+"30%+ syntax-tree divergence, or 90%+ behavioral consistency inside "
+"sandboxes."
+msgstr ""
+"機微なサイバー作戦向けに回避型マルウェア亜種を大量生成・配備する技術です。構造の異なる20種以上の亜種の同時生成（またはエンドツーエンド自動化率80％以上）、構文木差異30％以上での日次10種以上の亜種生成、またはサンドボックス内での挙動一貫性90％以上のいずれかを満たすものが該当します。"
+
+#: ../../book/atlas.rst:62
+msgid ""
+"**266501J · Point 1 — Large models trained on China's Core Data** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**266501J · 第1項 — 中国のコアデータで学習された大規模モデル** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:64
+msgid ""
+"Large AI models trained using China's legally designated *Core Data* (the "
+"highest national-security tier under the Data Security Law) and offered "
+"as services. What triggers this red line is the legal category of "
+"training data, never a company's brand name."
+msgstr ""
+"データセキュリティ法上の最高機密区分である法定の *コアデータ（核心データ）* を用いて学習され、サービス提供される大規模AIモデルです。このレッドラインを決めるのは学習データの法的区分であり、企業のブランド名ではありません。"
+
+#: ../../book/atlas.rst:68
+msgid ""
+"**266502J · Point 1 — High-performance agents for critical or defense "
+"settings** *(Proposed Prohibited)*"
+msgstr ""
+"**266502J · 第1項 — 重要インフラ・防衛領域特化の高性能AIエージェント** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:70
+msgid ""
+"AI agents built specifically or mainly for critical infrastructure, "
+"national defense, or core government operations that also reach the "
+"high-capability benchmarks defined in ``266505X``. General-purpose "
+"productivity or coding agents do not fall here."
+msgstr ""
+"重要インフラ、国防、または中核的な政務運用のために専用または主目的として構築され、かつ ``266505X`` に定める高性能基準を満たすAIエージェントです。汎用的な業務効率化エージェントやコーディングエージェントは該当しません。"
+
+#: ../../book/atlas.rst:74
+msgid ""
+"**266402X · Point 8 — Ultra-high-accuracy deepfake detection (98%+)** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266402X · 第8項 — 超高精度ディープフェイク検知（98％以上）** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:76
+msgid ""
+"Deepfake detection systems and equipment-manufacturing know-how for "
+"video, audio, images, or multimodal content reaching both accuracy and "
+"recall of at least 98%, regardless of whether used for border-data "
+"defense."
+msgstr ""
+"越境データ防衛用途であるか否かを問わず、映像・音声・画像・マルチモーダルコンテンツに対して正解率・再現率ともに98％以上を達成するディープフェイク検知システムおよび関連装置の製造技術です。"
+
+#: ../../book/atlas.rst:80
+msgid ""
+"**266402X · Point 9 — Near-invisible video and image steganography** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266402X · 第9項 — 不可視性の高い画像・映像ステガノグラフィ** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:82
+msgid ""
+"Hiding and extracting secret data inside images or video only when all "
+"three benchmarks are met together: high survival under distortion "
+"(bit-error <=0.5% or recall >=99.9%), false-alarm rate <=0.1%, and "
+"near-total invisibility to human eyes (SSIM >=0.999, PSNR >=41 dB, or "
+"LPIPS <=0.005)."
+msgstr ""
+"画像や映像の内部に秘密情報を埋め込み・抽出する技術のうち、劣化耐性（ビット誤り率0.5％以下または抽出再現率99.9％以上）、誤検知率0.1％以下、および人間の視覚に対するほぼ完全な不可視性（SSIM 0.999以上、PSNR 41 dB以上、またはLPIPS 0.005以下）の3条件すべてを同時に満たすものです。"
+
+#: ../../book/atlas.rst:86
+msgid ""
+"**266404X · Point 6 — AI-assisted zero-day and exploit discovery** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266404X · 第6項 — AI支援によるゼロデイ脆弱性・エクスプロイト探索** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:88
+msgid ""
+"Cybersecurity AI meeting any of six high bars: >=75% on top exploit "
+"benchmarks; building full exploit chains (>=50% on major OS/browsers or "
+">=40% arbitrary code execution); 10x speed over senior human researchers; "
+"chaining 2+ low/medium bugs into working PoC attacks; finding 5+ critical "
+"or 50+ new bugs in a major OS or open-source project in one pass; or "
+"reaching the top tier of mainstream exploit scales."
+msgstr ""
+"次の6基準のいずれかを満たすサイバーセキュリティAIです。主要脆弱性ベンチマークで75％以上、完全なエクスプロイト連鎖構築（主要OS・ブラウザで50％以上または任意コード実行40％以上）、上級研究者の10倍以上の速度、2件以上の低・中リスク脆弱性の連結による実証攻撃（PoC）生成、主要OSや大型オープンソースソフトからの1回の走査での重大脆弱性5件以上または新規脆弱性50件以上の発見、あるいは主要評価指標の最上位水準到達。"
+
+#: ../../book/atlas.rst:92
+msgid ""
+"**266501X · Point 19 — High-speed, anti-spoof or dialect voiceprint ID** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266501X · 第19項 — 高速・なりすまし耐性・方言対応の声紋認証** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:94
+msgid ""
+"Speaker-identification algorithms and systems hitting any one of four "
+"bars: >=99.1% true-match rate at <=0.01% false positives on short clips; "
+"<=300 ms latency at >=100 requests/sec; >=98% spoof detection (or <=1% "
+"false acceptance) against replay and synthetic voices; or >=90% accuracy "
+"tailored to Chinese minority languages or regional dialects."
+msgstr ""
+"次の4基準のいずれかを満たす話者識別アルゴリズム・システムです。短時間音声での誤受入率0.01％以下かつ本人一致率99.1％以上、毎秒100リクエスト以上での応答遅延300ミリ秒以下、録音再生・合成音声に対するなりすまし検知率98％以上（または誤受入率1％以下）、あるいは中国の少数民族言語・地域方言に特化して精度90％以上を達成するもの。"
+
+#: ../../book/atlas.rst:98
+msgid ""
+"**266501X · Point 20 — Chinese and minority-language machine "
+"translation** *(Proposed Restricted)*"
+msgstr ""
+"**266501X · 第20項 — 中国語・少数民族言語向け高精度機械翻訳** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:100
+msgid ""
+"Translation technology built mainly for Chinese and China's "
+"ethnic-minority languages that achieves either a human quality score "
+"(MOS) of at least 4.8, or >=95% semantic fidelity paired with BLEU >=35 "
+"in general text (or BLEU >=30 in specialist domains)."
+msgstr ""
+"主に中国語および中国の少数民族言語向けに構築された機械翻訳技術のうち、主観品質評価（MOS）4.8以上、または意味忠実度95％以上かつ一般文書でBLEU 35以上（専門分野ではBLEU 30以上）を達成するものです。"
+
+#: ../../book/atlas.rst:104
+msgid ""
+"**266504X · Point 1 — Large models trained on China's Important Data** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266504X · 第1項 — 中国の重要データで学習された大規模モデル** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:106
+msgid ""
+"Large models trained on legally defined *Important Data* and offered as "
+"services. Crucially, Note 1 carves out trace use (<=0.1%) when sanitized "
+"so the data neither boosts core domain R&D capability nor reappears in "
+"outputs, as well as data lawfully obtainable from public sources."
+msgstr ""
+"法的に定義された *重要データ* を用いて学習され、サービス提供される大規模モデルです。重要な点として、注1により、洗浄処理済みで当該分野の中核的な研究開発能力を押し上げず出力にも再出現しない微量利用（0.1％以下）、および公開情報源から適法に取得可能なデータは対象外とされています。"
+
+#: ../../book/atlas.rst:110
+msgid ""
+"**266504X · Point 2 — Frontier large-model core technology** *(Proposed "
+"Restricted)*"
+msgstr ""
+"**266504X · 第2項 — 最先端大規模モデルの中核技術** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:112
+msgid ""
+"The heart of the AI model rule: covers weights, key checkpoints, "
+"underlying source code, architecture, training optimization, and "
+"inference acceleration if ANY ONE test is met: >=10^26 training FLOPs, "
+">=2 trillion parameters, or a Global Top-10 public ranking at export "
+"time. Open-source releases qualify for Footnote 2 automatic-licensing "
+"facilitation."
+msgstr ""
+"AIモデル規制の中核項目です。学習計算量 10^26 FLOPs以上、パラメータ数2兆以上、または輸出時点での公開評価における世界トップ10ランクのうち「いずれか1つ」でも満たす場合、モデルの重み、主要チェックポイント、基盤ソースコード、アーキテクチャ、学習最適化、推論高速化技術が対象となります。オープンソース公開には注2の自動許可・円滑化措置が適用されます。"
+
+#: ../../book/atlas.rst:116
+msgid ""
+"**266505X · Point 1 — Long-horizon autonomous planning agents** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266505X · 第1項 — 長期タスク自律計画型AIエージェント** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:118
+msgid ""
+"Task-planning technology that breaks natural-language instructions into "
+"chains of 20 or more executable subtasks while hitting at least 80% "
+"decomposition accuracy and at least 90% average subtask completion. All "
+"three numbers must be met together."
+msgstr ""
+"自然言語の指示を実行可能な20ステップ以上のサブタスク連鎖へと分解し、分解精度80％以上かつサブタスク平均達成率90％以上を達成するタスク計画技術です。3つの数値基準すべてを同時に満たす場合に該当します。"
+
+#: ../../book/atlas.rst:122
+msgid ""
+"**266505X · Point 2 — 60-agent collaborative orchestration** *(Proposed "
+"Restricted)*"
+msgstr ""
+"**266505X · 第2項 — 60体以上のマルチエージェント協調オーケストレーション** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:124
+msgid ""
+"Multi-agent coordination frameworks running 60 or more concurrent AI "
+"agents at once, finishing work in no more than twice the fastest "
+"single-agent time for equivalent quality, and reaching >=85% agreement "
+"with ground-truth answers."
+msgstr ""
+"60体以上のAIエージェントを同時に協調稼働させ、同等品質の単一エージェント最速処理時間の2倍以内でタスクを完了し、かつ正解との一致率85％以上を達成するマルチエージェント制御基盤です。"
+
+#: ../../book/atlas.rst:128
+msgid ""
+"**266505X · Point 3 — 200-tool operating agents** *(Proposed Restricted)*"
+msgstr ""
+"**266505X · 第3項 — 200種以上の外部ツールを操作するAIエージェント** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:130
+msgid ""
+"Tool-use and system-operation technology supporting 200+ integrated "
+"third-party tools, picking the right tool at least 90% of the time, and "
+"succeeding at least 90% end-to-end on complex tasks that chain three or "
+"more distinct tools."
+msgstr ""
+"200種以上の外部サードパーティ製ツールを統合制御し、適切なツール選択精度90％以上、かつ3種以上の異なるツールを連鎖させる複合タスクでエンドツーエンド成功率90％以上を達成するシステム操作エージェント技術です。"
+
+#: ../../book/atlas.rst:134
+msgid ""
+"**266505X · Point 4 — Real-time strategic game and decision agents** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266505X · 第4項 — リアルタイム戦略ゲーム・意思決定エージェント** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:136
+msgid ""
+"Strategic AI meeting all three criteria at once: >=20 planning steps (or "
+">=10 concurrent agents); adaptive sub-200 ms decisions across >=10 "
+"control units in dynamic environments; and outperforming 90% of human "
+"players on standard strategic benchmarks."
+msgstr ""
+"次の3条件を同時に満たす戦略意思決定AIです。計画ステップ数20以上（または同時エージェント10体以上）、動的環境における10以上の制御ユニットに対する200ミリ秒未満の適応的意思決定、および標準的な戦略ベンチマークで人間のプレイヤーの90％を上回る成績。"
+
+#: ../../book/atlas.rst:140
+msgid ""
+"**266506X · Point 1 — AI processor architecture, instruction sets & IP "
+"cores** *(Proposed Restricted)*"
+msgstr ""
+"**266506X · 第1項 — AIプロセッサ・アーキテクチャ、命令セットおよびIPコア** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:142
+msgid ""
+"AI processor design technology covering custom architectures, instruction "
+"sets, compute IP cores, and base software stacks meeting any listed "
+"trait, including <=14 nm process need, floating-point or integer compute "
+"capability, 2.5D/3D chiplet packaging, high-speed interconnects, "
+"non-von-Neumann / compute-in-memory designs, or named "
+"vision/voice/driving uses. Footnote 2 offers automatic-licensing "
+"facilitation for overseas foundry tape-outs."
+msgstr ""
+"14 nm以下のプロセス要件、浮動小数点・整数演算機能、2.5D / 3Dチップレット実装、高速相互接続、非ノイマン型・メモリ内演算設計、または画像・音声・自動運転用途など、列挙された特性のいずれかを満たす独自アーキテクチャ、命令セット、演算IPコア、基盤ソフトウェアスタック等のAIプロセッサ設計技術です。海外ファウンドリでのテープアウト製造には注2の自動許可・円滑化措置が提供されます。"
+
+#: ../../book/atlas.rst:146
+msgid ""
+"**266506X · Point 2 — Advanced 3D NAND flash and stacked DRAM / HBM chip "
+"design** *(Proposed Restricted)*"
+msgstr ""
+"**266506X · 第2項 — 先端3D NANDフラッシュおよび積層DRAM / HBMメモリ設計** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:148
+msgid ""
+"3D NAND flash memory design hitting >=8 Gb/mm2 density, >=1.5 Gbps I/O "
+"speed, or wafer bonding; or DRAM memory design using <=18 nm lithography, "
+"vertical-channel transistors, bonding, or multi-layer HBM-style wafer/die "
+"stacking."
+msgstr ""
+"記録密度 8 Gb/mm2 以上、I/O速度 1.5 Gbps 以上、またはウェハ接合を用いる3D NANDフラッシュメモリ設計技術、ならびに 18 nm 以下のリソグラフィ、垂直チャネル型トランジスタ、接合技術、またはHBM型の多層ウェハ・ダイ積層を用いるDRAMメモリ設計技術です。"
+
+#: ../../book/atlas.rst:152
+msgid ""
+"**266507X · Point 1 — Ultra-fast 10,000-GPU cluster interconnects** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266507X · 第1項 — 1万枚超GPUクラスタ向け超高速相互接続技術** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:154
+msgid ""
+"Chip-to-chip or node-to-node interconnect technology delivering "
+"bidirectional bandwidth of at least 800 GB/s inside giant AI compute "
+"clusters of more than 10,000 accelerator cards."
+msgstr ""
+"アクセラレータカード1万枚超で構成される超大型AI計算クラスタにおいて、双方向帯域幅 800 GB/s 以上を実現するチップ間またはノード間高速相互接続（インターコネクト）技術です。"
+
+#: ../../book/atlas.rst:158
+msgid ""
+"**266507X · Point 2 — Rapid fault recovery in 10,000-card training** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266507X · 第2項 — 1万枚超クラスタ学習における高速障害復旧技術** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:160
+msgid ""
+"Distributed-training resilience in >10,000-card clusters meeting any bar: "
+"checkpoint recovery (MTTR) <=120 seconds, seamless task migration with "
+"<=30 seconds of visible interruption, or <=5% effective GPU compute lost "
+"to network faults."
+msgstr ""
+"1万枚超規模のクラスタにおける分散学習の耐障害技術のうち、チェックポイント復旧時間（MTTR）120秒以内、体感中断30秒以内のシームレスなタスク移行、またはネットワーク障害による実効GPU計算損失5％以下のいずれかを達成するものです。"
+
+#: ../../book/atlas.rst:164
+msgid ""
+"**266507X · Point 3 — Microsecond cluster communication scheduling** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266507X · 第3項 — マイクロ秒級のクラスタ通信スケジューリング** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:166
+msgid ""
+"Communication scheduling for >10,000-card AI clusters achieving either "
+">=98% linear scaling, dynamic topology-aware routing with <=1 microsecond "
+"end-to-end latency, or >=90% overlap hiding communication behind "
+"computation."
+msgstr ""
+"1万枚超規模のAIクラスタにおいて、98％以上の線形スケーリング効率、エンドツーエンド遅延1マイクロ秒以下の動的トポロジ認識ルーティング、または通信を演算の裏に隠蔽するオーバーラップ率90％以上のいずれかを達成する通信スケジューリング技術です。"
+
+#: ../../book/atlas.rst:170
+msgid ""
+"**266507X · Point 4 — Mixed-vendor and cross-region GPU orchestration** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**266507X · 第4項 — 異種ベンダー統合・複数拠点横断GPUオーケストレーション** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:172
+msgid ""
+"Software and ops know-how uniting AI chips from two or more different "
+"hardware vendors inside >10,000-card clusters, hitting listed "
+"high-bandwidth, throughput (+30%), card-utilization (+65%), cost-drop "
+"(-20%), 99.9% uptime, or >=80% cross-data-center training efficiency "
+"marks."
+msgstr ""
+"1万枚超規模のクラスタ内で2社以上の異なるハードウェアベンダーのAIチップを統合運用するソフトウェア・運用技術のうち、所定の高帯域、スループット向上（+30％）、カード稼働率（65％以上）、コスト削減（-20％）、稼働率99.9％、またはデータセンター間横断学習効率80％以上などの基準を満たすものです。"
+
+#: ../../book/atlas.rst:174
+msgid "Biomedicine & Gene Platforms (5 Checkpoints)"
+msgstr "バイオ医薬・遺伝子創薬プラットフォーム（5項目）"
+
+#: ../../book/atlas.rst:179
+msgid ""
+"**262704J · Point 1 — Reusable cell and gene therapy (CGT) platforms** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**262704J · 第1項 — 汎用的な細胞・遺伝子治療（CGT）創薬プラットフォーム** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:181
+msgid ""
+"Chinese-owned foundational platforms capable of generating multiple cell "
+"or gene therapies. Crucially, only selling ownership abroad is "
+"prohibited: out-licensing, CRO/CDMO contract manufacturing, and tech "
+"needed to develop, test, or market a specific individual medicine remain "
+"outside the ban."
+msgstr ""
+"複数の細胞・遺伝子治療薬を継続的に創製できる中国保有の基盤プラットフォーム技術です。重要な点として、禁止されるのは基盤の「所有権」を海外へ売却することのみであり、ライセンス導出、CRO / CDMOへの研究開発・製造委託、および特定の新薬候補の開発・治験・承認・販売に必要な技術は禁止対象外です。"
+
+#: ../../book/atlas.rst:185
+msgid ""
+"**262705J · Point 1 — Reusable siRNA drug-making platforms** *(Proposed "
+"Prohibited)*"
+msgstr ""
+"**262705J · 第1項 — 汎用的なsiRNA（低分子干渉RNA）創薬プラットフォーム** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:187
+msgid ""
+"Chinese-owned foundational small-interfering RNA (siRNA) platforms, "
+"governed by the exact same boundary: transferring ownership of the "
+"reusable engine abroad is barred, while licensing deals, contract "
+"R&D/production, and single-drug partnerships stay open."
+msgstr ""
+"中国保有の汎用的な低分子干渉RNA（siRNA）創薬基盤であり、CGTと全く同じ境界線が適用されます。すなわち、汎用基盤そのものの所有権を海外へ移転することは禁じられる一方、ライセンス契約、委託研究開発・受託製造、個別医薬品ごとの国際提携は開かれています。"
+
+#: ../../book/atlas.rst:191
+msgid ""
+"**267302J · Point 1 — Pathogen enhancement and directed evolution** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**267302J · 第1項 — 病原体の機能増強および指向性進化技術** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:193
+msgid ""
+"Biosecurity red line covering artificial genetic modification or "
+"controlled serial-passage techniques that enhance pathogen function, "
+"sustain virulence at scale, or accelerate evolutionary adaptation. "
+"Routine medical diagnostics and vaccine care are unaffected."
+msgstr ""
+"病原体の機能増強、大規模培養における強毒性の維持、または進化適応の加速をもたらす人工遺伝子改変や管理下での継代培養手法を封じるバイオセキュリティ上のレッドラインです。通常の医療診断やワクチン診療には影響しません。"
+
+#: ../../book/atlas.rst:197
+msgid ""
+"**262705X · Point 1 — Discovery of unseen cell and gene therapy targets** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**262705X · 第1項 — 細胞・遺伝子治療における未公開新規標的の発見・検証** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:199
+msgid ""
+"Chinese-owned methods for finding and validating wholly new therapeutic "
+"targets never previously disclosed anywhere in the world via patents, "
+"journals, public databases, or conferences. Footnote 3 offers "
+"automatic-licensing facilitation for overseas licensing, joint R&D, and "
+"public-health emergencies."
+msgstr ""
+"特許、学術誌、公開データベース、学会等を通じて世界のどこでもいまだ開示されていない全く新しい治療標的を発見・検証する中国保有技術です。海外へのライセンス導出、国際共同研究、および公衆衛生危機対応には注3の自動許可・円滑化措置が適用されます。"
+
+#: ../../book/atlas.rst:203
+msgid ""
+"**262706X · Point 1 — Discovery of unseen siRNA drug targets** *(Proposed "
+"Restricted)*"
+msgstr ""
+"**262706X · 第1項 — siRNA医薬における未公開新規標的の発見・検証** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:205
+msgid ""
+"Chinese-owned methods for screening and locking in wholly new, globally "
+"undisclosed siRNA drug targets, paired with the same Footnote 3 "
+"fast-track facilitation for international licensing, collaborative "
+"research, and humanitarian health responses."
+msgstr ""
+"世界で未開示の全く新しいsiRNA創薬標的をスクリーニング・確定する中国保有技術であり、同じく国際ライセンス導出、共同研究、人道的保健対応に対して注3の自動許可ファストトラックが用意されています。"
+
+#: ../../book/atlas.rst:207
+msgid "Solar Silicon, Wafers & Factory Machinery (12 Checkpoints)"
+msgstr "太陽光シリコン・ウェハ・製造装置（12項目）"
+
+#: ../../book/atlas.rst:212
+msgid ""
+"**263003J · Point 1 — Mega-scale cold-hydrogenation polysilicon lines** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**263003J · 第1項 — 超大型の冷水素化ポリシリコン製造プロセス** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:214
+msgid ""
+"Cold-hydrogenation fluidized-bed recipes and equipment-making know-how "
+"capable of producing at least 250,000 tonnes of trichlorosilane per "
+"single line each year."
+msgstr ""
+"単一生産ラインあたり年間25万トン以上のトリクロロシランを製造可能な冷水素化流動床プロセス技術および関連装置の製造ノウハウです。"
+
+#: ../../book/atlas.rst:218
+msgid ""
+"**263003J · Point 2 — High-capacity silane fluidized-bed processes** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**263003J · 第2項 — 大容量シラン流動床ポリシリコン製造プロセス** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:220
+msgid ""
+"Silane fluidized-bed chemical recipes and equipment-making technology "
+"with single-line output of at least 20,000 tonnes per year."
+msgstr ""
+"単一生産ラインあたり年間2万トン以上の生産能力を持つシラン流動床化学プロセスおよび関連装置の製造技術です。"
+
+#: ../../book/atlas.rst:224
+msgid ""
+"**263004J · Point 1 — Paper-thin 70-micrometer silicon wafers** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**263004J · 第1項 — 紙より薄い70マイクロメートル以下のシリコンウェハ切断技術** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:226
+msgid ""
+"Know-how and machine-building technology for slicing solar silicon wafers "
+"70 micrometers thick or thinner (roughly the width of a human hair), "
+"explicitly including control software, underlying algorithms, and "
+"engineering drawings."
+msgstr ""
+"太陽光発電用シリコンウェハを厚さ70マイクロメートル以下（人間の髪の毛ほどの薄さ）にスライスする加工ノウハウおよび装置製造技術であり、制御ソフトウェア、基盤アルゴリズム、機械設計図面が明示的に含まれます。"
+
+#: ../../book/atlas.rst:230
+msgid ""
+"**263801J · Point 1 — Edge passivation for thin large-format cells** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**263801J · 第1項 — 大判・薄型太陽電池セル向け端部パッシベーション技術** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:232
+msgid ""
+"Solar-dedicated edge-passivation processes and toolmaking know-how when "
+"used on 182 to 230 mm crystalline-silicon wafers that are 140 micrometers "
+"thick or thinner."
+msgstr ""
+"厚さ140マイクロメートル以下、寸法182〜230 mmの結晶シリコンウェハに適用される太陽光発電専用の端部パッシベーション（表面不活性化）プロセスおよび装置製造ノウハウです。"
+
+#: ../../book/atlas.rst:236
+msgid ""
+"**263801J · Point 2 — 30%-efficient perovskite and tandem solar tech** "
+"*(Proposed Prohibited)*"
+msgstr ""
+"**263801J · 第2項 — 変換効率30％以上のペロブスカイト・タンデム太陽電池技術** *（輸出禁止案）*"
+
+#: ../../book/atlas.rst:238
+msgid ""
+"Next-generation solar manufacturing across four benchmarks: "
+">=30%-efficient mass-produced silicon-perovskite tandem cells (>=182 mm); "
+">=1.1 m wide slot-die coating; >=18%-efficient single-junction perovskite "
+"modules (>=1 m2); or >=28%-efficient tandem modules (>=1 m2)."
+msgstr ""
+"次の4基準のいずれかに該当する次世代太陽電池製造技術です。変換効率30％以上の量産型シリコン・ペロブスカイト積層（タンデム）セル（182 mm以上）、塗布幅1.1 m以上のスロットダイ成膜技術、変換効率18％以上の大面積（1 m2以上）単接合ペロブスカイトモジュール、または変換効率28％以上の大面積（1 m2以上）タンデムモジュール。"
+
+#: ../../book/atlas.rst:242
+msgid ""
+"**263004X · Point 1 — 30,000-tonne polysilicon plant engineering** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**263004X · 第1項 — 年産3万トン以上のポリシリコン・プラント設計技術** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:244
+msgid ""
+"Complete plant-engineering packages, factory blueprints, and equipment "
+"designs for single-line polysilicon lines producing 30,000 tonnes or more "
+"per year."
+msgstr ""
+"単一ラインで年間3万トン以上を生産するポリシリコン製造ラインのプラントエンジニアリング一式、工場設計図、および装置設計技術です。"
+
+#: ../../book/atlas.rst:248
+msgid ""
+"**263004X · Point 2 — 800-tonne-per-furnace reduction processes** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**263004X · 第2項 — 単炉あたり年産800トン以上の還元炉プロセス** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:250
+msgid ""
+"High-yield reduction furnace recipes and equipment-manufacturing "
+"technology turning out at least 800 tonnes of polysilicon per single "
+"furnace each year."
+msgstr ""
+"還元炉1基あたり年間800トン以上のポリシリコンを生産する高収率還元炉プロセスおよび装置製造技術です。"
+
+#: ../../book/atlas.rst:254
+msgid ""
+"**263005X · Point 1 — Large-chamber monocrystalline silicon pullers** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**263005X · 第1項 — 大口径チャンバー単結晶シリコン引上げ炉** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:256
+msgid ""
+"Solar ingot crystal-growing furnace designs hitting any listed mark: "
+"chamber inner diameter >=1,600 mm, thermal field >=35 inches, pull speed "
+">=1.2 mm/min, or equal-diameter power draw <=40 kW."
+msgstr ""
+"炉室内径 1,600 mm 以上、ホットゾーン（熱場）35インチ以上、引上げ速度 1.2 mm/分以上、または等径工程の消費電力 40 kW 以下のいずれかを満たす太陽光用単結晶インゴット引上げ炉の設計・製造技術です。"
+
+#: ../../book/atlas.rst:260
+msgid ""
+"**263005X · Point 2 — Long silicon-ingot cutting and grinding** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**263005X · 第2項 — 長尺シリコンインゴットの切断・研削加工技術** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:262
+msgid ""
+"Half-ingot cropping/grinding processes or precision machining and "
+"toolmaking know-how for solar silicon ingots 720 mm or longer."
+msgstr ""
+"ハーフインゴットの切断・研削プロセス、または長さ720 mm以上の太陽光用シリコンインゴットに対する精密機械加工および装置製造ノウハウです。"
+
+#: ../../book/atlas.rst:266
+msgid ""
+"**263005X · Point 3 — Rectangular or 130-micrometer thin-wafer slicing** "
+"*(Proposed Restricted)*"
+msgstr ""
+"**263005X · 第3項 — 矩形ウェハまたは130マイクロメートル以下の薄型ウェハ切断** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:268
+msgid ""
+"Manufacturing know-how for rectangular solar wafers (>=182 mm on any "
+"side) or thin wafers (<=130 micrometers) using <=28-micrometer tungsten "
+"wire saws or high-speed spindles (>=6,500 rpm) and compact roller "
+"geometry."
+msgstr ""
+"1辺182 mm以上の矩形太陽光ウェハ、または線径28マイクロメートル以下のタングステン・ワイヤーソーや高速スピンドル（6,500 rpm以上）・コンパクトローラー構造を用いた厚さ130マイクロメートル以下の薄型ウェハ製造ノウハウです。"
+
+#: ../../book/atlas.rst:272
+msgid ""
+"**263802X · Point 1 — High-efficiency TOPCon and back-contact (XBC) "
+"cells** *(Proposed Restricted)*"
+msgstr ""
+"**263802X · 第1項 — 高効率TOPConおよびバックコンタクト（XBC）太陽電池セル** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:274
+msgid ""
+"Six industrial process families (LPCVD/PECVD tunnel oxide, fast ALD "
+"passivation, boron diffusion, copper plating, microcrystalline "
+"deposition, and XBC plating) on 182 to 230 mm wafers <=140 micrometers "
+"thick for >=25%-efficient cells or >=22.3% modules."
+msgstr ""
+"厚さ140マイクロメートル以下・寸法182〜230 mmのウェハを用い、変換効率25％以上のセルまたは22.3％以上のモジュールを実現する6つの工業プロセス群（LPCVD / PECVDトンネル酸化膜、高速ALDパッシベーション、ボロン拡散、銅めっき、微結晶成膜、およびXBCめっき）です。"
+
+#: ../../book/atlas.rst:278
+msgid ""
+"**263802X · Point 2 — High-efficiency heterojunction (HJT) cell "
+"processes** *(Proposed Restricted)*"
+msgstr ""
+"**263802X · 第2項 — 高効率ヘテロ接合（HJT）太陽電池セル製造プロセス** *（輸出制限案）*"
+
+#: ../../book/atlas.rst:280
+msgid ""
+"Four HJT manufacturing families covering low-indium (<=50%) or ultra-fast "
+"TCO coating, crystalline-silicon film deposition on <=110-micrometer "
+"wafers, low-silver (<=30%) silver-coated copper pastes, and copper-plated "
+"HJT electrodes."
+msgstr ""
+"低インジウム（50％以下）または超高速TCO成膜、厚さ110マイクロメートル以下のウェハへの結晶シリコン薄膜堆積、低銀比率（30％以下）の銀コート銅ペースト、および銅めっきHJT電極を網羅する4つのHJT製造プロセス群です。"

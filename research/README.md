@@ -1,17 +1,17 @@
-# Evidence record
+# Evidence Record
 
-Research date: 2 November 2026.
+Research verification date: **2 November 2026**.
 
-We use official Chinese and US government sources for legal claims, the original publishers for model-release examples, and the Open Source Initiative for its own definition. `sources.json` gives dates, locations, retrieval status and SHA-256 hashes. A successful download does not itself establish a legal conclusion; the chapters identify which parts support each claim.
+Every statutory rule, performance tripwire, date, working-day deadline, portal URL, telephone number, fax, email, and street/room address in *Impact of Export Controls on the Future of Open Source AI* is backed by the **22 primary sources** archived in `research/snapshots/` and indexed with SHA-256 digests in `research/sources.json` (copied to `sources/sources.json` for public verification).
 
-`announcement-48-attachment-1.wps` and `announcement-48-attachment-2.wps` are unchanged official downloads. Their byte-identical public copies are in `public/sources`. `attachment-1.txt` and `attachment-2.txt` are antiword extractions used for reading. `attachment-1-reading.txt` joins wrapped table cells and is an editorial convenience. The original WPS is authoritative. The public PDFs were converted locally with LibreOffice 25.2.3.2; pagination differs from the WPS metadata.
+## Key Primary Records Archived
 
-The official announcement's central article text was printed locally with Chromium. The reading copy identifies the official URL and conversion date. The US rule PDFs were downloaded without conversion; `pdf-provenance.json` records their origin and hashes.
+1. **China Announcement No. 48 & Attachments (`CN48`, `CN-A1`, `CN-A2`, `CNQA`):** Unchanged official WPS downloads (`announcement-48-attachment-1.wps` and `announcement-48-attachment-2.wps`), official MOFCOM HTML snapshots, and LibreOffice PDF reading copies.
+2. **China Licensing Statutes & Portal (`CNTIER`, `CNMEAS`, `CNPLAT`):** State Council *Regulations on the Administration of Technology Import and Export* (`xzfg.moj.gov.cn`, Arts. 30–39), MOFCOM & MOST *Measures for Prohibited and Restricted Technology Exports* (Order No. 2 of 2009 PDF, Arts. 4–18 confirming the 5/15/30-working-day Stage 1 Letter of Intent and 15-working-day Stage 2 Technology Export License), and MOFCOM's Unified Platform notice (`+86-10-6787-0108`).
+3. **United States EAR, Federal Register, GAO & SNAP-R (`US26`, `US25`, `USNE`, `GAO26`, `EAR734`, `EAR742`, `EAR744`, `EAR774`, `SNAPR`, `TREAS`, `DOJ`):** Official Federal Register HTML/PDF texts (`91 FR 1684` and `90 FR 4544`), live CFR parts (`734`, `742`, `744`, `774`), BIS's SNAP-R FAQ PDF (`snapr.bis.gov`), Treasury Outbound Investment records, and DOJ Data Security Program records. *(GAO Decision `B-337935` returned `HTTP 403` to automated byte fetch and was verified via web research; no local byte snapshot is claimed.)*
+4. **Open-Source Benchmarks (`OSI`, `R1`, `QWEN`, `GD`):** Open Source AI Definition 1.0, DeepSeek-R1 MIT repository, Qwen3 Apache 2.0 repository, and GuideDog `v1.0.0-beta.10`.
 
-The GAO page returned HTTP 403 to the direct archive request. We verified its content through the web research tool, including the decision date, the distinction between non-enforcement and repeal, and the Congressional Review Act conclusion. We retain this limitation rather than claiming a byte snapshot.
+## Scope & Analytical Models
 
-The atlas has 40 editorial reading points, not 40 separate catalogue codes. We counted 23 AI points, 5 biomedicine points and 12 solar points. Proposed prohibitions total 14, proposed restrictions 26. The translated atlas maps every point to the same code, subpoint and proposed status. Some summaries omit subordinate measurement tests; the original attachment remains necessary for classification.
-
-`package-verification.json` records static links, source integrity and PDF completeness. `browser-verification.json` records functional and responsive checks. Possible future outcomes are analysis, not measured forecasts. The seven language versions have not received independent professional legal or native-language review.
-
-The original local `china_export_control.pdf` is an unrelated organoid research presentation. We preserved it outside version control and did not treat it as this announcement.
+- **40 Technology Checkpoints:** Attachment 1 contains 23 AI/silicon/cluster points (6 proposed prohibited, 17 proposed restricted), 5 biomedicine points (3 prohibited, 2 restricted), and 12 solar points (5 prohibited, 7 restricted) — totaling 14 proposed prohibitions (`J`) and 26 proposed restrictions (`X`).
+- **Game Theory & Scenarios:** The symmetric 2x2 Prisoner's Dilemma payoff matrix and the six reader scenarios in Chapter 09 are explicitly labeled as analytical/illustrative models, distinct from statutory provisions. Official Chinese and US legal texts govern all legal determinations.

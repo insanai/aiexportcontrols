@@ -1,47 +1,242 @@
-<!doctype html>
-<html lang="{{ language | replace('_', '-') }}" data-edition="{{ edition }}">
+{#- Guidedog book layout for "Impact of Export Controls on the Future of Open Source AI".
+    Uses Guidedog's native Jinja _('...') internationalization, live searchindex.js,
+    Knuth-Plass typography.js, and progressive enhancement for the 40-technology atlas
+    and 6 real-world scenarios. Works completely without JavaScript. -#}
+{%- set cur = namespace(dir='en', home='', tag='en') %}
+{%- for e in book_languages %}
+  {%- if e.code == language %}
+    {%- set cur.dir = e.dir %}
+    {%- set cur.home = e.home %}
+    {%- set cur.tag = e.tag %}
+  {%- endif %}
+{%- endfor %}
+{%- set site_root = pathto_root ~ '../' %}
+{%- set pdf_href = site_root ~ 'books/' ~ cur.dir ~ '/open-source-ai-export-controls-' ~ language ~ '.pdf' %}
+{%- block doctype -%}<!DOCTYPE html>{%- endblock %}
+<html lang="{{ language|replace('_', '-') }}" data-theme="light">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="{{ html_title }}. Announcement 48, AI, open models, biomedicine and solar. Verified research, 2 November 2026.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<title>{{ title }} | {{ u.brand }}</title>
-<link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="canonical" href="https://insanai.github.io/chinaexportcontrol/{{ edition }}/{{ pagename }}.html">
-{% for l in languages %}<link rel="alternate" hreflang="{{ l.path }}" href="https://insanai.github.io/chinaexportcontrol/{{ l.path }}/{{ pagename }}.html">{% endfor %}
-<link rel="stylesheet" href="{{ pathto_root }}_static/book.css">
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('borders-theme')||'light'}catch(e){}</script>
-<script src="{{ pathto_root }}_static/book.js" defer></script>
+{{ metatags }}
+{%- block htmltitle %}
+<title>{% if title %}{{ title }} · {% endif %}{{ _('Impact of Export Controls on the Future of Open Source AI') }}</title>
+{%- endblock %}
+<script>try{var m=localStorage.getItem("guidedog-theme");
+if(m==="light"||m==="dark"||m==="auto")
+document.documentElement.dataset.theme=m}catch(e){}</script>
+{%- block linktags %}
+{% if favicon_url %}<link rel="icon" href="{{ favicon_url }}" type="image/svg+xml">{% endif %}
+<link rel="search" title="{{ _('Search') }}" href="{{ search_url }}">
+{% for e in book_languages %}
+<link rel="alternate" hreflang="{{ e.tag }}" href="https://insanai.github.io/chinaexportcontrol/{{ e.dir }}/{{ pagename }}.html">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="https://insanai.github.io/chinaexportcontrol/en/{{ pagename }}.html">
+{% if prev %}<link rel="prev" title="{{ prev.title }}" href="{{ prev.url }}">{% endif %}
+{% if next %}<link rel="next" title="{{ next.title }}" href="{{ next.url }}">{% endif %}
+{%- endblock %}
+{%- block css %}
+{% for f in css_files %}{{ css_tag(f) }}
+{% endfor %}<style>:root{--accent:{{ accent }}}</style>
+{%- endblock %}
+{%- block scripts %}
+<script defer src="{{ pathto_root }}_static/searchindex.js"></script>
+{% for f in js_files %}{{ js_tag(f) }}
+{% endfor %}
+{%- endblock %}
+{%- block extrahead %}{% endblock %}
 </head>
-<body data-page="{{ pagename }}">
-<a class="skip" href="#content">{{ u.read }}</a>
-<div class="reading-meter" role="progressbar" aria-label="{{ u.reading }}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
-<header class="masthead">
-<a class="wordmark" href="index.html"><span class="mark" aria-hidden="true">T<span>B</span></span><span>{{ u.brand }}</span></a>
-<div class="masthead-actions">
-<button type="button" id="search-open" class="quiet-button">{{ u.search }} <kbd>/</kbd></button>
-<button type="button" id="theme-switch" class="quiet-button" aria-label="{{ u.theme }}"><span aria-hidden="true">◐</span></button>
-<label class="sr-only" for="language">Language</label><select id="language" aria-label="Language">
-{% for l in languages %}<option value="{{ l.path }}"{% if l.path == edition %} selected{% endif %}>{{ l.name }}</option>{% endfor %}</select>
-<button id="menu-toggle" class="quiet-button mobile-menu" aria-expanded="false" aria-controls="chapter-nav">{{ u.menu }}</button>
-</div>
+<body data-base="{{ pathto_root }}" data-page="{{ pagename }}"
+  data-label-theme="{{ _('Theme') }}"
+  data-label-modes="{{ _('light') }}|{{ _('dark') }}|{{ _('system') }}"
+  data-label-empty="{{ _('No pages match.') }}"
+  data-label-copy="{{ _('Copy') }}" data-label-copied="{{ _('Copied') }}"
+  data-label-results="{{ _('matching checkpoints') }}"
+  data-label-zero="{{ _('No checkpoints match your filter.') }}">
+<a class="skip" href="#content">{{ _('Skip to content') }}</a>
+<input type="checkbox" id="gd-nav-toggle" class="gd-nav-toggle" aria-controls="gd-sidebar">
+{%- block relbar1 %}
+<header class="gd-header book-header">
+  <label class="gd-menu" for="gd-nav-toggle" title="{{ _('Navigation') }}">
+    <svg class="gd-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    <span class="gd-sr">{{ _('Navigation') }}</span>
+  </label>
+  <a class="gd-brand" href="{{ root_url }}">
+    <svg class="gd-brand-symbol" viewBox="0 0 28 28" aria-hidden="true">
+      <rect x="2" y="4" width="24" height="20" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M2 8h8v16H2zM18 8h8v16h-8z" fill="#ae3d2c" opacity="0.86"/>
+      <path d="M10.5 11h7v13h-7z" fill="#08716d"/>
+    </svg>
+    <span class="gd-brand-name">{{ _('Open Source AI & Export Controls') }}</span>
+  </a>
+  <ul class="rellinks">
+    <li><a href="{{ site_root }}{{ cur.home }}index.html">{{ _('Overview') }}</a></li>
+    {% if not ssg_no_pdf %}
+    <li><a class="header-pdf-pill" href="{{ pdf_href }}">PDF ↓</a></li>
+    {% endif %}
+  </ul>
+  <div class="gd-search" role="search">
+    <form action="{{ search_url }}" method="get">
+      <svg class="gd-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <input id="search" name="q" type="search" autocomplete="off" spellcheck="false"
+        placeholder="{{ _('Search the book (press /)') }}" aria-label="{{ _('Search') }}"
+        aria-controls="gd-search-results">
+    </form>
+    <ul class="search-results" id="gd-search-results" hidden></ul>
+  </div>
+  <details class="gd-language" data-page="{{ pagename }}" data-root="{{ pathto_root }}"
+    data-edition="{{ language }}">
+    <summary title="{{ _('Language') }}">
+      <svg class="gd-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18M12 3c-5 5-5 13 0 18"/>
+      </svg><span class="lang-current-code">{{ cur.tag|upper }}</span><span class="gd-sr">{{ _('Language') }}</span>
+    </summary>
+    <ul aria-label="{{ _('Language') }}">
+    {% for e in book_languages %}
+      <li><a lang="{{ e.tag }}" hreflang="{{ e.tag }}" data-language="{{ e.code }}"
+        {% if e.code == language %}aria-current="true"{% endif %}
+        href="{{ site_root }}{{ e.dir }}/{{ pagename }}.html">{{ e.name }}</a></li>
+    {% endfor %}
+    </ul>
+  </details>
+  <button class="theme-toggle" type="button" hidden
+    aria-label="{{ _('Theme') }}: {{ _('light') }}" title="{{ _('Theme') }}: {{ _('light') }}">
+    <svg class="gd-icon gd-icon-auto" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17A8.5 8.5 0 0 0 12 3.5z" class="gd-fill"/>
+    </svg>
+    <svg class="gd-icon gd-icon-light" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4
+        M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>
+    </svg>
+    <svg class="gd-icon gd-icon-dark" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+  </button>
 </header>
-<div class="edition-line"><span>{{ u.edition }}</span><a href="technology-borders.pdf" class="pdf-link">{{ u.download }} <span aria-hidden="true">↓</span></a></div>
-<div class="book-layout{% if pagename == 'index' %} cover-layout{% endif %}">
-<aside id="chapter-nav" class="chapter-nav" aria-label="{{ u.chapters }}">
-<p class="eyebrow">{{ u.chapters }}</p><nav>{% for c in chapters %}<a href="{{ c.slug }}.html"{% if c.slug == pagename %} aria-current="page"{% endif %}><span class="chapter-number">{% if loop.index0 < 10 %}0{% endif %}{{ loop.index0 }}</span><span>{{ c.title }}</span></a>{% endfor %}</nav>
-<div class="nav-note"><span class="status-dot"></span> 02 / 11 / 2026<br>{{ u.translation }}</div>
-</aside>
-<main id="content" tabindex="-1">
-{% if pagename == 'index' %}<div class="cover-kicker"><span>CHINA</span><span class="kicker-rule"></span><span>USA</span><span class="kicker-rule"></span><span>AI</span></div>{% endif %}
-<article class="prose">{{ body }}</article>
-{% if pagename == 'index' %}<div class="cover-actions"><a class="primary-link" href="announcement.html">{{ u.read }} <span aria-hidden="true">↗</span></a><a href="technology-borders.pdf">{{ u.download }}</a></div>
-<section class="chapter-shelf" aria-label="{{ u.chapters }}">{% for c in chapters %}{% if loop.index0 > 0 %}<a href="{{ c.slug }}.html"><span class="shelf-number">{% if loop.index0 < 10 %}0{% endif %}{{ loop.index0 }}</span><h2>{{ c.title }}</h2><span aria-hidden="true">↗</span></a>{% endif %}{% endfor %}</section>{% endif %}
-{% if pagename == 'atlas' %}<section id="atlas-interactive" class="interactive" hidden aria-label="{{ u.filter }}"><div class="interactive-heading"><span class="eyebrow">40 / {{ u.filter }}</span><span id="atlas-count" role="status" aria-live="polite"></span></div><div class="filters"><label><span>{{ u.search }}</span><input type="search" id="atlas-query" placeholder="{{ u.search_placeholder }}"></label><label><span>{{ u.filter }}</span><select id="atlas-sector"><option value="all">{{ u.all }}</option><option value="ai">{{ u.ai }}</option><option value="bio">{{ u.bio }}</option><option value="solar">{{ u.solar }}</option></select></label><label><span>{{ u.filter }}</span><select id="atlas-status"><option value="all">{{ u.prohibited }} / {{ u.restricted }}</option><option value="proposed-prohibited">{{ u.prohibited }}</option><option value="proposed-restricted">{{ u.restricted }}</option></select></label></div><div id="atlas-grid" class="atlas-grid"></div></section>{% endif %}
-{% if pagename == 'questions' %}<section id="scenario-interactive" class="interactive" hidden><p class="eyebrow">{{ u.scenario }}</p><p>{{ u.scenario_note }}</p><label for="scenario-select">{{ u.choose }}</label><select id="scenario-select">{% for k in ['public','fresh','private','service','acquisition','line'] %}<option value="{{ loop.index0 }}">{{ u[k] }}</option>{% endfor %}</select><div id="scenario-answer" role="status" aria-live="polite"></div><a href="sources.html">{{ u.evidence }}</a></section>{% endif %}
-<nav class="page-turn" aria-label="{{ u.chapters }}">{% if prev %}<a href="{{ prev.url }}"><small>{{ u.previous }}</small><strong>{{ prev.title }}</strong></a>{% endif %}{% if next %}<a href="{{ next.url }}"><small>{{ u.next }}</small><strong>{{ next.title }}</strong></a>{% endif %}</nav>
-</main>
-<aside class="page-outline" aria-label="{{ u.contents }}"><p class="eyebrow">{{ u.contents }}</p><nav id="page-outline"></nav><a class="outline-pdf" href="technology-borders.pdf">{{ u.download }}</a></aside>
+{%- endblock %}
+<div class="gd-page">
+  <label class="gd-overlay" for="gd-nav-toggle" aria-hidden="true"></label>
+  {%- block sidebar1 %}
+  {% if not nosidebar %}
+  <aside class="gd-sidebar" id="gd-sidebar" aria-label="{{ _('Chapters') }}">
+    <div class="gd-sidebar-inner">
+      <div class="sidebar-edition-card">
+        <span class="eyebrow-badge">{{ _('Verified 2 Nov 2026') }}</span>
+        {% if not ssg_no_pdf %}
+        <a class="sidebar-pdf-btn" href="{{ pdf_href }}">{{ _('Download A4 PDF Book') }} ↓</a>
+        {% endif %}
+      </div>
+      <nav class="gd-toctree">{{ toc }}</nav>
+      <p class="sidebar-legal-note">{{ _('Research & literary edition. Official Chinese and US legal texts prevail.') }}</p>
+    </div>
+  </aside>
+  {% endif %}
+  {%- endblock %}
+  <main id="content" class="gd-main" tabindex="-1">
+    {%- if pagename != root_doc and title %}
+    <nav class="gd-breadcrumbs" aria-label="{{ _('Breadcrumbs') }}">
+      <ol>
+        <li><a href="{{ site_root }}{{ cur.home }}index.html">{{ _('Overview') }}</a></li>
+        <li><a href="{{ root_url }}">{{ _('Book Cover') }}</a></li>
+        <li><span aria-current="page">{{ title }}</span></li>
+      </ol>
+    </nav>
+    {%- endif %}
+    {%- if outline %}
+    <details class="gd-local-toc">
+      <summary>{{ _('On this page') }}</summary>
+      <nav>{{ outline }}</nav>
+    </details>
+    {%- endif %}
+    {%- block document %}
+    <article class="gd-article book-prose">
+      <div class="gd-bookmark">
+        <span>{{ _('SOFTWARE · MODELS · SILICON HARDWARE · HUMANITY') }}</span>
+        <span>{{ release }}</span>
+      </div>
+      {%- if pagename == 'atlas' %}
+      <section id="atlas-toolbar" class="interactive-toolbar" hidden aria-label="{{ _('Filter 40 technologies') }}">
+        <div class="toolbar-header">
+          <span class="toolbar-kicker">{{ _('Interactive 40-Checkpoint Explorer') }}</span>
+          <span id="atlas-count" class="toolbar-count" role="status" aria-live="polite"></span>
+        </div>
+        <div class="toolbar-controls">
+          <label class="toolbar-field">
+            <span>{{ _('Keyword or code') }}</span>
+            <input type="search" id="atlas-query" placeholder="{{ _('e.g. 266504X, HBM, wafer, siRNA...') }}">
+          </label>
+          <label class="toolbar-field">
+            <span>{{ _('Sector') }}</span>
+            <select id="atlas-sector">
+              <option value="all">{{ _('All 40 checkpoints') }}</option>
+              <option value="ai">{{ _('AI, Chips & Superclusters (23)') }}</option>
+              <option value="bio">{{ _('Biomedicine & Gene Platforms (5)') }}</option>
+              <option value="solar">{{ _('Solar Silicon & Machinery (12)') }}</option>
+            </select>
+          </label>
+          <label class="toolbar-field">
+            <span>{{ _('Proposed rule') }}</span>
+            <select id="atlas-status">
+              <option value="all">{{ _('Prohibited (J) & Restricted (X)') }}</option>
+              <option value="prohibited">{{ _('Proposed Prohibited (J — 14)') }}</option>
+              <option value="restricted">{{ _('Proposed Restricted (X — 26)') }}</option>
+            </select>
+          </label>
+        </div>
+      </section>
+      {%- endif %}
+      {%- if pagename == 'questions' %}
+      <section id="scenario-toolbar" class="interactive-toolbar" hidden aria-label="{{ _('Interactive Scenario Guide') }}">
+        <div class="toolbar-header">
+          <span class="toolbar-kicker">{{ _('Jump to a Real-World Scenario') }}</span>
+        </div>
+        <div class="scenario-pills" id="scenario-pills" role="tablist"></div>
+      </section>
+      {%- endif %}
+      {% block body %}{{ body }}{% endblock %}
+    </article>
+    {%- endblock %}
+    {%- block relbar2 %}
+    {%- if prev or next %}
+    <nav class="gd-pager" aria-label="{{ _('Previous and next') }}">
+      {%- if prev %}
+      <a class="gd-prev" rel="prev" href="{{ prev.url }}"><small>{{ _('Previous') }}</small><span>
+        {{- prev.title }}</span></a>
+      {%- endif %}
+      {%- if next %}
+      <a class="gd-next" rel="next" href="{{ next.url }}"><small>{{ _('Next') }}</small><span>
+        {{- next.title }}</span></a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+    {%- endblock %}
+    {%- block footer %}
+    <footer class="gd-footer">
+      <p>
+        <span>© 2026 China Export Control Research.</span>
+        <span>{{ _('Primary sources verified 2 November 2026. Built natively with Guidedog, Typst, CeTZ, Fletcher & Graphviz.') }}</span>
+      </p>
+      <p class="gd-footer-links">
+        <a href="{{ site_root }}{{ cur.home }}index.html">{{ _('Overview') }}</a>
+        {% if not ssg_no_pdf %}<a href="{{ pdf_href }}">{{ _('Download PDF Book') }}</a>{% endif %}
+        <a href="sources.html">{{ _('22 Primary Sources') }}</a>
+        <a href="{{ repository }}">{{ _('GitHub Repository') }}</a>
+      </p>
+    </footer>
+    {%- endblock %}
+  </main>
+  {%- block sidebar2 %}
+  <aside class="gd-rail" aria-label="{{ _('On this page') }}">
+    {%- if outline %}
+    <div class="gd-rail-inner">
+      <p class="gd-rail-title">{{ _('On this page') }}</p>
+      <nav>{{ outline }}</nav>
+    </div>
+    {%- endif %}
+  </aside>
+  {%- endblock %}
 </div>
-<footer class="site-footer"><a class="footer-brand" href="index.html">{{ u.brand }}</a><p>{{ u.translation }}</p><div><a href="sources.html">{{ u.sources }}</a><a href="https://github.com/insanai/chinaexportcontrol">{{ u.github }}</a><a href="https://github.com/insanai/guidedog">GuideDog + Typst</a><a href="#">{{ u.top }}</a></div></footer>
-<dialog id="search-dialog"><form method="dialog"><button aria-label="{{ u.close }}">{{ u.close }}</button></form><label for="book-search">{{ u.search }}</label><input id="book-search" type="search" placeholder="{{ u.search_placeholder }}"><div id="search-results" role="status" aria-live="polite"></div></dialog>
-</body></html>
+</body>
+</html>
