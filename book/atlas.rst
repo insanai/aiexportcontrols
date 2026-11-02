@@ -10,23 +10,26 @@ How Governments Measure an Idea
 
 How do you write a law that separates a student's weekend coding project from a strategic national asset? If you write "advanced AI and hardware are controlled," every calculator app and circuit board drowns in paperwork. If you name a specific company or model brand, tomorrow's rename slips straight past the gate.
 
-Regulators solve this by drawing **numerical performance tripwires and purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps **40 distinct technology points** inside seven-character catalogue codes: **23 in artificial intelligence and AI hardware** (6 proposed prohibited, 17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 restricted), and **12 in solar manufacturing** (5 prohibited, 7 restricted), matching the official totals of **14 prohibited** and **26 restricted** technologies ``[CN48]`` ``[CN-A1]`` ``[CNQA]``.
+Regulators solve this by drawing **numerical performance tripwires and purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps **40 distinct technology points** inside seven-character catalogue codes: **23 in artificial intelligence and AI hardware** (6 proposed prohibited, 17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 restricted), and **12 in solar manufacturing** (5 prohibited, 7 restricted), matching the official totals of **14 prohibited** and **26 restricted** technologies `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_.
 
-.. figure:: assets/images/three-frontiers-triptych.jpg
+.. typst-diagram::
    :name: fig-three-frontiers
+   :caption: Three technology areas, drawn as processor, genetic structure and solar cell. The symbols identify subjects rather than imply measured impacts.
+   :alt: Three technology areas, drawn as processor, genetic structure and solar cell. The symbols identify subjects rather than imply measured impacts.
 
-   The three frontiers of Announcement No. 48: artificial intelligence and silicon wafer architectures (left), cellular and genetic medicine platforms (center), and precision crystalline solar manufacturing (right).
+   #import "figures/artwork.typ": three-frontiers
+   #three-frontiers()
 
-Because Attachment 1 nests multiple numbered points under shared codes (for instance, ``266504X`` houses two large-model points, ``266505X`` houses four AI-agent points, ``266506X`` houses four chip-design points, and ``266507X`` houses four supercluster points), counting raw table rows in the WPS file yields fewer than 40. Below, we translate all 40 points into plain language while keeping every official code (``J`` for prohibited, ``X`` for restricted) and point number intact so you can verify the Chinese original in seconds ``[CN-A1]``.
+Attachment 1 groups several numbered technologies under the same code. For example, 266504X has two main points, 266505X has four, 266506X has **two main points**, and 266507X has four. Our atlas splits the attachment into 40 reading checkpoints while retaining the original code and point. It is an editorial index, not a replacement legal list. `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 
 Reading the Tripwires Without Getting Tripped
 =============================================
 
 Keep three practical reading habits in mind as you explore the map:
 
-1. **Spot "any one" versus "all together."** Entry ``266504X`` Point 2 (frontier large models) triggers if *any single one* of its three tests is met: :math:`\ge 10^{26}\text{ FLOPs}`, *or* :math:`\ge 2\text{ trillion parameters}`, *or* a live Global Top-10 benchmark rank. By contrast, ``266505X`` Point 1 (planning agents) triggers only if an agent splits tasks into :math:`\ge 20\text{ steps}` *and* hits :math:`\ge 80\%` decomposition accuracy *and* reaches :math:`\ge 90\%` subtask completion simultaneously ``[CN-A1]``.
-2. **Purpose can be half the fence.** Several severe-looking entries (such as deepfake detection at :math:`\ge 95\%` accuracy in ``266401J``, or high-performance sensitive agents in ``266502J``) apply *only* when built specifically or mainly for national cross-border data defense, critical infrastructure, military, or core government settings. Ordinary studio tools and consumer assistants sit outside that purpose ``[CN-A1]``.
-3. **Read the hardware inside the software list.** Notice that points 18 through 23 below (``266506X`` and ``266507X``) are not chatbots at all: they are **processor chip architectures, 3D NAND and DRAM memory designs, and >10,000-card supercluster interconnects**, while Footnote 4 pulls **18 classes of physical solar machinery** into export control ``[CN-A1]``.
+1. **Spot "any one" versus "all together."** Entry ``266504X`` Point 2 (frontier large models) triggers if *any single one* of its three tests is met: :math:`\ge 10^{26}\text{ FLOPs}`, *or* :math:`\ge 2\text{ trillion parameters}`, *or* a live Global Top-10 benchmark rank. By contrast, ``266505X`` Point 1 (planning agents) triggers only if an agent splits tasks into :math:`\ge 20\text{ steps}` *and* hits :math:`\ge 80\%` decomposition accuracy *and* reaches :math:`\ge 90\%` subtask completion simultaneously `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_.
+2. **Purpose can be half the fence.** Several severe-looking entries (such as deepfake detection at :math:`\ge 95\%` accuracy in ``266401J``, or high-performance sensitive agents in ``266502J``) apply *only* when built specifically or mainly for national cross-border data defense, critical infrastructure, military, or core government settings. Ordinary studio tools and consumer assistants sit outside that purpose `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_.
+3. **Read the hardware inside the software list.** Notice that points 18 through 23 below (``266506X`` and ``266507X``) are not chatbots at all: they are **processor chip architectures, 3D NAND and DRAM memory designs, and >10,000-card supercluster interconnects**, while Footnote 4 pulls **the listed categories of physical solar machinery** into export control `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_.
 
 .. _atlas-explorer-start:
 

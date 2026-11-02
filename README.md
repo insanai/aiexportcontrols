@@ -2,16 +2,16 @@
 
 An illustrated literary and primary-source book on how sovereign export controls across **both software/model weights and physical silicon hardware** reshape open-source artificial intelligence, scientific cooperation, and human progress.
 
-[Read the Website & Landing Page](https://insanai.github.io/aiexportcontrols/) | [Read the English Book](https://insanai.github.io/aiexportcontrols/en/index.html) | [Download English A4 PDF](https://insanai.github.io/aiexportcontrols/books/en/open-source-ai-export-controls-en.pdf) | [22 Primary Sources](https://insanai.github.io/aiexportcontrols/en/sources.html)
+[Read the Website & Landing Page](https://insanai.github.io/aiexportcontrols/) | [Read the English Book](https://insanai.github.io/aiexportcontrols/en/index.html) | [Download English A4 PDF](https://insanai.github.io/aiexportcontrols/books/en/open-source-ai-export-controls-en.pdf) | [26 Primary Sources](https://insanai.github.io/aiexportcontrols/en/sources.html)
 
-Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
+Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, minimal line illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
 
 ## What This Book Covers
 
-1. **From an Open Commons to Guarded Walls:** Traces how shared human thought, from movable type and Linux to open-weight AI (`DeepSeek-R1`, `Qwen3`), now confronts sovereign border checkpoints.
-2. **Mind and Silicon (Software + Hardware Together):** Explains why open-source AI never floats in thin air: export controls now clamp onto **both** frontier model weights (`266504X`, `4E091`) **and** the physical silicon stack underneath (`3A090` AI chips, `742.6(b)(10)` H200 review, `266506X` `<=14 nm` processor & `<=18 nm` DRAM/HBM/3D NAND blueprints, `266507X` `>10,000-card` supercluster interconnects, and `Footnote 4` solar machinery).
-3. **Mathematical Game Theory Proof (*The Fortress Trap*):** Proves via a symmetric Prisoner's Dilemma payoff equation and Linus's Law of exponential flaw scrutiny $P(\text{flaw survives}) = p_0(1-q)^n$ why mutual broad walls collapse global welfare from `34` to `10` (`-70%`) while quadrupling systemic danger (`R = 4x`).
-4. **Open-Source AI Release Before vs. After Export Controls:** Step-by-step visual flowcharts comparing the old 4-step midnight `git push` with today's 4-gate pipeline, highlighting **Footnote 1** (already-public open AI excluded), **15 CFR 734.7**, and **Footnote 2** ("apply and go" automatic licensing for new open-source AI, overseas foundry chip tape-outs, and self-operated overseas clouds).
+1. **From an Open Commons to Guarded Walls:** Explains how open-weight AI (`DeepSeek-R1`, `Qwen3`) depends on both shared knowledge and physical computers.
+2. **Mind and Silicon (Software + Hardware Together):** Explains why open-source AI never floats in thin air: export controls now clamp onto **both** frontier model weights (`266504X`, `4E091`) **and** the physical silicon stack underneath (`3A090` AI chips, `742.6(b)(10)` H200 review, `266506X` processor blueprints and memory designs with alternative listed characteristics, `266507X` `>10,000-card` supercluster interconnects, and `Footnote 4` solar machinery).
+3. **The Fortress Trap:** Uses explicitly assumed scores to explain a possible Prisoner's Dilemma, then tests the assumptions, repeated cooperation and the limits of independent-audit probability examples. It makes no empirical claim of a 70% innovation loss or a fourfold safety risk.
+4. **Public Releases and Private Transfers:** Separates current Chinese registration, proposed catalogue routes and US jurisdiction. Explains public-information exclusions, derivatives and proposed facilitation without inventing a universal release procedure.
 5. **Official Government Departments, Statutory Clocks & Contact Directory:** Verified filing portals (`ecomp.mofcom.gov.cn` and `snapr.bis.gov`), statutory working-day timelines (China's 30-working-day Stage 1 Letter of Intent + 15-working-day Stage 2 Technology Export License), room numbers, street addresses, emails, faxes, and helpdesk telephone numbers in Beijing, Provincial Commerce/S&T departments, Washington, D.C., and California.
 
 ## Pure GuideDog Architecture (Zero Python Build Scripts)
@@ -42,7 +42,7 @@ guidedog intl stat -l zh_CN -l ja -l ko -l hi -l es -l de book
 
 ## Untouched Official Documents & Primary Sources
 
-`research/sources.json` records all **22 primary sources**, retrieval dates (`2026-11-02`), HTTP statuses, and SHA-256 hashes (with GAO Decision `B-337935` noted transparently as web-verified due to `HTTP 403` on automated byte archiving):
+`research/sources.json` records all **26 primary sources**, retrieval dates (`2026-11-02`), HTTP statuses, and SHA-256 hashes (with GAO Decision `B-337935` and the Jefferson letter transparently marked as web-verified when automated byte archiving failed):
 
 - [Announcement No. 48 Official Page](https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html) | [PDF Reading Copy](sources/announcement-48-official-page.pdf)
 - [Attachment 1 (Original WPS)](sources/announcement-48-attachment-1.wps) | [Converted PDF](sources/announcement-48-attachment-1.pdf)
@@ -56,4 +56,10 @@ guidedog intl stat -l zh_CN -l ja -l ko -l hi -l es -l de book
 
 ## Credits & Acknowledgments
 
-Built with the help of [GuideDog](https://github.com/insanai/guidedog), with assistance from **Vicky Ni**, **Ronak Rathore**, and **Kanak Rathore**.
+Built with the help of [GuideDog](https://github.com/insanai/guidedog), with assistance from **Jennifer Yuan**, **Vicky Ni**, **Ronak Rathore**, and **Kanak Rathore**.
+
+## Author and license
+
+Written by **Vikrant Rathore**, with assistance from **Jennifer Yuan, Vicky Ni, Ronak Rathore and Kanak Rathore**.
+
+Original work is licensed under **CC BY-SA 4.0**. Third-party materials retain their own copyrights and licenses. See [LICENSE](LICENSE) and [NOTICE](NOTICE).

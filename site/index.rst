@@ -11,7 +11,7 @@ AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS
 
 .. rst-class:: landing-epigraph
 
-*"He who lights his taper at mine, receives light without darkening me."* For four centuries, human progress accelerated whenever an equation, a cure, or a line of code crossed an ocean without waiting for a customs stamp. Today, sovereign walls are rising across **both the software weights above ground and the silicon hardware beneath them**.
+*"He who lights his taper at mine, receives light without darkening me."* Jefferson's 1813 image captures the promise of knowledge that can be shared without being used up. This book asks how controls on models and computing hardware can interrupt that exchange. `JEFFERSON <https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_
 
 .. container:: landing-actions
 
@@ -20,59 +20,58 @@ AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS
    `Explore All 40 Checkpoints <read-atlas_>`_
    `Official Approval & Contacts <read-contacts_>`_
 
-.. figure:: images/cover-walled-commons.jpg
+.. typst-diagram::
    :name: landing-hero-art
+   :caption: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
+   :alt: A shared path crosses a boundary while another is interrupted. The drawing represents the distinction between cooperation and broad restriction; it is not a map of a legal procedure.
 
-   When open minds meet sovereign walls: between 2023 and 2026, open-source AI put frontier reasoning into the hands of rural clinics, universities, and small workshops worldwide, before export controls reached into chips, memory stacks, superclusters, and model weights alike.
+   #import "figures/artwork.typ": commons
+   #commons()
 
 From an Open Republic of Ideas to a Guarded Horizon
 ---------------------------------------------------
 
-Give away a loaf of bread and your kitchen has one loaf fewer. Give away an algorithm, or an open-weight neural network, and a pediatric clinic in Nairobi, a linguist in Oaxaca, and two graduate students with consumer graphics cards in Munich can all build tomorrow morning without diminishing the creator by a single byte.
+An open model can let a university, a small business or a language project adapt a shared tool. These possibilities do not guarantee safety or equal access. Our argument is that broad restrictions can damage cooperation even when each country hopes to gain an advantage.
 
-Yet an uncomfortable physical truth governs the future of open-source artificial intelligence: **no open model floats in thin air.** Beneath every permissive MIT or Apache 2.0 license lies a heavy industrial pyramid of extreme-ultraviolet lithography, processor instruction sets, stacked high-bandwidth memory (HBM), and optical cables lashing ten thousand GPUs into one machine.
+Open AI also needs physical computers. Large training runs can require advanced chips, memory and networks; smaller models can run on more ordinary equipment. Controls on hardware and design knowledge can affect access even when a model has a permissive license.
 
 .. container:: landing-duet
 
-   .. figure:: images/mind-and-silicon.jpg
+   .. typst-diagram::
       :name: landing-stack-art
+      :caption: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
+      :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
 
-      Software above, silicon below: why controlling AI chips (``3A090``, ``266506X``) and 10,000-card clusters (``266507X``) reshapes open-source AI even when code stays free.
+      #import "figures/artwork.typ": mind-and-silicon
+      #mind-and-silicon()
 
    .. container:: landing-duet-copy
 
-      * **The Hardware Chokepoint:** Washington restricts flagship ``3A090`` accelerators, fab tools, and foreign chips built with US software (calibrating strict H200 review in January 2026), while Beijing's October 2026 draft proposes restricting **<=14 nm AI chip architectures, <=18 nm DRAM/HBM & 3D NAND designs** (``266506X``), **>10,000-card cluster interconnects** (``266507X``), and **18 classes of solar machinery**.
-      * **The Software & Weight Gate:** China's **Announcement No. 48** (16 October 2026) switches on immediate pre-export registration at ``ecomp.mofcom.gov.cn`` and proposes licensing private transfers of models crossing :math:`10^{26}` **FLOPs**, **2 trillion parameters**, or a **Global Top-10 rank** (``266504X``), mirroring Washington's contested ``4E091`` weight rule.
+      * **Hardware:** US rules cover specified chips and manufacturing items. China proposes controls on specified processor and memory designs and certain technologies for clusters with more than 10,000 cards. The scope depends on the precise item and conditions. `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `US26 <https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_
+      * **Models:** Chinese temporary registration has started, while new catalogue prohibitions and restrictions remain proposed. US model-weight text and its announced non-enforcement policy are separate questions. `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `EAR774 <https://www.bis.gov/regulations/ear/774>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_
 
-The Fortress Trap: Why High Walls Make the World Poorer *and* More Dangerous
-----------------------------------------------------------------------------
+The Fortress Trap: How Both Sides Can Lose
+-------------------------------------------
 
-Imagine two technological neighbors (**Country A** and **Country B**) deciding how to treat non-military AI software and chip designs. Each faces two everyday choices: **Share Openly (S)**, publishing research, open-weight models, and safety fixes so everyone can inspect and build on them; or **Build a Wall (W)**, locking models and hardware blueprints behind broad border controls.
-
-At first glance, hoarding breakthroughs behind a high wall feels like common sense. Yet when *both* capitals think that way at the same time, their choices collide. Mathematicians study this kind of tug-of-war using **game theory**: the simple logic of decisions where your result depends not only on your own move, but also on what the other side chooses.
-
-When both countries share openly, each builds on the other's discoveries and scores **+17** (**34** combined), while global researchers spot dangerous software and chip bugs early. Yet if one country builds a wall while the other keeps sharing, the hoarder still reads the open side's public work while keeping its own secret, jumping briefly to **+20** and pushing the lone sharer down to **+3**. Fearing that **+3** loss, both capitals raise high walls:
+Two countries can each choose a broad wall because they fear giving the other an advantage. In the book's illustrative game, both then receive 5, although both would prefer the 17 available through mutual sharing. This is a possible cooperation failure, not proof that every export control harms every participant. `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_
 
 .. typst-diagram::
-   :caption: Inside the book's step-by-step proof: chasing a one-sided lead (+20 vs. +17) pulls both countries into a (+5, +5) stalemate that erases 70% of shared progress and quadruples unseen bug risk (4x).
+   :caption: The fortress trap is a teaching game with assumed scores. It does not measure a percentage loss of innovation or a multiplier of real-world risk.
 
    #import "figures/diagrams.typ": game-theory-matrix
    #game-theory-matrix(lang: "en")
 
-Look at the bottom-right box (**A: +5 | B: +5**). Economists call this trap a **Prisoner's Dilemma**, and its stuck stalemate a **Nash Equilibrium**: neither country ends up a single point ahead (``5 = 5``), trillions go into duplicating chip plants and closed training clusters, and fewer independent eyes inspect black-box systems, multiplying hidden accident and cyber risk fourfold. **Only narrow fences around genuine weapons, paired with open bridges for shared science, break the trap.**
+The book explains why the result follows from its assumptions, what could reverse it, and how a repeated relationship can make cooperation worthwhile. It also separates the possible benefits of public auditing from the risks of wider access. Our case for precise controls and workable open-research routes does not depend on invented loss estimates. `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_
 
-What Our Primary-Source Investigation Uncovered
------------------------------------------------
+The legal records and research references distinguish what is already operating, what remains proposed, and what is our analysis. They support three practical reading habits:
 
-Reading all **22 official Chinese and American legal texts** word for word, rather than relying on breathless headlines, reveals three vital truths for builders and citizens everywhere:
-
-1. **Already-public open-source AI remains untouched.** China's Footnote 1 and US ``15 CFR 734.7`` / ``4E091`` explicitly leave existing public MIT and Apache 2.0 models outside export licensing.
-2. **New open-source AI and chip tape-outs get an express doorway.** Rather than banning open releases, China's Footnote 2 proposes **automatic licensing ("apply and go")** for new open-source AI exports, overseas foundry chip tape-outs (``芯片流片``), and Chinese firms' self-operated overseas clouds.
-3. **Every gate has a real address, clock, and phone number.** Inside the book, we map the complete before-and-after open-source release flowcharts alongside verified **MOFCOM, MOST, Provincial Commerce, and US BIS SNAP-R portals, statutory 30 + 15 working-day clocks, room numbers, emails, faxes, and helpdesk phones**.
+1. **Distinguish public files from first releases.** Existing public technology, private derivatives and new open-source exports can take different routes. A copyright license is not a government permit. `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `EAR774 <https://www.bis.gov/regulations/ear/774>`_
+2. **Keep current registration separate from the draft.** China has begun temporary registration for covered transfers; new prohibitions and facilitated licensing remain proposals. `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_
+3. **Read deadlines in their proper scope.** The standard licensing clocks do not promise the total duration of a project or the future automatic-licensing process. The book links the responsible authorities and their source records. `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_
 
 .. container:: landing-chapter-grid
 
-   * **Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory Proof <read-cover_>`_
+   * **Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory Example <read-cover_>`_
    * **Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The Interactive 40-Checkpoint Atlas <read-atlas_>`_
    * **Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-Source AI Before and After the Gates <read-open_>`_
-   * **Chapters 08 & 10:** `Official Government Approval & Contact Directory <read-contacts_>`_ & `All 22 Verified Primary Sources <read-sources_>`_
+   * **Chapters 08 & 10:** `Official Government Approval & Contact Directory <read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_

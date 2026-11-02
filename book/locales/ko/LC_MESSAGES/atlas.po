@@ -1,20 +1,16 @@
-# Korean translation for book/atlas.rst
-# Copyright (C) 2026, China Export Control Research
-# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Impact of Export Controls on the Future of Open "
-"Source AI 2026.11\n"
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 12:32+0000\n"
-"PO-Revision-Date: 2026-11-02 11:43+0000\n"
-"Last-Translator: China Export Control Research\n"
-"Language-Team: Korean\n"
+"PO-Revision-Date: 2026-11-02 14:00+0000\n"
+"Last-Translator: Vikrant Rathore\n"
+"Language-Team: Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../book/atlas.rst:1
@@ -23,8 +19,8 @@ msgid ""
 "Announcement No. 48 Attachment 1 across AI and silicon chips (23), "
 "biomedicine (5), and solar manufacturing (12)."
 msgstr ""
-"제2장: 중국 제48호 공고 부속서 1의 40개 통제 대상 기술(AI·실리콘 반도체 23개, 바이오의약 5개, 태양광 제조 "
-"12개) 전체를 알기 쉽게 풀어쓴 완역 기술 지도."
+"제2장: 중국 제48호 공고 부속서 1의 40개 통제 대상 기술(AI·실리콘 반도체 23개, 바이오의약 5개, 태양광 제조 12개) "
+"전체를 알기 쉽게 풀어쓴 완역 기술 지도."
 
 #: ../../book/atlas.rst:5
 msgid "02. The Map of Forty Guarded Technologies"
@@ -37,142 +33,157 @@ msgstr "정부는 어떻게 하나의 아이디어를 자로 재는가"
 #: ../../book/atlas.rst:11
 msgid ""
 "How do you write a law that separates a student's weekend coding project "
-"from a strategic national asset? If you write \"advanced AI and hardware "
-"are controlled,\" every calculator app and circuit board drowns in "
-"paperwork. If you name a specific company or model brand, tomorrow's "
-"rename slips straight past the gate."
+"from a strategic national asset? If you write \"advanced AI and hardware are"
+" controlled,\" every calculator app and circuit board drowns in paperwork. "
+"If you name a specific company or model brand, tomorrow's rename slips "
+"straight past the gate."
 msgstr ""
-"대학생의 주말 코딩 프로젝트와 국가 전략 자산을 구분하는 법률 조문은 과연 어떻게 써야 할까? 만약 법전에 '첨단 AI 및 "
-"하드웨어를 통제한다'고 막연히 적어 놓는다면 세상의 모든 계산기 앱과 회로 기판이 서류 더미에 파묻히고 말 것이다. 반대로 특정 "
-"기업이나 모델 브랜드 이름을 콕 집어 적어 놓는다면 내일 아침 이름표만 바꾼 새 버전이 유유히 검문소를 빠져나갈 것이다."
+"대학생의 주말 코딩 프로젝트와 국가 전략 자산을 구분하는 법률 조문은 과연 어떻게 써야 할까? 만약 법전에 '첨단 AI 및 하드웨어를 "
+"통제한다'고 막연히 적어 놓는다면 세상의 모든 계산기 앱과 회로 기판이 서류 더미에 파묻히고 말 것이다. 반대로 특정 기업이나 모델 "
+"브랜드 이름을 콕 집어 적어 놓는다면 내일 아침 이름표만 바꾼 새 버전이 유유히 검문소를 빠져나갈 것이다."
 
 #: ../../book/atlas.rst:13
 msgid ""
 "Regulators solve this by drawing **numerical performance tripwires and "
-"purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps "
-"**40 distinct technology points** inside seven-character catalogue codes: "
-"**23 in artificial intelligence and AI hardware** (6 proposed prohibited, "
-"17 proposed restricted), **5 in biomedicine** (3 prohibited, 2 "
-"restricted), and **12 in solar manufacturing** (5 prohibited, 7 "
-"restricted), matching the official totals of **14 prohibited** and **26 "
-"restricted** technologies ``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
+"purpose boundaries**. In Attachment 1 of Announcement 48, Beijing maps **40 "
+"distinct technology points** inside seven-character catalogue codes: **23 in"
+" artificial intelligence and AI hardware** (6 proposed prohibited, 17 "
+"proposed restricted), **5 in biomedicine** (3 prohibited, 2 restricted), and"
+" **12 in solar manufacturing** (5 prohibited, 7 restricted), matching the "
+"official totals of **14 prohibited** and **26 restricted** technologies "
+"`CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `CNQA "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 msgstr ""
-"규제 당국은 이 난제를 **수치화된 성능 인계철선과 목적 범위**\\ 를 긋는 방식으로 해결한다. 제48호 공고 부속서 1에서 "
-"베이징은 7자리 목록 코드 안에 **40개의 개별 기술 통제 지점**\\ 을 정밀하게 배치했다. **인공지능 및 AI 하드웨어 분야 "
-"23개**\\ (수출 금지안 6개, 수출 제한안 17개), **바이오의약 분야 5개**\\ (금지안 3개, 제한안 2개), "
-"**태양광 제조 분야 12개**\\ (금지안 5개, 제한안 7개)로 구성되어 공식 집계인 **수출 금지 14개**\\ 와 **수출 "
-"제한 26개** 기술 합계와 정확히 일치한다 ``[CN48]`` ``[CN-A1]`` ``[CNQA]``."
+"규제 당국은 이 난제를  **수치화된 성능 인계철선과 목적 범위** \\ 를 긋는 방식으로 해결한다. 제48호 공고 부속서 1에서 "
+"베이징은 7자리 목록 코드 안에  **40개의 개별 기술 통제 지점** \\ 을 정밀하게 배치했다.  **인공지능 및 AI 하드웨어 분야"
+" 23개** \\ (수출 금지안 6개, 수출 제한안 17개),  **바이오의약 분야 5개** \\ (금지안 3개, 제한안 2개),  "
+"**태양광 제조 분야 12개** \\ (금지안 5개, 제한안 7개)로 구성되어 공식 집계인  **수출 금지 14개** \\ 와  **수출"
+" 제한 26개**  기술 합계와 정확히 일치한다 `CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `CNQA "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/atlas.rst:18
+#: ../../book/atlas.rst:17
 msgid ""
-"The three frontiers of Announcement No. 48: artificial intelligence and "
-"silicon wafer architectures (left), cellular and genetic medicine "
-"platforms (center), and precision crystalline solar manufacturing (right)."
+"#import \"figures/artwork.typ\": three-frontiers\n"
+"#three-frontiers()"
 msgstr ""
-"제48호 공고가 다루는 세 가지 최전선: 인공지능과 실리콘 웨이퍼 아키텍처(왼쪽), 세포 및 유전자 의약 플랫폼(가운데), 정밀 "
-"결정질 태양광 제조 공정(오른쪽)."
+"#import \"figures/artwork.typ\": three-frontiers\n"
+"#three-frontiers()"
 
-#: ../../book/atlas.rst:20
+#: ../../book/atlas.rst:17
 msgid ""
-"Because Attachment 1 nests multiple numbered points under shared codes "
-"(for instance, ``266504X`` houses two large-model points, ``266505X`` "
-"houses four AI-agent points, ``266506X`` houses four chip-design points, "
-"and ``266507X`` houses four supercluster points), counting raw table rows "
-"in the WPS file yields fewer than 40. Below, we translate all 40 points "
-"into plain language while keeping every official code (``J`` for "
-"prohibited, ``X`` for restricted) and point number intact so you can "
-"verify the Chinese original in seconds ``[CN-A1]``."
-msgstr ""
-"부속서 1은 하나의 공통 코드 아래 여러 개의 번호 항목을 묶어 두는 구조를 취하고 있기 때문에(예컨대 ``266504X`` "
-"아래에는 거대 모델 항목 2개, ``266505X`` 아래에는 AI 에이전트 항목 4개, ``266506X`` 아래에는 반도체 설계 "
-"항목 4개, ``266507X`` 아래에는 슈퍼클러스터 항목 4개가 들어 있다), WPS 원본 파일의 표 행 수만 단순 계산하면 "
-"40개보다 적게 보인다. 아래에서는 독자가 몇 초 만에 중국어 원문과 직접 대조할 수 있도록 모든 공식 코드(수출 금지는 "
-"``J``, 수출 제한은 ``X``)와 세부 번호를 원형 그대로 유지하면서 40개 항목 전체를 명쾌한 일상 언어로 풀어썼다 "
-"``[CN-A1]``."
+"Three technology areas, drawn as processor, genetic structure and solar "
+"cell. The symbols identify subjects rather than imply measured impacts."
+msgstr "프로세서·유전 구조·태양전지가 세 분야를 표현합니다. 주제를 나타내며 실측 영향은 아닙니다."
 
-#: ../../book/atlas.rst:22
+#: ../../book/atlas.rst:23
+msgid ""
+"Attachment 1 groups several numbered technologies under the same code. For "
+"example, 266504X has two main points, 266505X has four, 266506X has **two "
+"main points**, and 266507X has four. Our atlas splits the attachment into 40"
+" reading checkpoints while retaining the original code and point. It is an "
+"editorial index, not a replacement legal list. `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+msgstr ""
+"266504X 주2항,266505X4항,266506X  **주2항** ,266507X4항입니다. 원코드를 보존해40점으로 편집했으며 법적"
+" 목록 대체가 아닙니다. `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+
+#: ../../book/atlas.rst:25
 msgid "Reading the Tripwires Without Getting Tripped"
 msgstr "인계철선에 걸려 넘어지지 않고 조문을 읽는 세 가지 습관"
 
-#: ../../book/atlas.rst:25
+#: ../../book/atlas.rst:28
 msgid "Keep three practical reading habits in mind as you explore the map:"
 msgstr "이 기술 지도를 탐색할 때는 다음 세 가지 실전 독해 습관을 염두에 두자:"
 
-#: ../../book/atlas.rst:27
+#: ../../book/atlas.rst:30
 msgid ""
 "**Spot \"any one\" versus \"all together.\"** Entry ``266504X`` Point 2 "
-"(frontier large models) triggers if *any single one* of its three tests "
-"is met: :math:`\\ge 10^{26}\\text{ FLOPs}`, *or* :math:`\\ge 2\\text{ "
-"trillion parameters}`, *or* a live Global Top-10 benchmark rank. By "
-"contrast, ``266505X`` Point 1 (planning agents) triggers only if an agent "
-"splits tasks into :math:`\\ge 20\\text{ steps}` *and* hits :math:`\\ge "
-"80\\%` decomposition accuracy *and* reaches :math:`\\ge 90\\%` subtask "
-"completion simultaneously ``[CN-A1]``."
+"(frontier large models) triggers if *any single one* of its three tests is "
+"met: :math:`\\ge 10^{26}\\text{ FLOPs}`, *or* :math:`\\ge 2\\text{ trillion "
+"parameters}`, *or* a live Global Top-10 benchmark rank. By contrast, "
+"``266505X`` Point 1 (planning agents) triggers only if an agent splits tasks"
+" into :math:`\\ge 20\\text{ steps}` *and* hits :math:`\\ge 80\\%` "
+"decomposition accuracy *and* reaches :math:`\\ge 90\\%` subtask completion "
+"simultaneously `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 msgstr ""
-"**'어느 하나(OR)' 조건과 '모두 충족(AND)' 조건을 구별하라.** ``266504X`` 제2호(프런티어 거대 모델)는 세 "
-"가지 기준 중 *단 하나라도* 충족되면 작동한다, 연산량 :math:`\\ge 10^{26}\\text{ FLOPs}`, *또는* "
-":math:`\\ge 2`\\ 조 파라미터, *또는* 수출 시점 글로벌 Top 10 벤치마크 순위다. 반대로 ``266505X`` "
-"제1호(계획 수립 에이전트)는 과업을 :math:`\\ge 20`\\ 단계로 분해하고, *동시에* 분해 정확도 :math:`\\ge "
-"80\\%`\\ 를 달성하며, *동시에* 하위 과업 평균 완수율 :math:`\\ge 90\\%`\\ 에 도달하는 세 조건이 모두 "
-"결합될 때만 작동한다 ``[CN-A1]``."
+" **'어느 하나(OR)' 조건과 '모두 충족(AND)' 조건을 구별하라.**  ``266504X`` 제2호(프런티어 거대 모델)는 세 "
+"가지 기준 중  *단 하나라도*  충족되면 작동한다, 연산량 :math:`\\ge 10^{26}\\text{ FLOPs}`,  *또는*"
+"  :math:`\\ge 2`\\ 조 파라미터,  *또는*  수출 시점 글로벌 Top 10 벤치마크 순위다. 반대로 ``266505X``"
+" 제1호(계획 수립 에이전트)는 과업을 :math:`\\ge 20`\\ 단계로 분해하고,  *동시에*  분해 정확도 :math:`\\ge"
+" 80\\%`\\ 를 달성하며,  *동시에*  하위 과업 평균 완수율 :math:`\\ge 90\\%`\\ 에 도달하는 세 조건이 모두 "
+"결합될 때만 작동한다 `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/atlas.rst:28
+#: ../../book/atlas.rst:31
 msgid ""
-"**Purpose can be half the fence.** Several severe-looking entries (such "
-"as deepfake detection at :math:`\\ge 95\\%` accuracy in ``266401J``, or "
-"high-performance sensitive agents in ``266502J``) apply *only* when built "
+"**Purpose can be half the fence.** Several severe-looking entries (such as "
+"deepfake detection at :math:`\\ge 95\\%` accuracy in ``266401J``, or high-"
+"performance sensitive agents in ``266502J``) apply *only* when built "
 "specifically or mainly for national cross-border data defense, critical "
-"infrastructure, military, or core government settings. Ordinary studio "
-"tools and consumer assistants sit outside that purpose ``[CN-A1]``."
+"infrastructure, military, or core government settings. Ordinary studio tools"
+" and consumer assistants sit outside that purpose `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 msgstr ""
-"**개발 목적이 울타리의 절반을 결정한다.** 언뜻 매우 엄혹해 보이는 여러 항목, 예컨대 정확도 :math:`\\ge "
-"95\\%` 이상의 딥페이크 탐지(``266401J``)나 고성능 민감 영역 에이전트(``266502J``)은 국가 국경 간 "
-"데이터 안보 방어, 핵심 기반시설, 군사, 또는 핵심 정부 업무를 *전용 혹은 주된 목적*\\ 으로 제작된 경우에만 적용된다. "
-"일반적인 콘텐츠 스튜디오 도구나 소비자용 비서 앱은 그 목적 범위 바깥에 있다 ``[CN-A1]``."
+" **개발 목적이 울타리의 절반을 결정한다.**  언뜻 매우 엄혹해 보이는 여러 항목, 예컨대 정확도 :math:`\\ge 95\\%` "
+"이상의 딥페이크 탐지(``266401J``)나 고성능 민감 영역 에이전트(``266502J``)은 국가 국경 간 데이터 안보 방어, 핵심"
+" 기반시설, 군사, 또는 핵심 정부 업무를  *전용 혹은 주된 목적* \\ 으로 제작된 경우에만 적용된다. 일반적인 콘텐츠 스튜디오 "
+"도구나 소비자용 비서 앱은 그 목적 범위 바깥에 있다 `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/atlas.rst:29
+#: ../../book/atlas.rst:32
 msgid ""
 "**Read the hardware inside the software list.** Notice that points 18 "
-"through 23 below (``266506X`` and ``266507X``) are not chatbots at all: "
-"they are **processor chip architectures, 3D NAND and DRAM memory designs, "
-"and >10,000-card supercluster interconnects**, while Footnote 4 pulls "
-"**18 classes of physical solar machinery** into export control "
-"``[CN-A1]``."
+"through 23 below (``266506X`` and ``266507X``) are not chatbots at all: they"
+" are **processor chip architectures, 3D NAND and DRAM memory designs, and "
+">10,000-card supercluster interconnects**, while Footnote 4 pulls **the "
+"listed categories of physical solar machinery** into export control `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 msgstr ""
-"**소프트웨어 목록 안에 숨은 하드웨어를 읽어 내라.** 아래 18번째부터 23번째 항목(``266506X`` 및 "
-"``266507X``)은 챗봇과는 거리가 멀다, 이들은 **프로세서 칩 아키텍처, 3D NAND 및 DRAM 메모리 설계, 1만 "
-"장 초과 슈퍼클러스터 인터커넥트**\\ 를 다루며, 나아가 주석 4는 **18종의 물리적 태양광 제조 설비**\\ 를 직접 수출 "
-"통제 안으로 끌어들이고 있다 ``[CN-A1]``."
+" **소프트웨어 목록 안에 숨은 하드웨어를 읽어 내라.**  아래 18번째부터 23번째 항목(``266506X`` 및 "
+"``266507X``)은 챗봇과는 거리가 멀다, 이들은  **프로세서 칩 아키텍처, 3D NAND 및 DRAM 메모리 설계, 1만 장 "
+"초과 슈퍼클러스터 인터커넥트** \\ 를 다루며, 나아가 주석 4는  **열거된의 물리적 태양광 제조 설비** \\ 를 직접 수출 통제 "
+"안으로 끌어들이고 있다 `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_."
 
-#: ../../book/atlas.rst:33
+#: ../../book/atlas.rst:36
 msgid "Artificial Intelligence, Chips & Superclusters (23 Checkpoints)"
 msgstr "인공지능, 반도체 칩 및 슈퍼클러스터 (23개 통제 지점)"
 
-#: ../../book/atlas.rst:38
+#: ../../book/atlas.rst:41
 msgid ""
-"**266401J · Point 1: Cross-border security deepfake detection** "
-"*(Proposed Prohibited)*"
-msgstr "**266401J · Point 1: 국경 간 데이터 안보용 딥페이크 탐지** *(수출 금지안)*"
+"**266401J · Point 1: Cross-border security deepfake detection** *(Proposed "
+"Prohibited)*"
+msgstr " **266401J · Point 1: 국경 간 데이터 안보용 딥페이크 탐지**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:40
+#: ../../book/atlas.rst:43
 msgid ""
 "High-grade detection systems and equipment know-how built mainly to guard "
-"China's cross-border network-data security, achieving at least 95% "
-"accuracy and 95% recall across deepfake video, audio, images, or "
-"multimodal media. Ordinary consumer media checkers outside this "
-"national-security purpose are not the target."
+"China's cross-border network-data security, achieving at least 95% accuracy "
+"and 95% recall across deepfake video, audio, images, or multimodal media. "
+"Ordinary consumer media checkers outside this national-security purpose are "
+"not the target."
 msgstr ""
 "중국의 국경 간 네트워크 데이터 안보 수호를 주된 목적으로 구축되어 딥페이크 영상·음성·이미지·멀티모달 콘텐츠 전반에서 "
 "정확도(accuracy) 95% 이상과 재현율(recall) 95% 이상을 동시에 달성하는 고성능 탐지 시스템 및 장비 제조 기술. "
 "이러한 국가 안보 목적 바깥의 일반 소비자용 미디어 판별 도구는 대상이 아니다."
 
-#: ../../book/atlas.rst:44
+#: ../../book/atlas.rst:47
 msgid ""
-"**266402J · Point 1: Autonomous malware generation and mutation** "
-"*(Proposed Prohibited)*"
-msgstr "**266402J · Point 1: 자율형 악성코드 생성 및 변이 기술** *(수출 금지안)*"
+"**266402J · Point 1: Autonomous malware generation and mutation** *(Proposed"
+" Prohibited)*"
+msgstr " **266402J · Point 1: 자율형 악성코드 생성 및 변이 기술**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:46
+#: ../../book/atlas.rst:49
 msgid ""
 "AI that autonomously writes or mutates malicious code capable of striking "
 "critical infrastructure, defense systems, or core government networks, "
@@ -180,33 +191,33 @@ msgid ""
 "scanners, 85% against mainstream antivirus, or 90% against ML detectors). "
 "Everyday coding assistants are not covered."
 msgstr ""
-"핵심 기반시설, 국방 시스템, 핵심 정부 전산망을 타격할 수 있는 악성코드를 자율적으로 작성·변이시키며 명시된 공격 성공률(다중 "
-"엔진 스캐너 상대 60% 이상, 주류 백신 상대 85% 이상, 머신러닝 탐지기 상대 90% 이상)에 도달하는 AI 기술. 일상적인 "
-"코딩 보조 도구는 포함되지 않는다."
+"핵심 기반시설, 국방 시스템, 핵심 정부 전산망을 타격할 수 있는 악성코드를 자율적으로 작성·변이시키며 명시된 공격 성공률(다중 엔진 "
+"스캐너 상대 60% 이상, 주류 백신 상대 85% 이상, 머신러닝 탐지기 상대 90% 이상)에 도달하는 AI 기술. 일상적인 코딩 보조 "
+"도구는 포함되지 않는다."
 
-#: ../../book/atlas.rst:50
+#: ../../book/atlas.rst:53
 msgid ""
 "**266402J · Point 2: Self-adapting cyber-evasion AI** *(Proposed "
 "Prohibited)*"
-msgstr "**266402J · Point 2: 자기적응형 사이버 탐지 회피 AI** *(수출 금지안)*"
+msgstr " **266402J · Point 2: 자기적응형 사이버 탐지 회피 AI**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:52
+#: ../../book/atlas.rst:55
 msgid ""
 "Offensive AI built for sensitive national-security targets that senses "
-"sandboxes, debuggers, or emulators to escape them, or automatically "
-"rewrites at least 50% of its code structure or control flow on every run "
-"while keeping its payload intact."
+"sandboxes, debuggers, or emulators to escape them, or automatically rewrites"
+" at least 50% of its code structure or control flow on every run while "
+"keeping its payload intact."
 msgstr ""
 "국가 안보 민감 표적을 겨냥해 제작된 공격형 AI로서, 샌드박스·디버거·에뮬레이터 분석 환경을 스스로 감지해 탈출하거나 핵심 공격 "
 "페이로드를 유지한 채 매 실행 시 코드 구조나 제어 흐름의 50% 이상을 자동으로 재작성하는 기술."
 
-#: ../../book/atlas.rst:56
+#: ../../book/atlas.rst:59
 msgid ""
 "**266402J · Point 3: Mass automated evasion-variant swarms** *(Proposed "
 "Prohibited)*"
-msgstr "**266402J · Point 3: 탐지 회피 변종 악성코드 대량 자동 생성·배포** *(수출 금지안)*"
+msgstr " **266402J · Point 3: 탐지 회피 변종 악성코드 대량 자동 생성·배포**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:58
+#: ../../book/atlas.rst:61
 msgid ""
 "Technology for sensitive cyber operations that mass-produces and deploys "
 "evasive malware variants at scale: generating 20+ structurally distinct "
@@ -214,600 +225,590 @@ msgid ""
 "30%+ syntax-tree divergence, or 90%+ behavioral consistency inside "
 "sandboxes."
 msgstr ""
-"민감 사이버 작전을 위해 회피형 변종 악성코드를 대규모로 생성·배포하는 기술. 구조가 뚜렷이 다른 변종 20개 이상 동시 생성(또는 "
-"전 과정 80% 이상 자동화), 구문 트리 차이 30% 이상의 일일 10개 이상 변종 생성, 또는 샌드박스 내 90% 이상의 행동 "
-"일관성 유지 기준이 적용된다."
+"민감 사이버 작전을 위해 회피형 변종 악성코드를 대규모로 생성·배포하는 기술. 구조가 뚜렷이 다른 변종 20개 이상 동시 생성(또는 전 "
+"과정 80% 이상 자동화), 구문 트리 차이 30% 이상의 일일 10개 이상 변종 생성, 또는 샌드박스 내 90% 이상의 행동 일관성 "
+"유지 기준이 적용된다."
 
-#: ../../book/atlas.rst:62
+#: ../../book/atlas.rst:65
 msgid ""
-"**266501J · Point 1: Large models trained on China's Core Data** "
-"*(Proposed Prohibited)*"
-msgstr "**266501J · Point 1: 중국 법정 '핵심 데이터' 기반 학습 거대 모델** *(수출 금지안)*"
+"**266501J · Point 1: Large models trained on China's Core Data** *(Proposed "
+"Prohibited)*"
+msgstr " **266501J · Point 1: 중국 법정 '핵심 데이터' 기반 학습 거대 모델**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:64
+#: ../../book/atlas.rst:67
 msgid ""
 "Large AI models trained using China's legally designated *Core Data* (the "
-"highest national-security tier under the Data Security Law) and offered "
-"as services. What triggers this red line is the legal category of "
-"training data, never a company's brand name."
+"highest national-security tier under the Data Security Law) and offered as "
+"services. What triggers this red line is the legal category of training "
+"data, never a company's brand name."
 msgstr ""
-"중국 《데이터보안법》상 최고 국가 안보 등급인 법정 *핵심 데이터(Core Data)*\\ 를 사용해 학습되고 서비스 형태로 "
-"제공되는 거대 AI 모델. 이 레드라인을 작동시키는 기준은 학습 데이터의 법적 등급이지 특정 기업의 브랜드명이 아니다."
+"중국 《데이터보안법》상 최고 국가 안보 등급인 법정  *핵심 데이터(Core Data)* \\ 를 사용해 학습되고 서비스 형태로 제공되는"
+" 거대 AI 모델. 이 레드라인을 작동시키는 기준은 학습 데이터의 법적 등급이지 특정 기업의 브랜드명이 아니다."
 
-#: ../../book/atlas.rst:68
+#: ../../book/atlas.rst:71
 msgid ""
 "**266502J · Point 1: High-performance agents for critical or defense "
 "settings** *(Proposed Prohibited)*"
-msgstr "**266502J · Point 1: 핵심 인프라·국방 전용 고성능 AI 에이전트** *(수출 금지안)*"
+msgstr " **266502J · Point 1: 핵심 인프라·국방 전용 고성능 AI 에이전트**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:70
+#: ../../book/atlas.rst:73
 msgid ""
-"AI agents built specifically or mainly for critical infrastructure, "
-"national defense, or core government operations that also reach the "
-"high-capability benchmarks defined in ``266505X``. General-purpose "
-"productivity or coding agents do not fall here."
+"AI agents built specifically or mainly for critical infrastructure, national"
+" defense, or core government operations that also reach the high-capability "
+"benchmarks defined in ``266505X``. General-purpose productivity or coding "
+"agents do not fall here."
 msgstr ""
-"핵심 기반시설, 국방, 또는 핵심 정부 업무를 전용·주된 목적으로 제작되면서 동시에 ``266505X`` 항목에 정의된 고성능 "
-"지표를 충족하는 AI 에이전트. 범용 업무 생산성 도구나 일반 코딩 에이전트는 여기에 해당하지 않는다."
+"핵심 기반시설, 국방, 또는 핵심 정부 업무를 전용·주된 목적으로 제작되면서 동시에 ``266505X`` 항목에 정의된 고성능 지표를 "
+"충족하는 AI 에이전트. 범용 업무 생산성 도구나 일반 코딩 에이전트는 여기에 해당하지 않는다."
 
-#: ../../book/atlas.rst:74
+#: ../../book/atlas.rst:77
 msgid ""
 "**266402X · Point 8: Ultra-high-accuracy deepfake detection (98%+)** "
 "*(Proposed Restricted)*"
 msgstr ""
-"**266402X · Point 8: 초고정밀 딥페이크 탐지 시스템 (정확도·재현율 98% 이상)** *(수출 제한안)*"
+" **266402X · Point 8: 초고정밀 딥페이크 탐지 시스템 (정확도·재현율 98% 이상)**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:76
+#: ../../book/atlas.rst:79
 msgid ""
-"Deepfake detection systems and equipment-manufacturing know-how for "
-"video, audio, images, or multimodal content reaching both accuracy and "
-"recall of at least 98%, regardless of whether used for border-data "
-"defense."
+"Deepfake detection systems and equipment-manufacturing know-how for video, "
+"audio, images, or multimodal content reaching both accuracy and recall of at"
+" least 98%, regardless of whether used for border-data defense."
 msgstr ""
-"국경 간 데이터 안보 방어 목적 여부와 관계없이 영상·음성·이미지·멀티모달 콘텐츠 전반에서 정확도와 재현율 모두 98% 이상을 "
-"달성하는 딥페이크 탐지 시스템 및 관련 장비 제조 기술."
+"국경 간 데이터 안보 방어 목적 여부와 관계없이 영상·음성·이미지·멀티모달 콘텐츠 전반에서 정확도와 재현율 모두 98% 이상을 달성하는 "
+"딥페이크 탐지 시스템 및 관련 장비 제조 기술."
 
-#: ../../book/atlas.rst:80
+#: ../../book/atlas.rst:83
 msgid ""
 "**266402X · Point 9: Near-invisible video and image steganography** "
 "*(Proposed Restricted)*"
-msgstr "**266402X · Point 9: 비가시성 초정밀 영상·이미지 스테가노그래피** *(수출 제한안)*"
+msgstr " **266402X · Point 9: 비가시성 초정밀 영상·이미지 스테가노그래피**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:82
+#: ../../book/atlas.rst:85
 msgid ""
-"Hiding and extracting secret data inside images or video only when all "
-"three benchmarks are met together: high survival under distortion "
-"(bit-error <=0.5% or recall >=99.9%), false-alarm rate <=0.1%, and "
-"near-total invisibility to human eyes (SSIM >=0.999, PSNR >=41 dB, or "
-"LPIPS <=0.005)."
+"Hiding and extracting secret data inside images or video only when all three"
+" benchmarks are met together: high survival under distortion (bit-error "
+"<=0.5% or recall >=99.9%), false-alarm rate <=0.1%, and near-total "
+"invisibility to human eyes (SSIM >=0.999, PSNR >=41 dB, or LPIPS <=0.005)."
 msgstr ""
 "이미지나 영상 속에 기밀 데이터를 은닉·추출하는 기술로, 세 가지 지표가 모두 동시에 충족될 때만 해당된다. 왜곡 환경에서의 높은 "
 "복원력(비트 오류율 <=0.5% 또는 재현율 >=99.9%), 오탐률 <=0.1%, 그리고 육안으로 식별 불가능한 비가시성(SSIM "
 ">=0.999, PSNR >=41 dB, 또는 LPIPS <=0.005)이다."
 
-#: ../../book/atlas.rst:86
+#: ../../book/atlas.rst:89
 msgid ""
-"**266404X · Point 6: AI-assisted zero-day and exploit discovery** "
-"*(Proposed Restricted)*"
-msgstr "**266404X · Point 6: AI 기반 제로데이 취약점 및 익스플로잇 자동 발굴** *(수출 제한안)*"
+"**266404X · Point 6: AI-assisted zero-day and exploit discovery** *(Proposed"
+" Restricted)*"
+msgstr " **266404X · Point 6: AI 기반 제로데이 취약점 및 익스플로잇 자동 발굴**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:88
+#: ../../book/atlas.rst:91
 msgid ""
 "Cybersecurity AI meeting any of six high bars: >=75% on top exploit "
 "benchmarks; building full exploit chains (>=50% on major OS/browsers or "
 ">=40% arbitrary code execution); 10x speed over senior human researchers; "
-"chaining 2+ low/medium bugs into working PoC attacks; finding 5+ critical "
-"or 50+ new bugs in a major OS or open-source project in one pass; or "
-"reaching the top tier of mainstream exploit scales."
+"chaining 2+ low/medium bugs into working PoC attacks; finding 5+ critical or"
+" 50+ new bugs in a major OS or open-source project in one pass; or reaching "
+"the top tier of mainstream exploit scales."
 msgstr ""
 "여섯 가지 고난도 기준 중 어느 하나를 충족하는 사이버보안 AI: 주요 익스플로잇 벤치마크 >=75% 달성, 전체 공격 체인 자동 "
-"구축(주요 OS·브라우저 대상 >=50% 또는 임의 코드 실행 >=40%), 시니어 인간 연구원 대비 10배 속도, 중·저위험 버그 "
-"2개 이상을 결합한 실작동 개념증명(PoC) 공격 생성, 단일 분석으로 주요 OS나 오픈소스 프로젝트에서 치명적 취약점 5개 이상 "
-"또는 신규 버그 50개 이상 발견, 또는 주류 취약점 평가 척도 최상위 등급 도달."
+"구축(주요 OS·브라우저 대상 >=50% 또는 임의 코드 실행 >=40%), 시니어 인간 연구원 대비 10배 속도, 중·저위험 버그 2개"
+" 이상을 결합한 실작동 개념증명(PoC) 공격 생성, 단일 분석으로 주요 OS나 오픈소스 프로젝트에서 치명적 취약점 5개 이상 또는 신규"
+" 버그 50개 이상 발견, 또는 주류 취약점 평가 척도 최상위 등급 도달."
 
-#: ../../book/atlas.rst:92
+#: ../../book/atlas.rst:95
 msgid ""
 "**266501X · Point 19: High-speed, anti-spoof or dialect voiceprint ID** "
 "*(Proposed Restricted)*"
-msgstr "**266501X · Point 19: 고속·위변조 방지 및 방언 특화 성문(화자) 식별** *(수출 제한안)*"
+msgstr " **266501X · Point 19: 고속·위변조 방지 및 방언 특화 성문(화자) 식별**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:94
+#: ../../book/atlas.rst:97
 msgid ""
-"Speaker-identification algorithms and systems hitting any one of four "
-"bars: >=99.1% true-match rate at <=0.01% false positives on short clips; "
-"<=300 ms latency at >=100 requests/sec; >=98% spoof detection (or <=1% "
-"false acceptance) against replay and synthetic voices; or >=90% accuracy "
-"tailored to Chinese minority languages or regional dialects."
+"Speaker-identification algorithms and systems hitting any one of four bars: "
+">=99.1% true-match rate at <=0.01% false positives on short clips; <=300 ms "
+"latency at >=100 requests/sec; >=98% spoof detection (or <=1% false "
+"acceptance) against replay and synthetic voices; or >=90% accuracy tailored "
+"to Chinese minority languages or regional dialects."
 msgstr ""
 "네 가지 기준 중 어느 하나에 도달하는 화자 식별 알고리즘 및 시스템: 단문 음성에서 오인식률 <=0.01% 조건 하 정인식률 "
-">=99.1%, 초당 100건 이상 요청 시 지연시간 <=300 ms, 녹음 재생 및 합성 음성에 대한 위변조 탐지율 "
-">=98%(또는 타인수락률 <=1%), 또는 중국 소수민족 언어·지역 방언 특화 정확도 >=90%."
+">=99.1%, 초당 100건 이상 요청 시 지연시간 <=300 ms, 녹음 재생 및 합성 음성에 대한 위변조 탐지율 >=98%(또는 "
+"타인수락률 <=1%), 또는 중국 소수민족 언어·지역 방언 특화 정확도 >=90%."
 
-#: ../../book/atlas.rst:98
+#: ../../book/atlas.rst:101
 msgid ""
 "**266501X · Point 20: Chinese and minority-language machine translation** "
 "*(Proposed Restricted)*"
-msgstr "**266501X · Point 20: 중국어 및 소수민족 언어 고품질 기계번역** *(수출 제한안)*"
+msgstr " **266501X · Point 20: 중국어 및 소수민족 언어 고품질 기계번역**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:100
+#: ../../book/atlas.rst:103
 msgid ""
-"Translation technology built mainly for Chinese and China's "
-"ethnic-minority languages that achieves either a human quality score "
-"(MOS) of at least 4.8, or >=95% semantic fidelity paired with BLEU >=35 "
-"in general text (or BLEU >=30 in specialist domains)."
+"Translation technology built mainly for Chinese and China's ethnic-minority "
+"languages that achieves either a human quality score (MOS) of at least 4.8, "
+"or >=95% semantic fidelity paired with BLEU >=35 in general text (or BLEU "
+">=30 in specialist domains)."
 msgstr ""
-"중국어 및 중국 내 소수민족 언어를 주된 대상으로 구축된 기계번역 기술로서, 인간 품질 평가 점수(MOS) 4.8 이상을 기록하거나 "
-"의미 충실도 >=95%와 함께 일반 텍스트 BLEU >=35(전문 분야는 BLEU >=30) 이상을 달성하는 기술."
+"중국어 및 중국 내 소수민족 언어를 주된 대상으로 구축된 기계번역 기술로서, 인간 품질 평가 점수(MOS) 4.8 이상을 기록하거나 의미"
+" 충실도 >=95%와 함께 일반 텍스트 BLEU >=35(전문 분야는 BLEU >=30) 이상을 달성하는 기술."
 
-#: ../../book/atlas.rst:104
+#: ../../book/atlas.rst:107
 msgid ""
 "**266504X · Point 1: Large models trained on China's Important Data** "
 "*(Proposed Restricted)*"
-msgstr "**266504X · Point 1: 중국 법정 '중요 데이터' 기반 학습 거대 모델** *(수출 제한안)*"
+msgstr " **266504X · Point 1: 중국 법정 '중요 데이터' 기반 학습 거대 모델**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:106
+#: ../../book/atlas.rst:109
 msgid ""
 "Large models trained on legally defined *Important Data* and offered as "
-"services. Crucially, Note 1 carves out trace use (<=0.1%) when sanitized "
-"so the data neither boosts core domain R&D capability nor reappears in "
-"outputs, as well as data lawfully obtainable from public sources."
+"services. Crucially, Note 1 carves out trace use (<=0.1%) when sanitized so "
+"the data neither boosts core domain R&D capability nor reappears in outputs,"
+" as well as data lawfully obtainable from public sources."
 msgstr ""
-"법정 *중요 데이터(Important Data)*\\ 로 학습되어 서비스로 제공되는 거대 모델. 다만 항목 주석 1은 해당 데이터가 "
+"법정  *중요 데이터(Important Data)* \\ 로 학습되어 서비스로 제공되는 거대 모델. 다만 항목 주석 1은 해당 데이터가 "
 "특정 분야 핵심 연구개발 역량을 높이지도 않고 모델 출력물에 재현되지도 않도록 정제된 극미량 사용(<=0.1%)과, 공개 채널에서 "
 "적법하게 취득 가능한 데이터를 명확히 통제 대상에서 제외한다."
 
-#: ../../book/atlas.rst:110
+#: ../../book/atlas.rst:113
 msgid ""
 "**266504X · Point 2: Frontier large-model core technology** *(Proposed "
 "Restricted)*"
-msgstr "**266504X · Point 2: 프런티어 거대 모델 핵심 기술** *(수출 제한안)*"
+msgstr " **266504X · Point 2: 프런티어 거대 모델 핵심 기술**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:112
+#: ../../book/atlas.rst:115
 msgid ""
-"The heart of the AI model rule: covers weights, key checkpoints, "
-"underlying source code, architecture, training optimization, and "
-"inference acceleration if ANY ONE test is met: >=10^26 training FLOPs, "
-">=2 trillion parameters, or a Global Top-10 public ranking at export "
-"time. Open-source releases qualify for Footnote 2 automatic-licensing "
-"facilitation."
+"The heart of the AI model rule: covers weights, key checkpoints, underlying "
+"source code, architecture, training optimization, and inference acceleration"
+" if ANY ONE test is met: >=10^26 training FLOPs, >=2 trillion parameters, or"
+" a Global Top-10 public ranking at export time. Open-source releases qualify"
+" for Footnote 2 automatic-licensing facilitation."
 msgstr ""
-"AI 모델 규정의 심장부다. 학습 연산량 >=10^26 FLOPs, >=2조 파라미터, 또는 수출 시점 기준 글로벌 Top 10 "
-"공개 벤치마크 순위 중 어느 하나라도 충족할 경우 가중치, 핵심 체크포인트, 기반 소스 코드, 아키텍처, 학습 최적화 및 추론 가속 "
-"기술 전반을 포괄한다. 오픈소스 공개는 주석 2의 자동 허가 패스트트랙 대상이 된다."
+"AI 모델 규정의 심장부다. 학습 연산량 >=10^26 FLOPs, >=2조 파라미터, 또는 수출 시점 기준 글로벌 Top 10 공개 "
+"벤치마크 순위 중 어느 하나라도 충족할 경우 가중치, 핵심 체크포인트, 기반 소스 코드, 아키텍처, 학습 최적화 및 추론 가속 기술 "
+"전반을 포괄한다. 오픈소스 공개는 주석 2의 자동 허가 패스트트랙 대상이 된다."
 
-#: ../../book/atlas.rst:116
+#: ../../book/atlas.rst:119
 msgid ""
 "**266505X · Point 1: Long-horizon autonomous planning agents** *(Proposed "
 "Restricted)*"
-msgstr "**266505X · Point 1: 장기 호흡 자율 과업 계획 에이전트** *(수출 제한안)*"
+msgstr " **266505X · Point 1: 장기 호흡 자율 과업 계획 에이전트**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:118
+#: ../../book/atlas.rst:121
 msgid ""
 "Task-planning technology that breaks natural-language instructions into "
 "chains of 20 or more executable subtasks while hitting at least 80% "
 "decomposition accuracy and at least 90% average subtask completion. All "
 "three numbers must be met together."
 msgstr ""
-"자연어 지시를 20단계 이상의 실행 가능한 하위 과업 사슬로 분해하면서 동시에 분해 정확도 80% 이상과 하위 과업 평균 완수율 "
-"90% 이상을 달성하는 과업 계획 기술. 세 가지 수치 기준이 모두 함께 충족되어야 한다."
+"자연어 지시를 20단계 이상의 실행 가능한 하위 과업 사슬로 분해하면서 동시에 분해 정확도 80% 이상과 하위 과업 평균 완수율 90% "
+"이상을 달성하는 과업 계획 기술. 세 가지 수치 기준이 모두 함께 충족되어야 한다."
 
-#: ../../book/atlas.rst:122
+#: ../../book/atlas.rst:125
 msgid ""
 "**266505X · Point 2: 60-agent collaborative orchestration** *(Proposed "
 "Restricted)*"
-msgstr "**266505X · Point 2: 60개 이상 다중 에이전트 협업 오케스트레이션** *(수출 제한안)*"
+msgstr " **266505X · Point 2: 60개 이상 다중 에이전트 협업 오케스트레이션**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:124
+#: ../../book/atlas.rst:127
 msgid ""
-"Multi-agent coordination frameworks running 60 or more concurrent AI "
-"agents at once, finishing work in no more than twice the fastest "
-"single-agent time for equivalent quality, and reaching >=85% agreement "
-"with ground-truth answers."
+"Multi-agent coordination frameworks running 60 or more concurrent AI agents "
+"at once, finishing work in no more than twice the fastest single-agent time "
+"for equivalent quality, and reaching >=85% agreement with ground-truth "
+"answers."
 msgstr ""
 "60개 이상의 AI 에이전트를 동시에 구동하면서 동등 품질 기준 가장 빠른 단일 에이전트 소요 시간의 2배 이내에 작업을 마치고, "
 "정답(ground-truth)과의 일치율 >=85%를 달성하는 다중 에이전트 조율 프레임워크."
 
-#: ../../book/atlas.rst:128
+#: ../../book/atlas.rst:131
 msgid ""
 "**266505X · Point 3: 200-tool operating agents** *(Proposed Restricted)*"
-msgstr "**266505X · Point 3: 200개 이상 외부 도구를 운용하는 에이전트** *(수출 제한안)*"
+msgstr " **266505X · Point 3: 200개 이상 외부 도구를 운용하는 에이전트**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:130
+#: ../../book/atlas.rst:133
 msgid ""
-"Tool-use and system-operation technology supporting 200+ integrated "
-"third-party tools, picking the right tool at least 90% of the time, and "
-"succeeding at least 90% end-to-end on complex tasks that chain three or "
-"more distinct tools."
+"Tool-use and system-operation technology supporting 200+ integrated third-"
+"party tools, picking the right tool at least 90% of the time, and succeeding"
+" at least 90% end-to-end on complex tasks that chain three or more distinct "
+"tools."
 msgstr ""
-"200개 이상의 외부 서드파티 도구를 통합 지원하면서 90% 이상의 정확도로 적합한 도구를 선택하고, 서로 다른 도구 3개 이상을 "
-"연쇄 호출하는 복합 과업에서 종단 간(end-to-end) 성공률 90% 이상을 기록하는 도구 활용·시스템 조작 기술."
+"200개 이상의 외부 서드파티 도구를 통합 지원하면서 90% 이상의 정확도로 적합한 도구를 선택하고, 서로 다른 도구 3개 이상을 연쇄 "
+"호출하는 복합 과업에서 종단 간(end-to-end) 성공률 90% 이상을 기록하는 도구 활용·시스템 조작 기술."
 
-#: ../../book/atlas.rst:134
+#: ../../book/atlas.rst:137
 msgid ""
 "**266505X · Point 4: Real-time strategic game and decision agents** "
 "*(Proposed Restricted)*"
-msgstr "**266505X · Point 4: 실시간 전략 게임 및 고속 의사결정 에이전트** *(수출 제한안)*"
+msgstr " **266505X · Point 4: 실시간 전략 게임 및 고속 의사결정 에이전트**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:136
+#: ../../book/atlas.rst:139
 msgid ""
 "Strategic AI meeting all three criteria at once: >=20 planning steps (or "
-">=10 concurrent agents); adaptive sub-200 ms decisions across >=10 "
-"control units in dynamic environments; and outperforming 90% of human "
-"players on standard strategic benchmarks."
+">=10 concurrent agents); adaptive sub-200 ms decisions across >=10 control "
+"units in dynamic environments; and outperforming 90% of human players on "
+"standard strategic benchmarks."
 msgstr ""
-"세 가지 요건을 동시에 충족하는 전략 의사결정 AI: >=20단계 계획 수립(또는 >=10개 동시 에이전트), 동적 환경에서 "
-">=10개 제어 단위에 걸친 200 ms 미만의 적응형 의사결정, 그리고 표준 전략 벤치마크에서 인간 참여자 상위 90%를 능가하는 "
-"성능."
+"세 가지 요건을 동시에 충족하는 전략 의사결정 AI: >=20단계 계획 수립(또는 >=10개 동시 에이전트), 동적 환경에서 >=10개 "
+"제어 단위에 걸친 200 ms 미만의 적응형 의사결정, 그리고 표준 전략 벤치마크에서 인간 참여자 상위 90%를 능가하는 성능."
 
-#: ../../book/atlas.rst:140
+#: ../../book/atlas.rst:143
 msgid ""
 "**266506X · Point 1: AI processor architecture, instruction sets & IP "
 "cores** *(Proposed Restricted)*"
-msgstr "**266506X · Point 1: AI 프로세서 아키텍처, 명령어 집합 및 IP 코어** *(수출 제한안)*"
+msgstr " **266506X · Point 1: AI 프로세서 아키텍처, 명령어 집합 및 IP 코어**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:142
+#: ../../book/atlas.rst:145
 msgid ""
 "AI processor design technology covering custom architectures, instruction "
-"sets, compute IP cores, and base software stacks meeting any listed "
-"trait, including <=14 nm process need, floating-point or integer compute "
-"capability, 2.5D/3D chiplet packaging, high-speed interconnects, "
-"non-von-Neumann / compute-in-memory designs, or named "
-"vision/voice/driving uses. Footnote 2 offers automatic-licensing "
-"facilitation for overseas foundry tape-outs."
+"sets, compute IP cores, and base software stacks meeting any listed trait, "
+"including <=14 nm process need, floating-point or integer compute "
+"capability, 2.5D/3D chiplet packaging, high-speed interconnects, non-von-"
+"Neumann / compute-in-memory designs, or named vision/voice/driving uses. "
+"Footnote 2 offers automatic-licensing facilitation for overseas foundry "
+"tape-outs."
 msgstr ""
-"<=14 nm 공정 요구, 부동소수점·정수 연산 역량, 2.5D/3D 칩렛 패키징, 고속 인터커넥트, 비폰노이만·인메모리 컴퓨팅 "
-"설계, 또는 비전·음성·자율주행 등 명시된 용도 특성 중 어느 하나에 해당하는 맞춤형 아키텍처, 명령어 집합, 연산 IP 코어 및 "
-"기반 소프트웨어 스택 설계 기술. 주석 2에 따라 해외 파운드리 테이프아웃에는 자동 허가 간소화가 제공된다."
+"<=14 nm 공정 요구, 부동소수점·정수 연산 역량, 2.5D/3D 칩렛 패키징, 고속 인터커넥트, 비폰노이만·인메모리 컴퓨팅 설계, "
+"또는 비전·음성·자율주행 등 명시된 용도 특성 중 어느 하나에 해당하는 맞춤형 아키텍처, 명령어 집합, 연산 IP 코어 및 기반 "
+"소프트웨어 스택 설계 기술. 주석 2에 따라 해외 파운드리 테이프아웃에는 자동 허가 간소화가 제공된다."
 
-#: ../../book/atlas.rst:146
+#: ../../book/atlas.rst:149
 msgid ""
 "**266506X · Point 2: Advanced 3D NAND flash and stacked DRAM / HBM chip "
 "design** *(Proposed Restricted)*"
 msgstr ""
-"**266506X · Point 2: 첨단 3D NAND 플래시 및 적층형 DRAM / HBM 칩 설계** *(수출 제한안)*"
+" **266506X · Point 2: 첨단 3D NAND 플래시 및 적층형 DRAM / HBM 칩 설계**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:148
+#: ../../book/atlas.rst:151
 msgid ""
 "3D NAND flash memory design hitting >=8 Gb/mm2 density, >=1.5 Gbps I/O "
 "speed, or wafer bonding; or DRAM memory design using <=18 nm lithography, "
 "vertical-channel transistors, bonding, or multi-layer HBM-style wafer/die "
 "stacking."
 msgstr ""
-"기록 밀도 >=8 Gb/mm2, 입출력 속도 >=1.5 Gbps, 또는 웨이퍼 본딩을 구현한 3D NAND 플래시 메모리 설계 "
-"기술; 또는 <=18 nm 노광 공정, 수직 채널 트랜지스터, 본딩, 다층 HBM 방식의 웨이퍼·다이 적층을 채택한 DRAM 메모리 "
-"설계 기술."
+"기록 밀도 >=8 Gb/mm2, 입출력 속도 >=1.5 Gbps, 또는 웨이퍼 본딩을 구현한 3D NAND 플래시 메모리 설계 기술; "
+"또는 <=18 nm 노광 공정, 수직 채널 트랜지스터, 본딩, 다층 HBM 방식의 웨이퍼·다이 적층을 채택한 DRAM 메모리 설계 기술."
 
-#: ../../book/atlas.rst:152
+#: ../../book/atlas.rst:155
 msgid ""
 "**266507X · Point 1: Ultra-fast 10,000-GPU cluster interconnects** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · Point 1: 1만 장 초과 GPU 클러스터용 초고속 인터커넥트** *(수출 제한안)*"
+msgstr " **266507X · Point 1: 1만 장 초과 GPU 클러스터용 초고속 인터커넥트**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:154
+#: ../../book/atlas.rst:157
 msgid ""
 "Chip-to-chip or node-to-node interconnect technology delivering "
 "bidirectional bandwidth of at least 800 GB/s inside giant AI compute "
 "clusters of more than 10,000 accelerator cards."
 msgstr ""
-"가속기 카드 1만 장을 초과하는 초대형 AI 연산 클러스터 내부에서 양방향 대역폭 800 GB/s 이상을 제공하는 칩 "
-"간(chip-to-chip) 또는 노드 간(node-to-node) 고속 상호연결 기술."
+"가속기 카드 1만 장을 초과하는 초대형 AI 연산 클러스터 내부에서 양방향 대역폭 800 GB/s 이상을 제공하는 칩 간(chip-to-"
+"chip) 또는 노드 간(node-to-node) 고속 상호연결 기술."
 
-#: ../../book/atlas.rst:158
+#: ../../book/atlas.rst:161
 msgid ""
 "**266507X · Point 2: Rapid fault recovery in 10,000-card training** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · Point 2: 1만 장급 클러스터 분산 학습 고속 장애 복구** *(수출 제한안)*"
+msgstr " **266507X · Point 2: 1만 장급 클러스터 분산 학습 고속 장애 복구**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:160
+#: ../../book/atlas.rst:163
 msgid ""
 "Distributed-training resilience in >10,000-card clusters meeting any bar: "
-"checkpoint recovery (MTTR) <=120 seconds, seamless task migration with "
-"<=30 seconds of visible interruption, or <=5% effective GPU compute lost "
-"to network faults."
+"checkpoint recovery (MTTR) <=120 seconds, seamless task migration with <=30 "
+"seconds of visible interruption, or <=5% effective GPU compute lost to "
+"network faults."
 msgstr ""
 "1만 장 초과 클러스터에서 다음 기준 중 어느 하나를 만족하는 분산 학습 회복탄력성 기술: 체크포인트 장애 복구 시간(MTTR) "
 "<=120초, 체감 중단 <=30초 이내의 무중단 과업 이관, 또는 네트워크 장애로 인한 유효 GPU 연산 손실률 <=5%."
 
-#: ../../book/atlas.rst:164
+#: ../../book/atlas.rst:167
 msgid ""
 "**266507X · Point 3: Microsecond cluster communication scheduling** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · Point 3: 마이크로초급 클러스터 집합 통신 스케줄링** *(수출 제한안)*"
+msgstr " **266507X · Point 3: 마이크로초급 클러스터 집합 통신 스케줄링**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:166
+#: ../../book/atlas.rst:169
 msgid ""
-"Communication scheduling for >10,000-card AI clusters achieving either "
-">=98% linear scaling, dynamic topology-aware routing with <=1 microsecond "
-"end-to-end latency, or >=90% overlap hiding communication behind "
-"computation."
+"Communication scheduling for >10,000-card AI clusters achieving either >=98%"
+" linear scaling, dynamic topology-aware routing with <=1 microsecond end-to-"
+"end latency, or >=90% overlap hiding communication behind computation."
 msgstr ""
-"1만 장 초과 AI 클러스터에서 선형 확장 효율 >=98%, 종단 간 지연시간 <=1마이크로초의 동적 토폴로지 인지 라우팅, 또는 "
-"연산 과정 뒤에 통신 시간을 숨기는 연산-통신 중첩률 >=90% 중 어느 하나를 달성하는 통신 스케줄링 기술."
+"1만 장 초과 AI 클러스터에서 선형 확장 효율 >=98%, 종단 간 지연시간 <=1마이크로초의 동적 토폴로지 인지 라우팅, 또는 연산 "
+"과정 뒤에 통신 시간을 숨기는 연산-통신 중첩률 >=90% 중 어느 하나를 달성하는 통신 스케줄링 기술."
 
-#: ../../book/atlas.rst:170
+#: ../../book/atlas.rst:173
 msgid ""
 "**266507X · Point 4: Mixed-vendor and cross-region GPU orchestration** "
 "*(Proposed Restricted)*"
-msgstr "**266507X · Point 4: 이종(다중 제조사) 및 권역 간 GPU 통합 오케스트레이션** *(수출 제한안)*"
+msgstr ""
+" **266507X · Point 4: 이종(다중 제조사) 및 권역 간 GPU 통합 오케스트레이션**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:172
+#: ../../book/atlas.rst:175
 msgid ""
 "Software and ops know-how uniting AI chips from two or more different "
-"hardware vendors inside >10,000-card clusters, hitting listed "
-"high-bandwidth, throughput (+30%), card-utilization (+65%), cost-drop "
-"(-20%), 99.9% uptime, or >=80% cross-data-center training efficiency "
-"marks."
+"hardware vendors inside >10,000-card clusters, hitting listed high-"
+"bandwidth, throughput (+30%), card-utilization (+65%), cost-drop (-20%), "
+"99.9% uptime, or >=80% cross-data-center training efficiency marks."
 msgstr ""
-"1만 장 초과 클러스터 안에서 서로 다른 2개 이상의 하드웨어 제조사 AI 칩을 하나로 통합 운용하며 고대역폭, 처리량 "
-"향상(+30%), 카드 가동률(+65%), 비용 절감(-20%), 가용성 99.9%, 또는 데이터센터 간 분산 학습 효율 >=80% "
-"등 명시된 지표를 달성하는 소프트웨어 및 운영 기술."
+"1만 장 초과 클러스터 안에서 서로 다른 2개 이상의 하드웨어 제조사 AI 칩을 하나로 통합 운용하며 고대역폭, 처리량 향상(+30%),"
+" 카드 가동률(+65%), 비용 절감(-20%), 가용성 99.9%, 또는 데이터센터 간 분산 학습 효율 >=80% 등 명시된 지표를 "
+"달성하는 소프트웨어 및 운영 기술."
 
-#: ../../book/atlas.rst:174
+#: ../../book/atlas.rst:177
 msgid "Biomedicine & Gene Platforms (5 Checkpoints)"
 msgstr "바이오의약 및 유전자 플랫폼 (5개 통제 지점)"
 
-#: ../../book/atlas.rst:179
+#: ../../book/atlas.rst:182
 msgid ""
 "**262704J · Point 1: Reusable cell and gene therapy (CGT) platforms** "
 "*(Proposed Prohibited)*"
-msgstr "**262704J · Point 1: 재사용형 세포·유전자 치료제(CGT) 기반 플랫폼** *(수출 금지안)*"
+msgstr " **262704J · Point 1: 재사용형 세포·유전자 치료제(CGT) 기반 플랫폼**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:181
+#: ../../book/atlas.rst:184
 msgid ""
-"Chinese-owned foundational platforms capable of generating multiple cell "
-"or gene therapies. Crucially, only selling ownership abroad is "
-"prohibited: out-licensing, CRO/CDMO contract manufacturing, and tech "
-"needed to develop, test, or market a specific individual medicine remain "
-"outside the ban."
+"Chinese-owned foundational platforms capable of generating multiple cell or "
+"gene therapies. Crucially, only selling ownership abroad is prohibited: out-"
+"licensing, CRO/CDMO contract manufacturing, and tech needed to develop, "
+"test, or market a specific individual medicine remain outside the ban."
 msgstr ""
-"다수의 세포·유전자 치료제를 반복 창출할 수 있는 중국 주체 소유의 원천 기반 플랫폼. 핵심은 플랫폼 소유권의 해외 매각만 "
-"금지된다는 점이다. 해외 라이선스 아웃, CRO/CDMO 위탁개발생산, 그리고 개별 의약품의 연구·임상·품목허가·상업화에 필요한 "
-"기술은 금지 범위 바깥에 남는다."
+"다수의 세포·유전자 치료제를 반복 창출할 수 있는 중국 주체 소유의 원천 기반 플랫폼. 핵심은 플랫폼 소유권의 해외 매각만 금지된다는 "
+"점이다. 해외 라이선스 아웃, CRO/CDMO 위탁개발생산, 그리고 개별 의약품의 연구·임상·품목허가·상업화에 필요한 기술은 금지 범위 "
+"바깥에 남는다."
 
-#: ../../book/atlas.rst:185
+#: ../../book/atlas.rst:188
 msgid ""
 "**262705J · Point 1: Reusable siRNA drug-making platforms** *(Proposed "
 "Prohibited)*"
-msgstr "**262705J · Point 1: 재사용형 siRNA 신약 개발 기반 플랫폼** *(수출 금지안)*"
+msgstr " **262705J · Point 1: 재사용형 siRNA 신약 개발 기반 플랫폼**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:187
+#: ../../book/atlas.rst:190
 msgid ""
-"Chinese-owned foundational small-interfering RNA (siRNA) platforms, "
-"governed by the exact same boundary: transferring ownership of the "
-"reusable engine abroad is barred, while licensing deals, contract "
-"R&D/production, and single-drug partnerships stay open."
+"Chinese-owned foundational small-interfering RNA (siRNA) platforms, governed"
+" by the exact same boundary: transferring ownership of the reusable engine "
+"abroad is barred, while licensing deals, contract R&D/production, and "
+"single-drug partnerships stay open."
 msgstr ""
 "중국 주체가 소유한 원천 소간섭 RNA(siRNA) 기반 플랫폼으로, CGT와 정확히 동일한 경계가 적용된다. 재사용 엔진 자체의 "
 "소유권을 국외로 이전하는 행위는 금지되지만, 라이선스 계약과 위탁 연구개발·생산, 개별 신약 파트너십은 그대로 열려 있다."
 
-#: ../../book/atlas.rst:191
+#: ../../book/atlas.rst:194
 msgid ""
 "**267302J · Point 1: Pathogen enhancement and directed evolution** "
 "*(Proposed Prohibited)*"
-msgstr "**267302J · Point 1: 병원체 기능 강화 및 유도 진화 기술** *(수출 금지안)*"
+msgstr " **267302J · Point 1: 병원체 기능 강화 및 유도 진화 기술**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:193
+#: ../../book/atlas.rst:196
 msgid ""
-"Biosecurity red line covering artificial genetic modification or "
-"controlled serial-passage techniques that enhance pathogen function, "
-"sustain virulence at scale, or accelerate evolutionary adaptation. "
-"Routine medical diagnostics and vaccine care are unaffected."
+"Biosecurity red line covering artificial genetic modification or controlled "
+"serial-passage techniques that enhance pathogen function, sustain virulence "
+"at scale, or accelerate evolutionary adaptation. Routine medical diagnostics"
+" and vaccine care are unaffected."
 msgstr ""
-"병원체의 기능을 강화하거나 대규모 배양 시 독성을 유지시키고 진화 적응 속도를 높이는 인공 유전자 변형 및 통제 계대배양 기법을 "
-"차단하는 생물안보 레드라인. 일반적인 의료 진단과 백신 진료 활동에는 영향이 없다."
+"병원체의 기능을 강화하거나 대규모 배양 시 독성을 유지시키고 진화 적응 속도를 높이는 인공 유전자 변형 및 통제 계대배양 기법을 차단하는"
+" 생물안보 레드라인. 일반적인 의료 진단과 백신 진료 활동에는 영향이 없다."
 
-#: ../../book/atlas.rst:197
+#: ../../book/atlas.rst:200
 msgid ""
 "**262705X · Point 1: Discovery of unseen cell and gene therapy targets** "
 "*(Proposed Restricted)*"
-msgstr "**262705X · Point 1: 미공개 신규 세포·유전자 치료제 표적 발굴·검증** *(수출 제한안)*"
+msgstr " **262705X · Point 1: 미공개 신규 세포·유전자 치료제 표적 발굴·검증**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:199
+#: ../../book/atlas.rst:202
 msgid ""
 "Chinese-owned methods for finding and validating wholly new therapeutic "
 "targets never previously disclosed anywhere in the world via patents, "
-"journals, public databases, or conferences. Footnote 3 offers "
-"automatic-licensing facilitation for overseas licensing, joint R&D, and "
-"public-health emergencies."
+"journals, public databases, or conferences. Footnote 3 offers automatic-"
+"licensing facilitation for overseas licensing, joint R&D, and public-health "
+"emergencies."
 msgstr ""
-"전 세계 특허, 학술지, 공개 데이터베이스, 학술대회 어디에서도 이전에 공개된 적 없는 완전히 새로운 CGT 치료 표적을 "
-"발굴·검증하는 중국 보유 기술. 주석 3에 따라 해외 라이선스 아웃, 국제 공동연구, 공중보건 위기 대응에는 자동 허가 간소화가 "
-"적용된다."
+"전 세계 특허, 학술지, 공개 데이터베이스, 학술대회 어디에서도 이전에 공개된 적 없는 완전히 새로운 CGT 치료 표적을 발굴·검증하는 "
+"중국 보유 기술. 주석 3에 따라 해외 라이선스 아웃, 국제 공동연구, 공중보건 위기 대응에는 자동 허가 간소화가 적용된다."
 
-#: ../../book/atlas.rst:203
+#: ../../book/atlas.rst:206
 msgid ""
 "**262706X · Point 1: Discovery of unseen siRNA drug targets** *(Proposed "
 "Restricted)*"
-msgstr "**262706X · Point 1: 미공개 신규 siRNA 신약 표적 발굴·확정** *(수출 제한안)*"
+msgstr " **262706X · Point 1: 미공개 신규 siRNA 신약 표적 발굴·확정**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:205
+#: ../../book/atlas.rst:208
 msgid ""
 "Chinese-owned methods for screening and locking in wholly new, globally "
-"undisclosed siRNA drug targets, paired with the same Footnote 3 "
-"fast-track facilitation for international licensing, collaborative "
-"research, and humanitarian health responses."
+"undisclosed siRNA drug targets, paired with the same Footnote 3 fast-track "
+"facilitation for international licensing, collaborative research, and "
+"humanitarian health responses."
 msgstr ""
 "전 세계적으로 미공개된 완전히 새로운 siRNA 신약 표적을 스크리닝·확정하는 중국 보유 기술이며, 국제 라이선스 협력과 공동연구, "
 "인도주의적 보건 대응을 위한 주석 3의 패스트트랙 간소화가 동일하게 적용된다."
 
-#: ../../book/atlas.rst:207
+#: ../../book/atlas.rst:210
 msgid "Solar Silicon, Wafers & Factory Machinery (12 Checkpoints)"
 msgstr "태양광 실리콘, 웨이퍼 및 공장 핵심 설비 (12개 통제 지점)"
 
-#: ../../book/atlas.rst:212
+#: ../../book/atlas.rst:215
 msgid ""
 "**263003J · Point 1: Mega-scale cold-hydrogenation polysilicon lines** "
 "*(Proposed Prohibited)*"
-msgstr "**263003J · Point 1: 초대형 냉수소화 폴리실리콘 생산 공정** *(수출 금지안)*"
+msgstr " **263003J · Point 1: 초대형 냉수소화 폴리실리콘 생산 공정**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:214
+#: ../../book/atlas.rst:217
 msgid ""
 "Cold-hydrogenation fluidized-bed recipes and equipment-making know-how "
-"capable of producing at least 250,000 tonnes of trichlorosilane per "
-"single line each year."
+"capable of producing at least 250,000 tonnes of trichlorosilane per single "
+"line each year."
 msgstr ""
 "단일 생산 라인당 연간 25만 톤 이상의 삼염화실란을 생산할 수 있는 냉수소화 유동층 반응 공정 레시피 및 핵심 장비 제조 노하우."
 
-#: ../../book/atlas.rst:218
+#: ../../book/atlas.rst:221
 msgid ""
 "**263003J · Point 2: High-capacity silane fluidized-bed processes** "
 "*(Proposed Prohibited)*"
-msgstr "**263003J · Point 2: 대용량 실란 유동층 폴리실리콘 공정** *(수출 금지안)*"
+msgstr " **263003J · Point 2: 대용량 실란 유동층 폴리실리콘 공정**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:220
+#: ../../book/atlas.rst:223
 msgid ""
-"Silane fluidized-bed chemical recipes and equipment-making technology "
-"with single-line output of at least 20,000 tonnes per year."
+"Silane fluidized-bed chemical recipes and equipment-making technology with "
+"single-line output of at least 20,000 tonnes per year."
 msgstr "단일 생산 라인 기준 연간 생산량 2만 톤 이상을 구현하는 실란 유동층 화학 공정 레시피 및 장비 제조 기술."
 
-#: ../../book/atlas.rst:224
+#: ../../book/atlas.rst:227
 msgid ""
 "**263004J · Point 1: Paper-thin 70-micrometer silicon wafers** *(Proposed "
 "Prohibited)*"
-msgstr "**263004J · Point 1: 종이보다 얇은 70마이크로미터 이하 실리콘 웨이퍼 절단** *(수출 금지안)*"
+msgstr " **263004J · Point 1: 종이보다 얇은 70마이크로미터 이하 실리콘 웨이퍼 절단**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:226
+#: ../../book/atlas.rst:229
 msgid ""
-"Know-how and machine-building technology for slicing solar silicon wafers "
-"70 micrometers thick or thinner (roughly the width of a human hair), "
+"Know-how and machine-building technology for slicing solar silicon wafers 70"
+" micrometers thick or thinner (roughly the width of a human hair), "
 "explicitly including control software, underlying algorithms, and "
 "engineering drawings."
 msgstr ""
 "태양광 실리콘 웨이퍼를 두께 70마이크로미터(사람 머리카락 굵기 수준) 이하로 절단하는 공정 노하우 및 설비 제작 기술로서, 제어 "
 "소프트웨어, 핵심 알고리즘, 엔지니어링 설계 도면을 명시적으로 포함한다."
 
-#: ../../book/atlas.rst:230
+#: ../../book/atlas.rst:233
 msgid ""
 "**263801J · Point 1: Edge passivation for thin large-format cells** "
 "*(Proposed Prohibited)*"
-msgstr "**263801J · Point 1: 박형 대면적 태양전지 에지 패시베이션 공정** *(수출 금지안)*"
+msgstr " **263801J · Point 1: 박형 대면적 태양전지 에지 패시베이션 공정**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:232
+#: ../../book/atlas.rst:235
 msgid ""
-"Solar-dedicated edge-passivation processes and toolmaking know-how when "
-"used on 182 to 230 mm crystalline-silicon wafers that are 140 micrometers "
-"thick or thinner."
+"Solar-dedicated edge-passivation processes and toolmaking know-how when used"
+" on 182 to 230 mm crystalline-silicon wafers that are 140 micrometers thick "
+"or thinner."
 msgstr ""
-"두께 140마이크로미터 이하인 182~230 mm 규격 결정질 실리콘 웨이퍼에 적용되는 태양광 전용 에지 패시베이션(측면 부동태화) "
-"공정 및 장비 제조 노하우."
+"두께 140마이크로미터 이하인 182~230 mm 규격 결정질 실리콘 웨이퍼에 적용되는 태양광 전용 에지 패시베이션(측면 부동태화) 공정"
+" 및 장비 제조 노하우."
 
-#: ../../book/atlas.rst:236
+#: ../../book/atlas.rst:239
 msgid ""
 "**263801J · Point 2: 30%-efficient perovskite and tandem solar tech** "
 "*(Proposed Prohibited)*"
-msgstr "**263801J · Point 2: 효율 30% 이상 페로브스카이트 및 탠덤 태양전지 기술** *(수출 금지안)*"
+msgstr " **263801J · Point 2: 효율 30% 이상 페로브스카이트 및 탠덤 태양전지 기술**   *(수출 금지안)* "
 
-#: ../../book/atlas.rst:238
+#: ../../book/atlas.rst:241
 msgid ""
-"Next-generation solar manufacturing across four benchmarks: "
-">=30%-efficient mass-produced silicon-perovskite tandem cells (>=182 mm); "
-">=1.1 m wide slot-die coating; >=18%-efficient single-junction perovskite "
-"modules (>=1 m2); or >=28%-efficient tandem modules (>=1 m2)."
+"Next-generation solar manufacturing across four benchmarks: >=30%-efficient "
+"mass-produced silicon-perovskite tandem cells (>=182 mm); >=1.1 m wide slot-"
+"die coating; >=18%-efficient single-junction perovskite modules (>=1 m2); or"
+" >=28%-efficient tandem modules (>=1 m2)."
 msgstr ""
-"네 가지 기준에 걸친 차세대 태양전지 제조 기술: 효율 >=30% 양산형 실리콘-페로브스카이트 탠덤 셀(>=182 mm), 폭 "
-">=1.1 m 대면적 슬롯다이 코팅, 효율 >=18% 단일접합 페로브스카이트 모듈(면적 >=1 m2), 또는 효율 >=28% 탠덤 "
-"모듈(면적 >=1 m2)."
+"네 가지 기준에 걸친 차세대 태양전지 제조 기술: 효율 >=30% 양산형 실리콘-페로브스카이트 탠덤 셀(>=182 mm), 폭 >=1.1"
+" m 대면적 슬롯다이 코팅, 효율 >=18% 단일접합 페로브스카이트 모듈(면적 >=1 m2), 또는 효율 >=28% 탠덤 모듈(면적 "
+">=1 m2)."
 
-#: ../../book/atlas.rst:242
+#: ../../book/atlas.rst:245
 msgid ""
-"**263004X · Point 1: 30,000-tonne polysilicon plant engineering** "
-"*(Proposed Restricted)*"
-msgstr "**263004X · Point 1: 연산 3만 톤 이상 폴리실리콘 플랜트 엔지니어링** *(수출 제한안)*"
+"**263004X · Point 1: 30,000-tonne polysilicon plant engineering** *(Proposed"
+" Restricted)*"
+msgstr " **263004X · Point 1: 연산 3만 톤 이상 폴리실리콘 플랜트 엔지니어링**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:244
+#: ../../book/atlas.rst:247
 msgid ""
 "Complete plant-engineering packages, factory blueprints, and equipment "
 "designs for single-line polysilicon lines producing 30,000 tonnes or more "
 "per year."
 msgstr ""
-"단일 라인 기준 연간 3만 톤 이상을 생산하는 폴리실리콘 생산 라인의 종합 플랜트 엔지니어링 패키지, 공장 설계도 및 핵심 설비 "
-"설계 기술."
+"단일 라인 기준 연간 3만 톤 이상을 생산하는 폴리실리콘 생산 라인의 종합 플랜트 엔지니어링 패키지, 공장 설계도 및 핵심 설비 설계 "
+"기술."
 
-#: ../../book/atlas.rst:248
+#: ../../book/atlas.rst:251
 msgid ""
-"**263004X · Point 2: 800-tonne-per-furnace reduction processes** "
-"*(Proposed Restricted)*"
-msgstr "**263004X · Point 2: 환원로 1기당 연산 800톤 이상 고수율 환원 공정** *(수출 제한안)*"
+"**263004X · Point 2: 800-tonne-per-furnace reduction processes** *(Proposed "
+"Restricted)*"
+msgstr " **263004X · Point 2: 환원로 1기당 연산 800톤 이상 고수율 환원 공정**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:250
+#: ../../book/atlas.rst:253
 msgid ""
-"High-yield reduction furnace recipes and equipment-manufacturing "
-"technology turning out at least 800 tonnes of polysilicon per single "
-"furnace each year."
+"High-yield reduction furnace recipes and equipment-manufacturing technology "
+"turning out at least 800 tonnes of polysilicon per single furnace each year."
 msgstr "환원로 1기당 연간 최소 800톤 이상의 폴리실리콘을 생산해 내는 고수율 환원로 공정 레시피 및 설비 제조 기술."
 
-#: ../../book/atlas.rst:254
+#: ../../book/atlas.rst:257
 msgid ""
 "**263005X · Point 1: Large-chamber monocrystalline silicon pullers** "
 "*(Proposed Restricted)*"
-msgstr "**263005X · Point 1: 대형 챔버 단결정 실리콘 인상로 설계** *(수출 제한안)*"
+msgstr " **263005X · Point 1: 대형 챔버 단결정 실리콘 인상로 설계**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:256
+#: ../../book/atlas.rst:259
 msgid ""
-"Solar ingot crystal-growing furnace designs hitting any listed mark: "
-"chamber inner diameter >=1,600 mm, thermal field >=35 inches, pull speed "
-">=1.2 mm/min, or equal-diameter power draw <=40 kW."
+"Solar ingot crystal-growing furnace designs hitting any listed mark: chamber"
+" inner diameter >=1,600 mm, thermal field >=35 inches, pull speed >=1.2 "
+"mm/min, or equal-diameter power draw <=40 kW."
 msgstr ""
-"챔버 내경 >=1,600 mm, 핫존(열장) >=35인치, 인상 속도 >=1.2 mm/min, 또는 등직경 공정 소비전력 <=40 "
-"kW 중 어느 하나의 기준에 해당하는 태양광 단결정 잉곳 성장로 설계 기술."
+"챔버 내경 >=1,600 mm, 핫존(열장) >=35인치, 인상 속도 >=1.2 mm/min, 또는 등직경 공정 소비전력 <=40 kW "
+"중 어느 하나의 기준에 해당하는 태양광 단결정 잉곳 성장로 설계 기술."
 
-#: ../../book/atlas.rst:260
+#: ../../book/atlas.rst:263
 msgid ""
 "**263005X · Point 2: Long silicon-ingot cutting and grinding** *(Proposed "
 "Restricted)*"
-msgstr "**263005X · Point 2: 720 mm 이상 장축 실리콘 잉곳 절단·연마 가공** *(수출 제한안)*"
+msgstr " **263005X · Point 2: 720 mm 이상 장축 실리콘 잉곳 절단·연마 가공**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:262
+#: ../../book/atlas.rst:265
 msgid ""
-"Half-ingot cropping/grinding processes or precision machining and "
-"toolmaking know-how for solar silicon ingots 720 mm or longer."
+"Half-ingot cropping/grinding processes or precision machining and toolmaking"
+" know-how for solar silicon ingots 720 mm or longer."
 msgstr "길이 720 mm 이상인 태양광 실리콘 잉곳의 반봉 절단·연마 공정 또는 정밀 기계가공 및 전용 설비 제작 노하우."
 
-#: ../../book/atlas.rst:266
+#: ../../book/atlas.rst:269
 msgid ""
 "**263005X · Point 3: Rectangular or 130-micrometer thin-wafer slicing** "
 "*(Proposed Restricted)*"
-msgstr "**263005X · Point 3: 직사각형 웨이퍼 또는 130마이크로미터 박형 웨이퍼 절단** *(수출 제한안)*"
+msgstr " **263005X · Point 3: 직사각형 웨이퍼 또는 130마이크로미터 박형 웨이퍼 절단**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:268
+#: ../../book/atlas.rst:271
 msgid ""
-"Manufacturing know-how for rectangular solar wafers (>=182 mm on any "
-"side) or thin wafers (<=130 micrometers) using <=28-micrometer tungsten "
-"wire saws or high-speed spindles (>=6,500 rpm) and compact roller "
-"geometry."
+"Manufacturing know-how for rectangular solar wafers (>=182 mm on any side) "
+"or thin wafers (<=130 micrometers) using <=28-micrometer tungsten wire saws "
+"or high-speed spindles (>=6,500 rpm) and compact roller geometry."
 msgstr ""
-"<=28마이크로미터 극세 텅스텐 와이어 쏘 또는 고속 스핀들(>=6,500 rpm) 및 고밀도 가이드 롤러 구조를 이용한 직사각형 "
-"태양광 웨이퍼(어느 한 변 >=182 mm) 또는 박형 웨이퍼(두께 <=130마이크로미터) 제조 기술."
+"<=28마이크로미터 극세 텅스텐 와이어 쏘 또는 고속 스핀들(>=6,500 rpm) 및 고밀도 가이드 롤러 구조를 이용한 직사각형 태양광"
+" 웨이퍼(어느 한 변 >=182 mm) 또는 박형 웨이퍼(두께 <=130마이크로미터) 제조 기술."
 
-#: ../../book/atlas.rst:272
+#: ../../book/atlas.rst:275
 msgid ""
-"**263802X · Point 1: High-efficiency TOPCon and back-contact (XBC) "
-"cells** *(Proposed Restricted)*"
-msgstr "**263802X · Point 1: 고효율 TOPCon 및 후면전극형(XBC) 태양전지 공정** *(수출 제한안)*"
+"**263802X · Point 1: High-efficiency TOPCon and back-contact (XBC) cells** "
+"*(Proposed Restricted)*"
+msgstr " **263802X · Point 1: 고효율 TOPCon 및 후면전극형(XBC) 태양전지 공정**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:274
+#: ../../book/atlas.rst:277
 msgid ""
 "Six industrial process families (LPCVD/PECVD tunnel oxide, fast ALD "
-"passivation, boron diffusion, copper plating, microcrystalline "
-"deposition, and XBC plating) on 182 to 230 mm wafers <=140 micrometers "
-"thick for >=25%-efficient cells or >=22.3% modules."
+"passivation, boron diffusion, copper plating, microcrystalline deposition, "
+"and XBC plating) on 182 to 230 mm wafers <=140 micrometers thick for "
+">=25%-efficient cells or >=22.3% modules."
 msgstr ""
-"셀 효율 >=25% 또는 모듈 효율 >=22.3% 구현을 위해 두께 <=140마이크로미터의 182~230 mm 웨이퍼 위에서 "
-"수행되는 6대 핵심 양산 공정군(LPCVD/PECVD 터널 산화막, 고속 ALD 패시베이션, 붕소 확산, 구리 도금, 미세결정질 "
-"증착, XBC 전극 도금)."
+"셀 효율 >=25% 또는 모듈 효율 >=22.3% 구현을 위해 두께 <=140마이크로미터의 182~230 mm 웨이퍼 위에서 수행되는 "
+"6대 핵심 양산 공정군(LPCVD/PECVD 터널 산화막, 고속 ALD 패시베이션, 붕소 확산, 구리 도금, 미세결정질 증착, XBC "
+"전극 도금)."
 
-#: ../../book/atlas.rst:278
+#: ../../book/atlas.rst:281
 msgid ""
-"**263802X · Point 2: High-efficiency heterojunction (HJT) cell "
-"processes** *(Proposed Restricted)*"
-msgstr "**263802X · Point 2: 고효율 이종접합(HJT) 태양전지 제조 공정** *(수출 제한안)*"
+"**263802X · Point 2: High-efficiency heterojunction (HJT) cell processes** "
+"*(Proposed Restricted)*"
+msgstr " **263802X · Point 2: 고효율 이종접합(HJT) 태양전지 제조 공정**   *(수출 제한안)* "
 
-#: ../../book/atlas.rst:280
+#: ../../book/atlas.rst:283
 msgid ""
 "Four HJT manufacturing families covering low-indium (<=50%) or ultra-fast "
-"TCO coating, crystalline-silicon film deposition on <=110-micrometer "
-"wafers, low-silver (<=30%) silver-coated copper pastes, and copper-plated "
-"HJT electrodes."
+"TCO coating, crystalline-silicon film deposition on <=110-micrometer wafers,"
+" low-silver (<=30%) silver-coated copper pastes, and copper-plated HJT "
+"electrodes."
 msgstr ""
 "저인듐(<=50%) 또는 초고속 투명전도성산화막(TCO) 코팅, 두께 <=110마이크로미터 웨이퍼 상의 결정질 실리콘 박막 증착, "
 "저은(은 함량 <=30%) 은코팅 구리 페이스트, 구리 도금 HJT 전극 등 4대 HJT 핵심 제조 공정군."

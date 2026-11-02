@@ -1,30 +1,26 @@
-# Korean translation for book/sources.rst
-# Copyright (C) 2026, China Export Control Research
-# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Impact of Export Controls on the Future of Open "
-"Source AI 2026.11\n"
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 12:32+0000\n"
-"PO-Revision-Date: 2026-11-02 11:45+0000\n"
-"Last-Translator: China Export Control Research\n"
-"Language-Team: Korean\n"
+"PO-Revision-Date: 2026-11-02 14:00+0000\n"
+"Last-Translator: Vikrant Rathore\n"
+"Language-Team: Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../book/sources.rst:1
 msgid ""
-"Chapter 10: All 22 verified primary sources, untouched WPS and PDF "
-"official documents, SHA-256 verification method, and plain-language "
-"glossary as of 2 November 2026."
+"Chapter 10: All 26 verified primary sources, untouched WPS and PDF official "
+"documents, SHA-256 verification method, and plain-language glossary as of 2 "
+"November 2026."
 msgstr ""
-"제10장: 2026년 11월 2일 기준 검증을 마친 22개 1차 사료 전집, 무수정 WPS 및 PDF 공식 문헌 원본, "
-"SHA-256 해시 검증 방법론, 그리고 쉬운 용어 사전."
+"제10장: 2026년 11월 2일 기준 검증을 마친 26개 1차 사료 전집, 무수정 WPS 및 PDF 공식 문헌 원본, SHA-256 "
+"해시 검증 방법론, 그리고 쉬운 용어 사전."
 
 #: ../../book/sources.rst:5
 msgid "10. Primary Sources, Method, and Plain Glossary"
@@ -36,48 +32,28 @@ msgstr "이 책의 모든 사실은 어떻게 검증되었는가"
 
 #: ../../book/sources.rst:11
 msgid ""
-"A book arguing for trustworthy, verifiable knowledge owes its readers "
-"strict honesty about its own evidence. Every statutory rule, numerical "
-"threshold, date, working-day deadline, portal URL, telephone number, fax, "
-"email, and room address in this book was verified against **22 primary "
-"sources** as of **2 November 2026**: MOFCOM and MOST's Announcement 48, "
-"both original WPS attachments, MOFCOM's spokesperson Q&A, China's "
-"*Regulations on the Administration of Technology Import and Export* "
-"(``xzfg.moj.gov.cn``), MOFCOM & MOST Order No. 2 of 2009 "
-"(``mofcom.gov.cn``), MOFCOM's Unified Platform notice, the US Federal "
-"Register texts of the January 2025 AI Diffusion Rule and January 2026 "
-"Semiconductor Rule, live Code of Federal Regulations parts (``734``, "
-"``742``, ``744``, ``774``) on ``bis.gov``, BIS's official SNAP-R guide "
-"and portal, BIS's May 2025 non-enforcement release, GAO's May 2026 "
-"decision (``B-337935``), US Treasury and Justice Department records, the "
-"Open Source Initiative's OSAID 1.0, the DeepSeek-R1 and Qwen3 "
-"repositories, and the GuideDog documentation platform."
+"We checked the claims against 26 legal, technical and research sources as of"
+" 2 November 2026. Added research informs the discussion of cooperation and "
+"risk; it does not turn our assumptions into measured results. Contact "
+"information is what the cited records print and may change. Source "
+"verification is distinct from approving a transaction."
 msgstr ""
-"신뢰할 수 있고 검증 가능한 지식을 옹호하는 책이라면 스스로의 근거 사료에 대해서도 독자 앞에 엄격하리만큼 정직해야 한다. 이 책에 "
-"수록된 모든 법령 조문, 수치 임계치, 날짜, 영업일 기준 처리 기한, 온라인 포털 URL, 전화번호, 팩스 번호, 이메일, 사무실 "
-"호수 주소는 **2026년 11월 2일** 기준 **22건의 공식 1차 사료**\\ 와 직접 대조해 검증을 마쳤다. 여기에는 중국 "
-"상무부·과학기술부의 제48호 공고 본문과 두 개의 WPS 원본 첨부파일, 상무부 대변인 공식 Q&A, 중국 "
-"《기술수출입관리조례》(``xzfg.moj.gov.cn``), 2009년 상무부·과학기술부령 "
-"제2호(``mofcom.gov.cn``), 상무부 업무시스템 통합 플랫폼 공지문, 미국 연방관보(Federal Register)에 "
-"게재된 2025년 1월 AI 확산 규칙 및 2026년 1월 반도체 최종 규칙 원문, ``bis.gov`` 현행 연방규정집(CFR "
-"``734``, ``742``, ``744``, ``774`` 편), BIS 공식 SNAP-R 안내서 및 포털, 2025년 5월 "
-"BIS 집행 유예 보도자료, 2026년 5월 미 연방회계감사원(GAO) 결정문(``B-337935``), 미 재무부 및 법무부 공식 "
-"기록, 오픈소스 이니셔티브(OSI)의 OSAID 1.0 정의서, DeepSeek-R1 및 Qwen3 공식 저장소, 그리고 "
-"GuideDog 출판 플랫폼이 포함된다."
+"2026년 11월 2일 기준 26개 법률·기술·연구 자료와 대조했습니다. 새 연구는 협력·위험 분석을 돕지만 가정을 실측으로 만들지 "
+"않습니다. 연락처는 인용 기록의 내용으로 바뀔 수 있습니다."
 
 #: ../../book/sources.rst:13
 msgid ""
 "Original WPS bytes and SHA-256 hashes are preserved untouched alongside "
 "converted PDF reading copies. Where GAO's server blocked automated byte "
-"archiving (``HTTP 403``), we note that limitation transparently. "
-"Throughout the book, primary legal facts carry bracketed citations, while "
-"our game-theoretic matrix and future scenarios are presented openly as "
-"analytical models rather than legal advice for a specific transaction."
+"archiving (``HTTP 403``), we note that limitation transparently. Throughout "
+"the book, primary legal facts carry bracketed citations, while our game-"
+"theoretic matrix and future scenarios are presented openly as analytical "
+"models rather than legal advice for a specific transaction."
 msgstr ""
 "WPS 원본 파일의 바이트 데이터와 SHA-256 해시값은 일체의 변형 없이 그대로 보존되어 열람용 PDF 변환본과 함께 제공된다. "
-"GAO 서버가 자동화된 바이트 아카이빙을 차단한 경우(``HTTP 403``)에는 그 한계 또한 투명하게 명시했다. 본문 전체에 "
-"걸쳐 1차 법령 사실에는 대괄호 인용 표기를 달았으며, 게임이론 보수 행렬과 미래 시나리오는 특정 거래에 대한 법률 자문이 아닌 "
-"이론적 분석 모델임을 분명히 밝힌다."
+"GAO 서버가 자동화된 바이트 아카이빙을 차단한 경우(``HTTP 403``)에는 그 한계 또한 투명하게 명시했다. 본문 전체에 걸쳐 "
+"1차 법령 사실에는 대괄호 인용 표기를 달았으며, 게임이론 보수 행렬과 미래 시나리오는 특정 거래에 대한 법률 자문이 아닌 이론적 분석 "
+"모델임을 분명히 밝힌다."
 
 #: ../../book/sources.rst:15
 msgid "Untouched Official Document Copies"
@@ -86,33 +62,35 @@ msgstr "무수정 공식 원문 사본 다운로드"
 #: ../../book/sources.rst:18
 msgid ""
 "`Announcement No. 48 Official Page (PDF reading copy) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-"
+"page.pdf>`_"
 msgstr ""
 "`제48호 공고 공식 웹페이지 (열람용 PDF 사본) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-page.pdf>`_"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-official-"
+"page.pdf>`_"
 
 #: ../../book/sources.rst:19
 msgid ""
 "`Attachment 1: 40 Proposed Technologies (Original WPS) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
-"| `Converted PDF "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_"
+" | `Converted PDF "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
 "`부속서 1: 40개 신설 제안 기술 목록 (원본 WPS) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
-"| `변환 PDF 열람본 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_"
+" | `변환 PDF 열람본 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
 #: ../../book/sources.rst:20
 msgid ""
 "`Attachment 2: Pre-Export Registration Form (Original WPS) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
-"| `Converted PDF "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_"
+" | `Converted PDF "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 msgstr ""
 "`부속서 2: 기술수출 정보등록표 양식 (원본 WPS) "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
-"| `변환 PDF 열람본 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_"
+" | `변환 PDF 열람본 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_"
 
 #: ../../book/sources.rst:21
@@ -165,12 +143,10 @@ msgstr "모델 가중치 (파라미터)"
 
 #: ../../book/sources.rst:31
 msgid ""
-"The billions or trillions of tuned numerical values learned during "
-"training that hold an AI model's reasoning skills. Copying the weights "
-"copies the trained mind."
-msgstr ""
-"AI 모델의 추론 능력을 담고 있는, 학습 과정에서 미세 조율된 수십억~수조 개의 수치 값이다. 가중치 파일을 복사하는 것은 곧 "
-"훈련된 지성 자체를 복제하는 일이다."
+"The billions or trillions of tuned numerical values learned during training "
+"that shape a model's outputs. Weights alone do not include every part of a "
+"reproducible or safe system."
+msgstr "모델 출력에 영향을 주는 학습한 수치입니다. 가중치만으로 재현 가능하고 안전한 시스템의 모든 요소가 갖춰지지는 않습니다."
 
 #: ../../book/sources.rst:33
 msgid "Checkpoint"
@@ -178,11 +154,11 @@ msgstr "체크포인트 (Checkpoint)"
 
 #: ../../book/sources.rst:34
 msgid ""
-"A saved snapshot of weights during or at the end of training, used to "
-"resume training, distil smaller models, or fine-tune for specialist tasks."
+"A saved snapshot of weights during or at the end of training, used to resume"
+" training, distil smaller models, or fine-tune for specialist tasks."
 msgstr ""
-"학습 도중이나 종료 시점에 저장해 둔 가중치 스냅샷 파일로, 학습을 이어서 진행하거나 소형 모델을 증류하거나 전문 과업용으로 "
-"미세조정할 때 쓰인다."
+"학습 도중이나 종료 시점에 저장해 둔 가중치 스냅샷 파일로, 학습을 이어서 진행하거나 소형 모델을 증류하거나 전문 과업용으로 미세조정할 "
+"때 쓰인다."
 
 #: ../../book/sources.rst:36
 msgid "FLOPs (floating-point operations)"
@@ -190,11 +166,11 @@ msgstr "FLOPs (부동소수점 연산 횟수)"
 
 #: ../../book/sources.rst:37
 msgid ""
-"Individual math steps performed during training. :math:`10^{26}` "
-"**FLOPs** (a 1 followed by 26 zeros) is the frontier compute threshold in "
-"both China's proposed ``266504X`` and America's ``4E091``."
+"Individual math steps performed during training. :math:`10^{26}` **FLOPs** "
+"(a 1 followed by 26 zeros) is the frontier compute threshold in both China's"
+" proposed ``266504X`` and America's ``4E091``."
 msgstr ""
-"모델 학습 과정에서 수행되는 개별 수학 연산 횟수다. :math:`10^{26}` **FLOPs**\\ (1 뒤에 0이 26개 붙는 "
+"모델 학습 과정에서 수행되는 개별 수학 연산 횟수다. :math:`10^{26}`  **FLOPs** \\ (1 뒤에 0이 26개 붙는 "
 "수)는 중국이 제안한 ``266504X``\\ 와 미국의 ``4E091`` 모두가 채택한 프런티어 연산 임계치다."
 
 #: ../../book/sources.rst:39
@@ -204,13 +180,12 @@ msgstr "TPP 및 HBM (하드웨어 병목 지표)"
 #: ../../book/sources.rst:40
 msgid ""
 "**Total Processing Performance (TPP)** measures an AI chip's raw compute "
-"throughput, while **High-Bandwidth Memory (HBM / DRAM bandwidth)** "
-"measures how fast data feeds into the chip (capped at ``TPP < 21,000`` "
-"and ``6,500 GB/s`` in the January 2026 US China-review rule "
-"``742.6(b)(10)``)."
+"throughput, while **High-Bandwidth Memory (HBM / DRAM bandwidth)** measures "
+"how fast data feeds into the chip (capped at ``TPP < 21,000`` and ``6,500 "
+"GB/s`` in the January 2026 US China-review rule ``742.6(b)(10)``)."
 msgstr ""
-"**총연산성능(TPP)**\\ 은 AI 칩의 순수 연산 처리량을 재는 지표이고, **고대역폭 메모리(HBM / DRAM "
-"대역폭)**\\ 는 칩 안으로 데이터가 얼마나 빠르게 공급되는지를 재는 지표다(2026년 1월 미국의 대중국 건별 심사 규정 "
+" **총연산성능(TPP)** \\ 은 AI 칩의 순수 연산 처리량을 재는 지표이고,  **고대역폭 메모리(HBM / DRAM 대역폭)**"
+" \\ 는 칩 안으로 데이터가 얼마나 빠르게 공급되는지를 재는 지표다(2026년 1월 미국의 대중국 건별 심사 규정 "
 "``742.6(b)(10)`` 에서는 각각 ``TPP < 21,000`` 및 ``6,500 GB/s`` 미만이 상한선이다)."
 
 #: ../../book/sources.rst:42
@@ -232,26 +207,28 @@ msgstr "API / SaaS (베이커리 판매 창구)"
 
 #: ../../book/sources.rst:46
 msgid ""
-"Letting remote users send prompts to your cloud server and receive "
-"answers back, without handing over underlying model weights, source code, "
-"or chip designs."
+"Letting remote users send prompts to your cloud server and receive answers "
+"back, without handing over underlying model weights, source code, or chip "
+"designs."
 msgstr ""
-"기반 모델 가중치나 소스 코드, 반도체 설계도를 직접 넘겨주지 않고, 원격 사용자가 클라우드 서버로 질문을 보내 답변만 받아 가도록 "
-"하는 서비스 방식이다."
+"기반 모델 가중치나 소스 코드, 반도체 설계도를 직접 넘겨주지 않고, 원격 사용자가 클라우드 서버로 질문을 보내 답변만 받아 가도록 하는"
+" 서비스 방식이다."
 
 #: ../../book/sources.rst:48
-msgid "Nash Equilibrium (the Fortress Trap)"
-msgstr "내시 균형 (요새의 함정)"
+msgid "Nash equilibrium"
+msgstr "내시 균형"
 
 #: ../../book/sources.rst:49
 msgid ""
-"In game theory, a stalemate where each player chooses a defensive move "
-"(``Wall``) that looks best individually, trapping both sides in an "
-"outcome (:math:`+5, +5`) far worse and more dangerous than mutual "
-"cooperation (:math:`+17, +17`)."
+"A set of choices in which no player can improve its own payoff by changing "
+"only its own choice. An equilibrium need not be a stalemate, safe, fair or "
+"socially best. Mutual walls are an equilibrium only under the assumptions of"
+" our example. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
 msgstr ""
-"게임이론에서 각 행위자가 개별적으로는 최선처럼 보이는 방어적 수(``장벽``)를 선택한 결과, 양측 모두가 상호 "
-"협력(:math:`+17, +17`)보다 훨씬 열악하고 위험한 교착 상태(:math:`+5, +5`)에 갇히게 되는 균형점이다."
+"누구도 자기 선택만 바꿔 더 나아질 수 없는 조합입니다. 안전·공정·사회 최선일 필요는 없습니다. 상호 장벽은 이 예의 가정 아래에서만 "
+"균형입니다. `GAME <https://www.cs.cornell.edu/~rafael/networks-"
+"html/chapter1.html>`_"
 
 #: ../../book/sources.rst:51
 msgid "Software license vs. export license"
@@ -264,8 +241,8 @@ msgid ""
 "License* (``技术出口许可证`` or BIS license) is a sovereign government permit "
 "allowing controlled technology or hardware to cross a national border."
 msgstr ""
-"*MIT* 또는 *Apache 2.0* 라이선스는 창작자가 누구나 코드나 가중치를 재사용할 수 있도록 허용하는 사적 저작권 "
-"허락이다. 반면 *기술수출허가증*\\ (``技术出口许可证`` 또는 미국 BIS 허가증)은 통제 대상 기술이나 하드웨어가 국경을 넘을 "
+" *MIT*  또는  *Apache 2.0*  라이선스는 창작자가 누구나 코드나 가중치를 재사용할 수 있도록 허용하는 사적 저작권 "
+"허락이다. 반면  *기술수출허가증* \\ (``技术出口许可证`` 또는 미국 BIS 허가증)은 통제 대상 기술이나 하드웨어가 국경을 넘을 "
 "수 있도록 주권 국가 정부가 발급하는 공적 행정 허가다."
 
 #: ../../book/sources.rst:54
@@ -279,8 +256,8 @@ msgid ""
 "self-owned overseas clouds, overseas chip tape-out, and humanitarian "
 "biomedicine."
 msgstr ""
-"제한 등급 AI의 오픈소스 공개, 자체 보유 해외 클라우드, 해외 칩 테이프아웃, 인도주의 바이오의약 협력을 위해 제48호 공고 "
-"주석에서 제안된 \"신청 즉시 처리\"(``即报即出``) 방식의 간소화된 정부 허가 경로다."
+"제한 등급 AI의 오픈소스 공개, 자체 보유 해외 클라우드, 해외 칩 테이프아웃, 인도주의 바이오의약 협력을 위해 제48호 공고 주석에서"
+" 제안된 \"신청 즉시 처리\"(``即报即出``) 방식의 간소화된 정부 허가 경로다."
 
 #: ../../book/sources.rst:57
 msgid "ECCN, CCATS & SNAP-R"
@@ -289,17 +266,17 @@ msgstr "ECCN, CCATS 및 SNAP-R"
 #: ../../book/sources.rst:58
 msgid ""
 "In the US system, an **ECCN** (``3A090`` for AI chips, ``4E091`` for "
-"weights) identifies a controlled item; **SNAP-R** (``snapr.bis.gov``) is "
-"the free electronic portal where exporters file license applications and "
+"weights) identifies a controlled item; **SNAP-R** (``snapr.bis.gov``) is the"
+" free electronic portal where exporters file license applications and "
 "**CCATS** classification requests."
 msgstr ""
-"미국 수출 통제 체제에서 **ECCN**\\ (AI 칩은 ``3A090``, 모델 가중치는 ``4E091``)은 통제 품목 분류 "
-"번호를 뜻하며, **SNAP-R**\\ (``snapr.bis.gov``)은 수출자가 수출 허가 신청서와 **CCATS** 공식 "
+"미국 수출 통제 체제에서  **ECCN** \\ (AI 칩은 ``3A090``, 모델 가중치는 ``4E091``)은 통제 품목 분류 "
+"번호를 뜻하며,  **SNAP-R** \\ (``snapr.bis.gov``)은 수출자가 수출 허가 신청서와  **CCATS**  공식 "
 "품목 분류 판정 요청서를 무료로 제출하는 전자 포털이다."
 
 #: ../../book/sources.rst:60
-msgid "Complete Register of 22 Verified Primary Sources"
-msgstr "검증된 22개 1차 사료 전체 등록부"
+msgid "Complete Register of 26 Verified Primary Sources"
+msgstr "검증된 26개 1차 사료 전체 등록부"
 
 #: ../../book/sources.rst:63
 msgid ""
@@ -338,12 +315,12 @@ msgstr "2026-10-16"
 #: ../../book/sources.rst:74
 msgid ""
 "`mofcom.gov.cn "
-"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
-"(``a5261a74…``)"
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" (``a5261a74...``)"
 msgstr ""
 "`mofcom.gov.cn "
-"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ "
-"(``a5261a74…``)"
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" (``a5261a74...``)"
 
 #: ../../book/sources.rst:75
 msgid "``CN-A1``"
@@ -351,19 +328,18 @@ msgstr "``CN-A1``"
 
 #: ../../book/sources.rst:76
 msgid ""
-"Announcement 48, Attachment 1: 40 Proposed Technologies & 4 Footnotes "
-"(WPS)"
+"Announcement 48, Attachment 1: 40 Proposed Technologies & 4 Footnotes (WPS)"
 msgstr "제48호 공고 부속서 1: 40개 신설 제안 기술 항목 및 4개 주석 (WPS 원본)"
 
 #: ../../book/sources.rst:78
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
-"(``213158bb…``)"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_"
+" (``213158bb...``)"
 msgstr ""
 "`원본 WPS "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_ "
-"(``213158bb…``)"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.wps>`_"
+" (``213158bb...``)"
 
 #: ../../book/sources.rst:79
 msgid "``CN-A2``"
@@ -376,12 +352,12 @@ msgstr "제48호 공고 부속서 2: 기술수출 정보등록표 양식 (WPS �
 #: ../../book/sources.rst:82
 msgid ""
 "`Original WPS "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
-"(``d65818c2…``)"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_"
+" (``d65818c2...``)"
 msgstr ""
 "`원본 WPS "
-"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_ "
-"(``d65818c2…``)"
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.wps>`_"
+" (``d65818c2...``)"
 
 #: ../../book/sources.rst:83
 msgid "``CNQA``"
@@ -394,12 +370,12 @@ msgstr "제48호 공고에 관한 중국 상무부 대변인 공식 기자 문�
 #: ../../book/sources.rst:86
 msgid ""
 "`mofcom.gov.cn "
-"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
-"(``37fc685a…``)"
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
+" (``37fc685a...``)"
 msgstr ""
 "`mofcom.gov.cn "
-"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ "
-"(``37fc685a…``)"
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
+" (``37fc685a...``)"
 
 #: ../../book/sources.rst:87
 msgid "``CNTIER``"
@@ -408,7 +384,7 @@ msgstr "``CNTIER``"
 #: ../../book/sources.rst:88
 msgid ""
 "PRC State Council, Regulations on Administration of Tech Import & Export "
-"(Arts. 30–39)"
+"(Arts. 30-39)"
 msgstr "중국 국무원, 《중화인민공화국 기술수출입관리조례》 (제30~39조)"
 
 #: ../../book/sources.rst:89
@@ -418,10 +394,10 @@ msgstr "2020-11-29"
 #: ../../book/sources.rst:90
 msgid ""
 "`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
-"(``39f4b9bb…``)"
+"(``39f4b9bb...``)"
 msgstr ""
 "`xzfg.moj.gov.cn <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ "
-"(``39f4b9bb…``)"
+"(``39f4b9bb...``)"
 
 #: ../../book/sources.rst:91
 msgid "``CNMEAS``"
@@ -429,8 +405,8 @@ msgstr "``CNMEAS``"
 
 #: ../../book/sources.rst:92
 msgid ""
-"MOFCOM & MOST Order No. 2 of 2009, Measures for Prohibited/Restricted "
-"Tech Exports"
+"MOFCOM & MOST Order No. 2 of 2009, Measures for Prohibited/Restricted Tech "
+"Exports"
 msgstr "2009년 상무부·과학기술부령 제2호, 《수출금지·수출제한 기술 관리방법》"
 
 #: ../../book/sources.rst:93
@@ -439,11 +415,11 @@ msgstr "2009-04-20"
 
 #: ../../book/sources.rst:94
 msgid ""
-"`mofcom.gov.cn PDF "
-"<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
+"`mofcom.gov.cn PDF <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ "
+"(``d14e5230...``)"
 msgstr ""
-"`mofcom.gov.cn PDF "
-"<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ (``d14e5230…``)"
+"`mofcom.gov.cn PDF <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ "
+"(``d14e5230...``)"
 
 #: ../../book/sources.rst:95
 msgid "``CNPLAT``"
@@ -463,10 +439,10 @@ msgstr "2026-11-02"
 #: ../../book/sources.rst:98
 msgid ""
 "`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
-"(``5bc9740f…``)"
+"(``5bc9740f...``)"
 msgstr ""
 "`mofcom.gov.cn <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ "
-"(``5bc9740f…``)"
+"(``5bc9740f...``)"
 
 #: ../../book/sources.rst:99
 msgid "``US26``"
@@ -486,11 +462,11 @@ msgstr "2026-01-15"
 msgid ""
 "`govinfo.gov "
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
-"(``d3b27863…``)"
+"(``d3b27863...``)"
 msgstr ""
 "`govinfo.gov "
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
-"(``d3b27863…``)"
+"(``d3b27863...``)"
 
 #: ../../book/sources.rst:103
 msgid "``US25``"
@@ -510,11 +486,11 @@ msgstr "2025-01-15"
 msgid ""
 "`govinfo.gov "
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
-"(``6e202458…``)"
+"(``6e202458...``)"
 msgstr ""
 "`govinfo.gov "
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
-"(``6e202458…``)"
+"(``6e202458...``)"
 
 #: ../../book/sources.rst:107
 msgid "``USNE``"
@@ -530,13 +506,13 @@ msgstr "2025-05-13"
 
 #: ../../book/sources.rst:110
 msgid ""
-"`bis.gov "
-"<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
-"(``14a05e6e…``)"
+"`bis.gov <https://www.bis.gov/press-release/department-commerce-announces-"
+"rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
+"(``14a05e6e...``)"
 msgstr ""
-"`bis.gov "
-"<https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
-"(``14a05e6e…``)"
+"`bis.gov <https://www.bis.gov/press-release/department-commerce-announces-"
+"rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ "
+"(``14a05e6e...``)"
 
 #: ../../book/sources.rst:111
 msgid "``GAO26``"
@@ -544,8 +520,7 @@ msgstr "``GAO26``"
 
 #: ../../book/sources.rst:112
 msgid ""
-"US GAO Decision ``B-337935`` on AI Diffusion Rule & Congressional Review "
-"Act"
+"US GAO Decision ``B-337935`` on AI Diffusion Rule & Congressional Review Act"
 msgstr "AI 확산 규칙 및 의회검토법(CRA) 적용에 관한 미 연방회계감사원(GAO) 결정 ``B-337935``"
 
 #: ../../book/sources.rst:113
@@ -554,10 +529,10 @@ msgstr "2026-05-12"
 
 #: ../../book/sources.rst:114
 msgid ""
-"`gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; "
-"web-verified)*"
+"`gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; web-"
+"verified)*"
 msgstr ""
-"`gao.gov <https://www.gao.gov/products/b-337935>`_ *(HTTP 403; 웹 열람 검증)*"
+"`gao.gov <https://www.gao.gov/products/b-337935>`_  *(HTTP 403; 웹 열람 검증)* "
 
 #: ../../book/sources.rst:115
 msgid "``EAR734``"
@@ -577,27 +552,26 @@ msgstr "2026-11-01"
 #: ../../book/sources.rst:118
 msgid ""
 "`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
-"(``eeb76281…``)"
+"(``eeb76281...``)"
 msgstr ""
 "`bis.gov/ear/734 <https://www.bis.gov/regulations/ear/734>`_ "
-"(``eeb76281…``)"
+"(``eeb76281...``)"
 
 #: ../../book/sources.rst:119
 msgid "``EAR742``"
 msgstr "``EAR742``"
 
 #: ../../book/sources.rst:120
-msgid ""
-"15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
+msgid "15 CFR Part 742: Control Policy, CCL Based Controls (``742.6(b)(10)``)"
 msgstr "15 CFR Part 742: 상업통제목록(CCL) 기반 통제 정책 (``742.6(b)(10)``)"
 
 #: ../../book/sources.rst:122
 msgid ""
 "`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
-"(``3eccf859…``)"
+"(``3eccf859...``)"
 msgstr ""
 "`bis.gov/ear/742 <https://www.bis.gov/regulations/ear/742>`_ "
-"(``3eccf859…``)"
+"(``3eccf859...``)"
 
 #: ../../book/sources.rst:123
 msgid "``EAR744``"
@@ -612,27 +586,26 @@ msgstr "15 CFR Part 744: 최종 사용자 및 최종 용도 기반 통제 (``744
 #: ../../book/sources.rst:126
 msgid ""
 "`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
-"(``ab19c823…``)"
+"(``ab19c823...``)"
 msgstr ""
 "`bis.gov/ear/744 <https://www.bis.gov/regulations/ear/744>`_ "
-"(``ab19c823…``)"
+"(``ab19c823...``)"
 
 #: ../../book/sources.rst:127
 msgid "``EAR774``"
 msgstr "``EAR774``"
 
 #: ../../book/sources.rst:128
-msgid ""
-"15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
+msgid "15 CFR Part 774: Commerce Control List (ECCNs ``3A090`` and ``4E091``)"
 msgstr "15 CFR Part 774: 상업통제목록(CCL) (ECCN ``3A090`` 및 ``4E091``)"
 
 #: ../../book/sources.rst:130
 msgid ""
 "`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
-"(``01d3beba…``)"
+"(``01d3beba...``)"
 msgstr ""
 "`bis.gov/ear/774 <https://www.bis.gov/regulations/ear/774>`_ "
-"(``01d3beba…``)"
+"(``01d3beba...``)"
 
 #: ../../book/sources.rst:131
 msgid "``SNAPR``"
@@ -646,10 +619,10 @@ msgstr "미국 BIS SNAP-R 전자 신청 FAQ 및 연락처 안내서 (``snapr.bis
 #: ../../book/sources.rst:134
 msgid ""
 "`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
-"(``e0c3bdee…``)"
+"(``e0c3bdee...``)"
 msgstr ""
 "`snapr.bis.gov PDF <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_ "
-"(``e0c3bdee…``)"
+"(``e0c3bdee...``)"
 
 #: ../../book/sources.rst:135
 msgid "``TREAS``"
@@ -666,13 +639,11 @@ msgstr "2026-10-22"
 
 #: ../../book/sources.rst:138
 msgid ""
-"`home.treasury.gov "
-"<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
-"(``75f52eee…``)"
+"`home.treasury.gov <https://home.treasury.gov/policy-"
+"issues/international/outbound-investment-program>`_ (``75f52eee...``)"
 msgstr ""
-"`home.treasury.gov "
-"<https://home.treasury.gov/policy-issues/international/outbound-investment-program>`_ "
-"(``75f52eee…``)"
+"`home.treasury.gov <https://home.treasury.gov/policy-"
+"issues/international/outbound-investment-program>`_ (``75f52eee...``)"
 
 #: ../../book/sources.rst:139
 msgid "``DOJ``"
@@ -686,10 +657,10 @@ msgstr "미 법무부 국가안보국(NSD), 데이터 보안 프로그램"
 #: ../../book/sources.rst:142
 msgid ""
 "`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
-"(``1bf01adb…``)"
+"(``1bf01adb...``)"
 msgstr ""
 "`justice.gov/nsd <https://www.justice.gov/nsd/data-security>`_ "
-"(``1bf01adb…``)"
+"(``1bf01adb...``)"
 
 #: ../../book/sources.rst:143
 msgid "``OSI``"
@@ -706,10 +677,10 @@ msgstr "2024-10-28"
 #: ../../book/sources.rst:146
 msgid ""
 "`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
-"(``a5442179…``)"
+"(``a5442179...``)"
 msgstr ""
 "`opensource.org <https://opensource.org/ai/open-source-ai-definition>`_ "
-"(``a5442179…``)"
+"(``a5442179...``)"
 
 #: ../../book/sources.rst:147
 msgid "``R1``"
@@ -726,10 +697,10 @@ msgstr "2025-01-20"
 #: ../../book/sources.rst:150
 msgid ""
 "`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
-"(``875b282c…``)"
+"(``875b282c...``)"
 msgstr ""
 "`github.com/deepseek-ai <https://github.com/deepseek-ai/DeepSeek-R1>`_ "
-"(``875b282c…``)"
+"(``875b282c...``)"
 
 #: ../../book/sources.rst:151
 msgid "``QWEN``"
@@ -745,9 +716,9 @@ msgstr "2025-04-29"
 
 #: ../../book/sources.rst:154
 msgid ""
-"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9…``)"
+"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9...``)"
 msgstr ""
-"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9…``)"
+"`github.com/QwenLM <https://github.com/QwenLM/Qwen3>`_ (``2b7cdab9...``)"
 
 #: ../../book/sources.rst:155
 msgid "``GD``"
@@ -760,7 +731,90 @@ msgstr "GuideDog 문서 및 도서 출판 엔진 (``v1.0.0-beta.10``)"
 #: ../../book/sources.rst:158
 msgid ""
 "`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
-"(``6fe7704f…``)"
+"(``6fe7704f...``)"
 msgstr ""
 "`github.com/insanai/guidedog <https://github.com/insanai/guidedog>`_ "
-"(``6fe7704f…``)"
+"(``6fe7704f...``)"
+
+#: ../../book/sources.rst:160
+msgid "Research and Historical References Added in This Review"
+msgstr "이번 검토에 추가한 연구·역사 자료"
+
+#: ../../book/sources.rst:163
+msgid ""
+"``NTIA``: `Dual-Use Foundation Models with Widely Available Model Weights "
+"(July 2024) <https://www.ntia.gov/sites/default/files/publications/ntia-ai-"
+"open-model-report.pdf>`_. A government assessment of benefits, risks and "
+"monitoring recommendations for then-current open models, not evidence about "
+"every future model."
+msgstr ""
+"``NTIA``: 2024년 7월 공개 가중치 보고서. 당시 모델의 이익·위험·관찰을 평가하며 모든 미래 모델의 증거는 아닙니다. "
+"`Dual-Use Foundation Models with Widely Available Model Weights (July 2024) "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_"
+
+#: ../../book/sources.rst:164
+msgid ""
+"``OPENRISK``: `On the Societal Impact of Open Foundation Models "
+"<https://arxiv.org/abs/2403.07918>`_. A research position paper on marginal "
+"risks and benefits. We distinguish its argument from a measured causal "
+"effect of export controls."
+msgstr ""
+"``OPENRISK``: 공개 기반 모델의 사회적 영향 연구입니다. 추가 위험 논의와 수출 통제의 인과적 측정을 구별합니다. `On "
+"the Societal Impact of Open Foundation Models "
+"<https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/sources.rst:165
+msgid ""
+"``GAME``: `A Course in Networks and Markets, Chapter 1 "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_. "
+"Definitions of games, best responses and equilibrium. Our particular scores "
+"and repeated-game calculation are the book's own example."
+msgstr ""
+"``GAME``: 네트워크·시장 교재 제1장으로 게임·최적 대응·균형을 정의합니다. 점수와 반복 계산은 책의 자체 예입니다. `A "
+"Course in Networks and Markets, Chapter 1 "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/sources.rst:166
+msgid ""
+"``JEFFERSON``: `Thomas Jefferson to Isaac McPherson, 13 August 1813 "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_. The "
+"original source of the candle quotation. The analogy does not itself "
+"establish an economic effect."
+msgstr ""
+"``JEFFERSON``: 1813년 8월 13일 Isaac McPherson에게 쓴 편지입니다. 촛불 인용의 원전이지 경제 효과 증명은"
+" 아닙니다. `Thomas Jefferson to Isaac McPherson, 13 August 1813 "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+
+#: ../../book/sources.rst:168
+msgid "Credits and Reuse"
+msgstr "저자·협력자와 재사용"
+
+#: ../../book/sources.rst:171
+msgid ""
+"Written by **Vikrant Rathore**, with assistance from **Jennifer Yuan, Vicky "
+"Ni, Ronak Rathore and Kanak Rathore**."
+msgstr ""
+"저자  **Vikrant Rathore** , 도움  **Jennifer Yuan, Vicky Ni, Ronak Rathore, "
+"Kanak Rathore** ."
+
+#: ../../book/sources.rst:173
+msgid ""
+"Original text, editorial work and new line illustrations are licensed under "
+"**CC BY-SA 4.0**. Attribution and sharing adaptations under the same license"
+" are required. Official documents, quoted material, fonts, software and "
+"other third-party materials retain their own copyrights and licenses. See "
+"the repository's LICENSE and NOTICE files for the terms and exclusions."
+msgstr ""
+"원본 글·편집·새 선화는  **CC BY-SA 4.0** 입니다. 출처 표시와 같은 조건의 2차 공유가 필요합니다. 공식 "
+"문서·인용·글꼴·소프트웨어·제3자 자료는 원래 권리와 라이선스를 유지합니다. LICENSE와 NOTICE를 참고합니다."
+
+#: ../../book/sources.rst:175
+msgid ""
+"All seven language editions are editorial translations. They have not "
+"received independent professional legal or native-language review. Original "
+"legal texts prevail. Examples and game scores must not be treated as "
+"official classifications or empirical forecasts."
+msgstr ""
+"7개 판은 독립 법률·원어민 전문 검토를 받지 않은 편집 번역입니다. 원문 법률이 우선하며 사례·점수는 공식 분류나 실측 예측이 "
+"아닙니다."

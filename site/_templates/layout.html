@@ -1,6 +1,6 @@
 {#- Literary landing-page layout for "Impact of Export Controls on the Future of Open Source AI".
     Built 100% natively with Guidedog, Jinja _('...'), and gettext .po catalogs. -#}
-{%- set site_root = pathto_root ~ ('../../' if language != 'en' else '') %}
+{%- set site_root = '' if pagename == '404' else pathto_root ~ ('../../' if language != 'en' else '') %}
 {%- set cur = namespace(home='', book='en/', tag='en') %}
 {%- for e in site_languages %}
   {%- if e.code == language %}
@@ -65,7 +65,7 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
     <a href="{{ site_root }}{{ cur.book }}atlas.html">{{ _('40 Checkpoints') }}</a>
     <a href="{{ site_root }}{{ cur.book }}open-models.html">{{ _('Open AI Flowcharts') }}</a>
     <a href="{{ site_root }}{{ cur.book }}comparison.html">{{ _('Contacts & Approval') }}</a>
-    <a href="{{ site_root }}{{ cur.book }}sources.html">{{ _('22 Sources') }}</a>
+    <a href="{{ site_root }}{{ cur.book }}sources.html">{{ _('26 Sources') }}</a>
   </nav>
   <form class="gd-site-search" action="{{ site_root }}{{ cur.book }}search.html" method="get" role="search">
     <svg class="gd-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -116,7 +116,7 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
     <div class="editions-header">
       <span class="editions-kicker">{{ _('SEVEN NATIVE EDITIONS · WEB & TYPESET A4 PDF') }}</span>
       <h2 id="editions-heading">{{ _('Read the Complete Book in Seven Languages') }}</h2>
-      <p>{{ _('Every edition contains all 11 chapters, custom woodcut illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book.') }}</p>
+      <p>{{ _('Every edition contains all 11 chapters, minimal line illustrations, native Typst/CeTZ/Fletcher & Graphviz diagrams, the interactive 40-checkpoint atlas, verified government contacts, and an A4 PDF book.') }}</p>
     </div>
     <ul class="editions-grid">
     {%- for e in site_languages %}
@@ -146,13 +146,14 @@ document.documentElement.dataset.theme=m}catch(e){}</script>
       <a href="{{ site_root }}{{ cur.book }}index.html">{{ _('Read the Book') }}</a>
       <a href="{{ site_root }}{{ cur.book }}atlas.html">{{ _('40-Technology Atlas') }}</a>
       <a href="{{ site_root }}{{ cur.book }}comparison.html">{{ _('Official Contacts & Licensing') }}</a>
-      <a href="{{ site_root }}{{ cur.book }}sources.html">{{ _('22 Verified Primary Sources') }}</a>
+      <a href="{{ site_root }}{{ cur.book }}sources.html">{{ _('26 Verified Primary Sources') }}</a>
       <a href="{{ repository }}">{{ _('GitHub Repository') }}</a>
       <a href="https://github.com/insanai/guidedog">GuideDog</a>
     </nav>
-    <p class="landing-credit">{{ _('Built with the help of GuideDog, with assistance from Vicky Ni, Ronak Rathore, and Kanak Rathore.') }}</p>
-    <p>{{ _('Verified as of 2 November 2026 against 22 official Chinese and US primary records. Original legal texts prevail.') }}</p>
+    <p class="landing-credit">{{ _('Built with the help of GuideDog, with assistance from Jennifer Yuan, Vicky Ni, Ronak Rathore, and Kanak Rathore.') }}</p>
+    <p>{{ _('Checked as of 2 November 2026 against 26 legal, technical and research sources. Original legal texts prevail.') }}</p>
   </div>
+<p class="reuse-credit">Vikrant Rathore / <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> / <a href="{{ site_root }}sources/NOTICE">{{ _('Third-party rights') }}</a></p>
 </footer>
 {%- endblock %}
 </body>

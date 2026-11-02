@@ -1,28 +1,24 @@
-# Simplified Chinese translation for book/index.rst
-# Copyright (C) 2026, China Export Control Research
-# This file is distributed under the same license as the Impact of Export Controls on the Future of Open Source AI package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Impact of Export Controls on the Future of Open "
-"Source AI 2026.11\n"
+"Project-Id-Version: Impact of Export Controls on the Future of Open Source AI 2026.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 12:32+0000\n"
-"PO-Revision-Date: 2026-11-02 12:38+0000\n"
-"Last-Translator: China Export Control Research\n"
-"Language-Team: China Export Control Research\n"
+"PO-Revision-Date: 2026-11-02 14:00+0000\n"
+"Last-Translator: Vikrant Rathore\n"
+"Language-Team: Jennifer Yuan, Vicky Ni, Ronak Rathore, Kanak Rathore\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../book/index.rst:1
 msgid ""
 "Impact of Export Controls on the Future of Open Source AI: how software, "
-"model weights, and silicon hardware gates reshape human progress, proven "
-"with primary sources and game theory."
-msgstr "出口管制对开源人工智能未来的影响：以中美一手官方文献与通俗博弈论，揭示软件、模型权重与硅基硬件闸门如何重塑人类进步。"
+"model weights, and silicon hardware gates reshape human progress, examined "
+"with primary sources and an illustrative game."
+msgstr "以原始来源和示意博弈分析出口管制如何影响软件、模型、硬件及开放AI的未来。"
 
 #: ../../book/index.rst:5
 msgid "Impact of Export Controls on the Future of Open Source AI"
@@ -30,433 +26,179 @@ msgstr "出口管制对开源人工智能未来的影响"
 
 #: ../../book/index.rst:8
 msgid ""
-"Imagine a world with no tollbooths on human thought. Two centuries ago, "
-"Thomas Jefferson marveled at a peculiarity of the human mind that no "
-"customs officer could quite grasp: *\"He who receives an idea from me, "
-"receives instruction himself without lessening mine; as he who lights his "
-"taper at mine, receives light without darkening me.\"* Give away a loaf "
-"of bread and your table has one loaf fewer; give away an equation and two "
-"kitchens can bake tomorrow."
+"An idea can be shared without using it up. Thomas Jefferson expressed this "
+"in an 1813 letter: *\"He who lights his taper at mine, receives light "
+"without darkening me.\"* That image captures the promise of open-source AI: "
+"one team can learn from another without taking its knowledge away. "
+"`JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
 msgstr ""
-"不妨想象一个思想无需缴纳过路费的世界。两百年前，托马斯·杰斐逊曾惊叹于人类心智中一种令任何海关官员都难以捉摸的奇妙秉性： "
-"*“从我这里获得一种思想的人，自己得到了教益，却丝毫未减损我的智慧；正如借我烛火点亮他烛之人，自己获得了光明，却分毫未使我暗淡。”* "
-"送出一只面包，你的餐桌上便少了一只面包；但送出一道方程，明天两间厨房都能烤出温热的新粮。"
+"知识可以分享而不被耗尽。杰斐逊1813年以蜡烛比喻： *借我的火点亮蜡烛，获得光而不使我变暗。*  一个团队可以向另一个学习而不夺走其知识。 "
+"`JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
 
-#: ../../book/index.rst:13
+#: ../../book/index.rst:12
 msgid ""
-"From an open commons to a guarded horizon: ideas once sailed freely "
-"across borders like folded paper birds, before export walls rose across "
-"both silicon hardware and frontier models, leaving one narrow jade "
-"doorway ajar for open-source science."
+"#import \"figures/artwork.typ\": commons\n"
+"#commons()"
 msgstr ""
-"从开放公地到设防的地平线：思想曾如折纸飞鸟般自由越过山海，直到出口高墙在硅基硬件与前沿大模型之间同时耸立，唯余一扇微启的碧玉窄门，仍为开源科学留出一线天光。"
+"#import \"figures/artwork.typ\": commons\n"
+"#commons()"
 
-#: ../../book/index.rst:15
+#: ../../book/index.rst:12
 msgid ""
-"For four hundred years, humanity's greatest leaps rested on that quiet "
-"miracle. Movable type, germ theory, astronomical tables, the internet "
-"protocol suite, Linux, and most recently **open-source artificial "
-"intelligence** flourished because strangers across oceans could read, "
-"test, repair, and improve one another's work without waiting in line for "
-"a sovereign export stamp. Between 2023 and 2026, open-weight models "
-"turned what might have become a closed corporate priesthood into a living "
-"global commons. A rural clinic in Kenya triaging childhood pneumonia "
-"offline, a linguist rescuing an endangered mother tongue, and university "
-"students with two consumer graphics cards in Munich or Bengaluru suddenly "
-"held genuine frontier reasoning in their own hands ``[OSI]`` ``[R1]`` "
-"``[QWEN]``."
-msgstr ""
-"四百年来，人类最伟大的每一次跃迁，都建立在这桩静默的奇迹之上。活字印刷、细菌学说、天文星表、互联网协议簇、Linux 操作系统，直至晚近崛起的 "
-"**开源人工智能** "
-"，之所以能够蔚然成林，正是因为隔海相望的陌生人可以自由阅读、检验、修补并精进彼此的心血，而无需排起长队等候一枚主权国家的出口印章。2023 至 "
-"2026 "
-"年间，开放权重模型将原本可能沦为少数科技巨头封闭秘教的技术，化作了一片生机勃勃的全球知识公地。肯尼亚离线分诊儿童肺炎的乡村诊所、抢救濒危母语的语言学家，以及慕尼黑或班加罗尔仅凭两张消费级显卡钻研的大学生，骤然间都在自己掌中握住了真正的前沿推理之力 "
-"``[OSI]`` ``[R1]`` ``[QWEN]`` 。"
+"A shared path crosses a boundary while another is interrupted. The drawing "
+"represents the distinction between cooperation and broad restriction; it is "
+"not a map of a legal procedure."
+msgstr "一条共享路径跨过边界，另一条被中断。画面表达合作与广泛限制的区别，不是法律程序图。"
 
-#: ../../book/index.rst:17
+#: ../../book/index.rst:18
+msgid ""
+"Open-weight models can give researchers and smaller organizations more "
+"control over how they use AI. A clinic, a language project or a university "
+"might adapt a public model on its own computers. These are illustrative "
+"uses, not documented deployments or proof that a model is clinically safe. "
+"Downloadable weights also differ from the fuller requirements of the Open "
+"Source AI Definition. `OSI <https://opensource.org/ai/open-source-ai-"
+"definition>`_ `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
+"<https://github.com/QwenLM/Qwen3>`_"
+msgstr ""
+"开放权重可能使小机构更有自主权。诊所、语言项目或大学可能在本地改进模型。这些是说明性用途，不是有记录的应用或临床安全证明；可下载权重也不同于完整开放AI定义。"
+" `OSI <https://opensource.org/ai/open-source-ai-definition>`_ `R1 "
+"<https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN "
+"<https://github.com/QwenLM/Qwen3>`_"
+
+#: ../../book/index.rst:20
 msgid ""
 "Then the walls began to rise: not only in the sky of software, but deep "
 "underground in the bedrock of silicon."
 msgstr "随后，高墙开始拔地而起：不仅横亘在软件的苍穹之上，更深扎进地底硅基的岩床之中。"
 
-#: ../../book/index.rst:19
+#: ../../book/index.rst:22
 msgid "Not Just Software or Weights: The Hardware Beneath Open Minds"
 msgstr "不止于软件与权重：托起开放心智的硬件底座"
 
-#: ../../book/index.rst:22
+#: ../../book/index.rst:25
 msgid ""
 "Most conversations about open-source AI make a comforting mistake. They "
-"imagine an AI model as pure, weightless poetry: a file of code and "
-"numbers that can stay free forever as long as someone places an MIT or "
-"Apache 2.0 license on GitHub."
+"imagine an AI model as pure, weightless poetry: a file of code and numbers "
+"that can stay free forever as long as someone places an MIT or Apache 2.0 "
+"license on GitHub."
 msgstr ""
-"绝大多数关于开源人工智能的讨论，都怀着一种令人宽慰的错觉。人们习惯把人工智能模型想象成纯粹而失重的诗篇：仿佛只要有人在 GitHub 上挂一份 "
-"MIT 或 Apache 2.0 许可证，那一串代码与数字便能永远自由。"
+"绝大多数关于开源人工智能的讨论，都怀着一种令人宽慰的错觉。人们习惯把人工智能模型想象成纯粹而失重的诗篇：仿佛只要有人在 GitHub 上挂一份 MIT "
+"或 Apache 2.0 许可证，那一串代码与数字便能永远自由。"
 
-#: ../../book/index.rst:24
+#: ../../book/index.rst:27
 msgid ""
-"In physical reality, no neural network floats in thin air. Every open "
-"model sits atop an industrial pyramid of **extreme-ultraviolet "
-"lithography lenses, silicon wafers, stacked high-bandwidth memory (HBM), "
-"custom processor instruction sets, and miles of optical fiber stitching "
-"ten thousand accelerator cards into a single supercomputer**. Export "
-"controls have now clamped onto **both halves of that stack** at once:"
+"Open models depend on physical computers. Large training runs can need "
+"advanced processors, memory and fast networks; smaller models can run on "
+"less demanding equipment. Not every open-model user needs the latest "
+"manufacturing process or a cluster of ten thousand cards. Controls on scarce"
+" hardware can nevertheless affect which teams can train, inspect and deploy "
+"models."
 msgstr ""
-"然而在物理现实中，没有任何神经网络能凭空悬浮。每一座开源模型的脚下，都托举着一座庞大精密的现代工业金字塔： "
-"**极紫外光刻机的光学镜头、高纯硅晶圆、层层堆叠的高带宽存储器（HBM）、定制处理器指令集，以及绵延数英里、将上万张算力加速卡缝合成一台超级计算机的高速光纤** "
-"。如今，出口管制的钳口正同时咬合在这座技术栈的 **上下两半** 之上："
-
-#: ../../book/index.rst:29
-msgid ""
-"Mind and silicon are inseparable: open-source constellations illuminating "
-"clinics, classrooms, and workshops above ground draw their life from "
-"subterranean silicon wafers, stacked HBM memory, and ten-thousand-card "
-"supercluster cables now guarded by border gates."
-msgstr ""
-"心智与硅基密不可分：地上照亮诊所、课堂与工坊的开源星群，其生命力皆源自地底深处的硅晶圆、堆叠式 HBM "
-"存储器与万卡超算集群光缆；而如今，这些地底脉络已处处设有边境关闸。"
+"模型依赖实体计算机。大型训练可能需要先进处理器、存储和网络，小模型可用较普通设备。不是所有使用者都需最新制程或万卡集群，但稀缺硬件仍可能影响谁能训练、检查和部署。"
 
 #: ../../book/index.rst:31
 msgid ""
-"**Below the surface (Hardware & Silicon Chokepoints):** Washington built "
-"its border fortress around physical computation, restricting flagship AI "
-"chips (``3A090``), semiconductor manufacturing tools, and foreign-made "
-"chips designed with US software (``15 CFR 734.9``), even after "
-"calibrating conditional case-by-case review for H200-class exports in "
-"January 2026 ``[US26]`` ``[EAR734]`` ``[EAR742]`` ``[EAR774]``. Beijing's "
-"October 2026 draft answers in kind on the architectural side, proposing "
-"export controls on **AI processor designs, custom instruction sets, IP "
-"cores, 2.5D/3D chiplet packaging, non-von-Neumann chips, high-density 3D "
-"NAND, and <=18 nm or stacked DRAM designs** (``266506X``), alongside "
-"**10,000-card supercluster interconnects and multi-vendor "
-"chip-orchestration stacks** (``266507X``) and 18 classes of solar factory "
-"machinery ``[CN-A1]``."
+"#import \"figures/artwork.typ\": mind-and-silicon\n"
+"#mind-and-silicon()"
 msgstr ""
-"**地平线之下（硬件与硅基咽喉要道）：** 华盛顿围绕物理算力筑起了边境要塞，严格管制旗舰级 AI 芯片（ ``3A090`` "
-"）、半导体制造设备，以及凭借“外国直接产品规则”（ ``15 CFR 734.9`` ）纳入管辖、采用美国软件设计的境外制造芯片；即便在 2026 "
-"年 1 月对 H200 级别芯片出口校准为附严苛条件的逐案审查后，藩篱依然森严 ``[US26]`` ``[EAR734]`` "
-"``[EAR742]`` ``[EAR774]`` 。北京在 2026 年 10 月公布的目录修订草案中则从底层架构端予以回应，拟对 **AI "
-"处理器架构设计、定制指令集、核心计算 IP 核、2.5D/3D 芯粒（Chiplet）先进封装、非冯·诺依曼架构芯片、高密度 3D NAND "
-"闪存，以及 <=18 纳米或堆叠式 DRAM 存储芯片设计** （ ``266506X`` ）实施出口限制，并同步纳管 "
-"**超万卡智算集群高速互联与多厂商异构芯片混训调度技术** （ ``266507X`` ）以及 18 类核心光伏制造装备 ``[CN-A1]`` 。"
+"#import \"figures/artwork.typ\": mind-and-silicon\n"
+"#mind-and-silicon()"
 
-#: ../../book/index.rst:32
+#: ../../book/index.rst:31
 msgid ""
-"**Above the surface (Software, Weights & Data Gates):** On **16 October "
-"2026**, China's Ministry of Commerce (MOFCOM) and Ministry of Science and "
-"Technology (MOST) issued **Announcement No. 48 of 2026**, proposing **40 "
-"technology checkpoints** across AI and chips (23), biomedicine (5), and "
-"solar manufacturing (12) while switching on mandatory pre-export "
-"registration that same afternoon ``[CN48]`` ``[CNQA]``. Private transfers "
-"of frontier model weights crossing :math:`10^{26}` FLOPs, **2 trillion "
-"parameters**, or a **Global Top-10 benchmark** (``266504X``) enter "
-"licensing gates, alongside Washington's own contested ``4E091`` "
-"closed-weight rule ``[CN-A1]`` ``[US25]`` ``[GAO26]``."
+"Open models depend on chips, memory and computing infrastructure. A "
+"restriction on one part can affect access to the whole system."
+msgstr "开放模型依赖芯片、存储与算力设施。限制一部分可能影响整体可用性。"
+
+#: ../../book/index.rst:37
+msgid ""
+"**Hardware and design knowledge:** US controls cover specified chips, "
+"manufacturing items and some foreign-made items under defined conditions. "
+"China proposes controls on specified processor and memory designs, and on "
+"certain technologies for clusters with **more than 10,000** accelerator "
+"cards. Design knowledge, finished chips and clusters are different objects "
+"of control. `US26 "
+"<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
+"`EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 "
+"<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
-"**地平线之上（软件、模型权重与数据闸门）：** **2026 年 10 月 16 日** ，中国商务部与科技部联合发布 "
-"**商务部与科技部2026年第48号公告** ，在人工智能与芯片（23 项）、生物医药（5 项）及光伏制造（12 项）三大领域提出 **40 "
-"项技术管制点** 修订草案，并于当天下午同步启动强制性的出口前信息登记机制 ``[CN48]`` ``[CNQA]`` 。私下跨境转移突破 "
-":math:`10^{26}` FLOPs 训练算力、 **2 万亿参数规模** 或位列 **全球前十评测榜单** 的前沿大模型核心技术（ "
-"``266504X`` ），将被纳入出口许可闸门，与华盛顿自身充满法律拉锯的 ``4E091`` 闭源模型权重规则形成对映 ``[CN-A1]`` "
-"``[US25]`` ``[GAO26]`` 。"
+" **硬件与设计知识：**  美国覆盖指定物项及符合条件的部分外国物项。中国提议覆盖指定设计和  **超过1万张**  "
+"加速卡集群的部分技术。设计知识、成品芯片和集群是不同管制对象。 `US26 "
+"<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
+"`EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 "
+"<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:36
+#: ../../book/index.rst:38
 msgid ""
-"Even if software licenses remain free on paper, open-source AI cannot "
-"thrive in a vacuum: if export controls ration the chips needed to train "
-"open models, lock up open silicon blueprints, or price local hardware out "
-"of reach for hospitals and universities, humanity gets nudged back from "
-"owning minds to renting metered corporate cloud windows."
+"**Models and data:** Announcement 48 began temporary registration for "
+"covered transfers on **16 October 2026**. Its proposed catalogue includes "
+"model core technology meeting any of three tests: training calculation, "
+"parameter count or a qualifying global top-10 assessment. These proposed "
+"categories are separate from the registration already operating and from the"
+" US model-weight rule. `CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `US25 "
+"<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
+"`GAO26 <https://www.gao.gov/products/b-337935>`_"
+msgstr ""
+" **模型与数据：**  中国于  **2026年10月16日**  "
+"启动临时登记。目录拟以计算量、参数或合格前十评估作为替代条件。拟议类别、当前登记与美国权重规则须分开。 `CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `US25 "
+"<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
+"`GAO26 <https://www.gao.gov/products/b-337935>`_"
+
+#: ../../book/index.rst:42
+msgid ""
+"Even if software licenses remain free on paper, open-source AI cannot thrive"
+" in a vacuum: if export controls ration the chips needed to train open "
+"models, lock up open silicon blueprints, or price local hardware out of "
+"reach for hospitals and universities, humanity gets nudged back from owning "
+"minds to renting metered corporate cloud windows."
 msgstr ""
 "哪怕软件许可证在纸面上依旧自由，开源人工智能也绝无可能在真空中繁茂生长：一旦出口管制配给甚至卡住训练开源模型所需的算力芯片、锁死开放芯片架构蓝图，或是让医院与大学再也买不起本地部署硬件，全人类就将在不知不觉间被推回老路：从真正拥有心智工具，退化为按量租用科技巨头的云端计费窗口。"
 
-#: ../../book/index.rst:38
-msgid "The Fortress Trap: Why High Walls Leave Everyone Worse Off"
-msgstr "堡垒陷阱：为何筑起高墙反而让所有人受损"
+#: ../../book/index.rst:44
+msgid "The Fortress Trap: How Both Sides Can Lose"
+msgstr "堡垒陷阱：双方如何一起受损"
 
-#: ../../book/index.rst:41
+#: ../../book/index.rst:47
 msgid ""
-"Every capital builds export walls hoping to stay ahead and stay safe. At "
-"first glance, hoarding technology inside national borders sounds like "
-"simple common sense: *if we keep our breakthroughs to ourselves, won't we "
-"be stronger and safer?*"
+"The central argument of this book is that broad restrictions on shared "
+"knowledge can leave both countries worse off. We can show one way this "
+"happens with a simple game. We cannot prove that every export control has "
+"this effect merely by choosing numbers for a table."
+msgstr "本书的核心论点是广泛限制共享知识可能使双方更差。简单博弈展示一种机制，但选择一组数字不能证明所有管制都有同样效果。"
+
+#: ../../book/index.rst:49
+msgid ""
+"Imagine two countries choosing between **Share (S)** and **Wall (W)**. "
+"Sharing means allowing ordinary research and open-model cooperation; a wall "
+"means broadly restricting it. This deliberately simplifies real policy. "
+"Targeted controls, legitimate security benefits, third countries and unequal"
+" access to chips are not represented in the first example."
 msgstr ""
-"每一座首都筑起出口高墙，初衷都是为了保持领先、守护安全。乍看之下，把核心技术严密留在国境之内似乎再合常理不过： *如果我们把重大突破留给自己独享，难道不会更强大、更安全吗？*"
+"两国选择  **共享（S）**  或  **筑墙（W）** "
+"。共享代表普通研究合作，筑墙代表广泛限制。这简化了政策，最初没有计入精准管制、安全收益、第三国或不平等算力。"
 
-#: ../../book/index.rst:43
+#: ../../book/index.rst:53
 msgid ""
-"To test whether that instinct holds up in the real world, imagine two "
-"technological neighbors across a dark strait, **Country A** and **Country "
-"B**. Each country faces a basic choice over its non-military AI software "
-"and chip designs:"
-msgstr ""
-"为了检验这种直觉在真实世界里是否站得住脚，不妨设想幽暗海峡两岸隔海相望的两个科技大国：**A 国** 与 **B 国** 。围绕各自的非军事人工智能软件与芯片设计，两国都面临着同样两种基础选择："
+"**Assumptions, not measurements.** The scores below are invented teaching "
+"values. They express preferences within this example, not dollars, measured "
+"innovation or national welfare. The table does not estimate a 70% loss or a "
+"fourfold increase in danger."
+msgstr " **假设，不是测量。**  分数是虚构教学值，代表偏好而非金钱、实测创新或国家福利。表格没有估计70%损失或四倍危险。"
 
-#: ../../book/index.rst:45
-msgid ""
-"**Share Openly (S):** Publish research papers, open-weight AI models, and "
-"safety fixes so engineers, doctors, and universities everywhere can "
-"inspect, test, and build upon them."
-msgstr ""
-"**公开共享 (S)：** 公开发表学术论文、开放权重人工智能模型与安全修复补丁，让全世界的工程师、临床医生与高校学者都能自由检视、测试，并在前人基础上继续创新。"
-
-#: ../../book/index.rst:46
-msgid ""
-"**Build a Wall (W):** Lock AI models, chip blueprints, and computing "
-"hardware behind broad export controls so outsiders cannot easily use or "
-"inspect them."
-msgstr ""
-"**筑起高墙 (W)：** 用宽泛的出口管制将人工智能模型、芯片设计图纸与算力硬件封锁起来，令外界难以轻易获取、使用或审视它们。"
-
-#: ../../book/index.rst:48
-msgid ""
-"Notice the catch: what happens to Country A depends not only on Country "
-"A's own decision, but also on what Country B decides at the exact same "
-"moment. Mathematicians and economists have a name for studying situations "
-"like this. They call it **game theory**: not a study of board games, but "
-"the clear math of strategic choices where everyone's outcome is tied "
-"together."
-msgstr ""
-"请留意这里的关键转折：A 国最终处境如何，不仅取决于 A 国自己的选择，更取决于 B 国在同一时刻做出了什么选择。数学家与经济学家专门为研究这类互动情境起了一个名字，叫做 **博弈论** ：它并不是在研究棋牌游戏，而是用一清二楚的数学逻辑，剖析当各方命运彼此咬合时，不同战略抉择究竟会通向怎样的结局。"
-
-#: ../../book/index.rst:52
-msgid ""
-"**Analytical model:** The plain-number score sheet and equations below "
-"illustrate strategic incentives across open and closed technology "
-"choices; they are an analytical proof rather than a legal rule."
-msgstr "**分析模型说明：** 下文的通俗计分单与数学方程旨在直观展现开放与封闭技术抉择背后的结构性战略激励；它们属于数理分析证明，而非法定条文。"
-
-#: ../../book/index.rst:57
-msgid ""
-"Two fortresses across a dark strait: when rival powers hoard dim, "
-"solitary flames behind crimson battlements, storm shadows gather around "
-"both, whereas two flames joined in a shared lighthouse illuminate the "
-"entire sea."
-msgstr ""
-"隔着幽暗海峡对峙的两座堡垒：当竞争大国在深红垛口后各自死守微弱孤火，风暴的阴影便同时笼罩两岸；唯有两束火光汇入同一座共享灯塔，才能照亮整片浩瀚海域。"
-
-#: ../../book/index.rst:59
-msgid "Step 1: Keeping Score with Plain Everyday Numbers"
-msgstr "第一步：用信封背面就能算清的日常数字来计分"
-
-#: ../../book/index.rst:62
-msgid ""
-"Before touching a single equation, let us keep score on a simple "
-"**20-point scale** that anyone can check on the back of an envelope:"
-msgstr ""
-"在写下任何一个数学公式之前，我们先用一套任何人拿张信封背面就能心算核对的 **20 分制日常账本** 来算一算得失："
-
-#: ../../book/index.rst:64
-msgid ""
-"**Homegrown work (+10 points):** Working purely on its own, each "
-"country's scientists, labs, and factories generate **+10** points of "
-"baseline progress."
-msgstr ""
-"**本国基础研发（+10 分）：** 单靠本国科学家、实验室与工厂独立攻关，每个国家都能稳稳创造 **+10** 分的基础科技进步。"
-
-#: ../../book/index.rst:65
-msgid ""
-"**The shared-knowledge bonus (+8 points):** Whenever a country chooses "
-"**Share Openly (S)**, its published breakthroughs, open code, and bug "
-"fixes save the other country years of dead ends, adding **+8** points to "
-"the other side without taking a single point away from the sharer "
-"(Jefferson's candle)."
-msgstr ""
-"**公开共享红利（+8 分）：** 只要一国选择 **公开共享 (S)** ，它发表的前沿突破、开源代码与漏洞补丁就能帮对方省去数年摸黑试错的弯路，为对方额外带来 **+8** 分红利，而分享者自己连一分都不会少（正如杰斐逊笔下那支点亮他人却不损自身光明的蜡烛）。"
-
-#: ../../book/index.rst:66
-msgid ""
-"**The duplicate-factory cost (-1 point):** Choosing **Build a Wall (W)** "
-"forces a country to spend billions reinventing supply chains, chip tools, "
-"and isolated computing clusters from scratch, costing **-1** point."
-msgstr ""
-"**重复建设成本（-1 分）：** 一旦选择 **筑起高墙 (W)** ，就不得不耗费巨资从头重复打造整条供应链、芯片制造工具与孤立算力集群，白白付出 **-1** 分的代价。"
-
-#: ../../book/index.rst:67
-msgid ""
-"**The temporary one-sided lead (+5 or -5 points):** If *only one* country "
-"builds a wall while the other keeps sharing, the walled country briefly "
-"gets both worlds: it still reads the open country's discoveries (**+8**) "
-"while keeping its own secret, grabbing a **+5** monopoly lead and pushing "
-"the lone sharer **-5** behind. *Notice what happens if both build walls:* "
-"neither can read the other's work, so the **+5** and **-5** cancel "
-"straight back to **0**."
-msgstr ""
-"**短暂的单边领先差（+5 分或 -5 分）：** 倘若 *只有一国* 筑起高墙、而另一国继续公开共享，筑墙国便能在短期内两头占便宜：它既能照常阅读开放国的科研成果（ **+8** ），又把自己的技术锁进保险柜，从而抢到 **+5** 分的垄断领先，同时把独自开放的一方甩在身后承受 **-5** 分的滞后。 *但请留心当两国同时筑墙时会发生什么：* 谁也看不到对方的成果，那 **+5** 与 **-5** 当场互相抵消，直接归 **0** 。"
-
-#: ../../book/index.rst:68
-msgid ""
-"**The hidden-bug danger (-1, -2, or -4 points):** Every complex AI model "
-"or chip design can hide dangerous alignment flaws or security bugs. How "
-"much harm those hidden bugs cause depends on how many independent eyes "
-"are allowed to inspect the technology."
-msgstr ""
-"**暗藏漏洞的风险扣分（-1、-2 或 -4 分）：** 每一套复杂的人工智能大模型或芯片架构内部，都可能潜伏着危险的对齐失控隐患或高危安全漏洞。这些隐患最终会酿成多大祸患，直接取决于全世界有多少双独立的眼睛获准去审视和检验它。"
-
-#: ../../book/index.rst:70
-msgid ""
-"Step 2: Why Secrecy Multiplies Danger Instead of Safety (The Coin-Flip "
-"Test)"
-msgstr "第二步：为何保密反而成倍放大危险？（抛硬币查漏洞直觉测试）"
-
-#: ../../book/index.rst:73
-msgid ""
-"Why would locking AI behind high walls make the world *more* dangerous "
-"rather than safer? Think of tossing a coin while hunting for a hidden "
-"software bug."
-msgstr ""
-"把人工智能锁在高墙背后，怎么反而会让世界变得 *更加* 危险而不是更安全呢？不妨用日常“抛硬币找软件漏洞”的简单算术来想一想。"
-
-#: ../../book/index.rst:75
-msgid ""
-"Suppose a serious flaw slips into a new AI model, and any single research "
-"team testing behind closed doors has a **50 percent** (:math:`1/2`) "
-"chance of missing it before launch:"
-msgstr ""
-"假设某款新大模型里悄悄混入了一处严重安全缺陷，任何一支关起门来内部自测的研发团队，在上线前都有 **50%** （ :math:`1/2` ）的概率不小心漏掉它："
-
-#: ../../book/index.rst:77
-msgid ""
-"If **1 closed lab** checks the system in secret, there is a **50%** "
-"chance the dangerous flaw survives unseen into the real world."
-msgstr ""
-"如果只有 **1 家封闭实验室** 关门秘密自查，这处致命隐患就有整整 **50%** 的概率漏网逃进现实世界。"
-
-#: ../../book/index.rst:78
-msgid ""
-"If **4 independent teams** openly inspect and test the system, *all four* "
-"would have to miss the flaw in a row: :math:`(1/2)^4 = \\mathbf{6.25\\%}`."
-msgstr ""
-"如果有 **4 支独立团队** 共同公开审视测试，必须 *四支团队接连全部看走眼* 才会漏掉它，漏检概率骤降至 :math:`(1/2)^4 = \\mathbf{6.25\\%}` 。"
-
-#: ../../book/index.rst:79
-msgid ""
-"If **10 independent communities** around the world (universities, "
-"hospital engineers, chip designers, security auditors) inspect it openly, "
-"the chance that *every single one* misses the flaw drops to "
-":math:`(1/2)^{10}`, **less than 0.1%** (under one in a thousand)."
-msgstr ""
-"如果全世界有 **10 个独立技术社区** （高校学者、医院信息工程师、芯片架构师、安全审计员）共同公开检验， *十组人马无一察觉* 的概率便暴跌至 :math:`(1/2)^{10}` ， **不足 0.1%** （不到千分之一）。"
-
-#: ../../book/index.rst:81
-msgid ""
-"Open-source engineers call this \"many-eyes\" discovery **Linus's Law** "
-"(*\"given enough eyeballs, all bugs are shallow\"*). In mathematics, if a "
-"hidden flaw starts with probability :math:`p_0` and each independent "
-"auditing group catches it with probability :math:`q`, then across "
-":math:`n` independent groups the chance that a dangerous flaw survives "
-"unnoticed shrinks exponentially:"
-msgstr ""
-"开源软件工程师将这种“众人拾柴揪隐患”的规律称为 **莱纳斯定律（众目定律）** （ *“只要眼睛足够多，所有漏洞都无处遁形”* ）。用数学语言表达：假设某处隐藏缺陷出现的初始概率为 :math:`p_0` ，每个独立审计团队揪出它的概率为 :math:`q` ，那么经过全球 :math:`n` 个独立团队交叉检验后，危险漏洞依然漏网幸存的概率将呈指数级断崖下跌："
-
-#: ../../book/index.rst:83
-msgid "P(\\text{flaw survives}) = p_0 (1 - q)^n"
-msgstr "P(\\text{flaw survives}) = p_0 (1 - q)^n"
-
-#: ../../book/index.rst:87
-msgid ""
-"That simple curve explains why our hidden-bug penalty changes across the "
-"board:"
-msgstr "正是这条简洁而冷峻的指数曲线，解释了为何不同开放程度下的安全扣分截然不同："
-
-#: ../../book/index.rst:89
-msgid ""
-"When **both countries share (S, S)**, global teams test weights and chip "
-"tools in the open, while hospitals, power grids, and small cities can run "
-"local open AI to defend their networks. Bug risk stays low (**R = 1**)."
-msgstr ""
-"当 **两国都选择公开共享 (S, S)** 时，全球科研团队在阳光下共同检验模型权重与芯片工具，医院、电网与中小城市也能在本地部署开源 AI 守卫自身网络安全，漏洞风险保持在最低水平（ **R = 1** ）。"
-
-#: ../../book/index.rst:90
-msgid ""
-"When **one country walls up (S, W or W, S)**, half of global scrutiny "
-"disappears behind closed doors, doubling unseen risk (**R = 2**)."
-msgstr ""
-"当 **一国单边筑墙 (S, W 或 W, S)** 时，全球一半的独立审视力量消失在紧闭的大门之后，未知隐患风险随之翻倍（ **R = 2** ）。"
-
-#: ../../book/index.rst:91
-msgid ""
-"When **both countries wall up (W, W)**, three hazards stack together: "
-"**(1)** closed black boxes have far fewer independent testers; **(2)** "
-"everyday hospitals, schools, and utilities lose open defensive AI tools "
-"while covert attackers ignore export laws anyway; and **(3)** rival "
-"governments cannot see inside each other's secret labs, breeding "
-"worst-case suspicion and rushed launches. Hidden danger quadruples (**R = "
-"4**)."
-msgstr ""
-"当 **两国双双筑起高墙 (W, W)** 时，三重风险便会叠加引爆： **(1)** 封闭黑箱令外部独立测试的眼睛大幅减少； **(2)** 普通医院、学校与水电公共事业失去了开放权重的安全防御工具，而暗处的恶意攻击者本来就无视任何出口禁令； **(3)** 竞争大国看不见对方秘密实验室里的动向，极易滋生最坏猜忌并倒逼各方压缩安全测试仓促上线。潜伏的系统性风险由此暴增至四倍（ **R = 4** ）。"
-
-#: ../../book/index.rst:93
-msgid "Step 3: Checking All Four Choices Side by Side"
-msgstr "第三步：把四种组合并排放在一起算总账"
-
-#: ../../book/index.rst:96
-msgid ""
-"Putting those five plain pieces together gives one transparent score rule "
-"for either country:"
-msgstr "把上面五项加减法拼在一起，就能得出适用于任一国家的透明总分公式："
-
-#: ../../book/index.rst:98
-msgid ""
-"\\text{Net Score} = 10 + B_{\\text{share}} - C_{\\text{wall}} + "
-"L_{\\text{solo}} - R_{\\text{bugs}}"
-msgstr ""
-"\\text{Net Score} = 10 + B_{\\text{share}} - C_{\\text{wall}} + "
-"L_{\\text{solo}} - R_{\\text{bugs}}"
-
-#: ../../book/index.rst:102
-msgid ""
-"where :math:`B_{\\text{share}} = 8` if the other side shares (else "
-":math:`0`), :math:`C_{\\text{wall}} = 1` if you build a wall (else "
-":math:`0`), :math:`L_{\\text{solo}} = +5` or :math:`-5` only when one "
-"side walls alone (:math:`0` if both make the same choice), and "
-":math:`R_{\\text{bugs}} \\in \\{1, 2, 4\\}`."
-msgstr ""
-"其中：只要对方选择共享，共享红利 :math:`B_{\\text{share}} = 8` （否则为 :math:`0` ）；只要本国筑墙，重复建设成本 :math:`C_{\\text{wall}} = 1` （否则为 :math:`0` ）；单边领先差 :math:`L_{\\text{solo}}` 仅在一方单独筑墙时取 :math:`+5` 或 :math:`-5` （双方选择相同时归 :math:`0` ）；漏洞风险扣分 :math:`R_{\\text{bugs}} \\in \\{1, 2, 4\\}` 。"
-
-#: ../../book/index.rst:104
-msgid ""
-"Now check all four boxes in :numref:`fig-game-theory` using ordinary "
-"addition and subtraction:"
-msgstr ""
-"现在，只需用最普通的加减法，就能逐一核对 :numref:`fig-game-theory` 里的四个方格："
-
-#: ../../book/index.rst:106
-msgid ""
-"**Both Share Openly (S, S):** Each country earns :math:`10 + 8 - 1 = "
-"\\mathbf{+17}`. Combined world progress reaches **34**, and bug risk "
-"stays at its safest (**1x**)."
-msgstr ""
-"**双方公开共享 (S, S)：** 两国各自获得 :math:`10 + 8 - 1 = \\mathbf{+17}` 分。全球总收益高达 **34** 分，且漏洞风险保持在最安全的基准水平（ **1x** ）。"
-
-#: ../../book/index.rst:107
-msgid ""
-"**Country A Shares Alone, Country B Builds a Wall (S, W):** Country B "
-"still reads A's open work (**+8**), pays **-1** for its wall, grabs the "
-"**+5** solo lead, and faces **-2** bug risk, scoring :math:`10 + 8 - 1 + "
-"5 - 2 = \\mathbf{+20}`. Country A drops to :math:`10 + 0 - 5 - 2 = "
-"\\mathbf{+3}` (world total falls to **23**)."
-msgstr ""
-"**A 国单独共享、B 国筑起高墙 (S, W)：** B 国照看 A 国的开源成果（ **+8** ），付出筑墙成本（ **-1** ），抢占单边领先（ **+5** ），承担翻倍漏洞风险（ **-2** ），总分跃升至 :math:`10 + 8 - 1 + 5 - 2 = \\mathbf{+20}` ；而 A 国则跌落至 :math:`10 + 0 - 5 - 2 = \\mathbf{+3}` （全球总收益降至 **23** ）。"
-
-#: ../../book/index.rst:108
-msgid ""
-"**Country A Builds a Wall, Country B Shares Alone (W, S):** The exact "
-"mirror image: Country A scores **+20** and Country B drops to **+3** "
-"(world total **23**)."
-msgstr ""
-"**A 国筑起高墙、B 国单独共享 (W, S)：** 结果完全镜像反转，A 国得 **+20** 分，B 国跌至 **+3** 分（全球总收益同为 **23** ）。"
-
-#: ../../book/index.rst:109
-msgid ""
-"**Both Build Walls (W, W):** Neither gets the **+8** shared bonus, both "
-"pay **-1** for duplicate factories, their solo leads cancel to **0**, and "
-"bug risk hits **-4**. Each country finishes with only :math:`10 + 0 - 1 + "
-"0 - 4 = \\mathbf{+5}` (world total crashes to **10**)."
-msgstr ""
-"**双方都筑起高墙 (W, W)：** 谁也拿不到 **+8** 的共享红利，双方都要倒贴 **-1** 的重复建厂成本，单边领先优势抵消归 **0** ，漏洞风险扣分飙升至 **-4** 。最终两国各自只剩下可怜的 :math:`10 + 0 - 1 + 0 - 4 = \\mathbf{+5}` 分（全球总收益断崖暴跌至 **10** ）。"
-
-#: ../../book/index.rst:112
+#: ../../book/index.rst:56
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -464,87 +206,179 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"zh_CN\")"
 
-#: ../../book/index.rst:112
+#: ../../book/index.rst:56
 msgid ""
-"Symmetric 2x2 payoff table for Country A and Country B (top), paired with "
-"the Many-Eyes bug-risk curve and plain arithmetic key (bottom), compiled "
-"natively with Typst and CeTZ."
-msgstr ""
-"A 国与 B 国对称 2x2 收益矩阵（上），配以“众目定律”漏洞风险曲线与日常算术计分图例（下），由 Typst 与 CeTZ 原生编译绘制。"
+"Two countries can each prefer a wall while both prefer the outcome of mutual"
+" sharing. The scores are assumptions, not measured effects of export "
+"controls."
+msgstr "每方都可能更愿筑墙，但双方都更喜欢共同共享的结果。分数是假设，不是实测管制效果。"
 
-#: ../../book/index.rst:118
-msgid "Step 4: Three Famous Ideas That Explain the Trap"
-msgstr "第四步：三个经典概念，一眼看穿这座陷阱"
+#: ../../book/index.rst:62
+msgid "Reading the Four Outcomes"
+msgstr "读懂四种结果"
 
-#: ../../book/index.rst:121
+#: ../../book/index.rst:65
 msgid ""
-"Once the plain numbers are on the table, three famous concepts from "
-"economics and strategy become effortless to grasp:"
-msgstr ""
-"当这组明明白白的数字摆在桌面上时，经济学与战略学中三个最著名的概念便不言自明："
+"**Both share:** A gets 17 and B gets 17. In this example, both value the "
+"benefits of exchange."
+msgstr " **双方共享：**  A得17、B得17。例中假定双方重视交流。"
 
-#: ../../book/index.rst:123
+#: ../../book/index.rst:66
 msgid ""
-"**Pareto Optimum (top-left box, A: +17 | B: +17):** Named after economist "
-"Vilfredo Pareto, a *Pareto Optimum* simply means the best shared outcome "
-"where no change could make one country better off without hurting the "
-"other. Mutual open sharing creates **34** points of human progress and "
-"the lowest global risk (**1x**)."
-msgstr ""
-"**帕累托最优（左上角方格，A: +17 | B: +17）：** 以经济学家维尔弗雷多·帕累托命名。所谓 *帕累托最优* ，通俗说就是“最理想的共赢天花板”：在此状态下，任何改变都不可能在不损害另一方的前提下让某一方变得更好。双方公开共享能创造高达 **34** 分的人类共同进步，同时将全球安全风险压在最低谷（ **1x** ）。"
+"**A shares, B restricts:** A gets 3 and B gets 20. We assume B gains a "
+"temporary advantage while still using A's public work."
+msgstr " **A共享、B限制：**  A得3、B得20。假设B仍使用A公开工作并获得短暂优势。"
 
-#: ../../book/index.rst:124
+#: ../../book/index.rst:67
 msgid ""
-"**Prisoner's Dilemma (why smart leaders walk into a bad outcome):** Look "
-"through Country A's eyes when there is no mutual trust. *If Country B "
-"shares*, building a wall lifts A from **+17** to **+20**. *If Country B "
-"builds a wall*, building a wall protects A from falling to **+3** and "
-"gives **+5** instead. Because **+20 beats +17** and **+5 beats +3**, each "
-"side feels pressured to build a wall, even though both can see ahead of "
-"time that two walls hurt everyone. Game theorists call this "
-"self-defeating trap a **Prisoner's Dilemma**."
-msgstr ""
-"**囚徒困境（为何精明的决策者会排着队走进坏结局）：** 不妨站在缺乏互信的 A 国视角算一笔账。 *假如 B 国选择共享* ，A 国筑墙就能从 **+17** 跳到 **+20** ； *假如 B 国选择筑墙* ，A 国跟着筑墙就能避免跌到 **+3** 的惨境，至少保住 **+5** 。正因为 **+20 大于 +17** 且 **+5 大于 +3** ，双方在单边算计下都觉得非筑墙不可，哪怕大家事前都清楚两堵高墙会让所有人一起受损。博弈论学者将这种聪明反被聪明误的自毁圈套称为 **囚徒困境** 。"
+"**A restricts, B shares:** A gets 20 and B gets 3. This is the mirror image."
+msgstr " **A限制、B共享：**  A得20、B得3，是镜像情形。"
 
-#: ../../book/index.rst:125
+#: ../../book/index.rst:68
 msgid ""
-"**Nash Equilibrium (bottom-right box, A: +5 | B: +5):** Named after "
-"mathematician John Nash, a *Nash Equilibrium* is a stuck standoff where "
-"neither side can improve its score by changing course alone. Once both "
-"countries sit behind high walls at **(+5, +5)**, neither dares open up "
-"first for fear of dropping from **+5** to **+3**. Yet look at the human "
-"cost of that stalemate: **70 percent of shared progress vanishes (34 down "
-"to 10), global bug and cyber danger quadruples (4x), and neither power "
-"gains a single point of lead over the other (5 = 5).**"
-msgstr ""
-"**纳什均衡（右下角方格，A: +5 | B: +5）：** 以数学家约翰·纳什命名。所谓 *纳什均衡* ，就是一种“谁也不敢先退一步”的死锁僵局：在此状态下，任何一方单独改变策略都只会让自己得分更低。一旦两国双双退守高墙之内困在 **(+5, +5)** ，谁都不敢率先拆墙开放，生怕自己从 **+5** 进一步掉到 **+3** 。然而请看这场僵局让全人类付出的沉重代价： **70% 的共享进步凭空蒸发（从 34 暴跌至 10），全球未知漏洞与网络风险激增至四倍（4x），而到头来没有任何一个大国比对手多占到半分领先优势（5 = 5）。**"
+"**Both restrict:** A gets 5 and B gets 5. We assume lost cooperation and "
+"duplicated effort outweigh the security benefits of these broad walls."
+msgstr " **双方限制：**  各得5。假设合作损失与重复工作超过这些广泛壁垒的安全收益。"
 
-#: ../../book/index.rst:127
+#: ../../book/index.rst:70
 msgid ""
-"How do wise societies escape a Prisoner's Dilemma? Never by ignoring real "
-"weapons, and never by walling off everyday science. They redesign the "
-"rules: build **high, narrow fences** around genuine weapons (core state "
-"secrets, autonomous cyber-weapons, engineered pathogens), while keeping "
-"**legally guaranteed open bridges** for shared research and open-source "
-"AI so neither country fears being stranded alone at **+3**."
+"If B shares, A prefers 20 to 17. If B restricts, A prefers 5 to 3. B faces "
+"the same choices. A wall is therefore each country's best response whatever "
+"the other chooses. Under these assumptions, mutual restriction is a **Nash "
+"equilibrium**: neither can improve its score by changing its choice alone. "
+"Yet both would prefer 17 to 5. This is a **Prisoner's Dilemma**. Mutual "
+"sharing is a **Pareto-efficient** outcome here, but that term does not mean "
+"every country gets its largest possible individual score. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 msgstr ""
-"富有远见的人类社会该如何跳出这场囚徒困境？绝不是对真正的危险武器视而不见，也绝不是把日常科学统统圈进高墙，而是通过精巧的制度设计改写规则：围绕真正的毁灭性武器（国家核心机密、自主网络攻击武器、人工改造病原体）筑起 **高而窄的精准小院** ，同时以明确法条为人类共享科研与开源人工智能保留 **受法律保障的开放之桥** ，让任何一个国家都无需担心自己因为选择开放而孤身跌入 **+3** 的险境。"
+"B共享时，A更喜欢20而非17；B限制时，A更喜欢5而非3。B亦然。因此在这些假设下，相互限制是  **纳什均衡** "
+"，任何一方单独改变都不能提高得分。双方却都更想要17而非5，这就是  **囚徒困境** 。共享在此是帕累托有效，不意味着每方取得最高个人分数。 "
+"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:72
+msgid ""
+"The conclusion depends on the ordering **20 > 17 > 5 > 3**, not on those "
+"particular numbers. It identifies a possible strategic trap. It does not "
+"measure the actual costs of US or Chinese policy, and it does not establish "
+"that an outcome outside this small table is impossible."
+msgstr "结论依赖  **20 > 17 > 5 > 3**  的排序而非具体数字。它指出可能的战略陷阱，不测量现实成本，也不排除表外结果。"
+
+#: ../../book/index.rst:74
+msgid "What Could Change the Result?"
+msgstr "什么可能改变结果？"
+
+#: ../../book/index.rst:77
+msgid ""
+"A control that prevents a serious misuse could provide security benefits "
+"large enough to change the ranking. A chip bottleneck, different national "
+"capabilities or an effective agreement could also change incentives. Export "
+"controls do not automatically prevent domestic publication, and public "
+"access does not automatically make a system safe. Those questions need "
+"evidence beyond this example. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"避免严重滥用的管制可能带来足够安全收益，改变排序。芯片瓶颈、能力差异或有效协议也会改变激励。出口管制不自动阻止国内公开，公开也不自动安全；这些问题需额外证据。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/index.rst:79
+msgid ""
+"Countries also interact repeatedly. In this simplified game, suppose "
+"cooperation continues while both share, but a deviation earns 20 once and is"
+" followed by 5 forever. Let :math:`\\delta` represent how much a country "
+"values the next round relative to this one. Cooperation is at least as "
+"attractive as that deviation when:"
+msgstr ""
+"国家会反复互动。例中双方共享就继续合作，一次偏离可得20，此后永远得5。:math:`\\delta` "
+"表示下一轮相对当下的价值。合作至少同样有利的条件是："
+
+#: ../../book/index.rst:81
+msgid ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+msgstr ""
+"\\frac{17}{1-\\delta} \\ge 20 + \\frac{5\\delta}{1-\\delta}\n"
+"\\quad\\Longleftrightarrow\\quad \\delta \\ge \\frac{1}{5}"
+
+#: ../../book/index.rst:86
+msgid ""
+"This is a calculation inside the assumed game, not a diplomatic forecast. It"
+" assumes an indefinite relationship, observable choices and a credible "
+"response to deviation. Errors, hidden actions or a known final round can "
+"undermine that strategy. The useful policy question is how to make continued"
+" cooperation credible, rather than treating mistrust as inevitable. `GAME "
+"<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+msgstr ""
+"这是假设博弈内的计算，不是外交预测。它假定无限期关系、可观察选择和可信回应；错误、隐藏行动或已知最后一轮可能破坏策略。关键在如何使持续合作可信。 "
+"`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
+
+#: ../../book/index.rst:88
+msgid "Why More Review Can Help, Without Guaranteeing Safety"
+msgstr "更多审查可能有益，但不保证安全"
+
+#: ../../book/index.rst:91
+msgid ""
+"Open access can make independent testing and repair easier. A simple "
+"probability example explains one possible benefit. If a flaw exists with "
+"probability :math:`p_0` and each of :math:`n` teams independently detects it"
+" with probability :math:`q`, then:"
+msgstr ""
+"开放可方便独立测试与修复。若缺陷存在概率为 :math:`p_0`，每个独立团队发现概率为 :math:`q`，共有 :math:`n` 个团队，则："
+
+#: ../../book/index.rst:93
+msgid "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+msgstr "P(\\text{flaw remains undetected}) = p_0(1-q)^n"
+
+#: ../../book/index.rst:97
+msgid ""
+"For a flaw known to exist and an assumed detection chance of one half, one "
+"team misses it with probability 50%, four independent teams with 6.25%, and "
+"ten with about 0.098%. These are conditional calculations. Real teams can "
+"share blind spots, lack testing resources or find a flaw without fixing it. "
+"An undetected-flaw probability is not a measure of total cyber, biological "
+"or societal risk."
+msgstr ""
+"已知存在缺陷且每队发现概率假定一半时，1队漏检50%，4队6.25%，10队约0.098%。这是条件计算。现实团队可能盲点相同、资源不足，或发现后未修复。漏检概率不是总体网络、生物或社会风险。"
+
+#: ../../book/index.rst:99
+msgid ""
+"Open weights can also help harmful actors modify a system or remove "
+"safeguards. NTIA's 2024 report considered both benefits and risks, "
+"recommending monitoring rather than restricting then-current open weights. "
+"Research on open foundation models stresses the need to compare the extra "
+"risk with existing alternatives. Neither source establishes a universal "
+"safety multiplier for openness. `NTIA "
+"<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
+"report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+msgstr ""
+"公开权重也可能方便恶意修改或删除防护。NTIA在2024年权衡收益与风险，建议监测当时的开放权重。研究强调比较相对现有替代品的新增风险；两者均未确立普遍的安全倍数。"
+" `NTIA <https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-"
+"model-report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
+
+#: ../../book/index.rst:101
+msgid ""
+"Our recommendation is to make controls precise, assess their security "
+"benefit against their cost to cooperation, and protect workable routes for "
+"legitimate open research. That is an argument informed by the evidence, not "
+"a theorem that every restriction harms everyone."
+msgstr "我们主张精准管制，比较安全收益与合作成本，并保护合法开放研究的可行路径。这是基于证据的观点，不是所有限制伤害所有人的定理。"
+
+#: ../../book/index.rst:103
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr "本书的核心实证发现：一扇微启的通道，而非封死的高墙"
 
-#: ../../book/index.rst:132
+#: ../../book/index.rst:106
 msgid ""
-"When we turn from game theory back to the verified legal texts of "
-"November 2026, we find something remarkable: despite alarming headlines, "
-"regulators in both Beijing and Washington have deliberately left real "
-"bridges standing for open-source AI:"
+"When we turn from game theory back to the verified legal texts of November "
+"2026, we find something remarkable: despite alarming headlines, regulators "
+"in both Beijing and Washington have deliberately left real bridges standing "
+"for open-source AI:"
 msgstr ""
 "当我们从数理博弈论回到截至 2026 年 11 "
 "月经逐字核验的官方文本时，一个值得深思的事实浮现出来：尽管舆论场上的标题惊心动魄，北京与华盛顿的立法者却都不约而同地为开源人工智能特意留出了真实的通行桥梁："
 
-#: ../../book/index.rst:135
+#: ../../book/index.rst:109
 msgid ""
 "#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
 "#forty-checkpoints-chart(lang: \"en\")"
@@ -552,7 +386,7 @@ msgstr ""
 "#import \"figures/diagrams.typ\": forty-checkpoints-chart\n"
 "#forty-checkpoints-chart(lang: \"zh_CN\")"
 
-#: ../../book/index.rst:135
+#: ../../book/index.rst:109
 msgid ""
 "Attachment 1's 40 proposed checkpoints across AI and hardware (23), solar "
 "(12), and biomedicine (5), alongside the three footnote fast lanes "
@@ -560,126 +394,141 @@ msgid ""
 msgstr ""
 "第48号公告附件1横跨人工智能与硬件（23项）、光伏制造（12项）和生物医药（5项）的40项拟议管制点，以及三条守护开源协作与人道医学的注释快车道。"
 
-#: ../../book/index.rst:141
+#: ../../book/index.rst:115
 msgid ""
-"**Already-public open AI stays free.** Footnote 1 of China's draft "
-"explicitly excludes AI technologies that have already entered the public "
-"domain through open-source releases or published academic papers, "
-"mirroring the US published-information exemption in ``15 CFR 734.7`` and "
-"``4E091``. Existing MIT and Apache 2.0 models are not pulled back behind "
-"a wall ``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]`` ``[R1]`` ``[QWEN]``."
+"**Already public and newly released are different.** The Chinese draft "
+"excludes AI technology already public through open source or papers. US "
+"rules have their own published-information provisions and model-weight "
+"notes. A public paper does not necessarily disclose private weights; a new "
+"private derivative needs its own assessment. Neither exclusion settles every"
+" other legal question. `CN-A1, note 1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
+"<https://www.bis.gov/regulations/ear/774>`_"
 msgstr ""
-"**已公开的开源 AI 依然自由。** 中国目录草案注释 1 "
-"明确将已通过开源或公开发表学术论文等方式进入公共领域的人工智能技术排除在目录管理范围之外，这与美国《出口管理条例》 ``15 CFR "
-"734.7`` 及 ``4E091`` 中的已公开信息豁免如出一辙。现有的 MIT 与 Apache 2.0 开源模型绝不会被倒追收回高墙之内 "
-"``[CN-A1, note 1]`` ``[EAR734]`` ``[EAR774]`` ``[R1]`` ``[QWEN]`` 。"
+" **已有公开与新发布不同。**  中国排除及美国公开规则各有范围。论文未必公开私有权重，衍生版本需单独检查，也不解决其他所有法律。 `CN-A1, "
+"note 1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
+"<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:142
+#: ../../book/index.rst:116
 msgid ""
-"**New open-source AI and chip tape-outs get a dedicated fast lane.** "
-"Rather than banning open releases of restricted AI, China's Footnote 2 "
-"proposes **automatic licensing and facilitation** (\"apply and go\" in "
-"MOFCOM's official explanation) for open-source exports, overseas foundry "
-"chip tape-outs (``芯片流片``), and Chinese firms' self-operated overseas "
-"compute clouds ``[CN-A1, note 2]`` ``[CNQA]``."
+"**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
+"than banning open releases of restricted AI, China's Footnote 2 proposes "
+"**automatic licensing and facilitation** (\"apply and go\" in MOFCOM's "
+"official explanation) for open-source exports, overseas foundry chip tape-"
+"outs (``芯片流片``), and Chinese firms' self-operated overseas compute clouds "
+"`CN-A1, note 2 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `CNQA "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 msgstr ""
-"**新增开源 AI 发布与芯片流片享有专属快车道。** 中国并未禁止限制类人工智能技术的开源发布，而是在注释 2 "
-"中为通过开源方式出口、赴境外代工厂开展芯片流片（ ``芯片流片`` ）以及中资企业自建自营境外算力中心提供 **自动许可等便利化措施** "
-"（商务部官方政策解读称之为“即报即出”） ``[CN-A1, note 2]`` ``[CNQA]`` 。"
+" **新增开源 AI 发布与芯片流片享有专属快车道。**  中国并未禁止限制类人工智能技术的开源发布，而是在注释 2 "
+"中为通过开源方式出口、赴境外代工厂开展芯片流片（ ``芯片流片`` ）以及中资企业自建自营境外算力中心提供  **自动许可等便利化措施**  "
+"（商务部官方政策解读称之为“即报即出”） `CN-A1, note 2 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
+" `CNQA "
+"<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
+" 。"
 
-#: ../../book/index.rst:143
+#: ../../book/index.rst:117
 msgid ""
-"**Yet the unguarded midnight upload is ending.** Pre-export registration "
-"on ``ecomp.mofcom.gov.cn`` already operates today for covered IP sales, "
-"overseas licenses, and foreign-control shifts; Core Data models "
-"(``266501J``) face outright prohibition; and hardware chokepoints "
-"continue to test who can build tomorrow's open minds ``[CN48]`` "
-"``[CN-A1]`` ``[EAR742]``."
+"**Registration is current; the new prohibitions remain proposed.** Covered "
+"ownership transfers, overseas licenses and foreign-control changes require "
+"attention now. The new core-data prohibition is in the draft, not an "
+"already-final ban created by Announcement 48. `CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 msgstr ""
-"**但毫无设防的“午夜一键上传”时代正在落幕。** 针对受控技术权属转让、境外使用许可与境外实控人变更， "
-"``ecomp.mofcom.gov.cn`` 上的出口前信息登记制度今日已在运行；基于国家核心数据训练的大模型（ ``266501J`` "
-"）面临严格禁令；而横亘在芯片与集群上的硬件卡脖子工程，仍在深刻考验着明天究竟还有谁能造出下一代开放心智 ``[CN48]`` "
-"``[CN-A1]`` ``[EAR742]`` 。"
+" **登记已实施，新增禁令仍拟议。**  覆盖的权属、境外许可和控制变化现在需要关注。核心数据新禁止项仍在草案中，并非公告已正式实施的新禁令。 "
+"`CN48 "
+"<https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_"
+" `CN-A1 "
+"<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:145
+#: ../../book/index.rst:119
 msgid "How to Read This Book"
 msgstr "如何阅读本书"
 
-#: ../../book/index.rst:148
+#: ../../book/index.rst:122
 msgid ""
-"We wrote this book for normal, curious human beings (builders, "
-"researchers, doctors, founders, students, journalists, and citizens) who "
-"want vivid clarity backed by verified primary evidence:"
+"We wrote this book for normal, curious human beings (builders, researchers, "
+"doctors, founders, students, journalists, and citizens) who want vivid "
+"clarity backed by verified primary evidence:"
 msgstr ""
 "我们为每一位怀抱好奇心的普通读者写下此书（无论你是工程师、科研人员、临床医生、创业者、青年学子、记者还是关心未来的公民），只要你渴望在严谨的一手证据之上读懂清晰生动的真相，都能按图索骥："
 
-#: ../../book/index.rst:150
+#: ../../book/index.rst:124
 msgid ""
-":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, "
-"its two separate clocks, and all **40 guarded technologies**."
+":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
+"two separate clocks, and all **40 proposed technology points**."
 msgstr ""
-":doc:`announcement` 与 :doc:`atlas` 为您拆解北京第48号公告并行跳动的两套时钟，以及全部 **40 "
-"项受控技术指标** 的通俗地图。"
+":doc:`announcement` 与 :doc:`atlas` 为您拆解北京第48号公告并行跳动的两套时钟，以及全部  **40 "
+"项受控技术指标**  的通俗地图。"
 
-#: ../../book/index.rst:151
+#: ../../book/index.rst:125
 msgid ""
-":doc:`ai` takes you inside both the software recipe and the silicon "
-"hardware stack (``266504X``, ``266506X``, ``266507X``)."
+":doc:`ai` takes you inside both the software recipe and the silicon hardware"
+" stack (``266504X``, ``266506X``, ``266507X``)."
 msgstr ""
 ":doc:`ai` 带您深入大模型软件配方与硅基芯片、存储及万卡集群底座（ ``266504X`` 、 ``266506X`` 、 "
 "``266507X`` ）。"
 
-#: ../../book/index.rst:152
+#: ../../book/index.rst:126
 msgid ""
-":doc:`open-models` walks step-by-step, with visual flowcharts, through "
-"how open-source AI was released *before* export controls and how it "
-"navigates checkpoints *now*."
-msgstr ""
-":doc:`open-models` 借助直观流程图，逐关对比开源人工智能在出口管制 *之前* 如何自由发布，以及 *如今* 如何穿过四道合规关闸。"
+":doc:`open-models` distinguishes public releases from private transfers and "
+"keeps current duties separate from proposed routes."
+msgstr ":doc:`open-models` 区分公开发布与私有转移，并把当前义务与提议路径分开。"
 
-#: ../../book/index.rst:153
+#: ../../book/index.rst:127
 msgid ""
-":doc:`biomedicine` and :doc:`solar` explore living gene platforms and "
-"solar machines where know-how travels inside physical equipment."
+":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
+"machines where know-how travels inside physical equipment."
 msgstr ""
 ":doc:`biomedicine` 与 :doc:`solar` 探访鲜活的基因制药平台与光伏制造车间，看核心工艺如何寄身于物理装备之中远渡重洋。"
 
-#: ../../book/index.rst:154
+#: ../../book/index.rst:128
 msgid ""
-":doc:`united-states` demystifies Washington's chip (``3A090``) and "
-"model-weight (``4E091``) rules, including the May 2026 GAO clash "
-"``[USNE]`` ``[GAO26]``."
+":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
+"weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
+"<https://www.bis.gov/press-release/department-commerce-announces-rescission-"
+"biden-era-artificial-intelligence-diffusion-rule-strengthens>`_ `GAO26 "
+"<https://www.gao.gov/products/b-337935>`_."
 msgstr ""
-":doc:`united-states` 厘清华盛顿的算力芯片（ ``3A090`` ）与模型权重（ ``4E091`` ）规则，包括 2026 "
-"年 5 月美国政府问责局（GAO）裁决引发的制度交锋 ``[USNE]`` ``[GAO26]`` 。"
+":doc:`united-states` 厘清华盛顿的算力芯片（ ``3A090`` ）与模型权重（ ``4E091`` ）规则，包括 2026 年 5"
+" 月美国政府问责局（GAO）裁决引发的制度交锋 `USNE <https://www.bis.gov/press-release/department-"
+"commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-"
+"rule-strengthens>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_ 。"
 
-#: ../../book/index.rst:155
+#: ../../book/index.rst:129
 msgid ""
-":doc:`comparison` sets both countries side by side with a complete "
-"directory of **government departments, portals, exact statutory "
-"timelines, and verified phone numbers, faxes, emails, and street "
-"addresses** for getting official approval."
+":doc:`comparison` sets both countries side by side with a complete directory"
+" of **government departments, portals, exact statutory timelines, and "
+"verified phone numbers, faxes, emails, and street addresses** for getting "
+"official approval."
 msgstr ""
-":doc:`comparison` 将中美两套管制体系并置对照，并附上办理官方审批所需的 "
-"**主管部门、在线申报平台、法定工作日时限，以及逐一核实的电话、传真、邮箱与办公地址名录** 。"
+":doc:`comparison` 将中美两套管制体系并置对照，并附上办理官方审批所需的  "
+"**主管部门、在线申报平台、法定工作日时限，以及逐一核实的电话、传真、邮箱与办公地址名录**  。"
 
-#: ../../book/index.rst:156
+#: ../../book/index.rst:130
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
-"plain-language glossary, and all **22 primary sources** verified as of "
-"**2 November 2026**."
+"plain-language glossary, and all **26 primary sources** verified as of **2 "
+"November 2026**."
 msgstr ""
-":doc:`questions` 与 :doc:`sources` 以六个鲜活日常案例、一份平实易懂的术语表，以及截至 **2026 年 11 月 "
-"2 日** 核验无误的全部 **22 份一手官方文献** 收束全书。"
+":doc:`questions` 与 :doc:`sources` 以六个鲜活日常案例、一份平实易懂的术语表，以及截至  **2026 年 11 月 2"
+" 日**  核验无误的全部  **26 份一手官方文献**  收束全书。"
 
-#: ../../book/index.rst:160
+#: ../../book/index.rst:134
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
-"format; we preserve the untouched original files in :doc:`sources` "
-"alongside local PDF reading copies. An unrelated organoid research "
-"presentation previously saved locally as ``china_export_control.pdf`` was "
-"excluded from our evidence."
+"format; we preserve the untouched original files in :doc:`sources` alongside"
+" local PDF reading copies. An unrelated organoid research presentation "
+"previously saved locally as ``china_export_control.pdf`` was excluded from "
+"our evidence."
 msgstr ""
-"**关于官方附件格式的说明：** 商务部发布的附件 1 与附件 2 原件为 WPS 格式；我们在 :doc:`sources` "
+" **关于官方附件格式的说明：**  商务部发布的附件 1 与附件 2 原件为 WPS 格式；我们在 :doc:`sources` "
 "中原封不动保存了原始字节文件，并同步提供转换后的 PDF 阅读版。此前本地误存为 ``china_export_control.pdf`` "
 "的一份无关类器官学术演示文稿已从本书证据库中严格剔除。"

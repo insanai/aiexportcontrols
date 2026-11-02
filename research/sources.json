@@ -257,5 +257,47 @@
     "http_status": 200,
     "snapshot": "research/snapshots/gd.html",
     "sha256": "6fe7704ff67dc6372de4410bbb48a95c696c753b8387df34010adff739ae6ea2"
+  },
+  {
+    "id": "NTIA",
+    "title": "NTIA, Dual-Use Foundation Models with Widely Available Model Weights",
+    "date": "2024-07-30",
+    "url": "https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf",
+    "locator": "Benefits, risks and recommendations on then-current open weights",
+    "accessed": "2026-11-02",
+    "http_status": 200,
+    "snapshot": "research/snapshots/ntia.pdf",
+    "sha256": "f9234104727c0cee86cea71dad5aa705e47869dfa3a18db1f9ad0087bcffd04b"
+  },
+  {
+    "id": "OPENRISK",
+    "title": "Kapoor and coauthors, On the Societal Impact of Open Foundation Models",
+    "date": "2024-02-27",
+    "url": "https://arxiv.org/abs/2403.07918",
+    "locator": "Marginal risk and benefits; limits of existing evidence",
+    "accessed": "2026-11-02",
+    "http_status": 200,
+    "snapshot": "research/snapshots/openrisk.html",
+    "sha256": "cce968337e508ded53787a12510c8fffa7441fd69dd3155ef95c6f4b49adb1a5"
+  },
+  {
+    "id": "GAME",
+    "title": "Pass and Chung, A Course in Networks and Markets, Chapter 1",
+    "date": "Undated; accessed 2026-11-02",
+    "url": "https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html",
+    "locator": "Normal-form games, best responses and Nash equilibrium",
+    "accessed": "2026-11-02",
+    "http_status": 200,
+    "snapshot": "research/snapshots/game.html",
+    "sha256": "c2264576c35bcd90cd98fe1b378d4c2f7c36293d833773a4c1e7f4a815417787"
+  },
+  {
+    "id": "JEFFERSON",
+    "title": "Thomas Jefferson to Isaac McPherson, Founders Online",
+    "date": "1813-08-13",
+    "url": "https://founders.archives.gov/documents/Jefferson/03-06-02-0322",
+    "locator": "Original letter and candle analogy",
+    "accessed": "2026-11-02",
+    "download_note": "Direct request returned an empty response; original letter verified through web research. No local byte snapshot is claimed."
   }
 ]
