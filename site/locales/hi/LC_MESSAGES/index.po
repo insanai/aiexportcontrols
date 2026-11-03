@@ -34,16 +34,11 @@ msgstr "खुले विचारों, सिलिकॉन हार्�
 
 #: ../../site/index.rst:14
 msgid ""
-"*\"He who lights his taper at mine, receives light without darkening me.\"* "
-"Jefferson's 1813 image captures the promise of knowledge that can be shared "
-"without being used up. This book asks how controls on models and computing "
-"hardware can interrupt that exchange. `JEFFERSON "
-"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+"An illustrated guide to US and Chinese export controls, and what they mean "
+"for the people building open AI."
 msgstr ""
-" *मेरी लौ से मोमबत्ती जलाने वाला मुझे अंधेरा किए बिना रोशनी पाता है।*  1813 "
-"की उपमा से पुस्तक पूछती है कि मॉडल·उपकरण नियंत्रण ज्ञान बांटने को कैसे "
-"प्रभावित करते हैं। `JEFFERSON "
-"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+"अमेरिकी और चीनी निर्यात नियंत्रण तथा खुली एआई बनाने वाले लोगों पर उनके असर "
+"की सचित्र मार्गदर्शिका।"
 
 #: ../../site/index.rst:18
 msgid ""
@@ -57,17 +52,30 @@ msgstr ""
 
 #: ../../site/index.rst:23 ../../site/index.rst:28
 msgid ""
-"A border barrier holds up computer parts and technical plans while two "
-"research teams try to work together."
+"Two research buildings are separated by a controlled crossing. Computing "
+"equipment and technical plans wait at the barrier."
 msgstr ""
-"दो शोध दल साथ काम करना चाहते हैं, लेकिन सीमा की बाधा कंप्यूटर के पुर्जे और "
-"तकनीकी नक्शे रोकती है।"
+"दो शोध भवनों के बीच नियंत्रित रास्ता है। कंप्यूटिंग उपकरण और तकनीकी नक्शे "
+"अवरोध के पास प्रतीक्षा करते हैं।"
 
 #: ../../site/index.rst:30
 msgid "From an Open Republic of Ideas to a Guarded Horizon"
 msgstr "विचारों के खुले गणराज्य से पहरेदार क्षितिज तक"
 
 #: ../../site/index.rst:33
+msgid ""
+"*\"He who lights his taper at mine, receives light without darkening me.\"* "
+"Jefferson's 1813 image captures the promise of knowledge that can be shared "
+"without being used up. This book asks how controls on models and computing "
+"hardware can interrupt that exchange. `JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+msgstr ""
+" *मेरी लौ से मोमबत्ती जलाने वाला मुझे अंधेरा किए बिना रोशनी पाता है।*  1813 "
+"की उपमा से पुस्तक पूछती है कि मॉडल·उपकरण नियंत्रण ज्ञान बांटने को कैसे "
+"प्रभावित करते हैं। `JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+
+#: ../../site/index.rst:35
 msgid ""
 "An open model can let a university, a small business or a language project "
 "adapt a shared tool. These possibilities do not guarantee safety or equal "
@@ -78,7 +86,7 @@ msgstr ""
 "सुरक्षा·बराबरी गारंटी नहीं। अपने लाभ की कोशिश में व्यापक रोक सहयोग को हानि "
 "दे सकती है।"
 
-#: ../../site/index.rst:35
+#: ../../site/index.rst:37
 msgid ""
 "Open AI also needs physical computers. Large training runs can require "
 "advanced chips, memory and networks; smaller models can run on more ordinary"
@@ -88,7 +96,7 @@ msgstr ""
 "खुले AI को कंप्यूटर चाहिए। बड़े प्रशिक्षण और छोटे मॉडल का उपकरण अलग है। उदार"
 " लाइसेंस हार्डवेयर तक पहुंच का प्रश्न नहीं मिटाता।"
 
-#: ../../site/index.rst:39 ../../site/index.rst:44
+#: ../../site/index.rst:41 ../../site/index.rst:46
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
@@ -96,7 +104,7 @@ msgstr ""
 "खुले मॉडल चिप·मेमोरी·ढांचे पर टिके हैं। एक हिस्से की रोक पूरे तक पहुंच पर "
 "असर डाल सकती है।"
 
-#: ../../site/index.rst:48
+#: ../../site/index.rst:50
 msgid ""
 "**Hardware:** US rules cover specified chips and manufacturing items. China "
 "proposes controls on specified processor and memory designs and certain "
@@ -114,7 +122,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "`EAR734 <https://www.bis.gov/regulations/ear/734>`_"
 
-#: ../../site/index.rst:49
+#: ../../site/index.rst:51
 msgid ""
 "**Models:** Chinese temporary registration has started, while new catalogue "
 "prohibitions and restrictions remain proposed. US model-weight text and its "
@@ -133,11 +141,11 @@ msgstr ""
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../site/index.rst:51
+#: ../../site/index.rst:53
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "किले का जाल: दोनों कैसे नुकसान उठा सकते हैं"
 
-#: ../../site/index.rst:54
+#: ../../site/index.rst:56
 msgid ""
 "Imagine two research teams starting from one public AI model. A's team makes"
 " it run with less memory. B's team tests errors and helps fix them. Sharing "
@@ -148,7 +156,7 @@ msgstr ""
 "खोजकर सुधार में मदद करता है। अगले सुधार साझा करना दोनों के काम आता है, पर हर"
 " सरकार दूसरे को एकतरफा बढ़त देने से डरती है।"
 
-#: ../../site/index.rst:56
+#: ../../site/index.rst:58
 msgid ""
 "We give the four endings invented preference scores: mutual sharing gives 17"
 " each; withholding while the other shares gives 20 to the withholding "
@@ -161,16 +169,7 @@ msgstr ""
 " 5। अधिक यानी इस उदाहरण में ज्यादा पसंद। पुस्तक पहले इस क्रम की मान्यताएं "
 "समझाती है, फिर उससे बना जाल।"
 
-#: ../../site/index.rst:58 ../../site/index.rst:63
-msgid ""
-"Two teams finish a computer by sharing parts and knowledge, then struggle "
-"when a wall separates them. This illustrates the assumed game, not a "
-"measured outcome."
-msgstr ""
-"दो दल पुर्जे और ज्ञान साझा करके कंप्यूटर पूरा करते हैं, लेकिन दीवार बनने पर "
-"अटक जाते हैं। यह माने हुए खेल का चित्र है, मापा हुआ परिणाम नहीं।"
-
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
 "gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
@@ -180,7 +179,7 @@ msgstr ""
 "A 3, B 20। केवल B साझा करे तो A 20, B 3। दोनों रोकें तो हर एक 5। सभी अंक "
 "माने हुए हैं।"
 
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -188,7 +187,7 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"hi\")"
 
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "Four endings for the two teams. The scores are invented preferences; higher "
 "means preferred within this example."
@@ -196,7 +195,7 @@ msgstr ""
 "दो दलों के चार अंत। अंक कल्पित पसंद हैं; इस उदाहरण में अधिक का अर्थ ज्यादा "
 "पसंद।"
 
-#: ../../site/index.rst:74
+#: ../../site/index.rst:71
 msgid ""
 "Each government then sees a reason to restrict: 20 beats 17 if the other "
 "shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 "
@@ -211,11 +210,11 @@ msgstr ""
 "चीनी नीति का माप नहीं। `GAME <https://www.cs.cornell.edu/~rafael/networks-"
 "html/chapter1.html>`_"
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:73
 msgid "`Read the worked story and its limits <read-game_>`_"
 msgstr "`पूरी कहानी और उसकी सीमाएं पढ़ें <read-game_>`_"
 
-#: ../../site/index.rst:78
+#: ../../site/index.rst:75
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
@@ -223,7 +222,7 @@ msgid ""
 msgstr ""
 "स्रोत वर्तमान नियम, प्रस्ताव और विश्लेषण अलग करके तीन पढ़ने आदत बताते हैं:"
 
-#: ../../site/index.rst:80
+#: ../../site/index.rst:77
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -236,7 +235,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:81
+#: ../../site/index.rst:78
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -251,7 +250,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:82
+#: ../../site/index.rst:79
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -265,7 +264,7 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:86
+#: ../../site/index.rst:83
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
@@ -273,7 +272,7 @@ msgstr ""
 " **आवरण और प्रस्तावना:**  `जेफ़रसन की मोमबत्ती, हार्डवेयर की जड़ें और "
 "गेम-थ्योरी प्रमाण <read-cover_>`_"
 
-#: ../../site/index.rst:87
+#: ../../site/index.rst:84
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -281,7 +280,7 @@ msgstr ""
 " **अध्याय 01 और 02:**  `घोषणा 48 की दो घड़ियाँ <read-ch1_>`_ व `इंटरैक्टिव "
 "40-जाँच-बिंदु एटलस <read-atlas_>`_"
 
-#: ../../site/index.rst:88
+#: ../../site/index.rst:85
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -289,7 +288,7 @@ msgstr ""
 " **अध्याय 03 और 04:**  `मस्तिष्क और सिलिकॉन हार्डवेयर स्टैक <read-ai_>`_ व "
 "`द्वारों से पहले और बाद में ओपन-सोर्स एआई <read-open_>`_"
 
-#: ../../site/index.rst:89
+#: ../../site/index.rst:86
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

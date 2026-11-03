@@ -777,5 +777,6 @@ msgid ""
 msgstr ""
 "索引は提案中の技術項目を数えます。ゲームの点数は架空の選好で、技術の数ではありません。チームには、全AIを一つの壁の中に置くより、次の貢献が該当する正確な項目と条件の確認が有用です。"
 
+#: ../../book/atlas.rst:289
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

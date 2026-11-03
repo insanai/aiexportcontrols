@@ -271,5 +271,6 @@ msgstr ""
 "게임의 A국과 B국은 가상입니다. 미중 통제는 범위, 기관과 컴퓨팅 공급망의 위치가 다릅니다. 이 장은 이를 설명하며 어느 실제 국가에도"
 " 3,5,17,20점을 매기지 않습니다."
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

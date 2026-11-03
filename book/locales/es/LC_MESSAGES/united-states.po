@@ -321,6 +321,7 @@ msgstr ""
 "alcances, instituciones y posiciones diferentes en la cadena de cómputo. "
 "Explicamos esas diferencias, sin asignar a ninguno 3, 5, 17 o 20 puntos."
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

@@ -264,5 +264,6 @@ msgid ""
 "real country a score of 3, 5, 17 or 20."
 msgstr "博弈中的A国与B国都是虚构的。中美管制在范围、机构及算力供应链位置上不同。本章解释这些差异，不给任何真实国家赋予3、5、17或20分。"
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

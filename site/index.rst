@@ -11,7 +11,7 @@ AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS
 
 .. rst-class:: landing-epigraph
 
-*"He who lights his taper at mine, receives light without darkening me."* Jefferson's 1813 image captures the promise of knowledge that can be shared without being used up. This book asks how controls on models and computing hardware can interrupt that exchange. `JEFFERSON <https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_
+An illustrated guide to US and Chinese export controls, and what they mean for the people building open AI.
 
 .. container:: landing-actions
 
@@ -20,15 +20,17 @@ AN ILLUSTRATED BOOK ON OPEN MINDS, SILICON HARDWARE, AND HUMAN PROGRESS
    `Explore All 40 Checkpoints <read-atlas_>`_
    `Official Approval & Contacts <read-contacts_>`_
 
-.. figure:: images/illustrations/cover.jpg
+.. figure:: images/illustrations/hero-pencil.jpg
    :name: landing-hero-art
-   :alt: A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   :alt: Two research buildings are separated by a controlled crossing. Computing equipment and technical plans wait at the barrier.
    :width: 100%
 
-   A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   Two research buildings are separated by a controlled crossing. Computing equipment and technical plans wait at the barrier.
 
 From an Open Republic of Ideas to a Guarded Horizon
 ---------------------------------------------------
+
+*"He who lights his taper at mine, receives light without darkening me."* Jefferson's 1813 image captures the promise of knowledge that can be shared without being used up. This book asks how controls on models and computing hardware can interrupt that exchange. `JEFFERSON <https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_
 
 An open model can let a university, a small business or a language project adapt a shared tool. These possibilities do not guarantee safety or equal access. Our argument is that broad restrictions can damage cooperation even when each country hopes to gain an advantage.
 
@@ -36,7 +38,7 @@ Open AI also needs physical computers. Large training runs can require advanced 
 
 .. container:: landing-duet
 
-   .. figure:: images/illustrations/hardware.jpg
+   .. figure:: images/illustrations/hardware-pencil.jpg
       :name: landing-stack-art
       :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
       :width: 100%
@@ -55,12 +57,7 @@ Imagine two research teams starting from one public AI model. A's team makes it 
 
 We give the four endings invented preference scores: mutual sharing gives 17 each; withholding while the other shares gives 20 to the withholding country and 3 to the sharing country; mutual restriction gives 5 each. Higher means preferred within this example. The book explains why we assume that ranking before showing how it creates the trap.
 
-.. figure:: images/illustrations/cooperation.jpg
-   :name: landing-game-art
-   :alt: Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
-   :width: 100%
-
-   Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+.. _landing-game-art:
 
 .. typst-diagram::
    :name: landing-game-scores

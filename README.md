@@ -4,7 +4,7 @@ An illustrated literary and primary-source book on how sovereign export controls
 
 [Read the Website & Landing Page](https://insanai.github.io/aiexportcontrols/) | [Read the English Book](https://insanai.github.io/aiexportcontrols/en/index.html) | [Download English A4 PDF](https://insanai.github.io/aiexportcontrols/books/en/open-source-ai-export-controls-en.pdf) | [26 Primary Sources](https://insanai.github.io/aiexportcontrols/en/sources.html)
 
-Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, nine scientific and narrative illustrations, precise native diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
+Published in **seven native editions** matching [GuideDog](https://github.com/insanai/guidedog)'s languages: **English (`en`), Simplified Chinese (`zh-cn`), Japanese (`ja`), Korean (`ko`), Hindi (`hi`), Spanish (`es`), and German (`de`)**. Every edition includes the literary landing page, all 11 book chapters, graphite and colored-pencil illustrations, precise native diagrams, an interactive 40-checkpoint explorer, a complete China & US official approval and contact directory, and a typeset A4 PDF book.
 
 ## What This Book Covers
 
@@ -20,7 +20,7 @@ This project is authored **100% natively in [GuideDog v1.0.0-beta.10](https://gi
 
 - **Markup:** Native reStructuredText (`.rst`) in [`site/`](site/) (landing page) and [`book/`](book/) (11 chapters).
 - **Illustrations, Diagrams & Math:**
-  - Nine original generated scientific and narrative illustrations in [`book/assets/illustrations/`](book/assets/illustrations/), inspired by engineering cutaways and historical cell-biology plates. PNG masters and JPEG delivery files retain the same dimensions. Prompts are kept outside version control.
+  - Original generated graphite and colored-pencil illustrations in [`book/assets/illustrations/`](book/assets/illustrations/), informed by architectural line hierarchy, geometric shading studies and scientific drawing. The website hero, PDF cover and book opening use separate compositions. PNG masters and JPEG delivery files retain the same dimensions. Prompts are kept outside version control.
   - Exact game scores, timelines and filing questions remain native diagrams or selectable text, separate from the narrative artwork.
   - Native `.. typst-diagram::` compiled by GuideDog's embedded Typst `0.15.1` engine with `@preview/cetz:0.3.4` and `@preview/fletcher:0.5.8` ([`book/figures/diagrams.typ`](book/figures/diagrams.typ)).
   - Native `.. graphviz::` (`:class: graphviz-adaptive`) compiled by GuideDog's linked Graphviz `16.1.0` engine.

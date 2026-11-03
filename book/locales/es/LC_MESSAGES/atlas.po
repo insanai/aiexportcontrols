@@ -1023,6 +1023,7 @@ msgstr ""
 "importa qué entrada y condiciones cubren la siguiente aportación, no si toda"
 " la IA queda detrás de un solo muro."
 
+#: ../../book/atlas.rst:289
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

@@ -301,5 +301,6 @@ msgstr ""
 "और कंप्यूटिंग आपूर्ति में स्थिति अलग हैं। यह अध्याय अंतर बताता है, किसी असली"
 " देश को3, 5, 17 या20 अंक नहीं देता।"
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

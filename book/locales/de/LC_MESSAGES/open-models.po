@@ -369,6 +369,7 @@ msgstr ""
 "vorgeschlagene erleichterte Verfahren können bestimmte Austausche erhalten, "
 "die die breite Mauer der Geschichte verhindern würde."
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

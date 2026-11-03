@@ -200,5 +200,6 @@ msgstr ""
 " एक मिलने से बाकी सभी नहीं मिलते। सवाल है कि लागू नियमों के अनुसार कौन से "
 "उपकरण और ज्ञान साथ जा सकते हैं।"
 
+#: ../../book/solar.rst:38
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

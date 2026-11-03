@@ -7,12 +7,12 @@ Impact of Export Controls on the Future of Open Source AI
 
 An idea can be shared without using it up. Thomas Jefferson expressed this in an 1813 letter: *"He who lights his taper at mine, receives light without darkening me."* That image captures the promise of open-source AI: one team can learn from another without taking its knowledge away. `JEFFERSON <https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_
 
-.. figure:: assets/illustrations/cover.jpg
+.. figure:: assets/illustrations/commons-pencil.jpg
    :name: fig-cover-commons
-   :alt: A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   :alt: A shared workbench brings a computer, a notebook and different contributions together before any barrier is introduced.
    :width: 100%
 
-   A border barrier holds up computer parts and technical plans while two research teams try to work together.
+   A shared workbench brings a computer, a notebook and different contributions together before any barrier is introduced.
 
 Open-weight models can give researchers and smaller organizations more control over how they use AI. A clinic, a language project or a university might adapt a public model on its own computers. These are illustrative uses, not documented deployments or proof that a model is clinically safe. Downloadable weights also differ from the fuller requirements of the Open Source AI Definition. `OSI <https://opensource.org/ai/open-source-ai-definition>`_ `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN <https://github.com/QwenLM/Qwen3>`_
 
@@ -25,12 +25,7 @@ A model can travel as code and learned numbers. The computers that train and run
 
 Open models depend on physical computers. Large training runs can need advanced processors, memory and fast networks; smaller models can run on less demanding equipment. Not every open-model user needs the latest manufacturing process or a cluster of ten thousand cards. Controls on scarce hardware can nevertheless affect which teams can train, inspect and deploy models.
 
-.. figure:: assets/illustrations/hardware.jpg
-   :name: fig-mind-silicon
-   :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
-   :width: 100%
-
-   Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
+.. _fig-mind-silicon:
 
 * **Hardware and design knowledge:** US controls cover specified chips, manufacturing items and some foreign-made items under defined conditions. China proposes controls on specified processor and memory designs, and on certain technologies for clusters with **more than 10,000** accelerator cards. Design knowledge, finished chips and clusters are different objects of control. `US26 <https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 <https://www.bis.gov/regulations/ear/742>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 * **Models and data:** Announcement 48 began temporary registration for covered transfers on **16 October 2026**. Its proposed catalogue includes model core technology meeting any of three tests: training calculation, parameter count or a qualifying global top-10 assessment. These proposed categories are separate from the registration already operating and from the US model-weight rule. `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `US25 <https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ `GAO26 <https://www.gao.gov/products/b-337935>`_
@@ -53,12 +48,12 @@ Imagine a research team in Country A and another in Country B. Both start from t
 
 If the teams exchange their next improvements, each can build on the other's work. A receives better testing; B receives a model that needs fewer resources. Both still need computers, staff and time. Sharing knowledge helps them use those resources; it does not make physical hardware free.
 
-.. figure:: assets/illustrations/cooperation.jpg
+.. figure:: assets/illustrations/cooperation-pencil.jpg
    :name: fig-game-theory
-   :alt: Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+   :alt: A shared workbench combines hardware and knowledge. A partition separates those contributions in the lower study. This is an analogy for the teaching game.
    :width: 100%
 
-   Two teams finish a computer by sharing parts and knowledge, then struggle when a wall separates them. This illustrates the assumed game, not a measured outcome.
+   A shared workbench combines hardware and knowledge. A partition separates those contributions in the lower study. This is an analogy for the teaching game.
 
 Two Choices for Each Government
 -------------------------------
@@ -130,12 +125,7 @@ The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall
 
 The fictional wall hides distinctions that matter in the real rules. Is the technology already public? Is a new transfer prohibited, restricted or eligible for an easier route? Announcement 48 and the US rules answer different questions. We now turn from our imagined workbench to the source texts:
 
-.. figure:: assets/illustrations/sectors.jpg
-   :name: fig-forty-overview
-   :alt: Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
-   :width: 100%
-
-   Computing, biomedicine and solar manufacturing, shown through a processor, a cell and the layers of a solar panel.
+.. _fig-forty-overview:
 
 .. list-table:: The 40 proposed technology points
    :header-rows: 1

@@ -403,3 +403,80 @@ html[data-theme="dark"] .landing-article img.typst-diagram {
   background: var(--paper, var(--lp-paper));
   max-width: 100%;
 }
+
+/* Graphite studies on white paper, with a dedicated architectural hero. */
+:root,
+html[data-theme="light"] {
+  --lp-bg: #fafaf7;
+  --lp-paper: #ffffff;
+  --lp-surface: #f0f1ed;
+  --lp-rule: #d8ddda;
+}
+.landing-main { max-width: 1280px; padding-top: 3.2rem; }
+.landing-article > section:first-child {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.3fr);
+  column-gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: start;
+}
+.landing-article > section:first-child > h1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: clamp(2.2rem, 3.5vw, 3.4rem);
+  max-width: 20ch;
+  margin-bottom: 1rem;
+}
+.landing-article > section:first-child > .landing-kicker {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+.landing-article > section:first-child > .landing-epigraph {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: 1.12rem;
+  line-height: 1.65;
+  max-width: 42ch;
+  margin-bottom: 0;
+}
+.landing-article > section:first-child > .landing-actions {
+  grid-column: 1;
+  grid-row: 4;
+}
+.landing-actions p { gap: 0.6rem; margin-bottom: 0; }
+.landing-actions a { font-size: 0.88rem; padding: 0.7rem 0.9rem; border-radius: 3px; }
+.landing-article > section:first-child > #landing-hero-art {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+  align-self: center;
+  margin: 0;
+  min-width: 0;
+}
+#landing-hero-art img { width: 100%; height: auto; background: #fff; }
+#landing-hero-art figcaption {
+  border-top: 0;
+  padding: 0.8rem 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  background: transparent;
+}
+.landing-article > section:first-child > section {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+.landing-article > section:first-child > section:first-of-type { margin-top: 1.8rem; }
+@media (max-width: 860px) {
+  .landing-main { padding-top: 1.8rem; }
+  .landing-article > section:first-child { grid-template-columns: minmax(0, 1fr); }
+  .landing-article > section:first-child > h1 { font-size: clamp(2rem, 8vw, 2.8rem); max-width: 22ch; }
+  .landing-article > section:first-child > #landing-hero-art {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 1.3rem;
+  }
+  .landing-article > section:first-child > .landing-actions { grid-row: 5; }
+  .landing-article > section:first-child > section:first-of-type { margin-top: 0.7rem; }
+}

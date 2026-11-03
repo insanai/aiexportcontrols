@@ -315,5 +315,6 @@ msgstr ""
 "A의 메모리 개선과 B의 테스트는 교환 가능한 지식이며 컴퓨터는 별도의 의존 조건입니다. 공개 라이선스가 없는 칩을 공급하지 않으며 "
 "하드웨어 제한만으로 모든 모델 파일의 법적 지위가 정해지지 않습니다. 작업대의 두 부분을 함께 봅니다."
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

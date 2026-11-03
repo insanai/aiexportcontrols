@@ -319,5 +319,6 @@ msgid ""
 msgstr ""
 "チームは公開の出発モデルを持ち続けます。次の貢献が論文、新コード、非公開の重み、サービスのどれかで個別の評価が必要です。公開情報の除外や提案中の円滑化は、物語の広い壁が止める特定の交換を保ち得るため重要です。"
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

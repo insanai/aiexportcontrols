@@ -292,12 +292,12 @@ msgstr ""
 
 #: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"A researcher presents technical documents for review. The illustration "
-"introduces the paperwork, not a complete legal procedure or a promise of "
-"approval."
+"Technical drawings, forms and a waiting equipment box illustrate the "
+"information prepared for review. The image does not promise approval or "
+"replace the legal procedure."
 msgstr ""
-"शोधकर्ता तकनीकी दस्तावेज समीक्षा के लिए देता है। यह कागजी प्रक्रिया का परिचय"
-" है, पूरी कानूनी प्रक्रिया या मंजूरी का वादा नहीं।"
+"तकनीकी नक्शे, फॉर्म और प्रतीक्षा करता उपकरण बॉक्स समीक्षा की तैयारी दिखाते "
+"हैं। चित्र मंजूरी का वादा या कानूनी प्रक्रिया का विकल्प नहीं है।"
 
 #: ../../book/comparison.rst:55
 msgid ""
@@ -935,5 +935,6 @@ msgstr ""
 "भरोसेमंद निरंतर सहयोग प्रोत्साहन बदल सकते हैं। असर का प्रमाण चाहिए; केवल भरा"
 " फॉर्म सहयोग में सुधार नहीं बताता।"
 
+#: ../../book/comparison.rst:148
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

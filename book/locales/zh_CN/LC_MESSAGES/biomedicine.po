@@ -44,9 +44,9 @@ msgstr ""
 
 #: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"A cell, DNA and laboratory tools make the subject tangible. A reusable "
 "medicine-development platform differs from a particular treatment."
-msgstr "细胞、DNA、RNA和实验工具让主题更具体。可复用的药物研发平台与某一种治疗不同。"
+msgstr "细胞、DNA和实验工具让主题更具体。可复用的药物研发平台与某一种治疗不同。"
 
 #: ../../book/biomedicine.rst:20
 msgid ""
@@ -182,5 +182,6 @@ msgid ""
 msgstr ""
 "医学中的共享工作台涉及平台、研究与特定治疗。上述区别帮助判断规则触及哪些合作、保留哪些可能。我们不把AI游戏得分套用到医学，也不认为开放本身就能证明患者安全。"
 
+#: ../../book/biomedicine.rst:39
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

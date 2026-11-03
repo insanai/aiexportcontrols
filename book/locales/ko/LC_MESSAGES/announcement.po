@@ -337,5 +337,6 @@ msgstr ""
 "두 팀에게 대상 이전 전에 정보를 등록하는 것과 이전이 금지되는 것은 서로 다른 장애물입니다. 이야기는 각 규칙 아래 어떤 협력이 남는지"
 " 묻습니다. 영향을 판단하기 전에 현재 시행되는 의무와 제안 단계의 목록 변경을 구분합니다."
 
+#: ../../book/announcement.rst:74
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

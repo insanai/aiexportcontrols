@@ -49,11 +49,11 @@ msgstr ""
 
 #: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"A cell, DNA and laboratory tools make the subject tangible. A reusable "
 "medicine-development platform differs from a particular treatment."
 msgstr ""
-"कोशिका, DNA, RNA और प्रयोगशाला के उपकरण विषय को ठोस रूप देते हैं। दोबारा "
-"इस्तेमाल होने वाला दवा विकास मंच किसी खास उपचार से अलग है।"
+"कोशिका, DNA और प्रयोगशाला के उपकरण विषय को ठोस रूप देते हैं। दोबारा इस्तेमाल"
+" होने वाला दवा विकास मंच किसी खास उपचार से अलग है।"
 
 #: ../../book/biomedicine.rst:20
 msgid ""
@@ -211,5 +211,6 @@ msgstr ""
 "के अंक चिकित्सा पर लागू नहीं करते और केवल खुलेपन को रोगी सुरक्षा का प्रमाण "
 "नहीं मानते।"
 
+#: ../../book/biomedicine.rst:39
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

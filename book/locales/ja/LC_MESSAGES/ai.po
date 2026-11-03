@@ -312,5 +312,6 @@ msgid ""
 msgstr ""
 "Aの省メモリー改良とBのテストは交換し得る知識で、計算機は別の依存条件です。公開ライセンスは不足する半導体を供給せず、機器規制だけで全モデルファイルの法的扱いは決まりません。作業台の両面を追います。"
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

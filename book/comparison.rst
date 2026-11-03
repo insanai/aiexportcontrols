@@ -42,12 +42,12 @@ Because most writing on export controls stops at ominous warnings, everyday foun
 
 :numref:`fig-flowchart-approval` introduces the documents involved in a filing. The country-specific steps and contacts follow below `CN48 <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CN-A2 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-2.pdf>`_ `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS <https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_ `CNPLAT <http://jsjckqy.fwmys.mofcom.gov.cn/notice>`_ `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR742 <https://www.bis.gov/regulations/ear/742>`_ `SNAPR <https://snapr.bis.gov/help/SNAPR-FAQ.pdf>`_:
 
-.. figure:: assets/illustrations/filing.jpg
+.. figure:: assets/illustrations/filing-pencil.jpg
    :name: fig-flowchart-approval
-   :alt: A researcher presents technical documents for review. The illustration introduces the paperwork, not a complete legal procedure or a promise of approval.
+   :alt: Technical drawings, forms and a waiting equipment box illustrate the information prepared for review. The image does not promise approval or replace the legal procedure.
    :width: 100%
 
-   A researcher presents technical documents for review. The illustration introduces the paperwork, not a complete legal procedure or a promise of approval.
+   Technical drawings, forms and a waiting equipment box illustrate the information prepared for review. The image does not promise approval or replace the legal procedure.
 
 .. graphviz::
    :class: graphviz-adaptive

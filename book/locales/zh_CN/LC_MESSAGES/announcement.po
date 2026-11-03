@@ -324,5 +324,6 @@ msgid ""
 msgstr ""
 "对两队而言，转移前申报信息与禁止转移是不同障碍。故事关注每条规则下还剩下哪些合作。在判断影响前，本章先明确当前实行的义务与仍在提议中的目录变化。"
 
+#: ../../book/announcement.rst:74
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

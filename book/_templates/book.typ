@@ -264,7 +264,7 @@
     ai: "AI & CHIP GATES", bio: "BIOMEDICINE", solar: "SOLAR MACHINES",
     foot: "ILLUSTRATED EDITION  •  02 NOV 2026",
   ))
-  page(paper: paper, margin: (x: 22mm, top: 18mm, bottom: 18mm), fill: rgb("#f4f0e7"), header: none, footer: none, numbering: none)[
+  page(paper: paper, margin: (x: 22mm, top: 18mm, bottom: 18mm), fill: rgb("#fafaf7"), header: none, footer: none, numbering: none)[
     #set par(justify: false, first-line-indent: 0em)
     #sans-text(size: 8.8pt, weight: "bold", tracking: 0.1em, fill: rgb("#ae3d2c"))[#cover-copy.kicker]
     #v(4mm)
@@ -277,7 +277,7 @@
     #block(width: 95%, text(size: 11pt, fill: rgb("#3b4c54"), par(leading: 0.48em, cover-copy.sub)))
     #v(6mm)
     #block(width: 100%, inset: 5pt, fill: white, stroke: 0.7pt + rgb("#c9cec5"),
-      image("../assets/illustrations/cover.jpg", width: 100%))
+      image("../assets/illustrations/cover-pencil.jpg", width: 100%))
     #v(1fr)
     #grid(columns: (1fr, 1fr, 1fr), gutter: 8mm,
       [#sans-text(size: 29pt, weight: "bold", fill: rgb("#ae3d2c"))[23] #v(1.5mm) #sans-text(size: 9.2pt, weight: "bold", fill: rgb("#172e38"))[#cover-copy.ai]],

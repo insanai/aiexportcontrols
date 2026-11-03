@@ -376,5 +376,6 @@ msgstr ""
 "प्रभाव परखने से पहले यह अध्याय वर्तमान दायित्व और अभी प्रस्तावित सूची बदलाव "
 "अलग करता है।"
 
+#: ../../book/announcement.rst:74
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

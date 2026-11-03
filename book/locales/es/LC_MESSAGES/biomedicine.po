@@ -50,12 +50,12 @@ msgstr ""
 
 #: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"A cell, DNA and laboratory tools make the subject tangible. A reusable "
 "medicine-development platform differs from a particular treatment."
 msgstr ""
-"La célula, el ADN, el ARN y los instrumentos hacen tangible el tema. Una "
-"plataforma reutilizable de desarrollo de medicamentos difiere de un "
-"tratamiento concreto."
+"La célula, el ADN y los instrumentos hacen tangible el tema. Una plataforma "
+"reutilizable de desarrollo de medicamentos difiere de un tratamiento "
+"concreto."
 
 #: ../../book/biomedicine.rst:20
 msgid ""
@@ -219,6 +219,7 @@ msgstr ""
 "IA a medicina ni suponemos que abrir el acceso garantice seguridad para "
 "pacientes."
 
+#: ../../book/biomedicine.rst:39
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

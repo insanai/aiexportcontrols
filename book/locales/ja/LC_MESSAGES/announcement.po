@@ -325,5 +325,6 @@ msgid ""
 msgstr ""
 "対象移転の前に情報を登録することと、移転を禁止されることは異なる障害です。物語の問いは各規則の下で何の協力が残るかです。影響を判断する前に、現行義務と提案中の目録変更を区別します。"
 
+#: ../../book/announcement.rst:74
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

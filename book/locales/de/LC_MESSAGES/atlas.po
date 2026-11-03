@@ -1009,6 +1009,7 @@ msgstr ""
 "welcher genaue Eintrag mit welchen Bedingungen den nächsten Beitrag erfasst,"
 " statt ob sämtliche KI hinter einer einzigen Mauer liegt."
 
+#: ../../book/atlas.rst:289
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

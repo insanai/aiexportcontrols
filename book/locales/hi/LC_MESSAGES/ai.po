@@ -364,5 +364,6 @@ msgstr ""
 "जरूरत हैं। खुला लाइसेंस गायब चिप नहीं देता और हार्डवेयर रोक अकेले हर मॉडल "
 "फाइल की कानूनी स्थिति नहीं बताती। हम कार्यमेज के दोनों हिस्से देखते हैं।"
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

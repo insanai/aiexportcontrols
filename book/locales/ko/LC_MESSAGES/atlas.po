@@ -819,5 +819,6 @@ msgstr ""
 "색인은 제안된 기술 항목을 셉니다. 게임 점수는 가상 선호이며 기술 수가 아닙니다. 팀에게는 모든 AI가 한 장벽 뒤에 있는지보다 다음 "
 "기여에 어떤 정확한 항목과 조건이 적용되는지가 중요합니다."
 
+#: ../../book/atlas.rst:289
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

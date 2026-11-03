@@ -274,10 +274,10 @@ msgstr ""
 
 #: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"A researcher presents technical documents for review. The illustration "
-"introduces the paperwork, not a complete legal procedure or a promise of "
-"approval."
-msgstr "研究者が技術書類を審査に提出します。書類作業の紹介であり、完全な法的手続や承認の保証ではありません。"
+"Technical drawings, forms and a waiting equipment box illustrate the "
+"information prepared for review. The image does not promise approval or "
+"replace the legal procedure."
+msgstr "技術図面、用紙、待機中の機器箱で審査のための情報を示します。承認の保証や法的手続の代わりではありません。"
 
 #: ../../book/comparison.rst:55
 msgid ""
@@ -855,5 +855,6 @@ msgid ""
 msgstr ""
 "作業台の物語は実際の確認になります。何を移転し、どの制度が対象とし、どの経路が残るか。明確な除外、使える手続、信頼できる継続協力は動機を変え得ます。その効果には根拠が必要で、記入済みの用紙だけでは改善を判断できません。"
 
+#: ../../book/comparison.rst:148
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

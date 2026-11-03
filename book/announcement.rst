@@ -12,7 +12,7 @@ Picture a city council announcing on Friday afternoon that it plans to lower the
 
 That is almost literally how **Announcement No. 48 of 2026** works. Issued jointly on **16 October 2026** by China's Ministry of Commerce (MOFCOM, led by its Bureau of Industry, Security, Import and Export Control) and the Ministry of Science and Technology (MOST) under China's *Foreign Trade Law* and *Regulations on the Administration of Technology Import and Export*, the document sets two separate clocks ticking at once `CN48, sections I and III <https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html>`_ `CNTIER <https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_:
 
-.. figure:: assets/illustrations/clocks.jpg
+.. figure:: assets/illustrations/clocks-pencil.jpg
    :name: fig-two-clocks
    :alt: Announcement No. 48 splits into two parallel tracks on 16 October 2026: a 30-day consultation on 40 proposed catalogue entries, and an immediate pre-export registration mandate on ecomp.mofcom.gov.cn.
    :width: 100%

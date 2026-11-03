@@ -393,6 +393,7 @@ msgstr ""
 "Zusammenarbeit jede Regel zulässt. Dieses Kapitel klärt zuerst, welche "
 "Pflicht bereits gilt und welche Katalogänderungen vorgeschlagen bleiben."
 
+#: ../../book/announcement.rst:74
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

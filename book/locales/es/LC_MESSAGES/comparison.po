@@ -300,13 +300,13 @@ msgstr ""
 
 #: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"A researcher presents technical documents for review. The illustration "
-"introduces the paperwork, not a complete legal procedure or a promise of "
-"approval."
+"Technical drawings, forms and a waiting equipment box illustrate the "
+"information prepared for review. The image does not promise approval or "
+"replace the legal procedure."
 msgstr ""
-"Un investigador presenta documentos técnicos para revisión. La imagen "
-"introduce el papeleo, sin representar todo el procedimiento legal ni "
-"prometer aprobación."
+"Planos, formularios y una caja de equipo en espera muestran la información "
+"preparada para revisión. La imagen no promete aprobación ni sustituye el "
+"procedimiento legal."
 
 #: ../../book/comparison.rst:55
 msgid ""
@@ -958,6 +958,7 @@ msgstr ""
 "efectos requieren pruebas; completar un formulario no demuestra por sí solo "
 "que mejoró la cooperación."
 
+#: ../../book/comparison.rst:148
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

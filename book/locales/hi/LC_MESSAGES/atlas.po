@@ -977,5 +977,6 @@ msgstr ""
 "की संख्या नहीं। दलों के लिए सवाल यह है कि अगले योगदान पर कौन सी सटीक "
 "प्रविष्टि और शर्तें लागू हैं, न कि पूरी एआई एक दीवार के पीछे है या नहीं।"
 
+#: ../../book/atlas.rst:289
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

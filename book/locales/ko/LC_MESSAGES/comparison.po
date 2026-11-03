@@ -275,10 +275,11 @@ msgstr ""
 
 #: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"A researcher presents technical documents for review. The illustration "
-"introduces the paperwork, not a complete legal procedure or a promise of "
-"approval."
-msgstr "연구자가 기술 문서를 제출해 검토를 받습니다. 서류 작업의 소개이며 완전한 법적 절차나 승인 보장은 아닙니다."
+"Technical drawings, forms and a waiting equipment box illustrate the "
+"information prepared for review. The image does not promise approval or "
+"replace the legal procedure."
+msgstr ""
+"기술 도면, 양식과 대기 중인 장비 상자로 검토를 위해 준비하는 정보를 보여줍니다. 승인 보장이나 법적 절차의 대체가 아닙니다."
 
 #: ../../book/comparison.rst:55
 msgid ""
@@ -852,5 +853,6 @@ msgstr ""
 "작업대 이야기는 실제 질문이 됩니다. 무엇을 이전하고 어떤 체계가 다루며 어느 경로가 남는가? 명확한 예외, 이용 가능한 절차와 신뢰할 "
 "지속 협력이 유인을 바꿀 수 있습니다. 효과에는 근거가 필요하며 서류 작성만으로 협력 개선을 알 수 없습니다."
 
+#: ../../book/comparison.rst:148
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

@@ -10,7 +10,7 @@ You Can Ship the Solar Panel, Not the Secret Kitchen
 
 The official explanation distinguishes manufacturing technology from products made with it. Announcement 48 does not create a blanket ban on finished solar panels. That statement concerns this announcement, not every customs rule or other measure that could affect a shipment. `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_
 
-.. figure:: assets/illustrations/solar.jpg
+.. figure:: assets/illustrations/solar-pencil.jpg
    :name: fig-solar-workshop
    :alt: A crystal-growing furnace, thin wafers and a coating machine show the equipment and knowledge behind a finished solar panel. The machinery is schematic.
    :width: 100%

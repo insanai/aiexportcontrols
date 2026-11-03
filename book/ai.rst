@@ -16,7 +16,7 @@ To an everyday person typing a question into a phone, artificial intelligence fe
 
 MOFCOM's Q&A distinguishes remote API, app, web, SaaS and lightweight local services from transfers of restricted large-model technology under the proposed measures. This is a statement about that scope, not an exemption from every technology or data rule. Attachment 1 separately lists model technology (``266504X``), processor and memory designs (``266506X``), and specified technologies for clusters with more than 10,000 accelerator cards (``266507X``). `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_ `CN-A1 <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_
 
-.. figure:: assets/illustrations/hardware.jpg
+.. figure:: assets/illustrations/hardware-pencil.jpg
    :name: fig-ai-stack
    :alt: Open models depend on chips, memory and computing infrastructure. A restriction on one part can affect access to the whole system.
    :width: 100%

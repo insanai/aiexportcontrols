@@ -10,12 +10,12 @@ Guarding the Printing Press While Sharing the Books
 
 Artificial intelligence writes in floating-point numbers; modern biomedicine writes in the four-letter alphabet of life (``A, C, G, U/T``). Over the past decade, Chinese biotech teams have advanced from making off-patent generics to inventing reusable **cell and gene therapy (CGT)** engines and **small-interfering RNA (siRNA)** platforms that silence disease-causing genes before harmful proteins form.
 
-.. figure:: assets/illustrations/biology.jpg
+.. figure:: assets/illustrations/biology-pencil.jpg
    :name: fig-living-code-machines
-   :alt: A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable medicine-development platform differs from a particular treatment.
+   :alt: A cell, DNA and laboratory tools make the subject tangible. A reusable medicine-development platform differs from a particular treatment.
    :width: 100%
 
-   A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable medicine-development platform differs from a particular treatment.
+   A cell, DNA and laboratory tools make the subject tangible. A reusable medicine-development platform differs from a particular treatment.
 
 The draft distinguishes ownership of a reusable medicine-development platform from specific drug projects. It proposes limits on covered platform ownership transfers, with explicit exclusions for licensing and other activities. Those exclusions concern these entries; medicines and clinical trials can still face other rules. `CN-A1, 262704J and 262705J <https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_ `CNQA <https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_
 

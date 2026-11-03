@@ -317,6 +317,7 @@ msgstr ""
 " erklärt diese Unterschiede, ohne einem realen Land 3, 5, 17 oder 20 Punkte "
 "zu geben."
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

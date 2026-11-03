@@ -348,5 +348,6 @@ msgstr ""
 "प्रस्तावित आसान मार्ग खास आदान-प्रदान बचा सकते हैं जिन्हें कहानी की व्यापक "
 "दीवार रोकती है।"
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "दो दलों का शुरुआती आधार :ref:`shared-workbench-story` में है।"

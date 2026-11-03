@@ -380,6 +380,7 @@ msgstr ""
 "no entrega un chip que falta, y una restricción de hardware no determina por"
 " sí sola el estado legal de cada archivo. Seguimos ambas partes del taller."
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

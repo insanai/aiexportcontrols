@@ -205,6 +205,7 @@ msgstr ""
 "nicht alle anderen. Die Frage lautet, welche Anlagen und welches Wissen nach"
 " den geltenden Regeln noch gemeinsam übertragen werden können."
 
+#: ../../book/solar.rst:38
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

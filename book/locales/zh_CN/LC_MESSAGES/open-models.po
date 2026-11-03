@@ -315,5 +315,6 @@ msgid ""
 msgstr ""
 "团队保留公开起始模型。下一项贡献可能是论文、新代码、私有权重或服务，各需单独评估。公开信息排除与拟议便利路径的重要之处，在于可能保留故事中广泛墙体会阻断的特定交换。"
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

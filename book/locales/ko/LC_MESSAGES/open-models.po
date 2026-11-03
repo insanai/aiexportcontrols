@@ -322,5 +322,6 @@ msgstr ""
 "팀은 공개된 시작 모델을 유지합니다. 다음 기여는 논문, 새 코드, 비공개 가중치나 서비스일 수 있고 각각 평가가 필요합니다. 공개 정보"
 " 예외와 제안된 간소화 경로는 이야기의 넓은 장벽이 막을 특정 교환을 보존할 수 있어 중요합니다."
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

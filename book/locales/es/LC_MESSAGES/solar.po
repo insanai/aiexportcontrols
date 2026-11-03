@@ -209,6 +209,7 @@ msgstr ""
 "las otras. La pregunta es qué equipos y conocimientos aún pueden circular "
 "juntos conforme a las normas aplicables."
 
+#: ../../book/solar.rst:38
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

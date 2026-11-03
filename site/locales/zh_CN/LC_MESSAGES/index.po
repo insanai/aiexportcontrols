@@ -31,14 +31,9 @@ msgstr "一部关于开放心智、硅基硬件与人类进步的图文实证专
 
 #: ../../site/index.rst:14
 msgid ""
-"*\"He who lights his taper at mine, receives light without darkening me.\"* "
-"Jefferson's 1813 image captures the promise of knowledge that can be shared "
-"without being used up. This book asks how controls on models and computing "
-"hardware can interrupt that exchange. `JEFFERSON "
-"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
-msgstr ""
-" *借我的火点亮蜡烛，获得光而不使我变暗。*  杰斐逊1813年的比喻说明知识可分享。本书探讨模型及硬件管制如何影响这种交流。 `JEFFERSON "
-"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+"An illustrated guide to US and Chinese export controls, and what they mean "
+"for the people building open AI."
+msgstr "一部图解指南，介绍中美出口管制及其对开放AI建设者的意义。"
 
 #: ../../site/index.rst:18
 msgid ""
@@ -51,9 +46,9 @@ msgstr ""
 
 #: ../../site/index.rst:23 ../../site/index.rst:28
 msgid ""
-"A border barrier holds up computer parts and technical plans while two "
-"research teams try to work together."
-msgstr "两支研究团队试图合作，边境障碍却阻滞了计算机部件和技术图纸的流动。"
+"Two research buildings are separated by a controlled crossing. Computing "
+"equipment and technical plans wait at the barrier."
+msgstr "两个研究楼之间设有受管制通道。计算设备与技术图纸在栏杆前等待。"
 
 #: ../../site/index.rst:30
 msgid "From an Open Republic of Ideas to a Guarded Horizon"
@@ -61,13 +56,24 @@ msgstr "从思想的开放共和国到设防的地平线"
 
 #: ../../site/index.rst:33
 msgid ""
+"*\"He who lights his taper at mine, receives light without darkening me.\"* "
+"Jefferson's 1813 image captures the promise of knowledge that can be shared "
+"without being used up. This book asks how controls on models and computing "
+"hardware can interrupt that exchange. `JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+msgstr ""
+" *借我的火点亮蜡烛，获得光而不使我变暗。*  杰斐逊1813年的比喻说明知识可分享。本书探讨模型及硬件管制如何影响这种交流。 `JEFFERSON "
+"<https://founders.archives.gov/documents/Jefferson/03-06-02-0322>`_"
+
+#: ../../site/index.rst:35
+msgid ""
 "An open model can let a university, a small business or a language project "
 "adapt a shared tool. These possibilities do not guarantee safety or equal "
 "access. Our argument is that broad restrictions can damage cooperation even "
 "when each country hopes to gain an advantage."
 msgstr "开放模型可能帮助大学、小企业和语言项目，却不保证安全或平等。即使各方都想占优，广泛限制仍可能伤害合作。"
 
-#: ../../site/index.rst:35
+#: ../../site/index.rst:37
 msgid ""
 "Open AI also needs physical computers. Large training runs can require "
 "advanced chips, memory and networks; smaller models can run on more ordinary"
@@ -75,13 +81,13 @@ msgid ""
 " when a model has a permissive license."
 msgstr "开放AI需要实体电脑。大训练可能需要先进硬件，小模型可用普通设备；宽松版权许可并未消除硬件管制的影响。"
 
-#: ../../site/index.rst:39 ../../site/index.rst:44
+#: ../../site/index.rst:41 ../../site/index.rst:46
 msgid ""
 "Open models depend on chips, memory and computing infrastructure. A "
 "restriction on one part can affect access to the whole system."
 msgstr "开放模型依赖芯片、存储与算力设施。限制一部分可能影响整体可用性。"
 
-#: ../../site/index.rst:48
+#: ../../site/index.rst:50
 msgid ""
 "**Hardware:** US rules cover specified chips and manufacturing items. China "
 "proposes controls on specified processor and memory designs and certain "
@@ -98,7 +104,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm>`_ "
 "`EAR734 <https://www.bis.gov/regulations/ear/734>`_"
 
-#: ../../site/index.rst:49
+#: ../../site/index.rst:51
 msgid ""
 "**Models:** Chinese temporary registration has started, while new catalogue "
 "prohibitions and restrictions remain proposed. US model-weight text and its "
@@ -116,11 +122,11 @@ msgstr ""
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_"
 
-#: ../../site/index.rst:51
+#: ../../site/index.rst:53
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "堡垒陷阱：双方如何一起受损"
 
-#: ../../site/index.rst:54
+#: ../../site/index.rst:56
 msgid ""
 "Imagine two research teams starting from one public AI model. A's team makes"
 " it run with less memory. B's team tests errors and helps fix them. Sharing "
@@ -128,7 +134,7 @@ msgid ""
 "the other a one-sided advantage."
 msgstr "设想两队从一个公开模型出发。A降低内存需求，B发现错误并协助修复。交换下一轮改进对双方都有帮助，但各政府都担心单方面给对方优势。"
 
-#: ../../site/index.rst:56
+#: ../../site/index.rst:58
 msgid ""
 "We give the four endings invented preference scores: mutual sharing gives 17"
 " each; withholding while the other shares gives 20 to the withholding "
@@ -138,21 +144,14 @@ msgid ""
 msgstr ""
 "我们给四种结局设定虚构偏好分：相互共享各17分；自己保留而对方共享时，保留方得20、共享方得3；相互限制各5分。越高表示本例中越偏好。书中先解释为什么假设这种排序，再说明陷阱如何产生。"
 
-#: ../../site/index.rst:58 ../../site/index.rst:63
-msgid ""
-"Two teams finish a computer by sharing parts and knowledge, then struggle "
-"when a wall separates them. This illustrates the assumed game, not a "
-"measured outcome."
-msgstr "两队共享部件和知识时能完成计算机，被墙隔开后却难以完成。这是书中假设博弈的示意，不是实测结果。"
-
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
 "gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
 "gives 5 each. All scores are assumptions."
 msgstr "A选行，B选列。双方共享各17分；只有A共享时A得3、B得20；只有B共享时A得20、B得3；双方限制各5分。所有得分都是假设。"
 
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -160,13 +159,13 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"zh_CN\")"
 
-#: ../../site/index.rst:67
+#: ../../site/index.rst:64
 msgid ""
 "Four endings for the two teams. The scores are invented preferences; higher "
 "means preferred within this example."
 msgstr "两队的四种结局。分数是虚构偏好，本例中越高表示越偏好。"
 
-#: ../../site/index.rst:74
+#: ../../site/index.rst:71
 msgid ""
 "Each government then sees a reason to restrict: 20 beats 17 if the other "
 "shares, and 5 beats 3 if the other restricts. Both choose walls and get 5 "
@@ -178,18 +177,18 @@ msgstr ""
 "各政府都看到限制的理由：对方共享时20优于17，对方限制时5优于3。双方筑墙各得5，却都更愿意合作各得17。这是假设条件下可能的合作失败，不是对中美政策的实测。"
 " `GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../site/index.rst:76
+#: ../../site/index.rst:73
 msgid "`Read the worked story and its limits <read-game_>`_"
 msgstr "`阅读完整故事及其局限 <read-game_>`_"
 
-#: ../../site/index.rst:78
+#: ../../site/index.rst:75
 msgid ""
 "The legal records and research references distinguish what is already "
 "operating, what remains proposed, and what is our analysis. They support "
 "three practical reading habits:"
 msgstr "法律及研究来源区分现行措施、提案和分析，支持三个阅读习惯："
 
-#: ../../site/index.rst:80
+#: ../../site/index.rst:77
 msgid ""
 "**Distinguish public files from first releases.** Existing public "
 "technology, private derivatives and new open-source exports can take "
@@ -201,7 +200,7 @@ msgstr ""
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 " `EAR774 <https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../site/index.rst:81
+#: ../../site/index.rst:78
 msgid ""
 "**Keep current registration separate from the draft.** China has begun "
 "temporary registration for covered transfers; new prohibitions and "
@@ -215,7 +214,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_"
 
-#: ../../site/index.rst:82
+#: ../../site/index.rst:79
 msgid ""
 "**Read deadlines in their proper scope.** The standard licensing clocks do "
 "not promise the total duration of a project or the future automatic-"
@@ -228,13 +227,13 @@ msgstr ""
 "<https://xzfg.moj.gov.cn/front/law/detail?LawID=898>`_ `CNMEAS "
 "<https://www.mofcom.gov.cn/dl/file/20211203230621.pdf>`_"
 
-#: ../../site/index.rst:86
+#: ../../site/index.rst:83
 msgid ""
 "**Cover & Overture:** `Jefferson's Taper, Hardware Roots & the Game-Theory "
 "Example <read-cover_>`_"
 msgstr " **封面与序章：**  `杰斐逊的烛火、硅基根系与博弈论证明 <read-cover_>`_"
 
-#: ../../site/index.rst:87
+#: ../../site/index.rst:84
 msgid ""
 "**Chapters 01 & 02:** `Announcement 48's Two Clocks <read-ch1_>`_ & `The "
 "Interactive 40-Checkpoint Atlas <read-atlas_>`_"
@@ -242,7 +241,7 @@ msgstr ""
 " **第 01 与 02 章：**  `第48号公告的两套时钟 <read-ch1_>`_ 与 `交互式 40 项技术管制图谱 <read-"
 "atlas_>`_"
 
-#: ../../site/index.rst:88
+#: ../../site/index.rst:85
 msgid ""
 "**Chapters 03 & 04:** `Mind & Silicon Hardware Stack <read-ai_>`_ & `Open-"
 "Source AI Before and After the Gates <read-open_>`_"
@@ -250,7 +249,7 @@ msgstr ""
 " **第 03 与 04 章：**  `心智与硅基硬件全栈解析 <read-ai_>`_ 与 `设闸前后的开源 AI 发布之路 <read-"
 "open_>`_"
 
-#: ../../site/index.rst:89
+#: ../../site/index.rst:86
 msgid ""
 "**Chapters 08 & 10:** `Official Government Approval & Contact Directory "
 "<read-contacts_>`_ & `All 26 Verified Primary Sources <read-sources_>`_"

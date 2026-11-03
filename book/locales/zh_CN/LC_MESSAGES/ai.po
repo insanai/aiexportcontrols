@@ -315,5 +315,6 @@ msgid ""
 msgstr ""
 "A的内存改进与B的测试是可以交换的知识，计算机则是另一项依赖。开放模型许可无法补上缺失芯片，硬件限制也不能独自说明所有模型文件的法律状态。我们同时追踪工作台的这两个部分。"
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

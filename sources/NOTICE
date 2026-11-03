@@ -11,6 +11,6 @@ GuideDog and adapted GuideDog components, including supplied templates, retain t
 
 CeTZ and Fletcher retain their package licenses. MathJax retains the Apache License 2.0 notices distributed in the static data directory. Lato, Libertinus and Noto fonts retain their font licenses and notices. Consult the license and provenance files distributed alongside these components.
 
-Current book illustrations are stored in book/assets/illustrations and mirrored where needed in site/images/illustrations. Original contributions use the license stated above. Earlier raster illustrations and retired abstract drawings remain in source history or unused asset folders. They are not the active illustration set.
+Current graphite and colored-pencil-style book illustrations are stored in book/assets/illustrations; the dedicated website hero and selected supporting artwork are in site/images/illustrations. These are generated illustrations. Original contributions use the license stated above. User-supplied visual references are third-party materials and are not included in the license grant or distributed as book artwork. Earlier illustrations remain in source history or unused asset folders.
 
 The source manifest records the origin and retrieval limitations of research materials. No claim is made that every official document is in the public domain in every jurisdiction.

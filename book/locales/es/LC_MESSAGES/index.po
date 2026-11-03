@@ -44,11 +44,11 @@ msgstr ""
 
 #: ../../book/index.rst:10 ../../book/index.rst:15
 msgid ""
-"A border barrier holds up computer parts and technical plans while two "
-"research teams try to work together."
+"A shared workbench brings a computer, a notebook and different contributions"
+" together before any barrier is introduced."
 msgstr ""
-"Una barrera fronteriza retiene piezas y planos mientras dos equipos de "
-"investigación intentan colaborar."
+"Una mesa compartida reúne un ordenador, un cuaderno y aportaciones distintas"
+" antes de que aparezca una barrera."
 
 #: ../../book/index.rst:17
 msgid ""
@@ -108,15 +108,7 @@ msgstr ""
 " No todos necesitan la última fabricación ni diez mil tarjetas. La escasez "
 "puede afectar quién entrena, examina y utiliza."
 
-#: ../../book/index.rst:28 ../../book/index.rst:33
-msgid ""
-"Open models depend on chips, memory and computing infrastructure. A "
-"restriction on one part can affect access to the whole system."
-msgstr ""
-"Los modelos abiertos dependen de chips, memoria e infraestructura. Una "
-"restricción de una parte puede afectar al conjunto."
-
-#: ../../book/index.rst:35
+#: ../../book/index.rst:30
 msgid ""
 "**Hardware and design knowledge:** US controls cover specified chips, "
 "manufacturing items and some foreign-made items under defined conditions. "
@@ -138,7 +130,7 @@ msgstr ""
 "<https://www.bis.gov/regulations/ear/742>`_ `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:36
+#: ../../book/index.rst:31
 msgid ""
 "**Models and data:** Announcement 48 began temporary registration for "
 "covered transfers on **16 October 2026**. Its proposed catalogue includes "
@@ -164,7 +156,7 @@ msgstr ""
 "<https://www.govinfo.gov/content/pkg/FR-2025-01-15/html/2025-00636.htm>`_ "
 "`GAO26 <https://www.gao.gov/products/b-337935>`_"
 
-#: ../../book/index.rst:40
+#: ../../book/index.rst:35
 msgid ""
 "A team may have permission to use an open model yet struggle to obtain "
 "suitable computers. Our story therefore follows both the knowledge being "
@@ -174,11 +166,11 @@ msgstr ""
 "de ordenadores adecuados. Por eso seguimos tanto el conocimiento compartido "
 "como el hardware necesario para utilizarlo."
 
-#: ../../book/index.rst:42
+#: ../../book/index.rst:39
 msgid "The Fortress Trap: How Both Sides Can Lose"
 msgstr "La trampa de la fortaleza: cómo pueden perder ambos"
 
-#: ../../book/index.rst:45
+#: ../../book/index.rst:42
 msgid ""
 "The hardware problem leads to a political problem. A useful open model "
 "depends on contributions from many teams, yet each government also wants to "
@@ -192,11 +184,11 @@ msgstr ""
 "obtener una ventaja nacional acabar frenando a ambos? Lo seguimos mediante "
 "un taller compartido ficticio."
 
-#: ../../book/index.rst:47
+#: ../../book/index.rst:44
 msgid "Two Teams, One Shared Starting Point"
 msgstr "Dos equipos y un mismo punto de partida"
 
-#: ../../book/index.rst:50
+#: ../../book/index.rst:47
 msgid ""
 "Imagine a research team in Country A and another in Country B. Both start "
 "from the same publicly available AI model. They want to adapt it for "
@@ -211,7 +203,7 @@ msgstr ""
 " que descubren errores y ayuda a corregirlos. Los equipos y las aportaciones"
 " son imaginarios; no describen despliegues reales."
 
-#: ../../book/index.rst:52
+#: ../../book/index.rst:49
 msgid ""
 "If the teams exchange their next improvements, each can build on the other's"
 " work. A receives better testing; B receives a model that needs fewer "
@@ -223,21 +215,20 @@ msgstr ""
 "Ambos aún requieren ordenadores, personal y tiempo. Compartir conocimiento "
 "ayuda a usar esos recursos, sin convertir el hardware en gratuito."
 
-#: ../../book/index.rst:54 ../../book/index.rst:59
+#: ../../book/index.rst:51 ../../book/index.rst:56
 msgid ""
-"Two teams finish a computer by sharing parts and knowledge, then struggle "
-"when a wall separates them. This illustrates the assumed game, not a "
-"measured outcome."
+"A shared workbench combines hardware and knowledge. A partition separates "
+"those contributions in the lower study. This is an analogy for the teaching "
+"game."
 msgstr ""
-"Dos equipos completan un ordenador compartiendo piezas y conocimientos, pero"
-" tropiezan cuando los separa un muro. Ilustra el juego supuesto, no un "
-"resultado medido."
+"La mesa compartida reúne hardware y conocimiento. En el estudio inferior, "
+"una partición separa esas aportaciones. Es una analogía del juego didáctico."
 
-#: ../../book/index.rst:61
+#: ../../book/index.rst:58
 msgid "Two Choices for Each Government"
 msgstr "Dos opciones para cada gobierno"
 
-#: ../../book/index.rst:64
+#: ../../book/index.rst:61
 msgid ""
 "Now the governments make policy for the next round of work. Each wants "
 "useful progress at home. Each also worries about giving the other country an"
@@ -248,14 +239,14 @@ msgstr ""
 "progreso útil en su país y teme dar una ventaja al otro sin recibir nada. "
 "Simplificamos sus opciones a dos:"
 
-#: ../../book/index.rst:66
+#: ../../book/index.rst:63
 msgid ""
 "**Share:** Allow the teams' ordinary research improvements to be exchanged."
 msgstr ""
 "**Compartir:**  Permitir el intercambio de mejoras de investigación "
 "ordinaria de los equipos."
 
-#: ../../book/index.rst:67
+#: ../../book/index.rst:64
 msgid ""
 "**Wall:** Broadly restrict the country's new contributions from reaching the"
 " other side."
@@ -263,7 +254,7 @@ msgstr ""
 "**Muro:**  Restringir ampliamente que las nuevas aportaciones del país "
 "lleguen al otro."
 
-#: ../../book/index.rst:69
+#: ../../book/index.rst:66
 msgid ""
 "The wall concerns future contributions. It cannot make copies of an already-"
 "public model disappear. The teams can keep their starting files, but their "
@@ -279,11 +270,11 @@ msgstr ""
 "Primero apartamos esas complicaciones para entender un problema de "
 "incentivos."
 
-#: ../../book/index.rst:71
+#: ../../book/index.rst:68
 msgid "Four Possible Endings, Then Four Scores"
 msgstr "Cuatro finales posibles, después cuatro puntuaciones"
 
-#: ../../book/index.rst:74
+#: ../../book/index.rst:71
 msgid ""
 "We now give the outcomes invented preference scores. A higher score means "
 "that a government prefers that outcome in this story. The scores combine its"
@@ -297,7 +288,7 @@ msgstr ""
 "relativa. No son pruebas de IA, porcentajes ni ganancias nacionales medidas."
 " El anuncio no proporciona estas cifras."
 
-#: ../../book/index.rst:76
+#: ../../book/index.rst:73
 msgid ""
 "**Both share: 17 each.** A's memory-saving improvement reaches B, and B's "
 "testing and fixes reach A. Both teams improve their work without "
@@ -309,7 +300,7 @@ msgstr ""
 "descubrimiento. Damos 17 a cada gobierno para representar un buen resultado "
 "de cooperación mutua."
 
-#: ../../book/index.rst:78
+#: ../../book/index.rst:75
 msgid ""
 "**A shares while B builds a wall: A gets 3, B gets 20.** B can use A's newly"
 " shared improvement while withholding its own new contribution. We assume B "
@@ -325,7 +316,7 @@ msgstr ""
 "El equipo A sigue haciendo trabajo útil;3 expresa el resultado que su "
 "gobierno menos prefiere aquí."
 
-#: ../../book/index.rst:80
+#: ../../book/index.rst:77
 msgid ""
 "**A builds a wall while B shares: A gets 20, B gets 3.** The roles reverse. "
 "A takes the one-sided advantage, while B is the only country sharing. We "
@@ -337,7 +328,7 @@ msgstr ""
 "ambos las mismas prioridades supuestas para mostrar el problema estratégico "
 "sin identificar a ninguno con los actuales Estados Unidos o China."
 
-#: ../../book/index.rst:82
+#: ../../book/index.rst:79
 msgid ""
 "**Both build walls: 5 each.** Neither receives the other's next "
 "contribution. They keep working from the public starting point, but must "
@@ -352,7 +343,7 @@ msgstr ""
 "proteger su aportación a compartir solo:5 supera a 3. También suponemos que "
 "ambos prefieren cooperación mutua a aislamiento:17 supera a 5."
 
-#: ../../book/index.rst:84
+#: ../../book/index.rst:81
 msgid ""
 "The hardest assumption is that **20 is better than 17**: each government "
 "values a one-sided advantage more than shared progress in this round. That "
@@ -369,11 +360,11 @@ msgstr ""
 "clasificación supuesta; no demuestra que los gobiernos reales la tengan. "
 "`GAME <https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:86
+#: ../../book/index.rst:83
 msgid "Reading the Game Picture"
 msgstr "Cómo leer el gráfico del juego"
 
-#: ../../book/index.rst:89
+#: ../../book/index.rst:86
 msgid ""
 "Country A's choice selects a row. Country B's choice selects a column. The "
 "box where they meet gives A's score beside the letter A and B's score beside"
@@ -386,7 +377,7 @@ msgstr ""
 "derecha, A comparte y B restringe: A recibe 3 y B 20. La casilla verde "
 "representa compartir mutuamente y la roja restringir mutuamente."
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:90
 msgid ""
 "A chooses a row and B a column. Both sharing gives 17 each. A alone sharing "
 "gives A 3 and B 20. B alone sharing gives A 20 and B 3. Both restricting "
@@ -396,7 +387,7 @@ msgstr ""
 "comparte, A recibe 3 y B 20. Si solo B comparte, A recibe 20 y B 3. "
 "Restringir ambos da 5 a cada uno. Todas las puntuaciones son supuestas."
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:90
 msgid ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"en\")"
@@ -404,7 +395,7 @@ msgstr ""
 "#import \"figures/diagrams.typ\": game-theory-matrix\n"
 "#game-theory-matrix(lang: \"es\")"
 
-#: ../../book/index.rst:93
+#: ../../book/index.rst:90
 msgid ""
 "Four endings for the two teams. The scores are invented preferences; higher "
 "means preferred within this example."
@@ -412,11 +403,11 @@ msgstr ""
 "Cuatro finales para los dos equipos. Los puntos son preferencias inventadas;"
 " más alto significa preferido dentro del ejemplo."
 
-#: ../../book/index.rst:99
+#: ../../book/index.rst:96
 msgid "Why the Wall Starts to Look Like the Safer Choice"
 msgstr "Por qué el muro empieza a parecer la opción más segura"
 
-#: ../../book/index.rst:102
+#: ../../book/index.rst:99
 msgid ""
 "A's government considers what B might do. **If B shares**, A compares "
 "sharing for 17 with withholding its own contribution for 20. Under our "
@@ -428,7 +419,7 @@ msgstr ""
 " muro para obtener la ventaja unilateral. En el gráfico comparamos las dos "
 "casillas de la columna izquierda."
 
-#: ../../book/index.rst:104
+#: ../../book/index.rst:101
 msgid ""
 "**If B builds a wall**, A compares sharing alone for 3 with also restricting"
 " for 5. A again chooses the wall, this time to avoid being the only side "
@@ -439,7 +430,7 @@ msgstr ""
 "también por 5. A vuelve a elegir el muro, esta vez para evitar compartir "
 "solo. Comparamos las dos casillas de la columna derecha."
 
-#: ../../book/index.rst:106
+#: ../../book/index.rst:103
 msgid ""
 "B reasons the same way. Each government can tell itself that its wall is "
 "sensible whatever the other does. Both therefore choose walls and receive 5 "
@@ -452,7 +443,7 @@ msgstr ""
 "prefieran los 17 de cooperar. No necesitan desear un peor resultado conjunto"
 " para producirlo."
 
-#: ../../book/index.rst:108
+#: ../../book/index.rst:105
 msgid ""
 "This is the **Prisoner's Dilemma**. The ending is also a **Nash "
 "equilibrium**: with the other wall still in place, neither government "
@@ -467,11 +458,11 @@ msgstr ""
 "que ambos cambien o que cambien los incentivos para cooperar. `GAME "
 "<https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html>`_"
 
-#: ../../book/index.rst:110
+#: ../../book/index.rst:107
 msgid "What This Explains About Export Controls"
 msgstr "Qué explica esto sobre los controles de exportación"
 
-#: ../../book/index.rst:113
+#: ../../book/index.rst:110
 msgid ""
 "The story puts a policy question behind the technical entries in the next "
 "chapters. A government may see protection or bargaining advantage in a broad"
@@ -487,7 +478,7 @@ msgstr ""
 "el trabajo de equipos pequeños. Son mecanismos que investigar, no costes "
 "medidos por nuestros puntos."
 
-#: ../../book/index.rst:115
+#: ../../book/index.rst:112
 msgid ""
 "Real US and Chinese controls are not this symmetric two-choice game. The "
 "countries have different capabilities and legal tools. A reporting duty, a "
@@ -503,7 +494,7 @@ msgstr ""
 "capítulos las separan. No llamamos muro a todo trámite ni libertad completa "
 "a toda exclusión."
 
-#: ../../book/index.rst:117
+#: ../../book/index.rst:114
 msgid ""
 "A narrow control that prevents serious harm could also change the ranking of"
 " outcomes. Public model access has benefits and misuse risks. The policy "
@@ -520,11 +511,11 @@ msgstr ""
 "<https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-"
 "report.pdf>`_ `OPENRISK <https://arxiv.org/abs/2403.07918>`_"
 
-#: ../../book/index.rst:119
+#: ../../book/index.rst:116
 msgid "Can the Teams Keep Working Together?"
 msgstr "¿Pueden seguir colaborando los equipos?"
 
-#: ../../book/index.rst:122
+#: ../../book/index.rst:119
 msgid ""
 "Return to the workbench. The teams expect to make another improvement next "
 "month, and another after that. A government that takes a short-term "
@@ -539,7 +530,7 @@ msgstr ""
 "elección. Depende de acciones observables, del valor de intercambios futuros"
 " y de errores posibles; una promesa sola no basta."
 
-#: ../../book/index.rst:124
+#: ../../book/index.rst:121
 msgid ""
 "We carry one question into the rest of the book: **which rules address a "
 "specific danger while leaving a workable route for the next useful "
@@ -554,12 +545,12 @@ msgstr ""
 "solares. Permanece la pregunta por la cooperación perdida. El cálculo "
 "opcional está en :ref:`checking-game-example`; el relato se entiende sin él."
 
-#: ../../book/index.rst:126
+#: ../../book/index.rst:123
 msgid "The Central Factual Discovery: An Ajar Doorway, Not a Sealed Wall"
 msgstr ""
 "El hallazgo documental central: una puerta entreabierta, no un muro sellado"
 
-#: ../../book/index.rst:129
+#: ../../book/index.rst:126
 msgid ""
 "The fictional wall hides distinctions that matter in the real rules. Is the "
 "technology already public? Is a new transfer prohibited, restricted or "
@@ -573,67 +564,59 @@ msgstr ""
 "estadounidenses responden preguntas distintas. Pasamos del taller imaginado "
 "a las fuentes:"
 
-#: ../../book/index.rst:131 ../../book/index.rst:136
-msgid ""
-"Computing, biomedicine and solar manufacturing, shown through a processor, a"
-" cell and the layers of a solar panel."
-msgstr ""
-"Un procesador, una célula y las capas de un panel muestran computación, "
-"biomedicina y fabricación solar."
-
-#: ../../book/index.rst:138
+#: ../../book/index.rst:130
 msgid "The 40 proposed technology points"
 msgstr "Los40 puntos tecnológicos propuestos"
 
-#: ../../book/index.rst:142
+#: ../../book/index.rst:134
 msgid "Area"
 msgstr "Área"
 
-#: ../../book/index.rst:143
+#: ../../book/index.rst:135
 msgid "Proposed prohibited"
 msgstr "Prohibición propuesta"
 
-#: ../../book/index.rst:144
+#: ../../book/index.rst:136
 msgid "Proposed restricted"
 msgstr "Restricción propuesta"
 
-#: ../../book/index.rst:145
+#: ../../book/index.rst:137
 msgid "AI and computing hardware"
 msgstr "IA y hardware de cómputo"
 
-#: ../../book/index.rst:146
+#: ../../book/index.rst:138
 msgid "6"
 msgstr "6"
 
-#: ../../book/index.rst:147
+#: ../../book/index.rst:139
 msgid "17"
 msgstr "17"
 
-#: ../../book/index.rst:148
+#: ../../book/index.rst:140
 msgid "Biomedicine"
 msgstr "Biomedicina"
 
-#: ../../book/index.rst:149
+#: ../../book/index.rst:141
 msgid "3"
 msgstr "3"
 
-#: ../../book/index.rst:150
+#: ../../book/index.rst:142
 msgid "2"
 msgstr "2"
 
-#: ../../book/index.rst:151
+#: ../../book/index.rst:143
 msgid "Solar manufacturing"
 msgstr "Fabricación solar"
 
-#: ../../book/index.rst:152
+#: ../../book/index.rst:144
 msgid "5"
 msgstr "5"
 
-#: ../../book/index.rst:153
+#: ../../book/index.rst:145
 msgid "7"
 msgstr "7"
 
-#: ../../book/index.rst:155
+#: ../../book/index.rst:147
 msgid ""
 "**Already public and newly released are different.** The Chinese draft "
 "excludes AI technology already public through open source or papers. US "
@@ -653,7 +636,7 @@ msgstr ""
 " `EAR734 <https://www.bis.gov/regulations/ear/734>`_ `EAR774 "
 "<https://www.bis.gov/regulations/ear/774>`_"
 
-#: ../../book/index.rst:156
+#: ../../book/index.rst:148
 msgid ""
 "**New open-source AI and chip tape-outs get a dedicated fast lane.** Rather "
 "than banning open releases of restricted AI, China's Footnote 2 proposes "
@@ -677,7 +660,7 @@ msgstr ""
 " `CNQA "
 "<https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html>`_."
 
-#: ../../book/index.rst:157
+#: ../../book/index.rst:149
 msgid ""
 "**Registration is current; the new prohibitions remain proposed.** Covered "
 "ownership transfers, overseas licenses and foreign-control changes require "
@@ -695,11 +678,11 @@ msgstr ""
 " `CN-A1 "
 "<https://insanai.github.io/aiexportcontrols/sources/announcement-48-attachment-1.pdf>`_"
 
-#: ../../book/index.rst:159
+#: ../../book/index.rst:151
 msgid "How to Read This Book"
 msgstr "Cómo leer este libro"
 
-#: ../../book/index.rst:162
+#: ../../book/index.rst:154
 msgid ""
 "We wrote this book for normal, curious human beings (builders, researchers, "
 "doctors, founders, students, journalists, and citizens) who want vivid "
@@ -709,7 +692,7 @@ msgstr ""
 " investigadores, médicos, fundadores, estudiantes, periodistas y ciudadanos)"
 " que buscan claridad viva respaldada por pruebas primarias verificadas:"
 
-#: ../../book/index.rst:164
+#: ../../book/index.rst:156
 msgid ""
 ":doc:`announcement` and :doc:`atlas` unpack Beijing's Announcement 48, its "
 "two separate clocks, and all **40 proposed technology points**."
@@ -717,7 +700,7 @@ msgstr ""
 ":doc:`announcement` y :doc:`atlas` desglosan el Anuncio 48 de Pekín, sus dos"
 " relojes paralelos y las  **40 tecnologías custodiadas** ."
 
-#: ../../book/index.rst:165
+#: ../../book/index.rst:157
 msgid ""
 ":doc:`ai` takes you inside both the software recipe and the silicon hardware"
 " stack (``266504X``, ``266506X``, ``266507X``)."
@@ -725,7 +708,7 @@ msgstr ""
 ":doc:`ai` se adentra tanto en la receta del software como en los cimientos "
 "de silicio y hardware (``266504X``, ``266506X``, ``266507X``)."
 
-#: ../../book/index.rst:166
+#: ../../book/index.rst:158
 msgid ""
 ":doc:`open-models` distinguishes public releases from private transfers and "
 "keeps current duties separate from proposed routes."
@@ -733,7 +716,7 @@ msgstr ""
 ":doc:`open-models` distingue publicaciones públicas y transferencias "
 "privadas, y separa las obligaciones actuales de las vías propuestas."
 
-#: ../../book/index.rst:167
+#: ../../book/index.rst:159
 msgid ""
 ":doc:`biomedicine` and :doc:`solar` explore living gene platforms and solar "
 "machines where know-how travels inside physical equipment."
@@ -742,7 +725,7 @@ msgstr ""
 "la maquinaria fotovoltaica en las que el saber hacer viaja encarnado dentro "
 "de equipos físicos."
 
-#: ../../book/index.rst:168
+#: ../../book/index.rst:160
 msgid ""
 ":doc:`united-states` demystifies Washington's chip (``3A090``) and model-"
 "weight (``4E091``) rules, including the May 2026 GAO clash `USNE "
@@ -757,7 +740,7 @@ msgstr ""
 "intelligence-diffusion-rule-strengthens>`_ `GAO26 "
 "<https://www.gao.gov/products/b-337935>`_."
 
-#: ../../book/index.rst:169
+#: ../../book/index.rst:161
 msgid ""
 ":doc:`comparison` sets both countries side by side with a complete directory"
 " of **government departments, portals, exact statutory timelines, and "
@@ -769,7 +752,7 @@ msgstr ""
 "números verificados de teléfono, fax, correo electrónico y direcciones "
 "postales**  para obtener autorización oficial."
 
-#: ../../book/index.rst:170
+#: ../../book/index.rst:162
 msgid ""
 ":doc:`questions` and :doc:`sources` close with six everyday scenarios, a "
 "plain-language glossary, and all **26 primary sources** verified as of **2 "
@@ -779,7 +762,7 @@ msgstr ""
 "cotidianas, un glosario en lenguaje claro y el registro íntegro de las  **26"
 " fuentes primarias**  verificadas a  **2 de noviembre de 2026** ."
 
-#: ../../book/index.rst:174
+#: ../../book/index.rst:166
 msgid ""
 "**Note on official files:** MOFCOM published Attachments 1 and 2 in WPS "
 "format; we preserve the untouched original files in :doc:`sources` alongside"

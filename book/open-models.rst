@@ -10,7 +10,7 @@ An Open License Is One Part of a Release
 
 A team can publish code and weights for others to inspect, adapt and run. A permissive copyright license is one part of that release. Applicable export, data and safety rules still need assessment. DeepSeek-R1 and Qwen3 are documented examples of public releases; their publication does not establish an exemption for every related activity. `R1 <https://github.com/deepseek-ai/DeepSeek-R1>`_ `QWEN <https://github.com/QwenLM/Qwen3>`_
 
-.. figure:: assets/illustrations/release.jpg
+.. figure:: assets/illustrations/release-pencil.jpg
    :name: fig-release-gates
    :alt: Receiving files and knowledge to work independently differs from using a service that keeps its underlying model elsewhere.
    :width: 100%

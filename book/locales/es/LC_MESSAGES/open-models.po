@@ -371,6 +371,7 @@ msgstr ""
 "vías facilitadas propuestas importan porque pueden mantener intercambios "
 "concretos que el muro amplio del relato impediría."
 
+#: ../../book/open-models.rst:82
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "El punto de partida de los equipos está en :ref:`shared-workbench-story`."

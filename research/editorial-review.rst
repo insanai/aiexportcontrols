@@ -1,7 +1,7 @@
 Editorial and visual review
 ===========================
 
-Review date: 2 November 2026.
+Review updated: 3 November 2026. Legal-source verification date: 2 November 2026.
 
 The book's strongest argument is that broad restrictions can damage shared research and leave both countries worse off. We retain that argument and make its conditions explicit. We distinguish official rules, proposed changes, hypothetical examples and policy recommendations.
 
@@ -35,7 +35,9 @@ Each policy chapter returns to the teams and links back to their starting point.
 Visual changes
 --------------
 
-We replace the abstract line drawings with nine original generated illustrations informed by engineering cutaways, hand-colored scientific plates and historical cell-biology drawings. Recognizable people, computers, machinery, cells and laboratory tools explain the subjects. Restrained color and shaded forms support the meaning. Captions remain translated text outside the images.
+The current illustrations use a graphite and colored-pencil style informed by the two visual references supplied for the November 3 revision. Architectural line-weight hierarchy, faint construction guides, solid-form shading and coherent cast shadows carry the subjects. Small areas of colored-pencil work highlight equipment and barriers on white paper. The illustrations are generated; we do not describe them as artwork made by a human illustrator.
+
+The website has a dedicated architectural hero. The PDF cover has a separate book, equipment and barrier composition. The HTML book begins with a shared-workbench study. We remove repeated hardware and sector illustrations from the opening, and the website's repeated cooperation illustration. The relevant chapters retain their subject illustrations, and exact diagrams remain native.
 
 Illustrations tell the story. Precise diagrams explain the scores, dates and filing questions. The game matrix uses large paired scores and clear choices, with explicit assumption labels. Fletcher supports the two-track timeline. Graphviz separates current Chinese registration, the proposed catalogue and the independent US check. We do not encode legal rules or measured outcomes into generated image text.
 
@@ -53,6 +55,6 @@ We build through the native GuideDog 1.0.0-beta.10 pipeline. All seven HTML and 
 
 We check the assembled site's internal links and anchors, archive hashes, PDF text, required control codes and credits. Browser checks exercise all seven editions, the 40-card atlas and its sector, status and code filters. We also check live search, the scenario selector, language links, desktop and mobile layouts, dark mode, and image loading.
 
-The final assembly contains 99 HTML pages and 5,733 checked internal links, with no missing files or anchors. The seven PDF editions contain 46 to 53 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
+The final assembly contains 99 HTML pages and 5,712 checked internal links, with no missing files or anchors. The seven PDF editions contain 46 to 51 pages. Poppler emits a tagging-metadata diagnostic about the Suspects field during text extraction, which completes successfully. A separate MuPDF check verifies author metadata and renders the cover and colophon in every edition.
 
 This review records a local build and source review. It does not establish the outcome of a future regulatory decision or clear an individual transaction. The published date on a source, a contact detail and a current legal rule are separate facts that can change independently.

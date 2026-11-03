@@ -268,5 +268,6 @@ msgid ""
 msgstr ""
 "ゲームのA国とB国は架空です。米中では規則の範囲、機関、計算機供給網での位置が異なります。本章は違いを説明し、実在国に3、5、17、20点を付けません。"
 
+#: ../../book/united-states.rst:51
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"

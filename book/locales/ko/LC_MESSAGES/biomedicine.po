@@ -46,9 +46,9 @@ msgstr ""
 
 #: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"A cell, DNA and laboratory tools make the subject tangible. A reusable "
 "medicine-development platform differs from a particular treatment."
-msgstr "세포, DNA, RNA와 실험 도구로 주제를 구체적으로 보여줍니다. 재사용 가능한 신약 개발 플랫폼은 개별 치료와 다릅니다."
+msgstr "세포, DNA와 실험 도구로 주제를 구체적으로 보여줍니다. 재사용 가능한 신약 개발 플랫폼은 개별 치료와 다릅니다."
 
 #: ../../book/biomedicine.rst:20
 msgid ""
@@ -187,5 +187,6 @@ msgstr ""
 "의료의 공동 작업대는 플랫폼, 연구와 개별 치료를 다룹니다. 위 구분은 규칙이 어떤 협력을 다루고 무엇을 남기는지 묻게 합니다. AI "
 "점수를 의료에 적용하거나 공개만으로 환자 안전을 입증한다고 가정하지 않습니다."
 
+#: ../../book/biomedicine.rst:39
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "두 팀의 출발점은 :ref:`shared-workbench-story` 에 있습니다."

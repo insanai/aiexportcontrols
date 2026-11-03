@@ -273,10 +273,10 @@ msgstr ""
 
 #: ../../book/comparison.rst:45 ../../book/comparison.rst:50
 msgid ""
-"A researcher presents technical documents for review. The illustration "
-"introduces the paperwork, not a complete legal procedure or a promise of "
-"approval."
-msgstr "研究人员提交技术文件供审核。该图介绍文书工作，不是完整法律程序，也不保证获批。"
+"Technical drawings, forms and a waiting equipment box illustrate the "
+"information prepared for review. The image does not promise approval or "
+"replace the legal procedure."
+msgstr "技术图纸、表格和等待的设备箱展示为审核准备的信息。该图不保证获批，也不替代法律程序。"
 
 #: ../../book/comparison.rst:55
 msgid ""
@@ -857,5 +857,6 @@ msgid ""
 msgstr ""
 "工作台故事现在成为实际问题：转移什么、哪个体系管辖、还剩哪条路径？明确排除、可用程序与可信持续合作可能改变激励。效果需要证据，填好表格本身不能证明合作已改善。"
 
+#: ../../book/comparison.rst:148
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "两队的起点见 :ref:`shared-workbench-story`。"

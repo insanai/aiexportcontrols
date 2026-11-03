@@ -119,10 +119,10 @@ msgid "26 Sources"
 msgstr "26の一次資料"
 
 msgid ""
-"Every edition contains all 11 chapters, nine scientific and narrative "
+"Every edition contains all 11 chapters, graphite and colored-pencil "
 "illustrations, precise diagrams, the interactive 40-checkpoint atlas, "
 "verified government contacts, and an A4 PDF book."
-msgstr "各版は11篇、9点の科学・物語イラスト、正確な図表、40項目の対話型索引、行政連絡先、A4版PDFを含みます。"
+msgstr "各版は11篇、鉛筆と色鉛筆の挿絵、正確な図表、40項目の対話型索引、行政連絡先、A4版PDFを含みます。"
 
 msgid "26 Verified Primary Sources"
 msgstr "検証済み一次資料（全26件）"

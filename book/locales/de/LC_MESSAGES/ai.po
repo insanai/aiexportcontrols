@@ -378,6 +378,7 @@ msgstr ""
 " fehlenden Chip, und eine Hardwarebeschränkung bestimmt nicht allein den "
 "Rechtsstatus jeder Modelldatei. Wir verfolgen beide Teile der Werkbank."
 
+#: ../../book/ai.rst:58
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr ""
 "Der Ausgangspunkt der Teams steht unter :ref:`shared-workbench-story`."

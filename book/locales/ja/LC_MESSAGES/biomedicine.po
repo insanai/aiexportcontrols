@@ -44,9 +44,9 @@ msgstr ""
 
 #: ../../book/biomedicine.rst:13 ../../book/biomedicine.rst:18
 msgid ""
-"A cell, DNA, RNA and laboratory tools make the subject tangible. A reusable "
+"A cell, DNA and laboratory tools make the subject tangible. A reusable "
 "medicine-development platform differs from a particular treatment."
-msgstr "細胞、DNA、RNA、実験器具で対象を具体的に示します。再利用できる医薬品開発基盤は個別の治療とは異なります。"
+msgstr "細胞、DNA、実験器具で対象を具体的に示します。再利用できる医薬品開発基盤は個別の治療とは異なります。"
 
 #: ../../book/biomedicine.rst:20
 msgid ""
@@ -186,5 +186,6 @@ msgid ""
 msgstr ""
 "医療の共同作業台には基盤、研究、個別の治療があります。上記の違いから、規則がどの協力を対象とし何を残すかを考えます。AIの点数を医療に移したり、公開だけで患者の安全が示せると考えたりはしません。"
 
+#: ../../book/biomedicine.rst:39
 msgid "The two teams' starting point is in :ref:`shared-workbench-story`."
 msgstr "二つのチームの出発点は :ref:`shared-workbench-story` にあります。"
